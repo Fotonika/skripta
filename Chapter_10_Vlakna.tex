@@ -361,8 +361,7 @@ in za lihe rodove
 \section{Cilindrično vlakno}
 \label{chap:Cilinder}
 \index{Optično vlakno}
-Do zdaj smo obravnavali ravninski valovni vodnik. V praksi svetlobo
-navadno usmerjamo po optičnih vlaknih, ki imajo cilindrično geometrijo.
+V praksi svetlobo navadno usmerjamo po optičnih vlaknih, ki imajo cilindrično geometrijo.
 Najpreprostejši primer je cilindrično vlakno, v katerem je lomni količnik cilindrične
 sredice konstanten in nekoliko večji od lomnega količnika plašča. Navadno je 
 $n_1 - n_2 \sim 0,001$. Pogosto se uporablja
@@ -376,7 +375,8 @@ K. Kao prejel Nobelovo nagrado.}
 Račun za širjenje svetlobe po cilindričnem vlaknu s homogeno sredico
 je podoben kot za planparalelni vodnik, vendar je precej bolj
 zapleten. V cilindrični geometriji namreč ni delitve na čiste električne in 
-magnetne transverzalne valove, saj so robni pogoji sklopljeni. Na splošno se rešitve izražajo 
+magnetne transverzalne valove, saj so robni pogoji sklopljeni: polje, ki na enem delu
+vlakna kaže v radialni smeri, kaže na drugem delu v tangencialni. Na splošno se rešitve izražajo 
 v obliki kombinacij Besslovih funkcij. Izkaže se, da je osnovni rod, ki se  širi po
 cilindričnem vlaknu, po obliki zelo podoben osnovnemu Gaussovemu snopu, zato je sklopitev
 laserskih snopov v optična vlakna zelo učinkovita. Tudi v cilindričnih vlaknih 
@@ -391,7 +391,7 @@ vlakno!večrodovno}.
 Točen izračun za rodove v cilindričnem vlaknu presega okvir te knjige, zato
 si oglejmo le izhodiščne enačbe in rešitve.\footnote{Celoten izračun lahko bralec 
 poišče v npr. C. C. Davis, {\it Lasers and Electro-optics}, Cambridge 
-University Press.} Za jakost električnega in magnetnega polja velja 
+University Press.} Za jakost električnega polja velja 
 Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz})\index{Helmholtzeva enačba}
 \begin{equation}
 \nabla^2 \mathbf{E} + n^2(r)\, k_0^2\, \mathbf{E} = 0,
@@ -399,7 +399,8 @@ Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz})\index{Helmholtzeva enačba}
 pri čemer je $n(r<a)=n_1$ lomni količnik sredice in $n(r>a)=n_2$ 
 lomni količnik plašča, ki je dovolj debel, da njegova debelina ne 
 vpliva na potovanje svetlobe. $\mathbf{E}$ in $\mathbf{H}$ sta vektorja in imata po 
-tri komponente, ki pa so med seboj odvisne. Izračunajmo naprej $E_z$ z nastavkom
+tri komponente, ki pa so med seboj odvisne. Izračunajmo naprej $E_z$, saj so za to
+komponento robni pogoji nesklopljeni. Uporabimo nastavek
 \begin{equation}
 E_z = R(r)e^{i \nu \varphi}e^{i \beta z},
 \end{equation}
@@ -524,7 +525,7 @@ a \geq \frac{2,405}{k_0 NA}.
 \index{Optično vlakno!EH rodovi}
 Poglejmo zdaj rešitve, pri katerih je $\nu \neq 0$. V tem primeru je 
 vseh šest komponent električnega in magnetnega polja valovanja različnih od nič in vsi rodovi
-imajo tudi komponento v smeri $z$. Take rodove imenujemo hibridni rodovi in jih 
+imajo tudi komponento polja v smeri $z$. Take rodove imenujemo hibridni rodovi in jih 
 označimo s HE, če je $E_z$ razmeroma velik ali vsaj primerljiv z $E_r$ in $E_\varphi$, 
 oziroma z EH, če je $H_z$ po velikosti primerljiv s $H_r$ in $H_\varphi$ ali večji od njiju. 
 
@@ -579,7 +580,7 @@ kombinacijo lastnih rodov, ki so zaradi majhne razlike med lomnima količnikoma 
 in plašča degenerirani. Tudi te rodove označimo z dvema indeksoma: prvi določa število azimutalnih
 vozlov, drugi pa število radialnih vrhov. Poglejmo nekaj primerov (slika~\ref{fig:LP}).
 
-Osnovni LP$_{01}$ je kar približno enak osnovnemu HE$_{11}$ rodu. Jakost električnega polja je 
+Osnovni HE$_{11}$ rod je pri majhnih razlikah lomnih količnikov praktično linearno polariziran in ustreza polariziranemu rodu LP$_{01}$. Jakost električnega polja v njem je 
 \begin{equation}
 \mathbf{E}_\mathrm{LP01} \propto 
 \left \{
@@ -588,7 +589,7 @@ Osnovni LP$_{01}$ je kar približno enak osnovnemu HE$_{11}$ rodu. Jakost elektr
   \end{matrix}
 \right \} \, J_0(k_s r),
 \end{equation}
-saj ima dve možni smeri polarizacije. Na splošno so LP$_{0m}$ podobni rodovom HE$_{1m}$. 
+saj ima dve možni smeri polarizacije. Na splošno HE$_{1m}$ rodovi ustrezajo rodovom LP$_{0m}$. 
 
 Višje rodove, na primer LP$_{11}$ sestavimo kot linearno kombinacijo 
 TE$_{01}$ ali TM$_{01}$ in HE$_{21}$.
@@ -1382,7 +1383,7 @@ polja
 \begin{equation}
 \psi(x) = e^{-x/2R} \zeta(x)
 \end{equation}
-in dobimo
+in dobimo enačbo
 \begin{equation}
 \frac{d^{2}\zeta}{dx^{2}}+\left(k_{0}^{2}\, n^{2}\left(r\right)-\beta^{2}-\frac{1}{4R^2}\right)\,\zeta
 + \frac{2\beta^{2}}{R}\,x\,\zeta=0.
@@ -1390,13 +1391,13 @@ in dobimo
 \end{equation}
 Gornja enačba je podobna enačbi za izračun lastnih rodov v planparalelnem
 vodniku (\ref{9.3a}), pri čemer se $\beta^2$ poveča za $1/4R^2$. Poleg tega je prisoten
-dodatni člen, ki je linearen v $x$. Če ponovno naredimo primerjavo
+člen, ki je linearen v $x$. Če ponovno naredimo primerjavo
 med lastnimi načini v valovnem vodniku in stanji delca, ujetega v končno potencialno jamo, 
 ta člen ustreza potencialni energiji delca v konstantnem zunanjem električnem 
-polju (slika~\ref{fig:tunel}). Podobno kot lahko ujeti delci uhajajo iz potencialne jame
+polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne jame
 v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 
-Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza električni poljski jakosti,
+Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza jakosti električnega polja,
 lahko izgube iz vodnika (oziroma delež prepuščene svetlobe) zapišemo kot 
 \begin{equation}
 A \propto e^{-CR},
@@ -1408,7 +1409,7 @@ ter od valovne dolžine potujoče svetlobe.
 \def\svgwidth{120truemm} 
 \input{slike/10_Tunel.pdf_tex} 
 \caption{Lastni načini širjenja svetlobe po ravnem vodniku so analogni stanjem 
-delca v končni potencialni jami (levo). Načini širjenja po ukrivljenem vodniku pa
+delca v končni potencialni jami (levo). Načini širjenja po ukrivljenem vodniku
 so podobni stanjem delca v konstantnem zunanjem električnem polju (desno). Zaradi
 spremenjenega potenciala delci tunelirajo, svetloba pa uhaja iz ukrivljenega vlakna.}
 \label{fig:tunel}
@@ -1440,7 +1441,7 @@ valovnih dolžin, kar je še posebej uporabno pri prenosu več signalov naenkrat
 
 V praksi se uporabljajo vlakna, v katerih je delež erbijevih ionov okoli $\sim 10^{-4}$. 
 Črpalni laser je polprevodniški laser, ki 
-deluje pri valovni dolžini $900~\si{\nano\meter}$ ali $1,48~\si{\nano\meter}$ 
+deluje pri valovni dolžini $900~\si{\nano\meter}$ ali $1480~\si{\nano\meter}$ 
 z močjo okoli $20$--$100~\si{\milli\watt}$. Na ta način lahko v $10$--$30~\si{\meter}$
 dolgih odsekih vlaken dosežemo več 1000-kratno ojačenje ($30$--$40~\si{\decibel}$), kar 
 je dovolj za kompenzacijo izgub.
@@ -1462,7 +1463,7 @@ vlakna $\sin \alpha_{\mathrm{max}}= NA$  (enačba~\ref{10NAa}).
 
 Za bolj natančen izračun izkoristka sklopitve svetlobe v optično vlakno vpeljemo 
 tako imenovani prekrivalni integral, ki pove, kolikšen delež vpadne svetlobe 
-z električno poljsko jakostjo $E(r, \varphi)$ se sklopi z izbranim rodom 
+z jakostjo električnega polja $E(r, \varphi)$ se sklopi z izbranim rodom 
 vlakna.\index{Prekrivalni integral}
 To naredimo tako, da vpadni val razvijemo po lastnih rodovih vlakna, iz ortogonalnosti
 pa sledi prekrivalni integral, ki ga moramo seveda ustrezno normirati. Za sklopitev v rod, 
@@ -1473,7 +1474,7 @@ označen z indeksoma $n$ in $m$, zapišemo prekrivalni integral kot
 dx\, dy \right)}.
 }
 Točen račun gornjega integrala je na splošno precej zapleten, saj vsebuje integrale
-Besslovih funkcij. V primeru osnovnega roda račun poenostavimo, tako da 
+Besslovih funkcij. V primeru osnovnega roda račun močno poenostavimo, tako da 
 prečno odvisnost polja nadomestimo z Gaussovim profilom z ustreznim 
 efektivnim polmerom (po enačbi~\ref{Marcuse}). 
 
@@ -1516,7 +1517,7 @@ spremeni njegovo fazo za večkratnik $2 \pi z/\Lambda$, pri čemer je $\Lambda$ 
 se vpadna svetloba sklopi v vlakno.
 
 \begin{remark}
- Oba opisana načina za sklopitev svetlobe v vlakno lahko uporabimo tudi za sklopitev svetlobe 
+ Oba opisana načina za sklopitev svetlobe v vlakno uporabljamo tudi za sklopitev svetlobe 
  iz vlakna, pri čemer mora biti ravno tako izpolnjen pogoj ujemanja faz. 
  Sklapljanje svetlobe skozi prizmo je uporabno tudi za raziskave tankih plasti snovi. 
  Iz pogoja za ujemanje faz lahko določimo lastnosti tanke plasti, na primer njen lomni količnik. 
@@ -1533,8 +1534,8 @@ v velikosti polmera sredice, razlike v vrednostih lomnih količnikov ali nenatan
 sredice, na spoju pride do izgub. Tipično znašajo izgube na spoju vlaken do okoli 
 $0,2$--$0,5~\si{\decibel}$.
 
-Omejimo se na spoj enorodovnih vlaken, v katerih krajevni del 
-električne poljske jakosti osnovnega roda zapišemo kot
+Omejimo se na spoj enorodovnih vlaken, v katerih krajevni del jakosti 
+električnega polja osnovnega roda zapišemo kot
 \begin{equation}
 E(r, \varphi, z)=\psi(r, \varphi) e^{i\beta z}.
 \end{equation} 
@@ -1547,7 +1548,7 @@ se sklopi v osnovni rod v drugem vlaknu. Sklopitveni faktor je
 {\left(\int |\psi_1|^2 r\, dr\, d\varphi \right) \left(\int |\psi_2|^2 r\, dr\, d\varphi \right)},
 }
 pri čemer z indeksom $1$ označimo osnovni rod v prvem vlaknu, z indeksom $2$ pa 
-v drugem. Tudi tukaj račun poenostavimo in namesto Besslovega profila uporabimo 
+v drugem. Tudi tukaj račun pogosto poenostavimo in namesto Besslovega profila uporabimo 
 Gaussov profil z ustreznim efektivnim polmerom snopa (enačba~\ref{Marcuse}).\index{Gaussov 
 snop!efektivni polmer}
 
@@ -1555,7 +1556,7 @@ Izračunajmo za primer sklopitveni faktor in izgube na spoju dveh vlaken z rahlo
 različnima polmeroma. Po Marcusejevi formuli najprej določimo efektivna polmera Gaussovih snopov
 v obeh vlaknih $w_1$ in $w_2$. Prečni profil v vlaknih je potem\index{Marcusejeva formula}
 \begin{equation}
-\psi_{1,2} = A_{1,2} e^{-r^2/w_{1,2}^2}.
+\psi_{1} = A_{1} e^{-r^2/w_{1}^2} \qquad \mathrm{in} \qquad \psi_{2} = A_{2} e^{-r^2/w_{2}^2}
 \end{equation}
 Vstavimo gornja nastavka v prekrivalni integral~(enačba~\ref{10:overlap}) in dobimo
 \begin{equation}
@@ -1614,21 +1615,21 @@ bo tako postala odvisna od vzdolžne koordinate $z$.
 Imejmo dva enorodovna vodnika z lomnima količnikoma sredice $n_1$ in $n_2$ in enako 
 debelino $a$, med njima in okoli njiju pa naj bo snov z lomnim količnikom $n_0$. Širina 
 reže med vodnikoma naj bo $2d$.
-Potem zapišemo električni poljski jakosti v prvem in drugem vodniku kot
+Potem zapišemo jakosti električnega polja v prvem in drugem vodniku kot
 \begin{eqnarray}
 E_1(x,z) &=& A(z) \psi_1(x) e^{i \beta_1 z} \quad \mathrm{in}\\
 E_2(x,z) &=& B(z) \psi_2(x) e^{i \beta_2 z},
 \label{eq:10_ampl}
 \end{eqnarray}
-pri čemer se $A(z)$ in $B(z)$ le počasi spreminjata s koordinato $z$. Skupna električna poljska
-jakost, ki je v našem približku kar vsota prispevkov $E_1$ in $E_2$, 
+pri čemer se $A(z)$ in $B(z)$ le počasi spreminjata s koordinato $z$. Skupna jakost električnega
+polja, ki je v našem približku kar vsota prispevkov $E_1$ in $E_2$, 
 mora zadoščati Helmholtzevi enačbi
 (enačba~\ref{eq:Helmholtz})
 \begin{equation}
 \nabla^{2}E(x,z)+k_0^{2}n(x)^2 E(x,z) =0.
 \end{equation}
 Pri tem smo z $n(x)$ označili prečno odvisnost lomnega količnika.
-Vstavimo nastavek za električno poljsko jakost v gornjo enačbo in zapišemo
+Vstavimo nastavek za jakost električnega polja v gornjo enačbo in zapišemo
 \begin{multline}
 A e^{i \beta_1 z}\left(\frac{\partial^2}{\partial x^2}\psi_1(x) - \beta_1^2\psi_1 + k_0^2
 n(x)^2 \psi_1 \right)
@@ -1637,8 +1638,7 @@ B e^{i \beta_2 z}\left(\frac{\partial^2}{\partial x^2}\psi_2(x) - \beta_2^2\psi_
 n(x)^2 \psi_2 \right)+ 2 i \beta_1 A' \psi_1 e^{i \beta_1 z}+
 2 i \beta_2 B' \psi_2 e^{i \beta_2 z} = 0.
 \end{multline}
-Pri tem smo člena z drugim odvodom $\partial^2 A/\partial z^2$ in $\partial^2 B/\partial z^2$
-zanemarili. Zapišimo enačbi za nemoteni funkciji $\psi$
+Zaradi počasnega spreminjanja  smo člena z drugim odvodom $\partial^2 A/\partial z^2$ in $\partial^2 B/\partial z^2$ zanemarili. Zapišimo enačbi za nemoteni funkciji $\psi$
 \begin{equation}
 \frac{\partial^2}{\partial x^2}\psi_1(x) + \left(k_0^2n_1(x)^2-\beta_1^2\right) \psi_1 =0
 \end{equation}
@@ -1647,7 +1647,7 @@ in
  \frac{\partial^2}{\partial x^2}\psi_2(x) + \left(k_0^2n_2(x)^2-\beta_2^2\right) \psi_2 =0.
 \end{equation}
 Lomna količnika $n_1(x)$ in $n_2(x)$ sta tukaj tudi funkciji prečne koordinate. Naj bo $n_1(x)$  
-povsod enak $n_0$ razen v sredici prvega vodnika, kjer je $n_1$, in naj bo 
+povsod enak $n_0$, razen v sredici prvega vodnika, kjer je $n_1$, in naj bo 
 $n_2(x)$ povsod enak $n_0$, razen v sredici drugega vlakna, kjer je enak $n_2$. Sledi
 \begin{multline}
 A e^{i \beta_1 z}k_0^2\left(n(x)^2 -n_1(x)^2\right)\psi_1 
@@ -1719,7 +1719,7 @@ in
 P_2 =  P_0\, \frac{K^2}{\gamma^2}\sin^2(\gamma z).
 \end{equation}
 Privzeli smo, da velja $|K_{12}|=|K_{21}|= K$. 
-Obe funkciji sta oscilirajoči in svetloba se periodično pretaka med vlaknoma
+Obe odvisnosti sta oscilirajoči in svetloba se periodično pretaka med vlaknoma
 s periodo $\pi/\gamma$ (slika~\ref{fig:foscil}). Amplituda prenosa je 
 odvisna od sklopitvenega faktorja $K$ in ujemanja valovnih 
 števil v obeh vlaknih. Večji koeficient $K$
@@ -1792,8 +1792,8 @@ enačbe s $\psi_{lm}^{*}$, integriramo po preseku vlakna in dobimo
 \begin{eqnarray}
  &  & \int\psi_{lm}^{*}\nabla_{\bot}^{2}\delta\psi\,
  dS+\int\left(\epsilon(r)k_{0}^{2}-\beta_{lm}^{2}\right)
- \delta\psi\,\psi_{lm}^{*}dS+k_{0}^{2}\int\delta\epsilon\,\left|\psi_{lm}\right|^{2}dS\nonumber\\
- & = & 2\beta_{lm}\,\delta\beta\int\left|\psi_{lm}\right|^{2}dS.
+ \delta\psi\,\psi_{lm}^{*}dS+k_{0}^{2}\int\delta\epsilon\,\left|\psi_{lm}\right|^{2}dS = \nonumber\\
+ & & 2\beta_{lm}\,\delta\beta\int\left|\psi_{lm}\right|^{2}dS.
  \label{9.24}
 \end{eqnarray}
 Prvi člen na levi preoblikujmo z uporabo zvez 
@@ -1843,8 +1843,8 @@ količnik sredice vlakna.
 Mislimo si, da je sprememba $\beta$ na delu vlakna sestavljena iz
 majhnih stopničastih sprememb $\Delta\beta_{i}$ na intervalih $\Delta z$.
 Za ravno valovanje je sprememba fazne hitrosti sorazmerna s spremembo
-lomnega količnika, zato iz enačbe~(\ref{9.26}) sledi, da je prispevek k odbitem
-valovanju na stopničasti spremembi $\Delta\beta_{i}$ enak
+lomnega količnika, zato iz enačbe~(\ref{9.26}) sledi, da je odbito valovanje
+na stopničasti spremembi $\Delta\beta_{i}$ enako
 \begin{equation}
 \Delta E_{i}=\frac{\Delta\beta_{i}}{2\,\beta}\, E_{0}.
 \label{9.27}
