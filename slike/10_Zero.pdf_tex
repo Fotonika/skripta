@@ -54,12 +54,12 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{10_Zero.pdf}}%
-    \put(0.02096018,-0.00811069){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,1$\end{tabular}}}}%
-    \put(0.17127495,-0.00811069){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,2$\end{tabular}}}}%
-    \put(0.32323886,-0.00811069){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,3$\end{tabular}}}}%
-    \put(0.47410335,-0.00811069){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,4$\end{tabular}}}}%
-    \put(0.62606728,-0.00847715){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,5$\end{tabular}}}}%
-    \put(0.77711493,-0.00811069){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,6$\end{tabular}}}}%
+    \put(0.00141491,-0.01299701){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1100$\end{tabular}}}}%
+    \put(0.15172963,-0.01299701){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1200$\end{tabular}}}}%
+    \put(0.30369359,-0.01299701){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1300$\end{tabular}}}}%
+    \put(0.45455808,-0.01299701){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1400$\end{tabular}}}}%
+    \put(0.60652201,-0.01336347){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1500$\end{tabular}}}}%
+    \put(0.75756966,-0.01299701){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1600$\end{tabular}}}}%
     \put(-0.04608855,0.02198533){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-30$\end{tabular}}}}%
     \put(-0.04608855,0.12797525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-20$\end{tabular}}}}%
     \put(-0.04608855,0.23396521){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-10$\end{tabular}}}}%
@@ -67,11 +67,11 @@
     \put(-0.0181144,0.44594509){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$10$\end{tabular}}}}%
     \put(-0.0181144,0.55193502){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$20$\end{tabular}}}}%
     \put(-0.0181144,0.65792495){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$30$\end{tabular}}}}%
-    \put(0.92410105,-0.00811086){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,7$\end{tabular}}}}%
+    \put(0.90455576,-0.01299715){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1700$\end{tabular}}}}%
     \put(0.81774251,0.26523861){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$D_v$\end{tabular}}}}%
     \put(0.81774251,0.53064068){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$D_m$\end{tabular}}}}%
     \put(0.81774251,0.42768983){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$D$\end{tabular}}}}%
-    \put(1.0127999,-0.00889843){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda \mathrm{[nm]}$\end{tabular}}}}%
+    \put(1.0127999,-0.01378473){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda \mathrm{[nm]}$\end{tabular}}}}%
     \put(-0.14727609,0.61590216){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}ps /nm km\end{tabular}}}}%
   \end{picture}%
 \endgroup%

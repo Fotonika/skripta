@@ -361,8 +361,7 @@ in za lihe rodove
 \section{Cilindrično vlakno}
 \label{chap:Cilinder}
 \index{Optično vlakno}
-Do zdaj smo obravnavali ravninski valovni vodnik. V praksi svetlobo
-navadno usmerjamo po optičnih vlaknih, ki imajo cilindrično geometrijo.
+V praksi svetlobo navadno usmerjamo po optičnih vlaknih, ki imajo cilindrično geometrijo.
 Najpreprostejši primer je cilindrično vlakno, v katerem je lomni količnik cilindrične
 sredice konstanten in nekoliko večji od lomnega količnika plašča. Navadno je 
 $n_1 - n_2 \sim 0,001$. Pogosto se uporablja
@@ -376,7 +375,8 @@ K. Kao prejel Nobelovo nagrado.}
 Račun za širjenje svetlobe po cilindričnem vlaknu s homogeno sredico
 je podoben kot za planparalelni vodnik, vendar je precej bolj
 zapleten. V cilindrični geometriji namreč ni delitve na čiste električne in 
-magnetne transverzalne valove, saj so robni pogoji sklopljeni. Na splošno se rešitve izražajo 
+magnetne transverzalne valove, saj so robni pogoji sklopljeni: polje, ki na enem delu
+vlakna kaže v radialni smeri, kaže na drugem delu v tangencialni. Na splošno se rešitve izražajo 
 v obliki kombinacij Besslovih funkcij. Izkaže se, da je osnovni rod, ki se  širi po
 cilindričnem vlaknu, po obliki zelo podoben osnovnemu Gaussovemu snopu, zato je sklopitev
 laserskih snopov v optična vlakna zelo učinkovita. Tudi v cilindričnih vlaknih 
@@ -391,7 +391,7 @@ vlakno!večrodovno}.
 Točen izračun za rodove v cilindričnem vlaknu presega okvir te knjige, zato
 si oglejmo le izhodiščne enačbe in rešitve.\footnote{Celoten izračun lahko bralec 
 poišče v npr. C. C. Davis, {\it Lasers and Electro-optics}, Cambridge 
-University Press.} Za jakost električnega in magnetnega polja velja 
+University Press.} Za jakost električnega polja velja 
 Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz})\index{Helmholtzeva enačba}
 \begin{equation}
 \nabla^2 \mathbf{E} + n^2(r)\, k_0^2\, \mathbf{E} = 0,
@@ -399,7 +399,8 @@ Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz})\index{Helmholtzeva enačba}
 pri čemer je $n(r<a)=n_1$ lomni količnik sredice in $n(r>a)=n_2$ 
 lomni količnik plašča, ki je dovolj debel, da njegova debelina ne 
 vpliva na potovanje svetlobe. $\mathbf{E}$ in $\mathbf{H}$ sta vektorja in imata po 
-tri komponente, ki pa so med seboj odvisne. Izračunajmo naprej $E_z$ z nastavkom
+tri komponente, ki pa so med seboj odvisne. Izračunajmo naprej $E_z$, saj so za to
+komponento robni pogoji nesklopljeni. Uporabimo nastavek
 \begin{equation}
 E_z = R(r)e^{i \nu \varphi}e^{i \beta z},
 \end{equation}
@@ -524,7 +525,7 @@ a \geq \frac{2,405}{k_0 NA}.
 \index{Optično vlakno!EH rodovi}
 Poglejmo zdaj rešitve, pri katerih je $\nu \neq 0$. V tem primeru je 
 vseh šest komponent električnega in magnetnega polja valovanja različnih od nič in vsi rodovi
-imajo tudi komponento v smeri $z$. Take rodove imenujemo hibridni rodovi in jih 
+imajo tudi komponento polja v smeri $z$. Take rodove imenujemo hibridni rodovi in jih 
 označimo s HE, če je $E_z$ razmeroma velik ali vsaj primerljiv z $E_r$ in $E_\varphi$, 
 oziroma z EH, če je $H_z$ po velikosti primerljiv s $H_r$ in $H_\varphi$ ali večji od njiju. 
 
@@ -565,9 +566,10 @@ Na sliki~(\ref{fig:HE11}) je poleg osnovnega HE$_{11}$ roda še nekaj primerov v
 da imajo vsi rodovi, razen osnovnega, v osi vlakna minimum. Poleg tega opazimo tudi podobnost med 
 oblikami posameznih rodov, do katere pride zaradi majhne razlike med lomnima količnikoma sredice in plašča
 ($n_1 \approx n_2$). V takem primeru se sekularne enačbe poenostavijo, nekateri rodovi so 
-med seboj degenerirani in dajo enako rešitev. Poleg rodov z enako obliko in različno polarizacijo so tako 
+med seboj degenerirani in dajo približno enako rešitev. 
+Poleg rodov z enako obliko in različno polarizacijo so tako 
 med seboj degenerirani še HE$_{\nu+1,m}$ in EH$_{\nu-1,m}$ rodovi. Degenerirane 
-rodove lahko združimo v linearne kombinacije teh valov in nastanejo pretežno 
+rodove lahko združimo v linearne kombinacije in nastanejo pretežno 
 linearno polarizirani LP rodovi. 
 
 \subsection*{LP rodovi}
@@ -578,26 +580,26 @@ kombinacijo lastnih rodov, ki so zaradi majhne razlike med lomnima količnikoma 
 in plašča degenerirani. Tudi te rodove označimo z dvema indeksoma: prvi določa število azimutalnih
 vozlov, drugi pa število radialnih vrhov. Poglejmo nekaj primerov (slika~\ref{fig:LP}).
 
-Osnovni LP$_{01}$ je kar približno enak osnovnemu HE$_{11}$ rodu. Električna poljska jakost je 
+Osnovni HE$_{11}$ rod je pri majhnih razlikah lomnih količnikov praktično linearno polariziran in ustreza polariziranemu rodu LP$_{01}$. Jakost električnega polja v njem je 
 \begin{equation}
 \mathbf{E}_\mathrm{LP01} \propto 
 \left \{
   \begin{matrix}
   \mathbf{e}_x \\ \mathbf{e}_y 
   \end{matrix}
-\right \} \, J_0(k_s a),
+\right \} \, J_0(k_s r),
 \end{equation}
-saj ima dve možni smeri polarizacije. Na splošno so LP$_{0m}$ zelo podobni rodovom HE$_{1m}$. 
+saj ima dve možni smeri polarizacije. Na splošno HE$_{1m}$ rodovi ustrezajo rodovom LP$_{0m}$. 
 
 Višje rodove, na primer LP$_{11}$ sestavimo kot linearno kombinacijo 
 TE$_{01}$ ali TM$_{01}$ in HE$_{21}$.
-Električna poljska jakost v LP$_{11}$ je tako 
+Jakost električnega polja v LP$_{11}$ je tako 
 \begin{equation}
 \mathbf{E}_\mathrm{LP11} \propto \left \{
   \begin{matrix}
   \mathbf{e}_x \\ \mathbf{e}_y 
   \end{matrix}
-\right \} \, J_1(k_s a)
+\right \} \, J_1(k_s r)
 \left \{
   \begin{matrix}
   \cos\varphi  \\ \sin\varphi 
@@ -607,13 +609,13 @@ Električna poljska jakost v LP$_{11}$ je tako
 kar opisuje štiri različne oblike rodov LP$_{11}$.
 
 Tudi LP$_{21}$ rodovi, ki nastanejo kot kombinacija HE$_{31}$
-in EH$_{11}$ rodov, imajo štiri oblike
+in EH$_{11}$ rodov, imajo več oblik
 \begin{equation}
 \mathbf{E}_\mathrm{LP21} \propto \left \{
   \begin{matrix}
   \mathbf{e}_x \\ \mathbf{e}_y 
   \end{matrix}
-\right \} \, J_2(k_s a)
+\right \} \, J_2(k_s r)
 \left \{
   \begin{matrix}
   \cos 2 \varphi  \\ \sin 2 \varphi 
@@ -657,20 +659,17 @@ LP$_{01}$, LP$_{02}$, LP$_{11}$ in LP$_{21}$.}
 \end{figure}
 
 \subsection*{Cilindrično vlakno s paraboličnim profilom lomnega količnika}
-Čeprav je račun lastnih načinov v cilindričnem vlaknu zapleten, lahko 
+Čeprav je izračun lastnih načinov v cilindričnem vlaknu zapleten, lahko 
 razmeroma enostavno poiščemo rešitve za vlakno, v katerem je dielektrična 
 konstanta kvadratna funkcija radialne koordinate $r$\index{Optično vlakno!parabolični profil}. 
-\begin{equation}
-\varepsilon (r) = \varepsilon_1 - C r^2,
-\end{equation}
-pri čemer je sprememba navadno majhna. Zapišemo še enačbo z lomnimi količniki
+Zapišemo enačbo z lomnimi količniki
 in vpeljemo brezdimenzijski parameter $\Delta$
 \begin{equation}
 n^2\left(r<a\right)=n_{1}^{2}- \Delta^2 \frac{r^2}{a^2},
 \label{9.15}
 \end{equation}
-pri čemer $a$ označuje polmer sredice vlakna.
-Enačbo lahko tudi razvijemo za majhno razliko $\Delta$ in za vse smiselne vrednosti $r$
+pri čemer $a$ označuje polmer sredice.
+Enačbo lahko razvijemo za majhno razliko $\Delta$ in za vse smiselne vrednosti $r$
 ima tudi lomni količnik parabolični profil. Parabolična
 sredica je seveda omejena, okoli nje pa je plašč s konstantnim
 lomnim količnikom $n_2 \approx n_1-\Delta^2/2n_1$ (slika~\ref{fig:GRIN}). 
@@ -684,7 +683,7 @@ Tipičen polmer sredice $a$ je nekaj deset mikrometrov, plašča pa približno p
 \label{fig:GRIN}
 \end{figure}
 
-Električno poljsko jakost za izbrano polarizacijo zapišemo v obliki 
+Jakost električnega polja za izbrano polarizacijo zapišemo v obliki 
 \begin{equation}
 E=E_{0}\psi(x,y)\, e^{i\beta z-i\omega t}.
 \label{9.16}
@@ -695,8 +694,8 @@ vektorsko polje. Vstavimo približni
 nastavek~(enačba~\ref{9.16}) in krajevno odvisnost lomnega količnika~(enačba~\ref{9.15})
 v valovno enačbo (enačba~\ref{eq:valovna-skalarna}) 
 \begin{equation}
-\nabla_{\perp}^{2}\psi+\left[k_{0}^{2}\left(n_{1}^{2}-\Delta^{2}\frac{r^{2}}{a^2}\right)-
-\beta^{2}\right]\,\psi=0.
+\nabla_{\perp}^{2}\psi+\left(k_{0}^{2}\left(n_{1}^{2}-\Delta^{2}\frac{r^{2}}{a^2}\right)-
+\beta^{2}\right)\,\psi=0.
 \label{9.17}
 \end{equation}
 Rešitve lahko zapišemo v obliki
@@ -750,7 +749,7 @@ Neodvisnost grupne hitrosti od roda je praktično zelo pomembna.
 Grupna hitrost namreč določa čas potovanja svetlobnega sunka, ki
 lahko predstavlja en bit informacije. Če se po vlaknu širi več
 rodov z različnimi grupnimi hitrostmi, se sunek po prehodu skozi
-vlakno razširi, kar -- kot bomo podrobneje videli v naslednjem razdelku -- omejuje 
+vlakno podaljša, kar -- kot bomo podrobneje videli v naslednjem razdelku -- omejuje 
 uporabno dolžino vlakna. Temu se sicer lahko izognemo z uporabo enorodovnih vlaken,
 ki pa so dražja, poleg tega morata divergenca in polmer svetlobnega snopa 
 natančno ustrezati značilnostim enorodovnega vlakna, da se izognemo izgubam. 
@@ -761,7 +760,7 @@ približno paraboličnim profilom lomnega količnika.
 \label{chap:Disperzija}
 Pri prenosu velike količine podatkov na daljavo je zelo pomembno, da
 se oblika svetlobnih sunkov, ki prenašajo informacijo, čim bolj ohranja.
-Na obliko sunka močno vpliva disperzija, to je odvisnost fazne in grupne (skupinske) hitrosti
+Na obliko sunka močno vpliva disperzija, to je odvisnost fazne in grupne hitrosti
 valovanja od krožne frekvence. Zaradi disperzije se kratki sunki, ki potujejo po vlaknu, podaljšajo in 
 tako omejujejo količino informacije, ki jo lahko prenašamo po vlaknu dane dolžine\index{Disperzija}.
 Največja količina vhodnih podatkov na časovno enoto je kar 
@@ -771,7 +770,7 @@ obratno sorazmerna z dolžino izhodnih sunkov svetlobe.
 \def\svgwidth{120truemm} 
 \input{slike/10_disperzija.pdf_tex} 
 \caption{Zaradi disperzije se sunki svetlobe, ki potujejo skozi vlakno, 
-podaljšajo, zato jih na izhodu iz vlakna ne moremo več ločiti.}
+podaljšajo. Na izhodu iz vlakna jih zato ne zaznamo več ločeno.}
 \label{fig:disp}
 \end{figure}
 
@@ -796,8 +795,8 @@ razdeli na posamezne delne sunke oziroma se efektivno podaljša.
 Izračunajmo razliko med časom, ki ga za širjenje po vlaknu dane dolžine 
 potrebuje osnovni rod, in časom, ki ga za isto razdaljo potrebuje zadnji še dovoljeni rod.
  
-Osnovni rod določa prva rešitev sekularne enačbe in je zato pripadajoča 
-vrednost $k_x$ zelo majhna oziroma v približku $k_s \approx 0$. Ustrezno valovno 
+Osnovnemu rodu ustreza prva rešitev sekularne enačbe in je zato pripadajoča 
+vrednost $k_x$ zelo majhna. V prvem približku je $k_s \approx 0$. Ustrezno valovno 
 število je po enačbi
 \begin{equation}
 \beta = \sqrt{\left( \frac{\omega}{c_0}\right)^2n_1^2 - k_x(\omega)^2}
@@ -849,64 +848,57 @@ in sunek se po prehodu skozi vlakno podaljša. Pri obravnavi
 se omejimo na enorodovna vlakna, v katerih rodovne disperzije ni. 
 
 Ker je sunek svetlobe končno dolg, je končna tudi njegova spektralna širina 
-$\Delta \lambda=\lambda_{\mathrm{max}}-\lambda_{\mathrm{min}}$. 
+$\Delta \omega$. 
 Dolžino sunka $\tau$ po prehodu skozi vlakno dolžine $L$ približno zapišemo kot
 \begin{equation}
-\tau = \frac{dt}{d\lambda}\Delta \lambda = \Delta \lambda \frac{d}{d\lambda}\left(\frac{L}{v_g}\right)
-= \Delta \lambda \frac{d}{d\lambda}\left(L \frac{d\beta}{d\omega}\right).
+\tau = \frac{dt}{d\omega}\Delta \omega = 
+\Delta \omega \frac{d}{d\omega}\left(\frac{L}{v_g}\right)
+= \Delta \omega \frac{d}{d\omega}\left(L \frac{d\beta}{d\omega}\right) =
+\Delta \omega\, L\, \frac{d^2 \beta}{d \omega^2}.
 \label{dispračun}
 \end{equation}
-Za enorodovno vlakno velja $k_x \approx 0$ in $\beta \approx n_1 \omega/c_0$, pri čemer
-valovodne disperzije zaenkrat ne upoštevamo. Velja 
+Za enorodovno vlakno velja $k_x \approx 0$ in $\beta \approx n_1 \omega/c_0$ in zapišemo  
 \begin{equation}
-\frac{d\beta}{d\omega} = \frac{n_1}{c_0} + \frac{\omega}{c_0} \frac{d n_1}{d\omega} = \frac{n_1}{c_0} - 
-\frac{\lambda}{c_0}\frac{dn_1}{d\lambda},
+\tau = \Delta \omega\, \frac{L}{c_0}\,\frac{d^2 (n_1 \omega)}{d \omega^2}.
 \end{equation}
-od koder sledi 
-\begin{equation}
-\tau =\Delta \lambda L \left( - \frac{\lambda}{c_0}\frac{d^2n_1}{d\lambda^2}\right).
-\end{equation}
-Če vpeljemo $D_m$ kot koeficient materialne disperzije
-\boxeq{eq:dmat}{
-D_m = - \frac{\lambda}{c_0}\frac{d^2n_1}{d\lambda^2},
-}
-zapišemo dolžino sunka po prehodu skozi vlakno kot 
+Na področju telekomunikacij se podaljšanje sunka navadno zapiše v obliki
 \boxeq{eq:dmat1}{
 \tau= |D_m| L\, \Delta \lambda.
 }
-Koeficient disperzije navadno izrazimo v enotah $\si{\pico\second/\nano\meter\, \kilo\meter}$, 
-njegova vrednost pa je lahko pozitivna ali negativna, zato smo v končnem izrazu za dolžino 
-sunka dodali absolutno vrednost. 
-V snoveh, ki jih uporabljamo za izdelavo optičnih vlaken, je $D_m \sim  
-10~\si{\pico\second/\nano\meter\, \kilo\meter}$, lahko pa seže
+Pri tem smo vpeljali $D_m$ kot koeficient materialne disperzije
+\begin{equation}
+D_m = - \frac{2\pi}{\lambda^2}\frac{d^2(n_1\omega)}{d\omega^2},
+\end{equation}
+ki ga navadno izrazimo v enotah $\si{\pico\second/\nano\meter\, \kilo\meter}$.
+Njegova vrednost je lahko pozitivna ali negativna, zato smo v končnem izrazu za dolžino 
+sunka dodali absolutno vrednost. V snoveh, ki jih uporabljamo za izdelavo optičnih vlaken, 
+je $D_m \sim 10~\si{\pico\second/\nano\meter\, \kilo\meter}$, lahko pa seže
 tudi do več $100~\si{\pico\second/\nano\meter\, \kilo\meter}$, odvisno seveda od valovne dolžine
-in izbrane snovi. 
+in izbrane snovi.
 
 Materialno disperzijo lahko zmanjšamo na več načinov. Lahko uporabimo čim bolj enobarven
-vir svetlobe, da zmanjšamo $\Delta \lambda$. Za izbrano snov lahko celo izberemo valovno 
-dolžino, pri kateri je koeficient materialne disperzije enak nič. Za SiO$_2$\index{SiO$_2$} je to pri okoli $1300$--$1500~\si{\nano\meter}$, odvisno od dopiranja stekla. 
-Še najbolj uporabna je rešitev, pri kateri 
+vir svetlobe, da zmanjšamo $\Delta \omega$. Za izbrano snov lahko celo izberemo valovno 
+dolžino, pri kateri je materialna disperzija čim manjša in praktično enak nič. Za 
+SiO$_2$\index{SiO$_2$} je to pri okoli $1300$--$1500~\si{\nano\meter}$, odvisno 
+od dopiranja stekla. Še najbolj uporabna je rešitev, pri kateri 
 z materialno disperzijo izničimo vpliv valovodne disperzije in na ta način zmanjšamo skupno 
 disperzijo v vlaknu.
 
 \subsection*{Valovodna disperzija}
 \index{Disperzija!valovodna}
-Spomnimo se, da v optičnem vodniku velja nelinearna zveza med prečno ($k_x$) in vzdolžno ($\beta$) komponento  
-valovnega vektorja (enačba~\ref{nelinfib}). Pri tem $k_x$ izračunamo numerično iz sekularne enačbe,
-rešitev pa je odvisna od valovne dolžine svetlobe. Tudi v cilindričnih vlaknih je valovno število $\beta$
-nelinearna funkcija krožne frekvence, zato pride do disperzije. Izhajamo iz zveze (enačba~\ref{dispračun})
+V optičnem vodniku velja nelinearna zveza med prečno ($k_x$) in vzdolžno ($\beta$)
+komponento valovnega vektorja (enačba~\ref{nelinfib}). Pri tem $k_x$ izračunamo numerično, 
+rešitev pa je odvisna od frekvence svetlobe. Tudi v cilindričnih vlaknih je valovno število 
+$\beta$ nelinearna funkcija $\omega$, zato pride do disperzije. Izhajamo iz zveze 
+(enačba~\ref{dispračun})
 \begin{equation}
-\tau= \frac{dt}{d\lambda}\Delta \lambda = \Delta \lambda \frac{d}{d\lambda}\left(L \frac{d\beta}{d\omega}\right).
+\tau = \Delta \omega\, L\, \frac{d^2 \beta}{d \omega^2}.
 \end{equation}
-Upoštevamo zvezo med valovno dolžino in krožno frekvenco in za podaljšanje začetnega kratkega sunka dobimo
-\begin{equation}
-\tau=-\frac{\lambda^2}{2 \pi c_0}\frac{d^2\beta}{d\lambda^2}L\, \Delta \lambda.
-\end{equation}
-Ko vpeljemo $D_v$ kot koeficient valovodne disperzije
+Pogosto vpeljemo koeficient valovodne disperzije $D_v$
 \boxeq{Dvalkoef}{
-D_v = - \frac{\lambda^2}{2 \pi c_0}\frac{d^2\beta}{d\lambda^2},
+D_v = -\frac{2\pi c_0}{\lambda^2}\frac{d^2 \beta}{d\omega^2}
 }
-se izraz za dolžino sunka poenostavi v
+in lahko zapišemo
 \boxeq{dispVal}{
 \tau = |D_v|\,L\, \Delta \lambda.
 }
@@ -935,15 +927,14 @@ okoli $1450~\si{\nano\meter}$ se materialna in valovodna disperzija odštejeta i
 je praktično enaka nič.}
 \label{fig:MatVal}
 \end{figure}
-
-\begin{remark}
-Na valovodno disperzijo je mogoče vplivati tudi s konstrukcijo vlakna. Pokazali smo že, da
-v idealnem primeru v vlaknu s paraboličnim profilom lomnega količnika disperzije ni. 
-V praksi je sredica sestavljena iz več plasti z različnimi lomnimi količniki in različnimi
-debelinami, s čimer se prispevek valovodne disperzije spremeni. Na ta način lahko 
-položaj ničle celotne disperzije premaknemo k valovni dolžini izvora oziroma k 
-valovni dolžini, pri kateri je v vlaknu najmanj absorpcije in izgub.
-\end{remark}
+% \begin{remark}
+% Na valovodno disperzijo je mogoče vplivati tudi s konstrukcijo vlakna. Pokazali smo že, da
+% v idealnem primeru v vlaknu s paraboličnim profilom lomnega količnika disperzije ni. 
+% V praksi je sredica sestavljena iz več plasti z različnimi lomnimi količniki in različnimi
+% debelinami, s čimer se prispevek valovodne disperzije spremeni. Na ta način lahko 
+% položaj ničle celotne disperzije premaknemo k valovni dolžini izvora oziroma k 
+% valovni dolžini, pri kateri je v vlaknu najmanj absorpcije in izgub.
+% \end{remark}
 
 \section{*Potovanje kratkega sunka po enorodovnem vlaknu}
 \label{chap:sunvl}
@@ -972,7 +963,9 @@ a\left(z,t\right)=\int \tilde{A}(\omega)\, e^{i \beta (\omega) z - i\omega t}d\o
 \label{9.62f}
 \end{equation}
 Osnovni sunek naj bo približno monokromatičen s krožno frekvenco $\omega_{0}$,
-kar pomeni, da je mnogo daljši od optične periode. Potem lahko $\beta(\omega)$
+kar pomeni, da je mnogo daljši od optične periode. 
+
+Potem lahko $\beta(\omega)$
 razvijemo okoli $\omega_{0}$, pri čemer vpeljemo razliko krožnih frekvenc $\Omega = \omega - \omega_0$
 \begin{equation}
 \beta(\omega_0 + \Omega) \approx \beta(\omega_{0})
@@ -1023,12 +1016,11 @@ Primerjamo izračunane odvode in dobimo enačbo
  \label{9.68b}
 \end{equation}
 Enačbo lahko nekoliko poenostavimo z vpeljavo novih neodvisnih spremenljivk
-\begin{eqnarray}
-\tau & = & t-\beta'z\nonumber \quad \mathrm{in}\\
-\zeta & = & z.
+\begin{equation}
+\tau  =  t-\beta'z\nonumber \qquad \mathrm{in} \qquad \zeta = z.
 \label{9.70}
-\end{eqnarray}
-Uporabimo verižno pravilo odvajanja in dobimo
+\end{equation}
+Uporabimo verižno pravilo odvajanja
 \begin{equation}
  \frac{\partial}{\partial z}= \frac{\partial}{\partial\tau}\frac{\partial\tau}{\partial z}+ 
  \frac{\partial}{\partial\zeta}\frac{\partial\zeta}{\partial z} = 
@@ -1057,7 +1049,7 @@ drugem poglavju uporabili za obravnavo koherentnih \index{Obosna valovna enačba
 snopov (enačba~\ref{eq:obosna-valovna-enacba}). 
 Razlika med obosno valovno enačbo in enačbo~(\ref{9.71}) je v tem, da vlogo
 prečne koordinate prevzame čas $\tau$. To, kar je bila prej širina snopa, 
-je zdaj torej dolžina sunka. Spomnimo se, da 
+je zdaj dolžina sunka. Spomnimo se, da 
 obosno valovno enačbo rešijo Gaussovi snopi (enačba~\ref{eq:gaussov-snop}). 
 
 \begin{remark}
@@ -1094,13 +1086,6 @@ kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R})
 ustreza količina $b=\zeta\left(1+\zeta_{0}^{2}/\zeta^{2}\right)$.
 Po analogiji s snopi lahko sklepamo, da se najmanj 
 podaljšuje ravno sunek z Gaussovo časovno odvisnostjo. 
-\begin{figure}[h]
-\centering
-\def\svgwidth{110truemm} 
-\input{slike/10_Gausstau.pdf_tex}
-\caption{Primerjava širitve Gaussovega snopa in podaljšanja Gaussovega sunka}
-\label{fig:Gausstau}
-\end{figure}
 
 Zanimivo je pogledati odvod faze po $\tau$, ki predstavlja spremembo krožne
 frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$
@@ -1110,9 +1095,16 @@ frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$
 \end{equation}
 Za pozitivne vrednosti $\mu$ je krožna frekvenca na začetku sunka,
 to je pri $\tau<0$, manjša od $\omega_0$, z naraščajočim časom pa se 
-linearno povečuje proti koncu sunka. Obnašanje je torej podobno čirikanju, 
-ki ga poznamo iz nelinearne optike (slika~\ref{fig:chirp}\,a). \index{Čirikanje}
+linearno povečuje proti koncu sunka. Obnašanje je zelo podobno čirikanju, 
+ki ga bomo spoznali pri obravnavi nelinearne optike (slika~\ref{fig:chirp}\,a). \index{Čirikanje}
 
+\begin{figure}[h]
+\centering
+\def\svgwidth{120truemm} 
+\input{slike/10_Gausstau.pdf_tex}
+\caption{Primerjava širitve Gaussovega snopa in podaljšanja Gaussovega sunka}
+\label{fig:Gausstau}
+\end{figure}
 \begin{remark}
 Pri $\zeta=0$ je sunek najkrajši možen pri dani spektralni
 širini. Lahko si mislimo, da je sunek najkrajši,
@@ -1124,7 +1116,7 @@ smo spoznali že pri fazno uklenjenih sunkih iz večfrekvenčnih laserjev
 Pri potovanju sunka se zaradi disperzije faze frekvenčnih komponent
 različno spreminjajo in sunek se podaljša. Pri tem je pomemben  
 drugi odvod valovnega števila po krožni frekvenci. Linearno spreminjanje faze 
-namreč ne povzroči razširitve, temveč le spremembo v grupni in fazni hitrosti.
+namreč ne povzroči razširitve, temveč le spremembo v hitrosti.
 \end{remark}
 
 \begin{definition}
@@ -1138,10 +1130,7 @@ $\tilde{A}(\Omega)$ oblike
 Nato vpelji novi spremenljivki $\tau$ in $\zeta$ in z neposredno 
 integracijo (enačba~\ref{eq:ovojnica967}) pokaži, 
 da je podaljšan sunek pri $z\neq 0$ enak ovojnici, 
-zapisani z enačbo~(\ref{9.72}), pri čemer je
-\begin{equation}
-\zeta_0 = \frac{\mu}{2 a}.
-\end{equation}
+zapisani z enačbo~(\ref{9.72}), pri čemer je $\zeta_0 = \mu/2 a$.
 \end{definition}
 
 \begin{definition}
@@ -1195,7 +1184,7 @@ Celotna sprememba faze je tako $\Phi = \omega P/c + \Phi_m$.
 Pokaži, da je drugi odvod faze po krožni frekvenci enak
 \begin{equation}
 \frac{d^2 \Phi}{d \omega^2} = - \frac{L\, c\, q^2}
-{\sqrt{\omega^2 - (\omega\, \sin\alpha - cq)^2}^{3/2}}.
+{\left(\omega^2 - (\omega\, \sin\alpha - cq)^2\right)^{3/2}}.
 \label{eq:10faza}
 \end{equation}
 \end{definition}
@@ -1217,8 +1206,8 @@ s prvotnim kratkim in razmeroma močnim sunkom ne bi mogli narediti. Razširjen
 in ojačen sunek nato s parom uklonskih mrežic skrajšamo za 
 faktor $10$--$100$ glede na prvotno dolžino sunka. Tako nastanejo zelo močni sunki
 svetlobe, dolgi le okoli $10~\si{\femto\second}$, kar je le še nekaj optičnih 
-period\footnote{Za to odkritje sta leta 2018 Donna Strickland in
-G\'erard Mourou prejela Nobelovo nagrado.}.
+period.\footnote{Za to odkritje sta leta 2018 Donna Strickland in
+G\'erard Mourou prejela Nobelovo nagrado.}
 \end{remark}
 
 \section{Izgube in ojačenje v optičnih vlaknih}
@@ -1227,7 +1216,7 @@ Pri prenosu informacij z optičnimi vlakni je poleg disperzije, ki signal popač
 treba upoštevati tudi izgube, ki signal oslabijo. 
 Do izgub pride predvsem zaradi absorpcije svetlobe v vlaknu,\index{Absorpcija}
 Rayleighovega\index{Rayleighovo sipanje} sipanja na fluktuacijah gostote, 
-sipanja na nečistočah in upognjenosti vlakna. Do izgub pa prihaja tudi stikih 
+sipanja na nečistočah in upognjenosti vlakna. Do izgub prihaja tudi stikih 
 med vlakni. Za prenos na dolge
 razdalje je tako potreben razmeroma močen signal, ki pa ne sme biti premočen,
 saj lahko v vlaknu pride do nelinearnih optičnih pojavov. V praksi zato 
@@ -1242,6 +1231,7 @@ A [dB] = -10 \log_{10}\frac{j(z)}{j(0)},
 pri čemer je $j(z)$ gostota svetlobnega toka po prepotovani razdalji $z$, $j(0)$ pa
 vpadna gostota svetlobnega toka. Če se po prepotovanem
 kilometru signal zmanjša na primer na polovico, so izgube $3~\si{\decibel/\kilo\meter}$.
+
 Pri izdelavi optičnih vlaken se najpogosteje uporablja kremenovo steklo, ki 
 ima pri valovni dolžini $1,55~\si{\micro\meter}$ izgube okoli 
 $0,2~\si{\decibel/\kilo\meter}$.  
@@ -1284,7 +1274,7 @@ pa so navadno še precej večje. Med izdelavo steklo namreč močno segrejejo
 fluktuacije gostote pa pri hitrem ohlajanju ostanejo zamrznjene v vlaknu. 
 \end{remark}
 
-S slike je razvidno, da so skupne izgube najmanjše
+S slike je razvidno, da so skupne izgube najmanjše pri 
 okoli $1,55~\si{\micro\meter}$, zato se to območje največ uporablja za prenos signalov
 na velike razdalje. Izgube so tako majhne, da omogočajo prenos signala 
 do nekaj sto kilometrov brez vmesnega ojačevanja. Teh izgub na vlaknih se  
@@ -1293,15 +1283,14 @@ določeni s termičnimi fluktuacijami. Pri dolžini optičnih zvez tako izgube n
 omejitev, ampak je to popačitev signala zaradi disperzije.
 
 \begin{remark}
-Pri prenosu signalov z optičnimi vlakni vpeljemo različne pasove, ki ustrezajo 
-različnim valovnim dolžinam. Pri valovnih dolžinah $1260$--$1360~\si{\nano\meter}$ je tako imenovani
-pas O ({\it original}), ki so ga sprva uporabljali zaradi razpoložljivih virov svetlobe
-in nizke disperzije. Sledita pas E ({\it extended}, $1360$--$1460~\si{\nano\meter}$) in pas S 
-({\it short}, $1460$--$1530~\si{\nano\meter}$). 
-Najširše uporabljan je pas C ({\it conventional}) pri valovnih dolžinah $1530$--$1565~\si{\nano\meter}$,
-sledita mu še pas L ({\it long}, $1565$--$1625~\si{\nano\meter}$) in pas U 
-({\it ultralong}, $1625$--$1675~\si{\nano\meter}$).
-
+% Pri prenosu signalov z optičnimi vlakni vpeljemo različne pasove, ki ustrezajo 
+% različnim valovnim dolžinam. Pri valovnih dolžinah $1260$--$1360~\si{\nano\meter}$ je tako imenovani
+% pas O ({\it original}), ki so ga sprva uporabljali zaradi razpoložljivih virov svetlobe
+% in nizke disperzije. Sledita pas E ({\it extended}, $1360$--$1460~\si{\nano\meter}$) in pas S 
+% ({\it short}, $1460$--$1530~\si{\nano\meter}$). 
+% Najširše uporabljan je pas C ({\it conventional}) pri valovnih dolžinah $1530$--$1565~\si{\nano\meter}$,
+% sledita mu še pas L ({\it long}, $1565$--$1625~\si{\nano\meter}$) in pas U 
+% ({\it ultralong}, $1625$--$1675~\si{\nano\meter}$).
 Po optičnem vlaknu lahko prenašamo več signalov hkrati, če za vsakega posebej uporabimo
 drugo valovno dolžino. Temu procesu pravimo razvrščanje po valovni dolžini
 (WDM -- {\it wavelength-division multiplexing})\index{Multipleksiranje}
@@ -1315,7 +1304,6 @@ nato z demultiplekserjem (DM) signal razstavimo na posamezne kanale, ki jih
 zaznamo z ločenimi detektorji (D). Razlika v valovnih dolžinah med posameznimi signali 
 je tipično $0,8~\si{nm}$. Zanimivo je tudi, da so (de)multiplekserji pasivni in za 
 svoje delovanje ne potrebujejo elektrike.
-
 \begin{figure}[h]
 \centering
 \def\svgwidth{120truemm} 
@@ -1324,7 +1312,6 @@ svoje delovanje ne potrebujejo elektrike.
 \label{WDM}
 \end{figure}
 \end{remark}
-
 \subsection*{*Izgube v ukrivljenem vlaknu}
 \index{Izgube v optičnih vlaknih!ukrivljeno vlakno}
 V vseh primerih do zdaj smo privzeli, da je vlakno povsem ravno 
@@ -1396,7 +1383,7 @@ polja
 \begin{equation}
 \psi(x) = e^{-x/2R} \zeta(x)
 \end{equation}
-in dobimo
+in dobimo enačbo
 \begin{equation}
 \frac{d^{2}\zeta}{dx^{2}}+\left(k_{0}^{2}\, n^{2}\left(r\right)-\beta^{2}-\frac{1}{4R^2}\right)\,\zeta
 + \frac{2\beta^{2}}{R}\,x\,\zeta=0.
@@ -1404,13 +1391,13 @@ in dobimo
 \end{equation}
 Gornja enačba je podobna enačbi za izračun lastnih rodov v planparalelnem
 vodniku (\ref{9.3a}), pri čemer se $\beta^2$ poveča za $1/4R^2$. Poleg tega je prisoten
-dodatni člen, ki je linearen v $x$. Če ponovno naredimo primerjavo
+člen, ki je linearen v $x$. Če ponovno naredimo primerjavo
 med lastnimi načini v valovnem vodniku in stanji delca, ujetega v končno potencialno jamo, 
 ta člen ustreza potencialni energiji delca v konstantnem zunanjem električnem 
-polju (slika~\ref{fig:tunel}). Podobno kot lahko ujeti delci uhajajo iz potencialne jame
+polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne jame
 v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 
-Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza električni poljski jakosti,
+Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza jakosti električnega polja,
 lahko izgube iz vodnika (oziroma delež prepuščene svetlobe) zapišemo kot 
 \begin{equation}
 A \propto e^{-CR},
@@ -1422,7 +1409,7 @@ ter od valovne dolžine potujoče svetlobe.
 \def\svgwidth{120truemm} 
 \input{slike/10_Tunel.pdf_tex} 
 \caption{Lastni načini širjenja svetlobe po ravnem vodniku so analogni stanjem 
-delca v končni potencialni jami (levo). Načini širjenja po ukrivljenem vodniku pa
+delca v končni potencialni jami (levo). Načini širjenja po ukrivljenem vodniku
 so podobni stanjem delca v konstantnem zunanjem električnem polju (desno). Zaradi
 spremenjenega potenciala delci tunelirajo, svetloba pa uhaja iz ukrivljenega vlakna.}
 \label{fig:tunel}
@@ -1454,7 +1441,7 @@ valovnih dolžin, kar je še posebej uporabno pri prenosu več signalov naenkrat
 
 V praksi se uporabljajo vlakna, v katerih je delež erbijevih ionov okoli $\sim 10^{-4}$. 
 Črpalni laser je polprevodniški laser, ki 
-deluje pri valovni dolžini $900~\si{\nano\meter}$ ali $1,48~\si{\nano\meter}$ 
+deluje pri valovni dolžini $900~\si{\nano\meter}$ ali $1480~\si{\nano\meter}$ 
 z močjo okoli $20$--$100~\si{\milli\watt}$. Na ta način lahko v $10$--$30~\si{\meter}$
 dolgih odsekih vlaken dosežemo več 1000-kratno ojačenje ($30$--$40~\si{\decibel}$), kar 
 je dovolj za kompenzacijo izgub.
@@ -1476,25 +1463,18 @@ vlakna $\sin \alpha_{\mathrm{max}}= NA$  (enačba~\ref{10NAa}).
 
 Za bolj natančen izračun izkoristka sklopitve svetlobe v optično vlakno vpeljemo 
 tako imenovani prekrivalni integral, ki pove, kolikšen delež vpadne svetlobe 
-z električno poljsko jakostjo $E(r, \varphi)$ se sklopi z izbranim rodom 
+z jakostjo električnega polja $E(r, \varphi)$ se sklopi z izbranim rodom 
 vlakna.\index{Prekrivalni integral}
 To naredimo tako, da vpadni val razvijemo po lastnih rodovih vlakna, iz ortogonalnosti
 pa sledi prekrivalni integral, ki ga moramo seveda ustrezno normirati. Za sklopitev v rod, 
 označen z indeksoma $n$ in $m$, zapišemo prekrivalni integral kot
-\boxeq{10:prekintxy}{
+\boxeq{10:prekint}{
 \eta = \frac{|\int E(x,y) E^*_{n,m}(x,y) dx\, dy|^2}
 {\left(\int |E(x, y)|^2 dx\,dy \right) \left(\int |E_{n,m}(x, y)|^2 
-dx\, dy \right)},
+dx\, dy \right)}.
 }
-oziroma v cilindričnih koordinatah
-\begin{equation}
-\eta = \frac{|\int E(r, \varphi) E^*_{n,m}(r, \varphi) r\, dr\, d\varphi|^2}
-{\left(\int |E(r, \varphi)|^2 r\, dr\, d\varphi \right) \left(\int |E_{n,m}(r, \varphi)|^2 
-r\, dr\, d\varphi \right)}.
-\label{10:prekint}
-\end{equation}
 Točen račun gornjega integrala je na splošno precej zapleten, saj vsebuje integrale
-Besslovih funkcij. V primeru osnovnega roda račun poenostavimo, tako da 
+Besslovih funkcij. V primeru osnovnega roda račun močno poenostavimo, tako da 
 prečno odvisnost polja nadomestimo z Gaussovim profilom z ustreznim 
 efektivnim polmerom (po enačbi~\ref{Marcuse}). 
 
@@ -1537,7 +1517,7 @@ spremeni njegovo fazo za večkratnik $2 \pi z/\Lambda$, pri čemer je $\Lambda$ 
 se vpadna svetloba sklopi v vlakno.
 
 \begin{remark}
- Oba opisana načina za sklopitev svetlobe v vlakno lahko uporabimo tudi za sklopitev svetlobe 
+ Oba opisana načina za sklopitev svetlobe v vlakno uporabljamo tudi za sklopitev svetlobe 
  iz vlakna, pri čemer mora biti ravno tako izpolnjen pogoj ujemanja faz. 
  Sklapljanje svetlobe skozi prizmo je uporabno tudi za raziskave tankih plasti snovi. 
  Iz pogoja za ujemanje faz lahko določimo lastnosti tanke plasti, na primer njen lomni količnik. 
@@ -1554,8 +1534,8 @@ v velikosti polmera sredice, razlike v vrednostih lomnih količnikov ali nenatan
 sredice, na spoju pride do izgub. Tipično znašajo izgube na spoju vlaken do okoli 
 $0,2$--$0,5~\si{\decibel}$.
 
-Omejimo se na spoj enorodovnih vlaken, v katerih krajevni del 
-električne poljske jakosti osnovnega roda zapišemo kot
+Omejimo se na spoj enorodovnih vlaken, v katerih krajevni del jakosti 
+električnega polja osnovnega roda zapišemo kot
 \begin{equation}
 E(r, \varphi, z)=\psi(r, \varphi) e^{i\beta z}.
 \end{equation} 
@@ -1568,7 +1548,7 @@ se sklopi v osnovni rod v drugem vlaknu. Sklopitveni faktor je
 {\left(\int |\psi_1|^2 r\, dr\, d\varphi \right) \left(\int |\psi_2|^2 r\, dr\, d\varphi \right)},
 }
 pri čemer z indeksom $1$ označimo osnovni rod v prvem vlaknu, z indeksom $2$ pa 
-v drugem. Tudi tukaj račun poenostavimo in namesto Besslovega profila uporabimo 
+v drugem. Tudi tukaj račun pogosto poenostavimo in namesto Besslovega profila uporabimo 
 Gaussov profil z ustreznim efektivnim polmerom snopa (enačba~\ref{Marcuse}).\index{Gaussov 
 snop!efektivni polmer}
 
@@ -1576,7 +1556,7 @@ Izračunajmo za primer sklopitveni faktor in izgube na spoju dveh vlaken z rahlo
 različnima polmeroma. Po Marcusejevi formuli najprej določimo efektivna polmera Gaussovih snopov
 v obeh vlaknih $w_1$ in $w_2$. Prečni profil v vlaknih je potem\index{Marcusejeva formula}
 \begin{equation}
-\psi_{1,2} = A_{1,2} e^{-r^2/w_{1,2}^2}.
+\psi_{1} = A_{1} e^{-r^2/w_{1}^2} \qquad \mathrm{in} \qquad \psi_{2} = A_{2} e^{-r^2/w_{2}^2}
 \end{equation}
 Vstavimo gornja nastavka v prekrivalni integral~(enačba~\ref{10:overlap}) in dobimo
 \begin{equation}
@@ -1635,21 +1615,21 @@ bo tako postala odvisna od vzdolžne koordinate $z$.
 Imejmo dva enorodovna vodnika z lomnima količnikoma sredice $n_1$ in $n_2$ in enako 
 debelino $a$, med njima in okoli njiju pa naj bo snov z lomnim količnikom $n_0$. Širina 
 reže med vodnikoma naj bo $2d$.
-Potem zapišemo električni poljski jakosti v prvem in drugem vodniku kot
+Potem zapišemo jakosti električnega polja v prvem in drugem vodniku kot
 \begin{eqnarray}
 E_1(x,z) &=& A(z) \psi_1(x) e^{i \beta_1 z} \quad \mathrm{in}\\
 E_2(x,z) &=& B(z) \psi_2(x) e^{i \beta_2 z},
 \label{eq:10_ampl}
 \end{eqnarray}
-pri čemer se $A(z)$ in $B(z)$ le počasi spreminjata s koordinato $z$. Skupna električna poljska
-jakost, ki je v našem približku kar vsota prispevkov $E_1$ in $E_2$, 
+pri čemer se $A(z)$ in $B(z)$ le počasi spreminjata s koordinato $z$. Skupna jakost električnega
+polja, ki je v našem približku kar vsota prispevkov $E_1$ in $E_2$, 
 mora zadoščati Helmholtzevi enačbi
 (enačba~\ref{eq:Helmholtz})
 \begin{equation}
 \nabla^{2}E(x,z)+k_0^{2}n(x)^2 E(x,z) =0.
 \end{equation}
 Pri tem smo z $n(x)$ označili prečno odvisnost lomnega količnika.
-Vstavimo nastavek za električno poljsko jakost v gornjo enačbo in zapišemo
+Vstavimo nastavek za jakost električnega polja v gornjo enačbo in zapišemo
 \begin{multline}
 A e^{i \beta_1 z}\left(\frac{\partial^2}{\partial x^2}\psi_1(x) - \beta_1^2\psi_1 + k_0^2
 n(x)^2 \psi_1 \right)
@@ -1658,8 +1638,7 @@ B e^{i \beta_2 z}\left(\frac{\partial^2}{\partial x^2}\psi_2(x) - \beta_2^2\psi_
 n(x)^2 \psi_2 \right)+ 2 i \beta_1 A' \psi_1 e^{i \beta_1 z}+
 2 i \beta_2 B' \psi_2 e^{i \beta_2 z} = 0.
 \end{multline}
-Pri tem smo člena z drugim odvodom $\partial^2 A/\partial z^2$ in $\partial^2 B/\partial z^2$
-zanemarili. Zapišimo enačbi za nemoteni funkciji $\psi$
+Zaradi počasnega spreminjanja  smo člena z drugim odvodom $\partial^2 A/\partial z^2$ in $\partial^2 B/\partial z^2$ zanemarili. Zapišimo enačbi za nemoteni funkciji $\psi$
 \begin{equation}
 \frac{\partial^2}{\partial x^2}\psi_1(x) + \left(k_0^2n_1(x)^2-\beta_1^2\right) \psi_1 =0
 \end{equation}
@@ -1668,7 +1647,7 @@ in
  \frac{\partial^2}{\partial x^2}\psi_2(x) + \left(k_0^2n_2(x)^2-\beta_2^2\right) \psi_2 =0.
 \end{equation}
 Lomna količnika $n_1(x)$ in $n_2(x)$ sta tukaj tudi funkciji prečne koordinate. Naj bo $n_1(x)$  
-povsod enak $n_0$ razen v sredici prvega vodnika, kjer je $n_1$, in naj bo 
+povsod enak $n_0$, razen v sredici prvega vodnika, kjer je $n_1$, in naj bo 
 $n_2(x)$ povsod enak $n_0$, razen v sredici drugega vlakna, kjer je enak $n_2$. Sledi
 \begin{multline}
 A e^{i \beta_1 z}k_0^2\left(n(x)^2 -n_1(x)^2\right)\psi_1 
@@ -1687,14 +1666,11 @@ K_{11}= \frac{k_0^2}{2 \beta_1}\int\psi_1^*\psi_1 (n^2-n_1^2)dx \qquad \mathrm{i
 K_{12}= \frac{k_0^2}{2 \beta_1}\int\psi_1^*\psi_2 (n^2-n_2^2)dx.
 \end{equation}
 Koeficient $K_{11}$ določa spremembo faze v vlaknu zaradi prisotnosti 
-drugega vlakna, kar lahko zanemarimo. Tako ostane samo sklopitveni člen
+drugega vlakna, kar lahko zanemarimo. Tako ostane samo 
 \begin{equation}
-\frac{dA}{dz} = i B e^{i(\beta_2-\beta_1)z} K_{12}
+\frac{dA}{dz} = i B e^{i(\beta_2-\beta_1)z} K_{12} \qquad \mathrm{in}
+\qquad \frac{dB}{dz} = i A e^{i(-\beta_2+\beta_1)z} K_{21}.
 \label{10_B}
-\end{equation}
-in podobno za $B$
-\begin{equation}
-\frac{dB}{dz} = i A e^{i(-\beta_2+\beta_1)z} K_{21}.
 \end{equation}
 Prvo enačbo odvajamo, upoštevamo drugo in zapišemo
 \begin{equation}
@@ -1708,13 +1684,13 @@ A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right)
 \end{equation}
 \begin{definition}
  Pokaži, da  nastavek (enačba~\ref{10_nastavek}) reši enačbo~(\ref{10_part}) in pokaži,
- da med parametri enačb velja sledeča zveza
+ da med parametri enačb velja sledeča zveza, pri čemer je $K = \sqrt{K_{12}K_{21}}$ in 
+ $\Delta \beta = \beta_2 - \beta_1$,
  \begin{equation}
- \gamma^2 = K^2 + \frac{\Delta \beta ^2}{4},
+ \gamma^2 = K^2 + \frac{\Delta \beta ^2}{4}.
  \label{10kgamma}
  \end{equation}
- pri čemer je $K = \sqrt{K_{12}K_{21}}$ in $\Delta \beta = \beta_2 - \beta_1$. 
- Nato uporabi enačbo~(\ref{10_B}) in pokaži, da je rešitev za amplitudo $B$
+ Uporabi enačbo~(\ref{10_B}) in pokaži, da je rešitev za amplitudo $B$
  enaka izrazu v enačbi~(\ref{10_BB}).
 \end{definition}
 Ko poznamo $A$, lahko z uporabo enačbe~(\ref{10_B}) izračunamo še $B$
@@ -1730,7 +1706,7 @@ za $A$ in $B$
 \begin{equation}
  A = A_0 e^{i \Delta \beta z/2} \left( \cos(\gamma z) - 
 \frac{i \Delta \beta}{2 \gamma}\sin(\gamma z) \right)
-\quad \mathrm{in} \quad 
+\qquad \mathrm{in} \qquad 
 B =  A_0 e^{-i \Delta \beta z/2} \frac{i K_{21}}{\gamma}\sin(\gamma z).
 \end{equation}
 Moč, ki se pretaka po posameznem vlaknu, je tako z upoštevanjem zveze~(\ref{10kgamma})
@@ -1743,7 +1719,7 @@ in
 P_2 =  P_0\, \frac{K^2}{\gamma^2}\sin^2(\gamma z).
 \end{equation}
 Privzeli smo, da velja $|K_{12}|=|K_{21}|= K$. 
-Obe funkciji sta oscilirajoči in svetloba se periodično pretaka med vlaknoma
+Obe odvisnosti sta oscilirajoči in svetloba se periodično pretaka med vlaknoma
 s periodo $\pi/\gamma$ (slika~\ref{fig:foscil}). Amplituda prenosa je 
 odvisna od sklopitvenega faktorja $K$ in ujemanja valovnih 
 števil v obeh vlaknih. Večji koeficient $K$
@@ -1816,8 +1792,8 @@ enačbe s $\psi_{lm}^{*}$, integriramo po preseku vlakna in dobimo
 \begin{eqnarray}
  &  & \int\psi_{lm}^{*}\nabla_{\bot}^{2}\delta\psi\,
  dS+\int\left(\epsilon(r)k_{0}^{2}-\beta_{lm}^{2}\right)
- \delta\psi\,\psi_{lm}^{*}dS+k_{0}^{2}\int\delta\epsilon\,\left|\psi_{lm}\right|^{2}dS\nonumber\\
- & = & 2\beta_{lm}\,\delta\beta\int\left|\psi_{lm}\right|^{2}dS.
+ \delta\psi\,\psi_{lm}^{*}dS+k_{0}^{2}\int\delta\epsilon\,\left|\psi_{lm}\right|^{2}dS = \nonumber\\
+ & & 2\beta_{lm}\,\delta\beta\int\left|\psi_{lm}\right|^{2}dS.
  \label{9.24}
 \end{eqnarray}
 Prvi člen na levi preoblikujmo z uporabo zvez 
@@ -1867,8 +1843,8 @@ količnik sredice vlakna.
 Mislimo si, da je sprememba $\beta$ na delu vlakna sestavljena iz
 majhnih stopničastih sprememb $\Delta\beta_{i}$ na intervalih $\Delta z$.
 Za ravno valovanje je sprememba fazne hitrosti sorazmerna s spremembo
-lomnega količnika, zato iz enačbe~(\ref{9.26}) sledi, da je prispevek k odbitem
-valovanju na stopničasti spremembi $\Delta\beta_{i}$ enak
+lomnega količnika, zato iz enačbe~(\ref{9.26}) sledi, da je odbito valovanje
+na stopničasti spremembi $\Delta\beta_{i}$ enako
 \begin{equation}
 \Delta E_{i}=\frac{\Delta\beta_{i}}{2\,\beta}\, E_{0}.
 \label{9.27}
