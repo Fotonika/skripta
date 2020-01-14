@@ -516,7 +516,7 @@ j = e_0 n_v v_v + e_0 n_e v_e,
 \end{equation}
 pri čemer $n_v$ in $n_e$ pomenita gostoto vrzeli in elektronov v snovi, $v_v$ in $v_e$ pa 
 njihove hitrosti. Hitrost premikanja 
-je sorazmerna z jakostjo električnega poljska $E$, ki je priključeno
+je sorazmerna z jakostjo električnega polja $E$, ki je priključeno
  na vzorec, sorazmernostni faktor pa je \index{Gibljivost} gibljivost $\beta$. Ko posvetimo na vzorec, 
  se $n_v$ in $n_e$ povečata za $\Delta n_v$ in $\Delta n_e$,
 gostota električnega toka pa naraste za
@@ -654,8 +654,7 @@ s priključeno pozitivno napetostjo zmanjšamo razliko potencialnih energij
 in elektroni lažje prehajajo iz dela $n$ v del $p$ . 
 Zaradi zmanjšanja potencialne razlike med stranjo $p$ in $n$ za $e_0U$ pride do povečanja toka 
 večinskih elektronov iz $n$ v $p$ za faktor $\exp(e_0 U/kT)$, tok manjšinskih elektronov
-iz $p$ v $n$ pa ostaja enak, saj ni odvisen od globine potencialnega skoka 
-. 
+iz $p$ v $n$ pa ostaja enak, saj ni odvisen od globine potencialnega skoka. 
 \begin{figure}[h]
 \centering
 \def\svgwidth{140truemm} 
@@ -711,7 +710,6 @@ krivuljo premika navzdol. S simboli so označene točke delovanja za različne n
 % nosilcev naboja v ravnovesju. Ugotovi, zakaj je zaporni tok močno odvisen od
 % temperature. 
 % \end{definition}
-
  
 \subsection*{Delovanje fotodiode}
 Ko na polprevodnik vpade foton, ki ima energijo večjo od širine reže, 
@@ -726,8 +724,8 @@ Njegova velikost je odvisna od moči vpadne svetlobe in jo zapišemo kot
 I_f = e_0 \frac{\eta P}{h \nu},
 }
 pri čemer je $\eta$ kvantni izkoristek, $P$ označuje moč vpadne svetlobe, $\nu$ pa njeno
-frekvenco. Celoten tok skozi fotodiodo je vsota diodnega toka
-in toka zaradi vpadne svetlobe, zato karakteristiko fotodiode zapišemo kot 
+frekvenco. Celoten tok skozi fotodiodo je vsota diodnega toka (enačba~\ref{11:dioda}) 
+in toka zaradi vpadne svetlobe (enačba~\ref{11:if}), zato karakteristiko fotodiode zapišemo kot 
 \boxeq{11:fotodioda}{
 I = I_0 (e^{e_0 U/kT}-1) - I_f.
 }
@@ -765,15 +763,15 @@ U_p = \frac{kT}{e_0}\ln \left(1+ \frac{I_f}{I_0}\right).
 \end{equation}
 Pri večji intenziteti vpadne svetlobe, ko se karakteristična krivulja 
 pomika navzdol (slika~\ref{11_IU}), se rešitev gornje enačbe po abscisi premika proti desni.
-Večja intenziteta vpadne svetlobe tako pomeni večjo 
+Večja intenziteta vpadne svetlobe pomeni večjo 
 pozitivno napetost na diodi, zato tudi odzivnost v tem primeru merimo v $\si{\volt}/\si{\watt}$.
 Pri dovolj velikih vpadnih močeh je zveza med vpadno močjo in fotonapetostjo
-logaritemska. Fotovoltaična oziroma odprta vezava fotodiode omogoča 
+logaritemska. Fotovoltaična oziroma odprta vezava fotodiode zato omogoča 
 zaznavanje vpadne moči v zelo širokem intervalu. 
 
 Drugi način delovanja je kratko sklenjena fotodioda (slika~\ref{11_PD}\,c).
 V tem primeru je \index{Fotodioda!kratko sklenjena} napetost na diodi 
-vedno enaka nič, prav tako je enak nič tok skozi diodo v odsotnosti svetlobe. 
+vedno enaka nič, prav tako ni toka skozi diodo v odsotnosti svetlobe. 
 Ko posvetimo na diodo, nastanejo pari elektron--vrzel in steče električni tok.
 Tok skozi tokokrog je v primeru kratko sklenjene diode kar enak toku 
 zaradi vpadne svetlobe $I_f$ (slika~\ref{11_IU}).
@@ -784,15 +782,15 @@ Takrat se tok skozi diodo spreminja linearno z močjo vpadne svetlobe
 (enačba~\ref{11:fotodioda}), odziv pa je hitrejši
 kot pri kratko sklenjeni diodi. Če dodamo v tokokrog zaporedno vezan še nek upornik, se odziv
 spremeni. Zvezo med napetostjo in tokom zapišemo kar z Ohmovim zakonom $U = -|U_0|-RI$. 
-Na sliki to predstavlja premico, ki seka karakteristične krivulje. Ker upornost
-upornika ni enaka nič, se po grafu (slika~\ref{11_IU}) ne premikamo več navpično navzdol, 
+Na sliki to predstavlja premico, ki seka karakteristične krivulje (slika~\ref{11_IU}). Ker upornost
+upornika ni enaka nič, se po grafu ob naraščajoči moči vpadne svetlobe ne premikamo več navpično navzdol, 
 ampak pod kotom proti desni. Način, ko v tokokrog s fotodiodo vežemo še Ohmski upor,
 se uporablja tudi v sončnih celicah. 
 
 \begin{definition}
 \label{naloga:optR}
 V sončnih celicah želimo iz vpadne svetlobne moči pridobiti kar največ električne moči.
-Pokaži, da električna moč na uporniku, preko katerega sklenemo fotodiodo, pri nekem $R$
+Pokaži, da električna moč na uporniku, prek katerega sklenemo fotodiodo, pri nekem $R$
 zavzame največjo vrednost. Poišči $R$ za primer $I_0 = 10^{-9}~\si{A}$, $I_f = 10^{-3}~\si{A}$ 
 in $T=300~\si{K}$.
 \end{definition}
@@ -803,11 +801,11 @@ nosilcev naboja in posledično se zmanjša odzivni čas detektorja.\index{Detekt
 Dodatno se poveča širina izpraznjenega pasu (naloga~\ref{naloga:depl}), kar zmanjša kapaciteto spoja 
 (spoj $p$-$n$ namreč deluje kot  
 kondenzator in časovni odziv je odvisen od njegove kapacitete) in s tem odzivni čas. Povečana
-izpraznjena plast vodi tudi do večjega območja, v katerem lahko pride do absorpcije fotonov. 
+izpraznjena plast vodi tudi do večjega območja, v katerem se fotoni absorbirajo. 
 
 \begin{definition}
 \label{naloga:depl}
-Pokaži, da je debelina izpraznjene plasti je enaka $d = d_p+d_n$, kjer sta 
+Pokaži, da je debelina izpraznjene plasti enaka $d = d_p+d_n$, kjer sta 
 \beq
 d_{p,n}= \sqrt{\frac{2\epsilon \varepsilon_0(\Delta E_0-e_0U)}{e_0}\frac{(N_d/N_a)^{\pm 1}}{N_a+N_d}}.
 \eeq
@@ -877,10 +875,10 @@ nismo narisali popolne slike.\index{Fotodioda!plazovna}
 Pri velikih negativnih napetostih se namreč karakteristika znatno spremeni (slika~\ref{11_plaz}), 
 česar ne moremo popisati s preprosto enačbo. Pri zapornih napetostih, ki za nekajkrat presegajo 
 širino energijske reže (tipično $100$--$500~\si{\volt}$), \index{Karakteristika fotodiode}
-pride do naglega povečanja električnega toka. Ob absorpciji fotona nastanejo mobilni nosilci naboja, ki 
-se v električnem polju tako pospešijo, da s trki ustvarjajo nove pare 
+pride do naglega povečanja električnega toka. Podobno velja ob vpadu in absorpciji fotona. 
+Mobilni nosilci naboja se namreč v električnem polju tako pospešijo, da s trki ustvarjajo nove pare 
 elektron--vrzel. Novonastali pari  ustvarjajo nove pare in pride do ``plazu'', podobno kot v 
-fotopomnoževalki. En foton  sproži cel plaz elektronov, zato pravimo, da je plazovna dioda
+fotopomnoževalki. En vpadni foton sproži cel plaz elektronov, zato pravimo, da je plazovna dioda
 fotodioda z notranjim ojačenjem. \index{Notranje ojačenje}Pri tem je faktor ojačenja tipično $30$--$300$ 
 in plazovne fotodiode lahko 
 uporabimo za detekcijo posameznih fotonov. Slabost je, da je faktor ojačenja odvisen od
@@ -895,7 +893,7 @@ temperature in je zato za natančne meritve potrebna temperaturna stabilizacija.
 
 Napetost, pri kateri deluje plazovna fotodioda, je priključena v zaporni smeri\index{Fotodioda!zaporna smer} 
 in je tik pod prebojno napetostjo. Ker že  majhna odstopanja v napetosti povzročijo veliko
-spremembo v toku, moramo napetost držati kar se da stabilno. Le to omogoča
+spremembo v toku, moramo napetost držati kar se da stabilno. Le tako dosežemo 
 linearen odziv fotodiode od moči vpadne svetlobe. Plazovne fotodiode so praviloma zelo hitre 
 ($\sim 50~\si{\pico\second})$ in zelo občutljive. Z ojačenjem signala se ojači tudi šum, a je 
 povečanje pogosto manjše kot bi bil prispevek k šumu na zunanjih elektronskih ojačevalcih. 
@@ -926,7 +924,7 @@ vpadnih fotonov oziroma številu vzbujenih elektronov.
 \begin{remark}
 Slikovni detektorji so seveda lahko sestavljeni tudi iz drugih vrst svetlobnih detektorjev, 
 ki smo jih obravnavali v prejšnjih razdelkih. Lahko so iz mikrobolometrov\index{Bolometer}
-ali fotoprevodnikov\index{Fotoprevodnik} (za IR svetlobo),\index{Infrardeče valovanje}
+ali fotoprevodnikov\index{Fotoprevodnik} (za IR valovanje),\index{Infrardeče valovanje}
 Schottkyjevih fotodiod\index{Fotodioda!Schottkyjeva} (npr. PtSi, ki seže od UV do
 okoli $6~\si{\micro\meter}$) ali plazovnih fotodiod.\index{Fotodioda!plazovna}
 \end{remark}
@@ -945,31 +943,34 @@ Tipična dolžina stranice posameznega elementa znaša okoli $5$--$40~\si{\micro
 \def\svgwidth{140truemm} 
 \input{slike/11_MOS.pdf_tex}
 \caption{Shema MOS strukture (a), na kateri temeljijo CCD in CMOS slikovni detektorji. Osnova je 
-polprevodnik ($p$), na katerem je plast dielektrika (SiO$_2$), na njej pa elektroda (siva). 
+polprevodnik ($p$), na katerem je plast dielektrika (SiO$_2$), na njej pa je elektroda (siva). 
 Ob absorpciji svetlobe se pojavijo fotoelektroni, te pa pozitivna napetost
 na elektrodi drži ujete v potencialno jamo (vijolična). Prenos elektronov v detektorju CCD (b).}
 \label{11_MOS}
 \end{figure}
 
-Foton skozi tanko prozorno elektrodo vpade na polprevodnik, v katerem ustvari
+Ko foton skozi tanko prozorno elektrodo vpade na polprevodnik, v njem ustvari
 par elektron--vrzel. Pozitivna napetost na elektrodi elektrone privlači, vendar jih 
 vmesna plast izolatorja tik pod površino ustavi in elektroni tako ostanejo ujeti v potencialni jami
-pod elektrodo. Število ujetih elektronov je sorazmerno številu vpadlih fotonov v času zajemanja slike, 
+pod elektrodo. Število ujetih elektronov je sorazmerno številu vpadnih fotonov v času zajemanja slike, 
 pomnoženih s kvantnim izkoristkom pri dani valovni dolžini. 
 
 S spreminjanjem napetosti na posameznih elektrodah lahko naboj, ki se lokalno nabere 
 v plasti pod izolatorjem v danem času, postopoma prenesemo od posameznega 
-piksla do izhodne stopnje. Najprej poteka prenos iz enega elementa na drugega znotraj vrstic, 
-nato pa še po celotnem zadnjem stolpcu (slika~\ref{11_CCD}\,a). Na koncu signal sproti ojačujemo, 
-pretvorimo v napetost, to pa v digitalni zapis. Številu elektronov iz posameznega
-slikovnega elementa določimo digitalno vrednost glede na barvno globino: 8-bitni zapis slike, 
-na primer, vsakemu elementu priredi vrednost od 0 do 255, 16-bitni pa od 0 do 65535.
+piksla do izhodne stopnje. Najprej poteka prenos iz enega elementa na sosednjega znotraj vrstic, 
+nato izpraznimo zadnji stolpec in postopek ponovimo, dokler ne zajamemo celotne slike 
+(slika~\ref{11_CCD}\,a). 
+
+Na izhodu signal sproti ojačujemo, 
+pretvorimo v napetost, to pa v digitalni zapis. Vsakemu slikovnemu elementu priredimo
+digitalno vrednost barvne globine glede na število vpadnih fotonov oziroma elektronov. Pri tem
+8-bitni zapis slike, na primer, vsakemu elementu priredi vrednost od 0 do 255, 16-bitni pa od 0 do 65535.
 
 Delovanje detektorjev CCD temelji na zaporednem odčitavanju števila fotoelektronov v posameznem 
 slikovnem elementu. Ta način je razmeroma počasen in omejuje hitrost zajemanja slike. Med 
 prenašanjem nabojev do izhoda namreč slike ne moremo zajemati, saj bi prišlo do popačenja signala. 
 Pomanjkljivost se večinoma rešuje tako, da le del celotnega zaslona zajema svetlobo, drugi del
-pa je namenjen pretakanju elektronov in omogoča nemoteno praktično neprestano zajemanje slike.
+pa je namenjen hkratnemu pretakanju elektronov in omogoča nemoteno praktično neprestano zajemanje slike.
 Ker se s tem količina zajete svetlobe zmanjša, se na vsak element doda lečo, ki svetlobo zbere
 na detektor. S tem postanejo slikovni detektorji CCD hitrejši in bolj občutljivi. Poleg
 tega jih odlikuje tudi razmeroma nizek šum, ki se ga da s hlajenjem še dodatno 
@@ -997,8 +998,8 @@ Osnovni element detektorjev CMOS\index{Detektor!CMOS} je enak kot za detektorje 
 Bistvena razlika je v načinu zajemanja fotoelektronov. Pri detektorjih CCD je branje 
 fotoelektronov zaporedno, pri detektorjih CMOS pa poteka branje vseh slikovnih elementov 
 hkrati, pri čemer ima vsak piksel tudi svoj ojačevalnik (slika~\ref{11_CCD}\,b).\index{Piksel}
-Zaradi sprotnega odčitavanja vseh pikslov naenkrat so detektorji CMOS bistveno hitrejši 
-od CCD. Odlikuje jih tudi nizka poraba energije in nizka cena. Njihova poglavitna slabost
+Zaradi sprotnega odčitavanja vseh pikslov naenkrat so detektorji CMOS navadno bistveno hitrejši 
+od CCD. Odlikuje jih tudi nizka poraba energije in nizka cena. Njihova slabost
 je večji šum in manjša občutljivost, saj del zaslona, kjer so ojačevalniki, slike ne more
 zajemati. 
 
@@ -1018,13 +1019,14 @@ Pri vsakršni detekciji svetlobe je vedno prisoten tudi šum. \index{Šum}Beseda
 fluktuacije na izhodu iz detektorja, ki jih ne moremo ločiti od signala. Z različnimi 
 pristopi lahko šum zmanjšamo, povsem pa ga ne moremo nikoli odpraviti. Obravnava 
 šuma je zato najbolj pomembna pri zaznavanju šibkih signalov svetlobe. Ključen
-parameter je najmanjša moč vpadne svetlobe, ki jo še lahko ločimo od šuma, pod to vrednostjo 
-pa se signal v šumu izgubi (slika~\ref{11_sum}).
+parameter je najmanjša moč vpadne svetlobe, ki jo še lahko ločimo od šuma. Pod to vrednostjo 
+se signal v šumu izgubi (slika~\ref{11_sum}).
 \begin{figure}[h]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/11_sum.pdf_tex}
-\caption{Če je signal velik v primerjavi s šumom, ga na detektorju lahko zaznamo (zgoraj). 
+\caption{Če je signal (rdeča črta) velik v primerjavi s šumom (modra črta), 
+ga na detektorju lahko zaznamo (zgoraj). 
 Pod določeno vrednostjo postane velikost signala primerljiva s šumom in signala ne zaznamo več
 (spodaj).}
 \label{11_sum}
@@ -1041,7 +1043,7 @@ emisijo elektronov in
 
 \subsection*{Šum štetja} 
 Naj na detektor vpada svetloba s konstantno vpadno 
-močjo $P$. Ker je svetloba sestavljena iz diskretnih fotonov, fotoni na detektor vpadajo posamezno 
+močjo $P$. Ker je svetloba sestavljena iz diskretnih fotonov, fotoni na detektor vpadajo posamično 
 in enkrat jih vpade malo več, \index{Šum!štetja}
 drugič malo manj. Vpadna moč je zato dejansko povprečna moč $\overline{P}$ in število 
 vpadnih fotonov na časovno enoto $\Phi$ je povprečna vrednost števila vpadnih fotonov na časovno enoto
@@ -1084,11 +1086,11 @@ Standardni odklon, ki je merilo za velikost šuma, torej narašča korensko
 z naraščajočim povprečnim številom vpadnih fotonov $\overline{n}$. 
 \begin{definition}
 Pokaži, da je povprečje Poissonove porazdelitve (enačba~\ref{Poisson}) vedno pri $n = \overline{n}$
-in standardni odklon $\sigma = \sqrt{\overline{n}}$.
+in da je standardni odklon $\sigma = \sqrt{\overline{n}}$.
 \label{nal:Poiss}
 \end{definition}
 
-Vendar nas absolutni šum večinoma ne zanima, 
+Absolutni šum nas večinoma ne zanima, 
 saj je pri detekciji ključno razmerje med signalom in šumom.\index{Razmerje signal proti šumu} 
 Označimo ga s $SNR$ ({\it Signal to Noise Ratio} --
 razmerje \index{SNR@$SNR$|see{Razmerje signal proti šumu}}
@@ -1098,14 +1100,14 @@ V primeru Poissonove porazdelitve in šuma štetja velja
 \boxeq{11:SNR}{
 SNR = \frac{\overline{n}}{\sigma} = \sqrt{\overline{n}}.
 }
-Vidimo, da razmerje signal proti šumu z naraščajočim številom vpadlih fotonov narašča, 
+Razmerje signal proti šumu z naraščajočim številom vpadnih fotonov narašča, 
 relativni šum pa ob večji vpadni moči svetlobe pojema. 
-Za primer poglejmo dva primera. V prvem je povprečno število vpadlih 
+Poglejmo dva primera. V prvem je povprečno število vpadnih 
 fotonov v danem časovnem intervalu $10^6$, v drugem pa $100$. 
 Pri vpadu močnejšega signala 
 na detektorju zaznavamo $10^6 \pm 1000$ fotonov, pri vpadu šibkejšega
 pa $100 \pm 10$. Čeprav je absolutni šum v prvem primeru stokrat večji, 
-je relativni šum stokrat manjši. Za zmanjšanje šuma štetja mora biti 
+je relativni šum stokrat manjši. Za zmanjšanje vpliva šuma štetja na meritev mora biti 
 torej signal kar se da velik. 
 
 \begin{remark}

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_PNU.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{1075.19551435bp}%
     \ifx\svgscale\undefined%
@@ -49,31 +51,33 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.17824217)%
-    \put(0.35996073,0.19737764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39583659\unitlength}\raggedright \end{minipage}}}%
-    \put(0.36779907,0.19884733){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39289726\unitlength}\raggedright \end{minipage}}}%
-    \put(0.35245198,0.01968732){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{ }}}}%
-    \put(0.73798434,0.01968732){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{ }}}}%
-    \put(0.32360694,0.10837629){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_F$}}}%
-    \put(-0.00048442,0.07956887){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_F$}}}%
-    \put(0.00443611,0.15878412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a)}}}%
-    \put(0.16222037,0.09451242){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e_0U$}}}%
-    \put(0.00984955,0.00322147){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.07854954,-0.00015439){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$p$}}}%
-    \put(0.25390554,-0.00017065){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n$}}}%
-    \put(0.32503591,0.00322147){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.39538186,0.00322147){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.46408193,-0.00015439){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$p$}}}%
-    \put(0.63943794,-0.00017065){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n$}}}%
-    \put(0.71056836,0.00322147){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.93985941,-0.00017065){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n$}}}%
-    \put(0.81333173,-0.00015439){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$p$}}}%
-    \put(0.38996846,0.15878411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b)}}}%
-    \put(0.70910723,0.09257636){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_F$}}}%
-    \put(0.38689607,0.10522152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_F$}}}%
-    \put(0.56899835,0.07409292){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e_0U$}}}%
-    \put(0.75456435,0.15878413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c)}}}%
-    \put(0.88601619,0.05972714){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$h\nu$}}}%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.35996071,0.19737764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39583661\unitlength}\raggedright \textit{ }\end{minipage}}}%
+    \put(0.36779905,0.19884734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39289728\unitlength}\raggedright \textit{ }\end{minipage}}}%
+    \put(0.35245196,0.01968731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
+    \put(0.73798433,0.01968731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
+    \put(0.32360691,0.10837629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(-0.00048446,0.07956887){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.00443606,0.15878411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.16222033,0.09451241){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$e_0U$\end{tabular}}}}%
+    \put(0.0098495,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.0785495,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.25390551,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.32503588,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
+    \put(0.39538183,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
+    \put(0.46408191,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.63943793,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.71056835,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.93985942,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.81333173,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.38996844,0.15878411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.70910722,0.09257636){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.38689605,0.10522152){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.56899834,0.07409291){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$e_0U$\end{tabular}}}}%
+    \put(0.75456435,0.15878413){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.88601619,0.05972713){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$h\nu$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_PNU.pdf}}%
-    \put(0.88092582,0.15318607){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathbf{E}$}}}%
+    \put(0.88092582,0.15318607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
