@@ -2,14 +2,14 @@
 
 \chapter{Modulacija svetlobe}
 \label{chap:modulacija}
-Pri obravnavi širjenja svetlobe skozi snov je najpomembnejši parameter lomni količnik
-oziroma tenzor dielektričnosti. V tem poglavju bomo spoznali, kako lahko z zunanjim poljem vplivamo 
-na lomni količnik in tako na širjenje svetlobe skozi snov. To omogoča spreminjanje
--- modulacijo -- lastnosti svetlobe z zunanjim poljem. En primer uporabe smo že spoznali pri 
-obravnavi laserja, kjer za preklop dobrote potrebujemo element, ki hitro spreminja 
-prepustnost. Še pomembnejša je modulacija valovanja pri optičnem prenosu informacij.
+Spoznali smo, kako svetloba nastane, kako se širi po optičnih vlaknih in kako
+jo zaznavamo. Poglejmo zdaj, kako svetlobni signal spreminjamo -- moduliramo -- kar
+je nujno potrebno za prenos informacij. 
 
-Svetlobno valovanje lahko moduliramo na več načinov. Z ustreznim moduliranjem
+Pri obravnavi širjenja svetlobe skozi snov je najpomembnejši parameter lomni količnik
+oziroma tenzor dielektričnosti. V tem poglavju bomo spoznali, kako z zunanjim poljem vplivamo 
+na lomni količnik in na širjenje svetlobe skozi snov. Svetlobno 
+valovanje lahko moduliramo na več načinov. Z ustreznim moduliranjem
 lomnega količnika lahko valovanju spreminjamo amplitudo\index{Elektro-optična modulacija!amplitudna} 
 ali frekvenco oziroma fazo\index{Elektro-optična modulacija!frekvenčna}
 \index{Elektro-optična modulacija!fazna} (slika~\ref{fig:amfm}). 
@@ -33,11 +33,10 @@ primer elektro-optičnih modulatorjev na osnovi tekočih kristalov.
 Elektro-optični pojav\index{Elektro-optični pojav} opisuje spremembe optičnih lastnosti 
 snovi (dielektričnosti in lomnega količnika)\index{Lomni količnik} pod vplivom 
 zunanjega električnega polja. Omejimo se na statično zunanje polje oziroma
-na polje, ki se spreminja s frekvenco, ki je bistveno manjša od optične frekvence. 
-Omejitev na nizko 
+na polje, ki se le počasi spreminja. Omejitev na nizko 
 frekvenco je potrebna zato, da optično polje še lahko obravnavamo linearno. 
 Kako je v nasprotnem primeru, ko je frekvenca polja primerljiva z optično frekvenco, 
-smo na široko obravnavali v poglavju o nelinearni optiki (poglavje~\ref{chap:NLO}).
+bomo na široko obravnavali v poglavju o nelinearni optiki (poglavje~\ref{chap:NLO}).
 
 Vzemimo optično anizotropno snov z nemotenim tenzorjem dielektričnosti 
 $\underline{\tilde{\epsilon}}$. V snoveh brez absorpcije ali optične aktivnosti
@@ -68,7 +67,7 @@ Ko priključimo zunanje polje, se tenzor $\underline{\tilde{b}}$
 spremeni. Pri elektro-optičnem pojavu so spremembe tenzorja dielektričnosti zaradi vpliva
 zunanjega polja navadno majhne in lahko spremembo komponente $\delta b_{ij}$ zapišemo kot 
 potenčno vrsto zunanjega polja $E$, 
-pri čemer upoštevajmo zgolj prva dva člena v razvoju
+pri čemer upoštevamo zgolj prva dva člena v razvoju
 \boxeq{7.1}{
 \delta b_{ij}=r_{ijk}E_{k}+q_{ijkl}E_{k}E_{l}.
 }
@@ -79,16 +78,16 @@ Tenzor tretjega ranga $r_{ijk}$ imenujemo elektro-optični
 tenzor\index{Elektro-optični tenzor}
 ali tudi Pockelsov tenzor\index{Pockelsov tenzor|see {Elektro-optični tenzor}}. 
 Pockelsov tenzor je različen od nič v snoveh brez centra inverzije, značilne vrednosti Pockelsovega
-tenzorja pa so okoli $r \sim 10^{-12}$--$10^{-10}~\si{\m/\V}$.
+tenzorja so okoli $r \sim 10^{-12}$--$10^{-10}~\si{\m/\V}$.
 
 Kvadratnemu elektro-optičnemu pojavu pravimo Kerrov\index{Kerrov pojav}
 pojav\footnote{Škotski fizik John Kerr, 1824--1907.}, tenzorju $q_{ijkl}$ 
-pa Kerrov tenzor\index{Kerrov tenzor}. \index{Elektro-optični pojav!kvadratni|see {Kerrov pojav}}Kerrov pojav je praviloma precej šibkejši od Pockelsovega, vendar je različen od 
-nič v vseh snoveh, ne glede na njihove simetrijske lastnosti, torej tudi v tekočinah. 
+pa Kerrov tenzor\index{Kerrov tenzor}. \index{Elektro-optični pojav!kvadratni|see {Kerrov pojav}}Kerrov pojav je praviloma precej šibkejši od Pockelsovega, vendar je prisoten 
+v vseh snoveh, ne glede na njihove simetrijske lastnosti, torej tudi v tekočinah. 
 Značilna vrednost Kerrovega tenzorja je $q \sim 10^{-24}$~m$^2$/V$^2$. 
 Navadno ločimo dva primera Kerrovega pojava: Kerrov elektro-optični pojav 
-pri zunanjih poljih z nizko frekvenco, in optični Kerrov pojav, ki smo 
-ga podrobneje spoznali pri obravnavi nelinearnih optičnih pojavov (poglavje~\ref{OKP}).
+pri zunanjih poljih z nizko frekvenco, in optični Kerrov pojav, ki ga bomo  
+podrobneje spoznali pri obravnavi nelinearnih optičnih pojavov (razdelek~\ref{OKP}).
 
 Pri uporabi trdnih kristalov navadno prevlada linearni člen, zato se osredotočimo
 le nanj in zapišemo
@@ -113,16 +112,15 @@ r_{ijk} = r_{jik}.
 V najmanj simetričnem primeru triklinskega kristala ima tako namesto 27 zgolj 
 18 neodvisnih komponent, v kristalih z višjo simetrijo pa še precej manj. 
 
-Podobno kot nelinearno susceptibilnost (poglavje~\ref{Chap:Chi}) lahko
-tudi elektro-optični tenzor zaradi simetrije zapišemo le z dvema komponentama. 
-Prva dva indeksa, v katerih je $r_{ijk}$ simetričen, združimo
+Zaradi simetrijskih lastnosti lahko tenzor poenostavljeno zapišemo le z dvema
+indeksoma. To naredimo tako, da prva dva indeksa, v katerih je $r_{ijk}$ simetričen, združimo
 v enega z vrednostmi od 1 do 6 po dogovoru 
 \begin{eqnarray}
  xx=1 \qquad  yz=zy = 4 \\
  yy=2 \qquad  zx=xz = 5 \\
- zz=3 \qquad  xy=yx = 6
+ zz=3 \qquad  xy=yx = 6.
 \end{eqnarray}
-in $r_{ijk}$ postane matrika velikosti $6\times3$, simetrični tenzor drugega 
+S tem $r_{ijk}$ postane matrika velikosti $6\times3$, simetrični tenzor drugega 
 ranga $b_{ij}$ pa šestdimenzionalen vektor.
 Nekaj primerov Pockelsovih tenzorjev pri različnih kristalnih simetrijah
 je podanih v tabeli~(\ref{table:Pockels}).
