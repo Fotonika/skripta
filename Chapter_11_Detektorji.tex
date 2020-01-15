@@ -1183,33 +1183,33 @@ je pri napetosti $\Delta U$ tako enaka
 \begin{equation}
 \overline{W} = \frac{C\overline{(\Delta U)^2}}{2} = \frac{kT}{2}.
 \end{equation}
-Ko se na kondenzatorju pojavi napetost, steče skozi upornik električni tok. Tudi tukaj 
-lahko zapišemo energijo
-\begin{equation}
-\overline{W} = \overline{P}\tau = \frac{kT}{2},
-\end{equation}
-pri čemer je $t$ odzivni čas vezja in je enak $\tau = RC$. Največja povprečna moč, 
-ki jo lahko dobimo iz takega vezja, je enaka 
+Ko se na kondenzatorju pojavi napetost, steče skozi upornik električni tok. 
+Največja povprečna moč, ki jo lahko dobimo iz takega vezja, je enaka 
 \begin{equation}
 \overline{P} = \frac{R \overline{(\Delta I)^2}}{2},
 \end{equation}
-pri čemer $\Delta I$ označuje fluktuacije električnega toka skozi upornik. Iz zgornjih 
+pri čemer $\Delta I$ označuje fluktuacije električnega toka skozi upornik.
+Velja tudi zveza
+\begin{equation}
+\overline{W} = \overline{P}\tau,
+\end{equation}
+pri čemer je $\tau$ odzivni čas vezja in je enak $\tau = RC$. Iz zgornjih 
 enačb sledi 
 \begin{equation}
 \overline{(\Delta I)^2} = \frac{kT}{R^2C}.
 \end{equation}
-Vpeljemo še pasovno širino detekcije, ki pa je v primeru eksponentnega odziva vezja enaka
+Vpeljemo še pasovno širino detekcije, ki je v primeru eksponentnega odziva vezja enaka
 $\Delta \nu_B = 1/4\tau = 1/4RC$. Iz tega sledi zveza
 \boxeq{11:termicnii}{
 \overline{(\Delta I)^2}  = \frac{4 kT\Delta \nu_B}{R}.
 }
 Podobno lahko zapišemo še za fluktuacije napetosti 
 \boxeq{11:termicni}{
-\overline{\Delta U^2}  = 4 kTR \Delta \nu_B.
+\overline{(\Delta U)^2}  = 4 kTR \Delta \nu_B.
 }
 Termični šum je odvisen od temperature in od upornosti detektorja oziroma
 vezja, preko katerega zaznavamo signal. En način za zmanjšanje termičnega šuma
-je povečanje upornosti detektorja, vendar na ta način zmanjšamo njegovo hitrost
+je povečanje upornosti detektorja, vendar na ta način zmanjšamo hitrost
 odziva. Tipične upornosti, ki se uporabljajo pri hitrih detektorjih, so 
 tako $R \sim 50~\si{\ohm}$. Drugi način za zmanjševanje termičnega šuma je
 hlajenje. Na ta način lahko termični šum zelo zmanjšamo, nikoli pa ga ne moremo povsem
@@ -1220,8 +1220,8 @@ Natančna opazovanja pokažejo, da na večini kvantnih detektorjev zaznamo
 nek majhen izhodni signal tudi v odsotnosti vpadne svetlobe. 
 \index{Šum!temnega toka}
 \index{Temni tok}To je tako imenovani temni tok, do katerega pride zaradi
-spontanega nastanka para elektron--vrzel ali spontane emisije elektronov 
-(glej enačbo~\ref{11:dioda}). Izraza za temni tok tukaj ne bomo 
+spontanih nastankov para elektron--vrzel ali spontane emisije elektronov. 
+Izraza za temni tok tukaj ne bomo 
 izpeljevali\footnote{Glej npr. N. W. Ashcroft in N. D. Mermin, {\it Solid State Physics}.},
 povejmo le, da je sorazmeren s površino diode $S$ in 
 eksponentno odvisen od temperature $T$ in energijske reže polprevodnika $E_g$
@@ -1230,7 +1230,7 @@ I_0 = j_0\, S\, e^{-E_g/kT}.
 \end{equation}
 Zaradi diskretne narave elektronov se -- podobno
 kot v primeru diskretnih vpadnih fotonov -- tudi tukaj pojavi šum štetja, le da 
-namesto povprečne vrednosti signala zaradi vpadne svetlobe nastopa temni tok. 
+namesto povprečne vrednosti signala nastopa temni tok. 
 Enačbo (\ref{11:sum}) zato zapišemo kot 
 \boxeq{11:dark}{
 \overline{(\Delta I)^2} = 2 I_0\,e_0\, \Delta\nu_B.
@@ -1248,13 +1248,13 @@ in spekter njihovega sevanja opisuje Planckov \index{Planckov zakon}
 zakon (enačba~\ref{eq:Planck} in slika~\ref{fig:Planck}). Z naraščajočo temperaturo telesa se 
 spektralni vrh pomika k nižjim valovnim dolžinam in s tem 
 v infrardeč del spektra\index{Infrardeče valovanje} ali celo v vidno svetlobo. 
-Sevanje ozadja predstavlja zato največji problem pri meritvah v
+Sevanje ozadja predstavlja največji problem pri meritvah v
 območju valovnih dolžin okoli $10$--$30~\si{\micro\meter}$, v katerem znatno sevajo še telesa 
 pri sobni temperaturi. Detektorjem za infrardeče valovanje zato pogosto zmanjšamo aperturo 
 na najmanjšo možno, poleg tega jih izoliramo od okolice in hladimo. 
 
 Sevanje ozadja je neodvisno od vpadnega signala. Ker detektor ne loči fotonov, ki 
-vpadejo nanj kot signal, in tistih, ki vpadejo nanj iz ozadja, se prispevek ozadja 
+vpadejo nanj kot signal, od tistih, ki vpadejo nanj iz ozadja, se prispevek ozadja 
 kar prišteje signalu. Šum štetja (enačba~\ref{11:sum}) se tako poveča na
 \begin{equation}
 \overline{(\Delta I)^2} = \frac{2 \eta e_0^2\, \Delta\nu_B}{h\nu}\,\,
@@ -1264,9 +1264,9 @@ kar prišteje signalu. Šum štetja (enačba~\ref{11:sum}) se tako poveča na
 pri čemer $P_o$ označuje moč vpadne svetlobe iz ozadja.
 
 \begin{remark}
- V detektorjih, v katerih pride do notranjega ojačevanja
- \index{Notranje ojačenje}(npr. fotopomnoževalka
- \index{Fotopomnoževalka} ali plazovna fotodioda),
+ V detektorjih, v katerih pride do notranjega ojačenja
+ \index{Notranje ojačenje}(npr. v fotopomnoževalki
+ \index{Fotopomnoževalka} ali plazovni fotodiodi),
  \index{Fotodioda!plazovna}
  se skupaj s signalom ojači tudi šum. Če se signal ojači za faktor $G$, se za isti faktor
  povečajo tudi šum štetja, šum ozadja in šum temnega toka. Poleg tega pride do ojačenja šuma
@@ -1281,9 +1281,9 @@ Spoznali smo, da je več vrst šuma, ki so pri različnih pogojih različno pome
 Na splošno lahko vse prispevke združimo v skupni šum, pri čemer seštevamo kvadrate
 odstopanj
 \begin{equation}
-\overline{(\Delta I)^2} = \overline{\Delta I^2}_{\mathrm{\check{s}tetja}} + 
-\overline{\Delta I^2}_{\mathrm{termi\check{c}ni}} + \overline{\Delta I^2}_{\mathrm{temni}} + 
-\overline{\Delta I^2}_{\mathrm{ozadja}}.
+\overline{(\Delta I)^2} = \overline{(\Delta I)^2}_{\mathrm{\check{s}tetja}} + 
+\overline{(\Delta I)^2}_{\mathrm{termi\check{c}ni}} + \overline{(\Delta I)^2}_{\mathrm{temni}} + 
+\overline{(\Delta I)^2}_{\mathrm{ozadja}}.
 \end{equation}
 Če vstavimo izraze za tokove (enačbe~\ref{11:sum}, \ref{11:termicnii}, \ref{11:dark}
 in \ref{11:ozadje}), sledi
@@ -1301,9 +1301,9 @@ SNR = \frac{\overline{I}}{\sqrt{\left( 2 \overline{I}\,e_0 + 2 I_0\,e_0
 Iz zapisanega razberemo, da so razen šuma štetja vsi prispevki v 
 imenovalcu neodvisni od intenzitete vpadne svetlobe. Le-ta je pri 
 majhnih intenzitetah majhen in celoten šum 
-zato praktično konstanten. V tem primeru $SNR$ narašča kvadratno z intenziteto
+zato praktično konstanten. V tem primeru $SNR$ narašča linearno z intenziteto
 vpadne svetlobe. Pri velikih intenzitetah šum štetja prevlada nad ostalimi prispevki
-in odvisnost $SNR$ od intenzitete postane linearna. 
+in odvisnost $SNR$ od intenzitete postane korenska. 
 
 \begin{definition}
 Oceni šum štetja, termični šum in šum temnega toka na silicijevi fotodiodi, če 
@@ -1321,13 +1321,11 @@ s šumom, in zato predstavlja spodnjo mejo še možne detekcije. To se navadno z
 pri zelo nizkih močeh vpadne svetlobe, pri katerih je šum štetja zanemarljiv.
 Pogoj, pri katerem je $SNR=1$, zapišemo kot
 \begin{equation}
-NEP\, \frac{e_0}{h \nu} \eta \approx \sqrt{\left(2 I_0\,e_0
-+ \frac{4 kT}{R} \right) \Delta\nu_B}.
+NEP\, \frac{e_0}{h \nu} \eta \approx \sqrt{\left(\frac{4 kT}{R} + 2 I_0\,e_0 \right) \Delta\nu_B}.
 \end{equation}
 Sledi
 \begin{equation}
-NEP = \frac{h \nu}{\eta e_0}\sqrt{\left(2 I_0\,e_0
-+ \frac{4 kT}{R} \right) \Delta\nu_B}.
+NEP = \frac{h \nu}{\eta e_0}\sqrt{\left(\frac{4 kT}{R} + 2 I_0\,e_0 \right) \Delta\nu_B}.
 \label{NEP}
 \end{equation}
 \begin{definition}
@@ -1404,18 +1402,20 @@ kvadrata majhnega signala $|E_{s0}|^2$, ampak majhen signal, pomnožen z velikim
 Poglejmo še razmerje $SNR$ za primer heterodinske detekcije. Največji prispevek k šumu je 
 zaradi šuma štetja referenčne svetlobe, saj je ta praviloma bistveno močnejša od signala
 \begin{equation}
-\overline{(\Delta I)^2} = 2I_re_0 \Delta\nu_B= \frac{\varepsilon_0}{2} 
-e_0^2\Delta\nu_B\frac{\eta S E_{r0}^2}{h\nu},
+\overline{(\Delta I)^2} = 2I_re_0 \Delta\nu_B= \varepsilon_0 
+e_0^2\Delta\nu_B\frac{\eta c S E_{r0}^2}{h\nu},
 \end{equation}
 pri čemer smo z $I_r$ označili tok, ki steče zaradi referenčne svetlobe, $S$ pa je 
 površina detektorja. 
 
-Signal v tem primeru ni več celotni vpadni signal, ampak kombinirani izhod iz 
+Signal v tem primeru ni celotni vpadni signal, ampak kombinirani izhod iz 
 detektorja, ki ga zaznavamo le pri razliki krožnih frekvenc $\omega_s-\omega_r$. Sledi
 \begin{equation}
-SNR = \frac{\frac{\varepsilon_0 e_0 \eta S}{2h \nu} E_{s0}E_{r0}}{\sqrt{\frac{\varepsilon_0}{2}
-e_0^2\Delta\nu_B\frac{\eta S E_{r0}^2}{h\nu}}} = 
-\sqrt{\frac{\varepsilon_0\eta S}{2 h \nu \Delta\nu_B}}E_{s0}.
+SNR = \frac{\frac{\varepsilon_0 e_0 c \eta S}{2h \nu} E_{s0}E_{r0}}{\sqrt{\frac{\varepsilon_0}{2}
+e_0^2 \Delta\nu_B\frac{\eta c S E_{r0}^2}{h\nu}}} = 
+\sqrt{\frac{\varepsilon_0\eta c S}{2 h \nu \Delta\nu_B}}E_{s0} = 
+\sqrt{\frac{\eta P_s}{h \nu \Delta \nu_B}}.
+\label{SNRhd}
 \end{equation}
 Če to primerjamo z vrednostjo $SNR$ pri navadni detekciji (enačba~\ref{SNRs}), vidimo, 
 da se razmerje signal proti šumu pri isti pasovni širini izboljša za faktor $\sqrt{2}$
@@ -1423,5 +1423,12 @@ da se razmerje signal proti šumu pri isti pasovni širini izboljša za faktor $
 Ker je pri navadni detekciji težko meriti pri tako majhni pasovni širini, je razmerje
 signal proti šumu v primeru heterodinske detekcije posledično praviloma znatno večje
 od razmerja, ki ga dosežemo pri navadni detekciji. Prednost heterodinskega 
-načina detekcije je tudi, da je neobčutljiv za svetlobo iz ozadja in se 
+načina detekcije je tudi, da je neobčutljiv na svetlobo iz ozadja in se 
 zato pogosto uporablja za detekcijo infrardečega valovanja.\index{Infrardeče valovanje}
+
+Izračunajmo še najmanjšo moč svetlobe, ki jo lahko merimo s to metodo. Iz enačbe~(\ref{SNRhd}) 
+sledi, da je $SNR=1$ pri $P_{\mathrm{min}} = h\nu \Delta \nu_B/\eta$. Če poenostavimo, da
+je izkoristek enak $\eta = 1$, potem najmanjša merljiva vpadna moč svetlobe ustreza
+enemu fotonu na $1/(\Delta\nu_B)$ časa. Ker detektor s pasovno širino $\Delta\nu_B$
+ne zaznava procesov, ki so hitrejši od $\sim 1/(\Delta\nu_B)$, je to hkrati časovna ločljivost
+detektorja. Najmanjša merljiva moč je torej en foton na enoto časovne ločljivosti detektorja.
