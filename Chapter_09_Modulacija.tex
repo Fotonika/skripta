@@ -415,7 +415,7 @@ moč prepuščene svetlobe -- amplitudno moduliramo signal.
 
 Vrnimo se k longitudinalni\index{Elektro-optična modulacija!longitudinalna}
 modulaciji (slika~\ref{fig:amshema}).
-Naj bo vpadna električna poljska jakost $E_0$ polarizirana v smeri $y$. 
+Naj bo vpadno električno polje polarizirano v smeri $y$. 
 Ko priključimo napetost, sta novi lastni osi zasukani 
 za kot $45~\si{\degree}$ glede na prvotni lastni osi (slika~\ref{fig:amn}). Vpadno 
 valovanje zato razstavimo na komponenti $x'$ in $y'$
@@ -1414,6 +1414,13 @@ in
 kjer je $\alpha^{2}=\epsilon_{a}\omega^{2}/(2c^{2})$ in 
 $\beta^{2}=\bar{\epsilon}\omega^{2}/c^{2}$. S tem smo dobili sistem
 dveh sklopljenih diferencialnih enačb, ki ga lahko rešimo.
+\begin{remark}
+Opis potovanja svetlobe skozi zasukan nematik je lepa ilustracija uporabe 
+Blochovega teorema, ki ga sicer poznamo iz fizike trdne snovi. Tam gre za 
+reševanje Schr\"odingerjeve enačbe za delec v periodičnem potencialu. Teorem pravi, 
+da lastne rešitve zapišemo kot produkt ravnega vala in funkcije, ki ima enako 
+periodo kot potencial.\index{Blochov teorem}
+\end{remark}
 
 Za reševanje je ugodno vpeljati krožni polarizaciji 
 $E_{+}=E_{x}+iE_{y}$ in $E_{-}=E_{x}-iE_{y}$.
@@ -1431,10 +1438,9 @@ in
 Lastne rešitve poiščemo v obliki 
 \begin{equation}
 E_{+}  =  Ae^{i(k+q)z} 
-\label{7.65a}
-\end{equation}
-in
-\begin{equation}
+\qquad
+\mathrm{in}
+\qquad
 E_{-}  =  Be^{i(k-q)z}.
 \label{7.65}
 \end{equation}
@@ -1465,9 +1471,9 @@ $\omega$ in $k$ -- za svetlobo v zasukanem sredstvu
 \label{7.66a}
 \end{equation}
 
-Da dobimo disperzijsko odvisnost $k(\omega)$, moramo rešiti gornjo kvadratno enačbo. 
+Da dobimo disperzijsko odvisnost, moramo rešiti gornjo kvadratno enačbo. 
 Vendar za razlago delovanja zasukane nematične celice zadošča približek 
-$q\ll\alpha$ in $q\ll\beta$, saj je perioda sukanja optične osi
+$q\ll\alpha, \beta$, saj je perioda sukanja optične osi
 velika v primerjavi z valovno dolžino svetlobe. Tedaj lahko $q$ v disperzijski
 zvezi (enačba~\ref{7.66}) zanemarimo in velja
 \begin{equation}
@@ -1479,8 +1485,8 @@ k^{2}=
 \label{7.67}
 \end{equation}
 Ti vrednosti ustrezata velikosti valovnega vektorja za izredni
-in redni val v navadnem enoosnem kristalu. Vstavimo ju v enačbi~(\ref{7.65a} in
-\ref{7.65}) in za polarizaciji lastnih valov dobimo $B=\pm A$.
+in redni val v navadnem enoosnem kristalu. Vstavimo ju v enačbi~(\ref{7.65})
+in za polarizaciji lastnih valov dobimo $B=\pm A$.
 Izračunajmo še obe kartezični komponenti električnega polja za prvo rešitev
 \begin{align}
 E_{x} &=  \frac{1}{2}(E_{+}+E_{-})  =  \frac{1}{2}Ae^{ikz}(e^{iqz}+e^{-iqz})  =  Ae^{ikz}\cos qz\\
@@ -1500,7 +1506,7 @@ tekoči kristal zopet sestavimo, s čemer seveda na splošno nastane eliptična
 polarizacija.
 
 \begin{remark}
-Disperzijsko zvezo (enačbi~\ref{7.66} in \ref{7.66a}) 
+Disperzijsko zvezo (enačba~\ref{7.66a}) 
 lahko rešimo (slika~\ref{gap}). Pri izbrani vrednosti $\alpha$ 
 obstajajo pri vseh frekvencah, razen v ozkem območju -- rečemo mu frekvenčna reža --
 štiri realne rešitve za $k$, po dve za valovanji v pozitivni in v negativni smeri.
@@ -1523,7 +1529,7 @@ je povsem analogen Braggovemu odboju na kristalih.\index{Tekoči kristali!holest
 \input{slike/09_gap.pdf_tex}
 \caption{Rešitve disperzijske zveze (enačba~\ref{7.66}) v zasukanem nematiku
 ali holesteriku pri danem $\alpha$. Razen v frekvenčni reži (modra pasova) obstajajo štiri 
-rešitve za vsako frekvenco.}
+rešitve pri vsaki frekvenci.}
 \label{gap}
 \end{figure}
 \end{remark}
@@ -1558,7 +1564,7 @@ zasuk in upogib.}
 \end{figure}
 
 V zunanjem električnem polju se energija tekočega kristala dodatno spremeni. 
-Navadno je neodvisna količina električna poljska jakost, saj je polje posledica
+Navadno je neodvisna količina jakost električnega polja, saj je polje posledica
 zunanje napetosti na elektrodah. Ustrezni člen v prosti energiji je tedaj 
 (enačbi~\ref{lcwe} in~\ref{7.56a})
 \begin{equation}
@@ -1581,7 +1587,7 @@ poljem, popoln zasuk pa onemogoča mejna urejevalna plast.
 Da lahko z minimizacijo $F$ izrazimo $\mathbf{n}(\mathbf{r})$, moramo
 torej poznati še robne pogoje.
 
-Poglejmo primer. Naj bo nematični tekoči kristal med dvema vzporednima
+Naj bo nematični tekoči kristal med dvema vzporednima
 steklenima ploščama, med katerima je razmik $d$. Na obeh ploščah naj bo $\mathbf{n}$ vzporeden
 s površino in obrnjen v isto smer, tako da je brez zunanjega 
 polja $\mathbf{n}$ povsod enako usmerjen. Naj bo to smer $x$.
