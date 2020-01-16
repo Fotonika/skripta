@@ -1048,26 +1048,22 @@ majhne in ne vplivajo na $A_{1}$. Zaradi velike pretvorbe
 $A_{0}(z)$ ne smemo več obravnavati kot konstante. Upoštevamo 
 izpolnjen Braggov pogoj (enačba~\ref{7.43}) in iz sistema enačb~(\ref{7.37})
 sledi\index{Braggov uklon}
-\begin{eqnarray}
-A_{0}'+\xi A_{1} & = & 0\nonumber \\
-A_{1}'-\xi A_{0} & = & 0.
-\end{eqnarray}
+\begin{equation}
+A_{0}'+\xi A_{1}  =  0 \qquad \mathrm{in} \qquad A_{1}'-\xi A_{0} =  0.
+\end{equation}
 Ob začetnih pogojih $A_{0}(0)=A_{0}$ in $A_{1}(0)=0$ sta rešitvi gornjih enačb
 \begin{equation}
-A_{0}(d) = A_{0}\cos (\xi d)
-\end{equation}
-in
-\begin{equation}
-A_{1}(d) = A_{0}\sin (\xi d).
+A_{0}(d) = A_{0}\cos (\xi d) \qquad \mathrm{in} \qquad A_{1}(d) = A_{0}\sin (\xi d).
 \end{equation}
 Če je izpolnjen Braggov pogoj, se moč vpadnega vala na razdalji $\pi/(2\xi)$
 skoraj vsa pretoči v uklonjeni snop, z naraščajočo debelino pa ponovno vsa v
 prepuščeni val (slika \ref{s7.10}).
 Za čim bolj učinkovito delovanje akusto-optičnega modulatorja seveda
 želimo doseči ravno take pogoje.
+\vglue-1truemm
 \begin{figure}[h]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{80truemm} 
 \input{slike/09_AOcalc.pdf_tex}
 \caption{Relativna intenziteta prepuščenega (črna črta) in uklonjenega (rdeča črta) 
 valovanja na zvočnem valovanju v odvisnosti od debeline plasti zvočnega valovanja}
@@ -1094,7 +1090,8 @@ v_z \left(\frac{1}{2} \varrho \left(\frac{\partial u}{\partial t}\right)^2
 \right) dt = \frac{1}{2} \varrho v_z^3 S_0^2,
 \label{7.49}
 \end{equation}
-kjer je $v_z$ hitrost zvoka v snovi in $\varrho$ gostota snovi. Sledi 
+kjer je $v_z$ hitrost zvoka v snovi in $\varrho$ gostota snovi. 
+Sledi 
 \begin{equation}
 S_{0}=\sqrt{\frac{2j_{z}}{\varrho v_{z}^{3}}}.
 \label{7.50}
@@ -1154,6 +1151,12 @@ z rešitvijo $A_{m}(z)=A_{0}J_{m}(2\xi z)$. Kadar je $2\xi d$ ničla funkcije
 $J_{0}$, prvič je to pri $2\xi d\approx 2,4$, se vsa energija ukloni iz
 vpadnega snopa, vendar se v tem primeru 
 razporedi v mnogo uklonjenih snopov.
+\begin{remark}
+Do istega rezultata pridemo lahko tudi preprosteje, z uporabo Fraunhoferjevega uklona
+(enačba~\ref{eq:FraunhoferApprox}). Upoštevamo, da zvočni val ustvari periodično fazno 
+mrežico in izračunamo njeno Fourierevo transformiranko, pri čemer uporabimo 
+Jacobi-Angerjev razvoj (enačba~\ref{JA}). 
+\end{remark}
 
 \section{Modulacija s tekočimi kristali}
 
