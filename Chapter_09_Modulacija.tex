@@ -182,7 +182,7 @@ elektro-optični tenzor dve neodvisni komponenti: $r_{41} = r_{52}=8,77 \times 1
 in $r_{63}= -10,3 \times 10^{-12}~\si{\m/\V}$.
 
 Kristal naj bo odrezan po kristalografskih oseh. Svetloba naj skozi kristal potuje 
-v smeri optične osi, to je po dogovoru smer $z$, v isti smeri pa na kristal priključimo
+v smeri optične osi, to je po dogovoru smer $z$ in v isti smeri na kristal priključimo
 polje $E_z$. Ker je smer električnega polja vzporedna s smerjo širjenja svetlobe, taki 
 postavitvi pravimo longitudinalna in pojavu longitudinalna 
 modulacija.\index{Elektro-optična modulacija!longitudinalna} 
@@ -192,12 +192,12 @@ modulacija.\index{Elektro-optična modulacija!longitudinalna}
 \def\svgwidth{80truemm} 
 \input{slike/09_AMshema.pdf_tex}
 \caption{Shema longitudinalne modulacije signala. Ker je polje priključeno v smeri
-potovanja svetlobe, morata biti elektrodi transparentni. Z uporabo polarizatorja in 
+potovanja svetlobe, morata biti elektrodi prozorni. Z uporabo polarizatorja in 
 analizatorja sestavimo amplitudni modulator (glej razdelek~\ref{chap:ampmod}).}
 \label{fig:amshema}
 \end{figure}
 
-Inverzni dielektrični tenzor brez zunanjega polja za optično enoosni KDP zapišemo kot
+Inverzni dielektrični tenzor za optično enoosni KDP zapišemo v odsotnosti polja kot
 \index{Dvolomnost!enoosne snovi}
 \begin{equation}
 \underline{\tilde{b}} = 
@@ -215,10 +215,10 @@ Sprememba inverznega tenzorja je potem po enačbi~(\ref{eq:Pockels})
 \begin{align}
 \delta b_{xx} & =r_{xxx}E_x + r_{xxy}E_y + r_{xxz}E_z = 0,\nonumber \\
 \delta b_{xy} & = \delta b_{yx} = r_{xyx}E_x + r_{xyy}E_y + r_{xyz}E_z = r_{63}E_z,\nonumber\\
-\delta b_{xz} & = \delta b_{zx} =r_{xzz}E_z = 0,\nonumber\\
-\delta b_{yy} & =r_{yyz}E_z = 0,\nonumber\\
-\delta b_{yz} & = \delta b_{zy} =r_{yzz}E_z = 0,\nonumber\\
-\delta b_{zz} & =r_{zzz}E_z = 0.
+\delta b_{xz} & = \delta b_{zx} = r_{xzx}E_x + r_{xzy}E_y + r_{xzz}E_z = 0,\nonumber\\
+\delta b_{yy} & = r_{yyx}E_x + r_{yyy}E_y + r_{yyz}E_z= 0,\nonumber\\
+\delta b_{yz} & = \delta b_{zy} = r_{yzx}E_x + r_{yzy}E_y + r_{yzz}E_z= 0,\nonumber\\
+\delta b_{zz} & = r_{zzx}E_x + r_{zzy}E_y + r_{zzz}E_z = 0.
 \end{align}
 Vidimo, da je zaradi simetrije večina členov enaka nič, se pa zaradi zunanjega električnega
 polja v smeri $z$ pojavi izvendiagonalna komponenta $\delta b_{xy}$
@@ -243,9 +243,9 @@ r_{63}E_z& 1/n_o^2 & 0\\
 snop, moramo gornji tenzor diagonalizirati. Lastne vrednosti novega tenzorja
 in pripadajoče nove lastne osi so
 \begin{align}
-\lambda_1 &= \frac{1}{n_o^2}+ r_{63}E_z \quad \mathrm{in} \quad \mathbf{e}_1 = \frac{1}{\sqrt{2}}(1,1,0)\\
-\lambda_2 &= \frac{1}{n_o^2}- r_{63}E_z \quad \mathrm{in} \quad \mathbf{e}_2 = \frac{1}{\sqrt{2}}(-1,1,0)\\
-\lambda_3 &= \frac{1}{n_e^2} \quad \mathrm{in} \quad \mathbf{e}_3 = (0,0,1).
+\lambda_1 &= \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_1 = \frac{1}{\sqrt{2}}(1,1,0)\\
+\lambda_2 &= \frac{1}{n_o^2}- r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_2 = \frac{1}{\sqrt{2}}(-1,1,0)\\
+\lambda_3 &= \frac{1}{n_e^2} \qquad \mathrm{in} \qquad \mathbf{e}_3 = (0,0,1).
 \end{align}
 Os $z$ se ohranja, drugi dve novi lastni osi pa sta zasukani za kot $45~\si{\degree}$ 
 glede na prvotni osi $x$ in $y$.
@@ -279,11 +279,11 @@ Za žarek,
 ki potuje vzdolž osi $z$, torej obstajata dve lastni smeri $x'$ in $y'$ z ustreznima
 novima lastnima količnikoma, ki ju izrazimo kot\index{Lomni količnik}
 \begin{equation}
-\frac{1}{n_{x'}^2} = \frac{1}{n_o^2}+ r_{63}E_z \quad \mathrm{in} \quad 
+\frac{1}{n_{x'}^2} = \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad 
 \frac{1}{n_{y'}^2} = \frac{1}{n_o^2}- r_{63}E_z. 
 \end{equation}
 Za vsa eksperimentalno dosegljiva polja velja $rE\ll1/n_o^2$ in 
-gornja izraza lahko razvijemo za majhne popravke
+gornja izraza lahko razvijemo
 \begin{equation}
 n_{x'} = \sqrt{\frac{n_o^2}{1+ n_o^2 r_{63}E_z}} \approx n_o \sqrt{1- n_o^2 r_{63}E_z} \approx
 n_o - \frac{1}{2}n_o^3 r_{63}E_z.
@@ -293,7 +293,7 @@ Nova lomna količnika sta tako
 n_{x'}&\approx n_o - \frac{1}{2}n_o^3 r_{63}E_z \quad \mathrm{in}\\
 n_{y'}&\approx n_o + \frac{1}{2}n_o^3 r_{63}E_z.
 }
-Različni lastni polarizaciji ob priključenem zunanjem polju potujeta vzdolž osi $z$ z različnima hitrostma. 
+Različni lastni polarizaciji svetlobe  ob priključenem zunanjem polju potujeta vzdolž osi $z$ z različnima hitrostma. 
 Kadar polarizacija vpadnega valovanja ne sovpada z novima lastnima osema $x'$ ali $y'$, je 
 svetloba po preletu kristala na splošno eliptično polarizirana. Ko svetloba
 prepotuje dolžino kristala $L$, pride med lastnima polarizacijama do fazne razlike
@@ -376,8 +376,9 @@ polarizacijama po preletu kristala z dolžino $L$ pa je
 n_o^3 r_{22}E_y = \frac{\omega}{c_0}L n_o^3 r_{22}\frac{U}{d}.
 \label{fazaTM}
 \end{equation}
-Pri tem moramo ločiti med $L$, ki je dolžina kristala v smeri $z$, in $d$, ki je  
-širina kristala v smeri, v kateri priključimo napetost. 
+Pri tem moramo ločiti med $L$, ki je dolžina kristala v smeri $z$ (smeri širjenja
+svetlobe), in $d$, ki je  
+širina kristala v smeri $y$ (smer priključenega električnega polja). 
 Karakteristična $\pi$-napetost \index{pi@$\pi$-napetost}je 
 \boxeq{UpiT}{
 U_\pi = \frac{\lambda d}{2 Ln_o^3 r_{22}}.
@@ -423,7 +424,7 @@ valovanje zato razstavimo na komponenti $x'$ in $y'$
 \end{equation}
 Po kristalu se komponenti širita z različnima hitrostma, zato pride med njima do 
 fazne razlike $\Delta \phi$ 
-(enačba~\ref{phiAM}). Ob izstopu iz kristala je tako
+(enačba~\ref{phiAM}). Ob izstopu iz kristala je 
 \begin{equation}
 \mathbf{E}_1 = \frac{E_0}{\sqrt{2}}\left(e^{ik_0 n_{x'}L}\mathbf{e}_{x'} + 
 e^{ik_0 n_{y'}L}\mathbf{e}_{y'}\right)
@@ -434,7 +435,7 @@ Analizator na izhodni strani naj bo obrnjen v smeri $x$, to je pravokotno
 na smer vpadne polarizacije. Prepušča le projekcijo obeh lastnih polarizacij
 na os $x$
 \begin{equation}
-\mathbf{E}_2= \mathbf{E}_1 \cdot \mathbf{e}_x = 
+\mathbf{E}_2= \left(\mathbf{E}_1 \cdot \mathbf{e}_x\right)\mathbf{e}_x = 
 \frac{E_0}{\sqrt{2}}e^{ik_0 n_{x'}L}
 \left(\frac{1}{\sqrt{2}} -\frac{1}{\sqrt{2}} e^{i\Delta\phi}\right)\mathbf{e}_x .
 \label{7.16}
@@ -455,7 +456,7 @@ T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 =
 \def\svgwidth{70truemm} 
 \input{slike/09_AMT.pdf_tex}
 \caption{Prepustnost amplitudnega modulatorja v odvisnosti od faznega zamika $\Delta \phi$, 
-sorazmernega priključeni napetosti $U$ (rdeča črta). Če pred vzorec dodamo ploščico $\lambda/4$, 
+sorazmernega priključeni napetosti (rdeča črta). Če pred vzorec dodamo ploščico $\lambda/4$, 
 pride do faznega zamika $\pi/2$ in odvisnost prepustnosti od priključene napetosti
 je približno linearna (modra črta).}
 \label{fig:amt}
@@ -474,7 +475,7 @@ gostoto toka linearna. To lahko dosežemo, če modulator deluje v okolici $\Delt
 Ena rešitev je dodati stalno visoko napetost, signal pa modulirati okoli
 te vrednosti. Precej bolj praktičen pristop je z uporabo ploščice $\lambda/4$\index{Ploščica $\lambda/4$},
 ki jo dodamo med polarizator in kristal, tako da se pojavi stalni
-fazni premik $\pi/2$ med rednim in izrednim valom. Potem lahko z razmeroma majhno napetostjo
+fazni premik $\pi/2$ med redno in izredno polariziranim valom. Potem lahko z razmeroma majhno napetostjo
 linearno amplitudno moduliramo svetlobo\index{Elektro-optična modulacija!linearna}.
 
 \section{Fazna in frekvenčna modulacija}
@@ -507,7 +508,7 @@ Celoten fazni zamik po preletu skozi kristal zapišemo kot
 \end{equation}
 pri čemer smo lomni količnik zapisali skladno z enačbo~(\ref{EOnx}). Opazimo,
 da je fazni zamik odvisen od priključene zunanje napetosti. Pri stalni napetosti je 
-ta fazni zamik konstanten, mi pa si oglejmo, kaj se zgodi, ko na kristal priključimo
+ta fazni zamik konstanten, mi pa si oglejmo, kaj se zgodi, če na kristal priključimo
 spreminjajočo se napetost.
 
 Obravnavajmo dva primera. V prvem primeru naj bo 
@@ -551,8 +552,7 @@ pri čemer je
 \begin{equation}
 \delta = \frac{\omega_0 n_o^3 r_{63}}{2c_0} U_0.
 \end{equation}
-Z uporabo Jacobi-Angerjevih\footnote{Nemška matematika Carl Gustav Jacob Jacobi, 1804--1851, in Carl
-Theodor Anger, 1803--1858.} identitet 
+Z uporabo Jacobi-Angerjevih identitet 
 \begin{align}
 \cos\left(\delta\sin x\right)  &=J_0(\delta)+2J_2(\delta)\cos2x+
 2J_4(\delta)\cos4x + \ldots\nonumber \quad \mathrm{in}\\
@@ -576,7 +576,7 @@ Z uporabo Jacobi-Angerjevih identitet (enačbi~\ref{JA}) pokaži, da električno
 izhodne svetlobe ob priključeni napetosti $U_0\sin(\omega_{m}t)$ ustreza
 polju v enačbi~(\ref{fmJA}).
 \end{definition}
-Zaradi periodične fazne modulacije se v spektru izhodne svetlobe pojavijo stranski pasovi, ki se
+Zaradi periodične fazne modulacije priključne napetosti se v spektru izhodne svetlobe pojavijo stranski pasovi, ki se
 od osnovne krožne frekvence $\omega_0$ razlikujejo za večkratnike modulacijske krožne frekvence $\omega_m$. 
 Njihova amplituda je podana z vrednostjo Besslovih funkcij pri $\delta$.
 Ker je vrednost $\delta$ navadno majhna, za opis pogosto zadošča le prvi člen.

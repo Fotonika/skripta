@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '09_EOdefl.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{855.83056641bp}%
     \ifx\svgscale\undefined%
@@ -49,9 +51,11 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.32973343)%
-    \put(0,0){\includegraphics[width=\unitlength]{09_EOdefl.pdf}}%
-    \put(0.37748754,0.28814501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
-    \put(0.21868025,0.01192237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathrm{o. os}$}}}%
-    \put(0.53426385,0.2100161){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathrm{o. os}$}}}%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{09_EOdefl.pdf}}%
+    \put(0.37748754,0.28814501){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
+    \put(0.22218562,0.01192236){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.58158631,0.21001609){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
