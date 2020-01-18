@@ -893,7 +893,7 @@ valenčnem pasu Fermijeva funkcija ni več dobra za opis zasedenosti stanj
 koncept kvazi-Fermijevih nivojev $F_p$ in $F_v$, s katerima opišemo porazdelitvi
 v vsakem pasu posebej, za prevodni in valenčni pas
 \beq
-f_p(E)=\frac{1}{e^{(E-F_p)/k_B T}+1} \quad \mathrm{in} \quad 
+f_p(E)=\frac{1}{e^{(E-F_p)/k_B T}+1} \qquad \mathrm{in} \qquad 
 f_v(E)=\frac{1}{e^{(E-F_v)/k_B T}+1}.
 \eeq
 To lahko naredimo, ker je hitrost rekombinacije elektronov in vrzeli znatno počasnejša
@@ -935,12 +935,12 @@ kjer smo z $m_r=m_v m_p/(m_v+m_p)$ označili reducirano maso elektrona in vrzeli
 Število emisij oziroma absorpcij na enoto volumna v danem času izračunamo tako,
 da verjetnosti za prehod integriramo po vseh $\mathbf{k}$. Razliko med številom 
 emisij in absorpcij na enoto volumna je
-\begin{eqnarray}  
-N_{pv}-N_{vp}&=&\int\left(w_s-w_a\right)\rho(k)\,dk  \nonumber \\
-&=&\frac{2}{\pi\hbar} \int |H_{pv}|^2\left(f_p(E_b)-f_v(E_a)\right)
+\begin{align}  
+N_{pv}-N_{vp}&=\int\left(w_s-w_a\right)\rho(k)\,dk  \nonumber \\
+&=\frac{2}{\pi\hbar} \int |H_{pv}|^2\left(f_p(E_b)-f_v(E_a)\right)
 \delta \left(\frac{\hbar^2 k^2}{2m_r}+E_g -\hbar\omega\right) k^2\,dk.
 \label{6.7}
-\end{eqnarray}
+\end{align}
 Upoštevali smo, da je gostota stanj $\rho(k)=k^2\, dk/\pi^2$. Vpeljemo
 novo spremenljivko 
 \beq

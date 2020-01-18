@@ -740,11 +740,11 @@ brezdimenzijski čas $t^{\prime}=t A$ in $\tau^{\prime}=\tau A$, kar pomeni, da 
 $p=VA/(B\hbar\omega g)$ (enačba~\ref{5.10}), ki pomeni število lastnih stanj 
 elektromagnetnega polja v volumnu $V$ in znotraj spektralne širine laserskega prehoda. 
 Enačbi zapišemo 
-\begin{eqnarray}  
-\frac{d N_2}{d t^{\prime}}&=&-\frac{nN_2}{p}-N_2+N_{20} \label{5.23a} \\
-\frac{d n}{d t^{\prime}}& = & \frac{nN_2}{p}-\frac{2}{\tau^{\prime}}n.
+\begin{align}  
+\frac{d N_2}{d t^{\prime}}&=-\frac{nN_2}{p}-N_2+N_{20} \label{5.23a} \\
+\frac{d n}{d t^{\prime}}& =  \frac{nN_2}{p}-\frac{2}{\tau^{\prime}}n.
 \label{5.23}
-\end{eqnarray}
+\end{align}
 Pri tem smo vpeljali konstanto $N_{20}= rN/A$, ki ima tudi nazoren pomen.
 Predstavlja zasedenost, ki bi jo dobili pri danem stacionarnem črpanju, če v
 izbranem stanju ne bi bilo fotonov in s tem ne stimuliranega sevanja. Meri torej 
@@ -775,13 +775,13 @@ doseže vrednosti $a \sim 5$.
 
 Vstavimo nastavka (enačbi~\ref{5.24}) v enačbi (\ref{5.23a} in \ref{5.23}). 
 Dobimo sistem enačb
-\begin{eqnarray}  
-\frac{d x}{d t^{\prime}} &=&-\frac{n_sN_{2s}}{p}-N_{2s}+N_{20}- \frac{1}{p}
+\begin{align}  
+\frac{d x}{d t^{\prime}} &=-\frac{n_sN_{2s}}{p}-N_{2s}+N_{20}- \frac{1}{p}
 (n_sx+N_{2s}y+xy)-x \\
-\frac{d y}{d t^{\prime}} &=& \frac{n_sN_{2s}}{p}-\frac{2}{\tau^{\prime}}n_s
+\frac{d y}{d t^{\prime}} &= \frac{n_sN_{2s}}{p}-\frac{2}{\tau^{\prime}}n_s
 + \frac{1}{p}(n_s x+N_{2s} y+xy)-\frac{2}{\tau^{\prime}}y.
 \label{5.27}
-\end{eqnarray}
+\end{align}
 
 Ker sta $x$ in $y$ majhna v primerjavi s stacionarnimi vrednostmi, lahko
 mešani produkt $xy$ zanemarimo. Vsi členi, ki vsebujejo le stacionarne vrednosti,
@@ -801,10 +801,10 @@ y=y_{0}e^{\lambda t^{\prime }}.
 \label{5.29}
 \end{equation}
 Dobimo homogen sistem linearnih enačb 
-\begin{eqnarray}
-(a+\lambda )x_{0}+\frac{2}{\tau ^{\prime }}y_{0} &=&0  \label{5.30} \\
--(a-1)x_{0}+\lambda y_{0} &=&0,
-\end{eqnarray}
+\begin{align}
+(a+\lambda )x_{0}+\frac{2}{\tau ^{\prime }}y_{0} &=0  \label{5.30} \\
+-(a-1)x_{0}+\lambda y_{0} &=0,
+\end{align}
 ki ima netrivialno rešitev le, če je njegova determinanta enaka nič
 \begin{equation}
 \lambda ^{2}+a\lambda +\frac{2}{\tau ^{\prime }}(a-1)=0.  
@@ -1500,7 +1500,7 @@ Namesto mikroskopske količine $\zeta$ uvedemo gostoto obrnjene
 zasedenosti $Z=(N/V)\zeta$ in enačbe (\ref{5.51}), (\ref{5.52}) in (\ref{5.52c})
 prepišemo v obliko 
 \begin{eqnarray}
-\frac{dZ}{dt} &= &A\left(Z_0-Z\right)+\frac{2i}{\hbar}E\left(P^- - P^+\right), \label{5.56} \\
+\frac{dZ}{dt} &=& A\left(Z_0-Z\right)+\frac{2i}{\hbar}E\left(P^- - P^+\right), \label{5.56} \\
 \frac{dP^+}{dt}&=&\left(-i \omega_0-\gamma\right)P^{+}-\frac{i}{\hbar} \mathcal{V}^2 E  Z, \label{5.56b}\\
 \frac{dP^-}{dt}&=&\left(i \omega_0-\gamma\right)P^{-}+\frac{i}{\hbar} \mathcal{V}^2 E  Z.\label{5.56c} 
 \end{eqnarray}

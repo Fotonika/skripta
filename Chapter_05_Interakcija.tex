@@ -30,12 +30,12 @@ $L$ in idealno prevodnimi stenami. Rešitve Maxwellovih enačb~(enačbe~\ref{eq:
 znotraj take votline so ob upoštevanju robnih pogojev 
 (enačbe~\ref{eq:robni-pogoji}--\ref{eq:robni-pogoji5}) 
 \index{Stoječe valovanje}stoječa valovanja. Zapišemo jih v obliki
-\begin{eqnarray}
-E_{x} & = & E_{x0}\cos\frac{\pi lx}{L}\sin\frac{\pi my}{L}\sin\frac{\pi nz}{L}e^{-i\omega t}\nonumber \\
-E_{y} & = & E_{y0}\sin\frac{\pi lx}{L}\cos\frac{\pi my}{L}\sin\frac{\pi nz}{L}e^{-i\omega t}\nonumber \\
-E_{z} & = & E_{z0}\sin\frac{\pi lx}{L}\sin\frac{\pi my}{L}\cos\frac{\pi nz}{L}e^{-i\omega t},
+\begin{align}
+E_{x} & =  E_{x0}\cos\frac{\pi lx}{L}\sin\frac{\pi my}{L}\sin\frac{\pi nz}{L}e^{-i\omega t}\nonumber \\
+E_{y} & =  E_{y0}\sin\frac{\pi lx}{L}\cos\frac{\pi my}{L}\sin\frac{\pi nz}{L}e^{-i\omega t}\nonumber \\
+E_{z} & =  E_{z0}\sin\frac{\pi lx}{L}\sin\frac{\pi my}{L}\cos\frac{\pi nz}{L}e^{-i\omega t},
 \label{eq:stojece_votlina}
-\end{eqnarray}
+\end{align}
 kjer so $l,m$ in $n$ cela števila. Vsako stoječe valovanje je določeno z valovnim 
 vektorjem\index{Valovni vektor}
 \begin{equation}
@@ -101,18 +101,18 @@ Pripadajoče magnetno polje izračunamo z Maxwellovo enačbo (enačba~\ref{eq:Ma
 \end{equation}
 Polja $\mathbf{E}_{\alpha}$ in $\mathbf{B}_{\alpha}$ tvorijo kompleten ortogonalen
 sistem, zato jih lahko uporabimo za razvoj poljubnega elektromagnetnega polja v votlini
-\begin{eqnarray}
-\mathbf{E}(\mathbf{r},t) & = & -\frac{1}{\sqrt{V\epsilon_{0}}}
+\begin{align}
+\mathbf{E}(\mathbf{r},t) & =  -\frac{1}{\sqrt{V\epsilon_{0}}}
 \sum_{\alpha}p_{\alpha}(t)\mathbf{E}_{\alpha}(\mathbf{r}) \quad \mathrm{in} \label{eq:pqrazvoj1}\\
-\mathbf{B}(\mathbf{r},t) & = & i\sqrt{\frac{\mu_{0}}{V}}c_0\sum_{\alpha}
+\mathbf{B}(\mathbf{r},t) & =  i\sqrt{\frac{\mu_{0}}{V}}c_0\sum_{\alpha}
 \omega_{\alpha}q_{\alpha}(t)\mathbf{B}_{\alpha}(\mathbf{r}).
 \label{eq:pqrazvoj}
-\end{eqnarray}
+\end{align}
 Vstavimo splošen razvoj~(enačbi~\ref{eq:pqrazvoj1} in \ref{eq:pqrazvoj}) v 
 Maxwellovi enačbi~(enačbi~\ref{eq:Maxwell1} in \ref{eq:Maxwell2}), 
 upoštevamo zvezo~(enačba~\ref{Maxalfa}) in njej analogno za rotor magnetnega polja. Sledi
 \begin{equation}
-p_{\alpha}=\dot{q}_{\alpha} \quad \mathrm{in} \quad 
+p_{\alpha}=\dot{q}_{\alpha} \qquad \mathrm{in} \qquad 
 \omega_{\alpha}^{2}q_{\alpha}=-\dot{p}_{\alpha},
 \label{4.7}
 \end{equation}
@@ -688,12 +688,12 @@ s stimuliranimi in spontanimi prehodi iz stanja $|2\rangle$ in prazni
 zaradi absorpcije in spontanih prehodov.
 Pri tem velja, da je vsota vseh treh zasedenosti enaka številu vseh atomov in $N_{0}+N_{1}+N_{2}=N$. 
 Zasedbene enačbe so tako
-\begin{eqnarray}
-\frac{dN_{0}}{dt} & = & -rN_0+A_{20}N_{2}+A_{10}N_{1}, \label{4.39.1}\\
-\frac{dN_{1}}{dt} & = & -A_{10}N_{1}+B_{21}\,g\,w\, (N_{2}-N_{1})+A_{21}N_{2} \label{4.39.2} \quad \mathrm{in}\\
-\frac{dN_{2}}{dt} & = & rN_0-A_{20}N_{2}-A_{21}N_{2}-B_{21}\,g\,w\, (N_2-N_1).
+\begin{align}
+\frac{dN_{0}}{dt} & =  -rN_0+A_{20}N_{2}+A_{10}N_{1}, \label{4.39.1}\\
+\frac{dN_{1}}{dt} & =  -A_{10}N_{1}+B_{21}\,g\,w\, (N_{2}-N_{1})+A_{21}N_{2} \label{4.39.2} \quad \mathrm{in}\\
+\frac{dN_{2}}{dt} & =  rN_0-A_{20}N_{2}-A_{21}N_{2}-B_{21}\,g\,w\, (N_2-N_1).
 \label{4.39}
-\end{eqnarray}
+\end{align}
 Pri zapisu smo predpostavili, da je $N_0 \approx N \gg N_1, N_2$ in črpanje $B_{20}\, 
 u_{p} (N_0-N_2)$, ki je praktično konstantno, zapisali s koeficientom $r$. Mehanizem črpanja 
 smo s tem skrili v $r$ in prav nič ni pomembno, na kakšen način poteka.\index{Optično črpanje}
@@ -981,11 +981,11 @@ Homogena razširitev je dosti manjša od Dopplerjeve širine, zato
 v prvem približku Lorentzovo funkcijo $g$ v enačbi (\ref{4.90}) nadomestimo kar z
 $\delta(\omega)$, v izrazu za $\cal Z$ (enačba~\ref{4.88}) pa jo pustimo. 
 Tako je absorpcijski koeficient za šibko testno svetlobo 
-\begin{eqnarray}
-\mu(\omega^{\prime}) & = & \frac{\hbar\omega^{\prime}}{k'c}B\frac{{\cal N}
+\begin{align}
+\mu(\omega^{\prime}) & =  \frac{\hbar\omega^{\prime}}{k'c}B\frac{{\cal N}
 (\frac{\omega_0-\omega'}{k'})}{1+\frac{2Bj}{Ac}g(\omega_S-\omega')} \\ \nonumber 
- & \approx & \hbar B{\cal N}\left(\frac{\omega_0-\omega'}{k'}\right)\left(1-\frac{2Bj}{Ac}g(\omega_S-\omega')\right).
-\end{eqnarray}
+ & \approx  \hbar B{\cal N}\left(\frac{\omega_0-\omega'}{k'}\right)\left(1-\frac{2Bj}{Ac}g(\omega_S-\omega')\right).
+\end{align}
 V drugi vrstici smo uporabili približek (enačba~\ref{4.89}). Vidimo, da je 
 odvisnost $\mu(\omega^{\prime})$ Gaussove oblike z vdolbino pri $\omega_S$ in je tako
 podobna porazdelitvi, kot jo kaže slika (\ref{fig:Bennet}). Odvisnost 
@@ -1037,12 +1037,12 @@ g(\omega_S-\omega_{0}-kv)\right)\right).
 \end{equation}
 Podobno kot prej izračunamo absorpcijski koeficient za širjenje svetlobe v
 pozitivni smeri 
-\begin{eqnarray}
-\mu_{+}(\omega_S) & = & \frac{\hbar\omega}{c}B\int{\cal Z}(v)g(\omega_S-\omega_{0}+kv)\, dv\nonumber \\
- & \approx & \hbar B{\cal N}\left(\frac{\omega_S-\omega_0}{k}\right)\left(1-\frac{2Bj}
+\begin{align}
+\mu_{+}(\omega_S) & =  \frac{\hbar\omega}{c}B\int{\cal Z}(v)g(\omega_S-\omega_{0}+kv)\, dv\nonumber \\
+ & \approx  \hbar B{\cal N}\left(\frac{\omega_S-\omega_0}{k}\right)\left(1-\frac{2Bj}
  {Ac}\left(g(0)+g(2(\omega_S-\omega_{0}))\right)\right)\;.
  \label{eq:lamb}
-\end{eqnarray}
+\end{align}
 Izmerjeni absorpcijski profil je odvisen od frekvence vpadne svetlobe $\omega_S$ in ima pri $\omega_0$ vdolbino,
 ki je podobna homogeno razširjeni črti. Faktor 2 v argumentu
 funkcije $g(2(\omega_S-\omega_{0}))$ je posledica našega grobega približka,
@@ -1119,25 +1119,25 @@ pa funkcija, ki opisuje krajevno odvisnost polja. Vemo, da se vsako lastno
 elektromagnetno nihanje votline obnaša kot harmonski oscilator (enačba~\ref{4.9}).\index{Harmonski oscilator}
 Vpeljemo kreacijske in anihilacijske operatorje\index{Operator!kreacijski}
 \index{Operator!anihilacijski}
-\begin{eqnarray}
-\hat{a}_{\alpha}^{\dagger} & = & \frac{1}{\sqrt{2\hbar\omega_{\alpha}}}\,
+\begin{align}
+\hat{a}_{\alpha}^{\dagger} & =  \frac{1}{\sqrt{2\hbar\omega_{\alpha}}}\,
 (\omega_{\alpha}\hat{q}_{\alpha}-i\hat{p}_{\alpha}) \qquad \mathrm{in} \\
-\hat{a}_{\alpha} & = & \frac{1}{\sqrt{2\hbar\omega_{\alpha}}}\,(\omega_{\alpha}\hat{q}_{\alpha}+i\hat{p}_{\alpha}).
-\end{eqnarray}
+\hat{a}_{\alpha} & =  \frac{1}{\sqrt{2\hbar\omega_{\alpha}}}\,(\omega_{\alpha}\hat{q}_{\alpha}+i\hat{p}_{\alpha}).
+\end{align}
  Kreacijski operatorji povečujejo, anihilacijski pa zmanjšujejo število
 fotonov v danem stanju. Tako velja
-\begin{eqnarray}
-\hat{a}_{\alpha}^{\dagger}|n_{\alpha}\rangle & = & \sqrt{n_{\alpha}+1}
+\begin{align}
+\hat{a}_{\alpha}^{\dagger}|n_{\alpha}\rangle & =  \sqrt{n_{\alpha}+1}
 |n_{\alpha}+1\rangle\qquad \mathrm{in} \\
-\hat{a}_{\alpha}|n_{\alpha}\rangle & = & \sqrt{n_{\alpha}}|n_{\alpha}-1\rangle.
-\end{eqnarray}
+\hat{a}_{\alpha}|n_{\alpha}\rangle & =  \sqrt{n_{\alpha}}|n_{\alpha}-1\rangle.
+\end{align}
 Edini od nič različni matrični elementi so tako oblike
-\begin{eqnarray}
+\begin{align}
 \langle n_\alpha +1|\, \hat{a}_{\alpha}^{\dagger}\,|n_{\alpha}\rangle & = 
-& \sqrt{n_{\alpha}+1} \qquad \mathrm{in} \label{eq:ankr.1}\\
-\langle n_\alpha-1|\,\hat{a}_{\alpha}\,|n_{\alpha}\rangle & = & \sqrt{n_{\alpha}}.
+\sqrt{n_{\alpha}+1} \qquad \mathrm{in} \label{eq:ankr.1}\\
+\langle n_\alpha-1|\,\hat{a}_{\alpha}\,|n_{\alpha}\rangle & =  \sqrt{n_{\alpha}}.
 \label{eq:ankr}
-\end{eqnarray}
+\end{align}
 Operatorje $\hat{p}_{\alpha}$ izrazimo s kreacijskimi in anihilacijskimi
 operatorji in jih vstavimo v razvoj električnega polja (enačba~\ref{4.50}). Dobimo
 \begin{equation}
@@ -1148,21 +1148,21 @@ operatorji in jih vstavimo v razvoj električnega polja (enačba~\ref{4.50}). Do
 Nadaljujemo z izračunom matričnega elementa. Operator koordinate
 $\hat{x}$ deluje le na atomski del stanja, $\hat{E}$ pa le na elektromagnetno
 polje, zato velja 
-\begin{eqnarray}
-\langle1,n_{\alpha}+1|\,\hat{H}_{i}\,|2,n_{\alpha}\rangle & = & -e\,
+\begin{align}
+\langle1,n_{\alpha}+1|\,\hat{H}_{i}\,|2,n_{\alpha}\rangle & =  -e\,
 \langle1,n_{\alpha}+1|\,\hat{E}\,\hat{x}\,|2,n_{\alpha}\rangle \\
- & = & -e\,\langle1|\,\hat{x}\,|2\rangle\langle n_{\alpha}+1|\,\hat{E}\,|n_{\alpha}\rangle.
-\end{eqnarray}
+ & =  -e\,\langle1|\,\hat{x}\,|2\rangle\langle n_{\alpha}+1|\,\hat{E}\,|n_{\alpha}\rangle.
+\end{align}
 Vstavimo polje, ki smo ga izrazili s kreacijskimi in anihilacijskimi operatorji (enačba~\ref{4.53}),
 upoštevamo zvezi~(\ref{eq:ankr.1}) in (\ref{eq:ankr}) in zapišemo
-\begin{eqnarray}
+\begin{align}
 \langle n_{\alpha}+1|\, \hat{E}\,|n_{\alpha}\rangle & = 
-& -i\sum_{\beta}\sqrt{\frac{\hbar\omega_{\beta}}{2V\epsilon_{0}}}
+ -i\sum_{\beta}\sqrt{\frac{\hbar\omega_{\beta}}{2V\epsilon_{0}}}
 \langle n_{\alpha}+1|\,\hat{a}_{\beta}^{\dagger}-\hat{a}_{\beta}\,|n_{\alpha}\rangle\, 
 E_{\beta}(\mathbf{r})\nonumber \\
- & = & -i\sqrt{\frac{\hbar\omega_{\alpha}}{2V\epsilon_{0}}}
+ & =  -i\sqrt{\frac{\hbar\omega_{\alpha}}{2V\epsilon_{0}}}
  \sqrt{n_{\alpha}+1}\, E_{\alpha}(\mathbf{r}).
-\end{eqnarray}
+\end{align}
 Od vseh operatorjev v razvoju polja je namreč od nič različen matrični
 element le za kreacijski operator za stanje $\alpha$.
 
@@ -1300,13 +1300,13 @@ tako da enačbi prepišemo v
 kjer je $\Delta = \omega_0-\omega$. Dodamo začetni pogoj, ki pravi, da je na začetku
 sistem v osnovnem stanju in torej $c_1(0)=1$ in $c_2(0)=0$. Rešitvi enačb
 (\ref{eq:rabi2}) sta tako
-\begin{eqnarray}
-c_1(t)&=&e^{-i\Delta t/2}\, \left(\cos\left(\frac{\Omega t}{2}\right) + 
+\begin{align}
+c_1(t)&=e^{-i\Delta t/2}\, \left(\cos\left(\frac{\Omega t}{2}\right) + 
 i \frac{\Delta}{\Omega} \sin\left(\frac{\Omega t}{2}\right) \right)\qquad \mathrm{in} 
 \label{eq:rabi3} \\
-c_2(t)&=&\frac{\mathcal{V}E_0}{i\hbar \Omega} e^{i\Delta t/2}\, \sin\left(\frac{\Omega t}{2}\right).
+c_2(t)&=\frac{\mathcal{V}E_0}{i\hbar \Omega} e^{i\Delta t/2}\, \sin\left(\frac{\Omega t}{2}\right).
 \label{eq:rabi4}
-\end{eqnarray}
+\end{align}
 Pri tem smo vpeljali krožno frekvenco
 \begin{equation}
 \Omega = \sqrt{\Delta^2 + \left(\frac{\mathcal{V}E_0}{\hbar}\right)^2} = \sqrt{(\omega_0-\omega)^2 

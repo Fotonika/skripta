@@ -237,11 +237,11 @@ ki je povezan s parametrom $z_{0}$, in lega grla.
 Postavimo izhodišče osi $z$ v grlo, kot smo
 navajeni, tako da sta zrcali pri $z_{1}<0$ in $z_{2}>0$. Uporabimo enačbo
 za krivinski radij snopa $R$ (enačba~\ref{eq:R})  in zapišemo 
-\begin{eqnarray}
--R_{1} & = & z_{1}\left[1+\left(\frac{z_{0}}{z_{1}}\right)^{2}\right] \quad  \label{eq:krivinski1} \textrm{in}\\
-R_{2} & = & z_{2}\left[1+\left(\frac{z_{0}}{z_{2}}\right)^{2}\right].
+\begin{align}
+-R_{1} & =  z_{1}\left[1+\left(\frac{z_{0}}{z_{1}}\right)^{2}\right] \quad  \label{eq:krivinski1} \textrm{in}\\
+R_{2}  &=  z_{2}\left[1+\left(\frac{z_{0}}{z_{2}}\right)^{2}\right].
 \label{eq:krivinski}
-\end{eqnarray}
+\end{align}
 Pri tem smo upoštevali, da je krivinski radij za konkavno zrcalo glede na 
 pozitivno smer $z$ pozitiven. Prvo enačbo smo zapisali z negativnim 
 predznakom pri $R_1$, zato da je krivinski radij pozitivno število.
@@ -684,11 +684,11 @@ uklonsko teorijo\index{Uklon}.
 Označimo jakost električnega polja v točki $P_{1}$ na prvem zrcalu z $E_{1}$.
 Polje na drugem zrcalu v točki $P_2$ zapišemo s Kirchhoffovim uklonskim
 integralom\index{Kirchhoffov integral} (enačba~\ref{eq:Fresnelov-uklon})
-\begin{eqnarray}
-E_{2} & = & -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{r}\, dS_{1} \\
- & = & \int_{1}E_{1}(P_{1})K(P_{1},P_{2})dS_{1}.
+\begin{align}
+E_{2} &=  -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{r}\, dS_{1} \\
+ & =  \int_{1}E_{1}(P_{1})K(P_{1},P_{2})dS_{1}.
 \label{eq:resuklon}
-\end{eqnarray}
+\end{align}
 Integriramo po celotni prvi ploskvi, $r$ je razdalja med točkama $P_{1}$ in $P_{2}$, $\vartheta$
 pa je kot med zveznico in normalo na zrcali v osi (slika~\ref{fig:uklon_res_shema}). Vpeljemo faktor
 \begin{equation}
@@ -1048,13 +1048,13 @@ sklopljena z delno prepustnim zrcalom. Sklopitev naj bo šibka, tako da lahko za
 Zaradi ohranitve energije sklopitvena koeficienta $\kappa_{12}$ in
 $\kappa_{21}$ nista neodvisna. Vsota energij obeh resonatorjev mora
 biti konstantna, zato 
-\begin{eqnarray}
-\frac{d}{dt}(|a_{1}|^{2}+|a_{2}|^{2}) & = & a_{1}\dot{a}_{1}^{*}+a_{1}^{*}\dot{a}_{1}+
+\begin{align}
+\frac{d}{dt}(|a_{1}|^{2}+|a_{2}|^{2}) & =  a_{1}\dot{a}_{1}^{*}+a_{1}^{*}\dot{a}_{1}+
 a_{2}\dot{a}_{2}^{*}+a_{2}^{*}\dot{a}_{2}\nonumber \\
- & = & a_{1}^{*}\kappa_{12}a_{2}+a_{1}\kappa_{12}^{*}a_{2}^{*}+a_{2}^{*}\kappa_{21}a_{1}+
+ & =  a_{1}^{*}\kappa_{12}a_{2}+a_{1}\kappa_{12}^{*}a_{2}^{*}+a_{2}^{*}\kappa_{21}a_{1}+
  a_{2}\kappa_{21}^{*}a_{1}^{*}\nonumber \\
- & = & 0.
-\end{eqnarray}
+ & =  0.
+\end{align}
 Veljati mora torej
 \begin{equation}
 \kappa_{12}+\kappa_{21}^{*}=0.
