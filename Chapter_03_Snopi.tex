@@ -7,9 +7,9 @@ se naučili računati prehode Gaussovih snopov skozi optične elemente.
 
 \section{Omejen snop svetlobe}
 Pri obravnavi elektromagnetnega valovanja pogosto uporabljamo
-približek ravnih valov\index{Ravni val}. Ti so v smeri pravokotno na smer širjenja
+približek ravnih valov. Ti so v smeri pravokotno na smer širjenja
 neomejeni in so zato lahko le idealizacija. Čim raven val usmerimo skozi odprtino
-v zaslonu, nastane omejen snop svetlobe\index{Omejen snop}. V snopu svetlobe valovna čela niso
+v zaslonu, nastane omejen snop svetlobe. V snopu svetlobe valovna čela niso
 ravna in meje snopa niso vzporedne, ampak se snop zaradi uklona širi\index{Uklon} 
 (slika \ref{fig:Uklon-na-rezi}).
 \begin{figure}[h]
@@ -27,7 +27,7 @@ Vendar za oceno kota širjenja računa niti ne potrebujemo. Velja približno
 \vartheta\sim\frac{\lambda}{a},
 \label{eq:kot_ocena}
 \end{equation}
-kjer je $a$ polmer odprtine v zaslonu.
+kjer je $a$ polmer odprtine v zaslonu.\index{Območje bližnjega polja}
 Opis polja v bližini zaslona je zahtevnejši, saj je treba uporabiti 
 Fresnelov približek\index{Fresnelov uklon} (enačba~\ref{eq:FresnelApprox}).
 Območje bližnjega polja seže do $b$, ki ga ocenimo s slike (\ref{fig:Uklon-na-rezi})
@@ -77,7 +77,7 @@ ali paraksialno valovno enačbo\index{Obosna valovna enačba} za $\psi$
 \nabla_{\perp}^{2}\psi=-2ik{\frac{{\partial\psi}}{{\partial z}}}.
 }
 \begin{remark} 
-Opazimo, da je obosna valovna enačba enaka Schr\"{o}dingerjevi enačbi
+Opazimo, da je obosna valovna enačba enaka Schr\"{o}dingerjevi enačbi\index{Schr\"odingerjeva enačba}
 za prost delec v dveh dimenzijah, v kateri ima koordinata $z$ vlogo
 časa. Omejenemu snopu v kvantni mehaniki ustreza lokaliziran delec
 -- valovni paket. Ta se s časom širi, kar v optiki ustreza pojavu uklona.
@@ -192,7 +192,7 @@ z_{0}=\frac{\pi w_{0}^{2}}{\lambda}.
 }
 Parameter $z_{0}$\index{Gaussov snop!bližnje polje} označuje oddaljenost od grla, 
 pri kateri snop preide v asimptotično enakomerno širjenje in tako omejuje območje,
-znotraj katerega se snop ne razširi znatno. Imenujemo ga 
+znotraj katerega se snop ne razširi znatno. Imenujemo ga \index{Območje bližnjega polja}
 \index{Rayleighova dolžina}Rayleighova dolžina\footnote{Angleški fizik in 
 nobelovec John William Strutt, 3. baron Rayleighški; lord Rayleigh, 1842--1919.},
 območje približno konstantne širine snopa pa območje bližnjega polja ali Rayleighovo
@@ -332,6 +332,7 @@ q(z) = z -iz_0.
 \label{eq:q}
 \end{equation}
 Parameter $q$ imenujemo kompleksni krivinski radij\index{Kompleksni krivinski radij}, 
+\index{Gaussov snop!kompleksna ukrivljenost}\index{Gaussov snop!kompleksni krivinski radij}
 njegov inverz pa kompleksna ukrivljenost\index{Kompleksna ukrivljenost}
 \boxeq{eq:q-inv}{
 \frac{1}{q(z)}=\frac{1}{R}+i\frac{2}{kw^{2}}.
@@ -424,7 +425,7 @@ kjer so $L_{p}^{l}$ pridruženi Laguerrovi polinomi ($L_{0}^{l}(x) = 1,
 L_{1}^{l}(x) = -x+l+1, 
 L_{2}^{l}(x) = x^2/2-(l+2)x+(l+2)(l+1)/2
 $ ...) in 
-\begin{equation}
+\begin{equation}\index{Gouyeva faza}
 \eta_{p,l}\left(z\right)=(2p+l+1)\arctan\left(\frac{z}{z_{0}}\right).
 \label{eq:etaGL}
 \end{equation}
@@ -645,7 +646,7 @@ na eni in drugi strani leče izračunamo
 Velikost grla na desni strani je tako
 \begin{equation}
 w_{02}=\frac{\lambda f}{\pi w_{01}}.
-\end{equation}
+\end{equation}\index{Gaussov snop!grlo}
 Če želimo doseči kar se da majhno grlo po prehodu skozi lečo, mora biti polmer
 vpadnega snopa kar se da velik. Vpadni snop je tako smiselno
 razširiti, vendar polmer snopa ne more biti večji od polmera leče $a$. 
