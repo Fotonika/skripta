@@ -19,7 +19,7 @@ atoma iz višjega energijskega stanja v nižje s sevanjem.
 \index{Kvantizacija polja}
 Ravni valovi\index{Ravni val} so enostavne in zelo prikladne rešitve valovne 
 enačbe~(enačba~\ref{eq:valovna-skalarna}), zato jih pogosto uporabimo za 
-bazo, po kateri razvijemo elektromagnetno polje\index{Elektromagnetno valovanje}. Razvoj
+bazo, po kateri razvijemo elektromagnetno polje. Razvoj
 lahko naredimo po celotnem prostoru, vendar je tedaj nekoliko nerodna normalizacija baznih
 funkcij. Če se omejimo na le del prostora, se temu problemu izognemo. Mora pa biti 
 izbrani del prostora dovolj velik, da končni rezultat ni odvisen od izbire 
@@ -92,7 +92,8 @@ z uporabo gostote stanj spremenimo v integrale po $k$ ali po $\omega$
 \end{equation}
 
 Označimo brezdimenzijski krajevni del rešitve~(enačbe~\ref{eq:stojece_votlina}) z 
-$\mathbf{E}_{\alpha}$, kjer $\alpha$
+$\mathbf{E}_{\alpha}$, kjer $\alpha$\index{Električno polje!jakost}
+\index{Magnetno polje!gostota}
 označuje trojico števil $l$, $m$ in $n$ in še obe polarizaciji. 
 Pripadajoče magnetno polje izračunamo z Maxwellovo enačbo (enačba~\ref{eq:Maxwell2}) 
 \begin{equation}
@@ -165,7 +166,7 @@ posameznih oscilatorjev, pri čemer ničelno energijo zanemarimo
 \begin{equation}
 W = \sum_\alpha \hbar \omega_\alpha n_\alpha.
 \end{equation}
-Tudi v nadaljevanju bomo ničelno energijo\index{Ničelna energija} izpuščali, 
+Tudi v nadaljevanju bomo ničelno energijo izpuščali, 
 saj je to energija osnovnega stanja, ki se ne more sprostiti. 
 
 \begin{remark}
@@ -208,7 +209,7 @@ nihanja $\langle W \rangle$ pomnožimo z gostoto stanj $\varrho (\omega)$
 to je \index{Planckov zakon}Planckov 
 zakon\footnote{Nemški fizik in nobelovec Max Karl Ernst Ludwig Planck, 1858--1947.}.
 Planckov zakon opiše spektralno gostoto energije svetlobe $u$ 
-\index{Spektralna gostota energije}, izsevane iz 
+\index{Spektralna gostota energije}, izsevane iz \index{Spekter!Planckov}
 \index{Sevanje črnega telesa}črnega telesa, ki je v toplotnem ravnovesju z 
 okolico s temperaturo $T$
 \boxeq{eq:Planck}{
@@ -324,7 +325,6 @@ elektromagnetnega polja $u(\omega)$
 znotraj celotne spektralne širine prehoda $g(\omega - \omega_0)$ približno konstantna 
 (slika~\ref{fig:spektri}\,a). To je gotovo res, če
 obravnavamo sevanje v votlini, ki je v termičnem ravnovesju z okolico (črno telo).
-\index{Sevanje črnega telesa}
 
 \begin{figure}[h]
 \centering
@@ -351,7 +351,7 @@ dobimo znano zvezo~(enačba~\ref{4.16}).
 odvisna od tega, kako blizu osrednje frekvence prehoda je frekvenca vpadne 
 svetlobe (slika~\ref{fig:spektri}\,b). Naj bo  $w_{R}$ gostota energije skoraj
 monokromatske vpadne svetlobe s frekvenco $\omega_R$. Verjetnost za absorpcijo na časovno 
-enoto je potem  
+enoto je potem  \index{Gostota energije}
 \boxeq{4.18}{
 r_{12}=B_{12}g(\omega_R-\omega_0)\, w_{R}.
 }
@@ -362,7 +362,7 @@ in nobelovec Albert Einstein, 1879--1955.}, zato jih imenujemo
 Einsteinovi koeficienti\index{Einsteinovi koeficienti}. 
 
 \subsection*{Einsteinovi koeficienti}
-\label{AB}
+\label{AB}\index{Einsteinovi koeficienti}
 Število atomov v določenem atomskem nivoju imenujemo zasedenost stanj.\index{Zasedenost stanj} 
 Ker zaenkrat obravnavamo preproste modele atomov z zgolj 
 dvema nivojema, zapišemo samo dve zasedenosti\index{Dvonivojski sistem}. Naj bo $N_1$ zasedenost 
@@ -413,7 +413,7 @@ določimo zvezo med koeficientoma $A_{21}$ in $B_{12}$
 \boxeq{4.27}{
 A_{21}=\frac{\hbar\omega^{3}}{\pi^{2}c^{3}}\, B_{12} \qquad \mathrm{in} \qquad B_{12}=B_{21}.
 }
-Koeficient pred $B_{12}$ v prvi enačbi je ravno enak gostoti stanj\index{Gostota stanj} elektromagnetnega polja 
+Koeficient pred $B_{12}$ v prvi enačbi je ravno enak gostoti stanj elektromagnetnega polja 
 $\rho(\omega)$ (enačba~\ref{4.4}), pomnoženi z energijo fotona $\hbar\omega$. 
 Videli bomo, da to ni slučaj, saj to izhaja iz verjetnosti za prehod v kvantni 
 elektrodinamiki (razdelek~\ref{chap:verjetnost}).
@@ -679,7 +679,7 @@ obravnavali na konkretnih laserskih primerih (poglavje~\ref{chap:Primeri}).
 \end{remark}
 
 Zapišimo enačbe za spreminjanje zasedenosti posameznih stanj. Osnovno stanje
-$|0\rangle$ se prazni zaradi absorpcije\index{Absorpcija fotona} črpalne svetlobe in polni zaradi
+$|0\rangle$ se prazni zaradi absorpcije črpalne svetlobe in polni zaradi
 spontanih prehodov\index{Spontano sevanje} iz stanj $|1\rangle$ in $|2\rangle$, stimulirane
 prehode iz stanja $|2\rangle$ pa bomo zanemarili. Zasedenost stanja $|2\rangle$ se
 povečuje zaradi absorpcije s spodnjih nivojev in zmanjšuje
@@ -687,7 +687,7 @@ zaradi spontanega in stimuliranega sevanja\index{Stimulirano sevanje}. Srednje s
 s stimuliranimi in spontanimi prehodi iz stanja $|2\rangle$ in prazni
 zaradi absorpcije in spontanih prehodov.
 Pri tem velja, da je vsota vseh treh zasedenosti enaka številu vseh atomov in $N_{0}+N_{1}+N_{2}=N$. 
-Zasedbene enačbe so tako
+Zasedbene enačbe so tako\index{Zasedenost stanj}
 \begin{align}
 \frac{dN_{0}}{dt} & =  -rN_0+A_{20}N_{2}+A_{10}N_{1}, \label{4.39.1}\\
 \frac{dN_{1}}{dt} & =  -A_{10}N_{1}+B_{21}\,g\,w\, (N_{2}-N_{1})+A_{21}N_{2} \label{4.39.2} \quad \mathrm{in}\\
@@ -955,7 +955,7 @@ atomov tako nastane vdolbina\index{Bennettova vdolbina}, ki jo imenujemo
 Bennettova vdolbina\footnote{Ameriški fizik William Ralph Bennett Jr., 1930--2008.} 
 (slika \ref{fig:Bennet}). Širina vdolbine je določena
 s homogeno širino prehoda, to je s funkcijo $g(\omega_S-\omega_{0}+kv)$,
-globina pa z gostoto vpadnega toka~$j$.
+globina pa z gostoto vpadnega toka~$j$.\index{Spektralna črta!homogena razširitev}
 \begin{figure}[h]
 \centering
 \def\svgwidth{90truemm} 
@@ -1117,8 +1117,7 @@ Operator elektromagnetnega polja razvijemo po lastnih nihanjih votline (enačba~
 kjer je $\hat{p}_{\alpha}$ operator gibalne količine stanja $\alpha$, $E_{\alpha}$
 pa funkcija, ki opisuje krajevno odvisnost polja. Vemo, da se vsako lastno
 elektromagnetno nihanje votline obnaša kot harmonski oscilator (enačba~\ref{4.9}).\index{Harmonski oscilator}
-Vpeljemo kreacijske in anihilacijske operatorje\index{Operator!kreacijski}
-\index{Operator!anihilacijski}
+Vpeljemo kreacijske in anihilacijske operatorje
 \begin{align}
 \hat{a}_{\alpha}^{\dagger} & =  \frac{1}{\sqrt{2\hbar\omega_{\alpha}}}\,
 (\omega_{\alpha}\hat{q}_{\alpha}-i\hat{p}_{\alpha}) \qquad \mathrm{in} \\
