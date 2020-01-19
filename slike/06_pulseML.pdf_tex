@@ -58,5 +58,6 @@
     \put(0.61343035,0.31542898){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
     \put(0.59748002,0.04972321){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{06_pulseML.pdf}}%
+    \put(0.60268867,0.05268248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

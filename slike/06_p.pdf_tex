@@ -59,7 +59,7 @@
     \put(0.41156684,0.0112386){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$G_{\rm pr}$\end{tabular}}}}%
     \put(0.08473182,0.14230987){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
     \put(0.01933949,0.36978503){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$10^3$\end{tabular}}}}%
-    \put(0.08126116,0.52788832){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(-0.02316474,0.47914983){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.02060779,0.5230874){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$10^5$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
