@@ -284,7 +284,7 @@ Dimenzija detektorja je $S = 1~\si{\centi\metre^2}$ in debelina $d = 1~\si{\mill
 
 \section{Fotoefekt}
 Delovanje kvantnih detektorjev temelji na fotoefektu\index{Fotoefekt}. 
-To je pojav, pri katerem vpadni\index{Detektor!kvantni}
+To je pojav, pri katerem vpadni\index{Detektor!kvantni}\index{Energijska reža}
 fotoni iz snovi izbijajo elektrone. Izbiti elektroni lahko ubežijo kot prosti elektroni
 (t.\ i.\ zunanji fotoefekt)\index{Fotoefekt!zunanji},
 ali pa ostanejo ujeti v snovi -- a mobilni -- in tako povečajo 
@@ -379,14 +379,14 @@ Iz enačbe~(\ref{11:eta}) hitro izračunamo še občutljivost detektorja \index{
 
 \section{Vakuumska fotodioda (fotocelica) in fotopomnoževalka}
 \subsection*{Fotocelica}
-\index{Fotocelica|see {Fotodioda, vakuumska}}
+\index{Fotocelica|see {Fotodioda, vakuumska}}\index{Fotodioda!vakuumska}
 Najpreprostejši kvantni detektor na zunanji fotoefekt je fotocelica ali vakuumska fotodioda
 (slika~\ref{fig:Fotoefekt}). Fotocelica deluje tako, da svetloba vpada na katodo, 
 zaprto v vakuumirani stekleni bučki, in tam povzroči fotoefekt. Izbiti elektroni 
 se pod zunanjo napetostjo $V$ pospešijo do anode in z ampermetrom ($A$) 
 merimo električni tok, ki steče med katodo in anodo. 
 Ker je tok sorazmeren s številom vpadnih fotonov, lahko na ta 
-način izmerimo moč vpadne svetlobe.
+način izmerimo moč vpadne svetlobe.\index{Fotoefekt!zunanji}
 
 \begin{figure}[h]
 \centering
@@ -417,7 +417,7 @@ iz katerega je narejena bučka.\index{Infrardeče valovanje}\index{Ultravijolič
 Odzivni čas vakuumske fotodiode je odvisen od časa preleta elektronov od katode do anode. 
 Da je ta čas čim krajši, je napetost na fotocelici velika, pogosto več $\si{kV}$,
 kar omogoča zelo kratke odzivne čase, tudi do $0,1~\si{ns}$. 
-Enostavnost in hitrost sta torej prednosti fotocelice, 
+Enostavnost in hitrost sta torej prednosti fotocelice, \index{Detektor!odzivni čas}
 njena glavna pomanjkljivost pa je razmeroma nizek kvantni izkoristek. 
 Izkoristek je seveda močno odvisen od valovne dolžine vpadnega valovanja in snovi, iz 
 katere je narejena katoda. Največje vrednosti, ki jih dosega, so okoli $40~\%$, 
@@ -443,7 +443,7 @@ Kvantni izkoristek odčitaj s slike~(\ref{fig:Fotodioda}).
 Fotopomnoževalke so fotocelice z vgrajenim ojačenjem. Ojačenje dosežemo tako, da 
 izbit elektron najprej pospešimo z napetostjo $100$--$150~\si{\volt}$ na vmesno elektrodo, 
 tako imenovano dinodo, iz katere izbije več ($\sim 5$--$10$, redkeje tudi do 40) 
-sekundarnih elektronov. Izbiti elektroni
+sekundarnih elektronov. Izbiti elektroni \index{Fotoefekt!zunanji}\index{Notranje ojačenje}
 potujejo do naslednje dinode, ki je pod višjo pozitivno napetostjo (tipično okoli $100~\si{\volt}$
 višjo), kjer ponovno izbijejo elektrone, ki vpadejo na naslednjo dinodo, 
 ki je pod še višjo napetostjo ... 
@@ -509,15 +509,14 @@ Z dopiranjem razširimo območje delovanja detektorja v infrardeč del spektra. 
 \end{figure}
 
 Izračunajmo električni tok, ki steče skozi fotoprevodnik, ko nanj posvetimo. 
-Gostota električnega toka $j$ je enaka vsoti prispevkov elektronov 
-\index{Gostota električnega toka} in vrzeli
+Gostota električnega toka $j$ je enaka vsoti prispevkov elektronov  in vrzeli
 \begin{equation}
 j = e_0 n_v v_v + e_0 n_e v_e,
 \end{equation}
 pri čemer $n_v$ in $n_e$ pomenita gostoto vrzeli in elektronov v snovi, $v_v$ in $v_e$ pa 
 njihove hitrosti. Hitrost premikanja 
 je sorazmerna z jakostjo električnega polja $E$, ki je priključeno
- na vzorec, sorazmernostni faktor pa je \index{Gibljivost} gibljivost $\beta$. Ko posvetimo na vzorec, 
+ na vzorec, sorazmernostni faktor pa je gibljivost $\beta$. Ko posvetimo na vzorec, 
  se $n_v$ in $n_e$ povečata za $\Delta n_v$ in $\Delta n_e$,
 gostota električnega toka pa naraste za
 \begin{equation}
@@ -528,7 +527,7 @@ V stacionarnem stanju se število nosilcev naboja ne spreminja in velja (enačba
 \begin{equation}
 0 = \frac{dn_v}{dt} = \frac{\eta_v P}{h \nu (Sl)} - \frac{\Delta n_v}{\tau_v}
 \end{equation}
-in podobno za elektrone. Pri tem je $\eta$ kvantni izkoristek,\index{Kvantni izkoristek} 
+in podobno za elektrone. Pri tem je $\eta$ kvantni izkoristek,
 $P$ moč vpadne svetlobe,
 $Sl$ prostornina detektorja in $\tau$ življenjski čas vrzeli oziroma elektrona. 
 Ko stacionarno vrednost $\Delta n_v$ in $\Delta n_e$ vstavimo v enačbo~(\ref{FP_j}), dobimo
@@ -554,7 +553,7 @@ G = \frac{\beta_e \tau_e U}{l^2} = \frac{\tau_e}{\tau}.
 \end{equation}
 Vpeljali smo še čas preleta $\tau = l/v_e = l/\beta_e E = l^2/\beta_e U$.
 \newpage
-Koeficient $G$ opiše ojačenje signala.\index{Ojačenje signala} Njegova vrednost je odvisna od 
+Koeficient $G$ opiše ojačenje signala.\index{Notranje ojačenje} Njegova vrednost je odvisna od 
 vrste snovi in gibljivosti nosilcev naboja v njej, velikosti
 detektorja in tudi priključene napetosti, zato lahko $G$ zavzame vrednosti od manj kot ena pa
 vse do $10^6$. 
@@ -594,7 +593,8 @@ Elektrode se pogosto prepletajo, da se zmanjša dolžina preleta $l$ in s tem po
 
 \section{Polprevodniške fotodiode}
 Drugi primer detektorjev, ki temeljijo na notranjem fotoefektu,\index{Fotoefekt!notranji}
-so polprevodniške fotodiode.\index{Polprevodniška fotodioda|see {Fotodioda, polprevodniška}}\index{Fotodioda}
+so polprevodniške fotodiode.\index{Polprevodniška fotodioda|see {Fotodioda, 
+polprevodniška}}\index{Fotodioda!polprevodniška}
 Te so danes najpogostejša in najbolj razširjena vrsta detektorjev svetlobe, uporabljamo jih med
 drugim tudi v fotoaparatih in sončnih celicah. Fotodiode so sestavljene iz $p$- in $n$-dopiranega 
 polprevodnika ($p$-$n$ fotodiode) ali pa je med njima še plast nedopiranega (intrinzičnega) 
@@ -637,7 +637,7 @@ v katerem se Fermijevi energiji izenačita.}
 
 Ko staknemo polprevodnik tipa $p$ s polprevodnikom tipa $n$, elektroni 
 z območja z višjo koncentracijo (tip $n$) difundirajo v območje z nižjo koncentracijo
-(tip $p$), kjer se rekombinirajo z vrzelmi. \index{Polprevodnik!izpraznjeni sloj}
+(tip $p$), kjer se rekombinirajo z vrzelmi. \index{Spoj $p$-$n$!izpraznjeni sloj}
 Ob spoju nastane ozek pas, imenujemo ga izpraznjeni sloj, kjer ni  
 prostih nosilcev naboja. Tipično je širok $10~\si{nm}$--$1~\si{\micro\metre}$.
 Po rekombinaciji ostanejo na strani $n$ pozitivno nabiti donorski atomi, 
@@ -1008,7 +1008,7 @@ Detektorji zaznavajo število vpadnih fotonov oziroma število fotoelektronov.
 Za nastanek barvne slike moramo vpadne fotone ločiti še po valovni dolžini, kar naredimo
 z barvnimi filtri. Namesto enega elementa, ki bi podal informacijo o intenziteti vpadne 
 svetlobe, uporabimo štiri senzorje v kvadratni mreži: enega za zaznavanje rdeče svetlobe,
-enega za modro in dva za zeleno svetlobo.
+enega za modro in dva za zeleno svetlobo.\index{Detektor!barvni}
 Večji delež zelenih elementov je zaradi večje občutljivosti človeškega očesa na zeleno barvo. 
 Intenziteto svetlobe na posameznem slikovnem elementu dane barve nato odčitamo, kot je
 opisano zgoraj.
@@ -1072,12 +1072,11 @@ diskretna, črta je zgolj vodilo.}
 Fluktuacije števila fotonov, ki vpadejo na detektor v danem časovnem 
 intervalu, označimo z $\Delta n = n-\overline{n}$. V povprečju je ta vrednost seveda enaka nič, 
 zato sta bolj merodajni količini varianca, ki je enaka (glej nalogo~\ref{nal:Poiss})
-\index{Varianca}
 \begin{equation}
 \sigma^2 = \overline{(\Delta n)^2}= \overline{(n-\overline{n})^2} = \overline{n},
 \label{varianca}
 \end{equation}
-in standardni odklon\index{Standardni odklon}
+in standardni odklon
 \begin{equation}
 \sigma = \sqrt{\overline{(\Delta n)^2}} = \sqrt{\overline{n}}.
 \label{sigma}
@@ -1416,10 +1415,11 @@ e_0^2 \Delta\nu_B\frac{\eta c S E_{r0}^2}{h\nu}}} =
 \sqrt{\frac{\varepsilon_0\eta c S}{2 h \nu \Delta\nu_B}}E_{s0} = 
 \sqrt{\frac{\eta P_s}{h \nu \Delta \nu_B}}.
 \label{SNRhd}
-\end{equation}\index{Šum!{heterodinska detekcija}}
-Če to primerjamo z vrednostjo $SNR$ pri navadni detekciji (enačba~\ref{SNRs}), vidimo, 
+\end{equation}
+Če to primerjamo z vrednostjo $SNR$ pri navadni detekciji (enačba~\ref{SNRs}), 
+vidimo,\index{Šum!{heterodinska detekcija}} 
 da se razmerje signal proti šumu pri isti pasovni širini izboljša za faktor $\sqrt{2}$
-(oziroma še več, če je prisoten še kakšen drug šum).
+(oziroma še več, če je prisoten še kakšen drug šum).\index{Razmerje signal proti šumu}
 Ker je pri navadni detekciji težko meriti pri tako majhni pasovni širini, je razmerje
 signal proti šumu v primeru heterodinske detekcije posledično praviloma znatno večje
 od razmerja, ki ga dosežemo pri navadni detekciji. Prednost heterodinskega 
