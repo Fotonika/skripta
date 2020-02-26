@@ -690,12 +690,11 @@ ki izhajajo iz točke predmeta pred optičnim sistemom. Žarek
 je pravokoten na valovne ploskve, pri čemer moramo vzeti še limito zelo majhne
 valovne dolžine. Ukrivljenost valovne fronte je neposredno
 povezana s spreminjanjem naklona žarkov, pri čemer bomo privzeli, da so 
-nakloni žarkov glede na os majhni.
+nakloni žarkov glede na optično os (os $z$) majhni.
 
 Žarek v izbrani ravnini $z$ opišemo z dvema parametroma: 
-oddaljenostjo $y$ od osi in naklonom $\vartheta$ glede na os sistema. Ti dve količini 
-sta med seboj neodvisni in ju sestavimo 
-v vektor
+oddaljenostjo $y$ od optične osi in naklonom $\vartheta$ glede na optično os sistema. 
+Ti dve količini sta med seboj neodvisni in ju sestavimo v vektor
 \begin{equation}
 \left[\begin{array}{c}
 y\\
@@ -736,7 +735,8 @@ C & D
 \end{equation}
 zato jih imenujemo matrike ABCD\index{Matrike ABCD}. Poglejmo nekaj primerov. 
 
-Pri premiku za $d$ vzdolž osi se zaradi končnega naklona spremeni odmik od osi, naklon pa ostane enak
+Pri premiku za $d$ vzdolž optične osi se zaradi končnega naklona 
+spremeni odmik od osi, naklon pa ostane enak
 \begin{equation}
 \left[\begin{array}{c}
 y_{2}\\
@@ -759,7 +759,7 @@ y_{1}\\
 \vartheta_{1}
 \end{array}\right].
 \end{equation}
-Matrika za premik $d$ vzdolž osi $z$ je tako
+Matrika za premik $d$ vzdolž optične osi je tako
 \begin{equation}
 M= \left[\begin{array}{cc}
 1 & d\\
@@ -769,7 +769,7 @@ M= \left[\begin{array}{cc}
 \end{equation}
 Poglejmo še matriko za prehod skozi lečo. 
 Pri prehodu skozi tanko lečo se spremeni nagib žarka. Če je žarek pred
-lečo vzporeden z osjo, gre za lečo skozi gorišče, zato 
+lečo vzporeden z optično osjo, gre za lečo skozi gorišče, zato 
 \begin{equation}
 \left[\begin{array}{c}
 y_{2}\\
@@ -909,7 +909,7 @@ vendar v tem primeru elemente matrike razvrstimo v ulomljeno linearno preslikavo
 Omenimo še eno lastnost matrik ABCD. Kadar po prehodu skozi optične elemente snop svetlobe 
 preide v snov z enakim lomnim količnikom, kot je bil na začetku, je determinanta matrike 
 ABCD enaka 1. V nasprotnem
-primeru je determinanta matrike enaka razmerju lomnih količnikov začetne in končne snovi. 
+primeru je determinanta matrike enaka razmerju lomnih količnikov začetne in končne snovi
 \begin{equation}
 \det(M) = AD-BC = \frac{n_1}{n_2}.
 \end{equation}
