@@ -117,7 +117,7 @@ interferenco na režah, če bo razlika poti delnih valovanj manjša od $c\, t_{c
 Oglejmo si izračun
 na primeru. Imejmo $N=100$ neodvisnih atomov, ki se jim faza naključno
 spreminja s karakterističnim časom $t_{c}=10/\nu$, kjer je $\nu$
-frekvenca valovanja. Na sliki (\ref{fig:amplituda-intenziteta}) sta
+frekvenca valovanja. Na sliki~\ref{fig:amplituda-intenziteta} sta
 prikazana časovna poteka amplitude $E$ (enačba \ref{eq:amplituda-random})
 in $|E|^{2}$.
 \begin{figure}
@@ -130,12 +130,12 @@ in $|E|^{2}$.
 \input{slike/02_fluktuacije03.pdf_tex}\\
 \def\svgwidth{140truemm} 
 \input{slike/02_fluktuacije04.pdf_tex}\\
-\caption{Zgoraj: shematski prikaz jakosti električnega polja 
-ravnega vala s konstantno fazo (rdeča črta) in jakosti električnega
-polja navadnega svetila (modra črta) kot funkcije časa. 
-Spodaj: pripadajoča vrednost $|E|^2$ v primeru ravnega vala (rdeča črta) in 
-v primeru svetlobe iz navadnega svetila (modra črta) kot funkcija
-časa. Modra črtkana črta je povprečna vrednost
+\caption{Shematski prikaz jakosti električnega polja 
+ravnega vala s konstantno fazo (a) in jakosti električnega
+polja navadnega svetila (b) kot funkcije časa. 
+Pripadajoča vrednost $|E|^2$ v primeru ravnega vala (c) in 
+v primeru svetlobe iz navadnega svetila (d) kot funkcija
+časa. Črtkana črta je povprečna vrednost
 $\frac{1}{T}\int_{-T/2}^{T/2}E(t+t')E^{*}(t+t')dt'$
 s časom integracije $T=t_{c}$.}
 \label{fig:amplituda-intenziteta}
@@ -151,7 +151,7 @@ svetlobnega toka iz navadnega svetila približno konstantna le znotraj $t_{c}$.
 Časovno koherenco\index{Koherenca!časovna} je najpreprosteje obravnavati 
 z \index{Michelsonov interferometer}Michelsonovim 
 interferometrom\footnote{Ameriški fizik in nobelovec Albert Abraham Michelson, 1852--1931.},
-ki je prikazan na sliki (\ref{fig:michelson}). 
+ki je prikazan na sliki~\ref{fig:michelson}. 
 \begin{figure}[!h]
 \centering
 \def\svgwidth{85truemm} 
@@ -185,10 +185,10 @@ Zapišimo ugotovitev še matematično.
 Gostota svetlobnega toka na detektorju je sorazmerna s kvadratom jakosti električnega
 polja obeh delnih valovanj
 \begin{equation}
-|E_{d}(t)|^{2}=|E(t)+E(t+\tau)|^{2}=|E(t)|^{2}+|E(t+\tau)|^{2}+2\Re \left(E(t)E^{*}(t+\tau)\right).
+|E_{d}(t)|^{2}=|E(t)+E(t+\tau)|^{2}=|E(t)|^{2}+|E(t+\tau)|^{2}+2\Re \left(E(t)E^{*}(t+\tau)\right),
 \label{eq:Michelson-intenziteta}
 \end{equation}
-Zakasnitev $\tau$ je določena s premikom pomičnega zrcala $\tau=2x/c$.
+pri čemer je zakasnitev $\tau$ določena s premikom pomičnega zrcala.
 Navadno opazujemo v času $T$, ki je dolg v primerjavi s koherenčnim
 časom svetlobe, zato izraz povprečimo po času
 \begin{eqnarray}
@@ -253,8 +253,9 @@ funkciji za svetlobo z \index{Spekter!Lorentzov}Lorentzovim spektrom
 \end{definition}
 
 Poglejmo nekaj značilnih vrednosti koherenčnih dolžin. 
-Koherenčna dolžina svetlobe, izsevane iz črnega telesa, je $l_{c}=c\,t_{c}\approx 
-\hbar c/k_{B}T$ (glej nalogo~\ref{naloga-Planck})\index{Sevanje črnega telesa}. 
+Koherenčna dolžina svetlobe, izsevane iz črnega telesa, je 
+$l_{c}=c\,t_{c}\approx \hslash c/k_{B}T$ (glej nalogo~\ref{naloga-Planck})\index{Sevanje črnega telesa}, pri 
+čemer tukaj $T$ označuje temperaturo telesa. 
 Svetloba s Sonca ($T \approx 6000$~K)
 ima tako koherenčno dolžino zgolj $\sim 0,4~\si{\micro\metre}$, kar ustreza
 koherenčnemu času $t_c \sim 1~\si{fs}$. Svetloba,
@@ -366,7 +367,7 @@ Fouriereva transformiranka funkcije $f(t)$.
 \end{definition}
 
 Za zgled Wiener-Hinčinovega izreka vzemimo primer, ki je predstavljen na 
-sliki~(\ref{fig:amplituda-intenziteta}). 
+sliki~\ref{fig:amplituda-intenziteta}. 
 Ker so trki med atomi naključni, je avtokorelacijska funkcija eksponentno pojemajoča
 \beq
 g(\tau)=e^{i\omega_{0}\tau} e^{-\tau/t_{c}}.
@@ -380,7 +381,7 @@ s(\omega)=\frac{1}{\pi}\frac{\gamma}{(\omega-\omega_{0})^{2}+\gamma^{2}},
 \end{equation}
 pri čemer je $\gamma=1/t_{c}$ spektralna širina. 
 Normirani spekter $s(\omega)$ in ustrezna avtokorelacijska funkcija $g(\tau)$ 
-sta prikazana na sliki~(\ref{fig:SpekterAc}). 
+sta prikazana na sliki~\ref{fig:SpekterAc}. 
 Točke na grafih 
 predstavljajo spekter in izračunano avtokorelacijsko funkcijo 
 za integracijski čas $T=100\,t_{c}$. Za primerjavo sta z rdečo 
@@ -394,7 +395,7 @@ od pričakovanega.
 \input{slike/02_spekter.pdf_tex}\qquad
 \def\svgwidth{65truemm} 
 \input{slike/02_avtokorelacija.pdf_tex}
-\caption{Spekter in avtokorelacijska funkcija valovanja s slike~(\ref{fig:amplituda-intenziteta})}
+\caption{Spekter in avtokorelacijska funkcija valovanja s slike~\ref{fig:amplituda-intenziteta}}
 \label{fig:SpekterAc}
 \end{figure}
 
@@ -423,11 +424,10 @@ sledi, da je v tem primeru tudi avtokorelacijska funkcija Gaussove oblike.
 
 \begin{definition}\label{naloga-Planck}
 Numerično pokaži, da je koherenčni čas svetlobe, ki jo oddaja črno telo s 
-temperaturo $T$, približno enak $t_{c}\approx{\hbar}/{k_{B}T}$.\index{Sevanje črnega telesa}
-Normirani spekter sevanja črnega telesa zapišemo 
-kot \index{Spekter!Planckov}Planckov spekter 
+temperaturo $T$, približno enak $t_{c}\approx{\hslash}/{k_{B}T}$.\index{Sevanje črnega telesa}
+Izhajaj iz Planckovega spektra za sevanje črnega telesa\index{Spekter!Planckov} 
 \begin{equation}
-s(\omega)=\frac{15}{\pi^{4}} \frac{\hbar^4\omega^3}{(kT)^4}/\left(e^{\hbar\omega/kT}-1\right)
+s(\omega)=\frac{15}{\pi^{4}} \frac{\hslash^4\omega^3}{(k_{B}T)^4}/\left(e^{\hslash\omega/k_{B}T}-1\right)
 \quad \textrm{za}~\omega >0,~\textrm{sicer}~s(\omega) = 0.
 \label{eq:Planckov-spekter}
 \end{equation}
@@ -451,7 +451,7 @@ metoda FTIR - {\it Fourier-transform infrared spectroscopy}).\index{Infrardeče 
 Vrnimo se k Youngovemu poskusu\index{Youngov poskus} in interferenci
 \index{Interferenca} na dveh ozkih režah. Osvetljujmo zdaj zaslon, v katerem sta dve odprtini,
 s svetilom končnih razsežnosti. Svetilo naj sveti skoraj enobarvno
-svetlobo in naj bo na simetrali med odprtinama, kot kaže slika~(\ref{fig:shema-interferenca}).
+svetlobo in naj bo na simetrali med odprtinama, kot kaže slika~\ref{fig:shema-interferenca}.
 
 Žarka, ki izhajata iz sredine svetila (polna rdeča črta), 
 opravita do odprtin v ravnini A enako dolgo pot in povzročita na zaslonu B 
@@ -525,12 +525,12 @@ v odprtinah ob istem času $J(P_{1},P_{2})=\langle E(P_{1},t)E^{*}(P_{2},t)\rang
 meri stopnjo prečne koherence med obema odprtinama. Od velikosti
 tega člena je odvisen kontrast interferenčnih prog. Izračunajmo ga.
 
-Polje v posamezni odprtini je vsota prispevkov iz celega izvora
+Polje v posamezni odprtini je vsota prispevkov iz celotnega izvora
 \begin{equation}
 E(P_{j})=-\frac{i}{\lambda}\int E(\xi,\eta)\frac{e^{iks_{j}}}{s_{j}}\, d\xi\, d\eta.
 \end{equation}
 Pri tem je $s_{j}$ razdalja med točko na izvoru s koordinato $(\xi,\eta)$  in točko
-$P_{j}(x_{j},y_{j})$ v odprtini na ravnini A (glej sliko \ref{fig:shema-interferenca}).
+$P_{j}(x_{j},y_{j})$ v odprtini na ravnini A (slika \ref{fig:shema-interferenca}).
 Faktor pred integralom $-i/\lambda$ izhaja iz uklonske teorije (enačba~\ref{eq:Fresnel-Kirchoffov-integral}).
 Tako je 
 \begin{equation}
@@ -631,9 +631,9 @@ vpliv končnega koherenčnega časa, zaradi česar se kontrast interferenčnih
 prog še dodatno zmanjšuje. Interferenčna slika je 
 tako produkt časovnega in prostorskega dela. 
 
-Poglejmo še primer dveh zelo tankih vzporednih rež. 
+Poglejmo še primer dveh zelo ozkih vzporednih rež. 
 Za nekaj različnih razmikov med režama $d$ je intenziteta
-svetlobe na zaslonu prikazana na sliki~(\ref{fig:Interferencna-slika}).
+svetlobe na zaslonu prikazana na sliki~\ref{fig:Interferencna-slika}.
 Če je $d\ll\lambda z/R$ (a), je modulacija interferenčnih prog v sredini
 popolna in se zaradi končnega koherenčnega časa zmanjšuje le pri večjih
 kotih $\vartheta$. Pri nekaj večjem razmiku (b) tudi v sredini kontrast

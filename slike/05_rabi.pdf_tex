@@ -57,12 +57,12 @@
     \put(0.03719677,0.04520779){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.44476126,0.0126356){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2\pi$\end{tabular}}}}%
     \put(0.05776217,0.00790179){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.8749582,0.01002024){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{V}t/\hbar$\end{tabular}}}}%
+    \put(0.8749582,0.01002024){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{V}t/\hslash$\end{tabular}}}}%
     \put(-0.00088911,0.51648957){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$|c_2|^2$\end{tabular}}}}%
     \put(0.03798143,0.57008511){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
     \put(0.80497516,0.00790179){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4\pi$\end{tabular}}}}%
     \put(0.30928096,0.54505339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta=0$\end{tabular}}}}%
-    \put(0.19230511,0.33071096){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta=\mathcal{V}/\hbar$\end{tabular}}}}%
-    \put(0.12445164,0.11068071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta=3\mathcal{V}/\hbar$\end{tabular}}}}%
+    \put(0.19230511,0.33071096){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta=\mathcal{V}/\hslash$\end{tabular}}}}%
+    \put(0.12445164,0.11068071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta=3\mathcal{V}/\hslash$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -39,7 +39,7 @@ stimuliranim sevanjem.
 \begin{remark}
 Kot klasično analogijo za laser vzamemo klarinet, ki je sestavljen iz 
 cevi in ustnika. Cev deluje kot resonator, v katerem nastane 
-stojni zvočni val, pri čemer je frekvenca stoječega vala določena z 
+stoječi zvočni val, pri čemer je frekvenca stoječega vala določena z 
 dolžino cevi in s številom vozlov. Naloga ustnika je dovajanje energije 
 in s tem vzdrževanje konstantne amplitude nihanja. To glasbenik doseže s 
 pihanjem v ustnik in tresenjem prožnega jezička, ki s tresljaji proizvaja 
@@ -145,7 +145,7 @@ P=(1-{\cal {R}}_{1})\frac{c}{2L}\,W.
 }
 Ker so vsi predfaktorji v gornji enačbi konstantni, je izhodna moč kar sorazmerna
 z energijo svetlobe v resonatorju. Odvisnost izhodne moči laserja od črpanja je 
-tako do konstante enaka energiji, prikazani na sliki (\ref{fig:energija}). 
+tako do konstante enaka energiji, prikazani na sliki~\ref{fig:energija}. 
 
 Gostoto svetlobnega toka, ki izhaja iz laserja, zapišemo 
 \begin{equation}
@@ -183,12 +183,12 @@ nivoja $A_{20} \approx 0$. Celoten sistem potem opišemo z dvema
 spremenljivkama: prva je $N_2$, ki označuje zasedenost drugega vzbujenega
 stanja in hkrati približno obrnjeno zasedenost; druga je $n$, ki pove število
 fotonov v izbranem lastnem nihanju resonatorja. Število fotonov določa energijo 
-polja v resonatorju, ki je enaka $W = \hbar\omega n$ (enačba~\ref{4.11}). Ustrezna
-gostota energije je $w = \hbar\omega n/V$, pri čemer je $V$ volumen resonatorja.
+polja v resonatorju, ki je enaka $W = \hslash\omega n$ (enačba~\ref{4.11}). Ustrezna
+gostota energije je $w = \hslash\omega n/V$, pri čemer je $V$ volumen resonatorja.
 
 Zasedbeni enačbi sta
 \begin{equation}
-\frac{dN_2}{dt}=rN-A_{21}N_2-B_{21}gN_2\frac{\hbar \omega}{V}\,n
+\frac{dN_2}{dt}=rN-A_{21}N_2-B_{21}gN_2\frac{\hslash \omega}{V}\,n
 =rN-A_{21}N_2-\frac{\sigma c}{V}\, N_2\,n
 \label{5.7}
 \end{equation}
@@ -234,7 +234,7 @@ Vpeljemo brezdimenzijsko konstanto $p$, pri čemer upoštevamo zvezo
 med Einsteinovimi koeficienti (enačba~\ref{4.27})
 \begin{equation}
 p=\frac{VA_{21}}{\sigma c} = 
-\frac{VA_{21}}{B_{21}\hbar \omega g}=\frac{V\omega ^{2}}{\pi
+\frac{VA_{21}}{B_{21}\hslash \omega g}=\frac{V\omega ^{2}}{\pi
 ^{2}c^{3}g}\approx
 \frac{V\omega ^{2}}{\pi ^{2}c^{3}}\Delta \omega.  
 \label{5.10}
@@ -250,7 +250,7 @@ veliko $p \sim 10^{8}$--$10^{10}$.
 Primerjaj izraz za $p$ (enačba~\ref{5.10}) z izrazom za saturacijsko 
 gostoto toka $j_s$ (enačba~\ref{eq:jsatg}). Pokaži, da velja
 \begin{equation}
-p = \frac{W_s}{\hbar \omega}.
+p = \frac{W_s}{\hslash \omega}.
 \end{equation}
 Parameter $p$ je torej enak številu fotonov v resonatorju, pri katerem pride 
 do nasičenja ojačenja, če je frekvenca nihanja resonatorja blizu 
@@ -283,7 +283,7 @@ Pri razvoju korena smo upoštevali, da mora biti pozitiven.
 Nad pragom je
 število fotonov 
 \boxeq{5.14}{
-n\approx p\left(\frac{G}{G_\mathrm{pr}}-1\right) = \frac{W_s}{\hbar \omega} \left(\frac{G}{G_\mathrm{pr}}-1\right).
+n\approx p\left(\frac{G}{G_\mathrm{pr}}-1\right) = \frac{W_s}{\hslash \omega} \left(\frac{G}{G_\mathrm{pr}}-1\right).
 }
 Rezultat, ki je po pričakovanju skladen z enačbo~(\ref{5.4}), si oglejmo podrobneje. 
 Pod pragom so izgube večje od črpanja in gre praktično vsa moč, ki jo dovedemo v sistem, 
@@ -392,7 +392,7 @@ nas povprečje kvadrata spremembe faznega kota pri enem spontano izsevanem foton
 =\frac{1}{2\overline{n}},
 \label{5.17}
 \end{equation}
-pri čemer je kot $\psi$ označen na sliki. 
+pri čemer je kot $\psi$ označen na sliki~\ref{fig:fazor}. 
 Zaporedne spontane emisije so med seboj neodvisne, zato izračunamo
 povprečni kvadrat spremembe faze pri $m$ emisijah tako, da seštejemo
 povprečne kvadrate za posamezne fotone 
@@ -415,7 +415,7 @@ Tako je število spontano izsevanih fotonov v času $t$ enako $m=2t/\tau $ in
 Čas $t_{p}$, v katerem se faza znatno spremeni, je torej
 velikostnega reda 
 \begin{equation}
-t_{p}\sim \overline{n}\tau =\frac{W}{\hbar \omega }\,\tau =\frac{P}{\hbar
+t_{p}\sim \overline{n}\tau =\frac{W}{\hslash \omega }\,\tau =\frac{P}{\hslash
 \omega }\tau ^{2}.
 \label{5.20}
 \end{equation}
@@ -496,8 +496,8 @@ razdelek~\ref{Prostorska-koherenca}). Ocenimo moč tako dobljenega
 koherentnega snopa za zaslonko.\index{Koherenčna ploskev}
 
 Svetilo naj ima svetlost\footnote{Svetilnost je moč, izsevana v dan 
-prostorski kot $I = dP/d\Omega$; svetlost je svetilnost na enoto ploskve
-$B=I/S = dP/Sd\Omega$.} $B$.  
+prostorski kot; svetlost je svetilnost na enoto ploskve
+$B= dP/Sd\Omega$.} $B$.  
 Moč koherentnega snopa za zaslonko, ki prepušča svetlobo skozi prostorski kot 
 $\Delta\Omega$, je (slika~\ref{fig:svetlost})\index{Svetilnost}\index{Svetlost}
 \begin{equation}
@@ -583,8 +583,8 @@ je zato vdolbina uporabna kot frekvenčni standard.
 S spreminjanjem dolžine resonatorja spreminjamo frekvenco laserja in 
 ko se ta znotraj homogene širine približa sredini absorpcijske črte (pri $\omega_0$), 
 se absorpcija zmanjša in moč laserja poveča. To naredimo tako, da je 
-eno od zrcal pritrjeno na piezoelektrični nosilec, na katerega vodimo
-izmenično napetost s krožno frekvenco $\Omega$. Periodično spreminjanje dolžine
+eno od zrcal pritrjeno na piezoelektrični nosilec, na katerega je priključena
+izmenična napetost s krožno frekvenco $\Omega$. Periodično spreminjanje dolžine
 laserja vodi do spreminjajoče se izhodne moči. Kadar je krožna frekvenca laserja 
 enaka $\omega_0$, se moč spreminja z dvojno krožno frekvenco modulacije $2\Omega$. 
 Kadar pa srednja krožna frekvenca laserja odstopa od $\omega_0$, se izhodna moč 
@@ -627,7 +627,7 @@ meritve. Kot bomo videli v poglavju (\ref{chap:sum}), je najmanjša
 sprememba svetlobne moči, ki jo lahko izmerimo, enaka 
 \begin{equation}  
 \label{5.43}
-P_N\approx \sqrt{\hbar\omega P \frac{1}{\tau}},
+P_N\approx \sqrt{\hslash\omega P \frac{1}{\tau}},
 \end{equation}
 pri čemer je $P$ celotna vpadna svetlobna moč, $\tau$ pa čas
 meritve. Vzemimo na primer He-Ne laser,\index{Laser!He-Ne} stabiliziran na 
@@ -694,8 +694,8 @@ T=\frac{1}{1+\frac{4{\cal {R}}}{(1-{\cal {R}})^{2}}\sin^{2}(\frac{n\omega}{c}L\c
 Debelino etalona in njegov nagib 
 izberemo tako, da vrh prepustnosti sovpada z izbranim lastnim nihanjem resonatorja. 
 Izgube za ostala nihanja, ki bi sicer bila ojačena, so znatno večje in laser
-sveti pri eni sami izbrani frekvenci. Ta proces je shematsko prikazan na sliki 
-(\ref{fig:FPmodes}): izmed vseh možnih stanj v resonatorju (a) svetijo le tista, za katere
+sveti pri eni sami izbrani frekvenci. Ta proces je shematsko prikazan na 
+sliki~\ref{fig:FPmodes}: izmed vseh možnih stanj v resonatorju (a) svetijo le tista, za katere
 je ojačenje nad pragom (b). Ko v resonator dodamo Fabry-Perotov etalon z razmeroma velikim
 razmikom med sosednjimi vrhovi prepustnosti (c), je ojačeno eno samo nihanje (d). 
 Ker zadošča že zmerno povečanje izgub, je odbojnost sten etalona navadno dokaj nizka, 
@@ -736,7 +736,7 @@ in število fotonov opišemo z enačbama (\ref{5.7})
 in (\ref{5.8}). Najprej zaradi preglednosti vpeljemo
 brezdimenzijski čas $t^{\prime}=t A$ in $\tau^{\prime}=\tau A$, kar pomeni, da merimo 
 čas v enotah življenjskega časa laserskega nivoja. Ponovno uporabimo parameter
-$p=VA/(B\hbar\omega g)$ (enačba~\ref{5.10}), ki pomeni število lastnih stanj 
+$p=VA/(B\hslash\omega g)$ (enačba~\ref{5.10}), ki pomeni število lastnih stanj 
 elektromagnetnega polja v volumnu $V$ in znotraj spektralne širine laserskega prehoda. 
 Enačbi zapišemo kot
 \begin{align}  
@@ -823,7 +823,7 @@ se eksponentno vrača v stacionarno stanje. Za $\tau' <2$ je koren v določenem 
 parametra $a$ imaginaren in laser se v stacionarno stanje vrača z
 dušenim nihanjem, ki mu pravimo relaksacijske oscilacije. \index{Relaksacijske oscilacije}
 Primer takega nihanja 
-pri vključitvi laserja kaže slika~(\ref{fig:relax}). Opazimo, da sta tako 
+pri vključitvi laserja kaže slika~\ref{fig:relax}. Opazimo, da sta tako 
 frekvenca relaksacijskih oscilacij kot karakteristični čas dušenja oscilacij
 odvisna od parametra $a$, torej od moči črpanja.
 \begin{figure}[h]
@@ -919,7 +919,7 @@ Iz laserja dobimo kratek in zelo močan sunek svetlobe, pri čemer je energija
 sunka skoraj tolikšna, kot je bila energija obrnjene zasedenosti. Tipične
 dolžine sunkov, ki jih dosežemo na ta način, so $t \sim 10~\si{ns}$, sunki
 pa se ponavljajo s frekvenco $\nu \sim 1$--$100~\si{kHz}$.
-Dogajanje v laserju kaže slika~(\ref{fig:pulseQ}).
+Dogajanje v laserju kaže slika~\ref{fig:pulseQ}.
 
 \begin{remark}
 V elektrotehniki se izgube resonatorjev podajajo z dobroto $Q$, to je razmerjem
@@ -1034,17 +1034,17 @@ $N_{20}$ pade končna zasedenost praktično na nič. Za $a=2$, na primer,
 je $x=0,41$, medtem ko je že pri $a=4$ vrednost $x$ le še 0,08. 
 
 Ko poznamo začetno in končno zasedenost, lahko izračunamo 
-celotno energijo v sunku $W=\hbar \omega (N_{20}-N_{2k})$. Kadar je začetna vrednost
+celotno energijo v sunku $W=\hslash \omega (N_{20}-N_{2k})$. Kadar je začetna vrednost
 dovolj nad pragom ($N_{20}\gg\tilde{N}_{2}$), končno zasedenost zanemarimo ($N_{k}\ll\tilde{N}_{2}$) in 
 celotna energija svetlobe, izsevane v sunku, je 
 \boxeq{QW}{
-W\approx\hbar \omega\,N_{20}.
+W\approx\hslash \omega\,N_{20}.
 }
 \begin{definition}
 \label{nalpmax}
 Trenutna moč, ki izhaja iz laserja, je enaka 
 \begin{equation}
-P=n \hbar \omega \frac{2}{\tau}.
+P=n \hslash \omega \frac{2}{\tau}.
 \end{equation}
 Pokaži, da je izsevana moč največja natanko tedaj, ko pade zasedenost na vrednost pri 
 pragu ($N_{2}=\tilde{N}_{2}$). 
@@ -1052,23 +1052,23 @@ pragu ($N_{2}=\tilde{N}_{2}$).
 
 Največja izsevana moč iz laserja je \index{Izhodna moč laserja}
 \beq
-P_{\rm max}=\frac {n_{\rm max} \hbar \omega}{2L/c}\left(1-\cal{R}\right) = 
-\frac {2 n_{\rm max} \hbar \omega}{\tau},
+P_{\rm max}=\frac {n_{\rm max} \hslash \omega}{2L/c}\left(1-\cal{R}\right) = 
+\frac {2 n_{\rm max} \hslash \omega}{\tau},
 \eeq
 pri čemer smo z $n_\textrm{max}$ označili število fotonov v vrhu sunka. 
 Ko vstavimo še vrednost za $n_{\rm max}$ pri $N_{2}=\tilde{N}_{2}$ (glej 
 nalogo~\ref{nalpmax}), dobimo
 \beq
-P_{\rm max}=\frac {2\hbar \omega}{\tau} \left(N_{20}-\tilde{N}_{2}-\tilde{N}_{2}
+P_{\rm max}=\frac {2\hslash \omega}{\tau} \left(N_{20}-\tilde{N}_{2}-\tilde{N}_{2}
 \ln (N_{20}/\tilde{N}_{2})\right).
 \eeq
 Ker je navadno $N_{20}\gg \tilde{N}_2$, je $n_{\rm max} \approx N_{20}$
 in 
 \boxeq{QP}{
-P_{\rm max} \approx \frac{2}{\tau} \hbar \omega N_{20}.
+P_{\rm max} \approx \frac{2}{\tau} \hslash \omega N_{20}.
 }
 
-Poglejmo primer. Naj bo presek za stimulirano sevanje $\sigma=B\hbar \omega g/c$ 
+Poglejmo primer. Naj bo presek za stimulirano sevanje $\sigma=B\hslash \omega g/c$ 
 okoli $10^{-19}~\si{cm}^{2}$ in začetna gostota zasedenosti $N_{20}/V=10^{19}~\si{cm}^{-3}$.
 Tedaj je $\tau_{r}=30~\si{ps}$ in čas naraščanja
 sunka okoli $\sim 1~\si{ns}$. Število fotonov se nato zmanjšuje s
@@ -1078,7 +1078,7 @@ izhodnega zrcala navadno dokaj nizka, recimo $0,5$. Pri dolžini resonatorja
 $L=15~\si{cm}$ je $\tau=4~\si{ns}$.
 Celotno trajanje sunka je v izbranem primeru $~\sim~10~\si{ns}$, pri
 čemer traja okoli $100~\si{ns}$ od preklopa dobrote do trenutka, ko sunek zraste iz šuma
-spontanega sevanja. Energija v sunku je blizu $N_{20}\hbar \omega $, to pri
+spontanega sevanja. Energija v sunku je blizu $N_{20}\hslash \omega $, to pri
 aktivnem volumnu $0,5~\si{cm}^3$ znaša $\sim~1~\si{\joule}$. Ocenimo, da je
 moč v vrhu sunka $\sim~100~\si{MW}$.
 
@@ -1387,19 +1387,19 @@ kjer je $E(t)$ polje v resonatorju, ki naj bo zaradi preprostosti
 polarizirano v smeri osi $x$. Časovno odvisno stanje atomov
 zapišemo v obliki 
 \begin{equation}  \label{5.45}
-|\psi\rangle=c_1(t)|1\rangle\exp(-iE_1t/\hbar)+
-c_2(t)|2\rangle\exp(-iE_2t/\hbar).
+|\psi\rangle=c_1(t)|1\rangle\exp(-iE_1t/\hslash)+
+c_2(t)|2\rangle\exp(-iE_2t/\hslash).
 \end{equation}
 Iz Schr\"odingerjeve enačbe (enačba~\ref{eq:sk-S}) dobimo za časovna odvoda
 koeficientov $c_1(t)$ in $c_2(t)$ zvezi
 (glej enačbi~\ref{eq:c1c2})
 \begin{equation}
-\frac{d c_1}{dt}=-\frac{i}{\hbar} \mathcal{V} E(t) e^{-i\omega_0 t}\, c_2 
+\frac{d c_1}{dt}=-\frac{i}{\hslash} \mathcal{V} E(t) e^{-i\omega_0 t}\, c_2 
 \qquad \mathrm{in} \qquad
-\frac{d c_2}{dt}=-\frac{i}{\hbar} \mathcal{V} E(t) e^{i\omega_0 t}\, c_1,
+\frac{d c_2}{dt}=-\frac{i}{\hslash} \mathcal{V} E(t) e^{i\omega_0 t}\, c_1,
 \label{5.46}
 \end{equation}
-pri čemer je $\mathcal{V} = -e\langle1|\hat{x}|2\rangle$ realen in $\omega_0=(E_2-E_1)/\hbar$.
+pri čemer je $\mathcal{V} = -e\langle1|\hat{x}|2\rangle$ realen in $\omega_0=(E_2-E_1)/\hslash$.
 
 Električni dipolni moment atoma v stanju ${\psi}$ je 
 \begin{equation}  
@@ -1419,14 +1419,14 @@ s časom spreminja parameter $\eta(t)$. Njegov časovni odvod izrazimo
 iz enačb (\ref{5.46}) in dobimo
 \begin{equation}  
 \label{5.49}
-\dot{\eta}=- i \omega_0\eta+\frac{i}{\hbar}\,\mathcal{V}E(t) \left(|c_2|^2-|c_1|^2\right).
+\dot{\eta}=- i \omega_0\eta+\frac{i}{\hslash}\,\mathcal{V}E(t) \left(|c_2|^2-|c_1|^2\right).
 \end{equation}
 Spomnimo, da je $|c_i|^2$ verjetnost za zasedenost stanja $|i\rangle$. Izraz v oklepaju
 na desni strani gornje enačbe torej meri razliko zasedenosti obeh stanj, ki jo označimo
 s $\zeta$. Podobno kot zgoraj izrazimo spreminjanje razlike zasedenosti s časovni odvodom 
 \begin{equation}  
 \label{5.50}
-\dot{\zeta}=\frac{2i}{\hbar}\, \mathcal{V} E(t)\left(\eta- \eta^{\ast}\right).
+\dot{\zeta}=\frac{2i}{\hslash}\, \mathcal{V} E(t)\left(\eta- \eta^{\ast}\right).
 \end{equation}
 S tem smo iz Schr\"odingerjeve enačbe dobili enačbi za časovni razvoj
 dipolnega momenta in obrnjene zasedenosti, vendar ju moramo še dopolniti.
@@ -1451,7 +1451,7 @@ Zaradi črpanja zavzame obrnjena zasedenost neko vrednost $-1<\zeta_0<1$,
 odvisno od moči črpanja. Enačbi (\ref{5.50}) dodamo ustrezen člen
 \begin{equation}  
 \label{5.51}
-\dot{\zeta}=A\left(\zeta_0-\zeta\right)+\frac{2i}{\hbar}\,\mathcal{V}E(t)\left(\eta-\eta^{\ast}\right),
+\dot{\zeta}=A\left(\zeta_0-\zeta\right)+\frac{2i}{\hslash}\,\mathcal{V}E(t)\left(\eta-\eta^{\ast}\right),
 \end{equation}
 ki opisuje vpliv črpanja in spontane prehode v nižje stanje. 
 
@@ -1465,12 +1465,12 @@ izsevane pri prehodu $2\rightarrow 1$, z $\gamma$. Zapišemo
 dopolnjeno enačbo
 \begin{equation}  
 \label{5.52}
-\dot{\eta}=- \left(i \omega_0+\gamma\right)\eta+\frac{i}{\hbar}\,\mathcal{V} E(t) \zeta
+\dot{\eta}=- \left(i \omega_0+\gamma\right)\eta+\frac{i}{\hslash}\,\mathcal{V} E(t) \zeta
 \end{equation}
 in kompleksno konjugirano enačbo
 \begin{equation}  
 \label{5.52c}
-\dot{\eta}^*=-\left(-i \omega_0+\gamma\right)\eta^*-\frac{i}{\hbar}\,\mathcal{V}E(t) \zeta.
+\dot{\eta}^*=-\left(-i \omega_0+\gamma\right)\eta^*-\frac{i}{\hslash}\,\mathcal{V}E(t) \zeta.
 \end{equation}
 Dobili smo sistem sklopljenih diferencialnih enačb, ki opisuje časovno
 spreminjanje obrnjene zasedenosti in dipolnega momenta atoma. 
@@ -1501,9 +1501,9 @@ Namesto mikroskopske količine $\zeta$ uvedemo gostoto obrnjene
 zasedenosti $Z=(N/V)\zeta$ in enačbe (\ref{5.51}), (\ref{5.52}) in (\ref{5.52c})
 prepišemo v obliko 
 \begin{eqnarray}
-\frac{dZ}{dt} &=& A\left(Z_0-Z\right)+\frac{2i}{\hbar}E\left(P^- - P^+\right), \label{5.56} \\
-\frac{dP^+}{dt}&=&\left(-i \omega_0-\gamma\right)P^{+}-\frac{i}{\hbar} \mathcal{V}^2 E  Z, \label{5.56b}\\
-\frac{dP^-}{dt}&=&\left(i \omega_0-\gamma\right)P^{-}+\frac{i}{\hbar} \mathcal{V}^2 E  Z.\label{5.56c} 
+\frac{dZ}{dt} &=& A\left(Z_0-Z\right)+\frac{2i}{\hslash}E\left(P^- - P^+\right), \label{5.56} \\
+\frac{dP^+}{dt}&=&\left(-i \omega_0-\gamma\right)P^{+}-\frac{i}{\hslash} \mathcal{V}^2 E  Z, \label{5.56b}\\
+\frac{dP^-}{dt}&=&\left(i \omega_0-\gamma\right)P^{-}+\frac{i}{\hslash} \mathcal{V}^2 E  Z.\label{5.56c} 
 \end{eqnarray}
 Opozorimo še, da je prehod z enačb (\ref{5.51}--\ref{5.52c}) na (\ref{5.56}--\ref{5.56c}) 
 mogoč le, kadar so vsi atomi enakovredni, to je, kadar ni nehomogene razširitve 
@@ -1593,7 +1593,7 @@ predvsem zato, ker sklapljajo različna lastna nihanja resonatorja, vendar to
 presega našo obravnavo. Iz enačbe~(\ref{5.56b}) dobimo
 \begin{equation}  
 \label{5.64}
-\frac{d P_n^+}{dt}=\left(-i \omega_0-\gamma\right)P_n^{+}-\frac{i}{\hbar}
+\frac{d P_n^+}{dt}=\left(-i \omega_0-\gamma\right)P_n^{+}-\frac{i}{\hslash}
 \mathcal{V}^2 E_n^+ \overline{Z}.
 \end{equation}
 Povprečje $\overline{Z}$ izrazimo iz enačbe (\ref{5.56}). V zadnjem členu nastopajo produkti 
@@ -1603,7 +1603,7 @@ normirane, tako da je $\int u_n^2\left(\mathbf{r}\right) \,dV=V$ in $\overline{u
 Sledi
 \begin{equation}  
 \label{5.65}
-\frac{d\overline{Z}}{dt}= A\left(\overline{Z}_0-\overline{Z}\right)+ \frac{2i}{\hbar}\left(E_n^+
+\frac{d\overline{Z}}{dt}= A\left(\overline{Z}_0-\overline{Z}\right)+ \frac{2i}{\hslash}\left(E_n^+
 +E_n^-\right)\left(P_n^- - P_n^+\right),
 \end{equation}
 kjer je $\overline{Z}_0$ povprečje nenasičene zasedenosti $Z_0$. V zadnjem
@@ -1615,7 +1615,7 @@ saj skoraj nič ne vplivajo na valovanje blizu $\omega_n$. Časovno odvisnost
 $\overline{Z}$ tako zapišemo 
 \begin{equation}  
 \label{5.66}
-\frac{d\overline{Z}}{dt}= A\left(\overline{Z}_0-\overline{Z}\right)+\frac{2i}{\hbar}\left(E_n^+
+\frac{d\overline{Z}}{dt}= A\left(\overline{Z}_0-\overline{Z}\right)+\frac{2i}{\hslash}\left(E_n^+
 P_n^- - E_n^- P_n^+\right).
 \end{equation}
 Enačbe (\ref{5.63}), (\ref{5.64}) in (\ref{5.66}) predstavljajo skupaj s konjugirano
@@ -1636,15 +1636,15 @@ tako da
 \begin{eqnarray}
 \left(i\left(\Omega - \omega_n\right)-\frac{1}{\tau}\right) E_{0}+\frac{i\omega _{0}}
 {2\epsilon _{0}}\,P_{0} &=&0  \label{5.67} \\
-\left(i\left(\Omega-\omega_{0}\right)-\gamma\right)P_{0}-\frac{i}{\hbar}\mathcal{V}^{2}
+\left(i\left(\Omega-\omega_{0}\right)-\gamma\right)P_{0}-\frac{i}{\hslash}\mathcal{V}^{2}
 E_{0}\overline{Z} &=&0 \label{5.67b}\\
-A\left(\overline{Z}_{0}-\overline{Z}\right)+\frac{2i}{\hbar }\,E_{0}\left(P_{0}^{*}-P_{0}\right) &=&0.
+A\left(\overline{Z}_{0}-\overline{Z}\right)+\frac{2i}{\hslash }\,E_{0}\left(P_{0}^{*}-P_{0}\right) &=&0.
 \end{eqnarray}
 
 Najprej iz druge enačbe izrazimo $P_0$, ga vstavimo v tretjo in izračunamo $\overline{Z}$. Dobimo
 \begin{equation}  
 \label{5.68}
-\overline{Z}=\overline{Z}_0\left(1+\frac{4\mathcal{V}^2}{\hbar^2 A}\,E_0^2\, \frac{\gamma}
+\overline{Z}=\overline{Z}_0\left(1+\frac{4\mathcal{V}^2}{\hslash^2 A}\,E_0^2\, \frac{\gamma}
 {\left(\omega_0-\Omega\right)^2+\gamma^2}\right)^{-1}.
 \end{equation}
 Ta izraz že poznamo. V njem prepoznamo Einsteinov
@@ -1663,7 +1663,7 @@ Vstavimo $P_0$ iz prve enačbe sistema (\ref{5.67}) v drugo (\ref{5.67b})
 \begin{equation}  
 \label{5.70}
 E_0\left(-i\Omega+i\omega_n+\frac{1}{\tau}\right) \left(i\Omega- i\omega_0
--\gamma\right)=-\frac{V^2 \omega_0}{2\hbar\epsilon_0}\,E_0\,\overline{Z}.
+-\gamma\right)=-\frac{V^2 \omega_0}{2\hslash\epsilon_0}\,E_0\,\overline{Z}.
 \end{equation}
 V delujočem laserju je $E_0\ne 0$, zato ga lahko krajšamo. Vrednost $\overline{Z}$ je
 realna, tako da mora biti imaginarni del leve strani enak nič. Dobimo

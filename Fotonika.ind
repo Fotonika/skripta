@@ -1,12 +1,12 @@
 \begin{theindex}
 
   \item Absorpcija, \hyperpage{78}, \hyperpage{163}, \hyperpage{176}
-  \item Absorpcija fotona, \hyperpage{75}
+  \item Absorpcija fotona, \hyperpage{74}
   \item Absorpcijski koeficient, \hyperpage{78}, \hyperpage{80}, 
 		\hyperpage{86}
-  \item Akusto-opti\IeC {\v c}ni modulator, \hyperpage{215}
-  \item Akusto-opti\IeC {\v c}ni pojav, \hyperpage{113}, 
-		\hyperpage{211}, \hyperpage{213}, \hyperpage{216}
+  \item Akusto-optični modulator, \hyperpage{215}
+  \item Akusto-optični pojav, \hyperpage{113}, \hyperpage{211}, 
+		\hyperpage{213}, \hyperpage{216}
   \item AlGaAs, \hyperpage{140}
   \item Atenuacijski koeficient, \hyperpage{163}
   \item Avtokorelacijska funkcija, \hyperpage{28}, \hyperpage{32}
@@ -18,8 +18,7 @@
   \item Bennettova vdolbina, \hyperpage{86}
   \item Besslov snop, \hyperpage{45}
     \subitem divergenca, \hyperpage{45}
-  \item Bining, 
-		\hyperindexformat{\see {Zdru\IeC {\v z}evanje pikslov}}{192}
+  \item Bining, \hyperindexformat{\see {Združevanje pikslov}}{192}
   \item Blochov teorem, \hyperpage{224}
   \item Bolometer, \hyperpage{175}, \hyperpage{177}, \hyperpage{191}
   \item Boltzmannova porazdelitev, \hyperpage{73}, \hyperpage{77}
@@ -27,7 +26,7 @@
 		\hyperpage{214}, \hyperpage{225}
   \item Braggov uklon, \hyperpage{213}, \hyperpage{217, 218}
   \item Brewstrov kot, \hyperpage{16}
-  \item Brewstrovo okno, \hyperpage{16}, \hyperpage{123, 124}, 
+  \item Brewstrovo okno, \hyperpage{17}, \hyperpage{123, 124}, 
 		\hyperpage{126}
   \item Brillouinovo sipanje, \hyperpage{262}
     \subitem stimulirano, \hyperpage{262}, \hyperpage{264, 265}
@@ -38,33 +37,23 @@
   \item CS$_2$, \hyperpage{248--250}, \hyperpage{264}
 
   \indexspace
-  
-  \item \IeC {\v C}irikanje, \hyperpage{161}, \hyperpage{254}, 
-		\hyperpage{265}
-  \item \IeC {\v C}rpanje, \hyperpage{81}, \hyperpage{94}, 
-		\hyperpage{107}, \hyperpage{117}, \hyperpage{134}, 
-		\hyperpage{138}
-		\subitem vzdol\IeC {\v z}no, \hyperpage{129}
 
-   \indexspace
-		
   \item Definicija metra, \hyperpage{115}
   \item Detektor, \hyperpage{175}
     \subitem barvni, \hyperpage{193}
     \subitem CCD, \hyperpage{191}
-    \subitem CMOS, \hyperpage{191}, \hyperpage{193}
-    \subitem kvantni, \hyperpage{175}, \hyperpage{180}
-    \subitem najmanj\IeC {\v s}i merljivi signal, \hyperpage{176}
-    \subitem ob\IeC {\v c}utljivost, \hyperpage{176}, \hyperpage{181}
-    \subitem odzivni \IeC {\v c}as, \hyperpage{176, 177}, 
-		\hyperpage{182}, \hyperpage{189}
+    \subitem CMOS, \hyperpage{191, 192}
+    \subitem kvantni, \hyperpage{175}, \hyperpage{179}
+    \subitem najmanjši merljivi signal, \hyperpage{176}
+    \subitem občutljivost, \hyperpage{176}, \hyperpage{181}
+    \subitem odzivni čas, \hyperpage{176, 177}, \hyperpage{182}, 
+		\hyperpage{188}
     \subitem spektralni odziv, \hyperpage{176}, \hyperpage{185}
-    \subitem termi\IeC {\v c}ni, \hyperpage{175, 176}
+    \subitem termični, \hyperpage{175, 176}
   \item DFG, \hyperindexformat{\see {Generacija razlike frekvenc}}{231}
-  \item Dielektri\IeC {\v c}nost, \hyperpage{9}, \hyperpage{21}, 
-		\hyperpage{201}, \hyperpage{216}, \hyperpage{220}, 
-		\hyperpage{223}
-    \subitem inverzna, \hyperpage{202}, \hyperpage{204}, 
+  \item Dielektričnost, \hyperpage{9}, \hyperpage{20}, \hyperpage{201}, 
+		\hyperpage{216}, \hyperpage{220}, \hyperpage{223}
+    \subitem inverzna, \hyperpage{201}, \hyperpage{204}, 
 		\hyperpage{211}
   \item Disperzija, \hyperpage{114}, \hyperpage{144}, \hyperpage{156}, 
 		\hyperpage{254, 255}
@@ -74,48 +63,46 @@
     \subitem rodovna, \hyperpage{157}, \hyperpage{265}
     \subitem valovodna, \hyperpage{158}
   \item Dobrota resonatorja, \hyperpage{63}, \hyperpage{108}
-  \item Dopplerjeva raz\IeC {\v s}iritev, \hyperpage{29}, 
-		\hyperpage{54}, \hyperpage{84, 85}, \hyperpage{122}, 
-		\hyperpage{124}, \hyperpage{126}
-  \item Dvolomnost, \hyperpage{23}, \hyperpage{207}, \hyperpage{212}, 
+  \item Dopplerjeva razširitev, \hyperpage{29}, \hyperpage{54}, 
+		\hyperpage{84, 85}, \hyperpage{122}, \hyperpage{124}, 
+		\hyperpage{126}
+  \item Dvolomnost, \hyperpage{22}, \hyperpage{207}, \hyperpage{212}, 
 		\hyperpage{236}
     \subitem dvoosne snovi, \hyperpage{21}, \hyperpage{205}, 
 		\hyperpage{207}
-    \subitem enoosne snovi, \hyperpage{21, 22}, \hyperpage{204, 205}, 
+    \subitem enoosne snovi, \hyperpage{21}, \hyperpage{204, 205}, 
 		\hyperpage{220}, \hyperpage{223}, \hyperpage{236}
-  \item Dvonivojski sistem, \hyperpage{74}, \hyperpage{77}, 
+  \item Dvonivojski sistem, \hyperpage{74}, \hyperpage{76}, 
 		\hyperpage{85}, \hyperpage{88}, \hyperpage{91}
 
   \indexspace
 
-  \item Einsteinovi koeficienti, \hyperpage{76, 77}, \hyperpage{88}, 
+  \item Einsteinovi koeficienti, \hyperpage{76}, \hyperpage{88}, 
 		\hyperpage{90}
-  \item Elasto-opti\IeC {\v c}ni pojav, \hyperpage{211}
-  \item Elasto-opti\IeC {\v c}ni tenzor, \hyperpage{212}
-  \item Elektri\IeC {\v c}na polarizacija, \hyperpage{9}, 
-		\hyperpage{216}, \hyperpage{229}, \hyperpage{247}, 
-		\hyperpage{263}
-  \item Elektri\IeC {\v c}no polje
-    \subitem gostota, \hyperpage{9}, \hyperpage{21}, \hyperpage{23}
-    \subitem jakost, \hyperpage{9}, \hyperpage{11}, \hyperpage{23}, 
+  \item Elasto-optični pojav, \hyperpage{211}
+  \item Elasto-optični tenzor, \hyperpage{212}
+  \item Električna polarizacija, \hyperpage{9}, \hyperpage{216}, 
+		\hyperpage{229}, \hyperpage{247}, \hyperpage{263}
+  \item Električno polje
+    \subitem gostota, \hyperpage{9}, \hyperpage{20}, \hyperpage{22}
+    \subitem jakost, \hyperpage{9}, \hyperpage{11}, \hyperpage{22}, 
 		\hyperpage{72}, \hyperpage{229}
-  \item Elektro-opti\IeC {\v c}na modulacija
+  \item Elektro-optična modulacija
     \subitem amplitudna, \hyperpage{201}, \hyperpage{208}
     \subitem fazna, \hyperpage{201}, \hyperpage{209}
-    \subitem frekven\IeC {\v c}na, \hyperpage{201}, \hyperpage{209}
+    \subitem frekvenčna, \hyperpage{201}, \hyperpage{209}
     \subitem linearna, \hyperpage{209}
     \subitem longitudinalna, \hyperpage{204}, \hyperpage{208, 209}
     \subitem transverzalna, \hyperpage{206}
-  \item Elektro-opti\IeC {\v c}ni deflektor, \hyperpage{211}
-  \item Elektro-opti\IeC {\v c}ni pojav, \hyperpage{172}, 
-		\hyperpage{201}
+  \item Elektro-optični deflektor, \hyperpage{211}
+  \item Elektro-optični pojav, \hyperpage{172}, \hyperpage{201}
     \subitem kvadratni, \hyperindexformat{\see {Kerrov pojav}}{202}
     \subitem linearni, \hyperindexformat{\see {Pockelsov pojav}}{202}
-  \item Elektro-opti\IeC {\v c}ni tenzor, \hyperpage{202}
-  \item Energijska re\IeC {\v z}a, \hyperpage{134}, \hyperpage{180}
+  \item Elektro-optični tenzor, \hyperpage{202}
+  \item Energijska reža, \hyperpage{134}, \hyperpage{179}
   \item Energijski nivoji
     \subitem argon, \hyperpage{124}
-    \subitem CO$_2$, \hyperpage{126}
+    \subitem CO$_2$, \hyperpage{125}
     \subitem ekscimer, \hyperpage{127}
     \subitem He-Ne, \hyperpage{122}
     \subitem Nd:YAG, \hyperpage{128}
@@ -131,7 +118,7 @@
   \item Faktor $M^2$, \hyperpage{40}, \hyperpage{132}
   \item Fermi-Diracova porazdelitev, \hyperpage{135}
   \item Fermijeva energija, \hyperpage{135}, \hyperpage{185}
-  \item Fermijevo zlato pravilo, \hyperpage{88}, \hyperpage{137}
+  \item Fermijevo zlato pravilo, \hyperpage{88}, \hyperpage{136}
   \item Fotocelica, \hyperindexformat{\see {Fotodioda, vakuumska}}{181}
   \item Fotodioda, \hyperpage{195}
     \subitem $p$-$i$-$n$, \hyperpage{185}, \hyperpage{189}
@@ -140,20 +127,20 @@
     \subitem heterostrukturna, \hyperpage{189}
     \subitem kratko sklenjena, \hyperpage{187, 188}
     \subitem plazovna, \hyperpage{175}, \hyperpage{180}, 
-		\hyperpage{190, 191}, \hyperpage{197}
-    \subitem polprevodni\IeC {\v s}ka, \hyperpage{175}, \hyperpage{180}, 
+		\hyperpage{189}, \hyperpage{191}, \hyperpage{197}
+    \subitem polprevodniška, \hyperpage{175}, \hyperpage{180}, 
 		\hyperpage{185}, \hyperpage{198}
-    \subitem prevodna smer, \hyperpage{186}, \hyperpage{188}
+    \subitem prevodna smer, \hyperpage{186, 187}
     \subitem Schottkyjeva, \hyperpage{189}, \hyperpage{191}
     \subitem vakuumska, \hyperpage{175}, \hyperpage{180, 181}
     \subitem zaporna smer, \hyperpage{186--188}, \hyperpage{190}
-  \item Fotoefekt, \hyperpage{175}, \hyperpage{180}
+  \item Fotoefekt, \hyperpage{175}, \hyperpage{179}
     \subitem notranji, \hyperpage{180}, \hyperpage{183}, 
 		\hyperpage{185}
-    \subitem zunanji, \hyperpage{180, 181}, \hyperpage{183}
+    \subitem zunanji, \hyperpage{179}, \hyperpage{181, 182}
   \item Foton, \hyperpage{73}
   \item Fotona d.o.o., \hyperpage{129}
-  \item Fotopomno\IeC {\v z}evalka, \hyperpage{180}, \hyperpage{183}, 
+  \item Fotopomnoževalka, \hyperpage{180}, \hyperpage{182}, 
 		\hyperpage{197}
   \item Fotoprevodnik, \hyperpage{180}, \hyperpage{183}, 
 		\hyperpage{191}
@@ -164,15 +151,15 @@
   \item Fraunhoferjev uklon, \hyperpage{20}, \hyperpage{34}, 
 		\hyperpage{37}, \hyperpage{44}
   \item Frederiksov prehod, \hyperpage{226}
-  \item Frekven\IeC {\v c}ni glavnik, \hyperpage{114}
-  \item Frekven\IeC {\v c}no podvajanje, \hyperpage{231}, 
-		\hyperpage{234}, \hyperpage{265}
+  \item Frekvenčni glavnik, \hyperpage{114}
+  \item Frekvenčno podvajanje, \hyperpage{231}, \hyperpage{234}, 
+		\hyperpage{265}
     \subitem Gaussovih snopov, \hyperpage{239}
   \item Fresnel-Kirchhoffov integral, \hyperpage{18}
   \item Fresnelov uklon, \hyperpage{19}, \hyperpage{34}, 
 		\hyperpage{37, 38}, \hyperpage{44}
-  \item Fresnelove ena\IeC {\v c}be, \hyperpage{15}
-  \item Fresnelovo \IeC {\v s}tevilo, \hyperpage{20}, \hyperpage{55}, 
+  \item Fresnelove enačbe, \hyperpage{15}
+  \item Fresnelovo število, \hyperpage{20}, \hyperpage{55}, 
 		\hyperpage{62}
   \item FTIR, \hyperpage{32}
 
@@ -184,16 +171,16 @@
   \item GaP, \hyperpage{134}, \hyperpage{246}
   \item GaSe, \hyperpage{246}
   \item Gaussov snop, \hyperpage{39}, \hyperpage{42}, \hyperpage{56}
-    \subitem bli\IeC {\v z}nje polje, \hyperpage{40}
+    \subitem bližnje polje, \hyperpage{40}
     \subitem divergenca, \hyperpage{40}
     \subitem efektivni polmer, \hyperpage{152}, \hyperpage{169}
     \subitem faza, \hyperpage{42}
-    \subitem frekven\IeC {\v c}no podvajanje, \hyperpage{239, 240}
+    \subitem frekvenčno podvajanje, \hyperpage{239, 240}
     \subitem grlo, \hyperpage{40}, \hyperpage{48}
     \subitem intenziteta, \hyperpage{42}
     \subitem kompleksna ukrivljenost, \hyperpage{42}
     \subitem kompleksni krivinski radij, \hyperpage{42}
-    \subitem krivinski radij, \hyperpage{41}, \hyperpage{57}
+    \subitem krivinski radij, \hyperpage{41}, \hyperpage{56}
     \subitem polmer, \hyperpage{39}
   \item Gaussov sunek, \hyperpage{161}
   \item Generacija razlike frekvenc, \hyperpage{231}
@@ -216,25 +203,25 @@
   \item Hamiltonova funkcija, \hyperpage{73}, \hyperpage{91}
   \item Harmonski oscilator, \hyperpage{73}, \hyperpage{89}, 
 		\hyperpage{262}
-  \item Helmholtzeva ena\IeC {\v c}ba, \hyperpage{11}, \hyperpage{38}, 
+  \item Helmholtzeva enačba, \hyperpage{11}, \hyperpage{38}, 
 		\hyperpage{45}, \hyperpage{145}, \hyperpage{149}, 
 		\hyperpage{165}
   \item Hermite-Gaussovi snopi, \hyperpage{43}, \hyperpage{66}
-  \item Heterodinska detekcija, \hyperpage{115}, \hyperpage{199}
+  \item Heterodinska detekcija, \hyperpage{115}, \hyperpage{198}
   \item Heterostruktura, \hyperpage{140}
-  \item Hitrost valovanja, \hyperpage{10}, \hyperpage{21}
+  \item Hitrost valovanja, \hyperpage{10}, \hyperpage{20}
     \subitem fazna, \hyperpage{144}
     \subitem grupna, \hyperpage{144}, \hyperpage{156}, \hyperpage{160}, 
 		\hyperpage{256}
     \subitem solitonov, \hyperpage{253}
   \item Hologram, \hyperpage{219}, \hyperpage{258}
   \item Homodinska detekcija, \hyperpage{199}
-  \item Huygensovo na\IeC {\v c}elo, \hyperpage{19}
+  \item Huygensovo načelo, \hyperpage{19}
 
   \indexspace
 
   \item InAs, \hyperpage{134}, \hyperpage{185}
-  \item Infrarde\IeC {\v c}e valovanje, \hyperpage{17}, \hyperpage{32}, 
+  \item Infrardeče valovanje, \hyperpage{17}, \hyperpage{32}, 
 		\hyperpage{122}, \hyperpage{125}, \hyperpage{128}, 
 		\hyperpage{132}, \hyperpage{140}, \hyperpage{164}, 
 		\hyperpage{175}, \hyperpage{179, 180}, 
@@ -247,22 +234,20 @@
   \item Interferenca, \hyperpage{25}, \hyperpage{28}, \hyperpage{32}, 
 		\hyperpage{35}
   \item Iterbij, \hyperpage{128}, \hyperpage{132}
-  \item Izgube v opti\IeC {\v c}nih vlaknih, \hyperpage{163}
+  \item Izgube v optičnih vlaknih, \hyperpage{163}
     \subitem Rayleighovo sipanje, \hyperpage{164}
     \subitem spoj dveh vlaken, \hyperpage{168}
     \subitem ukrivljeno vlakno, \hyperpage{165}
   \item Izgube v resonatorju, \hyperpage{63}, \hyperpage{67}, 
-		\hyperpage{93, 94}, \hyperpage{96}, \hyperpage{108}
-  \item Izhodna mo\IeC {\v c} laserja, \hyperpage{95}, 
-		\hyperpage{110, 111}
+		\hyperpage{93, 94}, \hyperpage{96}, \hyperpage{107}
+  \item Izhodna moč laserja, \hyperpage{95}, \hyperpage{110, 111}
   \item Izstopno delo, \hyperpage{180}
 
   \indexspace
 
-  \item Johnson-Nyquistov \IeC {\v s}um, 
-		\hyperindexformat{\see{\IeC {\v S}um, termi\IeC {\v c}ni}}{196}
-  \item Johnsonov \IeC {\v s}um, 
-		\hyperindexformat{\see{\IeC {\v S}um, termi\IeC {\v c}ni}}{196}
+  \item Johnson-Nyquistov šum, 
+		\hyperindexformat{\see{Šum, termični}}{195}
+  \item Johnsonov šum, \hyperindexformat{\see{Šum, termični}}{195}
   \item Jonesov vektor, \hyperpage{13}
   \item Jonesova matrika, \hyperpage{13}
 
@@ -272,29 +257,28 @@
   \item Karakteristika diode, \hyperpage{186}
   \item Karakteristika fotodiode, \hyperpage{187}, \hyperpage{190}
   \item KDP, \hyperpage{24}, \hyperpage{203, 204}, \hyperpage{206}, 
-		\hyperpage{230}, \hyperpage{238}, \hyperpage{240}
+		\hyperpage{231}, \hyperpage{238}, \hyperpage{240}
   \item Kerrov pojav, \hyperpage{202}
-    \subitem opti\IeC {\v c}ni, \hyperpage{114}, \hyperpage{247}, 
+    \subitem optični, \hyperpage{114}, \hyperpage{247}, 
 		\hyperpage{260}, \hyperpage{265}
   \item Kerrov tenzor, \hyperpage{202}
   \item KH$_2$PO$_4$, \hyperindexformat{\see {KDP}}{24}
   \item Kirchhoffov integral, \hyperpage{18}, \hyperpage{64}
   \item Kleinmanova domneva, \hyperpage{230}, \hyperpage{233}
   \item Koeficient $M$, \hyperpage{219}
-  \item Koeficient oja\IeC {\v c}enja, \hyperpage{83}, \hyperpage{96}
-  \item Koheren\IeC {\v c}na dol\IeC {\v z}ina, \hyperpage{28}
-  \item Koheren\IeC {\v c}na ploskev, \hyperpage{33, 34}, 
-		\hyperpage{101}
-  \item Koheren\IeC {\v c}na razdalja, \hyperpage{26}, \hyperpage{32}
-  \item Koheren\IeC {\v c}ni \IeC {\v c}as, \hyperpage{25}, 
-		\hyperpage{28}, \hyperpage{30}
+  \item Koeficient ojačenja, \hyperpage{83}, \hyperpage{96}
   \item Koherenca, \hyperpage{25}
-    \subitem \IeC {\v c}asovna, \hyperpage{25}, \hyperpage{27}
     \subitem prostorska, \hyperpage{26}, \hyperpage{32}
+    \subitem časovna, \hyperpage{25}, \hyperpage{27}
+  \item Koherenčna dolžina, \hyperpage{28}
+  \item Koherenčna ploskev, \hyperpage{33, 34}, \hyperpage{101}
+  \item Koherenčna razdalja, \hyperpage{26}, \hyperpage{32}
+  \item Koherenčni čas, \hyperpage{25}, \hyperpage{28}, 
+		\hyperpage{30}
   \item Kompleksna ukrivljenost, \hyperpage{42}
   \item Kompleksni krivinski radij, \hyperpage{42}
   \item Kvantizacija polja, \hyperpage{71}, \hyperpage{88}
-  \item Kvantni izkoristek, \hyperpage{181}
+  \item Kvantni izkoristek, \hyperpage{180}
     \subitem notranji, \hyperpage{181}
     \subitem zunanji, \hyperpage{181}
   \item Kvazi-Fermijeva energija, \hyperpage{136}
@@ -307,7 +291,7 @@
     \subitem argonov, \hyperpage{81}, \hyperpage{124}, \hyperpage{127}
     \subitem CO$_2$, \hyperpage{125}, \hyperpage{127}
     \subitem ekscimerni, \hyperpage{127}
-    \subitem enofrekven\IeC {\v c}ni, \hyperpage{100}, \hyperpage{118}
+    \subitem enofrekvenčni, \hyperpage{100}, \hyperpage{118}
     \subitem He-Ne, \hyperpage{48}, \hyperpage{81}, \hyperpage{84, 85}, 
 		\hyperpage{99}, \hyperpage{101}, \hyperpage{103}, 
 		\hyperpage{115}, \hyperpage{122}, \hyperpage{127}
@@ -315,33 +299,33 @@
     \subitem Nd:YAG, \hyperpage{81}, \hyperpage{84, 85}, 
 		\hyperpage{113}, \hyperpage{128, 129}, \hyperpage{234}
     \subitem organska barvila, \hyperpage{131}, \hyperpage{163}
-    \subitem polprevodni\IeC {\v s}ki, \hyperpage{81}, \hyperpage{97}, 
+    \subitem polprevodniški, \hyperpage{81}, \hyperpage{97}, 
 		\hyperpage{134}
     \subitem Ramanski, \hyperpage{133}
     \subitem s potencialno jamo, \hyperpage{141}
     \subitem Ti:safir, \hyperpage{81}, \hyperpage{112}, \hyperpage{114}, 
 		\hyperpage{129, 130}, \hyperpage{163}
     \subitem VCSEL, \hyperpage{141}
-    \subitem ve\IeC {\v c}frekven\IeC {\v c}ni, \hyperpage{103}
+    \subitem večfrekvenčni, \hyperpage{103}
     \subitem vlakenski, \hyperpage{29}, \hyperpage{59}, \hyperpage{132}
     \subitem zgradba, \hyperpage{123, 124}, \hyperpage{126}, 
 		\hyperpage{129}, \hyperpage{133}, \hyperpage{139}
   \item Laserski sistemi, \hyperpage{121}
   \item Lastne frekvence resonatorja, \hyperpage{53, 54}, 
 		\hyperpage{61}, \hyperpage{70}
-  \item LED, \hyperindexformat{\see {Svetle\IeC {\v c}e diode}}{142}
+  \item LED, \hyperindexformat{\see {Svetleče diode}}{141}
   \item LiNbO$_3$, \hyperpage{24}, \hyperpage{203}, \hyperpage{206}, 
-		\hyperpage{212}, \hyperpage{230}, \hyperpage{244, 245}, 
+		\hyperpage{212}, \hyperpage{231}, \hyperpage{244, 245}, 
 		\hyperpage{264}
   \item LiTaO$_3$, \hyperpage{178, 179}
-  \item Lomni koli\IeC {\v c}nik, \hyperpage{10}, \hyperpage{21, 22}, 
+  \item Lomni količnik, \hyperpage{10}, \hyperpage{21, 22}, 
 		\hyperpage{143}, \hyperpage{201}, \hyperpage{205}, 
 		\hyperpage{212, 213}, \hyperpage{220}, \hyperpage{236}
     \subitem efektivni, \hyperpage{248}
-    \subitem izredni, \hyperpage{22}
+    \subitem izredni, \hyperpage{21}
     \subitem nelinearni, \hyperpage{248}
-    \subitem redni, \hyperpage{22}
-  \item Lomni zakon, \hyperpage{14}, \hyperpage{23}
+    \subitem redni, \hyperpage{21}
+  \item Lomni zakon, \hyperpage{14}, \hyperpage{22}
 
   \indexspace
 
@@ -350,79 +334,73 @@
   \item Magnetno polje
     \subitem gostota, \hyperpage{9}, \hyperpage{11}, \hyperpage{72}
     \subitem jakost, \hyperpage{9}
-  \item Makerjeve oscilacije, \hyperpage{235}
+  \item Makerjeve oscilacije, \hyperpage{236}
   \item Marcusejeva formula, \hyperpage{152}, \hyperpage{169}
-  \item Matrike ABCD, \hyperpage{49}, \hyperpage{51}, \hyperpage{60}
-  \item Maxwell-Blochove ena\IeC {\v c}be, \hyperpage{117}
+  \item Matrike ABCD, \hyperpage{49}, \hyperpage{51}, \hyperpage{59}
+  \item Maxwell-Blochove enačbe, \hyperpage{117}
   \item Maxwellova porazdelitev, \hyperpage{85}
-  \item Maxwellove ena\IeC {\v c}be, \hyperpage{9}
+  \item Maxwellove enačbe, \hyperpage{9}
     \subitem robni pogoji, \hyperpage{10}
   \item Metoda sklopljenih valov, \hyperpage{216}
-  \item Metoda vzdol\IeC {\v z}nega premika, \hyperpage{251}
+  \item Metoda vzdolžnega premika, \hyperpage{251}
   \item Michelsonov interferometer, \hyperpage{27}, \hyperpage{36}
   \item Multipleksiranje, \hyperpage{164}
 
   \indexspace
 
-  \item Nasi\IeC {\v c}ena absorpcija, \hyperpage{79}, \hyperpage{102}, 
+  \item Nasičena absorpcija, \hyperpage{79}, \hyperpage{102}, 
 		\hyperpage{113}
-    \subitem nehomogeno raz\IeC {\v s}irjene \IeC {\v c}rte, 
-		\hyperpage{85}
-    \subitem stabilizacija frekvence, \hyperpage{102}	
-  \item Navzkri\IeC {\v z}na fazna modulacija, \hyperpage{266}
-  \item Navzkri\IeC {\v z}na korelacijska funkcija, \hyperpage{33}
-  \item Nedejavni \IeC {\v z}arek, \hyperpage{243}
+    \subitem {stabilizacija frekvence}, \hyperpage{102}
+    \subitem nehomogeno razširjene črte, \hyperpage{85}
+  \item Navzkrižna fazna modulacija, \hyperpage{266}
+  \item Navzkrižna korelacijska funkcija, \hyperpage{33}
+  \item Nedejavni žarek, \hyperpage{243}
   \item Nelinearna optika, \hyperpage{229}
-    \subitem drugega reda, \hyperpage{231}, \hyperpage{265}
+    \subitem drugega reda, \hyperpage{230}, \hyperpage{265}
     \subitem tretjega reda, \hyperpage{247}, \hyperpage{265}
     \subitem v vlaknih, \hyperpage{265}
   \item $NEP$, \hyperpage{198}
   \item Neujemanje faz, \hyperpage{244}
   \item Normirana frekvenca, \hyperpage{148}
-  \item Notranje oja\IeC {\v c}enje, \hyperpage{183}, \hyperpage{185}, 
+  \item Notranje ojačenje, \hyperpage{182}, \hyperpage{185}, 
 		\hyperpage{190}, \hyperpage{197}
-  \item Numeri\IeC {\v c}na odprtina, \hyperpage{143}
-  \item Nyquistov \IeC {\v s}um, 
-		\hyperindexformat{\see{\IeC {\v S}um, termi\IeC {\v c}ni}}{196}
+  \item Numerična odprtina, \hyperpage{143}
+  \item Nyquistov šum, \hyperindexformat{\see{Šum, termični}}{195}
 
   \indexspace
 
-  \item Obmo\IeC {\v c}je bli\IeC {\v z}njega polja, \hyperpage{37}, 
-		\hyperpage{40}
-  \item Obosna valovna ena\IeC {\v c}ba, \hyperpage{38}, \hyperpage{43}, 
+  \item Območje bližnjega polja, \hyperpage{37}, \hyperpage{40}
+  \item Obosna valovna enačba, \hyperpage{38}, \hyperpage{43}, 
 		\hyperpage{56}, \hyperpage{251}
   \item Obrnjena zasedenost, \hyperpage{81, 82}, \hyperpage{96}, 
-		\hyperpage{108}, \hyperpage{167}
-  \item Oja\IeC {\v c}enje s stimuliranim sevanjem, 
+		\hyperpage{107}, \hyperpage{167}
+  \item Ojačenje s stimuliranim sevanjem, 
 		\hyperindexformat{\see{Stimulirano sevanje}}{96}
-  \item Oja\IeC {\v c}enje v polprevodnikih, \hyperpage{136}
-  \item Oja\IeC {\v c}evanje s stimuliranim sevanjem, 
+  \item Ojačenje v polprevodnikih, \hyperpage{136}
+  \item Ojačevanje s stimuliranim sevanjem, 
 		\hyperindexformat{\see{Stimulirano sevanje}}{94}
-  \item Opti\IeC {\v c}na fazna konjugacija, \hyperpage{258, 259}
-  \item Opti\IeC {\v c}na os, \hyperpage{22}
-  \item Opti\IeC {\v c}ni parametri\IeC {\v c}ni oscilator, 
-		\hyperpage{244}
-  \item Opti\IeC {\v c}ni vodnik, \hyperpage{143}
+  \item Optična fazna konjugacija, \hyperpage{257}, \hyperpage{259}
+  \item Optična os, \hyperpage{21}
+  \item Optični parametrični oscilator, \hyperpage{244}
+  \item Optični vodnik, \hyperpage{143}
     \subitem enorodovni, \hyperpage{144}, \hyperpage{147}
     \subitem lastni rodovi, \hyperpage{145}
     \subitem lihi rodovi, \hyperpage{146}
-    \subitem pla\IeC {\v s}\IeC {\v c}, \hyperpage{143}
     \subitem planparalelni, \hyperpage{143}, \hyperpage{145}, 
 		\hyperpage{165}
+    \subitem plašč, \hyperpage{143}
     \subitem sodi rodovi, \hyperpage{146}
     \subitem sredica, \hyperpage{143}
-    \subitem \IeC {\v s}tevilo rodov, \hyperpage{148}
     \subitem TE rodovi, \hyperpage{145}
     \subitem TM rodovi, \hyperpage{148}
-    \subitem ve\IeC {\v c}rodovni, \hyperpage{147}
-  \item Opti\IeC {\v c}no \IeC {\v c}rpanje, \hyperpage{82}
-  \item Opti\IeC {\v c}no oja\IeC {\v c}evanje, \hyperpage{81}, 
-		\hyperpage{84}, \hyperpage{93}
+    \subitem večrodovni, \hyperpage{147}
+    \subitem število rodov, \hyperpage{148}
+  \item Optično ojačevanje, \hyperpage{81}, \hyperpage{84}, 
+		\hyperpage{93}
     \subitem v vlaknih, \hyperpage{167}, \hyperpage{264}
-  \item Opti\IeC {\v c}no parametri\IeC {\v c}no oja\IeC {\v c}evanje, 
-		\hyperpage{242}
-  \item Opti\IeC {\v c}no usmerjanje, \hyperpage{231}, \hyperpage{245}
-  \item Opti\IeC {\v c}no vlakno, \hyperpage{132}, \hyperpage{143}, 
+  \item Optično parametrično ojačevanje, \hyperpage{242}
+  \item Optično usmerjanje, \hyperpage{231}, \hyperpage{245}
+  \item Optično vlakno, \hyperpage{132}, \hyperpage{143}, 
 		\hyperpage{149}
     \subitem dopirano z erbijem, \hyperpage{167}
     \subitem EH rodovi, \hyperpage{152}
@@ -430,57 +408,55 @@
 		\hyperpage{159}, \hyperpage{164}
     \subitem HE rodovi, \hyperpage{152}
     \subitem LP rodovi, \hyperpage{153}
-    \subitem paraboli\IeC {\v c}ni profil lomnega koli\IeC {\v c}nika, 
-		\hyperpage{155}
-    \subitem \IeC {\v s}tevilo rodov, \hyperpage{153}
+    \subitem parabolični profil lomnega količnika, \hyperpage{155}
     \subitem TE rodovi, \hyperpage{150}
     \subitem TM rodovi, \hyperpage{150}
-    \subitem ve\IeC {\v c}rodovno, \hyperpage{149}, \hyperpage{157}
+    \subitem večrodovno, \hyperpage{149}, \hyperpage{157}
+    \subitem število rodov, \hyperpage{153}
+  \item Optično črpanje, \hyperpage{82}
 
   \indexspace
 
-  \item Paraksialna ena\IeC {\v c}ba, 
-		\hyperindexformat{\see{Obosna valovna ena\IeC {\v c}ba}}{38}
-  \item Parametri\IeC {\v c}no oja\IeC {\v c}evanje, 
-		\hyperindexformat{\see{Opti\IeC {\v c}no parametri\IeC {\v c}no oja\IeC {\v c}evanje}}{242}
-  \item Pasovna \IeC {\v s}irina detekcije, \hyperpage{195}
+  \item Paraksialna enačba, 
+		\hyperindexformat{\see{Obosna valovna enačba}}{38}
+  \item Parametrično ojačevanje, 
+		\hyperindexformat{\see{Optično parametrično ojačevanje}}{242}
+  \item Pasovna širina detekcije, \hyperpage{195}
   \item PbS, \hyperpage{183}, \hyperpage{185}
   \item $\pi$-napetost, \hyperpage{206, 207}, \hyperpage{209}
-  \item Piksel, \hyperpage{191}, \hyperpage{193}
-  \item Piroelektri\IeC {\v c}ni detektor, \hyperpage{175}, 
-		\hyperpage{178}
+  \item Piksel, \hyperpage{191, 192}
+  \item Piroelektrični detektor, \hyperpage{175}, \hyperpage{178}
   \item Planckov zakon, \hyperpage{74}, \hyperpage{197}
-  \item Plo\IeC {\v s}\IeC {\v c}ica $\lambda/2$, \hyperpage{14}, 
-		\hyperpage{206}, \hyperpage{222}
-  \item Plo\IeC {\v s}\IeC {\v c}ica $\lambda/4$, \hyperpage{14}, 
-		\hyperpage{209}
   \item Ploskev valovnega vektorja, \hyperpage{21}
+  \item Ploščica $\lambda/2$, \hyperpage{14}, \hyperpage{206}, 
+		\hyperpage{222}
+  \item Ploščica $\lambda/4$, \hyperpage{14}, \hyperpage{209}
   \item Pockelsov pojav, \hyperpage{202}
   \item Pockelsov tenzor, 
-		\hyperindexformat{\see {Elektro-opti\IeC {\v c}ni tenzor}}{202}
+		\hyperindexformat{\see {Elektro-optični tenzor}}{202}
   \item Poissonova porazdelitev, \hyperpage{194}
   \item Polarizacija, \hyperpage{13}, \hyperpage{22}, \hyperpage{24}
-    \subitem cirkularna, \hyperpage{13}
-    \subitem elipti\IeC {\v c}na, \hyperpage{13}, \hyperpage{21}
+    \subitem eliptična, \hyperpage{13}, \hyperpage{21}
+    \subitem krožna, \hyperpage{13}
     \subitem linearna, \hyperpage{13}
-    \subitem TE, \hyperpage{15}, \hyperpage{144}
+    \subitem TE, \hyperpage{14}, \hyperpage{144}
     \subitem TM, \hyperpage{15}, \hyperpage{144}
-  \item Polprevodni\IeC {\v s}ka fotodioda, 
-		\hyperindexformat{\see {Fotodioda, polprevodni\IeC {\v s}ka}}{185}
   \item Polprevodnik, \hyperpage{134}
     \subitem tip $n$, \hyperpage{136}, \hyperpage{185}
     \subitem tip $p$, \hyperpage{136}, \hyperpage{185}
+  \item Polprevodniška fotodioda, 
+		\hyperindexformat{\see {Fotodioda, polprevodniška}}{185}
   \item Porazdeljena povratna sklopitev, \hyperpage{141}
   \item Poyntingov izrek, \hyperpage{11}
-  \item Poyntingov vektor, \hyperpage{11}, \hyperpage{23}, 
+  \item Poyntingov vektor, \hyperpage{11}, \hyperpage{22}, 
 		\hyperpage{45}
   \item Prag delovanja laserja, \hyperpage{95}, \hyperpage{97}, 
 		\hyperpage{139}
-  \item Preklop dobrote, \hyperindexformat{\see{Sunkovni laser}}{108}
+  \item Preklop dobrote, \hyperindexformat{\see{Sunkovni laser}}{107}
   \item Prekrivalni integral, \hyperpage{167}, \hyperpage{169}
   \item Presek za absorpcijo, \hyperpage{78}, \hyperpage{84}
   \item Presek za stimulirano sevanje, \hyperpage{84}
-  \item Preslikava z le\IeC {\v c}o, \hyperpage{46}
+  \item Preslikava z lečo, \hyperpage{46}
 
   \indexspace
 
@@ -494,26 +470,26 @@
     \subitem Stokesovo, \hyperpage{262}
   \item Ravni val, \hyperpage{12}, \hyperpage{26}, \hyperpage{38}, 
 		\hyperpage{71}
-  \item Rayleighova dol\IeC {\v z}ina, \hyperpage{40}
-  \item Rayleighovo obmo\IeC {\v c}je, 
-		\hyperindexformat{\see{Obmo\IeC {\v c}je bli\IeC {\v z}njega polja}}{40}
+  \item Rayleighova dolžina, \hyperpage{40}
+  \item Rayleighovo območje, 
+		\hyperindexformat{\see{Območje bližnjega polja}}{40}
   \item Rayleighovo sipanje, \hyperpage{163}
-  \item Razmerje signal proti \IeC {\v s}umu, \hyperpage{176}, 
-		\hyperpage{195}, \hyperpage{200}
-  \item Razpadni \IeC {\v c}as, \hyperpage{75}
-  \item Razvr\IeC {\v s}\IeC {\v c}anje po valovni dol\IeC {\v z}ini, 
+  \item Razmerje signal proti šumu, \hyperpage{176}, \hyperpage{194}, 
+		\hyperpage{200}
+  \item Razpadni čas, \hyperpage{75}
+  \item Razvrščanje po valovni dolžini, 
 		\hyperindexformat{\see Multipleksiranje}{164}
   \item Relaksacijske oscilacije, \hyperpage{105--107}
   \item Resonator, \hyperpage{53}, \hyperpage{93}
-    \subitem cikli\IeC {\v c}ni, \hyperpage{59}
-    \subitem koncentri\IeC {\v c}ni, \hyperpage{57, 58}
+    \subitem ciklični, \hyperpage{59}
+    \subitem koncentrični, \hyperpage{57, 58}
     \subitem konfokalni, \hyperpage{57, 58}, \hyperpage{62}, 
 		\hyperpage{65}
     \subitem nestabilni, \hyperpage{59}
     \subitem odprti, \hyperpage{54}
-    \subitem parametri\IeC {\v c}ni oscilator, \hyperpage{244}
+    \subitem parametrični oscilator, \hyperpage{244}
     \subitem planparalelni, \hyperpage{56--58}, \hyperpage{62}
-    \subitem simetri\IeC {\v c}ni, \hyperpage{57}
+    \subitem simetrični, \hyperpage{57}
 
   \indexspace
 
@@ -521,111 +497,97 @@
   \item Samozbiranje, \hyperpage{247}, \hyperpage{249}
   \item Saturacijska energija, \hyperpage{94}
   \item Saturacijska gostota toka, \hyperpage{79}, \hyperpage{83}
-  \item Schr\"odingerjeva ena\IeC {\v c}ba, \hyperpage{38}, 
-		\hyperpage{91}
+  \item Schr\"odingerjeva enačba, \hyperpage{38}, \hyperpage{91}
     \subitem nelinearna, \hyperpage{252}, \hyperpage{257}
-  \item Sekularna ena\IeC {\v c}ba
+  \item Sekularna enačba
     \subitem lihi rodovi, \hyperpage{146}
     \subitem sodi rodovi, \hyperpage{146}
     \subitem TM rodovi, \hyperpage{148}
-    \subitem za cilindri\IeC {\v c}no vlakno, \hyperpage{151}
-  \item Semiklasi\IeC {\v c}ni model, \hyperpage{91}, \hyperpage{116}
-  \item Sevanje \IeC {\v c}rnega telesa, \hyperpage{29}, \hyperpage{32}, 
+    \subitem za cilindrično vlakno, \hyperpage{151}
+  \item Semiklasični model, \hyperpage{91}, \hyperpage{115}
+  \item Sevanje črnega telesa, \hyperpage{29}, \hyperpage{32}, 
 		\hyperpage{73, 74}, \hyperpage{197}
   \item SFG, \hyperindexformat{\see {Generacija vsote frekvenc}}{231}
-  \item SHG, 
-		\hyperindexformat{\see {Frekven\IeC {\v c}no podvajanje}}{231}
+  \item SHG, \hyperindexformat{\see {Frekvenčno podvajanje}}{231}
   \item Silicij, \hyperpage{134}, \hyperpage{183--185}, \hyperpage{191}, 
 		\hyperpage{197, 198}
   \item SiO$_2$, \hyperpage{158, 159}, \hyperpage{164}, \hyperpage{189}, 
 		\hyperpage{191}, \hyperpage{257}, \hyperpage{264, 265}
-  \item Sklopitev \IeC {\v s}tirih valov, \hyperpage{266}
   \item Sklopitev med valovodi, \hyperpage{168}
     \subitem 3-dB sklopitev, \hyperpage{172}
   \item Sklopitev resonatorja
     \subitem z okolico, \hyperpage{66}
     \subitem z resonatorjem, \hyperpage{70}
-  \item Sklopitev v opti\IeC {\v c}no vlakno, \hyperpage{167}
-    \subitem bo\IeC {\v c}na sklopitev, \hyperpage{168}
-    \subitem \IeC {\v c}elna sklopitev, \hyperpage{167}
+  \item Sklopitev v optično vlakno, \hyperpage{167}
+    \subitem bočna sklopitev, \hyperpage{168}
+    \subitem čelna sklopitev, \hyperpage{167}
+  \item Sklopitev štirih valov, \hyperpage{266}
   \item $SNR$, 
-		\hyperindexformat{\see{Razmerje signal proti \IeC {\v s}umu}}{195}
+		\hyperindexformat{\see{Razmerje signal proti šumu}}{194}
   \item Soliton
     \subitem krajevni, \hyperpage{249--251}
-    \subitem opti\IeC {\v c}ni, \hyperpage{254, 255}, \hyperpage{265}
+    \subitem optični, \hyperpage{254, 255}, \hyperpage{265}
   \item Spekter, \hyperpage{29}, \hyperpage{114}
     \subitem Gaussov, \hyperpage{29}, \hyperpage{31}, \hyperpage{85}
     \subitem Lorentzov, \hyperpage{29}, \hyperpage{31}, \hyperpage{63}, 
 		\hyperpage{75}, \hyperpage{84}
     \subitem Planckov, \hyperpage{32}, \hyperpage{74}
     \subitem Voigtov, \hyperpage{85}
-  \item Spektralna \IeC {\v c}rta, \hyperpage{75}, \hyperpage{98}, 
+  \item Spektralna gostota energije, \hyperpage{74}, \hyperpage{76, 77}
+  \item Spektralna gostota moči, \hyperpage{101}
+  \item Spektralna črta, \hyperpage{75}, \hyperpage{98}, 
 		\hyperpage{102}
-    \subitem homogena raz\IeC {\v s}iritev, \hyperpage{84}, 
-		\hyperpage{86}, \hyperpage{128}
-    \subitem nehomogena raz\IeC {\v s}iritev, \hyperpage{84}, 
-		\hyperpage{130}
-  \item Spektralna gostota energije, \hyperpage{74--77}
-  \item Spektralna gostota mo\IeC {\v c}i, \hyperpage{101}
-  \item Spoj $p$-$n$, \hyperpage{138}, \hyperpage{142}, \hyperpage{185}
-    \subitem {aktivno obmo\IeC {\v c}je}, \hyperpage{139}
+    \subitem homogena razširitev, \hyperpage{84}, \hyperpage{86}, 
+		\hyperpage{128}
+    \subitem nehomogena razširitev, \hyperpage{84}, \hyperpage{130}
+  \item Spoj $p$-$n$, \hyperpage{138}, \hyperpage{141}, \hyperpage{185}
+    \subitem {aktivno območje}, \hyperpage{138}
     \subitem izpraznjeni sloj, \hyperpage{186}
   \item Spontano sevanje, \hyperpage{75}, \hyperpage{82}, 
 		\hyperpage{90}, \hyperpage{93}, \hyperpage{99}
   \item Stabilnost resonatorja, \hyperpage{55}, \hyperpage{57}, 
 		\hyperpage{60}
-  \item Stimulirano sevanje, \hyperpage{76}, \hyperpage{82}, 
+  \item Stimulirano sevanje, \hyperpage{75}, \hyperpage{82}, 
 		\hyperpage{90}, \hyperpage{99}, \hyperpage{167}
-  \item Stoje\IeC {\v c}e valovanje, \hyperpage{53}, \hyperpage{66}, 
+  \item Stoječe valovanje, \hyperpage{53}, \hyperpage{66}, 
 		\hyperpage{71}
   \item Sunkovni laser, \hyperpage{107, 108}, \hyperpage{111}, 
 		\hyperpage{114}
-    \subitem {preklop \IeC {\v c}rpanja}, \hyperpage{107}
-    \subitem {preklop dobrote}, \hyperpage{108}, \hyperpage{215}
+    \subitem {preklop dobrote}, \hyperpage{107}, \hyperpage{215}
+    \subitem {preklop črpanja}, \hyperpage{107}
   \item Susceptibilnost
     \subitem efektivna, \hyperpage{233}, \hyperpage{237}, 
 		\hyperpage{248}, \hyperpage{263}
-    \subitem elektri\IeC {\v c}na, \hyperpage{9}
+    \subitem električna, \hyperpage{9}
     \subitem kompleksna, \hyperpage{264}
     \subitem linearna, \hyperpage{229}
     \subitem magnetna, \hyperpage{9}
-    \subitem nelinearna, \hyperpage{229, 230}
+    \subitem nelinearna, \hyperpage{229}, \hyperpage{231}
   \item Svetilnost, \hyperpage{101}
-  \item Svetle\IeC {\v c}e diode, \hyperpage{29}, \hyperpage{142}
+  \item Svetleče diode, \hyperpage{29}, \hyperpage{141}
     \subitem OLED, \hyperpage{142}
   \item Svetlost, \hyperpage{101}
 
   \indexspace
-  
-  \item \IeC {\v S}tirinivojski sistem, \hyperpage{81}, \hyperpage{128}
-  \item \IeC {\v S}um, \hyperpage{100}, \hyperpage{193}
-    \subitem {heterodinska detekcija}, \hyperpage{200}
-    \subitem se\IeC {\v s}tevanje, \hyperpage{198}
-    \subitem sevanja ozadja, \hyperpage{193}, \hyperpage{197}
-    \subitem \IeC {\v s}tetja, \hyperpage{193, 194}
-    \subitem temnega toka, \hyperpage{193}, \hyperpage{197}
-    \subitem termi\IeC {\v c}ni, \hyperpage{193}, \hyperpage{196}
-  
-    \indexspace
 
-  \item Teko\IeC {\v c}ekristalni prikazovalnik, \hyperpage{222}, 
+  \item Tekočekristalni prikazovalnik, \hyperpage{222}, 
 		\hyperpage{228}
-  \item Teko\IeC {\v c}i kristali, \hyperpage{24}, \hyperpage{220}
+  \item Tekoči kristali, \hyperpage{24}, \hyperpage{220}
     \subitem 5CB, \hyperpage{24}, \hyperpage{220}
     \subitem direktor, \hyperpage{220}
     \subitem holesterik, \hyperpage{225}
     \subitem nematik, \hyperpage{220}
     \subitem zasukan nematik, \hyperpage{222, 223}
-  \item Telur, \hyperpage{24}, \hyperpage{230}, \hyperpage{239}
+  \item Telur, \hyperpage{24}, \hyperpage{231}, \hyperpage{239}
   \item TEM$_{00}$, \hyperpage{43}
   \item TEM$_{n,m}$, \hyperpage{43}
-  \item Temni tok, \hyperpage{182}, \hyperpage{187}, \hyperpage{197}
-  \item Teraher\IeC {\v c}no valovanje, \hyperpage{175}, 
-		\hyperpage{177}, \hyperpage{245}
+  \item Temni tok, \hyperpage{182}, \hyperpage{186}, \hyperpage{196}
+  \item Teraherčno valovanje, \hyperpage{175}, \hyperpage{177}, 
+		\hyperpage{245}
   \item Termistor, \hyperpage{177}
-  \item Termo\IeC {\v c}len, \hyperpage{175}, \hyperpage{178}
+  \item Termočlen, \hyperpage{175}, \hyperpage{178}
   \item TGS, \hyperpage{178}
-  \item Tirna vrtilna koli\IeC {\v c}ina, \hyperpage{45}
+  \item Tirna vrtilna količina, \hyperpage{45}
   \item Totalni odboj, \hyperpage{17}, \hyperpage{59}, \hyperpage{143}, 
 		\hyperpage{168}
   \item Trinivojski sistem, \hyperpage{81}, \hyperpage{96}, 
@@ -642,30 +604,30 @@
     \subitem pasivno, \hyperpage{113}
   \item Uklon, \hyperpage{17}, \hyperpage{37}, \hyperpage{62}, 
 		\hyperpage{64}, \hyperpage{212, 213}
-  \item Uklonska mre\IeC {\v z}ica, \hyperpage{126}, \hyperpage{132}, 
+  \item Uklonska mrežica, \hyperpage{126}, \hyperpage{132}, 
 		\hyperpage{162}, \hyperpage{213}, \hyperpage{215}
-  \item Ultravijoli\IeC {\v c}no valovanje, \hyperpage{124}, 
-		\hyperpage{127}, \hyperpage{134}, \hyperpage{142}, 
-		\hyperpage{164}, \hyperpage{175}, \hyperpage{180}, 
-		\hyperpage{182}, \hyperpage{185}, \hyperpage{189}, 
-		\hyperpage{191}, \hyperpage{239}
+  \item Ultravijolično valovanje, \hyperpage{124}, \hyperpage{127}, 
+		\hyperpage{134}, \hyperpage{141}, \hyperpage{164}, 
+		\hyperpage{175}, \hyperpage{180}, \hyperpage{182}, 
+		\hyperpage{185}, \hyperpage{189}, \hyperpage{191}, 
+		\hyperpage{239}
 
   \indexspace
 
-  \item Valovna ena\IeC {\v c}ba, \hyperpage{10}, \hyperpage{117}, 
+  \item Valovna enačba, \hyperpage{10}, \hyperpage{117}, 
 		\hyperpage{149}, \hyperpage{216}, \hyperpage{224}
     \subitem nelinearna, \hyperpage{231}, \hyperpage{255}, 
-		\hyperpage{260}
-  \item Valovni vektor, \hyperpage{12}, \hyperpage{23}, \hyperpage{54}, 
+		\hyperpage{259}
+  \item Valovni vektor, \hyperpage{12}, \hyperpage{22}, \hyperpage{54}, 
 		\hyperpage{71}, \hyperpage{144}
-  \item Valovno \IeC {\v s}tevilo, \hyperpage{11}, \hyperpage{71}, 
+  \item Valovno število, \hyperpage{11}, \hyperpage{71}, 
 		\hyperpage{145}
   \item van Cittert-Zernikov izrek, \hyperpage{34}
-  \item Verjetnost za prehod, \hyperpage{75}, \hyperpage{88}
+  \item Verjetnost za prehod, \hyperpage{74, 75}, \hyperpage{88}
 
   \indexspace
 
-  \item Wiener-Hin\IeC {\v c}inov izrek, \hyperpage{30}
+  \item Wiener-Hinčinov izrek, \hyperpage{30}
 
   \indexspace
 
@@ -674,17 +636,31 @@
   \indexspace
 
   \item Z-scan, 
-		\hyperindexformat{\see {Metoda vzdol\IeC {\v z}nega premika}}{251}
-  \item Zaporni tok, \hyperindexformat{\see {Temni tok}}{187}
-  \item Zasedbene ena\IeC {\v c}be, \hyperpage{96}, \hyperpage{116}
-  \item Zasedenost stanj, \hyperpage{77}, \hyperpage{82}
-  \item Zdru\IeC {\v z}evanje pikslov, \hyperpage{192}
+		\hyperindexformat{\see {Metoda vzdolžnega premika}}{251}
+  \item Zaporni tok, \hyperindexformat{\see {Temni tok}}{186}
+  \item Zasedbene enačbe, \hyperpage{96}, \hyperpage{116}
+  \item Zasedenost stanj, \hyperpage{76}, \hyperpage{82}
+  \item Združevanje pikslov, \hyperpage{192}
   \item ZnSe, \hyperpage{249}
   \item ZnTe, \hyperpage{203}, \hyperpage{246}
-  
-   \indexspace 
-    
-  \item \IeC {\v Z}ivljenjski \IeC {\v c}as nihanj, \hyperpage{63}, 
-		\hyperpage{96}
+
+  \indexspace
+
+  \item Čirikanje, \hyperpage{161}, \hyperpage{254}, \hyperpage{265}
+  \item Črpanje, \hyperpage{81}, \hyperpage{94}, \hyperpage{107}, 
+		\hyperpage{117}, \hyperpage{134}, \hyperpage{138}
+    \subitem vzdolžno, \hyperpage{129}
+
+  \indexspace
+
+  \item Štirinivojski sistem, \hyperpage{81}, \hyperpage{128}
+  \item Šum, \hyperpage{100}, \hyperpage{193}
+    \subitem {heterodinska detekcija}, \hyperpage{200}
+    \subitem sevanja ozadja, \hyperpage{193}, \hyperpage{197}
+    \subitem seštevanje, \hyperpage{197}
+    \subitem temnega toka, \hyperpage{193}, \hyperpage{196}
+    \subitem termični, \hyperpage{193}, \hyperpage{195}
+    \subitem štetja, \hyperpage{193}
+  \item Življenjski čas nihanj, \hyperpage{63}, \hyperpage{96}
 
 \end{theindex}

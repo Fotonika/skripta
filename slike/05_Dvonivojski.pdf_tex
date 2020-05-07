@@ -54,31 +54,31 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{05_Dvonivojski.pdf}}%
-    \put(0.78970884,0.12849496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hbar\omega_0$}\end{tabular}}}}%
+    \put(0.78970884,0.12849496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hslash\omega_0$}\end{tabular}}}}%
     \put(0.16256705,0.19121634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_2$}\end{tabular}}}}%
     \put(0.16284895,0.02096338){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_1$}\end{tabular}}}}%
     \put(0.04004102,0.18077728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_2$}\end{tabular}}}}%
     \put(0.04032293,0.01052431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_1$}\end{tabular}}}}%
-    \put(0.02575813,0.09475467){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hbar\omega_0$}\end{tabular}}}}%
+    \put(0.02575813,0.09475467){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hslash\omega_0$}\end{tabular}}}}%
     \put(-0.0012014,0.20680773){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0.25866373,0.20733082){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
     \put(0.65652307,0.19121634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_2$}\end{tabular}}}}%
     \put(0.65680497,0.02096338){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_1$}\end{tabular}}}}%
     \put(0.53399703,0.18077728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_2$}\end{tabular}}}}%
     \put(0.53427893,0.01052431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_1$}\end{tabular}}}}%
-    \put(0.65394703,0.12849496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hbar\omega_0$}\end{tabular}}}}%
+    \put(0.65394703,0.12849496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hslash\omega_0$}\end{tabular}}}}%
     \put(0.5054516,0.20719942){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
     \put(0.41107874,0.19121634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_2$}\end{tabular}}}}%
     \put(0.41136064,0.02096338){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_1$}\end{tabular}}}}%
     \put(0.2885527,0.18077728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_2$}\end{tabular}}}}%
     \put(0.2888346,0.01052431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_1$}\end{tabular}}}}%
-    \put(0.32661379,0.12849496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hbar\omega_0$}\end{tabular}}}}%
+    \put(0.32661379,0.12849496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hslash\omega_0$}\end{tabular}}}}%
     \put(0.76730198,0.20782562){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
     \put(0.91994676,0.19121634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_2$}\end{tabular}}}}%
     \put(0.92022871,0.02096338){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$N_1$}\end{tabular}}}}%
     \put(0.79742077,0.18077728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_2$}\end{tabular}}}}%
     \put(0.79770272,0.01052431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$E_1$}\end{tabular}}}}%
-    \put(0.94276687,0.1523644){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hbar\omega_0$}\end{tabular}}}}%
-    \put(0.94276687,0.08483454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hbar\omega_0$}\end{tabular}}}}%
+    \put(0.94276687,0.1523644){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hslash\omega_0$}\end{tabular}}}}%
+    \put(0.94276687,0.08483454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\hslash\omega_0$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

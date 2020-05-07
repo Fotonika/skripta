@@ -290,9 +290,9 @@ Na splošno je ravni val eliptično polariziran\index{Polarizacija!eliptična} i
 vrh vektorja $\mathbf E_0$ v ravnini, ki je pravokotna 
 na smer širjenja, orisuje elipso. Kadar je elipsa izrojena v daljico,
 govorimo o linearno polariziranem valu\index{Polarizacija!linearna},
-kadar je krog, govorimo o cirkularno polariziranem valu\index{Polarizacija!cirkularna}. 
+kadar je krog, govorimo o krožno (ali cirkularno) polariziranem valu\index{Polarizacija!krožna}. 
 Poljubno polarizacijo lahko vedno zapišemo kot vsoto dveh linearno ali dveh 
-cirkularno polariziranih valovanj. 
+krožno polariziranih valovanj. 
 
 Priročen zapis polarizacije je s kompleksnim \index{Jonesov vektor}Jonesovim 
 vektorjem\footnote{Ameriški fizik Robert Clark Jones, 1916--2004.}
@@ -308,10 +308,10 @@ Dodali smo normalizacijski faktor $|E_{0}|=\sqrt{|E_{x}|^{2}+|E_{y}|^{2}}$.
 Ravni val, linearno polariziran v smeri $x$, tako zapišemo kot $\mathbf{J}=\left(1,0\right)$,
 val, ki je linearno polariziran pod kotom $\ang{45}$ glede na osi
 $x$ in $y$, pa je $\mathbf{J}=\left(1,1\right)/\sqrt{2}$.
-Za zapis cirkularno polariziranega valovanja ni enotnega dogovora. Tukaj pišemo
-desno cirkularno polarizirano valovanje kot 
+Za zapis krožno polariziranega valovanja ni enotnega dogovora. Tukaj pišemo
+desno krožno polarizirano valovanje kot 
 $\mathbf{J}=\left(1,-i\right)/\sqrt{2}$ in
-levo cirkularno polarizirano kot $\mathbf{J}=\left(1,i\right)/\sqrt{2}$.
+levo krožno polarizirano kot $\mathbf{J}=\left(1,i\right)/\sqrt{2}$.
 V našem zapisu je desno polariziran tisti val, pri katerem se jakost električnega
 polja na danem mestu vrti v desno, če gledamo proti izvoru valovanja. 
 
@@ -352,7 +352,7 @@ A=\left[\begin{array}{cc}
 \end{array}\right].
 \end{equation}
 Tak element imenujemo ploščica $\lambda/2$\index{Ploščica $\lambda/2$} in 
-spremeni desno cirkularno polariziran val v levo 
+spremeni desno krožno polariziran val v levo 
 polariziran in obratno, linearno polariziran val pa prezrcali čez koordinatno os. 
 
 Podobno je Jonesova matrika za element, ki eni komponenti doda fazni zamik $\pi/2$ 
@@ -364,7 +364,7 @@ A=\left[\begin{array}{cc}
 \end{array}\right].
 \end{equation}
 Ploščica $\lambda/4$ linearno polarizirano valovanje z Jonesovim vektorjem $(1,1)/\sqrt{2}$
-spremeni v levo cirkularno polarizirano valovanje in cirkularno polarizirano
+spremeni v levo krožno polarizirano valovanje in krožno polarizirano
 valovanje nazaj v linearno. 
 
 \begin{definition}
@@ -400,8 +400,8 @@ govorimo o transverzalnem magnetnem valovanju (TM)\index{Polarizacija!TM}.\\
 \begin{figure}[h]
 \centering \def\svgwidth{130truemm} 
   \input{slike/01_lom.pdf_tex}
-\caption{Lom elektromagnetnega valovanja na meji dveh izotropnih dielektrikov. 
-Levo: transverzalno električno (TE) valovanje. Desno: transverzalno magnetno (TM) valovanje.}
+\caption{Lom elektromagnetnega valovanja na meji dveh izotropnih dielektrikov za (a)
+trans\-ver\-zal\-no električno (TE) valovanje in (b) trans\-ver\-zal\-no magnetno (TM) valovanje}
 \label{fig:Lom}
 \end{figure}
 
@@ -487,7 +487,7 @@ Pri tem je pomembno, ali se svetloba lomi v optično gostejše ($n_1<n_2$) ali v
 redkejše sredstvo ($n_1>n_2$). 
 
 Najprej obravnavajmo primer loma v optično gostejšo snov 
-(sliki a in c). Vidimo, da je pri neki vrednosti vpadnega kota $\vartheta_1$ odbojnost za 
+(sliki~\ref{fig:Brewster} a in c). Vidimo, da je pri neki vrednosti vpadnega kota $\vartheta_1$ odbojnost za 
 TM polarizirano valovanje enaka nič. Ta kot imenujemo \index{Brewstrov kot}Brewstrov 
 kot\footnote{Škotski fizik in znanstvenik Sir David Brewster, 1781--1868.}. 
 Pri Brewstrovem vpadnem kotu je vsa vpadna TM polarizirana svetloba prepuščena
@@ -579,8 +579,8 @@ E_P = -\frac{1}{4\pi}\oint \left(E\,\mathbf{n}\cdot \nabla \frac{e^{ikr}}{r}-
 kjer je $\mathbf{n}$ normala na ploskev, po kateri teče integral, $r$ pa oddaljenost od P
 do dela ploskve $dS$. 
 
-Naj svetloba iz točkastega izvora v točki $T$ (slika \ref{fig:UklonFK}) vpada na zaslon
-z odprtino poljubne oblike. Izračunajmo skalarno polje v točki $P$ na drugi 
+Naj svetloba iz točkastega izvora v točki $T$ vpada na zaslon
+z odprtino poljubne oblike (slika \ref{fig:UklonFK}). Izračunajmo skalarno polje v točki $P$ na drugi 
 strani zaslona. Vpadno svetlobo zapišemo kot
 \begin{equation}
 \label{eq:polje-krogelni-val}
@@ -599,7 +599,8 @@ upravičimo njuno uporabo.
 \begin{figure}[h]
 \centering \def\svgwidth{60truemm} 
   \input{slike/01_uklonFK.pdf_tex}
-\caption{Integracijska ploskev v Kirchhoffovem integralu zajema odprtino in objema točko $P$.}
+\caption{Integracijsko ploskev $S$ v Kirchhoffovem integralu izberemo tako, da zajema odprtino 
+in objema točko $P$.}
 \label{fig:UklonFK}
 \end{figure}
 
@@ -692,10 +693,11 @@ e^{-ik (xx'+yy')/z} dx' dy'.
 \end{equation}
 V njem  prepoznamo Fourierevo transformacijo polja $E_T$.
 Fraunhoferjeva uklonska slika\index{Fraunhoferjev uklon} velja za razmeroma velike oddaljenosti
-zaslona od uklonske odprtine, ko lahko uklonjeni val dovolj dobro opišemo z ravnim valom. 
+zaslona od uklonske odprtine, ko lahko uklonjeni val dovolj dobro opišemo z ravnim valom
+(slika~\ref{fig:UklonFF} a). 
 
 Bolj zapleteno Fresnelovo uklonsko sliko moramo uporabiti, kadar obravnavamo 
-primer bližnjega polja. 
+primer bližnjega polja (slika~\ref{fig:UklonFF} b). 
 Mejo med Fraunhoferjevim in Fresnelovim režimom kvalitativno določa Fresnelovo\index{Fresnelovo število}
 število
 \vglue-5truemm
@@ -783,7 +785,7 @@ ki se širi vzdolž lastne osi $z$, ne sovpada z lastnima osema $x$ ali $y$, nas
 prehodu skozi kristal iz vpadnega linearno polariziranega valovanja na splošno eliptično valovanje\index{Polarizacija!eliptična}. Lastni komponenti namreč potujeta različno
 hitro, zato pride med njima do faznega zamika. 
 
-Za poljubno smer širjenja valovanja in poljubno polarizacijo je račun razmeroma zapleten. 
+Za poljubno smer širjenja valovanja in poljubno polarizacijo svetlobe je račun razmeroma zapleten. 
 Formalni pristop izhaja iz valovne enačbe (enačba~\ref{eq:valovna-skalarna}), v kateri
 moramo upoštevati tudi električno polarizacijo 
 $\mathbf{P} = \epsilon_{0}(\underline{\epsilon}-I)\mathbf{E}$. Iz nje sledi 
@@ -792,7 +794,7 @@ sistem enačb za komponente valovnega vektorja in jakosti električnega polja.
 Rešitev tega sistema najbolj nazorno predstavimo s ploskvijo valovnega vektorja, 
 ki je sklenjena dvolistna ploskev (slika~\ref{kploskev}). Dvolistnost ploskve
 vodi pri vsakem valovnem vektorju $\mathbf{k}$ do dveh rešitev in dveh različnih lomnih
-količnikov, od katerih vsak ustreza eni od ortogonalnih polarizacij. Točke, v katerih
+količnikov, od katerih vsak ustreza eni od ortogonalnih polarizacij svetlobe. Točke, v katerih
 se ploskev dotika sama sebe in sta lomna količnika za obe polarizaciji enaka, 
 določajo smeri optičnih osi. \index{Optična os}
 \begin{figure}[h]
@@ -801,9 +803,9 @@ določajo smeri optičnih osi. \index{Optična os}
 \input{slike/01_kploskev.pdf_tex}
 \caption{Dvolistna ploskev valovnega vektorja, pri čemer zaradi nazornosti rišemo le presečišča
 ploskve z geometrijskimi ravninami v prvem oktantu. 
-V dvoosnem kristalu (levo) sta dve optični osi. Druga os ni narisana, leži pa 
+V dvoosnem kristalu (a) sta dve optični osi. Druga os ni narisana, leži pa 
 simetrično glede na os $z$. Privzeli smo, da velja $n_1<n_2<n_3$.
-V optično enoosnem kristalu (desno) je le ena optična os, \index{Polarizacija}
+V optično enoosnem kristalu (b) je le ena optična os, \index{Polarizacija}
 po dogovoru je to os $z$. Rdeče puščice označujejo ustrezno polarizacijo.}
 \label{kploskev}
 \end{figure}
@@ -812,9 +814,11 @@ po dogovoru je to os $z$. Rdeče puščice označujejo ustrezno polarizacijo.}
 \index{Dvolomnost!enoosne snovi}
 V optično enoosnih kristalih sta dve lastni vrednosti enaki. Lastne vrednosti izberemo
 tako, da velja $n_{1}=n_{2}\neq n_{3}$. Navadno vpeljemo nove 
-oznake: $n_{1}=n_{2}=n_{o}=n_{\perp}$, ki ga imenujemo redni (\textit{ordinary})
-lomni količnik\index{Lomni količnik!redni}, in $n_{3}=n_{e}=n_\parallel$, ki je izredni 
-(\textit{extraordinary}) lomni količnik\index{Lomni količnik!izredni}. 
+oznake: $n_{1}=n_{2}=n_{o}$, ki ga imenujemo redni (\textit{ordinary})
+lomni količnik\index{Lomni količnik!redni}, in $n_{3}=n_{e}$, ki je izredni 
+(\textit{extraordinary}) lomni količnik\index{Lomni količnik!izredni}\footnote{
+Pogosto za $n_o$ uporabljamo oznako $n_{\perp}$ in za $n_e$ oznako $n_{\parallel}$. Oznaki
+nakazujeta smer pripadajoče lastne polarizacije glede na optično os.}. 
 V eni smeri sta lomna količnika za obe polarizaciji enaka in tisti smeri pravimo 
 optična os. Po dogovoru je to os $z$.\index{Optična os} Hitrost valovanja, ki
 se širi vzdolž optične osi, je tako neodvisna od njegove polarizacije.
@@ -873,7 +877,7 @@ v anizotropnih snoveh moramo biti zato pazljivi. Na splošno
 se pojavita dva lomljena žarka z različnima polarizacijama, kar
 da ime pojavu: \index{Dvolomnost}dvolomnost (slika~\ref{fig:dvolomnost}). 
 
-Za redni val s TE polarizacijo (pravokotno na vpadno ravnino) velja navadni lomni zakon, pri čemer
+Za redni val s TE polarizacijo (pravokotno na vpadno ravnino) velja lomni zakon, pri čemer
 je lomni količnik snovi enak rednemu lomnemu količniku $n_o$
 \begin{equation}
 \sin\vartheta_{1}=n_{o}\sin\vartheta_{o}.
@@ -887,7 +891,7 @@ prav tako zapišemo lomni zakon
 le da je lomni količnik $n(\vartheta_e')$ odvisen od smeri širjenja valovanja glede na smer optične osi
 in je določen z enačbo elipse (enačba~\ref{eq:izreden}), kot $\vartheta_e$ pa je določen glede na
 normalo na mejno ploskev. Na splošno je zapis precej zapleten, poenostavi se le, 
-ko je optična os vzporedna ali pravokotna na mejno ploskev. 
+ko je optična os vzporedna mejni ploskvi ali pravokotna nanjo. 
 
 Kadar vpada valovanje pravokotno na izotropno snov, se žarek ne lomi. V 
 dvolomnih snoveh lahko tudi pri pravokotnem vpadu pride do razklona svetlobe (slika
