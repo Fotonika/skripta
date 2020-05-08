@@ -10,28 +10,28 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="06_stacio.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    version="1.1"
    id="svg2"
-   viewBox="0 0 748.9499 186.23378"
+   viewBox="0 0 780.83107 186.23378"
    height="52.559315mm"
-   width="211.3703mm">
+   width="220.36787mm">
   <sodipodi:namedview
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
      fit-margin-top="0"
      inkscape:window-maximized="0"
-     inkscape:window-y="144"
-     inkscape:window-x="366"
+     inkscape:window-y="172"
+     inkscape:window-x="556"
      inkscape:window-height="854"
-     inkscape:window-width="1551"
+     inkscape:window-width="1341"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="-7.0398959"
-     inkscape:cx="489.0058"
-     inkscape:zoom="1.3802615"
+     inkscape:cy="94.737733"
+     inkscape:cx="429.72775"
+     inkscape:zoom="0.97599227"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -309,7 +309,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-47.350935,-128.99014)"
+     transform="translate(-15.583474,-128.99014)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -438,5 +438,27 @@
            height="269.86658"
            x="-57.244427"
            y="-43.24955" /></flowRegion><flowPara
-         id="flowPara2185" /></flowRoot>  </g>
+         id="flowPara2185" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994"
+       x="430.62173"
+       y="148.80304"
+       id="text516"><tspan
+         sodipodi:role="line"
+         x="430.62173"
+         y="148.80304"
+         style="font-size:24.99999809px;stroke-width:0.93749994"
+         id="tspan546">b)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988"
+       x="14.082009"
+       y="148.80304"
+       id="text516-3"><tspan
+         sodipodi:role="line"
+         id="tspan514-6"
+         x="14.082009"
+         y="148.80304"
+         style="font-size:24.99999809px;stroke-width:0.93749988">a)</tspan></text>
+  </g>
 </svg>

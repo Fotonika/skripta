@@ -579,7 +579,7 @@ Enačbo (\ref{4.36}) brez težav integriramo
 \end{equation}
 Z $j_{0}$ smo označili začetno gostoto svetlobnega toka. Kadar je ta dosti
 manjša od $j_{s}$, lahko drugi člen v gornji enačbi zanemarimo in gostota svetlobnega
-toka eksponentno pojema
+toka eksponentno pojema (slika~\ref{fig:abs2})
 \begin{equation}
 j = j_0 e^{-\mu_0 z}.
 \end{equation}
@@ -595,9 +595,12 @@ v osnovno stanje s spontanim sevanjem.
 
 \begin{figure}[h]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{90truemm} 
 \input{slike/05_jabs.pdf_tex}
-\caption{Pojemanje gostote svetlobnega toka v absorbirajočem plinu (enačba~\ref{4.37})}
+\caption{Pojemanje gostote svetlobnega toka $j$ v absorbirajočem plinu (enačba~\ref{4.37}). 
+Gostota vpadnega svetlobnega toka je $j_0$, saturacijsko
+gostoto smo izbrali $j_s = 0,3 j_0$. Pri $j>j_s$ je absorbcija nasičena in pojemanje linearno, 
+pri $j<j_s$ je pojemanje eksponentno.}
 \label{fig:abs2}
 \end{figure}
 
@@ -680,7 +683,7 @@ obravnavali na konkretnih laserskih primerih (poglavje~\ref{chap:Primeri}).
 Zapišimo enačbe za spreminjanje zasedenosti posameznih stanj. Osnovno stanje
 $|0\rangle$ se prazni zaradi absorpcije črpalne svetlobe in polni zaradi
 spontanih prehodov\index{Spontano sevanje} iz stanj $|1\rangle$ in $|2\rangle$. Stimulirane
-prehode iz stanja $|2\rangle$  bomo zanemarili. Zasedenost stanja $|2\rangle$ se
+prehode iz stanja $|2\rangle$ v osnovno stanje bomo zanemarili. Zasedenost stanja $|2\rangle$ se
 povečuje zaradi absorpcije s spodnjih nivojev in zmanjšuje
 zaradi spontanega in stimuliranega sevanja\index{Stimulirano sevanje}. Srednje stanje se polni
 s stimuliranimi in spontanimi prehodi iz stanja $|2\rangle$ in prazni
@@ -696,7 +699,7 @@ Zasedbene enačbe so tako\index{Zasedenost stanj}
 Pri zapisu smo predpostavili, da je $N_0 \approx N \gg N_1, N_2$ in črpanje $B_{20}\, 
 u_{p} (N_0-N_2)$, ki je praktično konstantno, zapisali s koeficientom $r$. Mehanizem črpanja 
 smo s tem skrili v $r$ in prav nič ni pomembno, na kakšen način poteka.\index{Optično črpanje}
-S tem smo obravnavo posplošili z optičnega črpanja na druge sisteme. 
+S tem smo obravnavo posplošili z optičnega na druge sisteme črpanja. 
 
 Zanima nas stacionarno stanje, ko so vsi trije časovni odvodi enaki nič. 
 Tako iz druge enačbe sistema~(enačba~\ref{4.39.2}) sledi
@@ -773,7 +776,11 @@ Rešitev diferencialne enačbe (enačba~\ref{eq:djG}) je prikazana na sliki~\ref
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/05_joja.pdf_tex}
-\caption{Naraščanje gostote svetlobnega toka pri optičnem ojačevanju}
+\caption{Naraščanje gostote svetlobnega toka $j$ pri optičnem ojačevanju. 
+Gostota vpadnega svetlobnega toka je $j_0$, saturacijsko
+gostoto smo izbrali $j_s = 20 j_0$. Pri $j<j_s$ je naraščanje eksponentno, 
+pri $j>j_s$ pride do nasičenja in naraščanje je linearno.
+}
 \label{fig:ojacanje}
 \end{figure}
 
@@ -958,15 +965,15 @@ globina  z gostoto vpadnega toka~$j$.\index{Spektralna črta!homogena razširite
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/05_Hole.pdf_tex}
-\caption{Porazdelitev atomov po hitrosti v osnovnem stanju, kjer zaradi
-absorbirane svetlobe nastane Bennettova vdolbina. Podobno obliko ima 
+\caption{Porazdelitev atomov po hitrosti v osnovnem stanju, v kateri zaradi
+absorbcije svetlobe nastane Bennettova vdolbina. Podobno obliko ima 
 tudi absorpcijski koeficient za testno svetlobo.}
 \label{fig:Bennet}
 \end{figure}
 
-Naj na snov poleg močnega vpadnega žarka pri $\omega_S$ vpada še šibko valovanje pri 
+Naj na snov poleg močnega vpadnega žarka pri $\omega_S$ vpada še šibko testno valovanje pri 
 frekvenci $\omega^{\prime}$. Izračunajmo absorpcijski koeficient za valovanje pri $\omega^\prime$. 
-Upoštevati moramo, da k absorpciji prispevajo vsi atomi, katerih
+Upoštevati moramo, da k absorpciji testne svetlobe prispevajo vsi atomi, katerih
 hitrost je taka, da je prehod dovolj blizu $\omega^{\prime}$. Absorpcijski 
 koeficient\index{Absorpcijski koeficient} potem izračunamo s seštevanjem 
 po porazdelitvi ${\cal Z}(v)$
@@ -1205,7 +1212,7 @@ A_{21}=\frac{\pi \mathcal{V}^{2}}{2\hslash\epsilon_{0}}\int\rho(\omega_{\alpha})
  izpeljali vrednost Einsteinovega koeficienta $A_{21}$. 
 \begin{remark}
 Pri gornjem izračunu Einsteinovega koeficienta $A_{21}$ smo privzeli, da so vsi dipoli urejeni  
- v smeri svetlobe. Če želimo rezultat izenačiti s koeficientom, ki smo ga vpeljali
+ v smeri jakosti električnega polja svetlobe. Če želimo rezultat izenačiti s koeficientom, ki smo ga vpeljali
  za izotropno sevanje črnega telesa, ga moramo pomnožiti s faktorjem $\langle \cos^2\vartheta
  \rangle = 1/3$.
 \end{remark}
@@ -1215,7 +1222,7 @@ stacionarno. Poleg tega energija stanja s končnim razpadnim časom ni natančno
 določena, zato moramo verjetnost za stimulirano sevanje (enačba~\ref{4.56}) malo 
 popraviti. Delta funkcijo energije nadomestimo s končno široko  
 funkcijo $g(\omega-\omega_0)$, ki ima vrh pri $\omega_{0}$. Zaradi 
-spremembe integracijske spremenljivke nastopi še dodaten faktor $1/\hslash$ in zapišemo
+spremembe integracijske spremenljivke dobimo še dodaten faktor $1/\hslash$ in zapišemo
 \begin{equation}
 w_{21}=\frac{\pi \omega_{\alpha}\mathcal{V}^{2}}{2V\epsilon_{0}\hslash}
 (n_{\alpha}+1)g(\omega_{\alpha}-\omega_0).
@@ -1270,7 +1277,7 @@ Schr\"odingerjevo enačbo\index{Schr\"odingerjeva enačba}
 i \hslash \frac{\partial}{\partial t}|\psi\rangle = H|\psi\rangle
 \label{eq:sk-S}
 \end{equation}
-rešujemo z nastavkom 
+rešujemo z nastavkom
 \begin{equation}
 |\psi\rangle = c_1(t)e^{-i \omega_1t}|1\rangle + c_2(t)e^{-i \omega_2t}|2\rangle,
 \label{eq:sk-n}
@@ -1289,19 +1296,19 @@ pri čemer je $\mathcal{V} = -e\langle1|\hat{x}|2\rangle$. Zapišemo $\cos(\omeg
 kompleksno število in zanemarimo hitro spreminjajočo se komponento pri $\omega_0 + \omega$,
 tako da enačbi prepišemo v 
 \begin{equation}
-\frac{d c_1}{dt}=-\frac{i}{2\hslash} \mathcal{V} E_0 e^{-i\Delta t}\, c_2 
+\frac{d c_1}{dt}=-\frac{i}{2\hslash} \mathcal{V} E_0 e^{-it\Delta}\, c_2 
 \qquad \mathrm{in} \qquad
-\frac{d c_2}{dt}=-\frac{i}{2\hslash} \mathcal{V} E_0 e^{i\Delta t}\, c_1,
+\frac{d c_2}{dt}=-\frac{i}{2\hslash} \mathcal{V} E_0 e^{it\Delta}\, c_1,
 \label{eq:rabi2}
 \end{equation}
 kjer je $\Delta = \omega_0-\omega$. Dodamo začetni pogoj, ki pravi, da je na začetku
 sistem v osnovnem stanju in torej $c_1(0)=1$ in $c_2(0)=0$. Rešitvi enačb
 (\ref{eq:rabi2}) sta tako
 \begin{align}
-c_1(t)&=e^{-i\Delta t/2}\, \left(\cos\left(\frac{\Omega t}{2}\right) + 
+c_1(t)&=e^{-it\Delta/2}\, \left(\cos\left(\frac{\Omega t}{2}\right) + 
 i \frac{\Delta}{\Omega} \sin\left(\frac{\Omega t}{2}\right) \right)\qquad \mathrm{in} 
 \label{eq:rabi3} \\
-c_2(t)&=\frac{\mathcal{V}E_0}{i\hslash \Omega} e^{i\Delta t/2}\, \sin\left(\frac{\Omega t}{2}\right).
+c_2(t)&=\frac{\mathcal{V}E_0}{i\hslash \Omega} e^{it\Delta/2}\, \sin\left(\frac{\Omega t}{2}\right).
 \label{eq:rabi4}
 \end{align}
 Pri tem smo vpeljali krožno frekvenco
@@ -1322,7 +1329,7 @@ P_2(t) = |c_2(t)|^2 = \frac{\mathcal{V}^2E_0^2}{\hslash^2 \Omega^2}\sin^2(\Omega
 \end{equation}
 Če je frekvenca vpadne svetlobe točno enaka frekvenci prehoda, je $\Delta = 0$ in 
 $\Omega = \Omega_R = \mathcal{V}E_0/\hslash$. Takrat je amplituda nihanja zasedenosti vzbujenega stanja kar enaka 1
-in sistem v celoti periodično prehaja iz osnovnega stanja v vzbujeno in nazaj. To pomeni,
+in sistem v celoti periodično prehaja iz osnovnega stanja v vzbujeno in nazaj (slika~\ref{fig:Rabi}). To pomeni,
 da prihaja izmenično do popolne absorpcije svetlobe in do popolne stimulirane emisije.
 Pri odstopajoči vpadni frekvenci se amplituda nihanja zmanjša, hkrati se poveča
 frekvenca oscilacij. Frekvenca oscilacij ni odvisna zgolj od frekvence vpadnega valovanja, 

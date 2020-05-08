@@ -111,13 +111,13 @@ od koder sledi
 \def\svgwidth{140truemm} 
 \input{slike/06_stacio.pdf_tex}
 \caption{Za majhne vrednosti ojačenja $G$ ima enačba~(\ref{5.3}) eno samo 
-rešitev pri $W=0$. Pri večjih ojačenjih ima tudi neničelno rešitev.}
+rešitev, to je pri $W=0$ (a). Pri večjih ojačenjih ima tudi neničelno rešitev (b).}
 \label{fig:stacio}
 \end{figure}
 
 Enačba~(\ref{5.3}) ima pri majhnem ojačenju $G$ eno samo rešitev, to je 
 $W=0$. Pri večjih vrednostih ojačenja $G$ obstaja še neničelna rešitev
-za energijo svetlobnega nihanja
+za energijo svetlobnega nihanja (slika~\ref{fig:stacio})
 \boxeq{5.4}{ 
 W=W_s \left(\frac{G}{G_\mathrm{pr}}-1\right),
 }
@@ -134,7 +134,8 @@ z močjo črpanja.
 \centering
 \def\svgwidth{60truemm} 
 \input{slike/06_energija.pdf_tex}
-\caption{Odvisnost energije svetlobe v laserju od ojačenja}
+\caption{Odvisnost energije svetlobe v laserju od ojačenja. Pod pragom je energija enaka nič, 
+nad pragom pa linearno narašča z ojačenjem.}
 \label{fig:energija}
 \end{figure}
 
@@ -299,7 +300,9 @@ je tako majhen, da je mogoče opaziti zvezen prehod čez prag.
 \centering
 \def\svgwidth{50truemm} 
 \input{slike/06_p.pdf_tex}
-\caption{Odvisnost števila fotonov v resonatorju od ojačenja za $p=10^5$.}
+\caption{Odvisnost števila fotonov v resonatorju od ojačenja za $p=10^5$. 
+Pod pragom je število fotonov majhno, ob pragu skokovito naraste in tudi 
+pri močnem črpanju ostaja reda velikosti $p$.}
 \label{fig:p}
 \end{figure}
 
@@ -607,20 +610,21 @@ spreminjata znatno znotraj homogene širine absorberja in je zato moč $P_0$
 približno konstantna. Krožno frekvenco laserja moduliramo, tako da je 
 \begin{equation}  
 \label{5.41}
-\omega=\omega_0+\Delta\omega+a \sin \Omega t.
+\omega=\omega_0+\Delta\omega+b \sin \Omega t.
 \end{equation}
 Z $\Delta\omega$ smo označili odstopanje srednje krožne frekvence laserja od
-sredine absorpcijske črte $\omega_0$. Če sta $a$ in $\Delta\omega$ majhna v
+sredine absorpcijske črte $\omega_0$ in z $b$ amplitudo modulacije. 
+Če sta $b$ in $\Delta\omega$ majhna v
 primerjavi s homogeno širino $\gamma$, lahko imenovalec v enačbi~(\ref{5.40})
 razvijemo
 \begin{equation}  
 \label{5.42}
-P(\omega)=P_0+P_1 \left(1-\frac{\Delta\omega^2}{\gamma^2} +\frac{2}{\gamma^2} a
-\Delta\omega \sin\Omega t - \frac{a^2}{\gamma^2}\sin^2\Omega t\right).
+P(\omega)=P_0+P_1 \left(1-\frac{\Delta\omega^2}{\gamma^2} +\frac{2}{\gamma^2} b
+\Delta\omega \sin\Omega t - \frac{b^2}{\gamma^2}\sin^2\Omega t\right).
 \end{equation}
 Amplituda signala pri krožni frekvenci modulacije $\Omega$ je 
 \begin{equation}
-P(\Omega) = \frac{2P_1 a \Delta\omega}{\gamma^2}. 
+P(\Omega) = \frac{2P_1 b \Delta\omega}{\gamma^2}. 
 \end{equation}
 Najmanjša moč, ki jo ločeno zaznamo na detektorju, je določena s šumom 
 meritve. Kot bomo videli v poglavju (\ref{chap:sum}), je najmanjša 
@@ -633,14 +637,14 @@ pri čemer je $P$ celotna vpadna svetlobna moč, $\tau$ pa čas
 meritve. Vzemimo na primer He-Ne laser,\index{Laser!He-Ne} stabiliziran na 
 jodove pare. Povprečna moč laserja naj bo $P_0 = 10~\si{mW}$ in $P_1= 0,1~\si{mW}$. 
 Širina absorpcijske črte je $\gamma= 10^6~\si{s}^{-1}$. Izberimo amplitudo 
-modulacije $a=10^5~\si{s}^{-1}$ in $\tau=10^{-4}~\si{s}$. Časovna konstanta 
+modulacije $b=10^5~\si{s}^{-1}$ in $\tau=10^{-4}~\si{s}$. Časovna konstanta 
 $\tau$ ne sme biti prevelika, določa namreč, kako hitro prilagajamo dolžino 
 laserja. Za najmanjšo zaznavno moč pri $\Omega$ dobimo 
 $P_N(\Omega) = 5\times10^{-9}~\si{W}$.
 Najmanjše merljivo odstopanje krožne frekvence laserja je tedaj 
 \begin{equation}  
 \label{5.44}
-\Delta\omega_N=\frac{P_N \gamma^2}{2P_1 a}=250~\si{s}^{-1}.
+\Delta\omega_N=\frac{P_N \gamma^2}{2P_1 b}=250~\si{s}^{-1}.
 \end{equation}
 Takšno in še boljšo stabilnost frekvence se danes lahko doseže. 
 
@@ -688,7 +692,7 @@ T=\frac{1}{1+\frac{4{\cal {R}}}{(1-{\cal {R}})^{2}}\sin^{2}(\frac{n\omega}{c}L\c
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/06_FPres.pdf_tex}
-\caption{Shema laserja s Fabry-Perotovim etalonom}
+\caption{Shema laserja z vstavljenim Fabry-Perotovim etalonom}
 \label{fig:FPres}
 \end{figure}
 Debelino etalona in njegov nagib 
@@ -830,7 +834,7 @@ odvisna od parametra $a$, torej od moči črpanja.
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/06_relax.pdf_tex}
-\caption{Relaksacijske oscilacije števila fotonov po vklopu}
+\caption{Relaksacijske oscilacije števila fotonov po vklopu laserja}
 \label{fig:relax}
 \end{figure}
 
