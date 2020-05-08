@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '02_fluktuacije01.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{585.80589294bp}%
+    \setlength{\unitlength}{588.10075378bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,11 +50,28 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.11390928)%
+  \begin{picture}(1,0.45461494)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.97678806,0.03668762){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
-    \put(-0.00080145,0.1006671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Re(E)$\end{tabular}}}}%
+    \put(0.97392365,0.26697968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(-0.00079832,0.3307095){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Re(E)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{02_fluktuacije01.pdf}}%
+    \put(0.02678113,0.33315679){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{02_fluktuacije01.pdf}}%
+    \put(0.97392326,0.3776946){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(-0.00079918,0.44142444){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Re(E)$\end{tabular}}}}%
+    \put(0.91659172,0.23913885){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.00113187\unitlength}\raggedright  \end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{02_fluktuacije01.pdf}}%
+    \put(0.00469897,0.22734914){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$|E|^2$}\end{tabular}}}}%
+    \put(0.97392066,0.12419548){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{02_fluktuacije01.pdf}}%
+    \put(0.00724955,0.10479905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$|E|^2$}\end{tabular}}}}%
+    \put(0.97647124,0.00164538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{02_fluktuacije01.pdf}}%
+    \put(0.41890485,0.10595573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t_c$}\end{tabular}}}}%
+    \put(-0.03203533,0.4293312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(-0.03244342,0.31455494){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(-0.03166124,0.21253162){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(-0.0314912,0.09775537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '03_uklon_na_rezi.pdf' (pdf, eps, ps)
 %%
@@ -55,7 +55,7 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{03_uklon_na_rezi.pdf}}%
     \put(0.26967765,0.08279508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2a$\end{tabular}}}}%
-    \put(0.78497354,0.11896393){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta = \lambda/a$ }\end{tabular}}}}%
+    \put(0.78497354,0.11896393){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta \sim \lambda/a$ }\end{tabular}}}}%
     \put(0.35624007,0.14037813){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$b$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '04_resonatorji.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{507.99998366bp}%
     \ifx\svgscale\undefined%
@@ -49,12 +51,14 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.42172156)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{04_resonatorji.pdf}}%
-    \put(0.00677869,0.40348959){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a)}}}%
-    \put(0.35455048,0.40348959){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b)}}}%
-    \put(0.77374942,0.40348959){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c)}}}%
-    \put(0.00698794,0.17514311){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{d)}}}%
-    \put(0.35448224,0.17514311){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{e)}}}%
-    \put(0.77827284,0.17514311){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{f)}}}%
+    \put(0.00677869,0.40348959){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.35455048,0.40348959){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.77374942,0.40348959){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.00698794,0.17514311){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
+    \put(0.35448224,0.17514311){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}e)\end{tabular}}}}%
+    \put(0.77827284,0.17514311){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}f)\end{tabular}}}}%
   \end{picture}%
 \endgroup%

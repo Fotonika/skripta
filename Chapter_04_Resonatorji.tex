@@ -13,7 +13,8 @@ Optični resonatorji\index{Resonator} so votline, v katerih je mogoče
 vzpostaviti stoječe svetlobno\index{Stoječe valovanje} valovanje. Če vzbujamo v resonatorju valovanja z 
 različnimi frekvencami, se pri nekaterih diskretnih frekvencah pojavi resonančno
 obnašanje. Te frekvence imenujemo lastne frekvence\index{Lastne frekvence resonatorja}
-resonatorja. Zaradi dušenja imajo lastne frekvence končno frekvenčno oziroma spektralno 
+resonatorja in stoječa valovanja lastna nihanja. Zaradi dušenja so frekvence lastnih nihanj
+razširjenje in imajo končno frekvenčno oziroma spektralno 
 širino, pri čemer je čas dušenja mnogo daljši od nihajne periode. 
 
 Optične resonatorje uporabljamo predvsem v dva namena:
@@ -66,19 +67,18 @@ zelo veliko število resonanc hkrati. Tak resonator bi bil neuporaben.
 
 Hkratnemu vzbujanju velikega števila lastnih nihanj se izognemo z zmanjšanjem odbojnosti
 stranskih sten votline, saj tako povečamo dušenje valov v prečni smeri.
-Dušenje valov, ki so pravokotni na idealno odbojni končni steni, ostane nespremenjeno.
+Dušenje valov, pravokotnih na idealno odbojni končni steni, ostane nespremenjeno.
 Nazadnje lahko stranske stene odstranimo, tako da stoječih valov v prečni smeri
 sploh ni več. Ostane le še nekaj valov, ki so pravokotni na končni
 steni. Resonatorju brez stranskih sten  pravimo odprti resonator\index{Resonator!odprti} 
 (slika~\ref{fig:Odprt_resonator}).
-\vglue-5truemm
 \begin{figure}[h]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/04_Odprt_resonator.pdf_tex}
-\caption{Levo: lastni nihajni načini odprtega resonatorja imajo 
-diskretne vrednosti velikosti valovnih vektorjev $k_{n}$. Desno: žarki, ki niso pravokotni na zrcali, 
-iz odprtega resonatorja uidejo.}
+\caption{Lastni nihajni načini odprtega resonatorja imajo diskretne vrednosti
+velikosti valovnih vektorjev (a). Žarki, ki niso pravokotni na zrcali, 
+iz odprtega resonatorja uidejo (b).}
 \label{fig:Odprt_resonator}
 \end{figure}
 
@@ -170,7 +170,7 @@ in je prikazana na sliki~\ref{fig:Fabry-Perot} za tri različne vrednosti ${\cal
 \input{slike/04_fabry_perot.pdf_tex}
 \caption{
 Prepustnost Fabry-Perotovega interferometra
-v odvisnosti od frekvence vpadnega valovanja pri različnih odbojnostih zrcal}
+v odvisnosti od frekvence vpadnega valovanja $\nu$ pri različnih odbojnostih zrcal ${\cal R}$}
 \label{fig:Fabry-Perot}
 \end{figure}
 
@@ -202,7 +202,7 @@ zapisanem v enačbi~(\ref{eq:Fresnelovo_stevilo}).
 Spoznali smo planparalelni resonator, ki deluje na meji stabilnosti. 
 Bolj stabilni resonatorji so sestavljeni iz dveh konkavno ukrivljenih
 zrcal. V njih ostajajo žarki, ki potujejo pod majhnim kotom glede na osrednjo os, ujeti
-med zrcaloma. Energija lastnih nihanj ostaja lokalizirana blizu osi in za obravnavo
+med zrcaloma. Energija lastnih nihanj tako ostaja lokalizirana blizu osrednje osi in za obravnavo
 električnega polja lahko uporabimo obosno valovno\index{Obosna valovna enačba} 
 enačbo (enačba~\ref{eq:obosna-valovna-enacba}). 
 
@@ -210,11 +210,12 @@ Poleg tega vemo, da se stoječe valovanje pojavi, kadar
 svetloba po odboju od zrcala konstruktivno interferira sama s sabo.
 Od tod izhaja robni pogoj, ki pravi, da se oblika valovne fronte stoječega valovanja na 
 zrcalu ujema z obliko zrcala, električno polje na površini zrcala
-pa je približno enako nič.
+pa je približno enako nič (slika \ref{fig:Gaussov-snop-v-resonatorju}).
+\vskip5truemm
 
 \begin{figure}[h]
 \centering
-\def\svgwidth{110truemm} 
+\def\svgwidth{100truemm} 
 \input{slike/04_Resonator_Gauss.pdf_tex}
 \caption{Gaussov snop v odprtem resonatorju s konkavno ukrivljenima zrcaloma
 s krivinskima radijema $R_1$ in $R_2$. V stabilnem resonatorju se krivinski 
@@ -296,7 +297,7 @@ resonatorja leži grlo snopa izven resonatorja.
 
 \begin{figure}[h]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{95truemm} 
 \input{slike/04_stabilnost.pdf_tex}
 \caption{Laserski resonator je stabilen, 
 če sta parametra $L/R_{1}$ in $L/R_{2}$ znotraj obarvanega območja. 
@@ -375,15 +376,15 @@ je treba upoštevati še lomni količnik ploščice.}, ki poveča izgube za snop
  
 \begin{remark}
 Včasih se uporabljajo tudi nestabilni resonatorji\index{Resonator!nestabilni}, za 
-katere ne obstajajo rešitve v obliki Gaussovih snopov. Taki resonatorji 
+katere ne obstajajo preproste rešitve v obliki Gaussovih snopov. Taki resonatorji 
 imajo velike izgube na robovih zrcal, ker žarki v njih niso ujeti. 
-Uporabni so predvsem v laserjih z velikim ojačenjem. Njihova prednost je, da je cel
-volumen resonatorja enakomerno pokrit s svetlobo.
+Uporabni so predvsem v močnih laserjih z velikim ojačenjem. Njihova prednost je v tem, da 
+je intenziteta svetlobe razmeroma velika v celotnem resonatorju in ne le ob osi.  
 \end{remark}
 
 Do zdaj smo obravnavali dva primera laserskih resonatorjev: Fabry-Perotov
 resonator z dvema vzporednima ravnima zrcaloma (slika~\ref{fig:resonatorji}\,a) 
-in resonator z dvema sferičnima zrcaloma (b).
+in resonator z dvema krogelnima zrcaloma (b).
 Poleg teh dveh primerov je v uporabi še cela vrsta drugih resonatorjev. Ciklični
 resonator\index{Resonator!ciklični} (c) je
 sestavljen iz več zrcal in žarek ciklično potuje med njimi. V vlakenskih laserjih je resonator
@@ -424,7 +425,8 @@ A & B\\
 C & D
 \end{array}\right].
 \end{equation}
-Kompleksni krivinski radij je po obhodu $q_2$ enak začetnemu
+Kompleksni krivinski radij $q_2$, ki ga izračunamo iz enačbe~\ref{eq:ulomljena-preslikava}, 
+je po enem obhodu enak začetnemu $q$
 \begin{equation}
 q_2 = \frac{Aq+B}{Cq+D} = q.
 \end{equation}
@@ -463,12 +465,12 @@ da se krajevni del faze lastnega nihanja po enem
 obhodu\footnote{Prelet resonatorja je prehod svetlobe od enega zrcala
 do drugega. Prelet do zrcala in nazaj imenujemo obhod.}
 spremeni za mnogokratnik $2\pi$. Krajevni del faze za osnovni snop 
-zapišemo po enačbi~(\ref{eq:gaussov-snop})\index{Gouyeva faza}
+zapišemo po enačbi~\ref{eq:gaussov-snop}\index{Gouyeva faza}, upoštevamo izraz za
+$\eta(z)$ (enačba~\ref{eq:eta}) in se omejimo zgolj na valovanje na osi pri $r=0$.
 \begin{equation}
-\phi = kz+\frac{kr^{2}}{2R} -\eta(z) = kz-\arctan \left(\frac{z}{z_{0}}\right),
+\phi = kz+\frac{kr^{2}}{2R} -\eta(z) = kz-\arctan \left(\frac{z}{z_{0}}\right).
 \label{eq:fazag}
 \end{equation}
-pri čemer  smo se omejili na valovanje na osi pri $r=0$. 
 Razlika faze po obhodu je 
 \begin{equation}
 \frac{\omega_{n}}{c}\,2L-2\left(\arctan \left(\frac{z_{2}}{z_{0}}\right)-
@@ -528,7 +530,7 @@ med frekvencami osnovnega snopa. Razmik med so\-sed\-nji\-mi frekvencami je tako
 in konfokalni resonator se obnaša kot dvakrat daljši planparalelni.
 To lahko razumemo tudi iz geometrijske slike: žarek, ki vstopi v konfokalni
 resonator ali interferometer vzporedno z osjo, se šele po dveh obhodih vrne sam
-vase.
+vase (slika~\ref{fig:Konfokalni_zarek}).
 
 \begin{figure}[h]
 \centering
@@ -680,16 +682,19 @@ Gaussovega snopa ne obstaja. Zato je v takih resonatorjih rešitev za električn
 zahtevno poiskati. Vendar je problem soroden uklonu, zato ga lahko obravnavamo z 
 uklonsko teorijo\index{Uklon}.
 
-Označimo jakost električnega polja v točki $P_{1}$ na prvem zrcalu z $E_{1}$.
+Označimo jakost električnega polja v točki $P_{1}$ na prvem zrcalu z $E_{1}$ (slika~\ref{fig:uklon_res_shema}).
 Polje na drugem zrcalu v točki $P_2$ zapišemo s Kirchhoffovim uklonskim
 integralom\index{Kirchhoffov integral} (enačba~\ref{eq:Fresnelov-uklon})
-\begin{align}
-E_{2} &=  -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{r}\, dS_{1} \\
- & =  \int_{1}E_{1}(P_{1})K(P_{1},P_{2})dS_{1}.
+\begin{equation}
+E_{2} =  -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{r}\, dS_{1}.
 \label{eq:resuklon}
-\end{align}
+\end{equation}
 Integriramo po celotni prvi ploskvi, $r$ je razdalja med točkama $P_{1}$ in $P_{2}$ ter $\vartheta$
-kot med zveznico in normalo na zrcali v osi (slika~\ref{fig:uklon_res_shema}). Vpeljemo faktor
+kot med zveznico in normalo na zrcali v osi. Integral prepišemo v 
+\begin{equation}
+E_2 =  \int_{1}E_{1}(P_{1})K(P_{1},P_{2})dS_{1},
+\end{equation}
+pri čemer smo vpeljali faktor
 \begin{equation}
 K(P_{1},P_{2}) = -\frac{i}{2\lambda}\frac{e^{ikr}(1+\cos\vartheta)}{r},
 \label{jedro}

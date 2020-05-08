@@ -14,7 +14,7 @@
    viewBox="0 0 429.00187 175.94295"
    id="svg3365"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="04_Konfokalni.svg">
   <defs
      id="defs3367">
@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="383.78665"
-     inkscape:cy="39.400056"
+     inkscape:zoom="1.4"
+     inkscape:cx="174.75762"
+     inkscape:cy="50.472115"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,10 +46,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="537"
-     inkscape:window-height="444"
-     inkscape:window-x="724"
-     inkscape:window-y="321"
+     inkscape:window-width="1084"
+     inkscape:window-height="725"
+     inkscape:window-x="513"
+     inkscape:window-y="350"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata3370">
@@ -111,6 +111,18 @@
        style="fill:none;fill-rule:evenodd;stroke:#d40000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 180.36032,170.92185 c 4.86922,3.6786 5.17857,3.75 9.5803,7.32549 -4.22047,3.04584 -4.54612,3.36316 -10.08544,7.14312"
        id="path4247-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#d40000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 248.26613,133.34414 c -5.62869,-2.35783 -5.94608,-2.35036 -11.09629,-4.7241 3.33447,-3.99635 3.57136,-4.38445 8.00174,-9.41871"
+       id="path4247-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#d40000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 248.08856,147.35697 c -5.62869,2.35783 -5.94608,2.35036 -11.09629,4.7241 3.33447,3.99635 3.57136,4.38445 8.00174,9.41871"
+       id="path4247-7-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
   </g>

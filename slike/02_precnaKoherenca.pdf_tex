@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '02_precnaKoherenca.pdf' (pdf, eps, ps)
 %%
@@ -56,21 +56,21 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{02_precnaKoherenca.pdf}}%
     \put(0.48320948,0.18107847){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{02_precnaKoherenca.pdf}}%
-    \put(-0.00131703,0.00468424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$0$}\end{tabular}}}}%
     \put(0.45307301,0.00652252){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$z$}\end{tabular}}}}%
     \put(0.84539481,0.00831921){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$z+a$}\end{tabular}}}}%
     \put(0.46440819,0.04421036){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
     \put(0.87165761,0.04100787){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$B$\end{tabular}}}}%
-    \put(0.0135661,0.09787862){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$R$}\end{tabular}}}}%
-    \put(0.06280564,0.17856161){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\xi$}\end{tabular}}}}%
-    \put(0.05258216,0.23848627){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\eta$}\end{tabular}}}}%
-    \put(0.2550879,0.13247227){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
-    \put(0.22111831,0.07677827){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$s$}\end{tabular}}}}%
     \put(0.50127995,0.23871876){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$y$}\end{tabular}}}}%
-    \put(0.53939045,0.16348642){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
-    \put(0.48086516,0.18454209){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
-    \put(0.49812285,0.16286529){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$d$}\end{tabular}}}}%
-    \put(0.63202208,0.12924599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta$}\end{tabular}}}}%
+    \put(0.53939045,0.16608581){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
     \put(0.46115158,0.2136363){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\delta s$\end{tabular}}}}%
+    \put(0.0011073,0.00392249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$0$}\end{tabular}}}}%
+    \put(0.01424423,0.09686039){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$R$}\end{tabular}}}}%
+    \put(0.08406027,0.17671953){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\xi$}\end{tabular}}}}%
+    \put(0.05033105,0.23296569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\eta$}\end{tabular}}}}%
+    \put(0.23201266,0.07764558){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$s$}\end{tabular}}}}%
+    \put(0.25325918,0.13208765){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
+    \put(0.48030466,0.18203661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
+    \put(0.63121616,0.1257957){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta$}\end{tabular}}}}%
+    \put(0.50046303,0.11847711){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$d$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

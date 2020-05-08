@@ -14,7 +14,7 @@
    viewBox="0 0 822.84986 150.81637"
    id="svg3510"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="03_uklon_na_rezi.svg">
   <defs
      id="defs3512">
@@ -80,8 +80,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1614"
      inkscape:window-height="794"
-     inkscape:window-x="308"
-     inkscape:window-y="384"
+     inkscape:window-x="126"
+     inkscape:window-y="364"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata3515">
@@ -91,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -114,8 +114,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.49875057;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 707.05432,34.733178 264.85546,94.683184 707.05432,147.13945"
+       style="fill:none;stroke:#000000;stroke-width:1.49875057;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 712.67932,34.733178 270.48046,94.683184 712.67932,147.13945"
        id="path6420"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
@@ -309,7 +309,7 @@
          id="tspan4589-7"
          x="666.45282"
          y="72.201935"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.98500824px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'">$\vartheta = \lambda/a$ </tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.98500824px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'">$\vartheta \sim \lambda/a$ </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"

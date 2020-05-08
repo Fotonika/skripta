@@ -13,7 +13,7 @@
    height="181.44536"
    id="svg7815"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="04_Odprt_resonator.svg"
    inkscape:export-filename="/home/jetra/mojca/HomeMojca/MojcaNova/slike/04_Odprt_resonator.png"
    inkscape:export-xdpi="300"
@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.79358365"
-     inkscape:cx="680.57323"
-     inkscape:cy="157.95272"
+     inkscape:zoom="1.1222968"
+     inkscape:cx="312.9123"
+     inkscape:cy="141.94473"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1554"
+     inkscape:window-width="1068"
      inkscape:window-height="954"
-     inkscape:window-x="232"
-     inkscape:window-y="199"
+     inkscape:window-x="770"
+     inkscape:window-y="196"
      inkscape:window-maximized="0"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -336,7 +336,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -476,5 +476,27 @@
            y="197.31039"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'">$k_n=n\pi/L$</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="371.97946"
+       y="46.986172"
+       id="text77"><tspan
+         sodipodi:role="line"
+         id="tspan75"
+         x="371.97946"
+         y="46.986172"
+         style="font-size:20px;stroke-width:0.9375">b)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="15.343447"
+       y="45.813515"
+       id="text77-3"><tspan
+         sodipodi:role="line"
+         id="tspan75-6"
+         x="15.343447"
+         y="45.813515"
+         style="font-size:20px;stroke-width:0.9375">a)</tspan></text>
   </g>
 </svg>

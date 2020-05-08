@@ -24,15 +24,15 @@ ko je faza valovanja, ki vpada na reži, konstantna. Svetloba s konstantno
 fazo nastane na primer v kvalitetnih laserjih in zanjo pravimo, da je koherentna.
 Svetloba iz navadnih svetil ima spremenljivo fazo in zato ne da
 interferenčnega vzorca (slika~\ref{fig:Young}\,b). Zanjo pravimo, da ni koherentna. 
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=10truecm]{slike/02_Young.pdf}
+\def\svgwidth{100truemm} 
+\input{slike/02_Young.pdf_tex}\\
 \caption{Youngov poskus na dveh režah. Le če je vpadno valovanje koherentno, 
-se pojavi na zaslonu interferenčni vzorec (a). Nekoherentno valovanje s spremenljivo
+se na zaslonu pojavi interferenčni vzorec (a). Nekoherentno valovanje s spremenljivo
 fazo ne da interferenčnega vzorca (b).}
 \label{fig:Young}
 \end{figure}
-
 \vglue-5truemm
 Svetloba navadnih svetil, na primer plinskih razelektritvenih cevi, 
 je zaradi vrste nastanka kaotične narave. 
@@ -120,16 +120,10 @@ spreminja s karakterističnim časom $t_{c}=10/\nu$, kjer je $\nu$
 frekvenca valovanja. Na sliki~\ref{fig:amplituda-intenziteta} sta
 prikazana časovna poteka amplitude $E$ (enačba \ref{eq:amplituda-random})
 in $|E|^{2}$.
-\begin{figure}
+\begin{figure}[h]
 \centering
 \def\svgwidth{140truemm} 
-\input{slike/02_fluktuacije02.pdf_tex}\\
-\def\svgwidth{140truemm} 
-\input{slike/02_fluktuacije01.pdf_tex}\\
-\def\svgwidth{140truemm} 
-\input{slike/02_fluktuacije03.pdf_tex}\\
-\def\svgwidth{140truemm} 
-\input{slike/02_fluktuacije04.pdf_tex}\\
+\input{slike/02_fluktuacije01.pdf_tex}
 \caption{Shematski prikaz jakosti električnega polja 
 ravnega vala s konstantno fazo (a) in jakosti električnega
 polja navadnega svetila (b) kot funkcije časa. 
@@ -140,6 +134,7 @@ $\frac{1}{T}\int_{-T/2}^{T/2}E(t+t')E^{*}(t+t')dt'$
 s časom integracije $T=t_{c}$.}
 \label{fig:amplituda-intenziteta}
 \end{figure}
+
 Za primerjavo je prikazan tudi ravni val\index{Ravni val} $E=\sqrt{N}E_{1}e^{-i\omega t}$
 s konstantno fazo in pripadajoč $|E|^{2}$, ki je sorazmeren z gostoto svetlobnega
 toka. Ta je v primeru ravnega vala konstantna, medtem ko je povprečna gostota
@@ -391,11 +386,12 @@ funkcija (enačba~\ref{eq:g-primer}). Zaradi končnega
 od pričakovanega. 
 \begin{figure}[h]
 \centering
-\def\svgwidth{65truemm} 
-\input{slike/02_spekter.pdf_tex}\qquad
-\def\svgwidth{65truemm} 
-\input{slike/02_avtokorelacija.pdf_tex}
-\caption{Spekter in avtokorelacijska funkcija valovanja s slike~\ref{fig:amplituda-intenziteta}}
+\def\svgwidth{130truemm} 
+\input{slike/02_spekter.pdf_tex}
+\caption{Primer normiranega spektra (a) in avtokorelacijske funkcije (b) svetlobe, ki izhaja 
+iz navadnega svetila. Rdeča označuje pričakovani spekter
+in avtokorelacijsko funkcijo, modra pa izračun na podlagi simuliranih 
+podatkov s slike~\ref{fig:amplituda-intenziteta}\,b.}
 \label{fig:SpekterAc}
 \end{figure}
 
@@ -469,7 +465,9 @@ interferenčna slika na zaslonu B izpovpreči.
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/02_precnaKoherenca.pdf_tex}
-\caption{Shema interferenčnega eksperimenta z razsežnim svetilom}
+\caption{Shema interferenčnega eksperimenta. V ravnini $z=0$ je razsežno svetilo s polmerom $R$. 
+Svetloba iz različnih delov svetila prepotuje različno dolgo pot do dveh odprtin v ravnini $A$, 
+zato sta njuni interferenčni sliki na zaslonu $B$ premaknjeni.}
 \label{fig:shema-interferenca}
 \end{figure}
 
@@ -657,12 +655,13 @@ vendar so slabše izražene in z nasprotno fazo, kar da v sredini temno progo.
 \input{slike/02_interferenca04.pdf_tex}
 \caption{Interferenčna slika na zaslonu
 za različne vrednosti razmikov med režama: (a) $d = z/kR$, (b) $d=2z/kR$, 
-(c) $d = 3,832\,z/kR$ in (d) $d = 5,136\,z/kR$. 
-Z večanjem razdalje med režama se proge zgostijo in kontrast se zmanjša. Koherenčni
+(c) $d = 3,832\,z/kR$ in (d) $d = 5,136\,z/kR$. Pri majhnih razmikih je interferenčni vzorec
+dobro viden (a).
+Z večanjem razmika se proge zgostijo in kontrast se zmanjša (b). Koherenčni
 čas svetlobe je $t_{c}=10/\omega$, kar še dodatno zmanjšuje modulacijo
 interferenčnih prog. Pri $d=3,832\,z/kR$ je prva ničla Besslove
-funkcije in interferenčni vzorec popolnoma izgine. Pri večjih $d$ so interferenčne
-proge spet vidne, vendar z manjšim kontrastom in nasprotno fazo.}
+funkcije in interferenčni vzorec popolnoma izgine (c). Pri večjih $d$ so interferenčne
+proge spet vidne, vendar z manjšim kontrastom in nasprotno fazo (d).}
 \label{fig:Interferencna-slika}
 \end{center}
 \end{figure}
