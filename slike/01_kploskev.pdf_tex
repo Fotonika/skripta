@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '01_kploskev.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1038.66533203bp}%
+    \setlength{\unitlength}{973.74874878bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,26 +51,31 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.45046894)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{01_kploskev.pdf}}%
-    \put(0.44751843,0.11207475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$k_x/k_0$}}}%
-    \put(-0.00136721,0.00464109){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$k_z/k_0$}}}%
-    \put(0.21775636,0.4350774){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$k_y/k_0$}}}%
-    \put(0.19094072,0.38926437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_3$}}}%
-    \put(0.19082648,0.2785641){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
-    \put(0.13083876,0.09965156){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
-    \put(0.31531109,0.15790202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2$}}}%
-    \put(0.09084694,0.06251629){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2$}}}%
-    \put(0.38487361,0.14955439){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_3$}}}%
-    \put(0.31508678,0.02575868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{o. os}}}%
-    \put(0.94292672,0.11070536){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$k_x/k_0$}}}%
-    \put(0.49404105,0.00327171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$k_z/k_0$}}}%
-    \put(0.686349,0.38789498){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_e$}}}%
-    \put(0.68623477,0.2771947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_o$}}}%
-    \put(0.62946065,0.09817002){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_o$}}}%
-    \put(0.78192744,0.15788469){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_o$}}}%
-    \put(0.87496239,0.14463865){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_e$}}}%
-    \put(0.51312491,0.07049185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{o. os}}}%
-    \put(0.71415351,0.43558611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$k_y/k_0$}}}%
-    \put(0.49471612,0.11525645){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.44751844,0.11207476){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$k_x/k_0$\end{tabular}}}}%
+    \put(-0.00136721,0.0046411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$k_z/k_0$\end{tabular}}}}%
+    \put(0.21775636,0.43507742){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$k_y/k_0$\end{tabular}}}}%
+    \put(0.19094073,0.3892644){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_3$\end{tabular}}}}%
+    \put(0.19082649,0.27856412){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_1$\end{tabular}}}}%
+    \put(0.13083876,0.09965158){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_1$\end{tabular}}}}%
+    \put(0.31531109,0.15790203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_2$\end{tabular}}}}%
+    \put(0.09084694,0.0625163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_2$\end{tabular}}}}%
+    \put(0.38487362,0.14955441){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_3$\end{tabular}}}}%
+    \put(0.31508679,0.0257587){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}o. os\end{tabular}}}}%
+    \put(0.94292675,0.11070537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$k_x/k_0$\end{tabular}}}}%
+    \put(0.49404107,0.00327172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$k_z/k_0$\end{tabular}}}}%
+    \put(0.68634902,0.387895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e$\end{tabular}}}}%
+    \put(0.68623479,0.27719472){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o$\end{tabular}}}}%
+    \put(0.62946066,0.09817003){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o$\end{tabular}}}}%
+    \put(0.78192746,0.15788471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o$\end{tabular}}}}%
+    \put(0.87496241,0.14463867){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e$\end{tabular}}}}%
+    \put(0.51312492,0.07049186){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}o. os\end{tabular}}}}%
+    \put(0.71415353,0.43558613){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$k_y/k_0$\end{tabular}}}}%
+    \put(0.49471613,0.11525646){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(-0.01031721,0.42614183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.50579217,0.42614183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{01_kploskev.pdf}}%
   \end{picture}%
 \endgroup%
