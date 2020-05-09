@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '10_TETM.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1073.74824219bp}%
+    \setlength{\unitlength}{1016.21923828bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +50,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.18702488)%
+  \begin{picture}(1,0.18590001)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{10_TETM.pdf}}%
-    \put(0.24380921,0.08884141){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathbf{E}$}}}%
-    \put(0.63073184,0.12224908){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathbf{E}$}}}%
-    \put(0.2852001,0.00998105){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathrm{TE}$}}}%
-    \put(0.71387021,0.00884528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathrm{TM}$}}}%
-    \put(0.08145465,0.08596851){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
-    \put(0.02324254,0.15862056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.03101478,0.08614754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
+    \put(0.1374661,0.08800387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
+    \put(0.52074107,0.1210966){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
+    \put(0.17846678,0.00988696){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathrm{TE}$\end{tabular}}}}%
+    \put(0.60309566,0.0087619){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathrm{TM}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{10_TETM.pdf}}%
+    \put(0.96413104,0.08579633){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.90646771,0.15776347){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.91416669,0.08597368){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
+    \put(-0.001182,0.16388737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.42935025,0.16388737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%
 \endgroup%

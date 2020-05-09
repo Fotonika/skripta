@@ -14,7 +14,7 @@
    viewBox="0 0 1034.3913 439.92239"
    id="svg3464"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="07_FibEr.svg">
   <defs
      id="defs3466">
@@ -331,9 +331,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.52951289"
-     inkscape:cx="590.12317"
-     inkscape:cy="150.67352"
+     inkscape:zoom="1.4976886"
+     inkscape:cx="318.08245"
+     inkscape:cy="353.33412"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -341,10 +341,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1365"
+     inkscape:window-width="1593"
      inkscape:window-height="943"
-     inkscape:window-x="553"
-     inkscape:window-y="58"
+     inkscape:window-x="308"
+     inkscape:window-y="78"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata3469">
@@ -610,13 +610,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="162.99115"
-       y="144.51196"
+       x="142.36615"
+       y="127.63696"
        id="text12643"><tspan
          sodipodi:role="line"
          id="tspan12645"
-         x="162.99115"
-         y="144.51196"
+         x="142.36615"
+         y="127.63696"
          style="font-size:22.5px;line-height:1.25">Energija</tspan></text>
     <text
        xml:space="preserve"
@@ -844,7 +844,7 @@
          y="559.19055"
          x="793.14148"
          id="tspan12645-3"
-         sodipodi:role="line">Valovna dolžina [nm]</tspan></text>
+         sodipodi:role="line">valovna dolžina [nm]</tspan></text>
     <text
        id="text12643-5-9"
        y="529.8609"
@@ -899,7 +899,7 @@
          id="tspan12645-9"
          x="696.2561"
          y="350.3551"
-         style="font-size:26.02920151px;line-height:1.25">Absorpcija</tspan></text>
+         style="font-size:26.02920151px;line-height:1.25">absorpcija</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -910,12 +910,46 @@
          id="tspan12645-9-0"
          x="972.7746"
          y="274.31876"
-         style="font-size:26.02920151px;line-height:1.25">Emisija</tspan></text>
+         style="font-size:26.02920151px;line-height:1.25">emisija</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path4165-3-8-5-6-7"
        d="m 334.59526,307.21798 40.19792,40.57055"
        style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-0-2-8-1-6-3)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-389.08331"
+       y="647.71356"
+       id="text12643-7-27"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan12645-9-09"
+         x="-389.08331"
+         y="647.71356"
+         style="font-size:17.50000191px;line-height:1.25;stroke-width:1.00000012px">intenziteta</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994"
+       x="89.037132"
+       y="142.36771"
+       id="text2484"><tspan
+         sodipodi:role="line"
+         id="tspan2482"
+         x="89.037132"
+         y="142.36771"
+         style="font-size:25px;stroke-width:0.93749994">a)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994"
+       x="615.30609"
+       y="142.36771"
+       id="text2484-3"><tspan
+         sodipodi:role="line"
+         id="tspan2482-6"
+         x="615.30609"
+         y="142.36771"
+         style="font-size:25px;stroke-width:0.93749994">b)</tspan></text>
   </g>
 </svg>

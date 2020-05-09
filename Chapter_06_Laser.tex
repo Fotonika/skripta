@@ -516,7 +516,7 @@ mora biti premer zaslonke, ki jo postavimo $1~\si{m}$ od izvora,
 okoli $0,6~\si{mm}$. V tem primeru znaša 
 moč, ki prehaja skozi zaslonko, pri svetlosti $100~\si{W/cm^{2}}$ 
 le približno $3\cdot10^{-7}~\si{W}$.
-Pri podobni divergenci žarka je močno navadno svetilo torej štiri rede
+Pri podobni divergenci snopa je močno navadno svetilo torej štiri rede
 velikosti šibkejše od šibkih laserjev z močjo $1~\si{mW}$. 
 \begin{figure}[h]
 \centering
@@ -881,7 +881,7 @@ Obravnavajmo najprej način, pri katerem periodično moduliramo črpanje.
 To dosežemo na primer z bliskavico ali drugim sunkovnim laserjem. V 
 intervalu \index{Sunkovni laser!{preklop črpanja}}\index{Črpanje}
 črpanja je ojačenje večje od izgub in svetloba izhaja iz laserja, ko pa črpanja 
-ni, so izgube prevelike in laser ne sveti (slika~\ref{fig:Gswitch} levo). Za dosego velike
+ni, so izgube prevelike in laser ne sveti (slika~\ref{fig:Gswitch}\,a). Za dosego velike
 obrnjene zasedenosti v ojačevalnem sredstvu mora biti sprememba črpanja zelo hitra, 
 da v času preklopa še ne pride do znatnega povečanja števila fotonov. 
 Najbolj pogosto se modulacija črpanja uporablja
@@ -891,8 +891,10 @@ ga je zelo preprosto modulirati z razmeroma velikimi frekvencami.
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/06_pulseG.pdf_tex}
-\caption{Delovanje sunkovnega laserja z periodično moduliranim črpanjem (levo), 
-pri katerem lahko pride do neželenih oscilacij (desno)}
+\caption{Delovanje sunkovnega laserja s periodično moduliranim črpanjem (a). Laser sveti,
+kadar je črpanje dovolj veliko in ojačanje $G$ nad pragom $G_{\mathrm{pr}}$. 
+Pri hitrem preklapljanju črpanja lahko pride do neželenih oscilacij izhodne moči $P$ in 
+popačenja izhodnih sunkov (b).}
 \label{fig:Gswitch}
 \end{figure}
 
@@ -902,7 +904,7 @@ je to mogoče), laser posveti in v kratkem času zasedenost pade nazaj pod prag.
 Če tedaj črpanje še traja, zasedenost naraste in laser ponovno posveti. 
 To se lahko večkrat ponovi. Razmiki med zaporednimi sunki\index{Relaksacijske oscilacije}
 so reda velikosti periode relaksacijskih oscilacij in so lahko precej
-nepravilni  (slika~\ref{fig:Gswitch} desno). Pri takem delovanju
+nepravilni  (slika~\ref{fig:Gswitch}\,b). Pri takem delovanju
 razpoložljiva energija črpanja ne izstopa iz laserja v obliki enega samega lepo oblikovanega sunka, 
 ampak v zaporedju sunkov. Omenjene oscilacije močno omejujejo uporabnost tega pristopa.
 
@@ -936,9 +938,8 @@ dobrote.\index{Dobrota resonatorja}
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/06_pulseQ.pdf_tex}
-\caption{Izgube ($\Lambda$), relativno ojačenje ($G/G_p$), zasedenost višjega 
-nivoja ($N_2$) in moč izsevane svetlobe ($P$) v odvisnosti od časa, kadar laser 
-deluje v režimu preklopa dobrote.}
+\caption{Delovanje laserja v režimu preklopa dobrote. Izgube (a), relativno ojačenje (b), 
+zasedenost višjega nivoja (c) in moč izsevane svetlobe (d) v odvisnosti od časa.}
 \label{fig:pulseQ}
 \end{figure}
 
@@ -980,9 +981,10 @@ je vrednost  $n$ majhna, zato drugi člen v enačbi~(\ref{5.32}) lahko
 zanemarimo. Izračunamo, da število fotonov
 na začetku sunka narašča približno eksponentno
 \begin{equation}  
-n(t)=n_0e^{t\,N_{20}\,\sigma c/V}= n_0e^{t/\tau_r}.
+n(t)=n_0e^{t\,N_{20}\,\sigma c/V}= n_0e^{t/\tau_r},
 \label{5.33}
 \end{equation}
+ker je $t_r = V/N_{20} \sigma c$.
 Začetnega števila fotonov ne poznamo, vendar vemo, da je velikostnega reda 1,
 saj predstavlja spontano emisijo. Da $n$ znatno naraste, recimo nad 
 $10^{10}$ fotonov, je potreben čas blizu $25~\tau_r$.
@@ -1021,7 +1023,11 @@ Enačbo preprosto numerično rešimo (slika~\ref{fig:Qeq}).
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/06_Qeq.pdf_tex}
-\caption{Rešitev enačbe~(\ref{xaenacba})}
+\caption{Rešitev enačbe~(\ref{xaenacba}), ki pove, kolikšna je
+zasedenost vzbujenega stanja $N_{2k}$ na koncu sunka pri dani začetni 
+zasedenosti $N_{20}$. Večja kot je začetna zasedenost, bolj se 
+izprazni vzbujeni nivo.
+}
 \label{fig:Qeq}
 \end{figure}
 
@@ -1046,7 +1052,7 @@ W\approx\hslash \omega\,N_{20}.
 }
 \begin{definition}
 \label{nalpmax}
-Trenutna moč, ki izhaja iz laserja, je enaka 
+Trenutna moč svetlobe, ki izhaja iz laserja, je enaka 
 \begin{equation}
 P=n \hslash \omega \frac{2}{\tau}.
 \end{equation}
@@ -1143,9 +1149,10 @@ dolžino sunkov
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/06_pulseML.pdf_tex}
-\caption{Valovanja z enako fazo se seštejejo v posamezne vrhove (levo). 
+\caption{Valovanja z različno lastno frekvenco, a enako fazo, se seštejejo v 
+posamezne vrhove (a). 
 Časovna odvisnost izhodne moči večfrekvenčnega laserja z uklenjenimi fazami je 
-v obliki izrazitih sunkov (desno).}
+v obliki izrazitih sunkov (b).}
 \label{s5.10}
 \end{figure}
 
@@ -1308,7 +1315,8 @@ določitev frekvence moramo ta zamik seveda natančno poznati.
 \centering
 \def\svgwidth{110truemm} 
 \input{slike/06_comb2.pdf_tex}
-\caption{Časovna odvisnost amplitude izhodne svetlobe iz frekvenčnega glavnika}
+\caption{Časovna odvisnost amplitude izhodne svetlobe iz frekvenčnega glavnika. V splošnem
+vrh ovojnice sunka ne sovpada z vrhom amplitude nihanja, vendar zamik $\nu_0$ znamo izmeriti.}
 \label{fig:comb2}
 \end{figure}
 
@@ -1423,14 +1431,14 @@ s časom spreminja parameter $\eta(t)$. Njegov časovni odvod izrazimo
 iz enačb (\ref{5.46}) in dobimo
 \begin{equation}  
 \label{5.49}
-\dot{\eta}=- i \omega_0\eta+\frac{i}{\hslash}\,\mathcal{V}E(t) \left(|c_2|^2-|c_1|^2\right).
+\frac{d\eta}{dt}=- i \omega_0\eta+\frac{i}{\hslash}\,\mathcal{V}E(t) \left(|c_2|^2-|c_1|^2\right).
 \end{equation}
 Spomnimo, da je $|c_i|^2$ verjetnost za zasedenost stanja $|i\rangle$. Izraz v oklepaju
 na desni strani gornje enačbe torej meri razliko zasedenosti obeh stanj, ki jo označimo
 s $\zeta$. Podobno kot zgoraj izrazimo spreminjanje razlike zasedenosti s časovni odvodom 
 \begin{equation}  
 \label{5.50}
-\dot{\zeta}=\frac{2i}{\hslash}\, \mathcal{V} E(t)\left(\eta- \eta^{\ast}\right).
+\frac{d\zeta}{dt}=\frac{2i}{\hslash}\, \mathcal{V} E(t)\left(\eta- \eta^{\ast}\right).
 \end{equation}
 S tem smo iz Schr\"odingerjeve enačbe dobili enačbi za časovni razvoj
 dipolnega momenta in obrnjene zasedenosti, vendar ju moramo še dopolniti.
@@ -1455,26 +1463,26 @@ Zaradi črpanja zavzame obrnjena zasedenost neko vrednost $-1<\zeta_0<1$,
 odvisno od moči črpanja. Enačbi (\ref{5.50}) dodamo ustrezen člen
 \begin{equation}  
 \label{5.51}
-\dot{\zeta}=A\left(\zeta_0-\zeta\right)+\frac{2i}{\hslash}\,\mathcal{V}E(t)\left(\eta-\eta^{\ast}\right),
+\frac{d\zeta}{dt}=A\left(\zeta_0-\zeta\right)+\frac{2i}{\hslash}\,\mathcal{V}E(t)\left(\eta-\eta^{\ast}\right),
 \end{equation}
 ki opisuje vpliv črpanja in spontane prehode v nižje stanje. 
 
 Dopolnimo še enačbo za časovno spreminjanje električnega dipola 
 (enačba~\ref{5.49}). Pri $E(t)=0$ da zapisana enačba časovno odvisnost 
-$\eta \propto e^{-i \omega_0 t}$, to je brez dušenja. Vendar vemo, da
+$\eta \propto e^{-i \omega_0 t}$, to je brez dušenja. Vendar vemo, da električna
 polarizacija v mešanem stanju razpada vsaj zaradi spontanega sevanja, lahko
 pa še zaradi drugih vplivov, na primer trkov z drugimi atomi. Označimo
-koeficient dušenja polarizacije, ki meri tudi spektralno širino svetlobe, 
+koeficient dušenja polarizacije snovi, ki meri tudi spektralno širino svetlobe, 
 izsevane pri prehodu $2\rightarrow 1$, z $\gamma$. Zapišemo
 dopolnjeno enačbo
 \begin{equation}  
 \label{5.52}
-\dot{\eta}=- \left(i \omega_0+\gamma\right)\eta+\frac{i}{\hslash}\,\mathcal{V} E(t) \zeta
+\frac{d\eta}{dt}=- \left(i \omega_0+\gamma\right)\eta+\frac{i}{\hslash}\,\mathcal{V} E(t) \zeta
 \end{equation}
 in kompleksno konjugirano enačbo
 \begin{equation}  
 \label{5.52c}
-\dot{\eta}^*=-\left(-i \omega_0+\gamma\right)\eta^*-\frac{i}{\hslash}\,\mathcal{V}E(t) \zeta.
+\frac{d\eta^*}{dt}=-\left(-i \omega_0+\gamma\right)\eta^*-\frac{i}{\hslash}\,\mathcal{V}E(t) \zeta.
 \end{equation}
 Dobili smo sistem sklopljenih diferencialnih enačb, ki opisuje časovno
 spreminjanje obrnjene zasedenosti in dipolnega momenta atoma. 
@@ -1488,13 +1496,13 @@ spreminjanje obrnjene zasedenosti in dipolnega momenta atoma.
 
 Za opis potrebujemo še enačbo za polje $E(t)$. To naredimo klasično, tako da
 jakost električnega polja zadošča valovni enačbi. Upoštevati moramo, 
-da je v snovi tudi polarizacija različna od nič. 
+da je v snovi tudi električna polarizacija različna od nič. 
 Valovna enačba v skalarni obliki je tedaj\index{Valovna enačba}
 \begin{equation}  
 \label{5.54}
 \nabla^2 E-\frac{1}{c^2}\frac{\partial^2 E}{\partial t^2}=\mu_0 \frac{\partial^2 P}{\partial t^2},
 \end{equation}
-pri čemer je v primeru, da so vsi atomi enakovredni, polarizacija enaka
+pri čemer je v primeru, da so vsi atomi enakovredni, električna polarizacija enaka
 \begin{equation}  
 \label{5.53}
 P=\frac{N}{V}p = -\frac{N}{V}\,\mathcal{V}\left(\eta+\eta^{\ast}\right)=P^+ + P^-,
@@ -1542,7 +1550,7 @@ delovanju je periodična, vendar njena krožna frekvenca $\Omega$ ni nujno enaka
 krožni frekvenci praznega resonatorja $\omega_n$. Krožno frekvenco 
 $\Omega$ moramo še izračunati.
 
-Razvijmo še polarizacijo po lastnih funkcijah $u_n(\mathbf{r})$. 
+Razvijmo še električno polarizacijo po lastnih funkcijah $u_n(\mathbf{r})$. 
 Ker so lastne funkcije med seboj ortogonalne, preide valovna enačba (\ref{5.54}) 
 ob upoštevanju enačbe~(\ref{5.58}) v 
 \begin{equation}  
@@ -1568,9 +1576,9 @@ i \omega_nE_n^+\right).
 \end{equation}
 Izpustili smo drugi odvod $A$ po času in s tem napravili približek počasi spreminjajoče se amplitude.
 
-Polarizacija snovi je približno periodična s krožno frekvenco $\omega_0 \approx \omega_n$.
+Električna polarizacija snovi je približno periodična s krožno frekvenco $\omega_0 \approx \omega_n$.
 Tudi amplituda polarizacije se le počasi spreminja, zato lahko privzamemo, da je 
-$\ddot{P}_n^+ \approx - \omega_0^2 P_n^+$. Z uporabo tega
+drugi odvod $P_n^+$ po času približno enak $-\omega_0^2 P_n^+$. Z uporabo tega
 približka in enačbe~(\ref{5.61}) preide valovna enačba (enačba~\ref{5.54}) za izbrano nihanje v 
 \begin{equation}  
 \label{5.62}
@@ -1630,7 +1638,7 @@ izračun frekvence izhodne svetlobe.
 Naj bo stanje stacionarno. Tedaj polje zapišemo v obliki $E_{n
 }^{+}=E_{0}e^{-i\Omega t}$, kjer je $E_{0}$ realna konstanta, krožna frekvenca
 svetlobe $\Omega$ pa je blizu $\omega _{0}$ in $\omega _{n }$. V
-stacionarnem stanju ima polarizacija enako časovno odvisnost in 
+stacionarnem stanju ima električna polarizacija enako časovno odvisnost in 
 $P_{n }^{+}=P_{0}e^{-i\Omega t}$. Tedaj je v enačbi~(\ref{5.66}) drugi
 oklepaj konstanten in povprečna gostota obrnjene zasedenosti $\overline{Z}$ je 
 v stacionarnem stanju od časa neodvisna. 

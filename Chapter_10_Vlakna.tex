@@ -19,12 +19,13 @@ predvsem disperzijo in izgube, ter načine, kako se z njimi spopadamo.
 Klasično pojasnimo delovanje optičnih vlaken s totalnim odbojem~\index{Totalni odboj}
 na meji med dvema dielektrikoma. Kadar prehaja svetloba iz snovi 
 z večjim lomnim količnikom\index{Lomni količnik} v sredstvo z manjšim lomnim količnikom,
-se pri vpadnih kotih, ki so večji od kritičnega kota, totalno odbije. 
+se pri vpadnih kotih, ki so večji od mejnega kota, totalno odbije. 
 \begin{figure}[h]
 \centering
 \def\svgwidth{110truemm} 
 \input{slike/10_Vodnik.pdf_tex}
-\caption{Klasična razlaga valovnega vodnika}
+\caption{Klasična razlaga razširjanja svetlobe po valovnem vodniku. Z modro je označena sredica
+vodnika in z zeleno plašč. Žarek se na meji med sredico in plaščem totalno odbija.}
 \label{fig:vodnik}
 \end{figure}
 
@@ -33,10 +34,10 @@ dielektrika, ki je obdana s snovjo z manjšim lomnim količnikom (slika~\ref{fig
 Plasti z večjim lomnim količnikom ($n_1$) rečemo sredica\index{Optični vodnik!sredica}, 
 okoliški snovi z lomnim količnikom $n_2<n_1$ pa plašč\index{Optični vodnik!plašč}. 
 Žarek potuje po vodniku, če je vpadni kot 
-na mejo med sredico in plaščem $\vartheta$ večji od kota totalnega odboja $\vartheta_c$, 
+na mejo med sredico in plaščem $\vartheta$ večji od mejnega kota totalnega odboja $\vartheta_T$, 
 za katerega velja
 \boxeq{10totalni}{
-\sin\vartheta_{c}=\frac{n_{2}}{n_{1}}.
+\sin\vartheta_{T}=\frac{n_{2}}{n_{1}}.
 }
 Obstaja največji vpadni kot $\alpha_{\rm max}$, pri katerem se
 vpadna svetloba ujame v vlakno.
@@ -44,8 +45,8 @@ Z njim povezana je numerična odprtina (apertura) vlakna\index{Numerična odprti
 ki jo izračunamo kot 
 \begin{equation}
 NA = \sin \alpha_{\rm max} = n_1 \sin \beta_{\rm max} = 
-n_1 \sin(\pi/2-\vartheta_c) =
-n_1 \cos\vartheta_c = n_1 \sqrt{1-\sin^2\vartheta_c}.
+n_1 \sin(\pi/2-\vartheta_T) =
+n_1 \cos\vartheta_T = n_1 \sqrt{1-\sin^2\vartheta_T}.
 \label{10NAa}
 \end{equation}
 Upoštevajoč enačbo~(\ref{10totalni}) numerično odprtino zapišemo kot 
@@ -79,12 +80,12 @@ govorimo o transverzalnem magnetnem (TM) valovanju\index{Polarizacija!TM}.
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/10_TETM.pdf_tex}
-\caption{Polarizaciji TE (levo) in TM (desno) valovanj v valovnem vodniku}
+\caption{Polarizacija TE valovanja (a) in polarizacija TM valovanja (b) v valovnem vodniku}
 \label{fig:TETM}
 \end{figure}
 
-Geometrijskemu žarku, ki pod kotom potuje po sredici in se na njeni meji
-odbija, ustreza v valovni sliki val, ki ima prečno komponento valovnega
+Geometrijskemu žarku, ki se odbija na mejah stranice, ustreza v 
+valovni sliki val, ki ima prečno komponento valovnega
 vektorja\index{Valovni vektor} $k_{x}$ različno od nič. Ker je valovanje v prečni smeri 
 omejeno na sredico končne debeline (naj bo debelina sredice enaka $a$), lahko
 $k_{x}$ zavzame le diskretne vrednosti. Te so v grobem približno enake $N\pi/a$, pri čemer je $N$
@@ -103,7 +104,7 @@ sistemih\index{Optični vodnik!enorodovni}\index{Optično vlakno!enorodovno}.
 
 Povejmo še nekaj o hitrosti valovanja v vodniku.
 Naj bo $\beta$ velikost komponente valovnega vektorja vzdolž smeri $z$ in odvisnost 
-polja od koordinate vzdolž vodnika $\exp (i\beta z)$. Po Pitagorovem izreku velikost
+polja od koordinate vzdolž vodnika $\exp (i\beta z)$. Velikost
 valovnega vektorja v sredici vodnika zapišemo kot
 \begin{equation}
 k_1 = n_{1}\frac{\omega}{c_0}=\sqrt{\beta^{2}+k_{x}^{2}}
@@ -127,7 +128,8 @@ plasti prozornega dielektrika z lomnim količnikom $n_1$ in plašča z lomnim ko
 Zaradi enostavnosti privzamemo, da je plašč na obeh straneh sredice enak.
 Sredica naj bo debela $a$, izhodišče koordinatnega sistema
 si izberemo na sredini plasti. Ločimo tri območja, kjer rešujemo valovno enačbo:
-območje II označuje sredico, območji I in III naj bosta v plašču nad sredico oziroma pod njo. 
+območje II označuje sredico, območji I in III naj bosta v plašču nad sredico oziroma pod njo
+(slika~\ref{fig:vodnikracun}).
 
 \begin{figure}[h]
 \centering
@@ -144,11 +146,13 @@ enačba\index{Helmholtzeva enačba} (enačba~\ref{eq:Helmholtz})
 \label{9.1}
 \end{equation}
 kjer je $k_{0}=\omega/c$. Pri tem $n(x)$  nezvezno spremeni vrednost ob prehodu iz sredice v plašč. 
+
 Nastavek za rešitev naj bo oblike 
 \begin{equation}
-{\mathbf E}(x,z)=\mathbf{e}\psi\left(x\right)\, e^{i\beta z}.
+{\mathbf E}(x,z)=\mathbf{e}\psi\left(x\right)\, e^{i\beta z},
 \label{9.2}
 \end{equation}
+pri čemer $\mathbf{e}$ označuje enotski vektor v smeri polarizacije valovanja.
 Omejimo se le na primer TE polarizacije\index{Optični vodnik!TE rodovi} (za izračun lastnih rodov 
 TM polariziranega
 valovanja glej nalogo~\ref{naloga:TM}). Vstavimo nastavek (enačba~\ref{9.2}) v enačbo
@@ -175,7 +179,6 @@ rešitve v plašču pa so oblike
 \psi_{\mathrm{III}}(x) = F \exp(-\kappa x)+G \exp(\kappa x),
 \end{equation}
 pri čemer smo vpeljali $\kappa^2= \beta^2-k_0^2n_2^2$.
-
 Da valovanje ostane ujeto v vlakno, mora biti $\kappa$ realno število.
 Le tako namreč dosežemo eksponentno pojemanje jakosti električnega polja 
 z oddaljenostjo od sredice,

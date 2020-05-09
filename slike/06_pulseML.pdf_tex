@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '06_pulseML.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{752.94756551bp}%
+    \setlength{\unitlength}{788.1301135bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +50,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.33911223)%
+  \begin{picture}(1,0.33570857)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.43644638,0.29591916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
-    \put(0.96038727,0.00217544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
-    \put(0.61343035,0.31542898){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
-    \put(0.59748002,0.04972321){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0.46160365,0.2789027){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.96215553,0.00207834){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
+    \put(0.63068697,0.30134807){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
+    \put(0.61544866,0.04750355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{06_pulseML.pdf}}%
-    \put(0.60268867,0.05268248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0.62042479,0.05033072){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(-0.01104028,0.31642836){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.44428837,0.31642836){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.41531733,0.36973366){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.61011446\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%

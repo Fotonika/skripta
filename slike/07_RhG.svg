@@ -14,7 +14,7 @@
    viewBox="0 0 382.39661 296.12709"
    id="svg3560"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="07_RhG.svg">
   <defs
      id="defs3562">
@@ -181,7 +181,7 @@
          y="311.00146"
          x="345.54684"
          id="tspan12645-3"
-         sodipodi:role="line">Valovna dolžina [nm]</tspan></text>
+         sodipodi:role="line">valovna dolžina [nm]</tspan></text>
     <text
        id="text12643-5-9"
        y="295.31644"
@@ -247,7 +247,7 @@
          id="tspan12645-9"
          x="288.05438"
          y="50.388718"
-         style="font-size:17.5px;line-height:1.25">Absorpcija</tspan></text>
+         style="font-size:17.5px;line-height:1.25">absorpcija</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -258,6 +258,18 @@
          id="tspan12645-9-0"
          x="433.18689"
          y="156.00394"
-         style="font-size:17.5px;line-height:1.25">Emisija</tspan></text>
+         style="font-size:17.5px;line-height:1.25">emisija</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-199.18436"
+       y="204.78247"
+       id="text12643-7-27"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan12645-9-09"
+         x="-199.18436"
+         y="204.78247"
+         style="font-size:17.50000191px;line-height:1.25;stroke-width:1.00000012px">intenziteta</tspan></text>
   </g>
 </svg>

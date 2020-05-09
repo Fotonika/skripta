@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '07_exE.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{305.91729112bp}%
+    \setlength{\unitlength}{327.60066956bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,13 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.66479077)%
+  \begin{picture}(1,0.68851544)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_exE.pdf}}%
-    \put(-0.26623734,0.61255817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Energija}}}%
-    \put(0.7272153,0.06789917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Kr + Cl}}}%
-    \put(0.47765847,0.27389098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$222~\si{\nano\metre}$}}}%
-    \put(1.03021237,0.00482523){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Razdalja med jedroma}}}%
-    \put(0.75904485,0.50397592){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(KrCl)*}}}%
-    \put(0.35910533,1.04149973){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.03115378,0.24776298){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}energija\end{tabular}}}}}%
+    \put(0.72935335,0.12370223){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Kr + Cl\end{tabular}}}}%
+    \put(0.49631429,0.31605976){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$222~\si{\nano\metre}$\end{tabular}}}}%
+    \put(0.19869208,0.00015868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}razdalja med jedroma\end{tabular}}}}%
+    \put(0.75907615,0.53091575){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}(KrCl)*\end{tabular}}}}%
   \end{picture}%
 \endgroup%

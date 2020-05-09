@@ -14,7 +14,7 @@
    viewBox="0 0 516.71108 398.09525"
    id="svg3464"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="07_TiE.svg">
   <defs
      id="defs3466">
@@ -252,8 +252,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.889722"
-     inkscape:cx="288.16678"
-     inkscape:cy="182.75092"
+     inkscape:cx="69.114567"
+     inkscape:cy="381.38594"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -261,9 +261,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="983"
+     inkscape:window-width="1630"
      inkscape:window-height="743"
-     inkscape:window-x="915"
+     inkscape:window-x="268"
      inkscape:window-y="272"
      inkscape:window-maximized="0" />
   <metadata
@@ -274,7 +274,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -782,74 +782,71 @@
        id="path4165-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <g
-       id="g3462">
-      <text
-         id="text12643"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="142.36615"
+       y="180.51196"
+       id="text12643"><tspan
+         sodipodi:role="line"
+         id="tspan12645"
+         x="142.36615"
          y="180.51196"
-         x="162.99115"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:22.5px;line-height:1.25"
-           y="180.51196"
-           x="162.99115"
-           id="tspan12645"
-           sodipodi:role="line">Energija</tspan></text>
-      <text
-         id="text12731"
-         y="555.67859"
+         style="font-size:22.5px;line-height:1.25">Energija</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="413.83154"
+       y="555.67859"
+       id="text12731"><tspan
+         sodipodi:role="line"
+         id="tspan12733"
          x="413.83154"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:20px;line-height:1.25"
-           y="555.67859"
-           x="413.83154"
-           id="tspan12733"
-           sodipodi:role="line">osnovno stanje</tspan></text>
-      <text
-         id="text12647-1-6-2-5"
-         y="382.62671"
+         y="555.67859"
+         style="font-size:20px;line-height:1.25">osnovno stanje</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="227.15202"
+       y="382.62671"
+       id="text12647-1-6-2-5"><tspan
+         sodipodi:role="line"
          x="227.15202"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743"
-           style="font-size:20px;line-height:1.25"
-           y="382.62671"
-           x="227.15202"
-           sodipodi:role="line">optično črpanje</tspan></text>
-      <text
-         id="text12647-1-6-2-5-8"
+         y="382.62671"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743">optično črpanje</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="413.15155"
+       y="532.65295"
+       id="text12647-1-6-2-5-8"><tspan
+         sodipodi:role="line"
+         x="413.15155"
          y="532.65295"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-8">hitri prehodi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="413.15155"
+       y="288.52435"
+       id="text12647-1-6-2-5-8-4"><tspan
+         sodipodi:role="line"
          x="413.15155"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-8"
-           style="font-size:20px;line-height:1.25"
-           y="532.65295"
-           x="413.15155"
-           sodipodi:role="line">hitri prehodi</tspan></text>
-      <text
-         id="text12647-1-6-2-5-8-4"
          y="288.52435"
-         x="413.15155"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-8-7"
-           style="font-size:20px;line-height:1.25"
-           y="288.52435"
-           x="413.15155"
-           sodipodi:role="line">hitri prehodi</tspan></text>
-      <text
-         id="text12647-1-6-2-5-8-4-6"
-         y="384.49002"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-8-7">hitri prehodi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="386.66351"
+       y="384.49002"
+       id="text12647-1-6-2-5-8-4-6"><tspan
+         sodipodi:role="line"
          x="386.66351"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-8-7-5"
-           style="font-size:20px;line-height:1.25"
-           y="384.49002"
-           x="386.66351"
-           sodipodi:role="line">$600$--$1100~\si{\nano\metre}$</tspan></text>
-    </g>
+         y="384.49002"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-8-7-5">$600$--$1100~\si{\nano\metre}$</tspan></text>
   </g>
 </svg>

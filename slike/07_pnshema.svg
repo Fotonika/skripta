@@ -14,7 +14,7 @@
    viewBox="0 0 749.12409 221.40438"
    id="svg6687"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="07_pnshema.svg">
   <sodipodi:namedview
      id="base"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3615507"
-     inkscape:cx="787.62032"
-     inkscape:cy="87.043228"
+     inkscape:zoom="0.68077535"
+     inkscape:cx="435.0525"
+     inkscape:cy="72.153567"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -460,5 +460,27 @@
          id="tspan5345-6-0"
          sodipodi:role="line"
          style="font-size:16.25px;line-height:1.25">$n$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994"
+       x="399.27997"
+       y="761.80182"
+       id="text2484"><tspan
+         sodipodi:role="line"
+         id="tspan2482"
+         x="399.27997"
+         y="761.80182"
+         style="font-size:25.00000191px;stroke-width:0.93749994">a)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994"
+       x="1004.299"
+       y="761.80182"
+       id="text2484-3"><tspan
+         sodipodi:role="line"
+         id="tspan2482-6"
+         x="1004.299"
+         y="761.80182"
+         style="font-size:25.00000191px;stroke-width:0.93749994">b)</tspan></text>
   </g>
 </svg>

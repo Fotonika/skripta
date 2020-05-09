@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '07_FibEr.pdf' (pdf, eps, ps)
 %%
@@ -54,7 +54,7 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_FibEr.pdf}}%
-    \put(0.03716158,0.4017113){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Energija\end{tabular}}}}%
+    \put(0.01722231,0.41802525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Energija\end{tabular}}}}%
     \put(0.27966209,0.00421505){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
     \put(0.1074589,0.17945645){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}optično \end{tabular}}}}%
     \put(0.2790047,0.05316382){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
@@ -63,13 +63,16 @@
     \put(0,0){\includegraphics[width=\unitlength,page=2]{07_FibEr.pdf}}%
     \put(0.10660715,0.15459149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}črpanje\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{07_FibEr.pdf}}%
-    \put(0.64636081,0.00081985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Valovna dolžina [nm]\end{tabular}}}}%
+    \put(0.64636081,0.00081985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valovna dolžina [nm]\end{tabular}}}}%
     \put(0.5032249,0.02917436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1450\end{tabular}}}}%
     \put(0.64467059,0.02917436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1500\end{tabular}}}}%
     \put(0.78414667,0.02917436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1550\end{tabular}}}}%
     \put(0.92387499,0.02917436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1600\end{tabular}}}}%
-    \put(0.55269666,0.20271199){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Absorpcija\end{tabular}}}}%
-    \put(0.82002153,0.2762203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Emisija\end{tabular}}}}%
+    \put(0.55269666,0.20271199){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}absorpcija\end{tabular}}}}%
+    \put(0.82002153,0.2762203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}emisija\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{07_FibEr.pdf}}%
+    \put(0.50576805,0.16527141){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}intenziteta\end{tabular}}}}}%
+    \put(-0.03433363,0.40378427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.47443806,0.40378427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%
 \endgroup%

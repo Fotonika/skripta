@@ -64,83 +64,83 @@
 \contentsline {section}{\numberline {6.6}Večfrekvenčni laser}{104}{section.6.6}%
 \contentsline {section}{\numberline {6.7}Relaksacijske oscilacije}{106}{section.6.7}%
 \contentsline {section}{\numberline {6.8}Sunkovni laserji}{108}{section.6.8}%
-\contentsline {section}{\numberline {6.9}Delovanje v sunkih s preklopom dobrote}{108}{section.6.9}%
+\contentsline {section}{\numberline {6.9}Delovanje v sunkih s preklopom dobrote}{109}{section.6.9}%
 \contentsline {section}{\numberline {6.10}Uklepanje faz}{112}{section.6.10}%
-\contentsline {section}{\numberline {6.11}*Frekvenčni glavnik in absolutna meritev frekvence laserja}{115}{section.6.11}%
-\contentsline {section}{\numberline {6.12}*Semiklasični model laserja}{116}{section.6.12}%
-\contentsline {chapter}{\numberline {7}Primeri laserjev}{122}{chapter.7}%
+\contentsline {section}{\numberline {6.11}*Frekvenčni glavnik in absolutna meritev frekvence laserja}{116}{section.6.11}%
+\contentsline {section}{\numberline {6.12}*Semiklasični model laserja}{118}{section.6.12}%
+\contentsline {chapter}{\numberline {7}Primeri laserjev}{123}{chapter.7}%
 \ttl@stoptoc {default@6}
 \ttl@starttoc {default@7}
-\contentsline {section}{\numberline {7.1}Laserski sistemi}{122}{section.7.1}%
-\contentsline {section}{\numberline {7.2}He-Ne laser}{123}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Argonov ionski laser}{125}{section.7.3}%
-\contentsline {section}{\numberline {7.4}CO$_\mathsf {2}$ laser}{126}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Ekscimerni laser}{128}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Neodimov laser}{129}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Nd:YAG}{129}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Nd:steklo}{131}{subsection.7.6.2}%
-\contentsline {section}{\numberline {7.7}Ti:safir laser}{131}{section.7.7}%
-\contentsline {section}{\numberline {7.8}Laserji na organska barvila}{132}{section.7.8}%
-\contentsline {section}{\numberline {7.9}Vlakenski laserji}{133}{section.7.9}%
-\contentsline {section}{\numberline {7.10}Polprevodniški laserji}{135}{section.7.10}%
-\contentsline {subsection}{\numberline {7.10.1}Svetleče diode - LED}{142}{subsection.7.10.1}%
-\contentsline {chapter}{\numberline {8}Optična vlakna}{144}{chapter.8}%
+\contentsline {section}{\numberline {7.1}Laserski sistemi}{123}{section.7.1}%
+\contentsline {section}{\numberline {7.2}He-Ne laser}{124}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Argonov ionski laser}{126}{section.7.3}%
+\contentsline {section}{\numberline {7.4}CO$_\mathsf {2}$ laser}{127}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Ekscimerni laser}{129}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Neodimov laser}{130}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Nd:YAG}{130}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Nd:steklo}{132}{subsection.7.6.2}%
+\contentsline {section}{\numberline {7.7}Ti:safir laser}{132}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Laserji na organska barvila}{133}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Vlakenski laserji}{134}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Polprevodniški laserji}{136}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Svetleče diode - LED}{143}{subsection.7.10.1}%
+\contentsline {chapter}{\numberline {8}Optična vlakna}{145}{chapter.8}%
 \ttl@stoptoc {default@7}
 \ttl@starttoc {default@8}
-\contentsline {section}{\numberline {8.1}Planparalelni vodnik}{144}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Račun lastnih rodov v planparalelnem vodniku}{146}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Cilindrično vlakno}{150}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Disperzija}{157}{section.8.4}%
-\contentsline {section}{\numberline {8.5}*Potovanje kratkega sunka po enorodovnem vlaknu}{160}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Izgube in ojačenje v optičnih vlaknih}{164}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Sklopitev svetlobe v optične vodnike}{168}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Sklopitev med optičnimi vodniki}{169}{section.8.8}%
-\contentsline {section}{\numberline {8.9}*Vpliv spremembe lomnega količnika vlakna na širjenje svetlobe}{174}{section.8.9}%
-\contentsline {chapter}{\numberline {9}Detektorji svetlobe}{176}{chapter.9}%
+\contentsline {section}{\numberline {8.1}Planparalelni vodnik}{145}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Račun lastnih rodov v planparalelnem vodniku}{147}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Cilindrično vlakno}{151}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Disperzija}{158}{section.8.4}%
+\contentsline {section}{\numberline {8.5}*Potovanje kratkega sunka po enorodovnem vlaknu}{161}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Izgube in ojačenje v optičnih vlaknih}{165}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Sklopitev svetlobe v optične vodnike}{169}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Sklopitev med optičnimi vodniki}{170}{section.8.8}%
+\contentsline {section}{\numberline {8.9}*Vpliv spremembe lomnega količnika vlakna na širjenje svetlobe}{175}{section.8.9}%
+\contentsline {chapter}{\numberline {9}Detektorji svetlobe}{177}{chapter.9}%
 \ttl@stoptoc {default@8}
 \ttl@starttoc {default@9}
-\contentsline {section}{\numberline {9.1}Osnovne karakteristike detektorjev}{176}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Termični detektorji}{177}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Fotoefekt}{180}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Vakuumska fotodioda (fotocelica) in fotopomnoževalka}{182}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Fotoprevodni detektorji}{184}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Polprevodniške fotodiode}{186}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Plazovne fotodiode}{190}{section.9.7}%
-\contentsline {section}{\numberline {9.8}CCD in CMOS detektorji}{192}{section.9.8}%
-\contentsline {section}{\numberline {9.9}Šum pri optični detekciji}{194}{section.9.9}%
-\contentsline {section}{\numberline {9.10}Heterodinska detekcija}{199}{section.9.10}%
-\contentsline {chapter}{\numberline {10}Modulacija svetlobe}{202}{chapter.10}%
+\contentsline {section}{\numberline {9.1}Osnovne karakteristike detektorjev}{177}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Termični detektorji}{178}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Fotoefekt}{181}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Vakuumska fotodioda (fotocelica) in fotopomnoževalka}{183}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Fotoprevodni detektorji}{185}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Polprevodniške fotodiode}{187}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Plazovne fotodiode}{191}{section.9.7}%
+\contentsline {section}{\numberline {9.8}CCD in CMOS detektorji}{193}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Šum pri optični detekciji}{195}{section.9.9}%
+\contentsline {section}{\numberline {9.10}Heterodinska detekcija}{200}{section.9.10}%
+\contentsline {chapter}{\numberline {10}Modulacija svetlobe}{203}{chapter.10}%
 \ttl@stoptoc {default@9}
 \ttl@starttoc {default@10}
-\contentsline {section}{\numberline {10.1}Elektro-optični pojav}{202}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Longitudinalna modulacija}{205}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Transverzalna modulacija}{207}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Amplitudna modulacija}{209}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Fazna in frekvenčna modulacija}{210}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Elasto-optični in akusto-optični pojav}{212}{section.10.6}%
-\contentsline {section}{\numberline {10.7}Uklon svetlobe na zvočnem valovanju}{214}{section.10.7}%
-\contentsline {section}{\numberline {10.8}*Račun akusto-optičnega pojava}{217}{section.10.8}%
-\contentsline {section}{\numberline {10.9}Modulacija s tekočimi kristali}{221}{section.10.9}%
-\contentsline {section}{\numberline {10.10}*Račun prehoda svetlobe skozi zasukan nematik}{224}{section.10.10}%
-\contentsline {section}{\numberline {10.11}Račun preklopa v tekočem kristalu -- Frederiksov prehod}{227}{section.10.11}%
-\contentsline {chapter}{\numberline {11}Nelinearna optika}{230}{chapter.11}%
+\contentsline {section}{\numberline {10.1}Elektro-optični pojav}{203}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Longitudinalna modulacija}{206}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Transverzalna modulacija}{208}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Amplitudna modulacija}{210}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Fazna in frekvenčna modulacija}{211}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Elasto-optični in akusto-optični pojav}{213}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Uklon svetlobe na zvočnem valovanju}{215}{section.10.7}%
+\contentsline {section}{\numberline {10.8}*Račun akusto-optičnega pojava}{218}{section.10.8}%
+\contentsline {section}{\numberline {10.9}Modulacija s tekočimi kristali}{222}{section.10.9}%
+\contentsline {section}{\numberline {10.10}*Račun prehoda svetlobe skozi zasukan nematik}{225}{section.10.10}%
+\contentsline {section}{\numberline {10.11}Račun preklopa v tekočem kristalu -- Frederiksov prehod}{228}{section.10.11}%
+\contentsline {chapter}{\numberline {11}Nelinearna optika}{231}{chapter.11}%
 \ttl@stoptoc {default@10}
 \ttl@starttoc {default@11}
-\contentsline {section}{\numberline {11.1}Nelinearna susceptibilnost}{230}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Nelinearni optični pojavi drugega reda}{231}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Optično frekvenčno podvajanje}{235}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Frekvenčno podvajanje Gaussovih snopov}{240}{section.11.4}%
-\contentsline {section}{\numberline {11.5}{*}Račun podvajanja Gaussovih snopov}{241}{section.11.5}%
-\contentsline {section}{\numberline {11.6}Optično parametrično ojačevanje}{243}{section.11.6}%
-\contentsline {section}{\numberline {11.7}Optično usmerjanje in teraherčno valovanje}{246}{section.11.7}%
-\contentsline {section}{\numberline {11.8}Nelinearni pojavi tretjega reda}{248}{section.11.8}%
-\contentsline {section}{\numberline {11.9}Optični Kerrov pojav}{248}{section.11.9}%
-\contentsline {section}{\numberline {11.10}Samozbiranje in krajevni solitoni}{250}{section.11.10}%
-\contentsline {section}{\numberline {11.11}*Izpeljava krajevnih solitonov}{252}{section.11.11}%
-\contentsline {section}{\numberline {11.12}Optični solitoni}{255}{section.11.12}%
-\contentsline {section}{\numberline {11.13}*Izpeljava optičnih solitonov}{256}{section.11.13}%
-\contentsline {section}{\numberline {11.14}Optična fazna konjugacija}{258}{section.11.14}%
-\contentsline {section}{\numberline {11.15}*Izpeljava optične fazne konjugacije}{260}{section.11.15}%
-\contentsline {section}{\numberline {11.16}Stimulirano Ramanovo in stimulirano Brillouinovo sipanje}{263}{section.11.16}%
-\contentsline {section}{\numberline {11.17}Nelinearni pojavi v optičnih vlaknih}{266}{section.11.17}%
+\contentsline {section}{\numberline {11.1}Nelinearna susceptibilnost}{231}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Nelinearni optični pojavi drugega reda}{232}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Optično frekvenčno podvajanje}{236}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Frekvenčno podvajanje Gaussovih snopov}{241}{section.11.4}%
+\contentsline {section}{\numberline {11.5}{*}Račun podvajanja Gaussovih snopov}{242}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Optično parametrično ojačevanje}{244}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Optično usmerjanje in teraherčno valovanje}{247}{section.11.7}%
+\contentsline {section}{\numberline {11.8}Nelinearni pojavi tretjega reda}{249}{section.11.8}%
+\contentsline {section}{\numberline {11.9}Optični Kerrov pojav}{249}{section.11.9}%
+\contentsline {section}{\numberline {11.10}Samozbiranje in krajevni solitoni}{251}{section.11.10}%
+\contentsline {section}{\numberline {11.11}*Izpeljava krajevnih solitonov}{253}{section.11.11}%
+\contentsline {section}{\numberline {11.12}Optični solitoni}{256}{section.11.12}%
+\contentsline {section}{\numberline {11.13}*Izpeljava optičnih solitonov}{257}{section.11.13}%
+\contentsline {section}{\numberline {11.14}Optična fazna konjugacija}{259}{section.11.14}%
+\contentsline {section}{\numberline {11.15}*Izpeljava optične fazne konjugacije}{261}{section.11.15}%
+\contentsline {section}{\numberline {11.16}Stimulirano Ramanovo in stimulirano Brillouinovo sipanje}{264}{section.11.16}%
+\contentsline {section}{\numberline {11.17}Nelinearni pojavi v optičnih vlaknih}{267}{section.11.17}%
 \contentsfinish 
