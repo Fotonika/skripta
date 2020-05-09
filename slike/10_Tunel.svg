@@ -14,7 +14,7 @@
    viewBox="0 0 929.16492 257.33916"
    id="svg4927"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="10_Tunel.svg">
   <defs
      id="defs4929">
@@ -83,8 +83,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.74690273"
-     inkscape:cx="782.05422"
-     inkscape:cy="67.269377"
+     inkscape:cx="782.10204"
+     inkscape:cy="67.265416"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -94,14 +94,15 @@
      fit-margin-bottom="0"
      inkscape:window-width="1669"
      inkscape:window-height="863"
-     inkscape:window-x="131"
-     inkscape:window-y="56"
+     inkscape:window-x="474"
+     inkscape:window-y="153"
      inkscape:window-maximized="0"
      showguides="false">
     <sodipodi:guide
        position="488.75089,277.87672"
        orientation="-0.70710678,0.70710678"
-       id="guide4373" />
+       id="guide4373"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata4932">
@@ -195,7 +196,7 @@
     <g
        id="g4655">
       <text
-         style="font-size:18.33284569px;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          id="text208"
          font-size="10px"
          y="210.57599"
@@ -205,7 +206,7 @@
            id="tspan4720">$x$</tspan>
       </text>
       <text
-         style="font-size:18.33284569px;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          id="text208-5"
          font-size="10px"
          y="87.142174"
@@ -215,7 +216,7 @@
            id="tspan4720-9">$V$</tspan>
       </text>
       <text
-         style="font-size:18.33284569px;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          id="text208-3"
          font-size="10px"
          y="210.57599"
@@ -225,7 +226,7 @@
            id="tspan4720-5">$x$</tspan>
       </text>
       <text
-         style="font-size:18.33284569px;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          id="text208-5-6"
          font-size="10px"
          y="87.142174"
@@ -235,7 +236,7 @@
            id="tspan4720-9-2">$V$</tspan>
       </text>
       <text
-         style="font-size:18.33284569px;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          id="text208-5-3"
          font-size="10px"
          y="263.28519"
@@ -247,7 +248,7 @@
       <text
          inkscape:transform-center-y="9.372037"
          inkscape:transform-center-x="540.90042"
-         style="font-size:18.33284569px;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          id="text208-5-3-0"
          font-size="10px"
          y="260.60742"
@@ -257,5 +258,27 @@
            id="tspan4720-9-6-6">$W$</tspan>
       </text>
     </g>
+    <text
+       id="text6153"
+       y="91.236336"
+       x="206.94725"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.21186775px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00749985px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:33.10500717px;line-height:1.25;stroke-width:0.00749985px"
+         y="91.236336"
+         x="206.94725"
+         id="tspan6155"
+         sodipodi:role="line">a)</tspan></text>
+    <text
+       id="text6153-3"
+       y="91.23632"
+       x="699.90985"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.21186775px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00749985px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:33.10500717px;line-height:1.25;stroke-width:0.00749985px"
+         y="91.23632"
+         x="699.90985"
+         id="tspan6155-1"
+         sodipodi:role="line">b)</tspan></text>
   </g>
 </svg>

@@ -35,7 +35,7 @@ Elektro-optični pojav\index{Elektro-optični pojav} opisuje spremembe optičnih
 snovi (dielektričnosti in lomnega količnika)\index{Lomni količnik} pod vplivom 
 zunanjega električnega polja. Omejimo se na statično zunanje polje oziroma
 na polje, ki se le počasi spreminja. Omejitev na nizko 
-frekvenco je potrebna zato, da optično polje še lahko obravnavamo linearno. 
+frekvenco je potrebna zato, da odziv snovi na optično polje še lahko obravnavamo linearno. 
 Kako je v nasprotnem primeru, ko je frekvenca polja primerljiva z optično frekvenco, 
 bomo na široko obravnavali v poglavju o nelinearni optiki (poglavje~\ref{chap:NLO}).
 
@@ -241,7 +241,7 @@ r_{63}E_z& 1/n_o^2 & 0\\
 \label{7.8a}
 \end{equation}
 Če želimo izračunati, kako se po kristalu pod napetostjo širi vpadni svetlobni
-snop, moramo gornji tenzor diagonalizirati. Lastne vrednosti novega tenzorja
+snop, moramo tenzor $\underline{b}$ diagonalizirati. Lastne vrednosti novega tenzorja
 in pripadajoče nove lastne osi so
 \begin{align}
 \lambda_1 &= \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_1 = \frac{1}{\sqrt{2}}(1,1,0)\\
@@ -283,7 +283,7 @@ novima lastnima količnikoma, ki ju izrazimo kot\index{Lomni količnik}
 \frac{1}{n_{x'}^2} = \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad 
 \frac{1}{n_{y'}^2} = \frac{1}{n_o^2}- r_{63}E_z. 
 \end{equation}
-Za vsa eksperimentalno dosegljiva polja velja $rE\ll1/n_o^2$ in 
+Za vsa eksperimentalno dosegljiva polja velja $r_{63}E\ll1/n_o^2$ in 
 gornja izraza lahko razvijemo
 \begin{equation}
 n_{x'} = \sqrt{\frac{n_o^2}{1+ n_o^2 r_{63}E_z}} \approx n_o \sqrt{1- n_o^2 r_{63}E_z} \approx
@@ -294,7 +294,8 @@ Nova lomna količnika sta tako
 n_{x'}&\approx n_o - \frac{1}{2}n_o^3 r_{63}E_z \quad \mathrm{in}\\
 n_{y'}&\approx n_o + \frac{1}{2}n_o^3 r_{63}E_z.
 }
-Različni lastni polarizaciji svetlobe  ob priključenem zunanjem polju potujeta vzdolž osi $z$ z različnima hitrostma. 
+Svetloba različnih lastnih polarizacij ob priključenem zunanjem polju potuje vzdolž 
+osi $z$ z različnima hitrostma. 
 Kadar polarizacija vpadnega valovanja ne sovpada z novima lastnima osema $x'$ ali $y'$, je 
 svetloba po preletu kristala na splošno eliptično polarizirana. Ko svetloba
 prepotuje dolžino kristala $L$, pride med lastnima polarizacijama do fazne razlike
@@ -313,7 +314,7 @@ U_\pi = \frac{\pi c_0}{\omega n_o^3 r_{63}} = \frac{\lambda}{2 n_o^3 r_{63}}.
 }
 Za kristal KDP\index{KDP} je $\pi$-napetost pri valovni 
 dolžini $633~\si{\nano\metre}$ okoli  $9000~\si{\volt}$, kar 
-je precej velika napetost. Velike delovne napetosti
+je precej visoka napetost. Visoke delovne napetosti
 so značilne za kristalne elektro-optične modulatorje in so njihova
 glavna pomanjkljivost. 
 
@@ -703,9 +704,9 @@ deformacijo v snovi zapišemo kot
 Pokaži, da je taka snov dvolomna z optično osjo vzdolž osi $z$, lastni 
 lomni količniki pa so 
 \begin{align}
-n_{x'} &\approx n(1+\frac{1}{2}n^2p_{12}q A \sin (q z - \Omega t))\\
-n_{y'} &\approx n(1+\frac{1}{2}n^2p_{12}q A \sin (q z - \Omega t))\\
-n_z' &\approx n(1+\frac{1}{2}n^2p_{11}q A \sin (q z - \Omega t)),
+n_{x'} &\approx n\left(1+\frac{1}{2}n^2p_{12}q A \sin (q z - \Omega t)\right)\\
+n_{y'} &\approx n\left(1+\frac{1}{2}n^2p_{12}q A \sin (q z - \Omega t)\right)\\
+n_z' &\approx n\left(1+\frac{1}{2}n^2p_{11}q A \sin (q z - \Omega t)\right),
 \end{align}
 kjer je $n$ lomni količnik v odsotnosti motnje.\index{Lomni količnik}
 \end{definition}
@@ -780,7 +781,7 @@ in je vpadni kot enak uklonjenemu (slika~\ref{fig:ao_bragg}\,b).
 Ker je valovna dolžina svetlobe precej manjša od valovne dolžine zvočnega valovanja, je $\vartheta$
 praviloma zelo majhen $\vartheta \sim 10^{-2}$. 
 
-Poglejmo natančneje, kako pridemo do gornjega pogoja. Pogoj
+Poglejmo natančneje, kako pridemo do enačbe~\ref{7.29a}. Pogoj
 za ohranitev gibalne količine fotona pri sipanju na zvočnem valu je
 \begin{equation}
 \mathbf{k}_{0}\pm\mathbf{q}=\mathbf{k}_{1},
@@ -807,7 +808,7 @@ da se vsa vpadna svetloba uklanja.
 \label{fig:ao_bragg3}
 \end{figure}
 \begin{remark}
-Naredimo še oceno izračuna, kdaj je v veljavi Raman-Nathov in kdaj Braggov režim. 
+Naredimo še oceno, kdaj je v veljavi Raman-Nathov in kdaj Braggov režim. 
 Izhajamo iz pogoja, da je laserski snop na poti skozi plast zvočnega 
 valovanja tako ozek, da ostane v celoti znotraj
 ene razredčine ali zgoščine. Širino razredčin in zgoščin ocenimo na $\Lambda/2$, kar je  
@@ -852,7 +853,7 @@ Bistvena razlika od navadnih uklonskih mrežic\index{Uklonska
 mrežica} je dinamičnost akusto-optičnih modulatorjev, 
 saj lahko uklonski kot svetlobe hitro spreminjamo. Poglavitna omejitev je,
 da mora biti vsaj približno izpolnjen Braggov pogoj. S kombinacijo dveh med seboj 
-pravokotnih akusto-optičnih modulatorjev žarek 
+pravokotnih akusto-optičnih modulatorjev snop 
 premikamo po ravnini, kar s pridom uporabljamo v različnih optičnih napravah, 
 na primer v optičnih pincetah, optičnih bralnikih ali 
 optičnih litografskih zapisovalnikih.
@@ -1341,7 +1342,7 @@ Polarizacija svetlobe se ohranja in analizator svetlobe ne prepušča (b).}
 \centering
 \includegraphics[width=80truemm]{slike/09_LCD.jpg}
 \caption{Na močno povečani fotografiji računalniškega tekočekristalnega zaslona se 
-jasno vidi, da je vsak piksel sestavljen iz treh barv.}
+jasno vidi, da je vsak piksel sestavljen iz treh delov: rdečega, modrega in zelenega.}
 \end{figure}
 \begin{remark}
 Tekočekristalni zasloni, ki jih uporabljamo danes, so precej bolj zapleteni.
@@ -1420,7 +1421,7 @@ $\beta^{2}=\bar{\epsilon}\omega^{2}/c^{2}$. S tem smo dobili sistem
 dveh sklopljenih diferencialnih enačb, ki ga lahko rešimo.
 \begin{remark}
 Opis potovanja svetlobe skozi zasukan nematik je lepa ilustracija uporabe 
-Blochovega teorema, ki ga sicer poznamo iz fizike trdne snovi. Tam gre za 
+Blochovega teorema, ki ga sicer poznamo iz fizike trdne snovi za 
 reševanje Schr\"odingerjeve enačbe za delec v periodičnem potencialu. Teorem pravi, 
 da lastne rešitve zapišemo kot produkt ravnega vala in funkcije, ki ima enako 
 periodo kot potencial.\index{Blochov teorem}

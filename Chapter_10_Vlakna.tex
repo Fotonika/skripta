@@ -1085,12 +1085,12 @@ A\left(\zeta,\tau\right)=\frac{A_{0}}{\sqrt{1+\frac{\zeta^{2}
 \left(-i\frac{\mu\tau^{2}}{2b}\right)e^{i\phi\left(\zeta\right)}.
 \label{9.72}
 \end{equation}
-Pri tem za dolžino sunka $2\sigma$ velja enaka zveza kot za premer 
+Pri tem za $\sigma$ velja enaka zveza kot za polmer 
 Gaussovega snopa (enačba~\ref{eq:w})
 \boxeq{9.73}{
-\left(2\sigma\right)^{2}=\left(2\sigma_{0}\right)^{2}\left(1+\left(\frac{\zeta}{\zeta_{0}}\right)^{2}\right).
+\sigma^{2}=\sigma_{0}^{2}\left(1+\left(\frac{\zeta}{\zeta_{0}}\right)^{2}\right).
 }
-Tu je $2\sigma_{0}$ trajanje sunka pri $\zeta=0$, to je na začetku,
+Pri tem je $2\sigma_{0}$ trajanje sunka pri $\zeta=0$, to je na začetku,
 kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R}) v tem primeru
 ustreza količina $b=\zeta\left(1+\zeta_{0}^{2}/\zeta^{2}\right)$.
 Po analogiji s snopi lahko sklepamo, da se najmanj 
@@ -1111,7 +1111,10 @@ ki ga bomo spoznali pri obravnavi nelinearne optike (slika~\ref{fig:chirp}\,a). 
 \centering
 \def\svgwidth{120truemm} 
 \input{slike/10_Gausstau.pdf_tex}
-\caption{Primerjava širitve Gaussovega snopa in podaljšanja Gaussovega sunka}
+\caption{Primerjava širitve Gaussovega snopa (a) in podaljšanja Gaussovega sunka (b).
+Dolžina sunka $2\sigma$ med potovanjem po vlaknu narašča z enako odvisnostjo kot 
+narašča premer Gaussovega snopa $2w$ z oddaljenostjo od grla. Znotraj $\zeta_0$ se sunek
+še ne podaljša znatno.}
 \label{fig:Gausstau}
 \end{figure}
 \begin{remark}
@@ -1169,7 +1172,7 @@ zrcalo, ki svetlobo usmeri po isti poti nazaj.
 \def\svgwidth{120truemm} 
 \input{slike/10_comp.pdf_tex}
 \caption{Kompenzacija disperzije z uklonskima mrežicama (a) in shema z
-oznakami (b)}
+oznakami za izpeljavo faznega premika (b)}
 \label{fig:comp}
 \end{figure}
 
@@ -1283,7 +1286,7 @@ navadno še precej večje. Med izdelavo steklo namreč močno segrejejo
 fluktuacije gostote pri hitrem ohlajanju ostanejo zamrznjene v vlaknu. 
 \end{remark}
 
-S slike je razvidno, da so skupne izgube najmanjše pri 
+S slike~\ref{FibAbs} je razvidno, da so skupne izgube najmanjše pri 
 okoli $1,55~\si{\micro\meter}$, zato se to območje največ uporablja za prenos signalov
 na velike razdalje. Izgube so tako majhne, da omogočajo prenos signala 
 do nekaj sto kilometrov brez vmesnega ojačevanja. Teh izgub na vlaknih se  
@@ -1362,7 +1365,8 @@ E(r, \varphi) =\psi\left(r\right)\, e^{im\varphi},
 kjer bomo privzeli, da je $\psi\left(r\right)$ znatna le v sredici. 
 
 Naj bo $z=R\varphi$ dolžina loka vzdolž sredine sredice. Tedaj je faza nastavka
-(enačba~\ref{9.32}) enaka $m\varphi = m z/R$ in valovno število $\beta = m/R$.
+(enačba~\ref{9.32}) enaka $m\varphi = m z/R$ in valovno število vzdolž 
+sredine vlakna $\beta = m/R$.
 Ker je valovna dolžina svetlobe dosti manjša od $R$, je $m$ zelo veliko število. 
 Funkcija $\psi$ zadošča enačbi 
 \begin{equation}
@@ -1411,8 +1415,8 @@ v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega 
 \def\svgwidth{120truemm} 
 \input{slike/10_Tunel.pdf_tex} 
 \caption{Lastni načini širjenja svetlobe po ravnem vodniku so analogni stanjem 
-delca v končni potencialni jami (levo). Načini širjenja po ukrivljenem vodniku
-so podobni stanjem delca v konstantnem zunanjem električnem polju (desno). Podobno
+delca v končni potencialni jami (a). Načini širjenja po ukrivljenem vodniku
+so podobni stanjem delca v konstantnem zunanjem električnem polju (b). Podobno
 kot delci zaradi spremenjenega potenciala tunelirajo, uhaja svetloba iz ukrivljenega vlakna.}
 \label{fig:tunel}
 \end{figure}
@@ -1517,7 +1521,7 @@ da se v valovod ob izpolnjenem pogoju ujemanja faze sklopi znaten delež vpadne 
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/10_coupler.pdf_tex} 
-\caption{Bočna sklopitev s prizmo (a) in s periodično strukturo (b)}
+\caption{Bočna sklopitev svetlobe v optični vodnik s prizmo (a) in s periodično strukturo (b)}
 \label{fig:coupler}
 \end{figure}
 Tudi sklopitev s periodično strukturo na valovnem vodniku (slika~\ref{fig:coupler}\,b) deluje na 
@@ -1612,12 +1616,13 @@ Ob prenosu signala po optičnem valovodu večina energijskega toka potuje po sre
 vendar energijski tok seže tudi izven nje, v plašč (enačba~\ref{confinement}). 
 Če sta dva vzporedna valovoda dovolj blizu, da\index{Evanescentno polje}
 se evanescentni električni polji enega in drugega vodnika v plašču prekrivata, pride do 
-sklopitve vodnikov in prenosa energijskega toka iz enega vodnika v drugega. 
+sklopitve vodnikov in prenosa energijskega toka iz enega vodnika v drugega 
+(slika~\ref{fig:fcoupler}). 
 \begin{figure}[h]
 \centering
 \def\svgwidth{100truemm} 
 \input{slike/10_fcoupler.pdf_tex} 
-\caption{Sklopitev med dvema vzporednima vodnikoma}
+\caption{Sklopitev med dvema vzporednima vodnikoma.}
 \label{fig:fcoupler}
 \end{figure}
 
@@ -1649,38 +1654,42 @@ mora zadoščati Helmholtzevi enačbi
 \nabla^{2}E(x,z)+k_0^{2}n(x)^2 E(x,z) =0.
 \end{equation}
 Z $n(x)$ smo označili prečno odvisnost lomnega količnika.
-Vstavimo nastavek za jakost električnega polja v gornjo enačbo in zapišemo
-\begin{multline}
-A e^{i \beta_1 z}\left(\frac{\partial^2}{\partial x^2}\psi_1(x) - \beta_1^2\psi_1 + k_0^2
+Vstavimo nastavek za jakost električnega polja v Helmholtzevo enačbo in zapišemo
+\begin{align}
+A e^{i \beta_1 z}\left(\frac{\partial^2\psi_1(x)}{\partial x^2} - \beta_1^2\psi_1 + k_0^2
 n(x)^2 \psi_1 \right)
-+ \\
-B e^{i \beta_2 z}\left(\frac{\partial^2}{\partial x^2}\psi_2(x) - \beta_2^2\psi_2 + k_0^2
-n(x)^2 \psi_2 \right)+ 2 i \beta_1 A' \psi_1 e^{i \beta_1 z}+
-2 i \beta_2 B' \psi_2 e^{i \beta_2 z} = 0.
-\end{multline}
+&+ 
+B e^{i \beta_2 z}\left(\frac{\partial^2\psi_2(x)}{\partial x^2} - \beta_2^2\psi_2 + k_0^2
+n(x)^2 \psi_2 \right)+ \nonumber \\ 
+2 i \beta_1 \frac{\partial A}{\partial z}\psi_1 e^{i \beta_1 z}
++
+2 i \beta_2 \frac{\partial B}{\partial z}\psi_2 e^{i \beta_2 z} &= 0.
+\end{align}
 Zaradi počasnega spreminjanja  smo člena z drugim odvodom $\partial^2 A/\partial z^2$ in $\partial^2 B/\partial z^2$ zanemarili. 
 
 Zapišemo enačbi za nemoteni funkciji $\psi$
 \begin{equation}
-\frac{\partial^2}{\partial x^2}\psi_1(x) + \left(k_0^2n_1(x)^2-\beta_1^2\right) \psi_1 =0
+\frac{\partial^2\psi_1(x)}{\partial x^2} + \left(k_0^2n_1(x)^2-\beta_1^2\right) \psi_1 =0
 \end{equation}
 in
 \begin{equation}
- \frac{\partial^2}{\partial x^2}\psi_2(x) + \left(k_0^2n_2(x)^2-\beta_2^2\right) \psi_2 =0.
+ \frac{\partial^2\psi_2(x)}{\partial x^2} + \left(k_0^2n_2(x)^2-\beta_2^2\right) \psi_2 =0.
 \end{equation}
 Lomna količnika $n_1(x)$ in $n_2(x)$ sta tukaj tudi funkciji prečne koordinate. Naj bo $n_1(x)$  
 povsod enak $n_0$, razen v sredici prvega vodnika, kjer je $n_1$, in naj bo 
 $n_2(x)$ povsod enak $n_0$, razen v sredici drugega vlakna, kjer je enak $n_2$. Sledi
-\begin{multline}
+\begin{align}
 A e^{i \beta_1 z}k_0^2\left(n(x)^2 -n_1(x)^2\right)\psi_1 
 + 
-B e^{i \beta_2 z}k_0^2\left(n(x)^2 -n_2(x)^2\right)\psi_2 + \\2 i \beta_1 A' \psi_1 e^{i \beta_1 z}+
-2 i \beta_2 B' \psi_2 e^{i \beta_2 z} = 0.
-\end{multline}
+B e^{i \beta_2 z}k_0^2\left(n(x)^2 -n_2(x)^2\right)\psi_2 &+ 
+2 i \beta_1 \frac{\partial A}{\partial z} \psi_1 e^{i \beta_1 z}
++\nonumber \\ 
+2 i \beta_2 \frac{\partial B}{\partial z} \psi_2 e^{i \beta_2 z} &= 0.
+\end{align}
 Enačbo pomnožimo s kompleksno konjugirano vrednostjo $\psi_1^*$ in integriramo po $x$.
 Upoštevamo, da se funkciji $\psi_1$ in $\psi_2$ le malo prekrivata, in zapišemo 
 \begin{equation}
-\frac{dA}{dz} = i A K_{11}+i B e^{i(\beta_2-\beta_1)z} K_{12},
+\frac{\partial A}{\partial z} = i A K_{11}+i B e^{i(\beta_2-\beta_1)z} K_{12},
 \end{equation}
 pri čemer sta
 \begin{equation}
@@ -1690,8 +1699,8 @@ K_{12}= \frac{k_0^2}{2 \beta_1}\int\psi_1^*\psi_2 (n^2-n_2^2)dx.
 Koeficient $K_{11}$ določa spremembo faze v vlaknu zaradi prisotnosti 
 drugega vlakna in ga lahko zanemarimo. Tako ostane samo 
 \begin{equation}
-\frac{dA}{dz} = i B e^{i(\beta_2-\beta_1)z} K_{12} \qquad \mathrm{in}
-\qquad \frac{dB}{dz} = i A e^{i(-\beta_2+\beta_1)z} K_{21}.
+\frac{\partial A}{\partial z} = i B e^{i(\beta_2-\beta_1)z} K_{12} \qquad \mathrm{in}
+\qquad \frac{\partial B}{\partial z} = i A e^{i(-\beta_2+\beta_1)z} K_{21}.
 \label{10_B}
 \end{equation}
 Prvo enačbo odvajamo po $z$, upoštevamo drugo in zapišemo
@@ -1699,7 +1708,7 @@ Prvo enačbo odvajamo po $z$, upoštevamo drugo in zapišemo
 \frac{\partial^2 A}{\partial z^2}-i \Delta \beta \frac{\partial A}{\partial z} + K_{12}K_{21}A = 0.
 \label{10_part}
 \end{equation}
-Enačbo rešujemo z nastavkom 
+Enačbo~\ref{10_part} rešujemo z nastavkom 
 \begin{equation}
 A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right).
 \label{10_nastavek}
@@ -1712,10 +1721,10 @@ A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right)
  \gamma^2 = K^2 + \frac{\Delta \beta ^2}{4}.
  \label{10kgamma}
  \end{equation}
- Uporabi enačbo~(\ref{10_B}) in pokaži, da je rešitev za amplitudo $B$
+ Uporabi enačbi~(\ref{10_B}) in pokaži, da je rešitev za amplitudo $B$
  enaka izrazu v enačbi~(\ref{10_BB}).
 \end{definition}
-Ko poznamo $A$, lahko z uporabo enačbe~(\ref{10_B}) izračunamo še $B$
+Ko poznamo $A$, lahko z uporabo enačb~(\ref{10_B}) izračunamo še $B$
 \begin{equation}
 B = \frac{1}{K_{21}}
 e^{-i \Delta \beta z/2}\left(\left(\frac{\Delta \beta}{2} +\gamma \right) a_1 e^{i \gamma z} + 

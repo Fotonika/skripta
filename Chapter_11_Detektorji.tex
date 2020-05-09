@@ -24,7 +24,8 @@ vpadne svetlobe. Njihov odziv je razmeroma počasen, zato jih uporabljamo
 predvsem za merjenje optične moči, lahko tudi zelo velike. 
 Po drugi strani je odziv termičnih detektorjev neodvisen
 od valovne dolžine vpadne svetlobe, zaradi česar so termični detektorji uporabni na 
-širokem območju od globokega ultravijoličnega do daljnega infrardečega valovanja. 
+širokem območju od globokega ultravijoličnega do daljnega infrardečega valovanja
+(slika~\ref{fig:shemaTermKv}). 
 \index{Ultravijolično valovanje}\index{Infrardeče valovanje}Uporaba
 prevlada predvsem v infrardečem, teraherčnem ali celo mikrovalovnem delu spektra, kjer so 
 drugi detektorji bistveno manj občutljivi. \index{Teraherčno valovanje}
@@ -61,8 +62,8 @@ na enoto vpadnega svetlobnega toka. Enota za občutljivost je $\si{A/W}$, če me
 $\si{V/W}$, če na izhodu zaznavamo napetost. 
 \item Spektralni odziv pove, kako se občutljivost spreminja z valovno dolžino $\mathcal{R}(\lambda)$.
 Pri termičnih detektorjih je $\mathcal{R}(\lambda)$ konstanta\footnote{Občutljivost je konstantna
-le v območju konstantnega albeda, ki je lahko zelo široko.}, medtem ko kvantni detektorji 
-delujejo le v določenem območju valovnih dolžin, ki je odvisen od snovi, 
+le v območju konstantnega albeda, ki pa je lahko zelo široko.}, medtem ko kvantni detektorji 
+delujejo le v določenem območju valovnih dolžin, ki je odvisno od snovi, 
 iz katere je detektor narejen. 
 \item Odzivni čas pove, kako hitro se detektor odzove na spremembo optičnega signala. Predvsem 
 optične telekomunikacije zahtevajo izredno hiter odziv.
@@ -88,14 +89,14 @@ prepustnosti okna in absorpcijskega spektra črnega nanosa. Tipala so majhna, za
 da dosežemo čim hitrejši odziv, ki je kljub temu navadno počasnejši od $1~\si{ms}$. 
 Sodobnejši detektorji se po odzivnem času že približujejo 
 kvantnim, saj dosegajo odzivne čase do $\sim 10~\si{\micro\second}$. 
-Termične detektorje uporabljamo pri sobni temperaturi,  
-za zahtevne meritve jih hladimo na nekaj $\si{K}$. 
+Termične detektorje navadno uporabljamo pri sobni temperaturi,  
+za zahtevne meritve pa jih hladimo na nekaj $\si{K}$. 
 
 Obravnavajmo termični detektor, katerega tipalo naj ima toplotno kapaciteto $C$. Toplota
 se s tipala odvaja v toplotni zalogovnik s temperaturo $T_0$, 
 toplotne izgube označimo z $\Lambda$. Ko na tipalo vpada svetloba z močjo $P$, 
 začne temperatura tipala $T$ zaradi absorpcije svetlobe naraščati, hkrati se tipalo 
-ohlaja zaradi odtekanja toplote. Zapišemo
+ohlaja zaradi odvajanja toplote. Zapišemo
 \begin{equation}
 \frac{dW}{dt} = C \frac{dT}{dt} = P - \Lambda (T-T_0).
 \label{TD1}
@@ -494,7 +495,7 @@ Z dodatnim energijskim nivojem med valenčnim in prevodnim pasom občutno zmanj�
 potrebno energijo vpadnih fotonov. Vendar je pri  nizkih energijah prispevek termično 
 vzbujenih elektronov že tako velik, da je treba detektorje hladiti, navadno s tekočim
 dušikom ali celo tekočim helijem. Primer fotoprevodnih detektorjev je germanij, dopiran s cinkom, 
-s katerim lahko zaznavamo svetlobo do okoli $40~\si{\micro\meter}$. Pri tem ga hladimo
+s katerim lahko zaznavamo svetlobo valovnih dolžin do okoli $40~\si{\micro\meter}$. Pri tem ga hladimo
 na $4~\si{\kelvin}$, da zmanjšamo pojav termično vzbujenih nosilcev naboja. \index{Infrardeče
 valovanje}
 \begin{figure}[h]
@@ -522,20 +523,22 @@ gostota električnega toka naraste za
 \Delta j = e_0 \Delta n_v v_v + e_0 \Delta n_e v_e.
 \label{FP_j}
 \end{equation}
-V stacionarnem stanju se število nosilcev naboja ne spreminja in velja (enačba~\ref{11:eta})
+V stacionarnem stanju se število nosilcev naboja ne spreminja. Za gostoto vrzeli velja 
+(enačba~\ref{11:eta})
 \begin{equation}
-0 = \frac{dn_v}{dt} = \frac{\eta_v P}{h \nu (Sl)} - \frac{\Delta n_v}{\tau_v}
+0 = \frac{dn_v}{dt} = \frac{\eta_v P}{h \nu Sl} - \frac{\Delta n_v}{\tau_v}
 \end{equation}
-in podobno za elektrone. Pri tem je $\eta$ kvantni izkoristek,
-$P$ moč vpadne svetlobe,
-$Sl$ prostornina detektorja in $\tau$ življenjski čas vrzeli oziroma elektrona. 
+in podobno za gostoto elektronov $n_e$, le oznake $v$ zamenjamo za $e$. 
+Pri tem sta $\eta_v$  in $\eta_e$ kvantna izkoristka, $P$ moč vpadne svetlobe,
+$Sl$ prostornina detektorja ter $\tau_v$ in $\tau_e$ življenjski čas vrzeli oziroma elektrona. 
 Ko stacionarno vrednost $\Delta n_v$ in $\Delta n_e$ vstavimo v enačbo~(\ref{FP_j}), dobimo
 \begin{equation}
-\Delta j = e_0 \frac{\eta_v P \tau_v}{h \nu (Sl)} \beta_v  E + 
-e_0 \frac{\eta_e P \tau_e}{h \nu (Sl)} \beta_e  E.
+\Delta j = e_0 \frac{\eta_v P \tau_v}{h \nu Sl} \beta_v  E + 
+e_0 \frac{\eta_e P \tau_e}{h \nu Sl} \beta_e  E.
 \end{equation}
-Če vpeljemo še napetost $U = E\,l$, zapišemo povečanje toka skozi fotoprevodnik zaradi 
-vpadle svetlobe kot
+Pri tem smo hitrost nosilcev naboja izrazili kot produkt gibljivosti $\beta$ in jakosti
+električnega polja $E$. Če vpeljemo še napetost $U = E\,l$, zapišemo povečanje toka $\Delta I$
+skozi fotoprevodnik zaradi vpadle svetlobe kot
 \begin{equation}
 \Delta I = S\Delta j = \frac{e_0 U P }{h \nu l^2} \left(\eta_v \tau_v \beta_v + 
 \eta_e \tau_e \beta_e \right).
@@ -544,7 +547,7 @@ Pogosto je gibljivost elektronov znatno večja od gibljivosti vrzeli (npr.
 $0,135~\si{\meter}^2/\si{\volt\second}$ proti $0,048~\si{\meter}^2/\si{\volt\second}$ za silicij), 
 \index{Silicij} zato prvi člen v oklepaju zanemarimo in zapišemo
 \boxeq{eq:fup}{
-\Delta I = G \left( \frac{e_0 \eta_e}{h\nu}\right) P,
+\Delta I = G \frac{e_0 \eta_e}{h\nu} P,
 }
 pri čemer je koeficient ojačenja 
 \begin{equation}
@@ -638,11 +641,12 @@ Ko staknemo polprevodnik tipa $p$ s polprevodnikom tipa $n$, elektroni
 z območja z višjo koncentracijo (tip $n$) difundirajo v območje z nižjo koncentracijo
 (tip $p$), kjer se rekombinirajo z vrzelmi. \index{Spoj $p$-$n$!izpraznjeni sloj}
 Ob spoju nastane ozek pas, imenujemo ga izpraznjeni sloj, kjer ni  
-prostih nosilcev naboja. Tipično je širok $10~\si{nm}$--$1~\si{\micro\metre}$.
+prostih nosilcev naboja. Tipično je širok od $10~\si{nm}$ do $1~\si{\micro\metre}$.
 Po rekombinaciji ostanejo na strani $n$ pozitivno nabiti donorski atomi in 
 na strani $p$ negativno nabiti akceptorski atomi, ki povzročijo nastanek  
 električnega polja. Nastalo polje, ki kaže od $n$ proti $p$, zaustavi rekombinacijo, saj odbija
-elektrone in vrzeli od spoja. V ravnovesju se Fermijeva energija izenači (slika~\ref{11_PN1}\,c). 
+elektrone in vrzeli od spoja. V ravnovesju se Fermijeva energija na obeh straneh spoja 
+izenači (slika~\ref{11_PN1}\,c). 
 Potencialni skok je približno enak $\Delta E \approx E_d-E_a$, kar je le malo manj od 
 širine reže $E_g$. Tipična jakost električnega polja na spoju je $10^5$--$10^7~\si{V/m}$.
 
@@ -661,7 +665,7 @@ iz $p$ v $n$ pa ostaja enak, saj ni odvisen od globine potencialnega skoka.
 \caption{Shema energijskih nivojev na spoju $p$-$n$, ko na spoj priključimo napetost
 v prevodni smeri (a) in v zaporni smeri (b). Če v izpraznjenem sloju pride do absorpcije
 fotona in nastanka para elektron--vrzel, elektron ``zdrsi'' proti strani $n$ in vrzel proti
-strani $p$.}
+strani $p$ (c).}
 \label{11_PNU}
 \end{figure}
 
@@ -758,7 +762,7 @@ na spoju premakne proti območju $n$ in vrzel proti območju $p$.
 Na diodi se tako pojavi napetost, 
 katere vrednost lahko izračunamo iz karakteristične enačbe diode, če upoštevamo, da je $I=0$. Sledi
 \begin{equation}
-U_p = \frac{kT}{e_0}\ln \left(1+ \frac{I_f}{I_0}\right).
+U = \frac{kT}{e_0}\ln \left(1+ \frac{I_f}{I_0}\right).
 \end{equation}
 Pri večji intenziteti vpadne svetlobe, ko se karakteristična krivulja 
 pomika navzdol (slika~\ref{11_IU}), se rešitev gornje enačbe po abscisi premika proti desni.
@@ -904,7 +908,7 @@ pretoka v času. Dodatno informacijo dobimo, če več fotodetektorjev sestavimo 
 dvodimenzionalno matriko, saj lahko detektorji hkrati zaznavajo količino vpadne svetlobe 
 iz različnih delov prostora. Podatke iz posameznih detektorjev sestavimo v sliko, pri čemer 
 en detektor podaja informacijo o številu vpadnih fotonov 
-v dani časovni enoti za en slikovni element -- piksel \index{Piksel}. Času zajemanja, ki
+v dani časovni enoti za en slikovni element -- piksel\index{Piksel}. Času zajemanja, ki
 predstavlja integracijski čas, pravimo tudi čas osvetlitve.  
 Slikovni detektorji z veliko ločljivostjo so sestavljeni iz 
 več milijonov ali celo milijard posameznih polprevodniških detektorjev in so 
