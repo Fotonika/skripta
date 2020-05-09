@@ -403,18 +403,20 @@ Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz})\index{Helmholtzeva enačba}
 pri čemer je $n(r<a)=n_1$ lomni količnik sredice in $n(r>a)=n_2$ 
 lomni količnik plašča, ki je dovolj debel, da njegova debelina ne 
 vpliva na potovanje svetlobe. $\mathbf{E}$ in $\mathbf{H}$ sta vektorja in imata po 
-tri komponente, ki pa so med seboj odvisne. Izračunajmo naprej $E_z$, saj so za to
+tri komponente, ki pa so med seboj odvisne. Računamo v cilindričnem koordinatnem sistemu,
+v katerem je os $z$ vzdolž osi vlakna. Izračunajmo naprej $E_z$, saj so za to
 komponento robni pogoji nesklopljeni. Uporabimo nastavek
 \begin{equation}
 E_z = R(r)e^{i \nu \varphi}e^{i \beta z},
 \end{equation}
-pri čemer je $\nu$ celo število zaradi zahteve po enoličnosti rešitve pri spremembi
+pri čemer je $r$ razdalja od osi, $\varphi$ polarni kot in $\nu$ celo število zaradi 
+zahteve po enoličnosti rešitve pri spremembi
 kota za $2\pi$. Za $R(r)$ v sredici vlakna velja enačba
 \begin{equation}
 r^2 R(r)'' + r R(r)' + (k_s^2r^2 - \nu^2)R(r) = 0,
 \label{10BS}
 \end{equation}
-kjer je 
+kjer je prečna komponenta valovnega vektorja enaka
 \begin{equation}
 k_s^2=k_0^2n_1^2- \beta^2,
 \label{eq:ks}
@@ -455,13 +457,13 @@ ki prestavljajo rešitev v plašču vlakna.}
 \end{figure}
 
 Ko enkrat poznamo komponenti $E_z$ in $H_z$, lahko z uporabo Maxwellovih enačb izračunamo še 
-preostale komponente. Nato z upoštevanjem robnih pogojev zapišemo štiri enačbe za 
+preostale komponente $E_r$, $E_\varphi$, $H_r$ in $H_\varphi$. 
+Nato z upoštevanjem robnih pogojev zapišemo štiri enačbe za 
 pet neznank ($A,B,C,D$ in $\beta$),
 tako da ostane ena spremenljivka (amplituda polja) prosta. Na ta način izračunamo celotni 
 jakosti električnega in magnetnega polja v vlaknu in podobno kot pri valovnem vodniku 
 tudi tukaj zapišemo sekularno enačbo, ki jo moramo rešiti numerično. Pri vsakem $\nu$ obstaja 
-več rešitev, zato lastne rodove označujemo s parom indeksov $\nu$ in $m$, npr. TE$_{01}$ ali 
-HE$_{31}$.
+več rešitev, zato lastne rodove označujemo s parom indeksov $\nu$ in $m$, npr. TE$_{01}$.
 
 \subsection*{TE in TM rodovi}
 Najprej si oglejmo rešitve, pri katerih je $\nu=0$ in so zato neodvisne od kota $\varphi$. 
@@ -469,13 +471,15 @@ V klasični sliki so to žarki, ki potujejo po osi vlakna. Iz robnih pogojev sle
 gre za transverzalne TE rodove, za katere velja $E_z=0$, $E_r=0$ in $E_\varphi \propto J_1(k_sr)$.
 Jakost električnega polja za TE zapišemo kot \index{Optično vlakno!TE rodovi}
 \begin{equation}
-\mathbf{E} \propto \mathbf{e}_\varphi \, J_1(k_s r).
+\mathbf{E} \propto \mathbf{e}_\varphi \, J_1(k_s r),
 \end{equation}
+kjer je $\mathbf{e}_\varphi$ enotski vektor.
 Podobno lahko prepoznamo tudi TM rodove, pri katerih je $H_z=0$, $H_r=0$ in $H_\varphi \propto J_1(k_sr)$.
 Jakost električnega polja za TM rodove je\index{Optično vlakno!TM rodovi}
 \begin{equation}
-\mathbf{E} \propto \mathbf{e}_r \, J_1(k_s r).
+\mathbf{E} \propto \mathbf{e}_r \, J_1(k_s r)
 \end{equation}
+kjer je $\mathbf{e}_r$ enotski vektor v radialni smeri. 
 Amplitudi jakosti električnega polja sta za TE in TM rodove enaki, zato
 sta enaki tudi sliki gostote svetlobnega toka (slika~\ref{fig:TE01}). Opazimo, da je v osi
 vlakna gostota svetlobnega toka enaka nič, zato sklepamo, da to niso osnovni načini 
@@ -537,7 +541,8 @@ Sekularna enačba za hibridne rodove je precej bolj zapletena in je ne bomo zapi
 Oglejmo si le njihovo obliko (slika~\ref{fig:HE11}). Najpomembnejši hibridni rod je HE$_{11}$, 
 ki je sorazmeren z $J_0(k_sr)$ in zato v središču različen od nič. 
 To je osnovni rod, za katerega rešitev sekularne enačbe vedno obstaja in se
-zato širi po še tako tankem vlaknu. 
+zato širi po še tako tankem vlaknu. Zaradi rotacijske simetrije si lahko smer 
+polarizacije lastnega roda poljubno izberemo, mi izberimo smeri $x$ in $y$.
 \begin{figure}[h]
 \centering
 \def\svgwidth{85truemm} 
@@ -597,7 +602,7 @@ saj ima dve možni smeri polarizacije. Na splošno HE$_{1m}$ rodovi ustrezajo ro
 
 Višje rodove, na primer LP$_{11}$ sestavimo kot linearno kombinacijo 
 TE$_{01}$ ali TM$_{01}$ in HE$_{21}$.
-Jakost električnega polja v LP$_{11}$ je tako 
+Jakost električnega polja v LP$_{11}$ je tako v obliki štirih možnih kombinacij
 \begin{equation}
 \mathbf{E}_\mathrm{LP11} \propto \left \{
   \begin{matrix}
@@ -612,8 +617,8 @@ Jakost električnega polja v LP$_{11}$ je tako
 \end{equation}
 kar opisuje štiri različne oblike rodov LP$_{11}$.
 
-Tudi LP$_{21}$ rodovi, ki nastanejo kot kombinacija HE$_{31}$
-in EH$_{11}$ rodov, imajo več oblik
+Tudi LP$_{21}$ rodove, ki nastanejo kot kombinacija HE$_{31}$
+in EH$_{11}$ rodov, zapišemo kot eno od štirih kombinacij
 \begin{equation}
 \mathbf{E}_\mathrm{LP21} \propto \left \{
   \begin{matrix}
@@ -728,7 +733,7 @@ diferencialno enačbo za Hermitove polinome
 \left( \frac{d^2}{dx^2}-2x\frac{d}{dx}+2n \right) H_n(x) = 0.
 \end{equation}
 \end{definition}
-Lastne vrednosti enačbe so oblike
+Lastne vrednosti enačbe (\ref{9.17}) so oblike
 \begin{equation}
 \beta_{mn}^{2}=n_{1}^{2}k_{0}^{2}\left(1-\frac{2\Delta}{k_{0}n_{1}^2a}\left(m+n+1\right)\right).
 \label{9.19}
@@ -766,7 +771,8 @@ Pri prenosu velike količine podatkov na daljavo je zelo pomembno, da
 se oblika svetlobnih sunkov, ki prenašajo informacijo, čim bolj ohranja.
 Na obliko sunka močno vpliva disperzija, to je odvisnost fazne in grupne hitrosti
 valovanja od krožne frekvence. Zaradi disperzije se kratki sunki, ki potujejo po vlaknu, podaljšajo in 
-tako omejujejo količino informacije, ki jo lahko prenašamo po vlaknu dane dolžine\index{Disperzija}.
+tako omejujejo količino informacije, ki jo lahko prenašamo po vlaknu dane dolžine\index{Disperzija}
+(slika~\ref{fig:disp}).
 Največja količina vhodnih podatkov na časovno enoto je kar 
 obratno sorazmerna z dolžino izhodnih sunkov svetlobe. 
 \begin{figure}[h]
@@ -799,7 +805,7 @@ razdeli na posamezne delne sunke oziroma se efektivno podaljša.
 Izračunajmo razliko med časom, ki ga za širjenje po vlaknu dane dolžine 
 potrebuje osnovni rod, in časom, ki ga za isto razdaljo potrebuje zadnji še dovoljeni rod.
  
-Osnovnemu rodu ustreza prva rešitev sekularne enačbe in je zato pripadajoča 
+Osnovnemu rodu ustreza prva rešitev sekularne enačbe (enačba~\ref{sekular1}) in je zato pripadajoča 
 vrednost $k_x$ zelo majhna. V prvem približku je $k_s \approx 0$. Ustrezno valovno 
 število je po enačbi
 \begin{equation}
@@ -814,11 +820,11 @@ svetlobe po vlaknu
 v_{g}=\frac{d\omega}{d\beta}=\left(\frac{d\beta}{d\omega}\right)^{-1}.
 \label{9.51}
 \end{equation}
-Za prehod vlakna z dolžino $L$ potrebuje osnovni rod
+Za prehod vlakna z dolžino $L$ potrebuje osnovni rod čas
 \beq
 t_0 = \frac{L}{v_{g0}} =  L \,\frac{d\beta_0}{d\omega} = L\,\frac{n_1}{c_0},
 \eeq
-zadnji rod pa 
+zadnji rod pa čas
 \beq
 t_N = \frac{L}{v_{gN}} = L\, \frac{d\beta_N}{d\omega} = L\,\frac{n_2}{c_0}.
 \eeq
@@ -846,9 +852,9 @@ razdalje praktično neuporabna.
 \subsection*{Materialna disperzija}
 \index{Disperzija!materialna}
 Optična vlakna so navadno narejena iz stekla, katerega lomni količnik je odvisen 
-od valovne dolžine svetlobe. Zaradi tako imenovane materialne disperzije različne 
+od valovne dolžine svetlobe. Zaradi tako imenovane materialne ali snovne disperzije različne 
 spektralne komponente svetlobnega sunka po vlaknu potujejo z različnimi hitrostmi 
-in sunek se po prehodu skozi vlakno podaljša. Pri obravnavi 
+in sunek se po prehodu skozi vlakno podaljša. Pri obravnavi\index{Disperzija!snovna |see{Disperzija, materialna}}
 se omejimo na enorodovna vlakna, v katerih rodovne disperzije ni. 
 
 Ker je sunek svetlobe končno dolg, je končna tudi njegova spektralna širina 
@@ -965,8 +971,8 @@ ustrezen fazni faktor $i \beta (\omega) z$. Tako velja
 a\left(z,t\right)=\int \tilde{A}(\omega)\, e^{i \beta (\omega) z - i\omega t}d\omega.
 \label{9.62f}
 \end{equation}
-Osnovni sunek naj bo približno monokromatičen s krožno frekvenco $\omega_{0}$,
-kar pomeni, da je mnogo daljši od optične periode. 
+Osnovni sunek naj bo približno monokromatičen s krožno frekvenco $\omega_{0}$. Ta naj bo dovolj 
+velika, da lahko privzamemo, da je sunek mnogo daljši od optične periode.
 
 Potem lahko $\beta(\omega)$
 razvijemo okoli $\omega_{0}$, pri čemer vpeljemo razliko krožnih frekvenc $\Omega = \omega - \omega_0$
@@ -976,7 +982,7 @@ razvijemo okoli $\omega_{0}$, pri čemer vpeljemo razliko krožnih frekvenc $\Om
 \beta(\omega_{0}) +\beta '\,\Omega+\frac{1}{2}\,\beta ''\,\Omega^{2}.
 \label{9.62c}
 \end{equation}
-Enačbo~(\ref{9.62f}) prepišemo v 
+S črtico smo označili odvod po $\omega$. Enačbo~(\ref{9.62f}) prepišemo v 
 \begin{equation}
 a\left(z,t\right)=\int \tilde{A}(\Omega)\, e^{i \beta (\omega_0 + \Omega)z - 
 i(\omega_0 + \Omega) t}d\Omega  =  e^{i \beta (\omega_0)z - i\omega_0 t} A(z,t).
@@ -989,7 +995,7 @@ razvoja (enačba~\ref{9.62c}) jo zapišemo kot
  \frac{i}{2}\beta''\,\Omega^2\, z - i\, \Omega\, t\right) d\Omega.
  \label{eq:ovojnica967}
 \end{equation}
-Odvajajmo ovojnico najprej po $z$
+Odvajajmo ovojnico najprej parcialno po $z$
 \begin{equation}
  \frac{\partial A(z,t)}{\partial z} = \int \tilde{A}(\Omega)\, 
  \left(i \beta'\, \Omega + \frac{i}{2}\beta''\Omega^2 \right) 
@@ -1018,7 +1024,7 @@ Primerjamo izračunane odvode in dobimo enačbo
  \frac{\partial A(z,t)}{\partial z} = -\beta'\frac{\partial A}{\partial t} - \frac{i}{2} \beta''\frac{\partial^2 A}{\partial t^2}.
  \label{9.68b}
 \end{equation}
-Enačbo lahko nekoliko poenostavimo z vpeljavo novih neodvisnih spremenljivk
+Enačbo lahko nekoliko poenostavimo z vpeljavo novega para neodvisnih spremenljivk
 \begin{equation}
 \tau  =  t-\beta'z\nonumber \qquad \mathrm{in} \qquad \zeta = z.
 \label{9.70}
@@ -1048,7 +1054,7 @@ potuje po vlaknu z grupno hitrostjo $1/\beta'$.\index{Hitrost valovanja!grupna}
 
 Če je disperzija različna od nič, ostaneta v enačbi oba člena. Opazimo, da
 ima enačba enako obliko kot obosna valovna enačba, ki smo jo v
-drugem poglavju uporabili za obravnavo koherentnih 
+tretjem poglavju uporabili za obravnavo koherentnih 
 snopov (enačba~\ref{eq:obosna-valovna-enacba}). 
 Razlika med obosno valovno enačbo in enačbo~(\ref{9.71}) je v tem, da vlogo
 prečne koordinate prevzame čas $\tau$. To, kar je bila prej širina snopa, 
@@ -1068,9 +1074,9 @@ ni treba ponavljati, namesto tega kar v izrazu za Gaussove snope
 (enačba~\ref{eq:gaussov-snop}) napravimo ustrezno zamenjavo spremenljivk. 
 Iz enačbe~(\ref{9.71}) razberemo, da valovnemu številu $k$ pri snopih  
 ustreza parameter $\mu=(d^{2}\beta/d\omega^{2})^{-1}$. Poleg tega vpeljemo
-dolžino sunka $\sigma$, ki ustreza polmeru Gaussovega snopa $w$, in parameter
+dolžino sunka $2\sigma$, ki ustreza premeru Gaussovega snopa $2w$, in parameter
 $b$, ki ustreza krivinskemu radiju $R$. Oba parametra sta seveda odvisna od $\zeta$, 
-tako kot sta parametra $w$ in $R$ odvisna od $z$. 
+tako kot sta parametra $w$ in $R$ odvisna od $z$ (slika~\ref{fig:Gausstau}). 
 
 Na podlagi analogije zapišemo obliko podaljšanega Gaussovega sunka\index{Gaussov sunek}
 \begin{equation}
@@ -1079,12 +1085,12 @@ A\left(\zeta,\tau\right)=\frac{A_{0}}{\sqrt{1+\frac{\zeta^{2}
 \left(-i\frac{\mu\tau^{2}}{2b}\right)e^{i\phi\left(\zeta\right)}.
 \label{9.72}
 \end{equation}
-Pri tem za dolžino sunka $\sigma$ velja enaka zveza kot za polmer 
+Pri tem za dolžino sunka $2\sigma$ velja enaka zveza kot za premer 
 Gaussovega snopa (enačba~\ref{eq:w})
 \boxeq{9.73}{
-\sigma^{2}=\sigma_{0}^{2}\left(1+\left(\frac{\zeta}{\zeta_{0}}\right)^{2}\right).
+\left(2\sigma\right)^{2}=\left(2\sigma_{0}\right)^{2}\left(1+\left(\frac{\zeta}{\zeta_{0}}\right)^{2}\right).
 }
-Tu je $\sigma_{0}$ trajanje sunka pri $\zeta=0$, to je na začetku,
+Tu je $2\sigma_{0}$ trajanje sunka pri $\zeta=0$, to je na začetku,
 kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R}) v tem primeru
 ustreza količina $b=\zeta\left(1+\zeta_{0}^{2}/\zeta^{2}\right)$.
 Po analogiji s snopi lahko sklepamo, da se najmanj 
