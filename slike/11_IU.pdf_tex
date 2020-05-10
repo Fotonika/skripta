@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_IU.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{607.42062378bp}%
     \ifx\svgscale\undefined%
@@ -49,17 +51,19 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.80429204)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_IU.pdf}}%
-    \put(0.49850289,0.75203041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.91561997,0.33605084){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(0.49850294,0.75203041){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
+    \put(0.91562007,0.33605082){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{11_IU.pdf}}%
-    \put(0.04767702,0.72498032){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fotovoltaični način}}}%
+    \put(0.047677,0.72498032){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}fotovoltaični način\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{11_IU.pdf}}%
-    \put(0.04767702,0.6591281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Kratko sklenjeni način}}}%
+    \put(0.047677,0.6591281){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}kratko sklenjeni način\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{11_IU.pdf}}%
-    \put(0.04796677,0.59841235){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Zaporna smer}}}%
-    \put(0.04931016,0.53256013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Zaporna smer z upornikom}}}%
-    \put(0.49441317,0.03890223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-|U_0|/R$}}}%
-    \put(0.03267963,0.34840768){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-|U_0|$}}}%
+    \put(0.04796675,0.59841235){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}zaporna smer\end{tabular}}}}%
+    \put(0.04931014,0.53256012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}zaporna smer z upornikom\end{tabular}}}}%
+    \put(0.49441321,0.0389022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-|U_0|/R$\end{tabular}}}}%
+    \put(0.03267961,0.34840766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-|U_0|$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

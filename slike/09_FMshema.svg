@@ -14,8 +14,8 @@
    height="559.93384"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="09_FMshema.pdf"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="09_FMshema.svg"
    inkscape:export-filename="/home/mojca/Delo/FotonikaSkripta/MojcaNova/slike/08_nl2.png"
    inkscape:export-xdpi="599"
    inkscape:export-ydpi="599">
@@ -180,6 +180,38 @@
        effect="spiro"
        id="path-effect3021-7-9"
        is_visible="true" />
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-7-0"
+       style="overflow:visible">
+      <path
+         id="path3880-8-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-4-3"
+       style="overflow:visible">
+      <path
+         id="path3883-50-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3868-36-0"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -202,7 +234,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -228,7 +261,7 @@
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:16,2;stroke-dashoffset:0"
-       d="m 209.0968,419.61888 315.02083,-147.19314 0,0"
+       d="M 209.0968,419.61888 524.11763,272.42574 v 0"
        id="path7790"
        inkscape:path-effect="#path-effect7792"
        inkscape:original-d="m 209.0968,419.61888 315.02083,-147.19314 0,0"
@@ -344,53 +377,73 @@
     <g
        id="g7810">
       <text
-         sodipodi:linespacing="125%"
          id="text3015"
          y="361.41455"
          x="154.37529"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:32px"
+           style="font-size:32px;line-height:1.25"
            y="361.41455"
            x="154.37529"
            id="tspan3017"
            sodipodi:role="line">$U$</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text4073-2-0"
          y="701.82678"
          x="160.40189"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:24px"
+           style="font-size:24px;line-height:1.25"
            y="701.82678"
            x="160.40189"
            id="tspan4075-7-9"
            sodipodi:role="line">$x$</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text4073"
          y="692.72314"
          x="260.1683"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:24px"
+           style="font-size:24px;line-height:1.25"
            y="692.72314"
            x="260.1683"
            id="tspan4075"
            sodipodi:role="line">$z$</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text4073-2"
          y="638.54755"
          x="245.69138"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:24px"
+           style="font-size:24px;line-height:1.25"
            y="638.54755"
            x="245.69138"
            id="tspan4075-7"
            sodipodi:role="line">$y$</tspan></text>
+    </g>
+    <g
+       transform="translate(0.111553,1.03888)"
+       id="g6869">
+      <path
+         transform="matrix(0.29695593,0.485286,-0.42905161,0.2640526,655.68003,569.65185)"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="M -107.75349,899.21207 -40.139907,241.87338"
+         inkscape:path-effect="#path-effect3868-36-0"
+         id="path3866-1-6"
+         d="M -107.75349,899.21207 -40.139907,241.87338"
+         style="fill:none;stroke:#000000;stroke-width:7.72324371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-7-0);marker-end:url(#Arrow1Mend-4-3)" />
+      <text
+         id="text3015-1"
+         y="723.9165"
+         x="401.10388"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:32px;line-height:1.25"
+           y="723.9165"
+           x="401.10388"
+           id="tspan3017-5"
+           sodipodi:role="line">$L$</tspan></text>
     </g>
   </g>
 </svg>

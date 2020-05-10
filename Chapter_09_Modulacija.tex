@@ -10,14 +10,15 @@ Pri obravnavi širjenja svetlobe skozi snov je najpomembnejši parameter lomni k
 oziroma tenzor dielektričnosti. V tem poglavju bomo spoznali, kako z zunanjim poljem vplivamo 
 na lomni količnik in na širjenje svetlobe skozi snov. Svetlobno 
 valovanje lahko moduliramo na več načinov in z ustreznim moduliranjem
-lomnega količnika valovanju spreminjamo amplitudo\index{Elektro-optična modulacija!amplitudna} 
-ali frekvenco oziroma fazo\index{Elektro-optična modulacija!frekvenčna}
+lomnega količnika valovanju spreminjamo amplitudo,\index{Elektro-optična modulacija!amplitudna} 
+frekvenco ali fazo. Ker imata sprememba frekvence in faze enak učinek na valovanje, ju obravnavamo
+skupaj kot frekvenčno oziroma fazno modulacijo\index{Elektro-optična modulacija!frekvenčna}
 \index{Elektro-optična modulacija!fazna} (slika~\ref{fig:amfm}). 
 \begin{figure}[h]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/09_AMFM.pdf_tex}
-\caption{Amplitudno (levo) in fazno oziroma frekvenčno moduliran signal (desno)
+\caption{Amplitudno (a) in frekvenčno oziroma fazno moduliran signal (b)
 }
 \label{fig:amfm}
 \end{figure}
@@ -46,8 +47,8 @@ diagonaliziramo~(enačba~\ref{eq:gostota-elektricnega-polja-lastni}). Lastne vre
 $\varepsilon_1$, $\varepsilon_2$ in $\varepsilon_3$ ustrezajo kvadratom treh lomnih
 količnikov $n_1^2$, $n_2^2$ in $n_3^2$, ki so na splošno različni.
 
-Zaradi priročnosti namesto dielektričnega tenzorja\index{Dielektričnost!inverzna} 
-vpeljemo inverzni dielektrični tenzor
+Kot bomo videli, je namesto dielektričnega tenzorja\index{Dielektričnost!inverzna} 
+priročno vpeljati inverzni dielektrični tenzor
 \begin{equation}
 \underline{b}=\underline{\epsilon}^{-1}.
 \end{equation}
@@ -132,7 +133,7 @@ je podanih v tabeli~(\ref{table:Pockels}).
       Kristal & Grupa & Neničelne komponente tenzorja $r$ & Vrednost ($10^{-12}~\si{\m/\V}$)\\ \hline
       BaTiO$_3$\index{BaTiO$_3$} & 4mm & $r_{xzx} = r_{yzy} = r_{zxx} = r_{zyy} = 
       r_{51} = r_{42}$  &
-	    (pri $1,55~\si{\micro\metre}$) $r_{51} = 800$ \\
+	    $r_{51} = 800$ \\
 	      & & $r_{xxz} = r_{yyz} = r_{13} = r_{23}$ &  $r_{13} = 8$ \\
 	      & & $r_{zzz} = r_{33}$ & $r_{33} = 28$ \\ \hline
       KDP\index{KDP} & 
@@ -141,8 +142,8 @@ je podanih v tabeli~(\ref{table:Pockels}).
 	    & & $r_{xyz} = r_{yxz} = r_{63}$ &  $r_{63} = -10,3$ \\ \hline
       GaAs\index{GaAs}\index{ZnTe} &  $\overline{4}$3m&
 	  $r_{yzx} = r_{zyx} = r_{xzy} = r_{zxy} = r_{xyz} = r_{yxz}$  & 
-	  (pri $10,6~\si{\micro\metre}$) $r_{41} = 1,5$ \\
-	ZnTe  & &   $= r_{41} = r_{52}=r_{63}$  &(pri $3,4~\si{\micro\metre}$) $r_{41} = 4,2$ 
+	   $r_{41} = 1,5$ \\
+	ZnTe  & &   $= r_{41} = r_{52}=r_{63}$  & $r_{41} = 4,2$ 
 	    \\ \hline
       LiNbO$_3$\index{LiNbO$_3$} & 3m & $r_{xzx} = r_{zxx} = r_{yzy} = r_{zyy} = r_{51} = r_{42}$  &
 	    $r_{51} = 32,6$ \\
@@ -153,8 +154,9 @@ je podanih v tabeli~(\ref{table:Pockels}).
 	    $r_{22}  = 6,8$ \\
 \hline 
 \end{tabular}
-  \caption{Koeficienti Pockelsovega tenzorja za nekaj izbranih snovi. Če ni navedeno drugače, veljajo
-  vrednosti pri valovni dolžini okoli $600~\si{nm}$.}
+  \caption{Koeficienti Pockelsovega tenzorja za nekaj izbranih snovi. Vrednosti so podane 
+  pri valovni dolžini $\sim 600~\si{nm}$, razen za BaTiO$_3$ (pri $1,55~\si{\micro\metre}$), 
+  GaAs ($10,6~\si{\micro\metre}$) in ZnTe ($3,4~\si{\micro\metre}$).}
 \label{table:Pockels}
 \end{table}
 
@@ -186,7 +188,7 @@ Kristal naj bo odrezan po kristalografskih oseh. Svetloba naj skozi kristal potu
 v smeri optične osi, to je po dogovoru smer $z$ in v isti smeri na kristal priključimo
 polje $E_z$. Ker je smer električnega polja vzporedna s smerjo širjenja svetlobe, taki 
 postavitvi pravimo longitudinalna in pojavu longitudinalna 
-modulacija.\index{Elektro-optična modulacija!longitudinalna} 
+modulacija (slika~\ref{fig:amshema}).\index{Elektro-optična modulacija!longitudinalna} 
 \vglue-5truemm
 \begin{figure}[h]
 \centering
@@ -249,7 +251,7 @@ in pripadajoče nove lastne osi so
 \lambda_3 &= \frac{1}{n_e^2} \qquad \mathrm{in} \qquad \mathbf{e}_3 = (0,0,1).
 \end{align}
 Os $z$ se ohranja, medtem ko sta drugi dve novi lastni osi zasukani za kot $45~\si{\degree}$ 
-glede na prvotni osi $x$ in $y$.
+glede na prvotni osi $x$ in $y$ (slika~\ref{fig:amn}).
 V novem koordinatnem sistemu je inverzni dielektrični tenzor diagonalen in enak
 \begin{equation}
 \underline{b} = 
@@ -276,7 +278,7 @@ $45~\si{\degree}$ glede na prvotni osi $x$ in $y$.}
 \label{fig:amn}
 \end{figure}
 
-Za žarek, 
+Za svetlobo, 
 ki potuje vzdolž osi $z$, torej obstajata dve lastni smeri $x'$ in $y'$ z ustreznima
 novima lastnima količnikoma, ki ju izrazimo kot\index{Lomni količnik}
 \begin{equation}
@@ -457,7 +459,7 @@ T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 =
 \centering
 \def\svgwidth{70truemm} 
 \input{slike/09_AMT.pdf_tex}
-\caption{Prepustnost amplitudnega modulatorja v odvisnosti od faznega zamika $\Delta \phi$, 
+\caption{Prepustnost amplitudnega modulatorja $T$ v odvisnosti od faznega zamika $\Delta \phi$, 
 sorazmernega priključeni napetosti (rdeča črta). Če pred vzorec dodamo ploščico $\lambda/4$, 
 pride do faznega zamika $\pi/2$ in odvisnost prepustnosti od priključene napetosti
 je približno linearna (modra črta).}
@@ -587,7 +589,7 @@ Ker je vrednost $\delta$ navadno majhna, za opis pogosto zadošča le prvi člen
 Elektro-optični pojav izkoriščamo tudi za uklanjanje žarkov. 
 \index{Elektro-optični deflektor}
 Najpreprostejši primer deflektorja je trikotna prizma z elektrodama na osnovnih 
-ploskvah. Svetloba se ob prehodu skozi prizmo lomi v odvisnosti od njenega 
+ploskvah (slika~\ref{fig:deflshema}). Svetloba se ob prehodu skozi prizmo lomi v odvisnosti od njenega 
 lomnega količnika, tega pa lahko spreminjamo 
 z napetostjo na elektrodah. Praktično je bolj uporabna dvojna prizma. Sestavljena je iz dveh enakih 
 prizem, ki skupaj tvorita kvader, pri čemer osi $z$ zgornje in spodnje prizme
@@ -638,19 +640,18 @@ s spremembo inverznega dielektričnega tenzorja\index{Dielektričnost!inverzna}
 \underline{b} = \underline{\tilde{b}}+ \delta\underline{b},
 \end{equation}
 pri čemer je $\underline{\tilde{b}}$ tenzor v odsotnosti mehanske deformacije in
-$\delta\underline{b}$ sprememba tenzorja zaradi deformacije snovi. V prvem približku jo zapišemo
-kot
+$\delta\underline{b}$ sprememba tenzorja zaradi deformacije snovi. Deformacijo
+snovi v linearnem približku opišemo z Greenovim tenzorjem 
+\begin{equation}
+S_{kl}=\frac{1}{2}\left({\frac{\partial u_{k}}{\partial x_{l}}}+
+{\frac{\partial u_{l}}{\partial x_{k}}}\right),
+\label{7.28}
+\end{equation}
+pri čemer je $\mathbf{u}$ vektor deformacije. Spremembo tenzorja
+$\delta\underline{b}$ v prvem približku zapišemo kot 
 \boxeq{7.27}{
  \delta b_{ij}=p_{ijkl}S_{kl}.
 }
-Sprememba tenzorja je sorazmerna s tenzorjem deformacije snovi (Greenovim tenzorjem) v
-linearnem približku
-\begin{equation}
-S_{kl}=\frac{1}{2}\left({\frac{\partial u_{k}}{\partial x_{l}}}+{\frac{\partial u_{l}}{\partial x_{k}}}\right),
-\label{7.28}
-\end{equation}
-pri čemer je $\mathbf{u}$ vektor deformacije. 
-
 Vpeljali smo sorazmernostni faktor
 $p_{ijkl}$, ki ga imenujemo elasto-optični tenzor\index{Elasto-optični tenzor}. 
 Tenzor $\underline{p}$ je različen od nič v vsaki snovi, saj povezuje dva simetrična tenzorja 
@@ -728,7 +729,7 @@ skozi plast daljša. Ravno svetlobno valovanje, ki vpada na plast pravokotno gle
 na smer širjenja zvoka, po izstopu zato nima povsod enake faze in valovno čelo 
 je periodično modulirano s periodo 
 valovne dolžine zvočnega valovanja. Zvočno valovanje v snovi torej deluje kot 
-optična fazna mrežica. Tipična frekvenca, s katero vzbujamo elastično
+optična fazna mrežica (slika~\ref{fig:ao}). Tipična frekvenca, s katero vzbujamo elastično
 deformacijo, je okoli $\Omega/2\pi \sim 50~\si{MHz}$ in ustrezna valovna dolžina okoli 
 $\Lambda \sim 100~\si{\micro\metre}$. Frekvence, ki so v uporabi, navadno sežejo od 
 nekaj $\si{MHz}$ prek $10~\si{GHz}$. Čeprav so vse te frekvence
@@ -737,7 +738,8 @@ daleč nad slišnimi, taka valovanja imenujemo zvočna oziroma akustična.
 \centering
 \def\svgwidth{50truemm} 
 \input{slike/09_AOshema.pdf_tex}
-\caption{Vpadna svetloba se na zvočnem valovanju v snovi uklanja.}
+\caption{Zvočno valovanje v snovi deluje kot optična fazna mrežica in vpadna svetloba 
+se na njem uklanja.}
 \label{fig:ao}
 \end{figure}
 \vglue-5truemm

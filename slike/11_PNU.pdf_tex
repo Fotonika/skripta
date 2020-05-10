@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_PNU.pdf' (pdf, eps, ps)
 %%
@@ -57,10 +57,10 @@
     \put(0.36779905,0.19884734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39289728\unitlength}\raggedright \textit{ }\end{minipage}}}%
     \put(0.35245196,0.01968731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
     \put(0.73798433,0.01968731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
-    \put(0.32360691,0.10837629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
-    \put(-0.00048446,0.07956887){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.32360691,0.10279591){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(-0.00048446,0.08793944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
     \put(0.00443606,0.15878411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.16222033,0.09451241){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$e_0U$\end{tabular}}}}%
+    \put(0.18853054,0.08599203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$e_0U$\end{tabular}}}}%
     \put(0.0098495,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
     \put(0.0785495,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(0.25390551,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
@@ -79,5 +79,6 @@
     \put(0.88601619,0.05972713){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$h\nu$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_PNU.pdf}}%
     \put(0.88092582,0.15318607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_PNU.pdf}}%
   \end{picture}%
 \endgroup%

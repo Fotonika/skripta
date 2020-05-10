@@ -149,8 +149,9 @@ T_\omega = \frac{1}{\Lambda}\left(\frac{1}{1+i \omega \tau}\right)P_\omega =
 \label{TermOdziv}
 \end{equation}
 Imaginarni del predstavlja fazni zamik, amplituda odziva, ki nas zanima, je 
-podana kot realni del. Iz računa je razvidno, zakaj detektor sledi le 
-počasnim spremembam signala. 
+podana kot realni del. Odziv je velik le za počasne spremembe signala, ko
+je $\omega$ majhen in je $T_\omega \approx P_\omega/\Lambda$. Z naraščajočo frekvenco
+$\omega$ se odziv zmanjšuje in hitrim spremembam detektor ne more slediti. 
 \begin{definition}
 Pokaži, da je odziv termičnega detektorja na sunek oblike $P(t) = P_0\delta(t-t_0)$
 \begin{equation}
@@ -165,8 +166,7 @@ zaradi spremembe temperature tipala.\footnote{Prvi bolometer je leta 1881 naredi
 ameriški fizik, astronom in letalski inženir Samuel Pierpont Langley, 1834--1906.}
 Tipalo je praviloma počrnjena tanka ploščica, 
 navadno je narejena iz termistorja\footnote{Termistor je upornik, katerega
-upornost se spreminja s temperaturo.}, \index{Termistor}
-polprevodnika ali superprevodnika. Tipalo prek
+upornost se spreminja s temperaturo.}, \index{Termistor} polprevodnika ali superprevodnika (sliki~\ref{fig:Bolometer-shema} in \ref{fig:Bolometer}). Tipalo prek
 referenčnega upora priključimo na napetost, prek kondenzatorja pa merimo napetost na njem.
 Za meritve konstantnega svetlobnega toka tipalo navadno vežemo v Wheatstonov mostiček. V obeh
 primerih za referenčni upor vzamemo enako tipalo, ki ga zaščitimo pred vpadno svetlobo, 
@@ -175,7 +175,9 @@ tako da postane sistem neobčutljiv na morebitne spremembe temperature okolice.
 \centering
 \def\svgwidth{75truemm} 
 \input{slike/11_bolometer.pdf_tex}
-\caption{Shema bolometra}
+\caption{Shema bolometra. Počrnjena plast se zaradi vpadne svetlobe segreje, pri čemer
+je sprememba temperature sorazmerna z močjo vpadne svetlobe. S hlajenjem skrajšamo odzivni čas
+detektorja.}
 \label{fig:Bolometer-shema}
 \end{figure}
 
@@ -264,13 +266,14 @@ frekvence modulacije vpadne svetlobe. Vendar to še ne pomeni, da lahko modulira
 veliko frekvenco. Poleg relaksacijskega časa detektorja ima namreč karakteristični čas tudi
 elektronsko vezje, ki določa zgornjo mejo za frekvenco modulacije. 
 Ta je enak $\tau_e = RC_e$, pri čemer
-sta $R$ upornost sistema in $C_e$ električna kapaciteta detektorja. 
+sta $R$ upornost sistema in $C_e$ električna kapaciteta detektorja. Občutljivost detektorja, 
+ki je sorazmerna z realnim delom električnega toka, je prikazana na sliki~\ref{fig:Piro}. 
 \begin{figure}[h]
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/11_Piro.pdf_tex}
 \caption{Spektralni odziv piroelektričnega detektorja na eni strani določajo toplotne izgube 
-$\Lambda$ in toplotna kapaciteta detektorja $C$, navzgor odziv omejuje odziv elektronskega vezja $\tau_e$.}
+$\Lambda$ in toplotna kapaciteta detektorja $C$, navzgor odziv omejuje odzivni čas elektronskega vezja $\tau_e$.}
 \label{fig:Piro}
 \end{figure}
 
@@ -443,7 +446,8 @@ Kvantni izkoristek odčitaj s slike~\ref{fig:Fotodioda}.
 Fotopomnoževalke so fotocelice z vgrajenim ojačenjem. Ojačenje dosežemo tako, da 
 izbit elektron najprej pospešimo z napetostjo $100$--$150~\si{\volt}$ na vmesno elektrodo, 
 tako imenovano dinodo, iz katere izbije več ($\sim 5$--$10$, redkeje tudi do 40) 
-sekundarnih elektronov. Izbiti elektroni \index{Fotoefekt!zunanji}\index{Notranje ojačenje}
+sekundarnih elektronov (slika~\ref{fig:PMT}). 
+Izbiti elektroni \index{Fotoefekt!zunanji}\index{Notranje ojačenje}
 potujejo do naslednje dinode, ki je pod višjo pozitivno napetostjo (tipično okoli $100~\si{\volt}$
 višjo), kjer ponovno izbijejo elektrone, ki vpadejo na naslednjo dinodo, 
 ki je pod še višjo napetostjo ... 
@@ -632,8 +636,10 @@ pod prevodnim pasom, zaradi česar je Fermijeva energija pomaknjena navzgor prot
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/11_PN1.pdf_tex}
-\caption{Shema energijskih nivojev v polprevodniku tipa $p$ (a) in $n$ (b) ter na spoju $p$-$n$ (c), 
-v katerem se Fermijevi energiji izenačita.}
+\caption{Shema energijskih nivojev v polprevodniku tipa $p$ (a) in $n$ (b). 
+$E_a$ in $E_d$ označujeta dodatna energijska pasova zaradi primesi, 
+$E_F$ pa Fermijevo energijo. Na spoju $p$-$n$ (c) se Fermijevi energiji izenačita.
+Pojavi se električno polje $\mathbf{E}$, ki kaže od $n$ proti $p$.}
 \label{11_PN1}
 \end{figure}
 
@@ -644,7 +650,7 @@ Ob spoju nastane ozek pas, imenujemo ga izpraznjeni sloj, kjer ni
 prostih nosilcev naboja. Tipično je širok od $10~\si{nm}$ do $1~\si{\micro\metre}$.
 Po rekombinaciji ostanejo na strani $n$ pozitivno nabiti donorski atomi in 
 na strani $p$ negativno nabiti akceptorski atomi, ki povzročijo nastanek  
-električnega polja. Nastalo polje, ki kaže od $n$ proti $p$, zaustavi rekombinacijo, saj odbija
+električnega polja $\mathbf{E}$. Nastalo polje, ki kaže od $n$ proti $p$, zaustavi rekombinacijo, saj odbija
 elektrone in vrzeli od spoja. V ravnovesju se Fermijeva energija na obeh straneh spoja 
 izenači (slika~\ref{11_PN1}\,c). 
 Potencialni skok je približno enak $\Delta E \approx E_d-E_a$, kar je le malo manj od 
@@ -760,7 +766,8 @@ zato ob absorpciji fotona in nastanku para elektron--vrzel tok ne more steči.
 Še vedno se izbiti elektron pod vplivom električnega polja
 na spoju premakne proti območju $n$ in vrzel proti območju $p$.
 Na diodi se tako pojavi napetost, 
-katere vrednost lahko izračunamo iz karakteristične enačbe diode, če upoštevamo, da je $I=0$. Sledi
+katere vrednost lahko izračunamo iz karakteristične enačbe diode (enačba~\ref{11:fotodioda}), 
+če upoštevamo, da je v nesklenjenem tokokrogu $I=0$. Sledi
 \begin{equation}
 U = \frac{kT}{e_0}\ln \left(1+ \frac{I_f}{I_0}\right).
 \end{equation}
@@ -810,10 +817,13 @@ izpraznjena plast vodi tudi do večjega območja, v katerem se fotoni absorbiraj
 \label{naloga:depl}
 Pokaži, da je debelina izpraznjene plasti enaka $d = d_p+d_n$, kjer sta 
 \beq
-d_{p,n}= \sqrt{\frac{2\epsilon \varepsilon_0(\Delta E_0-e_0U)}{e_0}\frac{(N_d/N_a)^{\pm 1}}{N_a+N_d}}.
+d_{p}= \sqrt{\frac{2\epsilon \varepsilon_0(\Delta E_0-e_0U)}{e_0}\frac{N_d/N_a}{N_a+N_d}}
+\quad\mathrm{in}\quad 
+d_{n}= \sqrt{\frac{2\epsilon \varepsilon_0(\Delta E_0-e_0U)}{e_0}\frac{N_a/N_d}{N_a+N_d}}.
 \eeq
 Pri tem $N_a$ in $N_d$ označujeta gostoti akceptorskih in donorskih atomov, $\Delta E_0$ je ravnovesni 
-potencialni skok med stranjo $n$ in $p$ in $U$ priključena napetost. \\ Namig: zapiši Gaussov zakon in 
+potencialni skok med stranjo $n$ in $p$ in $U$ priključena napetost.
+\\ Namig: zapiši Gaussov zakon in 
 upoštevaj zvezo $d_n N_d = d_p N_a$.
 \end{definition}
 
@@ -848,7 +858,8 @@ Walter Hans Schottky, 1886--1976.}, kjer eno plast polprevodnika
 nadomestimo z zelo tanko plastjo kovine (slika~\ref{11_shema}\,c). Te so uporabne predvsem pri 
 visokih energijah (v UV območju), \index{Fotodioda!Schottkyjeva}\index{Ultravijolično valovanje}
 saj je v navadnih fotodiodah absorpcija za te valovne dolžine prevelika, na površini pride do 
-rekombinacije in zmanjšanja kvantnega izkoristka. Odziv Schottkyjevih fotodiod je zelo hiter, 
+rekombinacije in zmanjšanja kvantnega izkoristka (slika~\ref{11_odziv}). 
+Odziv Schottkyjevih fotodiod je zelo hiter, 
 saj nizka upornost kovine občutno zmanjša $RC$ konstanto spoja. Odzivni časi 
 dosegajo pikosekundne vrednosti. 
 \end{remark}
@@ -1186,7 +1197,7 @@ je pri napetosti $\Delta U$ tako enaka
 \overline{W} = \frac{C\overline{(\Delta U)^2}}{2} = \frac{kT}{2}.
 \end{equation}
 Ko se na kondenzatorju pojavi napetost, steče skozi upornik električni tok. 
-Največja povprečna moč, ki jo lahko dobimo iz takega vezja, je enaka 
+Največja povprečna moč, ki jo lahko dobimo iz takega vezja zaradi šuma, je enaka 
 \begin{equation}
 \overline{P} = \frac{R \overline{(\Delta I)^2}}{2},
 \end{equation}
@@ -1354,7 +1365,8 @@ detekcije svetlobe, ki omogoča zaznavanje zelo šibkih signalov. Za razliko od 
 ki smo jo obravnavali do zdaj in pri kateri pride do neposredne zaznave vpadnega fotona, 
 gre pri heterodinski detekciji za zaznavanje valovanja z amplitudo in fazo. Pri takem 
 pristopu detektor svetlobe osvetlimo hkrati s signalom in z močno referenčno svetlobo, 
-katere frekvenca se le malo razlikuje od frekvence signala. Privzamemo, da sta oba snopa 
+katere frekvenca se le malo razlikuje od frekvence signala (slika~\ref{11_Hetero}). 
+Privzamemo, da sta oba snopa 
 koherentna v času trajanja signala.
 \begin{figure}[h]
 \centering
