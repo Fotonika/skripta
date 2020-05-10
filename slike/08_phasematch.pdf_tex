@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '08_phasematch.pdf' (pdf, eps, ps)
 %%
@@ -54,41 +54,41 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_phasematch.pdf}}%
-    \put(0.8510983,0.80204616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{\omega}$\end{tabular}}}}%
-    \put(0.79160698,0.79465082){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{2\omega}$\end{tabular}}}}%
-    \put(0.90578413,0.75415899){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textbf{$\mathbf{k}$}\end{tabular}}}}%
     \put(0.49809049,0.5595288){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0.97207023,0.55931993){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
-    \put(0.41190318,0.75305651){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textbf{$\mathbf{k}$}\end{tabular}}}}%
     \put(-0.00064422,0.79347778){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0.57658609,0.79347778){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(0.34614638,0.79524824){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{\omega}$\end{tabular}}}}%
     \put(0.20690619,0.79485971){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0.75890107,0.79545016){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0.23264823,0.62569574){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_m$\end{tabular}}}}%
     \put(0.78311631,0.68199316){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_m$\end{tabular}}}}%
-    \put(0.2550869,0.79565179){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{2\omega}$\end{tabular}}}}%
-    \put(0.44571901,0.46032676){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{2\omega}$\end{tabular}}}}%
-    \put(0.39021787,0.45832481){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{\omega}$\end{tabular}}}}%
-    \put(0.96176039,0.46106345){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{2\omega}$\end{tabular}}}}%
-    \put(0.90625925,0.4590615){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{\omega}$\end{tabular}}}}%
+    \put(0.35543752,0.78131156){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(\omega)$\end{tabular}}}}%
+    \put(0.25392552,0.79681318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(2\omega)$\end{tabular}}}}%
+    \put(0.45617154,0.45916538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(2\omega)$\end{tabular}}}}%
+    \put(0.36297034,0.45418443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(\omega)$\end{tabular}}}}%
     \put(0.49840767,0.13791149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0.97268273,0.13791141){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
-    \put(0.24908105,0.36684799){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{2\omega}$\end{tabular}}}}%
     \put(0.23258262,0.18250904){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_m$\end{tabular}}}}%
     \put(0.78573069,0.21548175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_m$\end{tabular}}}}%
-    \put(0.33843696,0.36684799){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{\omega}$\end{tabular}}}}%
     \put(-0.00086354,0.37021888){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
     \put(0.57636677,0.37021888){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
     \put(0.75589822,0.37238591){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0.20536459,0.37154829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
-    \put(0.96984623,0.28220156){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textbf{$\mathbf{k}$}\end{tabular}}}}%
-    \put(0.45084317,0.22814914){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textbf{$\mathbf{k}$}\end{tabular}}}}%
-    \put(0.7922936,0.37335557){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{2\omega}$\end{tabular}}}}%
-    \put(0.9613341,0.03740286){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{2\omega}$\end{tabular}}}}%
-    \put(0.90583296,0.0354009){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{\omega}$\end{tabular}}}}%
-    \put(0.88180258,0.3736181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o^{\omega}$\end{tabular}}}}%
-    \put(0.44483341,0.03640188){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{2\omega}$\end{tabular}}}}%
-    \put(0.38933226,0.03439993){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e^{\omega}$\end{tabular}}}}%
+    \put(0.43059713,0.71981465){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{k}$\end{tabular}}}}%
+    \put(0.44443045,0.22962946){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{k}$\end{tabular}}}}%
+    \put(0.95195799,0.27840788){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{k}$\end{tabular}}}}%
+    \put(0.8938885,0.75457796){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{k}$\end{tabular}}}}%
+    \put(0.35758787,0.35379097){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(\omega)$\end{tabular}}}}%
+    \put(0.25375311,0.36696982){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(2\omega)$\end{tabular}}}}%
+    \put(0.45665516,0.03232712){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(2\omega)$\end{tabular}}}}%
+    \put(0.36345395,0.02734618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(\omega)$\end{tabular}}}}%
+    \put(0.96866885,0.48189731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(2\omega)$\end{tabular}}}}%
+    \put(0.90450239,0.46065691){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(\omega)$\end{tabular}}}}%
+    \put(0.97331535,0.05450563){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(2\omega)$\end{tabular}}}}%
+    \put(0.90450327,0.03558808){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_e(\omega)$\end{tabular}}}}%
+    \put(0.88718189,0.34680659){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(\omega)$\end{tabular}}}}%
+    \put(0.79263827,0.37508346){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(2\omega)$\end{tabular}}}}%
+    \put(0.92318498,0.72309704){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(\omega)$\end{tabular}}}}%
+    \put(0.7972838,0.7943454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o(2\omega)$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

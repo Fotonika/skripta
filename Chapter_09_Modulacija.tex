@@ -681,7 +681,7 @@ velja $p_{11} \simeq p_{12} = 0,31$ in $p_{44} = 0$, za LiNbO$_3$\index{LiNbO$_3
 p_{12} = 0,08, p_{13} = 0,13,  p_{14} = -0,08, p_{31} = 0,17, p_{33} = 0,07,
 p_{41} = -0,15, p_{44} = 0,12$.
 
-Iz enačbe~(\ref{7.27}) izrazimo
+Iz zveze $\underline{b} = \underline{\varepsilon}^{-1}$ in enačbe~(\ref{7.27}) izrazimo
 spremembo dielektričnega tenzorja 
 \begin{equation}
 \delta\epsilon_{ij}=-\tilde{\epsilon}_{ii}\tilde{\epsilon}_{jj}p_{ijkl}S_{kl},
@@ -749,11 +749,13 @@ $d \ll \Lambda^2/\lambda$ (slika~\ref{fig:ao_bragg}\,a).
 Takrat modulator deluje kot tanka uklonska mrežica \index{Uklon}\index{Uklonska 
 mrežica}in pojavi se veliko 
 uklonskih vrhov, vendar je intenziteta posameznega žarka razmeroma majhna. 
-Kote, pod katerimi se pojavijo ojačitve, izračunamo po preprosti enačbi
+Kote $\beta$, pod katerimi se pojavijo ojačitve, izračunamo po preprosti enačbi
 \boxeq{R-N}{
 \Lambda (\sin \vartheta - \sin \beta ) = N \lambda,
 }
-pri čemer je $\lambda$ valovna dolžina svetlobe v snovi, $N$ pa celo število. Takemu pojavu 
+pri čemer je $\vartheta$ vpadni kot, $\lambda$ valovna dolžina svetlobe v snovi, 
+$\Lambda$ valovna dolžina zvočnega valovanja in 
+$N$ celo število. Takemu pojavu 
 pravimo Raman-Nathov uklon\footnote{Indijski fizik in nobelovec Sir Chandrasekhara 
 Venkata Raman, 1888--1970, 
 in indijski fizik N. S. Nagendra Nath.}\index{Raman-Nathov uklon}. 
@@ -911,7 +913,9 @@ obravnavajmo znotraj snovi, da ni treba upoštevati še loma, ki
 le zaplete izraze. 
 
 Privzamemo, da se v snovi zaradi zvočnih valov spremeni le velikost
-dielektrične konstante. Ob upoštevanju zveze med spremembo dielektričnosti in deformacijo
+dielektrične konstante. Zaradi enostavnosti računajmo z efektivno elasto-optično
+konstanto $p$ in efektivno deformacijo $S_0$. Ob upoštevanju zveze med
+spremembo dielektričnosti in deformacijo
 v zvočnem valu~(enačba~\ref{7.29}) spremembo dielektričnosti
 zapišemo kot  \index{Dielektričnost}
 \begin{equation}
@@ -1070,7 +1074,8 @@ Za čim bolj učinkovito delovanje akusto-optičnega modulatorja seveda
 \def\svgwidth{80truemm} 
 \input{slike/09_AOcalc.pdf_tex}
 \caption{Relativna intenziteta prepuščenega (črna črta) in uklonjenega (rdeča črta) 
-valovanja na zvočnem valovanju v odvisnosti od debeline plasti zvočnega valovanja}
+valovanja na zvočnem valovanju v odvisnosti od debeline plasti zvočnega valovanja, če
+je izpolnjen Braggov pogoj.}
 \label{s7.10}
 \end{figure}
 
@@ -1139,7 +1144,7 @@ preide v
 2\frac{dA_{m}(\zeta)}{d\zeta}+A_{m+1}(\zeta)-A_{m-1}(\zeta)=\frac{\beta_{m}}{i\xi}A_{m}.
 \label{7.53}
 \end{equation}
- Člen na desni lahko izpustimo, če je 
+Upoštevamo enačbi~\ref{7.38}. Člen na desni lahko izpustimo, če je 
 \begin{equation}
 \frac{\beta_{m}}{\xi}=\left| \frac{4mq}{\tilde{\varepsilon}pS_0k}(\sin\vartheta+\frac{mq}{2k})\right| 
 \ll 1,
@@ -1193,12 +1198,10 @@ odklon molekul od $\mathbf{n}$ je nekaj deset stopinj, odvisno seveda od tempera
 \index{Tekoči kristali!5CB}
 \begin{figure}[h]
 \centering
-\def\svgwidth{30truemm} 
-\input{slike/09_5CB.pdf_tex}\qquad\qquad
-\def\svgwidth{50truemm} 
-\input{slike/09_nematik.pdf_tex}
+\def\svgwidth{90truemm}
+\input{slike/09_5CB.pdf_tex}
 \caption{Molekula enega najbolj razširjenih tekočih kristalov, 4-ciano-4'pentil-bifenila 
-ali 5CB (levo) in shematski prikaz nematične faze z označenim direktorjem (desno)}
+ali 5CB (a) in shematski prikaz podolgovatih molekul v nematični fazi z označenim direktorjem (b)}
 \label{fig:5CB}
 \end{figure}
 
@@ -1345,6 +1348,7 @@ Polarizacija svetlobe se ohranja in analizator svetlobe ne prepušča (b).}
 \includegraphics[width=80truemm]{slike/09_LCD.jpg}
 \caption{Na močno povečani fotografiji računalniškega tekočekristalnega zaslona se 
 jasno vidi, da je vsak piksel sestavljen iz treh delov: rdečega, modrega in zelenega.}
+\label{fig:LCD}
 \end{figure}
 \begin{remark}
 Tekočekristalni zasloni, ki jih uporabljamo danes, so precej bolj zapleteni.
@@ -1352,7 +1356,7 @@ Najpreprostejši so črno-beli prikazovalniki, ki delujejo z odbito svetlobo (np
 v žepnih računalih), zato imajo za analizatorjem odbojno površino. Večina 
 sodobnih prikazovalnikov (npr. računalniški ali telefonski zasloni) ima svoj izvor svetlobe, 
 praviloma so to LED ali fluorescenčna svetila.
-Barve dosežemo z barvnimi filtri (rdečim, modrim in zelenim) na vsakem 
+Barve dosežemo z barvnimi filtri (rdečim, modrim in zelenim, slika~\ref{fig:LCD}) na vsakem 
 slikovnem elementu (pikslu) posebej, krmiljenje pikslov pa s tankoplastnimi 
 tranzistorji (TFT - {\it Thin Film Transistors}). Večina
 sodobnejših zaslonov ima tekoče kristale urejene planarno in v njih poteka
@@ -1478,7 +1482,7 @@ $\omega$ in $k$ -- za svetlobo v zasukanem sredstvu
 \label{7.66a}
 \end{equation}
 
-Da dobimo disperzijsko odvisnost, moramo rešiti gornjo kvadratno enačbo. 
+Da dobimo disperzijsko odvisnost, moramo rešiti kvadratno enačbo (enačba~\ref{7.66a}). 
 Vendar za razlago delovanja zasukane nematične celice zadošča približek 
 $q\ll\alpha, \beta$, saj je perioda sukanja optične osi
 velika v primerjavi z valovno dolžino svetlobe. Tedaj lahko $q$ v disperzijski
@@ -1494,13 +1498,13 @@ k^{2}=
 Ti dve vrednosti ustrezata velikosti valovnega vektorja za izredni
 in redni val v navadnem enoosnem kristalu. Vstavimo ju v enačbi~(\ref{7.65})
 in za polarizaciji lastnih valov dobimo $B=\pm A$.
-Izračunajmo še obe kartezični komponenti električnega polja za prvo rešitev
+Izračunajmo še obe kartezični komponenti električnega polja za prvo rešitev ($A=B$)
 \begin{align}
 E_{x} &=  \frac{1}{2}(E_{+}+E_{-})  =  \frac{1}{2}Ae^{ikz}(e^{iqz}+e^{-iqz})  =  Ae^{ikz}\cos qz\\
 E_{y} & = \frac{1}{2i}(E_{+}-E_{-})  =  \frac{1}{2i}Ae^{ikz}(e^{iqz}-e^{-iqz})  =  Ae^{ikz}\sin qz.
 \label{7.68}
 \end{align}
-Zasuk polarizacije torej res sledi zasuku optične osi. Druga rešitev da val,
+Zasuk polarizacije torej res sledi zasuku optične osi. Druga rešitev ($A=-B$) da val,
 ki je polariziran pravokotno na lokalno optično os in se prav tako
 suče z njo. Pri tem se prvi val širi kot izredni val s fazno hitrostjo $c/n_{e}$ in  
 drugi kot redni val s $c/n_{o}$. Če na zasukano
@@ -1565,7 +1569,7 @@ pahljače, drugi zaradi zasuka in tretji zaradi upogiba (slika~\ref{s7.20}).
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/09_KKK.pdf_tex}
-\caption{Trije načini deformacije ureditve tekočega kristala so pahljačasta deformacija,
+\caption{Trije načini deformacije ureditve molekul tekočega kristala so pahljačasta deformacija,
 zasuk in upogib.}
 \label{s7.20}
 \end{figure}
@@ -1579,15 +1583,14 @@ F_{el} = -\int \frac{1}{2} \mathbf{D}\cdot\mathbf{E}\, dV= -\frac{1}{2} \int
 \left( \varepsilon_0 \varepsilon_\bot \mathbf{E}\cdot\mathbf{E} + 
 \varepsilon_{0}\varepsilon_{a}(\mathbf{E}\cdot\mathbf{n})^{2}\right)dV = F_0 + F_{el,a}.
 \end{equation}
-Prvi člen je neodvisen od $\mathbf{n}$, zato ni pomemben pri izračunu
-preklopa. Prosta energija
+Pri tem $F_{0}$ predstavlja del proste energije, ki je neodvisen od $\mathbf{n}$ in 
+zato ni pomemben pri izračunu preklopa. Prosta energija
 nematičnega tekočega kristala v električnem polju je tako 
 \begin{equation}
 F=F_e + F_{el} = F_0 + F_e + F_{el,a} = F_{0}+F_{e}-\int \frac{1}{2}\varepsilon_{0}\varepsilon_{a}
-(\mathbf{E}\cdot \mathbf{n})^{2}dV,
+(\mathbf{E}\cdot \mathbf{n})^{2}dV.
 \label{7.72}
 \end{equation}
- kjer $F_{0}$ predstavlja del proste energije, ki je neodvisen od $\mathbf{n}$.
 Tekoči kristal je v ravnovesju, ko je prosta energija najmanjša. Kadar je
 $\epsilon_{a}>0$, se zato skuša $\mathbf{n}$ postaviti vzporedno s
 poljem, vendar popoln zasuk onemogoča mejna urejevalna plast. 
@@ -1629,7 +1632,7 @@ Vzdolž smeri $x$ in $y$ se direktor ne spreminja, zato velja
 n_{x}\frac{dn_{x}}{dz}).
 \label{7.76}
 \end{equation}
-Površinska gostota proste energije je tako do konstante
+Prosta energija na enoto površine je tako do konstante
 \begin{align}
 F_S & =  \frac{1}{2}\int\left(K_{1}\left(\frac{dn_{z}}{dz}\right)^{2}+K_{3}(n_x^2+n_{z}^{2})
 \left(\frac{dn_{x}}{dz}\right)^{2}-
@@ -1695,9 +1698,11 @@ fazni prehod drugega reda, saj količina, ki opisuje prehod (amplituda deformaci
 zvezno preide iz vrednosti $a=0$ v končno vrednost. 
 \begin{figure}[h]
 \centering
-\def\svgwidth{80truemm} 
+\def\svgwidth{70truemm} 
 \input{slike/09_Fred.pdf_tex}
-\caption{Kvalitativno obnašanje amplitude deformacije $a$ ob Frederiksovem prehodu}
+\caption{Kvalitativno obnašanje amplitude deformacije $a$ ob Frederiksovem prehodu. Pri poljih, 
+manjših od kritičnega, so molekule tekočega kristala urejene, nad kritičnim poljem
+pa pride do deformacije v ureditvi.}
 \label{Fred}
 \end{figure}
 

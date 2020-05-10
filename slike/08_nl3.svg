@@ -13,7 +13,7 @@
    height="732.04761"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="08_nl3.svg"
    inkscape:export-filename="/home/mojca/Delo/FotonikaSkripta/MojcaNova/slike/08_nl2.png"
    inkscape:export-xdpi="599"
@@ -73,16 +73,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5151825"
-     inkscape:cx="1545.132"
-     inkscape:cy="300.17663"
+     inkscape:zoom="0.25759125"
+     inkscape:cx="1494.9878"
+     inkscape:cy="131.89012"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1687"
      inkscape:window-height="823"
-     inkscape:window-x="49"
-     inkscape:window-y="615"
+     inkscape:window-x="361"
+     inkscape:window-y="43"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -588,5 +588,32 @@
          x="2848.8413"
          y="647.91644"
          style="font-size:60.77198792px;line-height:1.25">$\omega$</tspan></text>
+    <g
+       transform="matrix(1.0589273,0,0,1.0589273,-80.260326,6.2068067)"
+       id="g1977"
+       style="stroke-width:0.8853299">
+      <text
+         id="text112"
+         y="205.12888"
+         x="-177.32266"
+         style="font-style:normal;font-weight:normal;font-size:82.97460938px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.88532978"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.88532978"
+           y="205.12888"
+           x="-177.32266"
+           id="tspan110"
+           sodipodi:role="line">a)</tspan></text>
+      <text
+         id="text112-7"
+         y="205.12888"
+         x="1248.3785"
+         style="font-style:normal;font-weight:normal;font-size:82.97460938px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.88532978"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.88532978"
+           y="205.12888"
+           x="1248.3785"
+           id="tspan110-5"
+           sodipodi:role="line">b)</tspan></text>
+    </g>
   </g>
 </svg>

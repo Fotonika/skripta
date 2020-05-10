@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '09_5CB.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{302.84055176bp}%
+    \setlength{\unitlength}{1064.77441406bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,10 +50,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.42413213)%
+  \begin{picture}(1,0.37958677)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{09_5CB.pdf}}%
-    \put(0.76965409,1.37531437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{CH$_3$}}}%
-    \put(0.10576085,0.15897165){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{C}}}%
-    \put(-0.02207803,0.0005472){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.23344002,0.36656993){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}CH$_3$\end{tabular}}}}%
+    \put(0.05641853,0.04224252){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0.02233139,-0.00000001){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}N\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{09_5CB.pdf}}%
+    \put(0.85054326,0.16941016){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{n}$\end{tabular}}}}%
+    \put(-0.05945086,0.34166835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.42466232,0.34166835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.00952427,0.44664148){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.99078371\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%
