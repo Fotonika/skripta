@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '08_sf1.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1807.08144531bp}%
+    \setlength{\unitlength}{1694.13885498bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,10 +51,14 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.47836614)%
-    \put(0,0){\includegraphics[width=\unitlength]{08_sf1.pdf}}%
-    \put(0.09052391,0.29348329){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j(r, z)$}}}%
-    \put(0.97490448,0.24506307){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
-    \put(0.02147789,0.44840365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
-    \put(0.48530305,0.46609443){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n = n(j) = n(r)$}}}%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{08_sf1.pdf}}%
+    \put(0.15271063,0.2996545){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.09052391,0.29348329){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j(r, z)$\end{tabular}}}}%
+    \put(0.97490447,0.24506308){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{08_sf1.pdf}}%
+    \put(0.02147789,0.44840365){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+    \put(0.45697007,0.46609443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n = n(j) = n(r)$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

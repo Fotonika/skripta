@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '08_opagraf.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{681.32125854bp}%
     \ifx\svgscale\undefined%
@@ -49,19 +51,21 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.68987076)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_opagraf.pdf}}%
-    \put(0.06862435,0.01728993){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.22828389,0.01821461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,2$}}}%
-    \put(0.4041331,0.01821461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,4$}}}%
-    \put(0.57814037,0.01821461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,6$}}}%
-    \put(0.75161162,0.01821461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,8$}}}%
-    \put(0.93521643,0.01728993){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.03848878,0.04851105){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.03848878,0.25030263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.03848878,0.45417453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
-    \put(0.03848878,0.65596605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
-    \put(0.32578051,0.31078421){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$|A_1|^2$}}}%
-    \put(0.43798366,0.13379789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$|A_2|^2$}}}%
-    \put(0.9752111,0.0153664){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\kappa L$}}}%
+    \put(0.0686244,0.01728998){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.22828392,0.01821466){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,2$\end{tabular}}}}%
+    \put(0.40413312,0.01821466){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,4$\end{tabular}}}}%
+    \put(0.57814038,0.01821466){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,6$\end{tabular}}}}%
+    \put(0.75161161,0.01821466){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,8$\end{tabular}}}}%
+    \put(0.93521641,0.01728998){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.03848883,0.0485111){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.03848883,0.25030266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.03848883,0.45417455){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
+    \put(0.03848883,0.65596605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
+    \put(0.35610905,0.33921721){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\left|\frac{A_1}{A_{10}}\right|^2$\end{tabular}}}}%
+    \put(0.42281945,0.1508577){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\left|\frac{A_2}{A_{20}}\right|^2$\end{tabular}}}}%
+    \put(0.97521108,0.01536645){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\kappa L$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

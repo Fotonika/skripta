@@ -15,8 +15,8 @@
    viewBox="0 0 2258.8518 1080.5582"
    id="svg3378"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="08_sf1.pdf"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="08_sf1.svg"
    inkscape:export-filename="/home/mojca/MojGitHub/skripta/slike/08_THz-shema.png"
    inkscape:export-xdpi="599"
    inkscape:export-ydpi="599">
@@ -162,19 +162,16 @@
      fit-margin-bottom="0"
      inkscape:window-width="1344"
      inkscape:window-height="929"
-     inkscape:window-x="521"
-     inkscape:window-y="55"
+     inkscape:window-x="508"
+     inkscape:window-y="42"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
        orientation="1,0"
        position="-169.7507,1397.457"
-       id="guide3001" />
-    <sodipodi:guide
-       orientation="-0.70710678,0.70710678"
-       position="1808.6327,784.64072"
-       id="guide4111" />
+       id="guide3001"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata3383">
@@ -201,7 +198,7 @@
        sodipodi:nodetypes="czzzc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:6.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:37.50000003, 37.50000003;stroke-dashoffset:0"
-       d="m 1477.9215,820.11958 -2228.92632,0"
+       d="M 1477.9215,820.11958 H -751.00482"
        id="path3803"
        inkscape:path-effect="#path-effect3805"
        inkscape:original-d="m 1477.9215,820.11958 -2228.92632,0"
@@ -360,41 +357,41 @@
        sodipodi:open="true" />
     <text
        xml:space="preserve"
-       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="510.4122"
        y="544.19513"
        id="text4113"
-       sodipodi:linespacing="125%"
        transform="translate(-919.59134,139.32634)"><tspan
          sodipodi:role="line"
          id="tspan4115"
          x="510.4122"
-         y="544.19513" /></text>
+         y="544.19513"
+         style="font-size:64px;line-height:1.25"> </tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="-549.64972"
        y="697.4613"
-       id="text4117"
-       sodipodi:linespacing="125%"><tspan
+       id="text4117"><tspan
          sodipodi:role="line"
          id="tspan4119"
          x="-549.64972"
-         y="697.4613">$j(r, z)$</tspan></text>
+         y="697.4613"
+         style="font-size:36px;line-height:1.25">$j(r, z)$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="1448.0349"
        y="806.83539"
-       id="text4121"
-       sodipodi:linespacing="125%"><tspan
+       id="text4121"><tspan
          sodipodi:role="line"
          id="tspan4123"
          x="1448.0349"
-         y="806.83539">$z$</tspan></text>
+         y="806.83539"
+         style="font-size:36px;line-height:1.25">$z$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:6.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:37.50000006, 37.50000006;stroke-dashoffset:0"
-       d="m -733.13243,1357.2716 0,-1049.40236"
+       d="M -733.13243,1357.2716 V 307.86924"
        id="path3803-2"
        inkscape:path-effect="#path-effect3805-4"
        inkscape:original-d="m -733.13243,1357.2716 0,-1049.40236"
@@ -402,25 +399,25 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="-705.61444"
        y="347.51917"
-       id="text4121-9"
-       sodipodi:linespacing="125%"><tspan
+       id="text4121-9"><tspan
          sodipodi:role="line"
          id="tspan4123-3"
          x="-705.61444"
-         y="347.51917">$r$</tspan></text>
+         y="347.51917"
+         style="font-size:36px;line-height:1.25">$r$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"
-       x="342.09784"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="278.09784"
        y="307.55832"
-       id="text4167"
-       sodipodi:linespacing="125%"><tspan
+       id="text4167"><tspan
          sodipodi:role="line"
          id="tspan4169"
-         x="342.09784"
-         y="307.55832">$n = n(j) = n(r)$</tspan></text>
+         x="278.09784"
+         y="307.55832"
+         style="font-size:36px;line-height:1.25">$n = n(j) = n(r)$</tspan></text>
   </g>
 </svg>

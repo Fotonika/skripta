@@ -113,7 +113,7 @@ k_1 = n_{1}\frac{\omega}{c_0}=\sqrt{\beta^{2}+k_{x}^{2}}
 Vidimo, da za dano vrednost $k_{x}$ zveza med valovnim številom $\beta$
 in krožno frekvenco $\omega$ ni linearna. Fazna hitrost\index{Hitrost valovanja!fazna} 
 valovanja $v_{f}=\omega/\beta$ je tako
-odvisna od krožne frekvence in pride do disperzije\index{Disperzija}. Grupna ali skupinska
+odvisna od krožne frekvence in nastopi disperzija\index{Disperzija}. Grupna ali skupinska
 hitrost\index{Hitrost valovanja!grupna} $v_{g}=d\omega/d\beta$ 
 se zaradi nelinearne zveze med $\beta$ in $\omega$ 
 razlikuje od fazne hitrosti in njena frekvenčna odvisnost 
@@ -212,6 +212,7 @@ jakosti električnega in magnetnega polja zvezni (enačbi~\ref{eq:robni-pogoji4}
 na meji ohranja amplituda jakosti električnega polja. Pri $x = a/2$ zapišemo
 \begin{equation}
 A \exp(-\kappa a/2) = C \cos(k_x a/2).
+\label{eq:rps1}
 \end{equation}
 Drugi pogoj sledi iz zveze $\nabla\times{\bf E}=i\omega\mu_{0}{\bf H}$, ki izhaja
 neposredno iz Maxwellove enačbe~(\ref{eq:Maxwell2}). Ker se na meji ohranja
@@ -220,9 +221,10 @@ odvod jakosti električnega polja $dE_y/dx$.
 Pri $x = a/2$  velja
 \begin{equation}
 -A \kappa \exp(-\kappa a/2) = -C k_x \sin(k_x a/2).
+\label{eq:rps2}
 \end{equation}
-Enačbo za $k_x$ izpeljemo iz zahteve, da sta gornja robna 
-pogoja hkrati izpolnjena. Izraza za robna pogoja delimo in dobimo sekularno 
+Enačbo za $k_x$ izpeljemo iz zahteve, da sta robna 
+pogoja  (enačbi~\ref{eq:rps1} in \ref{eq:rps2}) hkrati izpolnjena. Izraza za robna pogoja delimo in dobimo sekularno 
 enačbo za sode rešitve \index{Sekularna enačba!sodi rodovi}
 \boxeq{sekular1}{
 \frac{\kappa}{k_x} = \tan \frac{k_x a}{2}.
@@ -573,7 +575,7 @@ snopov, ki izhajajo iz laserja, v cilindrična vlakna.
 
 Na sliki~\ref{fig:HE11} je poleg osnovnega HE$_{11}$ roda še nekaj primerov višjih rodov. Opazimo, 
 da imajo vsi rodovi, razen osnovnega, v osi vlakna minimum. Poleg tega opazimo tudi podobnost med 
-oblikami posameznih rodov, do katere pride zaradi majhne razlike med lomnima količnikoma sredice in plašča
+oblikami posameznih rodov, ki je posledica majhne razlike med lomnima količnikoma sredice in plašča
 ($n_1 \approx n_2$). V takem primeru se sekularne enačbe poenostavijo, nekateri rodovi so 
 med seboj degenerirani in dajo približno enako rešitev. 
 Poleg rodov z enako obliko in različno polarizacijo so tako 
@@ -751,7 +753,7 @@ v_{g}=\left(\frac{d\beta_{mn}}{d\omega}\right)^{-1}=\frac{c_{0}}{n_{1}}
 \end{equation}
 in torej enaka za vse rodove. To je pomembna značilnost vlakna s paraboličnim profilom
 lomnega količnika. V dejanskem vlaknu je seveda taka odvisnost mogoča
-le v omejenem območju sredice, zato je tudi gornja analiza le približna
+le v omejenem območju sredice, zato je tudi opisani pristop le približen
 in velja dobro za tiste rodove, ki se ne raztezajo dosti izven sredice.
 
 Neodvisnost grupne hitrosti od roda je praktično zelo pomembna. 
@@ -841,11 +843,10 @@ okoli $10~\si{\mega\hertz}$. Čeprav lahko disperzijo zmanjšamo
 s paraboličnim profilom lomnega količnika, so večrodovna vlakna za prenos podatkov na dolge 
 razdalje praktično neuporabna.
 \begin{remark}
- Med rodovno disperzijo uvrščamo tudi polarizacijsko disperzijo,\index{Disperzija!polarizacijska} 
- do katere pride zaradi različnih hitrosti valovanj z različnima polarizacijama. 
+ Med rodovno disperzijo uvrščamo tudi polarizacijsko disperzijo.\index{Disperzija!polarizacijska} 
  V idealnem cilindričnem vlaknu potujeta obe polarizaciji
- z enako hitrostjo. V realnem vlaknu  
- pride na nečistočah in asimetrijah v vlaknu do različnih hitrosti za različni polarizaciji. 
+ z enako hitrostjo. V realnem vlaknu pa imata valovanji z različnima polarizacijama zaradi
+ nečistoč in asimetrij v vlaknu različni hitrosti. 
  Ker so nečistoče slučajno in neodvisno razporejene, tako disperzijo zelo težko odpravimo.
 \end{remark}
 
@@ -899,7 +900,7 @@ disperzijo v vlaknu.
 V optičnem vodniku velja nelinearna zveza med prečno ($k_x$) in vzdolžno ($\beta$)
 komponento valovnega vektorja (enačba~\ref{nelinfib}). Vrednost $k_x$ izračunamo numerično, 
 pri čemer je rešitev odvisna od frekvence svetlobe. Tudi v cilindričnih vlaknih je valovno število 
-$\beta$ nelinearna funkcija $\omega$, zato pride do disperzije. Izhajamo iz zveze 
+$\beta$ nelinearna funkcija $\omega$, zato se pojavi disperzija. Izhajamo iz zveze 
 (enačba~\ref{dispračun})
 \begin{equation}
 \tau = \Delta \omega\, L\, \frac{d^2 \beta}{d \omega^2}.
@@ -1226,7 +1227,7 @@ G\'erard Mourou prejela Nobelovo nagrado.}
 \index{Izgube v optičnih vlaknih}
 Pri prenosu informacij z optičnimi vlakni je poleg disperzije, ki signal popači,
 treba upoštevati tudi izgube, ki signal oslabijo. 
-Do izgub pride predvsem zaradi absorpcije svetlobe v vlaknu,\index{Absorpcija}
+Izgube so posledica predvsem absorpcije svetlobe v vlaknu,\index{Absorpcija}
 Rayleighovega\index{Rayleighovo sipanje} sipanja na fluktuacijah gostote, 
 sipanja na nečistočah in upognjenosti vlakna. Do izgub prihaja tudi na stikih 
 med vlakni. Za prenos na dolge
@@ -1267,7 +1268,7 @@ Pri kratkih valovnih dolžinah je absorpcija velika zaradi elektronskih prehodov
 v steklu (vijolična črta).\index{Ultravijolično valovanje} 
 Širina reže za SiO$_2$\index{SiO$_2$} je namreč okoli $8,9$~eV, 
 kar ustreza valovni dolžini\index{Infrardeče valovanje}
-okoli $140~\si{\nano\meter}$. Pri velikih valovnih dolžinah pride do absorpcije zaradi
+okoli $140~\si{\nano\meter}$. Pri velikih valovnih dolžinah je absorpcija posledica
 vibracijskih prehodov (črna črta). Čeprav so ti prehodi pri nižjih frekvencah, 
 so vrhovi zelo široki in sežejo do okoli $1500~\si{\nano\meter}$. 
 Absorpcija na nečistočah lahko ob pazljivi izdelavi postane skoraj v celotnem 
@@ -1374,7 +1375,7 @@ Funkcija $\psi$ zadošča enačbi
 n^{2}\left(r\right)-\frac{m^{2}}{r^{2}}\right)\psi=0.
 \label{9.33}
 \end{equation}
-Rešitve gornje enačbe za $\psi$ so kombinacije Besslovih funkcij reda $m$, kar
+Rešitve za $\psi$ so kombinacije Besslovih funkcij reda $m$, kar
 zaradi velikosti $m$ ni posebno zanimivo. 
 
 Dosti več bomo izvedeli, če se problema lotimo drugače. Namesto $r$
@@ -1403,7 +1404,7 @@ in dobimo enačbo
 + \frac{2\beta^{2}}{R}\,x\,\zeta=0.
 \label{9.35a}
 \end{equation}
-Gornja enačba je podobna enačbi za izračun lastnih rodov v planparalelnem
+Enačba je podobna enačbi za izračun lastnih rodov v planparalelnem
 vodniku (\ref{9.3a}), pri čemer se $\beta^2$ poveča za $1/4R^2$. Poleg tega je prisoten
 člen, ki je linearen v $x$. Če ponovno naredimo primerjavo
 med lastnimi načini v valovnem vodniku in stanji delca, ujetega v končno potencialno jamo, 
@@ -1490,7 +1491,7 @@ označen z indeksoma $n$ in $m$, zapišemo prekrivalni integral kot
 {\left(\int |E(x, y)|^2 dx\,dy \right) \left(\int |E_{n,m}(x, y)|^2 
 dx\, dy \right)}.
 }
-Točen račun gornjega integrala je na splošno precej zapleten, saj vsebuje integrale
+Točen račun prekrivalnega integrala je na splošno precej zapleten, saj vsebuje integrale
 Besslovih funkcij. V primeru osnovnega roda račun močno poenostavimo, tako da 
 prečno odvisnost polja nadomestimo z Gaussovim profilom z ustreznim 
 efektivnim polmerom (po enačbi~\ref{Marcuse}). 
@@ -1572,13 +1573,16 @@ Izračunajmo za primer sklopitveni faktor in izgube na spoju dveh vlaken z rahlo
 različnima polmeroma. Po Marcusejevi formuli najprej določimo efektivna polmera Gaussovih snopov
 v obeh vlaknih $w_1$ in $w_2$. Prečni profil v vlaknih je potem\index{Marcusejeva formula}
 \begin{equation}
+\label{eq:pripsi1}
 \psi_{1} = A_{1} e^{-r^2/w_{1}^2}
 \end{equation}
 in 
 \begin{equation}
+\label{eq:pripsi2}
 \psi_{2} = A_{2} e^{-r^2/w_{2}^2}.
 \end{equation}
-Vstavimo gornja nastavka v prekrivalni integral~(enačba~\ref{10:overlap}) in dobimo
+Vstavimo nastavka (enačbi~\ref{eq:pripsi1} in \ref{eq:pripsi2}) 
+v prekrivalni integral~(enačba~\ref{10:overlap}) in dobimo
 \begin{equation}
 \eta = \frac{|\int A_1 \, e^{-r^2/w_1^2}\, A_2\, e^{-r^2/w_2^2}\, 2 \pi\, r\, dr|^2}
 {\left(\int A_1^2 \,e^{-2r^2/w_1^2} \, 2 \pi \, r\, dr \right) \left(\int A_2^2\, 
@@ -1592,8 +1596,8 @@ od koder sledi
 \end{equation}
 Kadar sta polmera vlaken enaka, je prekrivanje popolno in $\eta = 1$. Z naraščajočo razliko
 med polmeroma vrednost $\eta$ pojema. Pri tem
-ni pomembno, ali ima večji polmer prvo ali drugo vlakno, v obeh primerih pride do izgube 
-signala. Intuitivno razumemo, da se signal izgubi pri prehodu iz večjega v manjše vlakno, 
+ni pomembno, ali ima večji polmer prvo ali drugo vlakno, v obeh primerih se signal oslabi. 
+Intuitivno razumemo, da se signal izgubi pri prehodu iz večjega v manjše vlakno, 
 vendar je obratno tudi res, saj se v širšem končnem vlaknu poleg osnovnega vzbudijo
 tudi višji rodovi. 
 
@@ -1615,8 +1619,8 @@ za $\Delta$, enak
 Ob prenosu signala po optičnem valovodu večina energijskega toka potuje po sredici,
 vendar energijski tok seže tudi izven nje, v plašč (enačba~\ref{confinement}). 
 Če sta dva vzporedna valovoda dovolj blizu, da\index{Evanescentno polje}
-se evanescentni električni polji enega in drugega vodnika v plašču prekrivata, pride do 
-sklopitve vodnikov in prenosa energijskega toka iz enega vodnika v drugega 
+se evanescentni električni polji enega in drugega vodnika v plašču prekrivata, se vodnika 
+sklopita in energijski tok se prenese iz enega vodnika v drugega 
 (slika~\ref{fig:fcoupler}). 
 \begin{figure}[h]
 \centering
@@ -1760,7 +1764,7 @@ in manjše odstopanje $\Delta \beta$ vodita v večji prenos svetlobnega toka v d
 \def\svgwidth{140truemm} 
 \input{slike/10_Coupler.pdf_tex} 
 \caption{Prenos svetlobnega toka med dvema sklopljenima vodnikoma. V prvem primeru (a) sta
-vodnika različna, v drugem primeru (b) sta vodnika enaka in pride do popolnega prenosa.}
+vodnika različna, v drugem primeru (b) sta vodnika enaka in prenos je popoln.}
 \label{fig:foscil}
 \end{figure}
 
@@ -1773,7 +1777,7 @@ P_1 &= P_0 \cos^2 (\gamma z) \quad \mathrm{in}\\
 P_2 &= P_0 \sin^2 (\gamma z).
 }
 Na ta način lahko v drugo vlakno sklopimo poljuben delež vpadne svetlobe. 
-Do celotnega prenosa svetlobnega toka v drugo vlakno pride pri dolžini sklopitve $L = \pi/2 \gamma$. 
+Celotni prenosa svetlobnega toka v drugo vlakno nastopi pri dolžini sklopitve $L = \pi/2 \gamma$. 
 Pri dolžini $L = \pi/4 \gamma$ sklopimo eno polovico gostote vpadnega svetlobnega toka in govorimo o 3-dB sklopitvi. \index{Sklopitev med valovodi!3-dB sklopitev}
 
 \begin{remark}
@@ -1789,7 +1793,7 @@ Pri dolžini $L = \pi/4 \gamma$ sklopimo eno polovico gostote vpadnega svetlobne
 Sprememba lomnega količnika sredice ali plašča vlakna povzroči spremembo
 valovnega števila $\beta$ za izbran rod. V enorodovnih vlaknih je to
 mogoče izkoristiti za izdelavo senzorjev, na primer temperature ali
-tlaka. Spremembo valovnega števila, do katere pride zaradi zunanjih vplivov,
+tlaka. Spremembo valovnega števila, ki je posledica zunanjih vplivov,
 izmerimo preko spremembe faze valovanja na izhodu iz vlakna
 z ustrezno sestavljenim interferometrom. Ker je dolžina vlakna lahko
 velika (v nekaj centimetrov velik tulec lahko brez težav navijemo
@@ -1860,8 +1864,8 @@ ampak tudi delni odboj.
 To je le nekoliko druga oblika odboja na (zvezni ali ostri) meji 
 dveh dielektrikov ali, splošneje, odboja valovanja na območju,
 kjer se spremeni fazna hitrost valovanja.
-Amplitudo odbitega valovanja, do katerega pride na območju vlakna, kjer se 
-spreminja $\beta$, najpreprosteje dobimo z uporabo
+Amplitudo odbitega valovanja, ki se odbije na območju spreminjajočega $\beta$, 
+najpreprosteje dobimo z uporabo
 enačbe za odboj na meji dveh dielektrikov pri pravokotnem
 vpadu. Odbita amplituda je tedaj (enačba~\ref{eq:Fresnel1})
 \begin{equation}
@@ -1903,8 +1907,8 @@ delež intenzitete odbitega valovanja
 \end{equation}
 Odbojnost je največja, kadar je $L \ll 1/\beta$,
 torej kadar je sprememba $\beta$ ostra stopnica. Čim počasnejša je
-sprememba, tem manj je odboja. Kadar je $\sin\beta L=0$, pride do destruktivne 
-interference vseh delnih odbojev in odbojnost je enaka nič.
+sprememba, tem manj je odboja. Kadar je $\sin\beta L=0$, vsi delni 
+odboji destruktivno interferirajo in odbojnost je enaka nič.
 
 \begin{definition}
 Naj se valovno število ob prehodu spreminja kot funkcija erf

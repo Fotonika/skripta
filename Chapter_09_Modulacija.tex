@@ -25,7 +25,7 @@ skupaj kot frekvenčno oziroma fazno modulacijo\index{Elektro-optična modulacij
 
 Delovanje optičnih modulatorjev temelji na različnih pojavih. V tem poglavju bomo 
 podrobneje spoznali dva načina, to sta elektro-optični in elasto-optični pojav. 
-Pri prvem pride do spremembe lomnega količnika snovi pod vplivom zunanjega električnega polja in
+Pri prvem se lomni količnih spremeni pod vplivom zunanjega električnega polja in
 pri drugem zaradi mehanske deformacije. Kadar mehansko deformacijo povzroči zvočno valovanje, 
 takim modulatorjem pravimo akusto-optični. Na koncu bomo spoznali še zelo pomemben 
 primer elektro-optičnih modulatorjev na osnovi tekočih kristalov.
@@ -284,9 +284,10 @@ novima lastnima količnikoma, ki ju izrazimo kot\index{Lomni količnik}
 \begin{equation}
 \frac{1}{n_{x'}^2} = \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad 
 \frac{1}{n_{y'}^2} = \frac{1}{n_o^2}- r_{63}E_z. 
+\label{eq:eonxnyr}
 \end{equation}
 Za vsa eksperimentalno dosegljiva polja velja $r_{63}E\ll1/n_o^2$ in 
-gornja izraza lahko razvijemo
+enačbi~(\ref{eq:eonxnyr}) lahko razvijemo
 \begin{equation}
 n_{x'} = \sqrt{\frac{n_o^2}{1+ n_o^2 r_{63}E_z}} \approx n_o \sqrt{1- n_o^2 r_{63}E_z} \approx
 n_o - \frac{1}{2}n_o^3 r_{63}E_z.
@@ -300,7 +301,7 @@ Svetloba različnih lastnih polarizacij ob priključenem zunanjem polju potuje v
 osi $z$ z različnima hitrostma. 
 Kadar polarizacija vpadnega valovanja ne sovpada z novima lastnima osema $x'$ ali $y'$, je 
 svetloba po preletu kristala na splošno eliptično polarizirana. Ko svetloba
-prepotuje dolžino kristala $L$, pride med lastnima polarizacijama do fazne razlike
+prepotuje dolžino kristala $L$, med lastnima polarizacijama nastopi fazna razlika
 \begin{equation}
 \Delta \phi = k_0 n_{y'} L - k_0 n_{x'} L = \frac{\omega}{c_0}L 
 n_o^3 r_{63}E_z = \frac{\omega}{c_0} n_o^3 r_{63}U,
@@ -411,8 +412,8 @@ naravne dvolomnosti odšteje, zaradi modulacijske napetosti pa sešteje.
 \label{chap:ampmod}
 \index{Elektro-optična modulacija!amplitudna}
 Poglejmo, kako lahko elektro-optični pojav izkoristimo za modulacijo
-amplitude svetlobnega snopa. Pod vplivom polja pride v kristalu do
-faznega zamika med polarizacijama, ki je sorazmeren napetosti 
+amplitude svetlobnega snopa. Pod vplivom polja se v kristalu pojavi
+fazni zamik med polarizacijama, ki je sorazmeren napetosti 
 (enačbi~\ref{phiAM} in \ref{fazaTM}).
 Če za tak kristal postavimo analizator, lahko z napetostjo spreminjamo 
 moč prepuščene svetlobe -- amplitudno moduliramo signal.
@@ -426,8 +427,8 @@ valovanje zato razstavimo na komponenti $x'$ in $y'$
 \begin{equation}
 \mathbf{E}_0 = E_0\, \mathbf{e}_y = \frac{E_0}{\sqrt{2}}\left(\mathbf{e}_{x'} + \mathbf{e}_{y'}\right).
 \end{equation}
-Po kristalu se komponenti širita z različnima hitrostma, zato pride med njima do 
-fazne razlike $\Delta \phi$ 
+Po kristalu se komponenti širita z različnima hitrostma, zato se med njima pojavi 
+fazna razlika $\Delta \phi$ 
 (enačba~\ref{phiAM}). Ob izstopu iz kristala je 
 \begin{equation}
 \mathbf{E}_1 = \frac{E_0}{\sqrt{2}}\left(e^{ik_0 n_{x'}L}\mathbf{e}_{x'} + 
@@ -461,8 +462,8 @@ T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 =
 \input{slike/09_AMT.pdf_tex}
 \caption{Prepustnost amplitudnega modulatorja $T$ v odvisnosti od faznega zamika $\Delta \phi$, 
 sorazmernega priključeni napetosti (rdeča črta). Če pred vzorec dodamo ploščico $\lambda/4$, 
-pride do faznega zamika $\pi/2$ in odvisnost prepustnosti od priključene napetosti
-je približno linearna (modra črta).}
+se faza zamakne za $\pi/2$ in odvisnost prepustnosti od priključene napetosti
+postane približno linearna (modra črta).}
 \label{fig:amt}
 \end{figure}
 
@@ -546,7 +547,7 @@ Vstavimo izraz v enačbo~(\ref{fmphi}) in zapišemo fazo izhodnega valovanja
 \end{equation}
 V primeru linearno spreminjajoče se napetosti smo na tem mestu fazo odvajali in dobili krožno frekvenco, ki 
 je bila konstantna. V tem primeru z odvajanjem dobimo krožno frekvenco, ki se spreminja s časom. Zato
-se računa lotimo drugače. Konstantni člen v gornjem izrazu, ki predstavlja le konstantni fazni premik, 
+se računa lotimo drugače. Konstantni člen, ki predstavlja le konstantni fazni premik, 
 lahko izpustimo in zapišemo električno poljsko jakost prepuščenega valovanja  
 \begin{equation}
 E = E_0 \cos\left( \omega_0 t + \frac{\omega_0 n_o^3 r_{63}}{2c_0} U_0\sin(\omega_{m}t)\right)
@@ -828,7 +829,7 @@ v katerem je vzbujeno zvočno valovanje s frekvenco $\Omega/2\pi = 50~\si{\mega\
 pripadajočo valovno dolžino $\Lambda = 0,1~\si{\milli\metre}$, je mejna debelina $d_c \sim 6~\si{mm}$.
 \end{remark}
 
-Če je zvočno valovanje potujoče, kar smo v gornji obravnavi že privzeli
+Če je zvočno valovanje potujoče, kar smo v privzeli že 
 s tem, da smo mu pripisali natanko določen valovni vektor $\mathbf{q}$,
 se spremeni tudi frekvenca sipanega vala zaradi Dopplerjevega premika
 pri odboju na zvočnem valovanju, ki potuje s hitrostjo $v_{z}$. Upoštevati
@@ -923,8 +924,8 @@ zapišemo kot  \index{Dielektričnost}
 \tilde{\varepsilon} -\tilde{\epsilon}^{2}pS_{0}\sin(qx-\Omega t).
 \label{7.33}
 \end{equation}
-Zaradi spremembe dielektričnosti pride do pojava
-dodatne električne polarizacije $\delta P$\index{Električna polarizacija}
+Zaradi spremembe dielektričnosti se pojavi dodatna električna polarizacija 
+$\delta P$\index{Električna polarizacija}
 \begin{equation}
 \delta P = \varepsilon_0 \delta \varepsilon E = - \varepsilon_0 
 \tilde{\varepsilon}^2 p S_0 \sin(qx-\Omega t)E.
@@ -1059,7 +1060,7 @@ sledi\index{Braggov uklon}
 \begin{equation}
 A_{0}'+\xi A_{1}  =  0 \qquad \mathrm{in} \qquad A_{1}'-\xi A_{0} =  0.
 \end{equation}
-Ob začetnih pogojih $A_{0}(0)=A_{0}$ in $A_{1}(0)=0$ sta rešitvi gornjih enačb
+Ob začetnih pogojih $A_{0}(0)=A_{0}$ in $A_{1}(0)=0$ sta rešitvi
 \begin{equation}
 A_{0}(d) = A_{0}\cos (\xi d) \qquad \mathrm{in} \qquad A_{1}(d) = A_{0}\sin (\xi d).
 \end{equation}
@@ -1079,7 +1080,7 @@ je izpolnjen Braggov pogoj.}
 \label{s7.10}
 \end{figure}
 
-V gornja izraza vstavimo še parameter $\xi$, ki je podan z enačbo~(\ref{7.38}).
+Vstavimo še parameter $\xi$, ki je podan z enačbo~(\ref{7.38}).
 Razmerje med intenziteto uklonjenega in vpadnega snopa je tako
 \boxeq{7.48}{
 \frac{I_{1}}{I_{0}}=\sin^{2}\left(\frac{\pi n_{0}^{3}pS_{0}d}{2\lambda\cos\vartheta}\right),
@@ -1120,7 +1121,7 @@ Poglejmo primer. V kremenu z gostoto $\varrho=2200~\si{\kilo\gram/\metre^3}$
 je hitrost zvoka $v_{z}=6000~\si{\metre/\second}$,
 $n_0=1,46$ in $p=0,2$. To da $M=8\cdot10^{-16}~\si{\metre^2/\watt}$.
 Pri gostoti zvočnega toka $10~\si{\watt/\centi\metre^2}$ in valovni dolžini svetlobe 
-$633~\si{\nano\metre}$ pride do popolnega prenosa moči v uklonjeni snop pri 
+$633~\si{\nano\metre}$ nastopi popoln prenos moči v uklonjeni snop pri 
 debelini $d \sim 3~\si{\centi\metre}$. Upoštevana gostota zvočnega toka je kar velika
 in je ni prav lahko doseči, zato so uklonski izkoristki navadno nekaj manjši od 1.
 
@@ -1702,7 +1703,7 @@ zvezno preide iz vrednosti $a=0$ v končno vrednost.
 \input{slike/09_Fred.pdf_tex}
 \caption{Kvalitativno obnašanje amplitude deformacije $a$ ob Frederiksovem prehodu. Pri poljih, 
 manjših od kritičnega, so molekule tekočega kristala urejene, nad kritičnim poljem
-pa pride do deformacije v ureditvi.}
+pa se ureditev deformira.}
 \label{Fred}
 \end{figure}
 

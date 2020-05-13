@@ -206,8 +206,8 @@ Vir: NASA/JPL-Caltech.}
 Termočlen je sestavljen iz dveh različnih kovinskih vodnikov\index{Termočlen}. 
 En spoj vodnikov počrnimo, drugega, 
 referenčnega, zaščitimo pred svetlobo. Zaradi vpadne svetlobe se počrnjeni spoj 
-segreje, med obema spojema pride do temperaturne razlike in zaradi termoelektričnega 
-pojava do električne napetosti, ki jo lahko merimo. Električna prevodnost
+segreje, med obema spojema se pojavi temperaturna razlika in zaradi termoelektričnega 
+pojava električna napetost, ki jo lahko merimo. Električna prevodnost
 vodnikov mora biti čim večja, njihova toplotna prevodnost pa čim manjša. Odzivni čas termočlenov je 
 $\tau \sim 10$--$20~\si{\milli\second}$ in občutljivost $\mathcal{R} \sim 10~\si{\volt/\watt}$.
 Ker so napetosti, ki se pojavijo med stikoma, razmeroma majhne 
@@ -661,16 +661,16 @@ Takrat pravimo, da smo napetost priključili v prevodni smeri.\index{Fotodioda!p
 Ker lahko energijske pasove razumemo kot potencialno energijo elektronov, 
 s priključeno pozitivno napetostjo zmanjšamo razliko potencialnih energij 
 in elektroni lažje prehajajo iz dela $n$ v del $p$ . 
-Zaradi zmanjšanja potencialne razlike med stranjo $p$ in $n$ za $e_0U$ pride do povečanja toka 
-večinskih elektronov iz $n$ v $p$ za faktor $\exp(e_0 U/kT)$, tok manjšinskih elektronov
+Zaradi zmanjšanja potencialne razlike med stranjo $p$ in $n$ za $e_0U$ se tok 
+večinskih elektronov iz $n$ v $p$ poveča za faktor $\exp(e_0 U/kT)$, tok manjšinskih elektronov
 iz $p$ v $n$ pa ostaja enak, saj ni odvisen od globine potencialnega skoka. 
 \begin{figure}[h]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/11_PNU.pdf_tex}
 \caption{Shema energijskih nivojev na spoju $p$-$n$, ko na spoj priključimo napetost
-v prevodni smeri (a) in v zaporni smeri (b). Če v izpraznjenem sloju pride do absorpcije
-fotona in nastanka para elektron--vrzel, elektron ``zdrsi'' proti strani $n$ in vrzel proti
+v prevodni smeri (a) in v zaporni smeri (b). Če se v izpraznjenem sloju foton absorbira 
+in nastane par elektron--vrzel, elektron ``zdrsi'' proti strani $n$ in vrzel proti
 strani $p$ (c).}
 \label{11_PNU}
 \end{figure}
@@ -725,8 +725,8 @@ Ko na polprevodnik vpade foton, ki ima energijo večjo od širine reže,
 lahko vzbudi elektron iz valenčnega v prevodni pas in nastane par elektron--vrzel. 
 Če se to zgodi v izpraznjenem sloju spoja $p$-$n$, steče elektron pod vplivom 
 električnega polja na stran $n$ in vrzel na stran $p$ (slika~\ref{11_PNU}\,c). 
-Premik nosilcev naboja, do katerega pride zaradi absorpcije fotona, torej vedno
-povzroči pojav električnega toka v zaporni smeri. \index{Karakteristika fotodiode}
+Premik nosilcev naboja zaradi absorpcije fotona torej vedno
+povzroči električni tok v zaporni smeri. \index{Karakteristika fotodiode}
 Njegova velikost je odvisna od moči vpadne svetlobe in jo zapišemo kot 
 (enačba~\ref{11:eta})
 \boxeq{11:if}{
@@ -770,9 +770,10 @@ katere vrednost lahko izračunamo iz karakteristične enačbe diode (enačba~\re
 če upoštevamo, da je v nesklenjenem tokokrogu $I=0$. Sledi
 \begin{equation}
 U = \frac{kT}{e_0}\ln \left(1+ \frac{I_f}{I_0}\right).
+\label{eq:fvd}
 \end{equation}
 Pri večji intenziteti vpadne svetlobe, ko se karakteristična krivulja 
-pomika navzdol (slika~\ref{11_IU}), se rešitev gornje enačbe po abscisi premika proti desni.
+pomika navzdol (slika~\ref{11_IU}), se rešitev enačbe~(\ref{eq:fvd}) po abscisi premika proti desni.
 Večja intenziteta vpadne svetlobe pomeni večjo 
 pozitivno napetost na diodi, zato tudi odzivnost v tem primeru merimo v $\si{\volt}/\si{\watt}$.
 Pri dovolj velikih vpadnih močeh je zveza med vpadno močjo in fotonapetostjo
@@ -889,9 +890,9 @@ nismo narisali popolne slike.\index{Fotodioda!plazovna}
 Pri velikih negativnih napetostih se namreč karakteristika znatno spremeni (slika~\ref{11_plaz}), 
 česar ne moremo popisati s preprosto enačbo. Pri zapornih napetostih, ki za nekajkrat presegajo 
 širino energijske reže (tipično $100$--$500~\si{\volt}$), \index{Karakteristika fotodiode}
-pride do naglega povečanja električnega toka. Podobno velja ob vpadu in absorpciji fotona. 
+se električni tok naglo poveča. Podobno velja ob vpadu in absorpciji fotona. 
 Mobilni nosilci naboja se namreč v električnem polju tako pospešijo, da s trki ustvarjajo nove pare 
-elektron--vrzel. Novonastali pari  ustvarjajo nove pare in pride do ``plazu'', podobno kot v 
+elektron--vrzel. Novonastali pari  ustvarjajo nove pare in pojavi se ``plaz'', podobno kot v 
 fotopomnoževalki. En vpadni foton sproži cel plaz elektronov, zato pravimo, da je plazovna dioda
 fotodioda z notranjim ojačenjem. \index{Notranje ojačenje}Pri tem je faktor ojačenja tipično $30$--$300$ 
 in plazovne fotodiode lahko 
@@ -1048,8 +1049,8 @@ Pod določeno vrednostjo postane velikost signala primerljiva s šumom in signal
 
 Na podlagi fizikalnega izvora ločimo več vrst šuma:
 \begin{enumerate}
-\item šum štetja, do katerega pride zaradi diskretne (kvantne) narave fotonov,
-\item termični šum, do katerega pride zaradi termičnih fluktuacij,
+\item šum štetja, ki je posledica diskretne (kvantne) narave fotonov,
+\item termični šum, ki je posledica termičnih fluktuacij,
 \item šum temnega toka, ki predstavlja spontani nastanek para elektron--vrzel oziroma spontano
 emisijo elektronov in
 \item šum sevanja ozadja.\index{Šum!štetja}\index{Šum!termični}\index{Šum!temnega toka}\index{Šum!sevanja ozadja}
@@ -1179,7 +1180,7 @@ ki je pojav opazoval, \index{Johnsonov šum|see{Šum, termični}}
 \index{Nyquistov šum|see{Šum, termični}}
 \index{Johnson-Nyquistov šum|see{Šum, termični}}
 Nyquist pa je kmalu za eksperimentom podal teoretično razlago.} šum. 
-Do njega pride zaradi termično vzbujenega naključnega gibanja elektronov. Premiki elektronov
+Je posledica termično vzbujenega naključnega gibanja elektronov. Premiki elektronov
 na danem uporniku povzročijo majhne kratkotrajne 
 fluktuacije v napetosti. V povprečju napetost sicer ostaja enaka nič, njena varianca pa je od 
 nič različna. 
@@ -1206,8 +1207,7 @@ Velja tudi zveza
 \begin{equation}
 \overline{W} = \overline{P}\tau,
 \end{equation}
-pri čemer je $\tau$ odzivni čas vezja in je enak $\tau = RC$. Iz zgornjih 
-enačb sledi 
+pri čemer je $\tau$ odzivni čas vezja in je enak $\tau = RC$. Sledi 
 \begin{equation}
 \overline{(\Delta I)^2} = \frac{kT}{R^2C}.
 \end{equation}
@@ -1232,7 +1232,7 @@ odpraviti.
 Natančna opazovanja pokažejo, da na večini kvantnih detektorjev zaznamo 
 nek majhen izhodni signal tudi v odsotnosti vpadne svetlobe. 
 \index{Šum!temnega toka}
-\index{Temni tok}To je tako imenovani temni tok, do katerega pride zaradi
+\index{Temni tok}To je tako imenovani temni tok, ki je posledica
 spontanih nastankov para elektron--vrzel ali spontane emisije elektronov. 
 Izraza za temni tok tukaj ne bomo 
 izpeljevali\footnote{Glej npr. N. W. Ashcroft in N. D. Mermin, {\it Solid State Physics}.},
@@ -1254,7 +1254,7 @@ vlogo ima tudi temperatura, saj v temnem toku nastopa v eksponentu. S hlajenjem 
 šum temnega toka znatno zmanjšamo. 
 
 \subsection*{Šum zaradi sevanja ozadja}
-Kot že ime pove, pride do te vrste šuma zaradi sevanja ozadja pri končni temperaturi.
+Kot že ime pove, je ta vrsta šuma posledica sevanja ozadja pri končni temperaturi.
 \index{Šum!sevanja ozadja}
 Okolico obravnavamo kot črna telesa\index{Sevanje črnega telesa} 
 in spekter njihovega sevanja opisuje Planckov \index{Planckov zakon}
@@ -1277,12 +1277,12 @@ kar prišteje signalu. Šum štetja (enačba~\ref{11:sum}) se tako poveča na
 pri čemer $P_o$ označuje moč vpadne svetlobe iz ozadja.
 
 \begin{remark}
- V detektorjih, v katerih pride do notranjega ojačenja
+ V detektorjih, v katerih z notranjim ojačenjem
  \index{Notranje ojačenje}(npr. v fotopomnoževalki
  \index{Fotopomnoževalka} ali plazovni fotodiodi),
  \index{Fotodioda!plazovna}
  se skupaj s signalom ojači tudi šum. Če se signal ojači za faktor $G$, se za isti faktor
- povečajo tudi šum štetja, šum ozadja in šum temnega toka. Poleg tega pride do ojačenja šuma
+ povečajo tudi šum štetja, šum ozadja in šum temnega toka. Poleg tega se šum ojači
  zaradi naključnega večanja števila elektronov med pomnoževanjem signala. V tem primeru nastopi
  še dodaten faktor, večji od ena, ki je odvisen od snovi, strukture in ojačenja fotodetektorja. 
  Tipična vrednost je okoli $1,5$--$2$, vendar lahko doseže vrednosti tudi nad $10$.
@@ -1362,7 +1362,7 @@ dosegajo silicijeve fotodiode. \index{Silicij}
 Heterodinska detekcija (pogosto imenovana tudi koherentna detekcija) je poseben način
 \index{Heterodinska detekcija}
 detekcije svetlobe, ki omogoča zaznavanje zelo šibkih signalov. Za razliko od direktne detekcije,
-ki smo jo obravnavali do zdaj in pri kateri pride do neposredne zaznave vpadnega fotona, 
+ki smo jo obravnavali do zdaj in pri kateri neposredno zaznavamo vpadne fotone, 
 gre pri heterodinski detekciji za zaznavanje valovanja z amplitudo in fazo. Pri takem 
 pristopu detektor svetlobe osvetlimo hkrati s signalom in z močno referenčno svetlobo, 
 katere frekvenca se le malo razlikuje od frekvence signala (slika~\ref{11_Hetero}). 

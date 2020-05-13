@@ -70,7 +70,7 @@ prenese z vzbujenih helijevih atomov na atome neona, ki s tem preidejo v
 že omenjeni vzbujeni stanji. Helijevi atomi se po trku vrnejo v osnovno stanje, od koder
 jih ponovno vzbudimo. Prenos energije z atomov helija na atome neona s trki je 
 zelo učinkovit, zato zasedenost vzbujenih neonovih stanj hitro naraste. Ko preseže 
-zasedenost nižjih vzbujenih stanj, pride do obrnjene zasedenosti. 
+zasedenost nižjih vzbujenih stanj, dosežemo obrnjeno zasedenost. 
 
 \begin{figure}[h]
 \centering
@@ -529,8 +529,8 @@ Livermore, Kalifornija).
 Okoli $1~\si{\nano\second}$ dolg sunek iz osnovnega laserja razdelijo na 192
 ojačevalnih vej, sunek postopoma ojačujejo, nato ga na koncu spet združijo.
 Končna energija sunka je tako nad $\sim 1~\si{\mega\joule}$. Z njim z vseh strani posvetijo na
-kroglico iz devterija in tritija, ki se dovolj segreje in stisne, da pride
-do njunega zlivanja. Vršna moč laserskega sunka je okoli $10^{15}$~W. 
+kroglico iz devterija in tritija, ki se dovolj segreje in stisne, da pride do 
+njunega zlivanja. Vršna moč laserskega sunka je okoli $10^{15}$~W. 
 Če laserski snop zberemo na površino 1~mm$^2$, je v gorišču jakost električnega polja
 okoli $5 \times 10^{11}$~V/m, kar je približno enako električnemu polju v vodikovem atomu.
 \end{remark}
@@ -721,8 +721,8 @@ Gostota obrnjene zasedenosti $\Delta N/V$ & $ \sim 10^{24}/\si{\metre}^3$ \\ \hl
  molekul, ki prevzamejo preostanek energije. Signal, ki se pri prehodu ojačuje, 
  ostaja pretežno ujet v vlakno z Braggovimi periodičnimi strukturami na koncih.
  Zavedati se moramo razlike med navadnim laserjem, ki deluje zaradi vzpostavljene
- obrnjene zasedenosti, in Ramanskim laserjem, v katerem pride do ojačenja sipane
- svetlobe.\index{Laser!Ramanski}\index{Ramanovo sipanje!stimulirano}
+ obrnjene zasedenosti, in Ramanskim laserjem, v katerem se ojači sipana
+ svetloba.\index{Laser!Ramanski}\index{Ramanovo sipanje!stimulirano}
 \end{remark}
 
 \section{Polprevodniški laserji}
@@ -804,7 +804,8 @@ E_v = - \frac{\hslash^2 k^2}{2m_v}.
 \label{pp:Ev}
 \eeq
 Zapišemo še gostoti stanj na energijski interval za prevodni in valenčni pas. Izhajamo iz zveze
-$\varrho(k) dk = k^2dk /\pi^2$ (enačba~\ref{4.3}) in z upoštevanjem gornjih zvez dobimo
+$\varrho(k) dk = k^2dk /\pi^2$ (enačba~\ref{4.3}) in z upoštevanjem 
+enačb~(\ref{pp:Ec} in \ref{pp:Ev}) dobimo
 \beq
 \varrho_p(E) = \frac{1}{2\pi^2}\left(\frac{2m_p}{\hslash^2} \right)^{3/2} \sqrt{E-E_g}
 \qquad \mathrm{in}\qquad
@@ -842,7 +843,7 @@ stanja uporabimo dve Fermijevi energiji $F_v$ in $F_p$, za vsak pas svojo (c).
 $E_F$ se določi iz pogoja, da je število elektronov v prevodnem pasu enako 
 številu vrzeli v valenčnem pasu in $N_{p0} = N_{v0}$. Fermijeva energija
 leži na sredini energijske reže le v primeru, da sta efektivni masi 
-za elektrone in vrzeli enaki. Sicer pride do premika Fermijeve energije 
+za elektrone in vrzeli enaki. Sicer se Fermijeva energija premakne
 proti pasu z manjšo efektivno maso. 
 \end{remark}
 
@@ -887,7 +888,7 @@ Fermijeve energije v valenčnem pasu.
 \end{remark}
 
 Ko elektrone vzbudimo iz valenčnega v prevodni pas, se v valenčnem pasu pojavijo
-vrzeli. Dokler ne pride do rekombinacije (tipično nekaj $\si{ns}$),
+vrzeli. Dokler se ne rekombinirajo (tipično nekaj $\si{ns}$),
 vlada v prevodnem pasu kvazi-termično ravnovesje, saj je relaksacija 
 elektronov znotraj pasu bistveno hitrejša (tipično $\si{ps}$). 
 Pri veliki populaciji elektronov v prevodnem in vrzeli v 
@@ -909,7 +910,7 @@ Posvetimo na polprevodnik v vzbujenem stanju s svetlobo s krožno frekvenco $\om
 Vpadna svetloba povzroča prehode med stanji z energijo $E_a$ v valenčnem 
 in stanji z energijo $E_b$ v prevodnem pasu (slika~\ref{fig:Ek}\,b).
 Če je prehodov iz prevodnega pasu v valenčnega več kot prehodov v obratni
-smeri, pride do ojačenja svetlobe. \index{Ojačenje v polprevodnikih}
+smeri, se svetloba ojačuje.\index{Ojačenje v polprevodnikih}
 
 Za zapis verjetnosti za prehod med dvema stanjema na časovno
 enoto uporabimo Fermijevo zlato pravilo. Verjetnost, da je zgornje stanje zasedeno, je 
@@ -964,8 +965,8 @@ N_{pv}-N_{vp}=\frac{1}{\pi\hslash}\left(\frac{2m_r}{\hslash^2}\right)^{3/2}
 \label{6.11}
 \end{equation}
 Poglejmo rezultat podrobneje. Da je število prehodov iz prevodnega v valenčni pas
-večje od števila prehodov v obratno smer in torej pride do ojačenja vpadne svetlobe 
-namesto do njene absorpcije, mora biti $N_{pv}-N_{vp} >0$. Sledi pogoj
+večje od števila prehodov v obratno smer in se torej vpadna svetloba ojačuje
+namesto absorbira, mora biti $N_{pv}-N_{vp} >0$. Sledi pogoj
 \begin{equation}  
 \frac{1}{e^{(E_b-F_{p})/k_B T}+1}>\frac{1}{e^{(E_a-F_v)/k_B T}+1}.
 \label{6.12}
@@ -976,7 +977,7 @@ Dobimo pogoj za ojačevanje
 E_g \leq \hslash\omega<F_{p}-F_{v}.
 }
 Energija fotonov, ki se v snovi ojačujejo, mora biti po pričakovanjih večja od
-energije reže, sicer ne pride niti do absorpcije niti do ojačenja. Gornja zveza pove tudi, 
+energije reže, sicer se niti ne absorbirajo niti ne ojačujejo. Pogoj za ojačevanje pove tudi, 
 da za ojačenje svetlobe ne zadošča le nekaj vzbujenih elektronov in nekaj ustreznih vrzeli. 
 V prevodnem pasu mora biti toliko elektronov, da pri neki energiji zasedejo vsaj polovico stanj, 
 hkrati  mora biti v valenčnem pasu toliko vrzeli, da je vsaj polovica stanj nezasedena.
@@ -996,14 +997,14 @@ dj = \gamma(\omega) j dz.
 Z naraščajočo stopnjo vzbujenosti 
 koeficient ojačenja razumljivo narašča, manjša pa se z naraščajočo 
 temperaturo. Njegovo odvisnost od energije vpadnih fotonov kaže slika~\ref{s6.11}. Vidimo,
-da se z naraščajočo temperaturo zmanjšuje tudi širina pasu, v katerem pride do ojačenja.
+da se z naraščajočo temperaturo zmanjšuje tudi širina pasu, v katerem se svetloba ojačuje.
 \begin{figure}[h]
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/07_gamma.pdf_tex}
 \caption{Ojačenje v polprevodniku kot funkcija energije vpadnih fotonov. Črna črta
 velja pri $T=0$ in rdeča pri $T>0$. Pri frekvencah, večjih od $(F_p-F_v)/\hslash$,
-pride do absorpcije svetlobe. 
+se svetloba absorbira. 
 }
 \label{s6.11}
 \end{figure}
@@ -1035,7 +1036,7 @@ prevodni in valenčni pas pa se ukrivita (slika~\ref{fig:pnlaser}\,a).
 \caption{Energijska pasova v močno dopiranem spoju $p$-$n$ (a) in 
 ista pasova ob priključeni napetosti v prevodni smeri (b). $F_p$ in $F_v$
 označujeta kvazi-Fermijevi energiji in senčen del  aktivno območje, 
-v katerem pride do rekombinacije elektronov in vrzeli.
+v katerem se elektroni in vrzeli rekombinirajo.
 }
 \label{fig:pnlaser}
 \end{figure}
@@ -1044,14 +1045,15 @@ Ko na spoj priključimo napetost v prevodni smeri (torej pozitivno napetost na s
 $p$), se potencialni skok zmanjša. Pri tem je potencialna razlika kar sorazmerna priključeni
 napetosti $U$. Fermijevi energiji na $p$ in $n$ strani se razmakneta in v
 ozkem območju v bližini spoja pride do hkratne zasedenosti elektronov
-v prevodnem pasu in vrzeli v valenčnem pasu (slika~\ref{fig:pnlaser}\,b). \index{Spoj $p$-$n$!{aktivno območje}}
+v prevodnem pasu in vrzeli v valenčnem pasu (slika~\ref{fig:pnlaser}\,b). 
+\index{Spoj $p$-$n$!{aktivno območje}}
 To imenujemo aktivno območje, saj v njem prihaja do rekombinacij in do nastanka fotonov. 
 
 Pri nizkih 
 priključenih napetostih oziroma nizkih tokovih skozi spoj $p$-$n$ prihaja
 do spontane rekombinacije in nizke izsevane moči svetlobe. 
-Pri večjih napetostih, ko je $e_0U \approx E_g$, pride do velikih koncentracij nosilcev naboja in
-stimuliranih rekombinacij, ki omogočajo optično ojačenje. Takrat presežemo prag delovanja
+Pri večjih napetostih, ko je $e_0U \approx E_g$, so koncentracije nosilcev naboja velike in
+stimulirane rekombinacije omogočajo optično ojačenje. Takrat presežemo prag delovanja
 diodnega laserja. \index{Prag delovanja laserja}
 Ojačenje v polprevodniških laserjih je precej veliko, lahko več od 
 $100~/\si{cm}$, zato je mogoče dobiti delujoč laser že v zelo majhnem aktivnem 
@@ -1083,8 +1085,8 @@ Opisani polprevodniški laserji imajo kar nekaj slabosti. So zelo močno dopiran
 dobro delujejo le močno hlajeni (prvotno pri $77~\si{K}$), poleg tega je snop 
 v takih laserjih pogosto širši od debeline aktivnega območja. To znaša
 $\sim 1~\si{\micro\meter}$, širina snopa pa nekaj mikronov več, zato
-znaten del svetlobe potuje po območju $p$ in $n$, kjer pride do 
-absorpcije in segrevanja. Tokovi, potrebni za 
+znaten del svetlobe potuje po območju $p$ in $n$, kjer se absorbira in posledično
+snov segreva. Tokovi, potrebni za 
 delovanje takega laserja, so visoki ($\sim 100~\si{kA}/\si{cm}^2$ pri sobni temperaturi) in
 kakovost snopa razmeroma slaba. 
 
@@ -1107,15 +1109,16 @@ Prvi primer si oglejmo podrobneje.\index{Infrardeče valovanje}
 \input{slike/07_hetero.pdf_tex}
 \caption{Shema laserja z dvojno heterostrukturo (a) in oblika energijskih pasov 
 na spoju pri napetosti, priključeni v prevodni smeri (b). V aktivnem območju
-je število elektronov v prevodnem pasu in vrzeli v valenčnem pasu zelo veliko, zato pride do 
-močnega ojačenja svetlobe.
+je število elektronov v prevodnem pasu in vrzeli v valenčnem pasu zelo veliko, zato se 
+svetloba močno ojačuje.
 }
 \label{fig:hetero}
 \end{figure}
 \begin{remark}
 Pri izdelavi heterostruktur je ključno najti snovi, ki imajo čim bolj podobno strukturo.
 Take plastne strukture naredijo z epitaksialno rastjo, zato si morajo biti medatomske
-razdalje različnih materialov čim bolj podobne, sicer pride do defektov in slabšega delovanja. 
+razdalje različnih materialov čim bolj podobne. V nasprotnem primeru se pojavijo 
+defekti, zaradi katerih naprava slabše deluje. 
 GaAs in AlAs imata enako strukturo in praktično enako medatomsko razdaljo, zato 
 lahko brez škode na strukturi atome galija zamenjamo z atomi aluminija. Tipične 
 vrednosti $x$ v Al$_x$Ga$_{1-x}$As so $0,3$. S spreminjanjem koncentracije aluminija $x$ hkrati

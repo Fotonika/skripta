@@ -67,7 +67,7 @@ E=E_{0}\psi(\mathbf{r},z)e^{ikz},
 kjer je $\mathbf{r}$ krajevni vektor v ravnini $xy$, prečni na smer širjenja svetlobe. 
 Glavni del odvisnosti od koordinate $z$ smo zapisali v faktorju $e^{ikz}$, tako da lahko
 privzamemo, da se $\psi$ v smeri $z$ le počasi spreminja. Vstavimo
-gornji nastavek v Helmholtzevo enačbo (enačba~\ref{eq:valovna-enacba-hh})
+nastavek v Helmholtzevo enačbo (enačba~\ref{eq:valovna-enacba-hh})
 in pri tem zanemarimo druge odvode $\psi$ po $z$, saj je zaradi počasnega spreminjanja
 $\partial^{2}\psi/\partial z^{2}$ majhen v primerjavi s $k\partial\psi/\partial z$ in $k^{2}\psi$.
 Dobimo obosno
@@ -88,7 +88,7 @@ na primeru ravnega vala. Nastavek za ravni val \index{Ravni val} zapišemo v obl
 \psi=e^{ik_{1}x+ik_{2}y}\, e^{-i\beta z}.
 \label{eq:ravni-val-nastavek-obosni}
 \end{equation}
-Da bo gornji nastavek rešitev
+Da bo nastavek rešitev
 obosne valovne enačbe~(enačba~\ref{eq:obosna-valovna-enacba}), mora veljati 
 \begin{equation}
 \beta=\frac{k_{1}^{2}+k_{2}^{2}}{2k}.
@@ -150,7 +150,7 @@ Iz obosnega približka (enačba~\ref{eq:obosna-valovna-enacba}) sledi
 \begin{equation}
 \frac{2ik}{q}-\frac{k^2r^2}{q^2}=ik\left(\frac{ikr^{2}}{q^2}q(z)^{\prime}+2i\phi^{\prime}\right).
 \end{equation}
-Gornja zveza mora veljati pri vsakem $r$, zato sta koeficienta
+Zapisana zveza mora veljati pri vsakem $r$, zato sta koeficienta
 pri $r^{2}$ na obeh straneh enačbe enaka in člena brez odvisnosti od $r$ prav tako. Sledi
 \begin{equation}
 q(z)^{\prime}=1\mbox{\hskip1cm in \hskip1cm}\phi^{\prime}=-\frac{i}{q}.
@@ -365,7 +365,7 @@ in upoštevamo zvezo med Hermitovimi polinomi
 H_{n}^{\prime\prime}-2xH_{n}^{\prime}+2nH_{n}=0,
 \end{equation}
 pri čemer črtica pomeni odvod po $x$. 
-Osnovni Gaussov snop je očitno poseben primer gornje rešitve za $n=m=0$.
+Osnovni Gaussov snop je očitno poseben primer rešitve za $n=m=0$.
 Polmer snopa $w(z)$ in kompleksni krivinski radij $q(z)$ sta za\index{Gouyeva faza}
 vse $n$ in $m$ enaka kot za osnovni snop in podana z enačbama (\ref{eq:w})
 in (\ref{eq:q}). Razlika je v fazi, ki je odvisna tudi od $n$ in $m$
@@ -456,7 +456,7 @@ Ploskve konstantne faze Laguerre-Gaussovih snopov imajo pri $l\ne0$  obliko
 vijačnic (slika~\ref{fig:Laguerrova_fronta}). 
 Poyntingov vektor\index{Poyntingov vektor} 
 pri njih ni vzporeden z osjo snopa, ampak ima komponento tudi v prečni smeri. Ta spreminja smer, 
-zato pride do pojava vrtilne količine v smeri osi snopa in snop na snov deluje z navorom. 
+zato ima snop vrtilno količino v smeri osi in snop na snov deluje z navorom. 
 Pravimo, da Laguerre-Gaussovi snopi nosijo t.\ i.\ tirno vrtilno količino\index{Tirna vrtilna količina}. 
 V kvantni mehaniki funkcija $\psi_{p,l}$ predstavlja foton s tirno vrtilno količino $L = \hslash l$, 
 medtem ko leva in desna krožna polarizacija predstavljata spin fotona. 
@@ -487,7 +487,7 @@ koordinatah ($x=r\cos\varphi$, $y=r\sin\varphi$) se enačba prepiše v
 \frac{\partial^2 \psi}{\partial r^2}+ \frac{1}{r}\frac{\partial \psi}{\partial r}
 + \frac{1}{r^2}\frac{\partial^2 \psi}{\partial \varphi^2}+k_{\perp}^{2}\psi=0.
 \end{equation}
-Rešitve gornje enačbe so s faznim faktorjem pomnožene Besslove funkcije
+Rešitve so s faznim faktorjem pomnožene Besslove funkcije
 \begin{equation}
 \psi_m(r, \varphi)=J_{m}(k_{\perp}r)e^{im\varphi},
 \end{equation}
@@ -877,10 +877,12 @@ Pri premiku iz ravnine $z_1$ v ravnino $z_2$, ki je od prve oddaljena
 za $d$, se $q$ spremeni 
 \begin{equation}
 q_2=q_1+d.
+\label{eq:abcdq1}
 \end{equation}
 Po enačbi~(\ref{eq:preslikava-zveza-leca}) je pri prehodu skozi lečo
 \begin{equation}
 q_2=\frac{q_1f}{f-q_1}=\frac{q_1}{-\frac{q_1}{f}+1}.
+\label{eq:abcdq2}
 \end{equation}
 Premik in leča dasta skupaj
 \begin{equation}
@@ -900,7 +902,8 @@ A & B\\
 C & D
 \end{array}\right]
 \end{equation}
-in iz gornjih enačb razberemo koeficiente matrik \index{Matrike ABCD} za opisane 
+in iz enačb (\ref{eq:abcdq1}, \ref{eq:abcdq2} in \ref{eq:premikleca}) razberemo 
+koeficiente matrik \index{Matrike ABCD} za opisane 
 preslikave, vidimo, da so povsem enaki koeficientom matrik ABCD, ki jih poznamo iz
 geometrijske optike (\ref{eq:MABCD1}, \ref{eq:MABCD2} in \ref{eq:Mdf}). Matrike, ki jih
 poznamo iz geometrijske optike, lahko torej uporabimo tudi za izračun preslikave snopov,
@@ -948,7 +951,7 @@ Pokaži, da za naslednje prehode veljajo ustrezne matrike ABCD. \\ \\
       in krivinskima radijema $R_1$ in $R_2$}& 
       \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_fd.pdf_tex}} & 
       $\begin{bmatrix} 1-\frac{d}{nf_{1}} & \frac{d}{n}\\
-      -\frac{1}{f_2}- \frac{1}{f_1}-\frac{d}{nf_1f_2}& 1-\frac{d}{nf_{2}} \end{bmatrix}$
+      -\frac{1}{f_2}- \frac{1}{f_1}+\frac{d}{nf_1f_2}& 1-\frac{d}{nf_{2}} \end{bmatrix}$
       $f_{i}=\frac{R_{i}}{n-1}$\\ \hline
       Prehod skozi zaporedje plasti & \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_nN.pdf_tex}} & 
       $\begin{bmatrix} 1 & \sum_{i=1}^{N}\frac{d_{i}}{n_{i}}\\ 0 & 1 \end{bmatrix}$ \\ \hline 

@@ -144,7 +144,7 @@ resonator skozi izhodno zrcalo, deljeni s časom obhoda resonatorja $2L/c$
 \boxeq{5.6}{
 P=(1-{\cal {R}}_{1})\frac{c}{2L}\,W.
 }
-Ker so vsi predfaktorji v gornji enačbi konstantni, je izhodna moč kar sorazmerna
+Ker so vsi predfaktorji v enačbi konstantni, je izhodna moč kar sorazmerna
 z energijo svetlobe v resonatorju. Odvisnost izhodne moči laserja od črpanja je 
 tako do konstante enaka energiji, prikazani na sliki~\ref{fig:energija}. 
 
@@ -152,7 +152,7 @@ Gostoto svetlobnega toka, ki izhaja iz laserja, zapišemo
 \begin{equation}
  j = \frac{P}{S} = \frac{1}{2} (1-{\cal {R}}_{1}) j_s \left(\frac{G}{G_\mathrm{pr}}-1\right).
 \end{equation}
-Gornja enačba seveda velja za ojačenja nad pragom, $G>G_\mathrm{pr}$.
+Zapisana enačba seveda velja za ojačenja nad pragom, $G>G_\mathrm{pr}$.
 
 \begin{definition}
 Izračunaj izhodno moč iz laserja pri dani dolžini resonatorja ($L=L'$), 
@@ -212,7 +212,7 @@ izgub, kar opišemo z razpadnim časom $\tau/2$ (enačba~\ref{eq:dW}).
 \index{Ojačenje s stimuliranim sevanjem|see{Stimulirano sevanje}}
 \index{Koeficient ojačenja}
 
-Gornji enačbi predstavljata sistem dveh sklopljenih diferencialnih enačb za 
+Enačbi~(\ref{5.7} in \ref{5.8}) predstavljata sistem dveh sklopljenih diferencialnih enačb za 
 časovni razvoj števila fotonov v resonatorskem stanju in za zasedenost 
 zgornjega atomskega stanja. Enačbi sta nelinearni in nimata  
 analitične rešitve. Vseeno lahko nekaj povemo o takem sistemu.
@@ -317,11 +317,11 @@ Sledi
 N_{\rm 2pr}=\frac{2V}{\tau \sigma c}\frac{\sqrt{p}}{\sqrt{p}+1}.
 \label{5.16}
 \end{equation}
-Ker je $p$ zelo veliko število, iz gornjih enačb sledi, da zasedenost višjega
+Ker je $p$ zelo veliko število, lahko zasedenost zgornjega
 nivoja (oziroma obrnjena zasedenost) narašča le do bližine praga. Nad pragom ostaja praktično
 konstantna in skoraj natanko enaka kot na pragu. Tega ni težko razumeti. Nad
 pragom je število fotonov v resonatorju veliko in linearno narašča 
-z močjo črpanja. S tem se povečuje hitrost praznjenja gornjega atomskega 
+z močjo črpanja. S tem se povečuje hitrost praznjenja zgornjega atomskega 
 stanja s stimuliranim sevanjem, kar ravno izniči učinek povečanja črpanja. 
 V stacionarno delujočem laserju obrnjene zasedenosti torej ni mogoče povečati 
 nad vrednost na pragu $N_{\rm 2pr}$. To ima pomembne praktične posledice, kot bomo
@@ -444,8 +444,8 @@ Dejanski laserji seveda nimajo niti približno tako ozkega spektra, kot smo ga
 pravkar ocenili. Vemo, da je frekvenca laserja določena z dolžino resonatorja 
 ($\nu=N c/2L$), pri čemer je $N$ zelo veliko celo število. Že majhna
 sprememba dolžine resonatorja povzroči spremembo frekvence laserja, pri 
-znatnejši spremembi dolžine lahko pride tudi do preskoka vzbujenega
-nihanja v resonatorju, to je števila $N$. Dolžina resonatorja se 
+znatnejši spremembi dolžine lahko preskoči tudi vzbujeno
+nihanje v resonatorju, torej se spremeni število $N$. Dolžina resonatorja se 
 spreminja predvsem zaradi zunanjih mehanskih motenj in zaradi spreminjanja
 temperature. Če se posebej ne potrudimo s konstrukcijo resonatorja, so 
 fluktuacije frekvence kar reda velikosti razmika med sosednimi stanji 
@@ -883,7 +883,7 @@ intervalu \index{Sunkovni laser!{preklop črpanja}}\index{Črpanje}
 črpanja je ojačenje večje od izgub in svetloba izhaja iz laserja, ko pa črpanja 
 ni, so izgube prevelike in laser ne sveti (slika~\ref{fig:Gswitch}\,a). Za dosego velike
 obrnjene zasedenosti v ojačevalnem sredstvu mora biti sprememba črpanja zelo hitra, 
-da v času preklopa še ne pride do znatnega povečanja števila fotonov. 
+da v času preklopa števila fotonov še ne poveča znatno. 
 Najbolj pogosto se modulacija črpanja uporablja
 v polprevodniških laserjih, saj v njih črpanje poteka z električnim tokom, ki 
 ga je zelo preprosto modulirati z razmeroma velikimi frekvencami. 
@@ -893,8 +893,8 @@ ga je zelo preprosto modulirati z razmeroma velikimi frekvencami.
 \input{slike/06_pulseG.pdf_tex}
 \caption{Delovanje sunkovnega laserja s periodično moduliranim črpanjem (a). Laser sveti,
 kadar je črpanje dovolj veliko in ojačanje $G$ nad pragom $G_{\mathrm{pr}}$. 
-Pri hitrem preklapljanju črpanja lahko pride do neželenih oscilacij izhodne moči $P$ in 
-popačenja izhodnih sunkov (b).}
+Pri hitrem preklapljanju črpanja se lahko pojavijo neželene oscilacije izhodne moči $P$ in 
+izhodni sunek se popači (b).}
 \label{fig:Gswitch}
 \end{figure}
 
@@ -1010,7 +1010,7 @@ Enačbo brez težav integriramo
 n=N_{20}-N_{2}+\tilde{N}_{2}\ln \frac{N_{2}}{N_{20}}.
 }
 Pri tem smo privzeli, da je na začetku sunka $n=0$ in $N_{2}=N_{20}$. 
-Iz gornje zveze najprej izračunamo, kolikšna je zasedenost na koncu sunka 
+Najprej izračunamo, kolikšna je zasedenost na koncu sunka 
 $N_{2k}$. Izhajamo iz pogoja, da je število fotonov na koncu sunka $n=0$, 
 kar da transcendentno enačbo za $N_{2k}$
 \beq
@@ -1225,7 +1225,7 @@ v šibkejših sunkovnih laserjih, na primer v Nd:YAG laserjih.\index{Laser!Nd:YA
 \label{fig:aktpas}
 \end{figure}
 
-Kako pri modulaciji izgub pride do uklepanja faz, lahko uvidimo še drugače.
+Kako se pri modulaciji izgub faze uklenejo, lahko uvidimo še drugače.
 Modulacija amplitude $m$-tega lastnega nihanja povzroči, da se v spektru nihanja
 pojavita še stranska pasova pri krožnih frekvencah $(\omega_0 + m\Delta \omega) \pm \Delta\omega$. Ta
 se ravno ujemata z obema sosednjima nihanjema in se konstruktivno
@@ -1295,7 +1295,7 @@ frekvencama in $\nu_0$ frekvenčni zamik. S stabilizacijo $\Delta \nu$ in
 frekvenčnega zamika $\nu_0$ so frekvence izhodne svetlobe  
 natančno določene, zato frekvenčni glavnik uporabljamo kot referenco 
 za izredno natančno določanje frekvenc. Ko svetloba z neznano frekvenco
-interferira s svetlobo iz frekvenčnega glavnika, pride do utripanja -- pojavi
+interferira s svetlobo iz frekvenčnega glavnika, nastopi utripanje -- pojavi
 se signal pri razliki obeh frekvenc. Zaradi velikega števila lastnih nihanj 
 in posledično majhnih razlik v frekvencah je frekvenca utripanja navadno v 
 radijskem območju. To pa znamo zelo natančno izmeriti in tako določiti neznano 
@@ -1366,7 +1366,7 @@ vakuumu vezali na enoto sekunde. Ta definicija velja še danes. Sekunda je dolo�
 z nihaji cezijevih atomov in to omogoča določitev metra z relativno 
 negotovostjo $10^{-13}$. 
 
-Z novo definicijo izbira snovi, v kateri pride do sevanja svetlobe, ni več ključnega
+Z novo definicijo izbira snovi, ki izseva svetlobo, ni več ključnega
 pomena. Priporočena realizacija definicije metra je s He-Ne laserjem, 
 stabiliziranim z jodovo celico, ki z absorpcijo še zmanjša spektralno širino črte.
 V tem primeru je meter $1\,579\,800,762042(33)$ valovnih dolžin izsevane svetlobe. 
@@ -1386,7 +1386,7 @@ in spodnjega atomskega nivoja in s tem izpustili možnost, da se zaradi
 interakcij z elektromagnetnim poljem atomi nahajajo v nestacionarnem,
 mešanem stanju.\index{Zasedbene enačbe}
 
-Gornje pomanjkljivosti delno odpravimo s tem, da elektromagnetno polje v
+Navedene pomanjkljivosti delno odpravimo s tem, da elektromagnetno polje v
 resonatorju obravnavamo klasično z valovno enačbo, atome aktivne snovi pa
 kvantno in upoštevamo, da se pokoravajo Schr\"odingerjevi enačbi. S tem dobimo 
 semiklasični model laserja. Za še natančnejši opis bi morali obravnavati
@@ -1434,7 +1434,7 @@ iz enačb (\ref{5.46}) in dobimo
 \frac{d\eta}{dt}=- i \omega_0\eta+\frac{i}{\hslash}\,\mathcal{V}E(t) \left(|c_2|^2-|c_1|^2\right).
 \end{equation}
 Spomnimo, da je $|c_i|^2$ verjetnost za zasedenost stanja $|i\rangle$. Izraz v oklepaju
-na desni strani gornje enačbe torej meri razliko zasedenosti obeh stanj, ki jo označimo
+na desni strani enačbe~(\ref{5.49}) torej meri razliko zasedenosti obeh stanj, ki jo označimo
 s $\zeta$. Podobno kot zgoraj izrazimo spreminjanje razlike zasedenosti s časovni odvodom 
 \begin{equation}  
 \label{5.50}
@@ -1587,7 +1587,7 @@ približka in enačbe~(\ref{5.61}) preide valovna enačba (enačba~\ref{5.54}) z
 \end{equation}
 
 Doslej še nismo upoštevali, da je polje v praznem resonatorju dušeno, zato
-moramo gornjo enačbo še popraviti
+moramo enačbo še popraviti
 \begin{equation}  
 \label{5.63}
 \frac{dE_n^+}{dt}=\left(-i \omega_n-\frac{1}{\tau}\right) E_n^+ 
@@ -1691,6 +1691,6 @@ Krožna frekvenca torej ni enaka krožni frekvenci praznega resonatorja $\omega_
 temveč je premaknjena proti centru atomske črte $\omega_0$. Premik je
 odvisen od razmerja širine atomske črte in izgub v resonatorju.
 
-Gornji primer uporabe semiklasičnih enačb je zelo preprost. Prava moč
+Opisani primer uporabe semiklasičnih enačb je zelo preprost. Prava moč
 modela se pokaže pri obravnavi večfrekvenčnega laserja, na primer pri
 računu uklepanja faz laserskih nihanj, kar presega okvir te knjige. 

@@ -49,7 +49,7 @@ N=2 \frac{1}{8} 4\pi k^{2}\Delta k \frac{1}{(\pi/L)^3}=\frac{\omega^{2}}{\pi^{2}
 \frac{8\pi \nu^{2}}{c^{3}}V\Delta\nu.
 \label{eq:N-stevilo-stanj}
 \end{equation}
-Do gornje enačbe smo prišli tako, da smo prešteli stoječa valovanja z velikostjo
+Do enačbe smo prišli tako, da smo prešteli stoječa valovanja z velikostjo
 valovnega vektorja med $k$ in $k+\Delta k$: volumen pripadajoče krogelne lupine v pozitivnem oktantu
 $\frac{1}{8} 4\pi k^{2}\Delta k$ smo delili z volumnom $(\pi/L)^3$, ki pripada enemu stanju. 
 Upoštevali smo tudi, da ima vsako lastno nihanje lahko dve polarizaciji.
@@ -128,7 +128,7 @@ biti izpolnjena dva pogoja:
 \item Polmer zrcala mora biti večji od polmera uklonsko razširjenega snopa, ki se širi od nasprotnega zrcala. 
 \end{enumerate}
 
-Resonatorje, ki zadoščajo gornjima pogojema, imenujemo stabilni 
+Resonatorje, ki zadoščajo zapisanima pogojema, imenujemo stabilni 
 resonatorji\index{Stabilnost resonatorja}.
 Drugi pogoj lahko zapišemo tudi z enačbo, izhajajoč iz enačbe za oceno divergence (enačba~\ref{eq:kot_ocena}):
 \begin{equation}
@@ -250,7 +250,8 @@ Veljati mora še
 z_{2}-z_{1}=L.
 \label{eq:razlikaz}
 \end{equation}
-Iz gornjih enačb najprej izračunamo razdaljo $z_{1}$, ki določa
+Iz  enačb~(\ref{eq:krivinski1}, \ref{eq:krivinski} in \ref{eq:razlikaz}) 
+najprej izračunamo razdaljo $z_{1}$, ki določa
 lego grla v resonatorju. Rezultat uporabimo za izračun parametra $z_{0}$, ki določa
 območje bližnjega polja in z enačbo~(\ref{eq:z0}) enolično tudi polmer snopa v grlu
 \begin{equation}
@@ -258,12 +259,12 @@ z_{0}^{2}=\frac{L(R_{1}-L)(R_{2}-L)(R_{1}+R_{2}-L)}{(R_{1}+R_{2}-2L)^{2}}.
 \label{eq:z0_stab}
 \end{equation}
 Da je snop realen in omejen, mora biti $z_{0}^{2}>0$ in zato števec
-gornjega izraza pozitiven. Ta pogoj s kratkim računom preoblikujemo
+v enačbi~(\ref{eq:z0_stab}) pozitiven. Ta pogoj s kratkim računom preoblikujemo
 v stabilnostni kriterij\index{Stabilnost resonatorja}
 \boxeq{eq:stabilnost}{
 0<\left(1-\frac{L}{R_{1}}\right)\left(1-\frac{L}{R_{2}}\right)<1.
 }
-Resonatorji, ki zadoščajo gornjemu pogoju, so stabilni. 
+Resonatorji, ki zadoščajo zapisanemu pogoju, so stabilni. 
 
 \begin{definition}
 Izhajajoč iz pogoja, da se na zrcalih resonatorja krivinski radij valovnih front snopa ujema s krivinskim
@@ -430,7 +431,7 @@ je po enem obhodu enak začetnemu $q$
 \begin{equation}
 q_2 = \frac{Aq+B}{Cq+D} = q.
 \end{equation}
-Gornjo enačbo prepišemo v 
+Enačbo prepišemo v 
 \begin{equation}
 Cq^2+(D-A)q-B=0.
 \end{equation}
@@ -554,7 +555,7 @@ Vzemimo
 simetrični resonator z dolžino $L=1~\si{\metre}$ in $R=50~\si{\metre}$, 
 valovna dolžina naj bo $500~\si{\nano\metre}$. Z uporabo enačbe~(\ref{eq:zosim})
 hitro izračunamo $z_0 = 4,97~\si{\metre}$. Ker je pogoj $z_0\gg L$ izpolnjen,  uporabimo
-gornji približek. Razlika med frekvencama dveh osnovnih snopov je $\Delta \nu_{n,p,l} = 
+približek. Razlika med frekvencama dveh osnovnih snopov je $\Delta \nu_{n,p,l} = 
 150~\si{\mega\hertz}$, medtem ko je razlika med frekvencama dveh prečnih snopov
 $\Delta \nu_{n,p,l} = 9,5~\si{\mega\hertz}$.
 
@@ -789,7 +790,7 @@ $E_{2}=\pm E_{1}$. Sledi
 i\alpha^{2}\frac{e^{ikL}}{\lambda L}=ie^{ikL}=\pm1.
 \label{3.80}
 \end{equation}
-Iz gornjega izraza izpeljemo resonančni pogoj za frekvence lastnega nihanja 
+Iz tega izpeljemo resonančni pogoj za frekvence lastnega nihanja 
 in izračunamo razliko med dvema lastnima krožnima frekvencama, 
 ki jo že poznamo~(enačba~\ref{eq:deltaomega})
 \begin{equation}
@@ -826,24 +827,23 @@ Krajevni del $g(\mathbf{r})$ naj bo normiran tako, da je $\int g^{2}dV=1$. Iz va
 enačbe (enačba~\ref{eq:valovna-skalarna}) sledi, da mora časovni del zadoščati 
 nihajni enačbi drugega reda
 \begin{equation}
-\ddot{f} + \omega_{n}^{2}f=0,
+\frac{d^2f}{dt^2} + \omega_{n}^{2}f=0.
 \label{3.32}
 \end{equation}
-kjer smo z dvema pikama označili drugi odvod po času.
 Vpeljemo kompleksno spremenljivko $a$ kot kombinacijo funkcije $f$ in njenega
 časovnega odvoda
 \begin{equation}
-a=\sqrt{\frac{\epsilon_{0}}{2}}(f+\frac{i}{\omega_{n}}\dot{f}).
+a=\sqrt{\frac{\epsilon_{0}}{2}}(f+\frac{i}{\omega_{n}}\frac{df}{dt}).
 \label{3.33}
 \end{equation}
 Izbira predfaktorja bo razvidna v nadaljevanju. 
 Z odvajanjem in uporabo nihajne enačbe (enačba~\ref{3.32}) ugotovimo, da za $a$ velja 
 diferencialna enačba 
 \begin{equation}
-\dot{a}=-i\omega_{n}a.
+\frac{da}{dt}=-i\omega_{n}a.
 \label{3.34}
 \end{equation}
-Funkcija $a$ ima preprosto časovno odvisnost $e^{-i\omega_{n}t}$.\pagebreak
+Funkcija $a$ ima preprosto časovno odvisnost $e^{-i\omega_{n}t}$.
 
 Poglejmo elektromagnetno energijo v resonatorju. Električni
 del energije polja, ki je ravno polovica celotne energije, zapišemo kot
@@ -867,11 +867,11 @@ Prednost uporabe spremenljivke $a$ je v preprostejših enačbah, ki so le prvega
 \index{Izgube v resonatorju} 
 Izgube v resonatorju opišemo z dodatnim členom v enačbi~(\ref{3.34})
 \begin{equation}
-\dot{a}=-i\omega_{n}a-\frac{1}{\tau}a.
+\frac{da}{dt}=-i\omega_{n}a-\frac{1}{\tau}a.
 \label{3.36}
 \end{equation}
 V taki obliki lahko zapišemo enačbo le, kadar so izgube majhne. Če niso, 
-je treba uporabiti navadno nihajno enačbo drugega reda. Gornji približek
+je treba uporabiti navadno nihajno enačbo drugega reda. Zapisani približek
 namreč ne vsebuje zmanjšanja nihajne frekvence pri velikem dušenju.
 Prehod na dve nesklopljeni enačbi prvega reda za $a$ in $a^*$
 je točen le, kadar ni izgub. Izgube sklopijo enačbi za $a$ in $a^{\ast}$, 
@@ -888,7 +888,7 @@ naj bo izbrana tako, da je $|s_{+}|^{2}$ enako moči vpadnega valovanja. Zaenkra
 tudi zanemarimo notranje izgube resonatorja. Potem lahko
 zapišemo 
 \begin{equation}
-\dot{a}=-i\omega_{n}a-\frac{1}{\tau}a+\kappa s_{+},
+\frac{da}{dt}=-i\omega_{n}a-\frac{1}{\tau}a+\kappa s_{+},
 \label{3.37}
 \end{equation}
 kjer je $\kappa$ sklopitveni koeficient med vpadnim valovanjem in
@@ -937,7 +937,7 @@ enakost
 r^{2}+\frac{2(\tau\kappa^{2}+r\kappa\sqrt{2\tau})}{1+\tau^{2}(\omega_{n}-\omega)^{2}}=1.
 \label{3.43}
 \end{equation}
-Gornja enačba mora veljati pri vsaki krožni  frekvenci $\omega$, to je pri vsaki vrednosti imenovalca
+Enačba mora veljati pri vsaki krožni  frekvenci $\omega$, to je pri vsaki vrednosti imenovalca
 ulomka. Zato mora biti $r^{2}=1$ in $\tau\kappa=-r\sqrt{2\tau}$.
 Ker sta $\tau$ in $\kappa$ pozitivna, je $r=-1$ in 
 \begin{equation}
@@ -951,7 +951,7 @@ s_{-}=-s_{+}+\sqrt{\frac{2}{\tau}}a.
 \end{equation}
 Z upoštevanjem notranjih izgub, ki jih popišemo s $\tau_0$, se amplituda nihanja spremeni v 
 \begin{equation}
-\dot{a}=-i\omega_{n}a-\left(\frac{1}{\tau_{0}}+\frac{1}{\tau}\right)a+
+\frac{da}{dt}=-i\omega_{n}a-\left(\frac{1}{\tau_{0}}+\frac{1}{\tau}\right)a+
 \sqrt{\frac{2}{\tau}}s_{+}.
 \label{3.46}
 \end{equation}
@@ -982,7 +982,7 @@ ali koaksialnega kabla enaka impedanci valovoda oziroma kabla.
 Če sta obe zrcali resonatorja delno prepustni, kot na primer pri 
 Fabry-Perotovem interferometru, je enačba za amplitudo nihanja 
 \begin{equation}
-\dot{a}=-i\omega_{n}a-\left(\frac{1}{\tau_{0}}+\frac{1}{\tau_{1}}+\frac{1}{\tau_{2}}\right)
+\frac{da}{dt}=-i\omega_{n}a-\left(\frac{1}{\tau_{0}}+\frac{1}{\tau_{1}}+\frac{1}{\tau_{2}}\right)
 a+\kappa_{1}s_{+1}+\kappa_{2}s_{+2},
 \label{3.49}
 \end{equation}
@@ -1011,7 +1011,7 @@ T=\frac{4/\tau_{1}\tau_{2}}{(1/\tau_{1}+1/\tau_{2})^{2}}.
 \label{3.53}
 \end{equation}
 Prepustnost je v resonanci popolna, če sta obe zrcali enaki in $\tau_{1}=\tau_{2}$.
-Gornja izraza se ujemata z znanim izrazom 
+Enačbi~(\ref{3.52} in \ref{3.53}) se ujemata z znanim izrazom 
 za prepustnost Fabry-Perotovega interferometra v bližini resonanc,
 če so izgube in prepustnost zrcal majhne (enačbi~\ref{eq:Fabry-Perot-prepustnost} 
 in \ref{eq:FBi2}). \index{Fabry-Perotov interferometer}
@@ -1036,7 +1036,7 @@ eno od nihanj resonatorja, ima prepuščeno valovanje obliko
 Gaussovega snopa, kot jo določa resonator, ne glede na obliko vpadnega
 snopa.
 
-Gornji način obravnave resonatorjev in sklopitve z vpadnim valovanjem
+Opisani  način obravnave resonatorjev in sklopitve z vpadnim valovanjem
 je posebej prikladen za račun nestacionarnega obnašanja in za primer,
 ko je resonator napolnjen z nelinearnim sredstvom.
 
@@ -1046,16 +1046,16 @@ Podobno kot sklopitev z zunanjim valovanjem lahko obravnavamo tudi
 sklopitev med dvema resonatorjema. Naj bosta dva resonatorja brez izgub
 sklopljena z delno prepustnim zrcalom. Sklopitev naj bo šibka, tako da lahko zapišemo 
 \begin{equation}
-\dot{a}_{1} =  -i\omega_{1}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
-\dot{a}_{2} = -i\omega_{2}a_{2}+\kappa_{21}a_{1}.
+\frac{da_1}{dt} =  -i\omega_{1}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
+\frac{da_2}{dt} = -i\omega_{2}a_{2}+\kappa_{21}a_{1}.
 \end{equation}
 
 Zaradi ohranitve energije sklopitvena koeficienta $\kappa_{12}$ in
 $\kappa_{21}$ nista neodvisna. Vsota energij obeh resonatorjev mora
 biti konstantna, zato 
 \begin{align}
-\frac{d}{dt}(|a_{1}|^{2}+|a_{2}|^{2}) & =  a_{1}\dot{a}_{1}^{*}+a_{1}^{*}\dot{a}_{1}+
-a_{2}\dot{a}_{2}^{*}+a_{2}^{*}\dot{a}_{2}\nonumber \\
+\frac{d}{dt}(|a_{1}|^{2}+|a_{2}|^{2}) & =  a_{1}\frac{da_1^*}{dt}+a_{1}^{*}\frac{da_1}{dt}+
+a_{2}\frac{da_2^*}{dt}+a_{2}^{*}\frac{da_2}{dt}\nonumber \\
  & =  a_{1}^{*}\kappa_{12}a_{2}+a_{1}\kappa_{12}^{*}a_{2}^{*}+a_{2}^{*}\kappa_{21}a_{1}+
  a_{2}\kappa_{21}^{*}a_{1}^{*}\nonumber \\
  & =  0.
@@ -1087,11 +1087,10 @@ Sledi
 Zaradi sklopitve se spremenijo lastne frekvence resonatorjev. 
 Poglejmo dva enaka sklopljena resonatorja
 \begin{equation}
- \dot{a}_{1}  =  -i\omega_{0}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
-\dot{a}_{2}  =  -i\omega_{0}a_{2}-\kappa_{12}a_{1}.
+\frac{da_1}{dt}  =  -i\omega_{0}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
+\frac{da_2}{dt} =  -i\omega_{0}a_{2}-\kappa_{12}a_{1}.
 \end{equation}
-Iščemo rešitve oblike $A_{i}e^{-i\omega t}$. Če uporabimo ta nastavek v gornjih
-diferencialnih enačbah, dobimo homogen linearen sistem za $A_{1}$ in
+Z nastavkom oblik $A_{i}e^{-i\omega t}$ dobimo homogen linearen sistem za $A_{1}$ in
 $A_{2}$, ki je netrivialno rešljiv, če je determinanta sistema enaka nič.
 Ta pogoj da enačbo za krožno frekvenco 
 \begin{equation}

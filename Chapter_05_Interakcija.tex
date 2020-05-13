@@ -341,7 +341,7 @@ atomske spektralne črte, moramo sešteti prispevke po ozkih frekvenčnih interv
 r_{12}=B_{12}\int g(\omega-\omega_0)\, u(\omega)\, d\omega.
 \label{4.19}
 \end{equation}
-Gornji zapis preverimo na primeru spektra črnega telesa, ki se ne spreminja 
+Zapis preverimo na primeru spektra črnega telesa, ki se ne spreminja 
 dosti v območju prehoda. Takrat $u(\omega_0)$ postavimo pred integral in po pričakovanju
 dobimo znano zvezo~(enačba~\ref{4.16}). 
 
@@ -422,7 +422,7 @@ določena oblika Planckove formule, ne da bi kar koli rekli o fotonih.
 
 \begin{remark}
  Zveza $B_{12}=B_{21}$ velja le v primeru nedegeneriranih stanj. V realnih sistemih
- so stanja pogosto degenerirana in je treba gornjo enačbo ustrezno popraviti v
+ so stanja pogosto degenerirana in je treba zvezo $B_{12}=B_{21}$ ustrezno popraviti v
 \begin{equation}
 \frac{B_{21}}{B_{12}} = \frac{g_1}{g_2},
 \label{eq:ABdeg}
@@ -482,7 +482,7 @@ Z njim se izraz (\ref{4.29}) poenostavi v
 }
 kjer je $\Delta N = N_{2}-N_{1}$.
 Navadno obravnavamo pline, ki so blizu termičnega ravnovesja. V tem primeru 
-je $N_{2}<N_{1}$ in $dj$ negativen, pride torej do absorpcije svetlobe.
+je $N_{2}<N_{1}$ in $dj$ negativen in svetloba se absorbira.
 Zapišemo 
 \begin{equation}
 \frac{dj}{j} = -\mu dz.
@@ -537,8 +537,8 @@ Izračunamo razliko zasedenosti
 \label{4.33}
 \end{equation}
 Pri majhni gostoti toka $j$ so praktično vsi atomi v osnovnem stanju in prispevajo
-k absorpciji. Pri velikih gostotah toka  imenovalec gornjega
-izraza močno naraste, razlika zasedenosti gre proti nič in absorpcija se zmanjšuje.
+k absorpciji. Pri velikih gostotah toka  imenovalec v izrazu za $\Delta N$
+močno naraste, razlika zasedenosti gre proti nič in absorpcija se zmanjšuje.
 Ko drugi člen v imenovalcu (enačba~\ref{4.33}) doseže vrednost 1, pravimo, da
 gostota energijskega toka doseže vrednost saturacijske gostote\index{Saturacijska gostota toka}.
 Zapišemo jo kot 
@@ -562,7 +562,7 @@ Izraz za razliko zasedenosti stanj zapišemo v preglednejši obliki
 \Delta N=-\frac{N}{1+j/j_{s}(\omega)}.
 \label{4.35}
 \end{equation}
-Vstavimo gornji izraz v enačbo za zmanjševanje gostote toka (enačba~\ref{4.30}) in dobimo
+Vstavimo ga v enačbo za zmanjševanje gostote toka (enačba~\ref{4.30}) in dobimo
 \boxeq{4.36}{
 dj=-\frac{\mu_{0}}{1+j/j_{s}}\, j\, dz,
 }
@@ -578,7 +578,7 @@ Enačbo (\ref{4.36}) brez težav integriramo
 \label{4.37}
 \end{equation}
 Z $j_{0}$ smo označili začetno gostoto svetlobnega toka. Kadar je ta dosti
-manjša od $j_{s}$, lahko drugi člen v gornji enačbi zanemarimo in gostota svetlobnega
+manjša od $j_{s}$, lahko drugi člen v enačbi~(\ref{4.37}) zanemarimo in gostota svetlobnega
 toka eksponentno pojema (slika~\ref{fig:abs2})
 \begin{equation}
 j = j_0 e^{-\mu_0 z}.
@@ -672,7 +672,7 @@ stanjema (b). Pogosto so laserji štiri- ali večnivojski (c).}
 \begin{remark}
 Trinivojski laserski sistem na sliki~\ref{fig:3nivojski}\,b je pravzaprav 
 poseben primer bolj realističnega štiri\-nivojskega sistema\index{Štirinivojski sistem}, 
-pri katerem gornji črpalni nivo sovpada z gornjim laserskim nivojem. Sicer se tretji vzbujeni nivo, 
+pri katerem zgornji črpalni nivo sovpada z zgornjim laserskim nivojem. Sicer se tretji vzbujeni nivo, 
 v katerega črpamo, praviloma zelo hitro prazni v drugega vzbujenega in od tam počasi v prvega vzbujenega, 
 kot kaže slika~\ref{fig:3nivojski}\,c.
 Obravnava štirinivojskih sistemov je bolj zapletena od obravnave trinivojskih sistemov, 
@@ -721,7 +721,7 @@ N_{2}-N_{1}=\left(\frac{N_2}{N_1}-1\right)N_1=\left(\frac{A_{10}-A_{21}}{A_{21}+
 B_{21}g\,w}\right)\,\frac{rN}{A_{10}}.
 \label{4.42}
 \end{equation}
-Iz gornje enačbe sledi, da je zasedenost obrnjena\index{Obrnjena zasedenost}, 
+Sledi, da je zasedenost obrnjena\index{Obrnjena zasedenost}, 
 kadar je $A_{10}>A_{21}$, torej kadar je
 razpadni čas stanja $|1\rangle$ krajši od razpadnega časa stanja $|2\rangle$.
 Tak rezultat smo seveda pričakovali.
@@ -955,7 +955,7 @@ V stacionarnem stanju je odvod enak nič in dobimo
 Porazdelitev ${\cal Z}(v)$ je podobna nemoteni porazdelitvi atomov
 po hitrosti ${\cal N}(v)$, le da je pri hitrosti $v=(\omega_{0}-\omega_S)/k$
 zmanjšana zaradi vpliva vpadne svetlobe. Atomi s to hitrostjo namreč svetlobo
-absorbirajo in s tem prehajajo v gornje stanje. V porazdelitvi
+absorbirajo in s tem prehajajo v zgornje stanje. V porazdelitvi
 atomov tako nastane vdolbina\index{Bennettova vdolbina}, ki jo imenujemo
 Bennettova vdolbina\footnote{Ameriški fizik William Ralph Bennett Jr., 1930--2008.} 
 (slika \ref{fig:Bennet}). Širina vdolbine je določena
@@ -987,6 +987,7 @@ v prvem približku Lorentzovo funkcijo $g$ v enačbi (\ref{4.90}) nadomestimo ka
 $\delta(\omega)$. V izrazu za $\cal Z$ (enačba~\ref{4.88}) jo pustimo. 
 Tako je absorpcijski koeficient za šibko testno svetlobo 
 \begin{align}
+\label{eq:mumumu}
 \mu(\omega^{\prime}) & =  \frac{\hslash\omega^{\prime}}{k'c}B\frac{{\cal N}
 (\frac{\omega_0-\omega'}{k'})}{1+\frac{2Bj}{Ac}g(\omega_S-\omega')} \\ \nonumber 
  & \approx  \hslash B{\cal N}\left(\frac{\omega_0-\omega'}{k'}\right)\left(1-\frac{2Bj}{Ac}g(\omega_S-\omega')\right).
@@ -1005,7 +1006,7 @@ velik pomen.
 \end{remark}
 
 Izračunajmo še absorpcijski koeficient za prvi, močan vpadni snop, tako da v
-gornjem izrazu vstavimo $\omega^{\prime}=\omega_S$. Vodilni člen ${\cal N}((\omega_0-
+enačbi~(\ref{eq:mumumu}) vstavimo $\omega^{\prime}=\omega_S$. Vodilni člen ${\cal N}((\omega_0-
 \omega_S)/k)$ opisuje običajno Gaussovo obliko Dopplerjevo
 razširjene črte, pri čemer izraz v oklepaju da zmanjšanje absorpcije
 zaradi nasičenja, ki je odvisno le od vrednosti $g(0)$ in zato enako za vse $\omega_S$. 
@@ -1211,7 +1212,7 @@ A_{21}=\frac{\pi \mathcal{V}^{2}}{2\hslash\epsilon_{0}}\int\rho(\omega_{\alpha})
  pri čemer smo z $\omega_{0}=(E_{2}-E_{1})/\hslash$ označili frekvenco prehoda. Tako smo 
  izpeljali vrednost Einsteinovega koeficienta $A_{21}$. 
 \begin{remark}
-Pri gornjem izračunu Einsteinovega koeficienta $A_{21}$ smo privzeli, da so vsi dipoli urejeni  
+Pri izračunu Einsteinovega koeficienta $A_{21}$ smo privzeli, da so vsi dipoli urejeni  
  v smeri jakosti električnega polja svetlobe. Če želimo rezultat izenačiti s koeficientom, ki smo ga vpeljali
  za izotropno sevanje črnega telesa, ga moramo pomnožiti s faktorjem $\langle \cos^2\vartheta
  \rangle = 1/3$.
@@ -1247,10 +1248,9 @@ Planckove formule (enačba~\ref{4.27}). Prehojena pot jasno kaže zvezo med spon
 stimuliranim sevanjem ter gostoto stanj elektromagnetnega polja. 
 
 \section{*Rabijeve oscilacije}
-Če je svetloba, ki vpada na dvonivojski sistem, zelo močna, lahko v primeru, da je frekvenca 
-vpadne svetlobe $\omega$ blizu frekvence prehoda $\omega_0$, pride do periodične 
-izmenjave energije med 
-svetlobnim poljem in dvonivojskim sistemom.\index{Dvonivojski sistem} 
+Če je svetloba, ki vpada na dvonivojski sistem, zelo močna, se lahko v primeru, da je frekvenca 
+vpadne svetlobe $\omega$ blizu frekvence prehoda $\omega_0$, energija med 
+svetlobnim poljem in dvonivojskim sistemom periodično izmenjuje.\index{Dvonivojski sistem} 
 Oscilacije števila fotonov oziroma pričakovane 
 vrednosti zasedenosti nivojev\index{Rabijeve oscilacije} imenujemo Rabijeve 
 oscilacije\footnote{Ameriški fizik in nobelovec Isidor Isaac Rabi, 1898--1988.}. 
