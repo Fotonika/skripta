@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '10_Vodnik.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{984.65615234bp}%
+    \setlength{\unitlength}{923.11514282bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,13 +51,16 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.23846024)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{10_Vodnik.pdf}}%
-    \put(0.31602979,0.14707638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta$}}}%
-    \put(0.27273125,0.14757937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta$}}}%
-    \put(0.19384137,0.12646273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\beta$}}}%
-    \put(0.03148713,0.08672596){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\alpha$}}}%
-    \put(0.56256841,0.13958829){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
-    \put(0.53378593,0.20949149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2 < n_1$}}}%
-    \put(0.53393809,0.01458818){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2 < n_1$}}}%
+    \put(0.31765472,0.15032625){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta$\end{tabular}}}}%
+    \put(0.27435618,0.15082923){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta$\end{tabular}}}}%
+    \put(0.21334056,0.12808766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\beta$\end{tabular}}}}%
+    \put(0.03148713,0.08672596){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\alpha$\end{tabular}}}}%
+    \put(0.56256841,0.13958829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_1$\end{tabular}}}}%
+    \put(0.53378593,0.20949149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_2 < n_1$\end{tabular}}}}%
+    \put(0.53393809,0.01458818){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_2 < n_1$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{10_Vodnik.pdf}}%
   \end{picture}%
 \endgroup%
