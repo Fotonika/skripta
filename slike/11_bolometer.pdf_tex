@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_bolometer.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{508.12373124bp}%
+    \setlength{\unitlength}{966.95907473bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,11 +50,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.35354352)%
+  \begin{picture}(1,0.2619015)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_bolometer.pdf}}%
-    \put(0.36125094,0.02339592){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{hladilni sistem}$}}}%
-    \put(0.37940718,0.21970286){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{termometer}$}}}%
-    \put(0.04870844,0.20729668){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.1874596,0.31848974){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{po\v crnjena plast}$}}}%
+    \put(0.21969577,0.01229422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{hladilni sistem}$\end{tabular}}}}%
+    \put(0.22923663,0.11545083){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{termometer}$\end{tabular}}}}%
+    \put(0.05545898,0.10893155){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.1283708,0.16736198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{po\v crnjena plast}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_bolometer.pdf}}%
+    \put(-0.00186332,0.2383297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.61174526,0.2383297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%
 \endgroup%
