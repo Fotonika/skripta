@@ -818,7 +818,7 @@ Izračunajmo razliko med časom, ki ga za širjenje po vlaknu dane dolžine
 potrebuje osnovni rod, in časom, ki ga za isto razdaljo potrebuje zadnji še dovoljeni rod.
  
 Osnovnemu rodu ustreza prva rešitev sekularne enačbe (enačba~\ref{sekular1}) in je zato pripadajoča 
-vrednost $k_x$ zelo majhna. V prvem približku je $k_s \approx 0$. Ustrezno valovno 
+vrednost $k_x$ zelo majhna. V prvem približku je $k_x \approx 0$. Ustrezno valovno 
 število je po enačbi
 \begin{equation}
 \beta = \sqrt{\left( \frac{\omega}{c_0}\right)^2n_1^2 - k_x(\omega)^2}
@@ -846,10 +846,9 @@ Podaljšanje sunka zaradi rodovne disperzije je potem
 \frac{L}{c_0} (n_1-n_2).
 }
 Največja frekvenca modulacije vhodnega signala, pri kateri izhodne sunke še zaznamo ločeno,
-je približno obratno sorazmerna z dolžino izhodnih sunkov. Za $1~\si{\kilo\meter}$ dolgo vlakno z 
+je približno obratna vrednost dolžine izhodnih sunkov. Za $1~\si{\kilo\meter}$ dolgo vlakno z 
 $\Delta n = 0,05$  je tako modulacijska frekvenca oziroma količina podatkov v časovni
-enoti le 
-okoli $10~\si{\mega\hertz}$. Čeprav lahko disperzijo zmanjšamo 
+enoti manj od $10~\si{\mega\hertz}$. Čeprav lahko disperzijo zmanjšamo 
 s paraboličnim profilom lomnega količnika, so večrodovna vlakna za prenos podatkov na dolge 
 razdalje praktično neuporabna.
 \begin{remark}
@@ -862,7 +861,7 @@ razdalje praktično neuporabna.
 
 \subsection*{Materialna disperzija}
 \index{Disperzija!materialna}
-Optična vlakna so navadno narejena iz stekla, katerega lomni količnik je odvisen 
+Optična vlakna so navadno iz stekla, katerega lomni količnik je odvisen 
 od valovne dolžine svetlobe. Zaradi tako imenovane materialne ali snovne disperzije različne 
 spektralne komponente svetlobnega sunka po vlaknu potujejo z različnimi hitrostmi 
 in sunek se po prehodu skozi vlakno podaljša. Pri obravnavi\index{Disperzija!snovna |see{Disperzija, materialna}}
@@ -895,7 +894,8 @@ Njegova vrednost je lahko pozitivna ali negativna, zato smo v končnem izrazu za
 sunka dodali absolutno vrednost. V snoveh, ki jih uporabljamo za izdelavo optičnih vlaken, 
 je $D_m \sim 10~\si{\pico\second/\nano\meter\, \kilo\meter}$, lahko pa seže
 tudi do več $100~\si{\pico\second/\nano\meter\, \kilo\meter}$, odvisno seveda od valovne dolžine
-in izbrane snovi.
+in izbrane snovi.\footnote{Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, 
+Irwin (1995).}
 
 Materialno disperzijo lahko zmanjšamo na več načinov. Lahko uporabimo čim bolj enobarven
 vir svetlobe, da zmanjšamo $\Delta \omega$. Za izbrano snov lahko celo izberemo valovno 
@@ -928,7 +928,8 @@ $D_v \sim 1$--$10~\si{\pico\second/\nano\meter\,\kilo\meter}$.
 Znaten postane v enorodovnih vlaknih v območju, kjer je materialna disperzija 
 zelo majhna ali celo enaka nič. 
 V vlaknih s homogeno sredico se valovodni disperziji ne moremo
-izogniti, vendar jo lahko pri dani valovni dolžini približno izničimo z materialno~(slika~\ref{fig:MatVal}). 
+izogniti, vendar jo lahko pri dani valovni dolžini približno izničimo z materialno~(slika~\ref{fig:MatVal}).\footnote{Slika povzeta po C. R. Pollock, {\it 
+Fundamentals of Optoelectronics}, Irwin (1995).}
 
 Ker ima sunek svetlobe vedno neko končno spektralno širino, disperzije 
 v optičnem vlaknu nikoli ne moremo povsem odpraviti. Pri celotni disperziji 
@@ -985,8 +986,8 @@ a\left(z,t\right)=\int \tilde{A}(\omega)\, e^{i \beta (\omega) z - i\omega t}d\o
 Osnovni sunek naj bo približno monokromatičen s krožno frekvenco $\omega_{0}$. Ta naj bo dovolj 
 velika, da lahko privzamemo, da je sunek mnogo daljši od optične periode.
 
-Potem lahko $\beta(\omega)$
-razvijemo okoli $\omega_{0}$, pri čemer vpeljemo razliko krožnih frekvenc $\Omega = \omega - \omega_0$
+Razvijmo $\beta(\omega)$
+okoli $\omega_{0}$, pri čemer vpeljemo razliko krožnih frekvenc $\Omega = \omega - \omega_0$
 \begin{equation}
 \beta(\omega_0 + \Omega) \approx \beta(\omega_{0})
 +\frac{d\beta}{d\omega}\,\Omega+\frac{1}{2}\,\frac{d^{2}\beta}{d\omega^{2}}\,\Omega^{2} = 
@@ -1096,7 +1097,7 @@ A\left(\zeta,\tau\right)=\frac{A_{0}}{\sqrt{1+\frac{\zeta^{2}
 \left(-i\frac{\mu\tau^{2}}{2b}\right)e^{i\phi\left(\zeta\right)}.
 \label{9.72}
 \end{equation}
-Pri tem za $\sigma$ velja enaka zveza kot za polmer 
+Za $\sigma$ velja enaka zveza kot za polmer 
 Gaussovega snopa (enačba~\ref{eq:w})
 \boxeq{9.73}{
 \sigma^{2}=\sigma_{0}^{2}\left(1+\left(\frac{\zeta}{\zeta_{0}}\right)^{2}\right).
@@ -1106,18 +1107,6 @@ kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R})
 ustreza količina $b=\zeta\left(1+\zeta_{0}^{2}/\zeta^{2}\right)$.
 Po analogiji s snopi lahko sklepamo, da se najmanj 
 podaljšuje ravno sunek z Gaussovo časovno odvisnostjo. 
-
-Zanimivo je pogledati odvod faze po $\tau$, ki predstavlja spremembo krožne
-frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$
-\begin{equation}
-\omega-\omega_{0}=\frac{\mu\tau}{b}.
-\label{9.74}
-\end{equation}
-Za pozitivne vrednosti $\mu$ je krožna frekvenca na začetku sunka,
-to je pri $\tau<0$, manjša od $\omega_0$, z naraščajočim časom pa se 
-linearno povečuje proti koncu sunka. Obnašanje je zelo podobno čirikanju, 
-ki ga bomo spoznali pri obravnavi nelinearne optike (slika~\ref{fig:chirp}\,a). \index{Čirikanje}
-
 \begin{figure}[h]
 \centering
 \def\svgwidth{120truemm} 
@@ -1128,6 +1117,18 @@ narašča premer Gaussovega snopa $2w$ z oddaljenostjo od grla. Znotraj $\zeta_0
 še ne podaljša znatno.}
 \label{fig:Gausstau}
 \end{figure}
+
+Zanimivo je pogledati odvod faze po $\tau$, ki predstavlja spremembo krožne
+frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$
+\begin{equation}
+\omega-\omega_{0}=\frac{\mu\tau}{b}.
+\label{9.74}
+\end{equation}
+Za pozitivne vrednosti $\mu$ je krožna frekvenca na začetku sunka,
+to je pri $\tau<0$, manjša od $\omega_0$, z naraščajočim časom pa se 
+linearno povečuje proti koncu sunka. Obnašanje je zelo podobno čirikanju, 
+ki ga bomo spoznali pri obravnavi nelinearnih optičnih pojavov (slika~\ref{fig:chirp}\,a). \index{Čirikanje}
+\vglue-5truemm
 \begin{remark}
 Pri $\zeta=0$ je sunek najkrajši možen pri dani spektralni
 širini. Lahko si mislimo, da je sunek najkrajši,
@@ -1171,16 +1172,19 @@ valovodni disperziji (enačba~\ref{dispVal}).
 \index{Disperzija!kompenzacija}
 \label{kompdisp}
 Razširitev sunka zaradi pozitivne disperzije je pri $\mu > 0$ mogoče kompenzirati
-s parom vzporednih uklonskih mrežic, kot kaže slika~\ref{fig:comp}.\index{Uklonska mrežica}
+s parom vzporednih uklonskih mrežic.\index{Uklonska 
+mrežica}\footnote{E. B. Treacy, IEEE J. Quantum. Electron. $\mathbf{5}$, 454 (1969).}
 Prva mrežica različne frekvenčne komponente razkloni in druga ponovno
-zbere, vendar so pri tem optične poti za različne komponente različno dolge.
+zbere, vendar so pri tem optične poti za različne komponente različno 
+dolge (slika~\ref{fig:comp}).
 Vzporednost uklonskih mrežic zagotavlja vzporednost izhodnih žarkov,
 vendar so različne komponente vpadne svetlobe med seboj razmaknjene (slika~\ref{fig:comp}\,a).
 V praksi zato uporabimo ali dva para uklonskih mrežic ali 
-zrcalo, ki svetlobo usmeri po isti poti nazaj. 
+zrcalo, ki svetlobo usmeri po isti poti 
+nazaj.
 \begin{figure}[h]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{115truemm} 
 \input{slike/10_comp.pdf_tex}
 \caption{Kompenzacija disperzije z uklonskima mrežicama (a) in shema z
 oznakami za izpeljavo faznega premika (b)}
@@ -1221,7 +1225,8 @@ določene s širino spektra.
 
 \begin{remark}
 Postopek kompenzacije disperzije se uporablja za pridobivanje zelo močnih zelo
-kratkih sunkov svetlobe. Sunku iz fazno uklenjenega barvilnega\index{Laser!organska barvila} 
+kratkih sunkov svetlobe.\footnote{D. Strickland in G. Mourou, Opt. Comm. $\mathbf{56}$, 219 (1985).} 
+Sunku iz fazno uklenjenega barvilnega\index{Laser!organska barvila} 
 ali Ti:safirnega\index{Laser!Ti:safir}\index{Uklepanje faz}
 laserja se najprej v nelinearnem sredstvu razširi spekter, hkrati
 se sunek tudi časovno podaljša. Podaljšan sunek lahko ojačimo, česar 
@@ -1241,7 +1246,7 @@ Izgube so posledica predvsem absorpcije svetlobe v vlaknu,\index{Absorpcija}
 Rayleighovega\index{Rayleighovo sipanje} sipanja na fluktuacijah gostote, 
 sipanja na nečistočah in upognjenosti vlakna. Do izgub prihaja tudi na stikih 
 med vlakni. Za prenos na dolge
-razdalje je tako potreben razmeroma močen signal, ki ne sme biti premočen,
+razdalje je tako potreben razmeroma močen signal, a ne premočen,
 saj lahko v vlaknu pride do nelinearnih optičnih pojavov. V praksi zato 
 optični signal, ki potuje po čezoceanskih vlaknih, ojačujemo in s tem nadomestimo
 izgube.
@@ -1271,7 +1276,10 @@ izgube zaradi Rayleighovega sipanja. Z rdečo črto so označene skupne izgube.}
 \label{FibAbs}
 \end{figure}
 Slika~\ref{FibAbs} prikazuje odvisnost izgub od valovne dolžine 
-za dobro enorodovno vlakno iz kremenovega stekla. \index{Optično vlakno!enorodovno}
+za dobro enorodovno vlakno.\footnote{Slika povzeta po
+A. Yariv in P. Yeh, {\it Photonics}, šesta izdaja, Oxford
+University Press (2007).}
+\index{Optično vlakno!enorodovno}
 Celotne izgube (rdeča črta)
 so sestavljene iz vrste različnih prispevkov. 
 Pri kratkih valovnih dolžinah je absorpcija velika zaradi elektronskih prehodov
@@ -1300,7 +1308,7 @@ fluktuacije gostote pri hitrem ohlajanju ostanejo zamrznjene v vlaknu.
 S slike~\ref{FibAbs} je razvidno, da so skupne izgube najmanjše pri 
 okoli $1,55~\si{\micro\meter}$, zato se to območje največ uporablja za prenos signalov
 na velike razdalje. Izgube so tako majhne, da omogočajo prenos signala 
-do nekaj sto kilometrov brez vmesnega ojačevanja. Teh izgub na vlaknih se  
+več sto kilometrov brez vmesnega ojačevanja. Teh izgub se  
 ne bo dalo več kaj dosti izboljšati, saj so že zdaj na meji,
 določeni s termičnimi fluktuacijami. Pri dolžini optičnih zvez tako izgube niso več glavna
 omejitev, ampak je to popačitev signala zaradi disperzije.
@@ -1327,7 +1335,8 @@ enorodovno vlakno. Vlakno prenaša signal, vmes ga po potrebi ojačimo (A),
 nato z demultiplekserjem (DM) signal razstavimo na posamezne kanale, ki jih 
 zaznamo z ločenimi detektorji (D). Razlika v valovnih dolžinah med posameznimi signali 
 je tipično $0,8~\si{nm}$. Zanimivo je tudi, da so (de)multiplekserji pasivni in za 
-svoje delovanje ne potrebujejo elektrike.
+svoje delovanje ne potrebujejo elektrike.\footnote{Glej npr. B. E. A. Saleh in M. C. Teich, 
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 \begin{figure}[h]
 \centering
 \def\svgwidth{120truemm} 
@@ -1358,7 +1367,7 @@ Privzamemo, da je $R\gg a$ (slika~\ref{fig:bend}).
 \caption{K izračunu izgub v ukrivljenem vodniku}
 \label{fig:bend}
 \end{figure}
-
+\vglue-5truemm
 Zapišemo Helmholtzevo enačbo (enačba~\ref{eq:Helmholtz}) v cilindrični \index{Helmholtzeva enačba}
 geometriji
 \begin{equation}
@@ -1423,7 +1432,7 @@ polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne ja
 v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 \begin{figure}[h]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{100truemm} 
 \input{slike/10_Tunel.pdf_tex} 
 \caption{Lastni načini širjenja svetlobe po ravnem vodniku so analogni stanjem 
 delca v končni potencialni jami (a). Načini širjenja po ukrivljenem vodniku
@@ -1438,7 +1447,9 @@ lahko izgube iz vodnika (oziroma delež prepuščene svetlobe) zapišemo kot
 A \propto e^{-CR},
 \end{equation}
 pri čemer je $C$ konstanta, odvisna od lomnih količnikov sredice in plašča, od polmera vlakna 
-ter od valovne dolžine potujoče svetlobe.
+ter od valovne dolžine potujoče svetlobe.\footnote{Glej npr. A. Yariv in 
+P. Yeh, {\it Photonics}, šesta izdaja, Oxford
+University Press (2007).} 
 
 
 \subsection*{Ojačevanje v vlaknih}
@@ -1446,7 +1457,9 @@ ter od valovne dolžine potujoče svetlobe.
 Zaradi izgub pri prenosu signalov na več tisoč kilometrov dolge razdalje 
 je treba signal med prenosom ojačevati. To lahko naredimo elektronsko, kjer optični signal 
 pretvorimo v električnega, tega ojačimo in ga nato pretvorimo nazaj v optičnega. 
-Precej bolj priročna rešitev je optično ojačevanje v vlaknu samem. 
+Precej bolj priročna rešitev je optično ojačevanje v vlaknu 
+samem.\footnote{Glej npr. A. Ghatak in K. Thyagarajan, {\it Introduction to Fiber Optics}, 
+Cambridge University Press (1997).} 
 
 V ta namen se najpogosteje uporablja vlakno, dopirano z erbijevimi 
 ioni\footnote{EDFA - {\it Erbium-Doped Fiber Amplifier}, \index{Optično vlakno!dopirano z erbijem}
@@ -1495,7 +1508,8 @@ To naredimo tako, da vpadni val razvijemo po lastnih rodovih vlakna in iz ortogo
 sledi prekrivalni integral, ki ga moramo seveda ustrezno normirati. 
 
 Za sklopitev v rod, 
-označen z indeksoma $n$ in $m$, zapišemo prekrivalni integral kot
+označen z indeksoma $n$ in $m$, zapišemo prekrivalni integral 
+kot\footnote{Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
 \boxeq{10:prekint}{
 \eta = \frac{|\int E(x,y) E^*_{n,m}(x,y) dx\, dy|^2}
 {\left(\int |E(x, y)|^2 dx\,dy \right) \left(\int |E_{n,m}(x, y)|^2 
@@ -1511,7 +1525,9 @@ efektivnim polmerom (po enačbi~\ref{Marcuse}).
 Neposredna sklopitev svetlobe v optični vodnik preko plašča ni mogoča. V vodniku je namreč
 lomni količnik sredice vedno večji od lomnega količnika plašča, zato dovolj velikega vstopnega 
 kota, pod katerim bi se svetloba ujela v sredico, ni mogoče doseči. Za sklopitev preko stranice 
-zato uporabimo drugačen pristop, navadno s prizmo ali s periodično strukturo na vlaknu. 
+zato uporabimo drugačen pristop, navadno s prizmo ali s periodično strukturo na 
+vlaknu.\footnote{Glej npr. B. E. A. Saleh in M. C. Teich, 
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 
 V prvem primeru uporabimo prizmo (slika~\ref{fig:coupler}\,a). Lomni količnik prizme
 je pri tem večji od lomnega količnika plašča $n_p > n_2$.
@@ -1634,7 +1650,7 @@ sklopita in energijski tok se prenese iz enega vodnika v drugega
 (slika~\ref{fig:fcoupler}). 
 \begin{figure}[h]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{90truemm} 
 \input{slike/10_fcoupler.pdf_tex} 
 \caption{Sklopitev med dvema vzporednima vodnikoma.}
 \label{fig:fcoupler}
@@ -1645,7 +1661,8 @@ in jih rešiti za sklopljen primer dveh vzporednih vodnikov. Tak račun je izred
 zato bomo uporabili približek šibke sklopitve in predpostavili, da so rodovi v vodnikih taki, 
 kot če bi vodniki ne bili sklopljeni.
 Sklopitev torej ne bo spremenila oblike lastnih rodov, bo pa spremenila njihove amplitude, ki 
-bodo tako postale odvisne od vzdolžne koordinate $z$.
+bodo tako postale odvisne od vzdolžne koordinate $z$.\footnote{Glej npr. B. E. A. Saleh in M. C. Teich, 
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 
 Imejmo dva enorodovna vodnika z lomnima količnikoma sredice $n_1$ in $n_2$ in enako 
 debelino $a$, med njima in okoli njiju pa naj bo snov z lomnim količnikom $n_0$. Širina 
