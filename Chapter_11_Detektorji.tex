@@ -705,7 +705,9 @@ ta tok teče skozi fotodiodo tudi v odsotnosti vpadne svetlobe.}\index{Temni tok
 in je navadno zelo majhen. Njegova vrednost je odvisna od snovi, površine
 detektorja, poleg tega je eksponentno odvisna od temperature. Znaša 
 tipično okoli $10^{-15}$--$10^{-5}~\si{\ampere}$, pri čemer najmanjše
-vrednosti dosežemo le ob močnem hlajenju. 
+vrednosti dosežemo le ob močnem hlajenju.\footnote{Glej npr. N. W. Ashcroft in 
+N. D. Mermin, {\it Solid State Physics}, Harcourt College
+Publishers (1976).}
 
 \begin{figure}[h]
 \centering
@@ -787,17 +789,19 @@ U = \frac{kT}{e_0}\ln \left(1+ \frac{I_f}{I_0}\right).
 Pri večji intenziteti vpadne svetlobe, ko se karakteristična krivulja 
 pomika navzdol (slika~\ref{11_IU}), se rešitev enačbe~(\ref{eq:fvd}) po abscisi premika proti desni.
 Večja intenziteta vpadne svetlobe pomeni večjo 
-pozitivno napetost na diodi, zato tudi odzivnost v tem primeru merimo v $\si{\volt}/\si{\watt}$.
-Pri dovolj velikih vpadnih močeh je zveza med vpadno močjo in fotonapetostjo
+pozitivno napetost na diodi, zato tudi odzivnost v tem primeru merimo v enotah $\si{\volt}/\si{\watt}$.
+Pri dovolj velikih vpadnih močeh -- oziroma dovolj velikem $I_f$ -- je
+zveza med vpadno močjo in fotonapetostjo
 logaritemska. Fotovoltaična oziroma odprta vezava fotodiode zato omogoča 
 zaznavanje vpadne moči v zelo širokem intervalu. 
 
 Drugi način delovanja je kratko sklenjena fotodioda (slika~\ref{11_PD}\,c).
 V tem primeru je \index{Fotodioda!kratko sklenjena} napetost na diodi 
 vedno enaka nič, prav tako ni toka skozi diodo v odsotnosti svetlobe. 
-Ko posvetimo na diodo, nastanejo pari elektron--vrzel in steče električni tok.
-Tok skozi tokokrog je v primeru kratko sklenjene diode kar enak toku 
-zaradi vpadne svetlobe $I_f$ (slika~\ref{11_IU}).
+Ko posvetimo na diodo, nastanejo pari elektron--vrzel in električni tok steče
+v zaporni smeri. Tudi iz enačbe~(\ref{11:fotodioda}) vidimo, da je tok 
+skozi tokokrog v primeru kratko sklenjene diode ($U=0$) kar enak toku 
+zaradi vpadne svetlobe $I_f$ (slika~\ref{11_IU}). 
 
 Najbolj splošno uporaben način za detekcijo svetlobe je način, v katerem 
 napetost na diodo priključimo v zaporni smeri (slika~\ref{11_PD}\,b).\index{Fotodioda!zaporna smer}
@@ -818,7 +822,7 @@ zavzame največjo vrednost. Poišči $R$ za primer $I_0 = 10^{-9}~\si{A}$, $I_f 
 in $T=300~\si{K}$.
 \end{definition}
 
-Prednosti merjenja ob napetosti v zaporni smeri je več. 
+Prednosti merjenja ob napetosti, priključeni v zaporni smeri, je več. 
 Zaradi priključene napetosti se zmanjša čas preleta
 nosilcev naboja in posledično se zmanjša odzivni čas detektorja.\index{Detektor!odzivni čas}
 Dodatno se poveča širina izpraznjenega pasu (naloga~\ref{naloga:depl}), kar zmanjša kapaciteto spoja 
@@ -828,7 +832,8 @@ izpraznjena plast vodi tudi do večjega območja, v katerem se fotoni absorbiraj
 
 \begin{definition}
 \label{naloga:depl}
-Pokaži, da je debelina izpraznjene plasti enaka $d = d_p+d_n$, kjer sta 
+Pokaži, da je debelina izpraznjene plasti enaka $d = d_p+d_n$, kjer sta $d_p$ (debelina izpraznjene
+plasti na strani $p$) in $d_n$ (debelina izpraznjene plasti na strani $n$) podana z enačbama 
 \beq
 d_{p}= \sqrt{\frac{2\epsilon \varepsilon_0(\Delta E_0-e_0U)}{e_0}\frac{N_d/N_a}{N_a+N_d}}
 \quad\mathrm{in}\quad 
@@ -869,12 +874,13 @@ Poleg do zdaj obravnavanih fotodiod poznamo tudi heterostrukturne
 narejena iz druge snovi. Poseben primer so Schottkyjeve fotodiode\footnote{Nemški fizik
 Walter Hans Schottky, 1886--1976.}, kjer eno plast polprevodnika
 nadomestimo z zelo tanko plastjo kovine (slika~\ref{11_shema}\,c). Te so uporabne predvsem pri 
-visokih energijah (v UV območju), \index{Fotodioda!Schottkyjeva}\index{Ultravijolično valovanje}
+visokih energijah (v UV območju, slika~\ref{11_odziv}), \index{Fotodioda!Schottkyjeva}\index{Ultravijolično valovanje}
 saj je v navadnih fotodiodah absorpcija za te valovne dolžine prevelika, na površini pride do 
-rekombinacije in zmanjšanja kvantnega izkoristka (slika~\ref{11_odziv}). 
+rekombinacije in zmanjšanja kvantnega izkoristka.\footnote{Glej npr. G. Rieke, {\it Detection 
+of light}, druga izdaja, Cambridge University Press (2002).}  
 Odziv Schottkyjevih fotodiod je zelo hiter, 
 saj nizka upornost kovine občutno zmanjša $RC$ konstanto spoja. Odzivni časi 
-dosegajo pikosekundne vrednosti. 
+dosegajo pikosekundne vrednosti.
 \end{remark}
 
 \subsection*{Fotodioda $\textbf{\textit{p}}$-$\textbf{\textit{i}}$-$\textbf{\textit{n}}$}
@@ -886,10 +892,14 @@ Povečanje izpraznjene plasti omogoča zaznavanje bistveno večjega deleža vpad
 poleg tega zmanjša kapaciteto spoja in s tem njegovo $RC$ konstanto. Slabost dodatnega
 sloja je povečanje časa preleta čez izpraznjeno plast, vendar lahko
 z ustrezno optimizacijo konstrukcije dosežemo odzivne čase nekaj deset $\si{ps}$.
+Kvantni izkoristki $p$-$i$-$n$ so visoki, a seveda odvisni od valovne dolžine svetlobe
+(slika~\ref{11_odziv}).\footnote{Slika povzeta po S. M. Sze in M. K. Lee, {\it Semiconductor Devices: Physics
+and Technology}, 
+tretja izdaja, John Wiley \& Sons, Inc. (2012).}
 
 \begin{figure}[h]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/11_SpekterFD.pdf_tex}
 \caption{Kvantni izkoristek nekaterih $p$-$i$-$n$ (Si in Ge) in Schottkyjevih (Au-Si in Ag-ZnS)
 fotodiod}
@@ -912,7 +922,7 @@ uporabimo za detekcijo posameznih fotonov. Slabost je, da je faktor ojačenja od
 temperature in je zato za natančne meritve potrebna temperaturna stabilizacija.
 \begin{figure}[h]
 \centering
-\def\svgwidth{70truemm} 
+\def\svgwidth{60truemm} 
 \input{slike/11_plaz.pdf_tex}
 \caption{Karakteristika plazovne fotodiode}
 \label{11_plaz}
@@ -959,7 +969,10 @@ okoli $6~\si{\micro\meter}$) ali plazovnih fotodiod.\index{Fotodioda!plazovna}\i
 \subsection*{CCD}
 Detektorji CCD\index{Detektor!CCD} so sestavljeni iz posameznih tako imenovanih MOS 
 ({\it Metal-Oxide-Semiconductor}
--- kovina-oksid-polprevodnik) kondenzatorjev. Njihova osnova je dopiran silicij\index{Silicij}, vmesna 
+-- kovina-oksid-polprevodnik) kondenzatorjev. \footnote{Glej npr. 
+S. M. Sze in M. K. Lee, {\it Semiconductor Devices: Physics and Technology}, 
+tretja izdaja, John Wiley \& Sons, Inc. (2012).}
+Njihova osnova je dopiran silicij\index{Silicij}, vmesna 
 plast med polprevodnikom in prevodno elektrodo pa je navadno zelo tanka plast (pod $100~\si{nm}$)
 SiO$_2$ (slika~\ref{11_MOS}).\index{SiO$_2$}
 Prevodna elektroda je bila prvotno iz kovine (npr. aluminija) in je elementu detektorja dala tudi ime.
@@ -972,7 +985,8 @@ Tipična dolžina stranice posameznega elementa znaša okoli $5$--$40~\si{\micro
 \caption{Shema MOS strukture (a), na kateri temeljijo CCD in CMOS slikovni detektorji. Osnova je 
 polprevodnik ($p$), na katerem je plast dielektrika (SiO$_2$) in na njej elektroda (siva). 
 Ob absorpciji svetlobe se pojavijo fotoelektroni, katere pozitivna napetost
-na elektrodi drži ujete v potencialno jamo (vijolična). Prenos elektronov v detektorju CCD (b).}
+na elektrodi drži ujete v potencialno jamo (vijolična). S spreminjanjem napetosti
+na sosednjih elektrodah lahko elektrone premikamo (b).}
 \label{11_MOS}
 \end{figure}
 
@@ -1008,13 +1022,13 @@ zmanjšati.
 \def\svgwidth{100truemm} 
 \input{slike/11_CCD.pdf_tex}
 \caption{Shema zajemanja slike s slikovnima detektorjema CCD (a) in  CMOS (b). Puščice označujejo premikanje
-fotoelektronov.}
+fotoelektronov ob odčitavanju slike.}
 \label{11_CCD}
 \end{figure}
 
 \begin{remark}
 Pri zajemanju slike pogosto ne potrebujemo največje ločljivosti, ki jo omogoča detektor. 
-Zato se pogosto poslužujemo združevanja sosednjih elementov, t.\ i.\ bininga ({\it binning}), 
+Takrat se poslužujemo združevanja sosednjih elementov, t.\ i.\ bininga ({\it binning}), 
 na primer $2\times2$ ali $4\times4$. Z združevanjem pikslov sicer zmanjšamo ločljivost slike, 
 vendar hkrati skrajšamo čas njenega zajemanja in zmanjšamo razmerje signal proti šumu. 
 \index{Bining|see {Združevanje pikslov}}\index{Združevanje pikslov}
@@ -1070,9 +1084,9 @@ emisijo elektronov in
 
 \subsection*{Šum štetja} 
 Naj na detektor vpada svetloba s konstantno vpadno 
-močjo $P$. Ker je svetloba sestavljena iz diskretnih fotonov, fotoni na detektor vpadajo posamično 
-in enkrat jih vpade malo več, \index{Šum!štetja}
-drugič malo manj. Vpadna moč je zato dejansko povprečna moč $\overline{P}$ in število 
+močjo $P$. Ker je svetloba sestavljena iz diskretnih fotonov, 
+fotoni na detektor vpadajo posamično in enkrat jih vpade več, \index{Šum!štetja}
+drugič manj. Vpadna moč je zato dejansko povprečna moč $\overline{P}$ in število 
 vpadnih fotonov na časovno enoto $\Phi$ je povprečna vrednost števila vpadnih fotonov na časovno enoto
 \begin{equation}
 \overline{\Phi} = \frac{\overline{P}}{h\nu}.
@@ -1117,7 +1131,8 @@ in da je standardni odklon $\sigma = \sqrt{\overline{n}}$.
 \end{definition}
 
 Absolutni šum nas večinoma ne zanima, 
-saj je pri detekciji ključno razmerje med signalom in šumom.\index{Razmerje signal proti šumu} 
+saj je pri detekciji ključno razmerje med merjenim 
+signalom in šumom.\index{Razmerje signal proti šumu} 
 Označimo ga s $SNR$ ({\it Signal to Noise Ratio} --
 razmerje \index{SNR@$SNR$|see{Razmerje signal proti šumu}}
 signal proti šumu)\footnote{Pogosto se uporablja tudi oznako $S/N$. Tukaj smo jo 
@@ -1145,7 +1160,7 @@ Zaradi kvadratne zveze med električnim tokom in električno močjo velja
 $SNR_e=SNR^2={\overline{n}}$.
 \end{remark}
 
-Pri šumu štetja je ključna osnovna značilnost svetlobe, zato je ta vrsta šuma
+Pri šumu štetja je ključna diskretna narava fotonov, zato je ta vrsta šuma
 prisotna pri prav vseh načinih detekcije. Podrobneje si oglejmo, 
 kako se šum štetja izraža pri detekciji s fotodiodami. \index{Fotodioda}
 
@@ -1167,8 +1182,10 @@ in varianca izhodnega električnega toka
 \end{equation}
 pri čemer smo upoštevali enačbo~(\ref{varianca}). Vpeljemo še pasovno širino 
 detekcije\footnote{Pri detekciji signala navadno uporabljamo
-čas osvetlitve $\tau$ in pri telekomunikacijah pasovno širino $\Delta\nu_B$.}, ki je po 
-dogovoru $\Delta\nu_B = 1/(2\tau)$,
+čas osvetlitve $\tau$ in pri telekomunikacijah pasovno širino $\Delta\nu_B$.}
+\footnote{Glej npr. R. W. Boyd, 
+{\it Radiometry and the Detection of Optical Radiation}, John Wiley \& Sons, Inc. (1983).}, ki je 
+enaka $\Delta\nu_B = 1/(2\tau)$,
 in zapišemo\index{Pasovna širina detekcije}
 \boxeq{11:sum}{
 \overline{(\Delta I)^2} = 2 \overline{I}\,e_0\, \Delta\nu_B.
@@ -1204,7 +1221,9 @@ v katerem sta povezana upornik z upornostjo $R$ in kondenzator s kapaciteto $C$.
 napetosti ni, vendar se zaradi naključnega gibanja elektronov pojavljajo fluktuacije v 
 napetosti $\Delta U$, ki predstavljajo prostostno stopnjo v sistemu.  
 Iz termodinamike vemo, da je povprečna energija sistema, ki je v 
-ravnovesju, $kT/2$ na vsako prostostno stopnjo. Povprečna energija na kondenzatorju 
+ravnovesju, $kT/2$ na vsako prostostno stopnjo.\footnote{Glej
+npr. I. Kuščer in S. Žumer, {\it Toplota}, tretji natis, DMFA--založništvo (2017).}
+Povprečna energija na kondenzatorju 
 je pri napetosti $\Delta U$ tako enaka
 \begin{equation}
 \overline{W} = \frac{C\overline{(\Delta U)^2}}{2} = \frac{kT}{2}.
@@ -1217,14 +1236,16 @@ Največja povprečna moč, ki jo lahko dobimo iz takega vezja zaradi šuma, je e
 pri čemer $\Delta I$ označuje fluktuacije električnega toka skozi upornik.
 Velja tudi zveza
 \begin{equation}
-\overline{W} = \overline{P}\tau,
+\overline{W} = \overline{P}\tau_e,
 \end{equation}
-pri čemer je $\tau$ odzivni čas vezja in je enak $\tau = RC$. Sledi 
+pri čemer je $\tau_e$ odzivni čas vezja in je enak $\tau_e = RC$. Sledi 
 \begin{equation}
 \overline{(\Delta I)^2} = \frac{kT}{R^2C}.
 \end{equation}
 Vpeljemo še pasovno širino detekcije, ki je v primeru eksponentnega odziva vezja enaka
-$\Delta \nu_B = 1/4\tau = 1/4RC$. Iz tega sledi zveza
+$\Delta \nu_B = 1/4\tau_e = 1/4RC$.\footnote{Glej npr. R. W. Boyd, 
+{\it Radiometry and the Detection of Optical Radiation}, John Wiley \& Sons, Inc. (1983).} 
+Iz tega sledi zveza
 \boxeq{11:termicnii}{
 \overline{(\Delta I)^2}  = \frac{4 kT\Delta \nu_B}{R}.
 }
@@ -1247,7 +1268,8 @@ nek majhen izhodni signal tudi v odsotnosti vpadne svetlobe.
 \index{Temni tok}To je tako imenovani temni tok, ki je posledica
 spontanih nastankov para elektron--vrzel ali spontane emisije elektronov. 
 Izraza za temni tok tukaj ne bomo 
-izpeljevali\footnote{Glej npr. N. W. Ashcroft in N. D. Mermin, {\it Solid State Physics}.},
+izpeljevali\footnote{Glej npr. N. W. Ashcroft in N. D. Mermin, {\it Solid State Physics}, Harcourt College
+Publishers (1976).},
 povejmo le, da je sorazmeren s površino diode $S$ in 
 eksponentno odvisen od temperature $T$ in energijske reže polprevodnika $E_g$
 \begin{equation}
@@ -1297,7 +1319,9 @@ pri čemer $P_o$ označuje moč vpadne svetlobe iz ozadja.
  povečajo tudi šum štetja, šum ozadja in šum temnega toka. Poleg tega se šum ojači
  zaradi naključnega večanja števila elektronov med pomnoževanjem signala. V tem primeru nastopi
  še dodaten faktor, večji od ena, ki je odvisen od snovi, strukture in ojačenja fotodetektorja. 
- Tipična vrednost je okoli $1,5$--$2$, vendar lahko doseže vrednosti tudi nad $10$.
+ Tipična vrednost je okoli $1,5$--$2$, vendar lahko doseže vrednosti tudi nad 
+ $10$.\footnote{Glej npr. B. E. A. Saleh in M. C. Teich, 
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 \end{remark}
 
 \subsection*{Seštevanje šumov}
@@ -1367,7 +1391,7 @@ karakteristična za detektor, ampak je odvisna od časa zajemanja. Podatek, ki
 ga navedejo proizvajalci detektorjev, je $NEP$ v enotah 
 $\si{\watt}/\sqrt{\si{\hertz}}$. Tipične vrednosti so 
 $10^{-11}$--$10^{-15}~\si{\watt}/\sqrt{\si{\hertz}}$, pri čemer najmanjše vrednosti
-dosegajo silicijeve fotodiode. \index{Silicij}
+dosegajo silicijeve fotodiode. \index{Silicij}\footnote{Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
 \end{remark}
 
 \section{Heterodinska detekcija}
@@ -1401,7 +1425,7 @@ poravnane\footnote{Dodaten pogoj je, da imata vpadna snopa isto polarizacijo in 
 podoben polmer.}, je intenziteta svetlobe, 
 ki vpada na detektor, enaka
 \begin{equation}
-I = |E|^2 = |E_s+E_r|^2 = E_{s0}^2 \, \cos^2(\omega_st+\phi)+
+I = |E_s+E_r|^2 = E_{s0}^2 \, \cos^2(\omega_st+\phi)+
 E_{r0}^2 \, \cos^2(\omega_rt) + 2E_{s0}E_{r0}\, \cos(\omega_st+\phi)\, \cos(\omega_rt).
 \end{equation}
 Prva dva člena v izrazu se zelo hitro spreminjata in zato predstavljata zgolj 
@@ -1458,4 +1482,6 @@ sledi, da je $SNR=1$ pri $P_{\mathrm{min}} = h\nu \Delta \nu_B/\eta$. Če poenos
 je izkoristek enak $\eta = 1$, potem najmanjša merljiva vpadna moč svetlobe ustreza
 enemu fotonu na $1/(\Delta\nu_B)$ časa. Ker detektor s pasovno širino $\Delta\nu_B$
 ne zaznava procesov, ki so hitrejši od $\sim 1/(\Delta\nu_B)$, je to hkrati časovna ločljivost
-detektorja. Najmanjša merljiva moč je torej en foton na enoto časovne ločljivosti detektorja.
+detektorja. Najmanjša merljiva moč je torej en foton na enoto časovne ločljivosti 
+detektorja.\footnote{Glej npr. A. Yariv in P. Yeh, {\it Photonics}, šesta izdaja, Oxford
+University Press (2007).}
