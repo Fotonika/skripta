@@ -25,7 +25,7 @@ skupaj kot frekvenčno oziroma fazno modulacijo\index{Elektro-optična modulacij
 
 Delovanje optičnih modulatorjev temelji na različnih pojavih. V tem poglavju bomo 
 podrobneje spoznali dva načina, to sta elektro-optični in elasto-optični pojav. 
-Pri prvem se lomni količnih spremeni pod vplivom zunanjega električnega polja in
+Pri prvem se lomni količnik spremeni pod vplivom zunanjega električnega polja in
 pri drugem zaradi mehanske deformacije. Kadar mehansko deformacijo povzroči zvočno valovanje, 
 takim modulatorjem pravimo akusto-optični. Na koncu bomo spoznali še zelo pomemben 
 primer elektro-optičnih modulatorjev na osnovi tekočih kristalov.
@@ -125,7 +125,10 @@ v enega z vrednostmi od 1 do 6 po dogovoru
 S tem $r_{ijk}$ postane matrika velikosti $6\times3$, simetrični tenzor drugega 
 ranga $b_{ij}$ pa šestdimenzionalen vektor.
 Nekaj primerov Pockelsovih tenzorjev pri različnih kristalnih simetrijah
-je podanih v tabeli~(\ref{table:Pockels}).
+je podanih v tabeli~(\ref{table:Pockels}).\footnote{A. G. Caba\~nes, J. M. C. Castillo, F. A. Lopez,
+v {\it Encyclopedia of Optical Engineering}, ur. R. G. Driggers, CRC Press (2003); A. Yariv in 
+P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007) in
+{\it CRC Handbook of Chemistry and Physics}, CRC Press (2002).}
 
 \begin{table}[h!]
  \centering
@@ -133,16 +136,16 @@ je podanih v tabeli~(\ref{table:Pockels}).
       Kristal & Grupa & Neničelne komponente tenzorja $r$ & Vrednost ($10^{-12}~\si{\m/\V}$)\\ \hline
       BaTiO$_3$\index{BaTiO$_3$} & 4mm & $r_{xzx} = r_{yzy} = r_{zxx} = r_{zyy} = 
       r_{51} = r_{42}$  &
-	    $r_{51} = 800$ \\
+	    $r_{51} = 1300$ \\
 	      & & $r_{xxz} = r_{yyz} = r_{13} = r_{23}$ &  $r_{13} = 8$ \\
-	      & & $r_{zzz} = r_{33}$ & $r_{33} = 28$ \\ \hline
+	      & & $r_{zzz} = r_{33}$ & $r_{33} = 105$ \\ \hline
       KDP\index{KDP} & 
       $\overline{4}$2m & $r_{yzx} = r_{zyx} = r_{xzy} = r_{zxy} = r_{41} = r_{52}$  &
 	    $r_{41} = 8,77$ \\
-	    & & $r_{xyz} = r_{yxz} = r_{63}$ &  $r_{63} = -10,3$ \\ \hline
+	    & & $r_{xyz} = r_{yxz} = r_{63}$ &  $r_{63} = 10,3$ \\ \hline
       GaAs\index{GaAs}\index{ZnTe} &  $\overline{4}$3m&
 	  $r_{yzx} = r_{zyx} = r_{xzy} = r_{zxy} = r_{xyz} = r_{yxz}$  & 
-	   $r_{41} = 1,5$ \\
+	   $r_{41} = 1,6$ \\
 	ZnTe  & &   $= r_{41} = r_{52}=r_{63}$  & $r_{41} = 4,2$ 
 	    \\ \hline
       LiNbO$_3$\index{LiNbO$_3$} & 3m & $r_{xzx} = r_{zxx} = r_{yzy} = r_{zyy} = r_{51} = r_{42}$  &
@@ -155,11 +158,11 @@ je podanih v tabeli~(\ref{table:Pockels}).
 \hline 
 \end{tabular}
   \caption{Koeficienti Pockelsovega tenzorja za nekaj izbranih snovi. Vrednosti so podane 
-  pri valovni dolžini $\sim 600~\si{nm}$, razen za BaTiO$_3$ (pri $1,55~\si{\micro\metre}$), 
-  GaAs ($10,6~\si{\micro\metre}$) in ZnTe ($3,4~\si{\micro\metre}$).}
+  pri valovni dolžini $\sim 600~\si{nm}$, razen za GaAs ($10,6~\si{\micro\metre}$) in 
+  ZnTe ($3,4~\si{\micro\metre}$).}
 \label{table:Pockels}
 \end{table}
-
+\vglue-5truemm
 \begin{remark}
 Komponente elektro-optičnega tenzorja zaradi nazornosti pogosto ponazarjamo grafično. V matriki $6\times 3$
 s piko označimo komponente, ki so enake nič, s polnim krožcem neničelne komponente, povezava med 
@@ -182,10 +185,10 @@ Navadno se uporabljajo kristali, ki so dvolomni že brez zunanjega polja.
 Kot primer vzemimo kristal KH$_{2}$PO$_{4}$ (KDP)\index{KDP}, ki ima tetragonalno 
 simetrijo ($\bar{4}2m$). Kot razberemo iz tabele~(\ref{table:Pockels}), ima 
 elektro-optični tenzor dve neodvisni komponenti: $r_{41} = r_{52}=8,77 \times 10^{-12}~\si{\m/\V}$
-in $r_{63}= -10,3 \times 10^{-12}~\si{\m/\V}$.
+in $r_{63}= 10,3 \times 10^{-12}~\si{\m/\V}$.
 
 Kristal naj bo odrezan po kristalografskih oseh. Svetloba naj skozi kristal potuje 
-v smeri optične osi, to je po dogovoru smer $z$ in v isti smeri na kristal priključimo
+v smeri optične osi, to je po dogovoru smer $z$, in v isti smeri na kristal priključimo
 polje $E_z$. Ker je smer električnega polja vzporedna s smerjo širjenja svetlobe, taki 
 postavitvi pravimo longitudinalna in pojavu longitudinalna 
 modulacija (slika~\ref{fig:amshema}).\index{Elektro-optična modulacija!longitudinalna} 
@@ -246,8 +249,8 @@ r_{63}E_z& 1/n_o^2 & 0\\
 snop, moramo tenzor $\underline{b}$ diagonalizirati. Lastne vrednosti novega tenzorja
 in pripadajoče nove lastne osi so
 \begin{align}
-\lambda_1 &= \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_1 = \frac{1}{\sqrt{2}}(1,1,0)\\
-\lambda_2 &= \frac{1}{n_o^2}- r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_2 = \frac{1}{\sqrt{2}}(-1,1,0)\\
+\lambda_1 &= \frac{1}{n_o^2}+ r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_1 = \frac{1}{\sqrt{2}}(1,1,0),\\
+\lambda_2 &= \frac{1}{n_o^2}- r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_2 = \frac{1}{\sqrt{2}}(-1,1,0),\\
 \lambda_3 &= \frac{1}{n_e^2} \qquad \mathrm{in} \qquad \mathbf{e}_3 = (0,0,1).
 \end{align}
 Os $z$ se ohranja, medtem ko sta drugi dve novi lastni osi zasukani za kot $45~\si{\degree}$ 
@@ -297,7 +300,7 @@ Nova lomna količnika sta tako
 n_{x'}&\approx n_o - \frac{1}{2}n_o^3 r_{63}E_z \quad \mathrm{in}\\
 n_{y'}&\approx n_o + \frac{1}{2}n_o^3 r_{63}E_z.
 }
-Svetloba različnih lastnih polarizacij ob priključenem zunanjem polju potuje vzdolž 
+Svetloba z različnima lastnima polarizacijama ob priključenem zunanjem polju potuje vzdolž 
 osi $z$ z različnima hitrostma. 
 Kadar polarizacija vpadnega valovanja ne sovpada z novima lastnima osema $x'$ ali $y'$, je 
 svetloba po preletu kristala na splošno eliptično polarizirana. Ko svetloba
@@ -412,7 +415,7 @@ naravne dvolomnosti odšteje, zaradi modulacijske napetosti pa sešteje.
 \label{chap:ampmod}
 \index{Elektro-optična modulacija!amplitudna}
 Poglejmo, kako lahko elektro-optični pojav izkoristimo za modulacijo
-amplitude svetlobnega snopa. Pod vplivom polja se v kristalu pojavi
+amplitude svetlobe. Pod vplivom polja se v kristalu pojavi
 fazni zamik med polarizacijama, ki je sorazmeren napetosti 
 (enačbi~\ref{phiAM} in \ref{fazaTM}).
 Če za tak kristal postavimo analizator, lahko z napetostjo spreminjamo 
@@ -451,7 +454,7 @@ j=\frac{1}{4}j_{0}\left|1-e^{i\Delta\phi}\right|^{2}=\frac{1}{2}j_{0}(1-\cos\Del
 \label{7.17}
 \end{equation}
 Preoblikujemo izraz in zapišemo prepustnost takega modulatorja ob upoštevanju 
-enačbe~(\ref{phiAM})
+zveze~(\ref{phiAM})
 \boxeq{AMfinal}{
 T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 = 
 \sin\left(\frac{\pi n_o^3 r_{63}U}{\lambda}\right)^2 .
@@ -587,7 +590,9 @@ Njihova amplituda je podana z vrednostjo Besslovih funkcij pri $\delta$.
 Ker je vrednost $\delta$ navadno majhna, za opis pogosto zadošča le prvi člen.
 
 \begin{remark}
-Elektro-optični pojav izkoriščamo tudi za uklanjanje žarkov. 
+Elektro-optični pojav izkoriščamo tudi za uklanjanje žarkov. \footnote{Glej npr. 
+B. E. A. Saleh in M. C. Teich, 
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 \index{Elektro-optični deflektor}
 Najpreprostejši primer deflektorja je trikotna prizma z elektrodama na osnovnih 
 ploskvah (slika~\ref{fig:deflshema}). Svetloba se ob prehodu skozi prizmo lomi v odvisnosti od njenega 
