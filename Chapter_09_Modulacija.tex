@@ -572,11 +572,11 @@ je izhodno polje mogoče zapisati v obliki
 \boxeq{fmJA}{
 \begin{split}
 \frac{E}{E_0} &= J_0(\delta)\cos(\omega_0 t)+ \\
-&+J_1(\delta) \cos(\omega_0+\omega_m )t-
-J_1 (\delta) \cos(\omega_0 -\omega_m)t + \\ 
-&+J_2(\delta)\cos(\omega_0 +2\omega_m)t + 
-J_2(\delta)\cos(\omega_0 -2\omega_m)t+ \\
-&+ J_3(\delta)\cos(\omega_0 +3\omega_m)t - J_3(\delta)\cos(\omega_0 -3\omega_m)t+\ldots
+&+J_1(\delta) \cos\left((\omega_0+\omega_m)t\right)-
+J_1 (\delta) \cos\left((\omega_0 -\omega_m)t\right) + \\ 
+&+J_2(\delta)\cos\left((\omega_0 +2\omega_m)t\right) + 
+J_2(\delta)\cos\left((\omega_0 -2\omega_m)t\right)+ \\
+&+ J_3(\delta)\cos\left((\omega_0 +3\omega_m)t\right) - J_3(\delta)\cos\left((\omega_0 -3\omega_m)t\right)+\ldots
 \end{split}
 }
 \begin{definition}
@@ -587,10 +587,11 @@ polju v enačbi~(\ref{fmJA}).
 Zaradi periodične fazne modulacije priključne napetosti se v spektru izhodne svetlobe pojavijo stranski pasovi, ki se
 od osnovne krožne frekvence $\omega_0$ razlikujejo za večkratnike modulacijske krožne frekvence $\omega_m$. 
 Njihova amplituda je podana z vrednostjo Besslovih funkcij pri $\delta$.
-Ker je vrednost $\delta$ navadno majhna, za opis pogosto zadošča le prvi člen.
+Ker je vrednost $\delta$ navadno majhna, za opis pogosto zadoščata le člena pri $\omega_0+\omega_m$ in 
+$\omega_0-\omega_m$.
 
 \begin{remark}
-Elektro-optični pojav izkoriščamo tudi za uklanjanje žarkov. \footnote{Glej npr. 
+Elektro-optični pojav izkoriščamo tudi za uklanjanje žarkov.\footnote{Glej npr. 
 B. E. A. Saleh in M. C. Teich, 
 {\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 \index{Elektro-optični deflektor}
@@ -647,13 +648,14 @@ s spremembo inverznega dielektričnega tenzorja\index{Dielektričnost!inverzna}
 \end{equation}
 pri čemer je $\underline{\tilde{b}}$ tenzor v odsotnosti mehanske deformacije in
 $\delta\underline{b}$ sprememba tenzorja zaradi deformacije snovi. Deformacijo
-snovi v linearnem približku opišemo z Greenovim tenzorjem 
+snovi v linearnem približku opišemo z Greenovim tenzorjem
 \begin{equation}
 S_{kl}=\frac{1}{2}\left({\frac{\partial u_{k}}{\partial x_{l}}}+
 {\frac{\partial u_{l}}{\partial x_{k}}}\right),
 \label{7.28}
 \end{equation}
-pri čemer je $\mathbf{u}$ vektor deformacije. Spremembo tenzorja
+pri čemer je $\mathbf{u}$ vektor deformacije.\footnote{Glej npr. J. Strnad, 
+{\it Fizika 1. del}, druga izdaja, DMFA--založništvo (2016).} Spremembo tenzorja
 $\delta\underline{b}$ v prvem približku zapišemo kot 
 \boxeq{7.27}{
  \delta b_{ij}=p_{ijkl}S_{kl}.
@@ -682,10 +684,11 @@ p_{12} & p_{12}& p_{11}&0&0&0\\
 \label{tenzorp}
 \end{equation}
 pri čemer je $p_{44}= \frac{1}{2}(p_{11}-p_{12})$. Koeficienti tenzorja so 
-brezdimenzijski, njihova tipična vrednost je $p\sim0,1$. Za vodo, na primer, 
-velja $p_{11} \simeq p_{12} = 0,31$ in $p_{44} = 0$, za LiNbO$_3$\index{LiNbO$_3$} pa $p_{11} = -0,02, 
-p_{12} = 0,08, p_{13} = 0,13,  p_{14} = -0,08, p_{31} = 0,17, p_{33} = 0,07,
-p_{41} = -0,15, p_{44} = 0,12$.
+brezdimenzijski, njihova tipična vrednost je $p\sim0,1$. Za vodo 
+velja $p_{11} \simeq p_{12} = 0,31$ in $p_{44} = 0$, za LiNbO$_3$\index{LiNbO$_3$} pa $p_{11} = -0,034$, 
+$p_{12} = 0,072$, $p_{13} = 0,139$, $p_{14} = 0,066$, $p_{31} = 0,178$, $p_{33} = 0,06$,
+$p_{41} = 0,154$ in $p_{44} = 0,3$.\footnote{A. Yariv in 
+P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007)}
 
 Iz zveze $\underline{b} = \underline{\varepsilon}^{-1}$ in enačbe~(\ref{7.27}) izrazimo
 spremembo dielektričnega tenzorja 
@@ -711,11 +714,11 @@ deformacijo v snovi zapišemo kot
 Pokaži, da je taka snov dvolomna z optično osjo vzdolž osi $z$, lastni 
 lomni količniki pa so 
 \begin{align}
-n_{x'} &\approx n\left(1+\frac{1}{2}n^2p_{12}q A \sin (q z - \Omega t)\right)\\
-n_{y'} &\approx n\left(1+\frac{1}{2}n^2p_{12}q A \sin (q z - \Omega t)\right)\\
-n_z' &\approx n\left(1+\frac{1}{2}n^2p_{11}q A \sin (q z - \Omega t)\right),
+n_{x'} &\approx \tilde{n}+\frac{1}{2}\tilde{n}^3p_{12}q A \sin (q z - \Omega t),\\
+n_{y'} &\approx \tilde{n}+\frac{1}{2}\tilde{n}^3p_{12}q A \sin (q z - \Omega t) \qquad \mathrm{in}\\
+n_z' &\approx \tilde{n}+\frac{1}{2}\tilde{n}^3p_{11}q A \sin (q z - \Omega t),
 \end{align}
-kjer je $n$ lomni količnik v odsotnosti motnje.\index{Lomni količnik}
+kjer je $\tilde{n}$ lomni količnik v odsotnosti motnje.\index{Lomni količnik}
 \end{definition}
 
 \section{Uklon svetlobe na zvočnem valovanju}
@@ -728,7 +731,7 @@ v snovi vzbudimo stoječe valovanje.
 Zaradi zvočnega valovanja se v snovi periodično spreminja gostota in 
 z njo lomni količnik\index{Lomni količnik} (glej nalogo~\ref{nalogaAO})
 \begin{equation}
-n = \tilde{n} + \delta n \,\sin \left(\frac{2\pi}{\Lambda} x- \Omega t\right).
+n = \tilde{n} + \delta n \,\sin \left(2\pi x/\Lambda- \Omega t\right).
 \end{equation}
 V zgoščini je lomni količnik nekoliko večji kot v razredčini, zato je optična pot na takem mestu
 skozi plast daljša. Ravno svetlobno valovanje, ki vpada na plast pravokotno glede
@@ -745,10 +748,11 @@ daleč nad slišnimi, taka valovanja imenujemo zvočna oziroma akustična.
 \def\svgwidth{50truemm} 
 \input{slike/09_AOshema.pdf_tex}
 \caption{Zvočno valovanje v snovi deluje kot optična fazna mrežica in vpadna svetloba 
-se na njem uklanja.}
+se na njem uklanja. Debelina plasti je $d$, valovna dolžina zvočnega valovanja $\Lambda$
+in $\vartheta$ vpadni kot.}
 \label{fig:ao}
 \end{figure}
-\vglue-5truemm
+\vglue-3truemm
 Oglejmo si dva limitna primera. V prvem primeru je debelina plasti, 
 v kateri vzbujamo zvočno valovanje, zelo majhna in 
 $d \ll \Lambda^2/\lambda$ (slika~\ref{fig:ao_bragg}\,a).
@@ -770,15 +774,14 @@ Opazimo ga pri razmeroma nizkih zvočnih frekvencah
 kotu $\vartheta$.
 \begin{figure}[h]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/09_AO_1.pdf_tex}
 \caption{Ob vpadu svetlobe na tanko plast, v kateri je vzbujeno zvočno valovanje, se 
 pojavi veliko uklonskih vrhov (a). Na debeli plasti je opazen zgolj en uklonjen vrh in  
 še ta le ob izpolnjenem Braggovem pogoju (b).}
 \label{fig:ao_bragg}
 \end{figure}
-
-V nasprotnem limitnem primeru se svetloba uklanja na ravnih zvočnih valovih in modulator deluje 
+V nasprotnem limitnem primeru modulator deluje 
 kot debela uklonska mrežica. 
 Na splošno je delež uklonjene svetlobe na taki mrežici neuporabno majhen. 
 Znaten postane le tedaj, kadar je izpolnjen Braggov\index{Braggov uklon}
@@ -808,21 +811,22 @@ Tedaj je $|\mathbf{q}| = q=2k_{0}\sin\vartheta$
 (enačba~\ref{7.29a}). Obenem je vpadni kot enak izhodnemu, kar pomeni, da se na
 zvočnem valu Braggovo sipana svetloba zrcalno odbije.\index{Braggov odboj} Razmere so torej
 povsem analogne Braggovemu sipanju rentgenske svetlobe na kristalnih
-ravninah. Kot bomo pokazali v nadaljevanju, je ob izpolnjenem Braggovem pogoju mogoče doseči, 
+ravninah. Ob izpolnjenem Braggovem pogoju je mogoče doseči, 
 da se vsa vpadna svetloba uklanja.
 \begin{figure}[h]
 \centering
 \def\svgwidth{40truemm} 
 \input{slike/09_AO_3.pdf_tex}
-\caption{K izpeljavi Braggovega pogoja}
+\caption{K izpeljavi Braggovega pogoja. Vektorja $\mathbf{k}_0$ in $\mathbf{k}_1$ označujeta
+valovna vektorja vpadne in sipane svetlobe, $\mathbf{q}$ pa valovni vektor zvočnega vala.}
 \label{fig:ao_bragg3}
 \end{figure}
 \begin{remark}
 Naredimo še oceno, kdaj je v veljavi Raman-Nathov in kdaj Braggov režim. 
 Izhajamo iz pogoja, da je laserski snop na poti skozi plast zvočnega 
 valovanja tako ozek, da ostane v celoti znotraj
-ene razredčine ali zgoščine. Širino razredčin in zgoščin ocenimo na $\Lambda/2$, kar je  
-približno premer laserskega snopa $2w$. Dolžina, znotraj katere se snop še ne razširi znatno,
+ene razredčine ali zgoščine. Premer laserskega snopa $2w$ naj bo tako približno enak širini
+razredčin in zgoščin, ki jo ocenimo na $\Lambda/2$. Dolžina, znotraj katere se snop še ne razširi znatno,
 je območje bližnjega polja $2z_0 = 2 \pi w^2/\lambda$ (enačba~\ref{eq:z0}). Največja dolžina poti, pri 
 kateri je pogoj izpolnjen in snop ostane znotraj ene razredčine ali zgoščine, je tako
 \begin{equation}
@@ -906,8 +910,9 @@ Fourierevo transformiranko svetlobnega snopa pred lečo.
 \index{Akusto-optični pojav}
 Izračunajmo gostoto energijskega toka svetlobe, ki se uklanja na zvočnem valovanju. Izhajamo 
 iz valovne enačbe v nehomogenem sredstvu, kar je dokaj težaven problem
-in se moramo zateči k približkom. Uporabili bomo metodo sklopljenih valov. 
-\index{Metoda sklopljenih valov}
+in se moramo zateči k približkom. Uporabili bomo metodo sklopljenih 
+valov.\index{Metoda sklopljenih valov}\footnote{Glej npr. A. Yariv in 
+P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007)}
 
 Naj vzporeden snop zvočnega valovanja s širino $d$ in valovnim vektorjem $\mathbf{q}$ 
 potuje v smeri $x$.
@@ -935,7 +940,8 @@ $\delta P$\index{Električna polarizacija}
 \delta P = \varepsilon_0 \delta \varepsilon E = - \varepsilon_0 
 \tilde{\varepsilon}^2 p S_0 \sin(qx-\Omega t)E.
 \end{equation}
-Dodatna polarizacija v valovno enačbo doprinese nehomogen člen. Zapišemo\index{Valovna enačba}
+Dodatna polarizacija v valovno enačbo (enačba~\ref{eq:valovna-skalarna}) 
+doprinese nehomogen člen. Zapišemo\index{Valovna enačba}
 \begin{equation}
 \nabla^{2}E-\frac{\tilde{\epsilon}}{c^{2}}{\frac{\partial E^{2}}
 {\partial t^{2}}}=\mu_{0}{\frac{\partial^2 \delta P}{\partial t^{2}}},
@@ -992,7 +998,7 @@ Upoštevamo, da je
 k_{x}^{2}+k_{z}^{2}=k^{2}=\frac{\tilde{\epsilon}\omega^2}{c^{2}}
 \end{equation}
 in naredimo približek $(\omega +m\Omega)^2 \approx \omega^2$.
-Sledi
+Tako dobimo sistem enačb
 \begin{equation}
 A_{m}'+i\beta_{m}A_{m}+\xi(A_{m+1}-A_{m-1})=0,
 \label{7.37}
@@ -1079,7 +1085,7 @@ Za čim bolj učinkovito delovanje akusto-optičnega modulatorja seveda
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/09_AOcalc.pdf_tex}
-\caption{Relativna intenziteta prepuščenega (črna črta) in uklonjenega (rdeča črta) 
+\caption{Delež prepuščenega (črna črta) in uklonjenega (rdeča črta) 
 valovanja na zvočnem valovanju v odvisnosti od debeline plasti zvočnega valovanja, če
 je izpolnjen Braggov pogoj.}
 \label{s7.10}
@@ -1088,16 +1094,18 @@ je izpolnjen Braggov pogoj.}
 Vstavimo še parameter $\xi$, ki je podan z enačbo~(\ref{7.38}).
 Razmerje med intenziteto uklonjenega in vpadnega snopa je tako
 \boxeq{7.48}{
-\frac{I_{1}}{I_{0}}=\sin^{2}\left(\frac{\pi n_{0}^{3}pS_{0}d}{2\lambda\cos\vartheta}\right),
+\frac{I_{1}}{I_{0}}=\sin^{2}\left(\frac{\pi \tilde{n}^{3}pS_{0}d}{2\lambda\cos\vartheta}\right),
 }
-pri čemer je $n_0=\sqrt{\tilde{\varepsilon}}$.
+pri čemer je $\tilde{n}=\sqrt{\tilde{\varepsilon}}$.
 Izračunamo še amplitudo deformacije $S_0$. Za longitudinalne (zvočne) valove v snovi oblike 
 $u = u_0 \cos(qx - \Omega t)$ je deformacija 
 \begin{equation}
-S_{xx} = \frac{1}{2}\bigl( \frac{\partial u}{\partial x}+ 
-\frac{\partial u}{\partial x}\bigr) = \frac{\partial u}{\partial x} = - u_0 q\, \sin(qx - \Omega t).
+S_{xx} = \frac{1}{2}\left(\frac{\partial u}{\partial x}+ 
+\frac{\partial u}{\partial x}\right) = \frac{\partial u}{\partial x} = - u_0 q\, \sin(qx - \Omega t).
 \end{equation}
-Povprečna gostota energijskega toka zvočnega valovanja je \index{Gostota energijskega toka}
+Povprečna gostota energijskega toka zvočnega valovanja je\footnote{Glej 
+npr. J. Strnad, {\it Fizika 1. del}, druga izdaja, DMFA--založništvo (2016).}
+\index{Gostota energijskega toka}
 \begin{equation}
 j_{z}= \frac{1}{T}\int_0^T 
 v_z \left(\frac{1}{2} \varrho \left(\frac{\partial u}{\partial t}\right)^2
@@ -1106,6 +1114,7 @@ v_z \left(\frac{1}{2} \varrho \left(\frac{\partial u}{\partial t}\right)^2
 \label{7.49}
 \end{equation}
 kjer je $v_z$ hitrost zvoka v snovi in $\varrho$ gostota snovi. 
+
 Sledi 
 \begin{equation}
 S_{0}=\sqrt{\frac{2j_{z}}{\varrho v_{z}^{3}}}.
@@ -1114,7 +1123,7 @@ S_{0}=\sqrt{\frac{2j_{z}}{\varrho v_{z}^{3}}}.
 Praktično je vpeljati merilo uporabnosti neke snovi za akusto-optični modulator. To je 
 koeficient \index{Koeficient $M$}
 \begin{equation}
-M=\frac{n_{0}^{6}p^{2}}{\varrho v_{z}^{3}}.
+M=\frac{\tilde{n}^{6}p^{2}}{\varrho v_{z}^{3}}.
 \label{7.51}
 \end{equation}
 Večja kot je vrednost koeficienta $M$, bolj izrazit je akusto-optični pojav v dani snovi. 
@@ -1124,7 +1133,7 @@ Izkoristek pretvorbe s koeficientom $M$ zapišemo kot
 \end{equation}
 Poglejmo primer. V kremenu z gostoto $\varrho=2200~\si{\kilo\gram/\metre^3}$ 
 je hitrost zvoka $v_{z}=6000~\si{\metre/\second}$,
-$n_0=1,46$ in $p=0,2$. To da $M=8\cdot10^{-16}~\si{\metre^2/\watt}$.
+$\tilde{n}=1,46$ in $p=0,2$. To da $M=8\cdot10^{-16}~\si{\metre^2/\watt}$.
 Pri gostoti zvočnega toka $10~\si{\watt/\centi\metre^2}$ in valovni dolžini svetlobe 
 $633~\si{\nano\metre}$ nastopi popoln prenos moči v uklonjeni snop pri 
 debelini $d \sim 3~\si{\centi\metre}$. Upoštevana gostota zvočnega toka je kar velika
@@ -1134,9 +1143,9 @@ in je ni prav lahko doseči, zato so uklonski izkoristki navadno nekaj manjši o
 Opisani račun izkoristka uklona na zvočnih valovih je uporaben tudi
 pri računu izkoristka holograma.\index{Hologram} V primeru faznega holograma je račun
 povsem enak in jasno kaže razliko med tankim in debelim hologramom.
-Kako pa je z izkoristkom amplitudnega holograma, kjer je modulirana
-absorpcija v snovi, lahko bralec izračuna sam ali najde v literaturi.\footnote{H.
-Kogelnik, Bell Syst. Tech. J. 48, 2909 (1969).}
+Poleg faznih poznamo tudi amplitudne holograme, pri katerih je 
+modulirana absorpcija v snovi.\footnote{H.
+Kogelnik, Bell Syst. Tech. J. $\mathbf{48}$, 2909 (1969).}
 \end{remark}
 
 \subsection*{Raman-Nathov uklon}
@@ -1150,9 +1159,9 @@ preide v
 2\frac{dA_{m}(\zeta)}{d\zeta}+A_{m+1}(\zeta)-A_{m-1}(\zeta)=\frac{\beta_{m}}{i\xi}A_{m}.
 \label{7.53}
 \end{equation}
-Upoštevamo enačbi~\ref{7.38}. Člen na desni lahko izpustimo, če je 
+Upoštevamo izraza za $\beta_m$ in $\xi$~(enačbi~\ref{7.38}). Člen na desni lahko izpustimo, če je 
 \begin{equation}
-\frac{\beta_{m}}{\xi}=\left| \frac{4mq}{\tilde{\varepsilon}pS_0k}(\sin\vartheta+\frac{mq}{2k})\right| 
+\frac{\beta_{m}}{\xi}=\left| \frac{4mq}{\tilde{\varepsilon}pS_0k}\left(\sin\vartheta+\frac{mq}{2k}\right)\right| 
 \ll 1,
 \label{7.54}
 \end{equation}
@@ -1178,7 +1187,8 @@ Jacobi-Angerjev razvoj (enačba~\ref{JA}).
 \subsection*{Nematični tekoči kristali}
 \index{Tekoči kristali}
 \index{Tekoči kristali!nematik}
-Za konec opišimo še modulacijo svetlobe s tekočimi kristali. 
+Za konec opišimo še modulacijo svetlobe s tekočimi kristali.\footnote{Glej npr.
+Marija Vilfan in Igor Muševič, {\it Tekoči kristali}, DMFA-založništvo (2002).} 
 Tekoči kristali so anizotropne kapljevine. To pomeni, da so tekoči kot 
 kapljevine, imajo pa določene anizotropne lastnosti kot trdni kristali. 
 Tekoče kristale tvorijo podolgovate ali ploščate molekule, 
@@ -1204,7 +1214,7 @@ odklon molekul od $\mathbf{n}$ je nekaj deset stopinj, odvisno seveda od tempera
 \index{Tekoči kristali!5CB}
 \begin{figure}[h]
 \centering
-\def\svgwidth{90truemm}
+\def\svgwidth{100truemm}
 \input{slike/09_5CB.pdf_tex}
 \caption{Molekula enega najbolj razširjenih tekočih kristalov, 4-ciano-4'pentil-bifenila 
 ali 5CB (a) in shematski prikaz podolgovatih molekul v nematični fazi z označenim direktorjem (b)}
@@ -1328,7 +1338,8 @@ plasti povsod povsem enaka. Bolj praktični so zasukani nematiki.
 
 Zasukan  nematik nastane tako, da površini, ki vsiljujeta planarno ureditev,
 zasučemo za kot $90~\si{\degree}$ eno glede na drugo (slika~\ref{LCD1}\,a), zato se $\mathbf{n}$ 
-v plasti zvezno zavrti.
+v plasti zvezno zavrti.\footnote{M. 
+Schadt in W. Helfrich, Phys. Rev. Lett. $\mathbf{27}$, 561 (1971).}
 Pokazali bomo, da polarizacija svetlobe, ki je ob vstopu 
 v plast polarizirana v smeri urejanja, pri prehodu skozi plast približno
 sledi $\mathbf{n}$ in je ob izstopu iz plasti pravokotna
@@ -1340,7 +1351,7 @@ delovanje prikazovalnika ni dosti odvisno niti od debeline plasti niti
 od valovne dolžine svetlobe. 
 \begin{figure}[h!]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{90truemm} 
 \input{slike/09_LCD1.pdf_tex}
 \caption{V zasukani nematični celici polarizacija $P$ sledi smeri zasukanega 
 direktorja in analizator (A) prepušča svetlobo (a). V električnem polju 
@@ -1374,7 +1385,8 @@ zaslone lahko z dodatnimi plastmi naredimo tudi občutljive na dotik.
 \section{*Račun prehoda svetlobe skozi zasukan nematik}
 \index{Tekoči kristali!zasukan nematik}
 Pokazati moramo še, da polarizacija svetlobe pri prehodu skozi zasukan nematik 
-približno sledi zasuku optične osi. \index{Dvolomnost!enoosne snovi}
+približno sledi zasuku optične osi.\footnote{Glej npr. P. G. de Gennes in J. Prost, 
+{\it The Physics of Liquid Crystals}, Oxford University Press (1995).}\index{Dvolomnost!enoosne snovi}
 Vzemimo vzorec, kakršen je na sliki~\ref{LCD1}\,a in ga obravnavajmo
 kot lokalno optično enoosno snov. Pri $z=0$ naj bo optična
 os v smeri $x$, ko se premikamo vzdolž osi $z$, naj se optična os suče
@@ -1401,7 +1413,7 @@ Pokaži, da se dielektrični tenzor v zasukani nematični plasti zapiše kot\ind
 kjer  je $z$ razdalja od plasti, v kateri je direktor
 obrnjen v smeri $x$, in povprečna vrednost $\bar{\varepsilon}$ 
 \begin{equation}
-\bar{\varepsilon}=\frac{\varepsilon_{\parallel}+\varepsilon_{\perp}}{2}.
+\bar{\varepsilon}=(\varepsilon_{\parallel}+\varepsilon_{\perp})/2.
 \label{7.60}
 \end{equation}
 Namig: Uporabi rotacijsko matriko $A(\varphi)$ in izračunaj  $\varepsilon (z) = A(\varphi) \cdot 
@@ -1436,7 +1448,9 @@ Opis potovanja svetlobe skozi zasukan nematik je lepa ilustracija uporabe
 Blochovega teorema, ki ga sicer poznamo iz fizike trdne snovi za 
 reševanje Schr\"odingerjeve enačbe za delec v periodičnem potencialu. Teorem pravi, 
 da lastne rešitve zapišemo kot produkt ravnega vala in funkcije, ki ima enako 
-periodo kot potencial.\index{Blochov teorem}
+periodo kot potencial.\index{Blochov teorem}\footnote{Glej npr. N. W. Ashcroft in 
+N. D. Mermin, {\it Solid State Physics}, Harcourt College
+Publishers (1976).}
 \end{remark}
 
 Za reševanje je ugodno vpeljati krožni polarizaciji 
@@ -1464,11 +1478,7 @@ E_{-}  =  Be^{i(k-q)z}.
 Nastavek reši sistem enačb~(\ref{lcm1}) in (\ref{lcm2}) 
 natanko takrat, kadar $A$ in $B$ rešita sistem homogenih linearnih enačb 
 \begin{equation}
-\left((k+q)^{2}-\beta^{2}\right)A-\alpha^{2}B  =  0 
-\label{7.66c}
-\end{equation}
-in
-\begin{equation}
+\left((k+q)^{2}-\beta^{2}\right)A-\alpha^{2}B  =  0 \qquad \mathrm{in} \qquad 
 -\alpha^{2}A+\left((k-q)^{2}-\beta^{2}\right)B  =  0.
 \label{7.66d}
 \end{equation}
@@ -1510,16 +1520,16 @@ E_{x} &=  \frac{1}{2}(E_{+}+E_{-})  =  \frac{1}{2}Ae^{ikz}(e^{iqz}+e^{-iqz})  = 
 E_{y} & = \frac{1}{2i}(E_{+}-E_{-})  =  \frac{1}{2i}Ae^{ikz}(e^{iqz}-e^{-iqz})  =  Ae^{ikz}\sin qz.
 \label{7.68}
 \end{align}
-Zasuk polarizacije torej res sledi zasuku optične osi. Druga rešitev ($A=-B$) da val,
+Zasuk polarizacije torej sledi zasuku optične osi. Druga rešitev ($A=-B$) da val,
 ki je polariziran pravokotno na lokalno optično os in se prav tako
 suče z njo. Pri tem se prvi val širi kot izredni val s fazno hitrostjo $c/n_{e}$ in  
 drugi kot redni val s $c/n_{o}$. Če na zasukano
 nematično celico vpada svetloba, ki je polarizirana ali vzporedno z 
-optično osjo ob meji ali pravokotno nanjo, se pojavi na izhodni strani 
-polarizacija, zasukana za enak kot, kot je zasukana optična os. 
+optično osjo ob meji ali pravokotno nanjo, izstopa iz celice svetloba, katere 
+polarizacija je zasukana za enak kot, kot je zasukana optična os. 
 V primeru, da vpadna polarizacija ne sovpada z eno od
-lastnih osi, jo razstavimo na obe lastni in po prehodu skozi
-tekoči kristal zopet sestavimo, s čemer seveda na splošno nastane eliptična
+lastnih osi, jo razstavimo na lastni in po prehodu skozi
+vzorec zopet sestavimo, s čemer seveda na splošno nastane eliptična
 polarizacija.
 
 \begin{remark}
@@ -1529,7 +1539,7 @@ obstajajo pri vseh frekvencah, razen v ozkem območju -- rečemo mu frekvenčna 
 štiri realne rešitve za $k$, po dve za valovanji v pozitivni in v negativni smeri.
 V območju reže je en par rešitev imaginaren. Vsaki vrednosti $k$
 pripada neko razmerje amplitud $A$ in $B$, ki ga izračunamo
-iz enačb~(\ref{7.66c}) in (\ref{7.66d}) in ki določa polarizacijo lastnega vala. Polarizacije
+iz enačb~(\ref{7.66d}) in ki določa polarizacijo lastnega vala. Polarizacije
 lastnih valov so na splošno eliptične in pri dani frekvenci med
 seboj niso pravokotne, saj zapisani sistem enačb ne predstavlja čisto 
 navadnega problema lastnih vektorjev simetrične matrike. 
@@ -1570,7 +1580,8 @@ F_{e}=\frac{1}{2}\int\left\{ K_{1}(\nabla\cdot\mathbf{n})^{2}+K_{2}
 Pri tem so $K_{1}$, $K_{2}$ in $K_{3}$ tri Frankove elastične
 konstante, ki so odvisne od snovi in tudi od temperature. 
 Prvi člen predstavlja povečanje energije zaradi deformacije v obliki 
-pahljače, drugi zaradi zasuka in tretji zaradi upogiba (slika~\ref{s7.20}).
+pahljače, drugi zaradi zasuka in tretji zaradi upogiba (slika~\ref{s7.20}).\footnote{F. C.
+Frank, Discuss. Faraday Soc. $\mathbf{25}$, 19 (1958).}
 \begin{figure}[h]
 \centering
 \def\svgwidth{140truemm} 
@@ -1629,13 +1640,13 @@ n_x = \sqrt{1-a^2\sin^2(qz)} \approx 1 - \frac{a^2}{2}\sin^2(qz).
 \end{equation}
 Vzdolž smeri $x$ in $y$ se direktor ne spreminja, zato velja
 \begin{equation}
-\nabla\times\mathbf{n}=(0,\frac{dn_{x}}{dz},0)
+\nabla\times\mathbf{n}=\left(0,\frac{dn_{x}}{dz},0\right)
 \label{7.75}
 \end{equation}
  in 
 \begin{equation}
-\mathbf{n}\times(\nabla\times\mathbf{n})=(-n_{z}\frac{dn_{x}}{dz},0,
-n_{x}\frac{dn_{x}}{dz}).
+\mathbf{n}\times(\nabla\times\mathbf{n})=\left(-n_{z}\frac{dn_{x}}{dz},0,
+n_{x}\frac{dn_{x}}{dz}\right).
 \label{7.76}
 \end{equation}
 Prosta energija na enoto površine je tako do konstante
@@ -1671,10 +1682,11 @@ a^{2}=2\frac{\epsilon_{0}\epsilon_{a}E^2-K_{1}q^{2}}{K_{3}q^{2}}.
 je fizikalno smiselna le prva rešitev, ki predstavlja vzorec brez deformacije. Pri 
 velikih poljih postane stabilna druga rešitev. Takrat deformacija
 v sredini plasti hitro naraste, tako da se $\mathbf{n}$ postavi skoraj
-popolnoma v smer zunanjega polja. Tedaj naša rešitev seveda ni dobra,
+popolnoma v smer zunanjega polja.Tedaj naša rešitev seveda ni dobra,
 saj smo pri računu privzeli, da je $n_{z}\ll1$. Prehodu iz nedeformiranega
 stanja v deformirano stanje pravimo  Frederiksov prehod\footnote{Ruski fizik
-Vsevolod Konstantinovič Frederiks, tudi Fr\'{e}edericksz, 1885--1944.}. Na njem
+Vsevolod Konstantinovič Frederiks, tudi Fr\'{e}edericksz, 1885--1944.}.\footnote{
+V. Frederiks in V. Zolina, Trans. Faraday Soc. $\mathbf{29}$, 919 (1933).}  Na njem
 temelji preklapljanje optičnih prikazovalnikov na nematične tekoče kristale.
 
 Izračunajmo še kritično jakost električnega polja, pri kateri pride do prehoda v deformirano fazo.
