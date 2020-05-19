@@ -62,11 +62,11 @@
     \put(-0.00079918,0.44142444){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Re(E)$\end{tabular}}}}%
     \put(0.91659172,0.23913885){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.00113187\unitlength}\raggedright  \end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{02_fluktuacije01.pdf}}%
-    \put(0.00469897,0.22734914){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$|E|^2$}\end{tabular}}}}%
+    \put(-0.0004022,0.22479856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$|E|^2$}\end{tabular}}}}%
     \put(0.97392066,0.12419548){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{02_fluktuacije01.pdf}}%
-    \put(0.00724955,0.10479905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$|E|^2$}\end{tabular}}}}%
-    \put(0.97647124,0.00164538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(-0.0004022,0.10224845){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$|E|^2$}\end{tabular}}}}%
+    \put(0.97647124,0.00164537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{02_fluktuacije01.pdf}}%
     \put(0.41890485,0.10595573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t_c$}\end{tabular}}}}%
     \put(-0.03203533,0.4293312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
