@@ -56,10 +56,10 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_shg2.pdf}}%
     \put(0.03223794,0.04441955){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.03223794,0.65424269){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(-0.00518789,0.16241609){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,2$\end{tabular}}}}%
+    \put(-0.00739807,0.16241609){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,2$\end{tabular}}}}%
     \put(-0.00518789,0.29005804){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,4$\end{tabular}}}}%
-    \put(-0.00518789,0.40909876){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,6$\end{tabular}}}}%
-    \put(-0.00518789,0.53231632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,8$\end{tabular}}}}%
+    \put(-0.00739807,0.40909876){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,6$\end{tabular}}}}%
+    \put(-0.00739807,0.53231632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,8$\end{tabular}}}}%
     \put(-0.10169734,0.60504891){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j_{2\omega}/j_\omega$\end{tabular}}}}%
     \put(0.51016199,0.00297047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.6531564,0.00297047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\pi$\end{tabular}}}}%

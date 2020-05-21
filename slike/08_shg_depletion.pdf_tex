@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '08_shg_depletion.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{682.94002533bp}%
     \ifx\svgscale\undefined%
@@ -49,19 +51,21 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.70048376)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_shg_depletion.pdf}}%
-    \put(0.69877373,0.05167265){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.506207,0.0215071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\kappa L$}}}%
-    \put(0.09021485,0.04078313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.37742391,0.04078313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.67098794,0.04078313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
-    \put(0.96178205,0.04078313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
-    \put(0.05928681,0.0764285){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.05928681,0.68244411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.02648744,0.19368828){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,2$}}}%
-    \put(0.02648744,0.32053331){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,4$}}}%
-    \put(0.02648744,0.43883077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,6$}}}%
-    \put(0.02648744,0.56127901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,8$}}}%
-    \put(-0.07381223,0.63355749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_{2\omega}/j_\omega$}}}%
+    \put(0.69877369,0.05167261){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.50620696,0.02150706){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\kappa L$\end{tabular}}}}%
+    \put(0.09021483,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.37742388,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.6709879,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
+    \put(0.961782,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
+    \put(0.05928679,0.07642847){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.05928679,0.68244411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.01989826,0.19368825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,2$\end{tabular}}}}%
+    \put(0.01989826,0.32053328){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,4$\end{tabular}}}}%
+    \put(0.01989826,0.43883076){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,6$\end{tabular}}}}%
+    \put(0.01989826,0.561279){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,8$\end{tabular}}}}%
+    \put(-0.07381225,0.63355748){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j_{2\omega}/j_\omega$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
