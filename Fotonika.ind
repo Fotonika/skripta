@@ -33,8 +33,15 @@
   \indexspace
 
   \item CaCO$_3$, \hyperindexformat{\see {Kalcit}}{24}
-  \item CS$_2$, \hyperpage{248--250}, \hyperpage{264}
+  \item CS$_2$, \hyperpage{248--250}, \hyperpage{264, 265}
+  
+  \indexspace
 
+  \item Čirikanje, \hyperpage{162}, \hyperpage{254}, \hyperpage{266}
+  \item Črpanje, \hyperpage{81}, \hyperpage{94}, \hyperpage{107}, 
+		\hyperpage{117}, \hyperpage{134}, \hyperpage{138}
+    \subitem vzdolžno, \hyperpage{129}
+  
   \indexspace
 
   \item Definicija metra, \hyperpage{115}
@@ -203,7 +210,7 @@
 
   \item Hamiltonova funkcija, \hyperpage{73}, \hyperpage{91}
   \item Harmonski oscilator, \hyperpage{73}, \hyperpage{89}, 
-		\hyperpage{262}
+		\hyperpage{263}
   \item Helmholtzeva enačba, \hyperpage{11}, \hyperpage{38}, 
 		\hyperpage{45}, \hyperpage{145}, \hyperpage{149}, 
 		\hyperpage{165}
@@ -494,7 +501,7 @@
 
   \indexspace
 
-  \item Samomodulacija faze, \hyperpage{265}
+  \item Samomodulacija faze, \hyperpage{266}
   \item Samozbiranje, \hyperpage{247}, \hyperpage{249}
   \item Saturacijska energija, \hyperpage{94}
   \item Saturacijska gostota toka, \hyperpage{79}, \hyperpage{83}
@@ -527,7 +534,7 @@
 		\hyperindexformat{\see{Razmerje signal proti šumu}}{195}
   \item Soliton
     \subitem krajevni, \hyperpage{249--251}
-    \subitem optični, \hyperpage{254, 255}, \hyperpage{265}
+    \subitem optični, \hyperpage{254, 255}, \hyperpage{266}
   \item Spekter, \hyperpage{29}, \hyperpage{114}
     \subitem Gaussov, \hyperpage{29}, \hyperpage{31}, \hyperpage{85}
     \subitem Lorentzov, \hyperpage{29}, \hyperpage{31}, \hyperpage{63}, 
@@ -549,7 +556,8 @@
   \item Stabilnost resonatorja, \hyperpage{55}, \hyperpage{57}, 
 		\hyperpage{60}
   \item Stimulirano sevanje, \hyperpage{76}, \hyperpage{82}, 
-		\hyperpage{90}, \hyperpage{99}, \hyperpage{167}
+		\hyperpage{90}, \hyperpage{99}, \hyperpage{167}, 
+		\hyperpage{262}
   \item Stoječe valovanje, \hyperpage{53}, \hyperpage{66}, 
 		\hyperpage{71}
   \item Sunkovni laser, \hyperpage{107, 108}, \hyperpage{111}, 
@@ -558,7 +566,7 @@
     \subitem {preklop črpanja}, \hyperpage{107}
   \item Susceptibilnost
     \subitem efektivna, \hyperpage{233}, \hyperpage{237}, 
-		\hyperpage{248}, \hyperpage{263}
+		\hyperpage{248}, \hyperpage{264}
     \subitem električna, \hyperpage{9}
     \subitem kompleksna, \hyperpage{264}
     \subitem linearna, \hyperpage{229}
@@ -571,6 +579,17 @@
 
   \indexspace
 
+  \item Štirinivojski sistem, \hyperpage{81}, \hyperpage{128}
+  \item Šum, \hyperpage{100}, \hyperpage{193}
+    \subitem {heterodinska detekcija}, \hyperpage{200}
+    \subitem sevanja ozadja, \hyperpage{193}, \hyperpage{197}
+    \subitem seštevanje, \hyperpage{197}
+    \subitem temnega toka, \hyperpage{193}, \hyperpage{197}
+    \subitem termični, \hyperpage{193}, \hyperpage{196}
+    \subitem štetja, \hyperpage{193, 194}  
+
+  \indexspace    
+    
   \item Tekočekristalni prikazovalnik, \hyperpage{222}, 
 		\hyperpage{228}
   \item Tekoči kristali, \hyperpage{24}, \hyperpage{220}
@@ -647,21 +666,6 @@
 
   \indexspace
 
-  \item Čirikanje, \hyperpage{162}, \hyperpage{254}, \hyperpage{265}
-  \item Črpanje, \hyperpage{81}, \hyperpage{94}, \hyperpage{107}, 
-		\hyperpage{117}, \hyperpage{134}, \hyperpage{138}
-    \subitem vzdolžno, \hyperpage{129}
-
-  \indexspace
-
-  \item Štirinivojski sistem, \hyperpage{81}, \hyperpage{128}
-  \item Šum, \hyperpage{100}, \hyperpage{193}
-    \subitem {heterodinska detekcija}, \hyperpage{200}
-    \subitem sevanja ozadja, \hyperpage{193}, \hyperpage{197}
-    \subitem seštevanje, \hyperpage{197}
-    \subitem temnega toka, \hyperpage{193}, \hyperpage{197}
-    \subitem termični, \hyperpage{193}, \hyperpage{196}
-    \subitem štetja, \hyperpage{193, 194}
   \item Življenjski čas nihanj, \hyperpage{63}, \hyperpage{96}
 
 \end{theindex}
