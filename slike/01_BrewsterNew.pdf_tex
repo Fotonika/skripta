@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '01_BrewsterNew.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1192.84619141bp}%
+    \setlength{\unitlength}{1118.29330444bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,39 +51,41 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.4998266)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{01_BrewsterNew.pdf}}%
-    \put(0.01790372,0.33821191){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.01675912,0.49013181){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(-0.0004099,0.19044284){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-1$}}}%
-    \put(0.347718,0.38519576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_\mathrm{TM}$}}}%
-    \put(0.34857024,0.26205729){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_\mathrm{TE}$}}}%
-    \put(0.01651913,0.16078867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.01995294,0.02390625){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.3685686,0.05577545){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{R}_\mathrm{TM}$}}}%
-    \put(0.35093562,0.1045912){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{R}_\mathrm{TE}$}}}%
-    \put(0.03311584,0.00158643){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.46353539,0.00158643){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$90$}}}%
-    \put(0.24948466,0.00221596){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta_1$}}}%
-    \put(0.31640468,0.00221596){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta_B$}}}%
-    \put(0.52682113,0.3382119){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.5256765,0.4901318){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.50850753,0.19044284){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-1$}}}%
-    \put(0.65616827,0.37636136){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_\mathrm{TM}$}}}%
-    \put(0.6505435,0.44462232){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_\mathrm{TE}$}}}%
-    \put(0.52543653,0.16078867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.52887032,0.02276166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.63809005,0.04364545){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{R}_\mathrm{TM}$}}}%
-    \put(0.61869208,0.09061587){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{R}_\mathrm{TE}$}}}%
-    \put(0.54203326,0.0015866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.97245269,0.0015866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$90$}}}%
-    \put(0.75840199,0.00221614){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta_1$}}}%
-    \put(0.67080304,0.00221614){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta_B$}}}%
-    \put(0.70472156,0.00245423){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vartheta_T$}}}%
-    \put(-0.00100698,0.46496916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a)}}}%
-    \put(-0.00092511,0.13969672){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c)}}}%
-    \put(0.49872019,0.13969672){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{d)}}}%
-    \put(0.49872019,0.46496916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b)}}}%
-    \put(0.06104276,0.46852646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1<n_2$}}}%
-    \put(0.87652431,0.46852646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1>n_2$}}}%
+    \put(0.01790372,0.33821192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.01675912,0.49013183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(-0.0004099,0.19044285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-1$\end{tabular}}}}%
+    \put(0.25555137,0.38025828){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r_\mathrm{TM}$\end{tabular}}}}%
+    \put(0.34857025,0.2620573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r_\mathrm{TE}$\end{tabular}}}}%
+    \put(0.01651913,0.16078868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.01995294,0.02390625){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.36856861,0.05577545){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}_\mathrm{TM}$\end{tabular}}}}%
+    \put(0.35093563,0.1045912){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}_\mathrm{TE}$\end{tabular}}}}%
+    \put(0.03311584,0.00158643){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.46353541,0.00158643){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$90$\end{tabular}}}}%
+    \put(0.24948467,0.00221597){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
+    \put(0.31640469,0.00221597){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_B$\end{tabular}}}}%
+    \put(0.52682115,0.33821191){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.52567652,0.49013182){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.50850754,0.19044285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-1$\end{tabular}}}}%
+    \put(0.65507108,0.37581276){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r_\mathrm{TM}$\end{tabular}}}}%
+    \put(0.64780048,0.44352512){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r_\mathrm{TE}$\end{tabular}}}}%
+    \put(0.52543655,0.16078868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.52887034,0.02276167){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.63809007,0.04364546){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}_\mathrm{TM}$\end{tabular}}}}%
+    \put(0.6186921,0.09061588){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}_\mathrm{TE}$\end{tabular}}}}%
+    \put(0.54203327,0.00158661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.97245273,0.00158661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$90$\end{tabular}}}}%
+    \put(0.75840202,0.00221614){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
+    \put(0.67080306,0.00221614){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_B$\end{tabular}}}}%
+    \put(0.70472158,0.00245423){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_T$\end{tabular}}}}%
+    \put(-0.00100698,0.46496918){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(-0.00092511,0.13969673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.4987202,0.13969673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
+    \put(0.4987202,0.46496918){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.06104276,0.46852648){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_1<n_2$\end{tabular}}}}%
+    \put(0.87652434,0.46852648){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_1>n_2$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

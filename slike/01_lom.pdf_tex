@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '01_lom.pdf' (pdf, eps, ps)
 %%
@@ -83,20 +83,20 @@
     \put(0.6776668,0.36824387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}_{1}$\end{tabular}}}}%
     \put(0.60322869,0.32794837){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{H}_{1}$\end{tabular}}}}%
     \put(0.67671972,0.33299379){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{k}_{1}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=7]{01_lom.pdf}}%
-    \put(0.91882699,0.3285029){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}_{3}$\end{tabular}}}}%
-    \put(0.84186617,0.37772666){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{H}_{3}$\end{tabular}}}}%
+    \put(0.82088876,0.40011781){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}_{3}$\end{tabular}}}}%
+    \put(0.88831908,0.34288699){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{H}_{3}$\end{tabular}}}}%
     \put(0.91552455,0.38211686){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{k}_{3}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=8]{01_lom.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{01_lom.pdf}}%
     \put(0.1806048,0.27129448){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
     \put(0.22609401,0.27088841){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
     \put(0.21964302,0.11139139){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=9]{01_lom.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{01_lom.pdf}}%
     \put(0.71962762,0.27129407){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
     \put(0.76511678,0.27088799){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
     \put(0.75866582,0.11139097){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta_2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{01_lom.pdf}}%
+    \put(-0.04706323,0.42698121){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.49556038,0.42698121){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{01_lom.pdf}}%
-    \put(-0.04706323,0.42698122){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.49556038,0.42698122){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%
 \endgroup%
