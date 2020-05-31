@@ -56,7 +56,7 @@
     \put(-1.01453953,-0.12980719){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.45227669\unitlength}\raggedright  \end{minipage}}}%
     \put(0.69044582,-0.37457496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{01_robni_pogoji.pdf}}%
-    \put(0.00839753,0.36432116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathrm{Dielektrik~1}$\end{tabular}}}}%
+    \put(0.00839753,0.36432116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Snov$_1$\end{tabular}}}}%
     \put(0.21973231,0.27088921){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_{1t}$\end{tabular}}}}%
     \put(0.29670429,0.26928504){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
     \put(0.21750179,0.17674929){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_{2t}$\end{tabular}}}}%
@@ -73,6 +73,6 @@
     \put(0.86121423,0.13023211){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
     \put(0.64091272,0.11774615){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$D_{2n}$\end{tabular}}}}%
     \put(0.7178847,0.11614171){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
-    \put(0.00773091,0.02264817){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathrm{Dielektrik~2}$\end{tabular}}}}%
+    \put(0.00773091,0.02264817){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Snov$_2$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
