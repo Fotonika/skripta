@@ -7,6 +7,8 @@
 *.out
 *.toc
 *.fmt
+*.ptc
+*.backup
 
 ## Intermediate documents:
 *.dvi
@@ -14,7 +16,7 @@
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-# *.pdf
+*Fotonika*.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -157,4 +159,79 @@ pythontex-files-*/
 
 # Latexian
 TSWLatexianTemp*
-*.backup
+.gitignore.swp
+slike/.svg
+slike/03_Laguerre_faza2.xcf
+slike/03_Laguerre_faza_old.png
+slike/03_k_preslikavam.png
+slike/06_FPres.svg.2019_02_12_10_12_10.0.svg
+"slike/07_hrshema\\.svg"
+slike/09_AO_1_backup.svg
+slike/10_Vodnik.svg.2020_05_14_20_28_19.0.svg
+slike/AM.agr
+slike/AM.svg
+slike/AMT.agr
+slike/AO.agr
+slike/AO.svg
+slike/Absorp.agr
+slike/Absorp.svg
+slike/Bessel1.agr
+slike/Bessel2.agr
+slike/Bragg1.agr
+slike/Brewster.agr
+slike/Chirp.agr
+slike/Chirp.png
+slike/Chirp2.png
+slike/Coupler.agr
+slike/Couplerb.agr
+slike/Depletion.agr
+slike/Disperzija.agr
+slike/FM.agr
+slike/FM.svg
+slike/Fred.agr
+slike/HeNe_Laser_Levels.png
+slike/HermiteGaussovi.m
+slike/LCD.jpg
+slike/Laser_frequency_comb_installed_on_HARPS.jpg
+slike/NdYAGkristal.jpg
+slike/OpticniSoliton.agr
+slike/OpticniSoliton.png
+slike/Petelin_gauss.py
+slike/Piro.agr
+slike/Poisson.agr
+slike/RABI.pdf
+slike/RABI.pdf_tex
+slike/SekCilinder.agr
+slike/Snopi.py
+slike/Soliton.agr
+slike/SpekterKatode.agr
+slike/SpekterKatode.svg
+slike/TESEK_nov.agr
+slike/TESodi.agr
+slike/TE_sek_krog.agr
+slike/TE_sek_krog.pdf
+slike/TE_sek_krog.pdf_tex
+slike/TE_sek_krog.svg
+slike/TEsekularna.agr
+slike/Trinivojski.svg
+slike/VisjiRed/
+slike/Zscan.agr
+slike/Zscan.png
+slike/argon_ion_laser.png
+slike/laguerrovi_snopi_faza_0_0.png
+slike/laguerrovi_snopi_faza_0_2.png
+slike/laguerrovi_snopi_faza_0_3.png
+slike/laguerrovi_snopi_faza_0_4.png
+slike/laguerrovi_snopi_faza_1_0.png
+slike/laguerrovi_snopi_faza_1_2.png
+slike/laguerrovi_snopi_faza_1_3.png
+slike/laguerrovi_snopi_faza_1_4.png
+slike/laguerrovi_snopi_faza_2_0.png
+slike/laguerrovi_snopi_faza_2_2.png
+slike/laguerrovi_snopi_faza_2_3.png
+slike/laguerrovi_snopi_faza_2_4.png
+slike/octave-workspace
+slike/opa.agr
+slike/opa.svg
+slike/opagraf.svg
+slike/snopi_visjih_redov.nb
