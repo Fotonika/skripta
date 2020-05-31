@@ -32,8 +32,8 @@
      id="namedview4572"
      showgrid="false"
      inkscape:zoom="2.2981727"
-     inkscape:cx="174.11195"
-     inkscape:cy="76.927249"
+     inkscape:cx="174.76464"
+     inkscape:cy="75.4043"
      inkscape:window-x="860"
      inkscape:window-y="1"
      inkscape:window-maximized="0"
@@ -274,6 +274,7 @@
      y="-468.30423"
      style="font-size:126.2336731px;line-height:1.25;font-family:sans-serif"> </tspan></text>
 
+
 <path
    d="m 324.79328,796.6727 0,-113.00141 -282.288194,0 0,113.00141 282.288194,0 z"
    style="fill:#e9f7e9;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -399,7 +400,8 @@
      id="tspan4052"
      x="54.702374"
      y="-638.89642"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377899px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#333333">$\mathrm{Dielektrik~1}$</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377899px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#333333">Snov$_1$</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -414,6 +416,7 @@
      y="-617.32538"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$E_{1t}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -426,6 +429,7 @@
      x="155.22781"
      y="-616.95502"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -440,6 +444,7 @@
      y="-595.59088"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$E_{2t}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -452,6 +457,7 @@
      x="154.45009"
      y="-595.22046"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -466,6 +472,7 @@
      y="-608.3999"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$H_{1t}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -478,6 +485,7 @@
      x="222.96828"
      y="-608.02954"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -492,6 +500,7 @@
      y="-586.23822"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$H_{2t}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -504,6 +513,7 @@
      x="222.43411"
      y="-585.86786"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -518,6 +528,7 @@
      y="-606.97668"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$D_{1n}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -530,6 +541,7 @@
      x="300.3049"
      y="-606.60626"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -544,6 +556,7 @@
      y="-609.00983"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$B_{1n}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -556,6 +569,7 @@
      x="354.13245"
      y="-608.63947"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -570,6 +584,7 @@
      y="-585.22162"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$B_{2n}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -582,6 +597,7 @@
      x="352.05847"
      y="-584.85126"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -596,6 +612,7 @@
      y="-581.96857"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377947px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$D_{2n}$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -609,6 +626,7 @@
      y="-581.59814"
      style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2102108px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L Italic'"> </tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -620,6 +638,7 @@
      id="tspan4052-5"
      x="54.46994"
      y="-560.01288"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377899px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#333333">$\mathrm{Dielektrik~2}$</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.94377899px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';fill:#333333">Snov$_2$</tspan></text>
+
 
 </g></svg>

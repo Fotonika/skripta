@@ -64,31 +64,23 @@ in $\mu$ zapisati tenzorje.
 Navedene Maxwellove enačbe opisujejo elektromagnetno polje
 v neomejeni snovi, kjer so vse komponente polj zvezne funkcije. Za
 obravnavo v omejeni snovi moramo vedeti tudi, kaj se z elektromagnetnim
-poljem zgodi na meji dveh sredstev\index{Maxwellove enačbe!robni pogoji}. Pri prehodu
-iz enega dielektrika v drugega se ohranjata normalni komponenti gostote
-električnega in magnetnega polja ter tangentni komponenti jakosti
+poljem zgodi pri prehodu iz ene snovi v drugo.\index{Maxwellove enačbe!robni pogoji}
+Na meji dveh sredstev se ohranjata normalni komponenti gostote
+električnega polja (če ni površinskih nabojev) in gostote magnetnega polja 
+ter tangentni komponenti jakosti
 električnega in magnetnega polja (slika \ref{fig:Robni-pogoji})
 \boxeq{eq:robni-pogoji}{
 D_{1n} &=  D_{2n}\hspace{1cm} B_{1n} =  B_{2n},\\
 E_{1t} &=  E_{2t}\hspace{1.1cm} H_{1t} =  H_{2t}\label{eq:robni-pogoji5}.
 }
-
-Privzeli smo, da na meji med dielektrikoma ni površinskih
-tokov ali nabojev, sicer bi morali robna pogoja za $D_n$ in $H_t$
-ustrezno popraviti.\footnote{Glej npr. R. Podgornik
-in A. Vilfan, {\it Elektromagnetno polje}, DMFA--založništvo (2012).} 
-Na meji dielektrika z idealnim prevodnikom (kovino,
-zrcalom) so robni pogoji drugačni. Za magnetno polje jih ne moremo
-preprosto zapisati, za električno polje pa velja, da je tangentna
-komponenta jakosti električnega polja enaka nič. Posledica tega 
-pogoja je, da se pri pravokotnem vpadu na zrcalo faza valovanja
-spremeni za $\pi$. 
+Na meji z idealnim prevodnikom (kovino) je tangentna komponentna 
+jakosti električnega polja enaka nič.
 
 \begin{figure}[h]
 \centering
-  \def\svgwidth{75truemm} 
+  \def\svgwidth{85truemm} 
   \input{slike/01_robni_pogoji.pdf_tex}
-\caption{Na meji med dvema dielektrikoma se v odsotnosti površinskih tokov
+\caption{Na meji med dvema snovema se v odsotnosti površinskih tokov
 in nabojev ohranjata tangentni komponenti $E_t$ in $H_t$ ter 
 normalni komponenti $D_n$ in $B_n$.}
 \label{fig:Robni-pogoji}
@@ -101,9 +93,12 @@ Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpeljemo v
 enačbi\index{Valovna enačba} za jakost električnega in gostoto magnetnega polja 
 \boxeq{eq:valovna-skalarna}{
 \nabla^{2}\mathbf{E}-\frac{1}{c^{2}}\frac{\partial^{2}\mathbf{E}}{\partial t^{2}} = 0
-\qquad \mathrm{in} \qquad
-\nabla^{2}\mathbf{B}-\frac{1}{c^{2}}\frac{\partial^{2}\mathbf{B}}{\partial t^{2}} = 0.
 }
+in
+\begin{equation}
+\label{eq:valovna-skalarna-B}
+\nabla^{2}\mathbf{B}-\frac{1}{c^{2}}\frac{\partial^{2}\mathbf{B}}{\partial t^{2}} = 0.
+\end{equation}
 Pri tem je hitrost valovanja\index{Hitrost valovanja} v snovi enaka 
 \boxeq{eq:c}{
 c=\frac{1}{\sqrt{\epsilon\epsilon_{0}\mu\mu_{0}}}=\frac{c_{0}}{n}.
@@ -115,23 +110,21 @@ svetlobe v snovi $c$ manjša od hitrosti svetlobe v praznem prostoru $c_0$. Velj
 n=\sqrt{\epsilon\mu}.
 \end{equation}
 Za izotropno in nemagnetno snov ($\mu=1$) je lomni količnik $n=\sqrt{\epsilon}$.
-
-Vpeljimo še vektor gostote energijskega toka, to je Poyntingov 
+Vpeljimo še Poyntingov 
 vektor\footnote{Angleški fizik John Henry Poynting, 1852--1914.} 
 \index{Poyntingov vektor}{$\mathbf{S}$}
 \boxeq{eq:Poyntingov-vektor}{
 \mathbf{S} = \mathbf{E} \times \mathbf{H}.
 }
 Iz lastnosti vektorskega produkta sledi, da je smer energijskega toka vedno pravokotna na 
-smeri $\mathbf{E}$ in $\mathbf{H}$. Gostoto energijskega toka $j$, to je količino
-energije, ki v danem času preteče skozi dano ploskev
-z normalo $\mathbf{\hat{n}}$, izračunamo kot časovno povprečje projekcije
-Poyntingovega vektorja \index{Gostota energijskega toka}
+smeri $\mathbf{E}$ in $\mathbf{H}$. Gostoto energijskega toka $\mathbf{j}$, to je količino
+energije, ki v danem času preteče skozi dano ploskev, izračunamo kot časovno 
+povprečje Poyntingovega vektorja \index{Gostota energijskega toka}
 \begin{equation}
-j=\left\langle \mathbf{\mathbf{S}}\cdot\mathbf{\hat{n}}\right\rangle.
+\mathbf{j}=\left\langle \mathbf{\mathbf{S}}\right\rangle.
 \label{eq:jscal}
 \end{equation}
-Gostoto energijskega toka $j$ imenujemo tudi gostota svetlobnega 
+Gostoto energijskega toka $\mathbf{j}$ imenujemo tudi gostota svetlobnega 
 toka\index{{Gostota svetlobnega toka}|see {Gostota energijskega toka}}.
 \index{Poyntingov izrek}Poyntingov izrek, ki ga izpeljemo neposredno 
 iz Maxwellovih enačb in konstitutivnih relacij, predstavlja izrek o ohranitvi 
@@ -171,7 +164,8 @@ je kompleksni zapis zgolj računski pripomoček, na koncu
 je treba rezultate izraziti z realnimi količinami. 
 
 Če vstavimo nastavka za monokromatski val (enačbi~\ref{eq:rval}) v valovni enačbi
-(enačbi~\ref{eq:valovna-skalarna}), dobimo \index{Helmholtzeva enačba}Helmholtzevi
+(enačbi~\ref{eq:valovna-skalarna} in \ref{eq:valovna-skalarna-B}), 
+dobimo \index{Helmholtzeva enačba}Helmholtzevi
 enačbi\footnote{Nemški fiziolog in fizik Hermann Ludwig Ferdinand von Helmholtz, 1821--1894.} 
 za kompleksna vektorja jakosti električnega in gostote magnetnega polja.
 V homogenem in izotropnem sredstvu ju zapišemo kot
@@ -180,22 +174,12 @@ V homogenem in izotropnem sredstvu ju zapišemo kot
 \nabla^{2}\mathbf{B}(\mathbf{r})+k^{2}\mathbf{B}(\mathbf{r}) =0,
 }
 kjer je $k=\omega/c = n \omega/c_0 = n k_0$ valovno število\index{Valovno število}. 
-Vpeljemo še kompleksni Poyntingov vektor\index{Poyntingov vektor}
+Vpeljemo še povprečni Poyntingov vektor\index{Poyntingov vektor}, povprečen
+po eni periodi,
 \begin{equation}
 \mathbf{S}(\mathbf{r})=\frac{1}{2}\mathbf{E}(\mathbf{r})\times\mathbf{H}^{*}(\mathbf{r}).
 \label{eq:Poyntingov-vektor-c}
 \end{equation}
-\vglue-5truemm
-\begin{definition}
-Pokaži zvezo med gostoto toka $j$ (enačba~\ref{eq:jscal}) in
-kom\-plek\-snim vektorjem\index{Gostota energijskega toka} $\mathbf{S}(\mathbf{r})$
-\begin{equation}
-\label{eq:jReS}
-j=\left\langle \mathbf{\mathbf{\hat{n}}\cdot\mathbf{S}}\right\rangle =\mathbf{\hat{n}}\cdot
-\left(\mathbf{E}\times\mathbf{H}^{*}+\mathbf{E}^{*}\times\mathbf{H}\right)/4=\mathbf{\hat{n}}\cdot 
-\Re(\mathbf{S}(\mathbf{r})).
-\end{equation}
-\end{definition}
 
 \section{Ravni val}
 Osnovna rešitev valovne enačbe (enačba~\ref{eq:valovna-skalarna}) je ravni 
@@ -251,7 +235,7 @@ K energiji prispevata tako magnetno kot električno polje. Prispevka sta enaka, 
 \frac{1}{4}\frac{\left|B_{0}\right|^{2}}{\mu\mu_{0}}=\frac{1}{2}\epsilon\epsilon_{0}\left|E_{0}\right|^{2}.
 \end{equation}
 Povprečna gostota energije $w$, pomnožena s hitrostjo svetlobe v
-snovi, je enaka gostoti energijskega oziroma svetlobnega toka $j$\index{Gostota energijskega toka}
+snovi, je enaka velikosti gostote energijskega toka $j$\index{Gostota energijskega toka}
 \boxeq{eq:jcw}{
 j=cw = \frac{1}{2}c\epsilon\epsilon_{0}\left|E_{0}\right|^{2}=\frac{1}{2}c_{0}n\epsilon_{0}
 \left|E_{0}\right|^{2}.
