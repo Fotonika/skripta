@@ -1,4 +1,4 @@
-%\chapterimage{Predgovor.jpg} % Chapter heading image
+\chapterimage{Predgovor.jpg} % Chapter heading image
 
 \chapter{Elektromagnetno valovanje}
 Za začetek bomo osvežili osnove teorije elektromagnetnega polja in 
@@ -99,10 +99,11 @@ in
 \label{eq:valovna-skalarna-B}
 \nabla^{2}\mathbf{B}-\frac{1}{c^{2}}\frac{\partial^{2}\mathbf{B}}{\partial t^{2}} = 0.
 \end{equation}
-Pri tem je hitrost valovanja\index{Hitrost valovanja} v snovi enaka 
+Hitrost valovanja\index{Hitrost valovanja} v snovi je enaka 
 \boxeq{eq:c}{
-c=\frac{1}{\sqrt{\epsilon\epsilon_{0}\mu\mu_{0}}}=\frac{c_{0}}{n}.
+c=\frac{1}{\sqrt{\epsilon\epsilon_{0}\mu\mu_{0}}}=\frac{c_{0}}{n},
 }
+pri čemer je hitrost svetlobe v praznem prostoru $c_0 = 299~792~458~\si{m/s}$. 
 Magnetne in dielektrične lastnosti snovi smo pospravili
 v lomni količnik $n$\index{Lomni količnik}, ki pove, kolikokrat je hitrost 
 svetlobe v snovi $c$ manjša od hitrosti svetlobe v praznem prostoru $c_0$. Velja
@@ -116,7 +117,7 @@ vektor\footnote{Angleški fizik John Henry Poynting, 1852--1914.}
 \boxeq{eq:Poyntingov-vektor}{
 \mathbf{S} = \mathbf{E} \times \mathbf{H}.
 }
-Iz lastnosti vektorskega produkta sledi, da je smer energijskega toka vedno pravokotna na 
+Iz lastnosti vektorskega produkta sledi, da je Poyntingov vektor vedno pravokoten na 
 smeri $\mathbf{E}$ in $\mathbf{H}$. Gostoto energijskega toka $\mathbf{j}$, to je količino
 energije, ki v danem času preteče skozi dano ploskev, izračunamo kot časovno 
 povprečje Poyntingovega vektorja \index{Gostota energijskega toka}
@@ -149,8 +150,8 @@ zapisom električnega in magnetnega polja. Račun si
 oglejmo na primeru monokromatskega elektromagnetnega vala. Nastavek
 za monokromatski val s krožno frekvenco $\omega$ naj bo
 \begin{equation}
-\mathbf{E}(\mathbf{r},t)  =\Re(\mathbf{E}(\mathbf{r})e^{-i\omega t})\qquad \textrm{in} \qquad
-\mathbf{B}(\mathbf{r},t)  =\Re(\mathbf{B}(\mathbf{r})e^{-i\omega t}),
+\mathbf{E}(\mathbf{r},t)  =\mathfrak{\Re}(\mathbf{E}(\mathbf{r})e^{-i\omega t})\qquad \textrm{in} \qquad
+\mathbf{B}(\mathbf{r},t)  =\mathfrak{\Re}(\mathbf{B}(\mathbf{r})e^{-i\omega t}),
 \label{eq:rval}
 \end{equation}
 kjer sta $\mathbf E(\mathbf{r})$ in $\mathbf B(\mathbf{r})$ časovno
@@ -174,10 +175,10 @@ V homogenem in izotropnem sredstvu ju zapišemo kot
 \nabla^{2}\mathbf{B}(\mathbf{r})+k^{2}\mathbf{B}(\mathbf{r}) =0,
 }
 kjer je $k=\omega/c = n \omega/c_0 = n k_0$ valovno število\index{Valovno število}. 
-Vpeljemo še povprečni Poyntingov vektor\index{Poyntingov vektor}, povprečen
-po eni periodi,
+Povprečni Poyntingov vektor\index{Poyntingov vektor}, povprečen
+po eni periodi, je enak
 \begin{equation}
-\mathbf{S}(\mathbf{r})=\frac{1}{2}\mathbf{E}(\mathbf{r})\times\mathbf{H}^{*}(\mathbf{r}).
+\langle\mathbf{S}(\mathbf{r})\rangle=\frac{1}{2}\mathbf{E}(\mathbf{r})\times\mathbf{H}^{*}(\mathbf{r}).
 \label{eq:Poyntingov-vektor-c}
 \end{equation}
 
@@ -212,7 +213,7 @@ $\mathbf{D}\perp\mathbf{k}$ (naloga~\ref{naloga-TEM-ortogonalnost}).
 To velja vedno, tudi v anizotropnih sredstvih, vendar tam $\mathbf{E} \nparallel 
 \mathbf{D}$ in $\mathbf k\nparallel\mathbf S$. Za podrobnejši opis glej 
 razdelek~\ref{chap:anizotropni}.} 
-\begin{naloga}
+\begin{definition}
 \label{naloga-TEM-ortogonalnost}
 Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpelji zvezi
 \begin{align}
@@ -226,7 +227,7 @@ Pokaži tudi, da za ravni val vedno velja
 \begin{equation}
 \mathbf{D}_0 \perp \mathbf{B}_0 \perp \mathbf{k}.  
 \end{equation}
-\end{naloga}
+\end{definition}
 
 Zapišimo še povprečno gostoto energije valovanja\index{Gostota energije} (enačba~\ref{eq:gostota-energije}). 
 K energiji prispevata tako magnetno kot električno polje. Prispevka sta enaka, zato velja
@@ -356,7 +357,7 @@ Ploščica $\lambda/4$ linearno polarizirano valovanje z Jonesovim vektorjem $(1
 spremeni v levo krožno polarizirano valovanje in krožno polarizirano
 valovanje nazaj v linearno. 
 
-\begin{naloga}
+\begin{definition}
 Pokaži, da je Jonesova matrika za polarizator,
 ki prepušča polarizacijo pod kotom $\vartheta$ glede na os $x$, podana z matriko
 \begin{equation}
@@ -368,7 +369,7 @@ A=\left[\begin{array}{cc}
 Namig: matriko $A'$, ki opisuje polarizator v smeri $x$, zapiši v zasukanem
 koordinatnem sistemu $A=R(\vartheta) \cdot {A'}\cdot R(\vartheta)^\textrm{T}$, 
 kjer je $R(\vartheta)$ rotacijska matrika.
-\end{naloga}
+\end{definition}
 
 \section{Lom in odboj EM valovanja}
 Na ravni meji med dvema izotropnima dielektrikoma se del svetlobe
@@ -432,9 +433,9 @@ lahko kompleksen. Velikost števila $\left|r\right|$ tako predstavlja
 odbojnost in argument $\arg(r)$ spremembo faze
 pri odboju.
 
-\begin{naloga}
+\begin{definition}
 Izpelji Fresnelove enačbe (enačbe~\ref{eq:Fresnel1} in \ref{eq:Fresnel2}).
-\end{naloga}
+\end{definition}
 
 Amplitudna odbojnost $r$ in amplitudna prepustnost $t$ povesta, kako se spremeni 
 kompleksna amplituda jakosti električnega polja pri odboju oziroma lomu.
@@ -495,11 +496,11 @@ z vijolično mejni kot totalnega odboja $\vartheta_T$.}
 \label{fig:Brewster}
 \end{figure}
 \vglue5truemm
-\begin{naloga}
+\begin{definition}
 Pokaži, da za Brewstrov kot velja 
 $\vartheta_{B}=\arctan\left(n_2/n_1\right).$
 \label{eq:Brew}
-\end{naloga}
+\end{definition}
 \vglue-3truemm
 \begin{remark}
 Prozorne ploščice, ki so postavljene pod Brewstrovim kotom glede na smer vpadne svetlobe, 
@@ -604,13 +605,13 @@ E_P = -\frac{ik A e^{-i\omega t}}{4\pi}\int\frac{e^{ik(r+r')}}{rr'}\left(\cos(\m
 \label{eq:Fresnel-Kirchoffov-integral}
 \end{equation}
 Imenujemo ga Fresnel-Kirchhoffov uklonski integral\index{Fresnel-Kirchhoffov integral}.
-\begin{naloga}
+\begin{definition}
 \label{naloga-Fresnel-Kirchhoff-uklon}
 Uporabi Kirchhoffov integral (enačba~\ref{eq:Kirchhoffov-integral}) in pokaži, da 
 za primer krožnega vpadnega vala (enačba~\ref{eq:polje-krogelni-val}) polje v točki 
 $P$ zapišemo s Fresnel-Kirchhoffovim integralom (enačba~\ref{eq:Fresnel-Kirchoffov-integral}). 
 Pri tem privzemi, da je oddaljenost točke $P$ od odprtine $r \gg \lambda$.
-\end{naloga}
+\end{definition}
 
 Oglejmo si poseben primer, ko leži točkast izvor svetlobe na osi okrogle odprtine. Polje 
 v točki $P$ potem izračunamo kot 
@@ -717,7 +718,7 @@ celo v polni obliki.
 \label{fig:UklonFF}
 \end{figure}
 
-\begin{naloga}
+\begin{definition}
 \label{naloga-Frauhofer-Kirchhoff-uklon}
 Pokaži, da je v Fraunhoferjevi uklonski sliki uklon na okrogli odprtini podan z
 \begin{equation}
@@ -725,7 +726,7 @@ I_P = I_0\frac{4 J_1(k a \rho/ z)}{k a \rho/z},
 \end{equation}
 kjer je $I$ intenziteta valovanja, $k$ valovno število, $a$ polmer odprtine, 
 $J_1(x)$ Besslova funkcija in $\rho = \sqrt{x^2+y^2}$.
-\end{naloga}
+\end{definition}
 
 \section{EM valovanje v anizotropnih snoveh}\label{chap:anizotropni}
 Do zdaj smo obravnavali elektromagnetno valovanje
