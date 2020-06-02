@@ -43,13 +43,13 @@ snopov bi dobili s Fraunhoferjevo in Fresnelovo uklonsko teorijo,
 kar ni najudobnejša pot (glej nalogo~\ref{ffuklon}). Lotimo se problema raje z 
 uporabo obosnega približka valovne enačbe.
 
-\begin{definition}
+\begin{naloga}
 \label{ffuklon}
 Pokaži, da je Fraunhoferjeva uklonska slika na odprtini, katere prepustnost se v radialni smeri
 spreminja kot Gaussova funkcija $T(\xi, \eta)=e^{-(\xi^2+\eta^2)/w_0^2}$, podana z Gaussovo funkcijo
 oblike $E(x,y,z) \propto e^{-(x^2+y^2)/w^2(z)}$ in določi odvisnost $w(z)$. Izračunaj še 
 uklonsko sliko v bližnjem polju po Fresnelovi uklonski teoriji.
-\end{definition}
+\end{naloga}
 
 \section{Obosna valovna enačba}
 Obravnavo začnemo z valovno enačbo in monokromatskim valovanjem s krožno frekvenco $\omega$. Ustrezna
@@ -262,11 +262,11 @@ Krivinski radij valovnih front Gaussovega snopa je v izhodišču neskončen, kar
 ravne. Pri velikih oddaljenostih krivinski radij narašča linearno z oddaljenostjo in fronte
 so podobne delu krogelnega vala. 
 
-\begin{definition}
+\begin{naloga}
 \label{naloga-ukrivljenost-snopa}
 Pokaži, da je največja ukrivljenost valovnih front snopa (in s tem najmanjši $R$) ravno pri $z=\pm z_{0}$.
 Izračunaj še ukrivljenost front v grlu in v veliki oddaljenosti od grla.
-\end{definition}
+\end{naloga}
 
 Na sliki~\ref{fig:ravni-Gaussov-krogelni-val} so prikazane valovne fronte (ploskve konstantne faze)
 ravnega vala, Gaussovega snopa (enačba~\ref{eq:gaussov-snop}) 
@@ -322,12 +322,12 @@ I(r,z)= E(r,z,t)E^*(r,z,t) = I_{0}\,\frac{w_0^2}{w^2}\,e^{-2r^{2}/w^{2}}.
 \label{fig:Gauss_3D}
 \end{figure}
 
-\begin{definition}
+\begin{naloga}
 \label{naloga-širina-snopa}
 Pokaži, da je svetlobna moč v Gaussovem snopu 
 enaka 
 $P = c_0 \varepsilon_0 I_0 \pi w_0^2/4$.
-\end{definition}
+\end{naloga}
 
 Povejmo še nekaj o parametru $q(z)$, ki smo ga uporabili pri izračunu Gaussovega snopa v nastavku
 (enačba~\ref{eq:gaussov-snop-nastavek}). Spomnimo 
@@ -342,9 +342,9 @@ njegov inverz kompleksna ukrivljenost\index{Kompleksna ukrivljenost}
 \boxeq{eq:q-inv}{
 \frac{1}{q(z)}=\frac{1}{R}+i\frac{2}{kw^{2}}.
 }
-\begin{definition}
+\begin{naloga}
 Uporabi enačbi (\ref{eq:z0} in \ref{eq:R}) in izpelji enačbo~(\ref{eq:q-inv}).
-\end{definition}
+\end{naloga}
 Kompleksni krivinski radij je zelo uporaben pri obravnavi preslikav Gaussovih snopov z lečami.
 
 \section{Snopi višjega reda}
@@ -393,13 +393,13 @@ za različne vrednosti $(n,m)$}
 \label{fig:Gauss-Hermitevi-snopi}
 \end{figure}
 
-\begin{definition}
+\begin{naloga}
 \label{naloga:HG}
 Pokaži, da za Hermite-Gaussove snope višjih redov efektivni polmer snopa 
 narašča sorazmerno s korenom iz števila prečnih vozlov $ w_{\mathrm{eff}}\propto w\sqrt{n+m}$.\\
 Namig: pri zapisu prečne odvisnosti polja upoštevaj le vodilni člen Hermitovih polinomov 
 in izračunaj, pri kateri oddaljenosti od središča snopa je amplituda polja $\psi$ največja.
-\end{definition}
+\end{naloga}
 
 \begin{remark}
  Hermite-Gaussovi snopi tvorijo kompletni
@@ -684,7 +684,7 @@ skozi teleskop iz leč z goriščnima razdaljama $f_{1}$ in $f_{2}$}
 \label{fig:Prehod-Gaussovega-snopa-teleskop}
 \end{figure}
 
-\begin{definition}
+\begin{naloga}
 \label{teleskop}
 Dve leči z goriščnima razdaljama $f_{1}$ in $f_{2}$ naj bosta na medsebojni
 razdalji $d=f_{1}+f_{2}$. Pokaži, da je povečava takega teleskopa enaka  
@@ -692,7 +692,7 @@ razdalji $d=f_{1}+f_{2}$. Pokaži, da je povečava takega teleskopa enaka
 \frac{w_{02}}{w_{01}}=\frac{f_{2}}{f_{1}}.
 \label{eq:povecava-teleskop}
 \end{equation}
-\end{definition}
+\end{naloga}
 
 \section{Matrične (ABCD) preslikave v geometrijski optiki}
 
@@ -956,7 +956,7 @@ primeru je determinanta matrike enaka razmerju lomnih količnikov začetne in ko
 \label{fig:Matrike-za-preslikave}
 \end{table}
 
-\begin{definition}
+\begin{naloga}
 Pokaži, da za naslednje prehode veljajo ustrezne matrike ABCD. \\ \\
 \begin{tabular}{|c|c|c|} \hline  
       Prehod skozi prostor in lečo & \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_df.pdf_tex}} & 
@@ -970,4 +970,4 @@ Pokaži, da za naslednje prehode veljajo ustrezne matrike ABCD. \\ \\
       Prehod skozi zaporedje plasti & \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_nN.pdf_tex}} & 
       $\begin{bmatrix} 1 & \sum_{i=1}^{N}\frac{d_{i}}{n_{i}}\\ 0 & 1 \end{bmatrix}$ \\ \hline 
 \end{tabular}
-\end{definition}
+\end{naloga}

@@ -153,12 +153,12 @@ Imaginarni del predstavlja fazni zamik, amplituda odziva, ki nas zanima, je
 podana kot realni del. Odziv je velik le za počasne spremembe signala, ko
 je $\omega$ majhen in je $T_\omega \approx P_\omega/\Lambda$. Z naraščajočo frekvenco
 $\omega$ se odziv zmanjšuje in hitrim spremembam detektor ne more slediti. 
-\begin{definition}
+\begin{naloga}
 Pokaži, da je odziv termičnega detektorja na sunek oblike $P(t) = P_0\delta(t-t_0)$
 \begin{equation}
 T(t)-T_0=\frac{P_0}{\tau\Lambda}e^{-(t-t_0)/\tau}.
 \end{equation}
-\end{definition}
+\end{naloga}
 
 \subsection*{Bolometer}
 Bolometer je termični detektor\index{Bolometer}, pri katerem zaznavamo spremembo 
@@ -438,11 +438,11 @@ tok\index{Temni tok}
 in tipično dosega vrednosti okoli $10^{-15}~\si{\ampere}$, lahko pa tudi do več $\si{nA}$. 
 Za občutljive meritve je treba zato vakuumsko fotodiodo hladiti. 
 
-\begin{definition}
+\begin{naloga}
 Izračunaj občutljivost fotocelice na osnovi GaAs\index{GaAs} 
 za valovanje z valovno dolžino $\lambda=620$~nm.
 Kvantni izkoristek odčitaj s slike~\ref{fig:Fotodioda}.
-\end{definition}
+\end{naloga}
 
 \subsection*{Fotopomnoževalka}
 \index{Fotopomnoževalka}
@@ -574,14 +574,14 @@ vrste snovi in gibljivosti nosilcev naboja v njej, velikosti
 detektorja in tudi priključene napetosti, zato lahko $G$ zavzame vrednosti od manj kot ena pa
 vse do $10^6$. 
 
-% \begin{definition}
+% \begin{naloga}
 % Izračunali smo spremembo toka, če fotoprevodnik osvetlimo s konstantno vpadno močjo. Pokaži, da
 %  je v primeru periodično spremenljive moči odziv enak
 %  \begin{equation}
 % \Delta I_\omega = G \left( \frac{e_0 \eta_e}{h\nu}\right) \frac{P_\omega}{1+i \omega \tau_e}.
 % %  \end{equation}
 %  
-% \end{definition}
+% \end{naloga}
 
 Fotoprevodniki so uporabni na širokem spektralnem območju, od ultra\-vijoličnega
 do daljnega infra\-rdečega valovanja.\index{Ultravijolično valovanje}\index{Infrardeče valovanje} 
@@ -722,7 +722,7 @@ krivuljo premika navzdol. S simboli so označene točke delovanja za različne n
 \label{11_IU}
 \end{figure}
  
-% \begin{definition}
+% \begin{naloga}
 % Izpelji karakteristično enačbo diode (enačba~\ref{11:dioda}) in pokaži, da
 % je zaporni tok \index{Temni tok}
 % \beq
@@ -732,7 +732,7 @@ krivuljo premika navzdol. S simboli so označene točke delovanja za različne n
 % dolžina posameznih nosilcev naboja, $p$ in $n$ pa sta koncentraciji manjšinskih
 % nosilcev naboja v ravnovesju. Ugotovi, zakaj je zaporni tok močno odvisen od
 % temperature. 
-% \end{definition}
+% \end{naloga}
  
 \subsection*{Delovanje fotodiode}
 Ko na polprevodnik vpade foton, ki ima energijo večjo od širine reže, 
@@ -814,13 +814,13 @@ upornika ni enaka nič, se po grafu ob naraščajoči moči vpadne svetlobe ne p
 ampak pod kotom proti desni. Način, ko v tokokrog s fotodiodo vežemo še Ohmski upor,
 se uporablja tudi v sončnih celicah. 
 
-\begin{definition}
+\begin{naloga}
 \label{naloga:optR}
 V sončnih celicah želimo iz vpadne svetlobne moči pridobiti kar največ električne moči.
 Pokaži, da električna moč na uporniku, prek katerega sklenemo fotodiodo, pri nekem $R$
 zavzame največjo vrednost. Poišči $R$ za primer $I_0 = 10^{-9}~\si{A}$, $I_f = 10^{-3}~\si{A}$ 
 in $T=300~\si{K}$.
-\end{definition}
+\end{naloga}
 
 Prednosti merjenja ob napetosti, priključeni v zaporni smeri, je več. 
 Zaradi priključene napetosti se zmanjša čas preleta
@@ -830,7 +830,7 @@ Dodatno se poveča širina izpraznjenega pasu (naloga~\ref{naloga:depl}), kar zm
 kondenzator in časovni odziv je odvisen od njegove kapacitete) in s tem odzivni čas. Povečana
 izpraznjena plast vodi tudi do večjega območja, v katerem se fotoni absorbirajo. 
 
-\begin{definition}
+\begin{naloga}
 \label{naloga:depl}
 Pokaži, da je debelina izpraznjene plasti enaka $d = d_p+d_n$, kjer sta $d_p$ (debelina izpraznjene
 plasti na strani $p$) in $d_n$ (debelina izpraznjene plasti na strani $n$) podana z enačbama 
@@ -843,7 +843,7 @@ Pri tem $N_a$ in $N_d$ označujeta gostoti akceptorskih in donorskih atomov, $\D
 potencialni skok med stranjo $n$ in $p$ in $U$ priključena napetost.
 \\ Namig: zapiši Gaussov zakon in 
 upoštevaj zvezo $d_n N_d = d_p N_a$.
-\end{definition}
+\end{naloga}
 
 Povejmo še nekaj o zgradbi fotodiode. Shema preproste fotodiode je prikazana na 
 sliki~\ref{11_shema}\,a.
@@ -1124,11 +1124,11 @@ in standardni odklon
 \end{equation}
 Standardni odklon, ki je merilo za velikost šuma, torej narašča korensko 
 z naraščajočim povprečnim številom vpadnih fotonov $\overline{n}$. 
-\begin{definition}
+\begin{naloga}
 Pokaži, da je povprečje Poissonove porazdelitve (enačba~\ref{Poisson}) vedno pri $n = \overline{n}$
 in da je standardni odklon $\sigma = \sqrt{\overline{n}}$.
 \label{nal:Poiss}
-\end{definition}
+\end{naloga}
 
 Absolutni šum nas večinoma ne zanima, 
 saj je pri detekciji ključno razmerje med merjenim 
@@ -1354,7 +1354,7 @@ zato praktično konstanten. V tem primeru $SNR$ narašča linearno z intenziteto
 vpadne svetlobe. Pri velikih intenzitetah šum štetja prevlada nad ostalimi prispevki
 in odvisnost $SNR$ od intenzitete postane korenska. 
 
-\begin{definition}
+\begin{naloga}
 Oceni šum štetja, termični šum in šum temnega toka na silicijevi fotodiodi, če 
 nanjo vpada svetloba z valovno dolžino $\lambda=850~\si{\nano\meter}$\index{Silicij}
 \index{Fotodioda!polprevodniška}
@@ -1362,7 +1362,7 @@ in vpadno močjo $P=0,1~\si{\milli\watt}$. Kvantni izkoristek diode je $85~\%$,
 spektralna širina $\Delta\nu_B=150~\si{\mega\hertz}$, temni tok $10~\si{\nano\ampere}$,
 skupna upornost $50~\si{\ohm}$ in temperatura $300~\si{\kelvin}$. Pokaži, 
 da je razmerje signal proti šumu $SNR\sim250$. 
-\end{definition}
+\end{naloga}
 
 Pomemben parameter, ki ga pogosto vpeljemo, je $NEP$ ({\it Noise Equivalent Power} -- 
 moč, ki ustreza šumu).\index{NEP@$NEP$} To je vpadna moč svetlobe, ki je po velikosti primerljiva 
@@ -1377,13 +1377,13 @@ Sledi
 NEP = \frac{h \nu}{\eta e_0}\sqrt{\left(\frac{4 kT}{R} + 2 I_0\,e_0 \right) \Delta\nu_B}.
 \label{NEP}
 \end{equation}
-\begin{definition}
+\begin{naloga}
 Izračunaj $NEP$ za primer germanijeve\index{Germanij} diode pri vpadni svetlobi z valovno dolžino
 $\lambda = 1,5~\si{\micro\meter}$ in kvantnim izkoristkom $\eta=0,5$. Temperatura detektorja
 je $T=300~\si{\kelvin}$ in temni tok $I_0=15~\si{\micro\ampere}$. Skupna upornost
 je $R=2~\si{\kilo\ohm}$ in pasovna širina zajemanja svetlobe
 $\Delta\nu_B=150~\si{\mega\hertz}$.
-\end{definition}
+\end{naloga}
 
 \begin{remark}
 Zaradi priročnosti je pogosto podan $NEP$ na koren spektralne širine, saj ta ni 

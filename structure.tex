@@ -28,26 +28,26 @@
 
 \usepackage{titletoc} % Required for manipulating the table of contents
 
-\contentsmargin{0cm} % Removes the default margin
+%\contentsmargin{0cm} % Removes the default margin
 % Chapter text styling
-\titlecontents{chapter}[1.25cm] % Indentation
-{\addvspace{15pt}\large\sffamily\bfseries} % Spacing and font options for chapters
-{\color{ocre!60}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
+\titlecontents{chapter}[1.0cm] % Indentation
+{\addvspace{12pt}\normalsize\bfseries} % Spacing and font options for chapters
+{\color{ocre!60}\contentslabel[\bfseries\thecontentslabel]{1.00cm}\color{ocre}} % Chapter number
 {}  
-{\color{ocre!60}\normalsize\sffamily\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+{\color{ocre!60}\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 % Section text styling
-\titlecontents{section}[1.25cm] % Indentation
-{\addvspace{5pt}\sffamily\bfseries} % Spacing and font options for sections
-{\contentslabel[\thecontentslabel]{1.25cm}} % Section number
+\titlecontents{section}[1.75cm] % Indentation
+{\addvspace{2pt}\color{black}} % Spacing and font options for sections
+{\contentslabel[\thecontentslabel]{1.00cm}} % Section number
 {}
-{\sffamily\hfill\color{black}\thecontentspage} % Page number
+{\hfill\color{black}\thecontentspage} % Page number
 []
 % Subsection text styling
-\titlecontents{subsection}[1.25cm] % Indentation
-{\addvspace{1pt}\sffamily\small} % Spacing and font options for subsections
-{\contentslabel[\thecontentslabel]{1.25cm}} % Subsection number
+\titlecontents{subsection}[2.25cm] % Indentation
+{\addvspace{1pt}} % Spacing and font options for subsections
+{\contentslabel[\thecontentslabel]{1.00cm}} % Subsection number
 {}
-{\sffamily\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+{\hfill\color{black}\thecontentspage} % Page number
 [] 
 
 %----------------------------------------------------------------------------------------
@@ -175,7 +175,7 @@
 \newtheorem{exampleT}{Example}[chapter]
 \theoremstyle{blacknumbox}
 \newtheorem{vocabulary}{Vocabulary}[chapter]
-\newtheorem{definitionT}{Naloga}[section]
+\newtheorem{nalogaT}{Naloga}[section]
 \newtheorem{corollaryT}[dummy]{Corollary}
 \theoremstyle{ocrenum}
 \newtheorem{proposition}[dummy]{Računski zgled}
@@ -252,7 +252,7 @@ innerbottommargin=5pt]{cBox}
 % Creates an environment for each type of theorem and assigns it a theorem text style from the "Theorem Styles" section above and a colored box from above
 \newenvironment{theorem}{\begin{tBox}\begin{theoremeT}}{\end{theoremeT}\end{tBox}}
 \newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}				  
-\newenvironment{definition}{\begin{dBox}\begin{definitionT}}{\end{definitionT}\end{dBox}}	
+\newenvironment{naloga}{\begin{dBox}\begin{nalogaT}}{\end{nalogaT}\end{dBox}}	
 \newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}		
 \newenvironment{corollary}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}	
 
