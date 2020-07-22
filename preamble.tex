@@ -1,17 +1,13 @@
-
-%\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,a4paper]{geometry} % Page margins
-
-\usepackage{xcolor,lipsum} % Required for specifying colors by name
+\usepackage{xcolor} % Required for specifying colors by name
 \definecolor{ocre}{RGB}{0,56,102} 
 \definecolor{lightgray}{RGB}{229,229,229} 
-% Font Settings
-\usepackage{avant} % Use the Avantgarde font for headings
+
+%\usepackage{avant} % Use the Avantgarde font for headings
 %\usepackage{times} % Use the Times font for headings
 \usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
 
+\usepackage{amssymb}
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage[unicode]{hyperref}
 \usepackage{empheq}
 \usepackage{color}
@@ -19,8 +15,9 @@
 \usepackage{afterpage}
 \newcommand{\boxeq}[2]{\begin{empheq}[box=\colorbox{ocre!30}]{align}\label{#1}#2\end{empheq}}
 \newcommand*{\xdash}[1][8em]{\rule[0.5ex]{#1}{0.55pt}}
-\usepackage{makeidx}
-\makeindex
+
+\usepackage{hyperref}
+\hypersetup{hidelinks,backref=true,pagebackref=true,hyperindex=true,colorlinks=true,breaklinks=true,urlcolor= ocre,linkcolor=ocre,bookmarks=true,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
 
 % MATHS PACKAGE
 \usepackage{amsmath,tikz}
@@ -29,11 +26,9 @@
 \usepackage{calc}
 \usepackage{siunitx}
 
-% VERBATIM PACKAGE
-\usepackage{verbatim}
 \usepackage{wrapfig}
-
-\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+\usepackage{subfig}
+\usepackage{parskip}
 
 \newcommand{\beq}{\begin{equation}}
 \newcommand{\eeq}{\end{equation}}
@@ -41,19 +36,86 @@
 
 \newcommand{\usk}{\mbox()}
 
-\usepackage{subfig}
-\usepackage{parskip}
-
 \makeatletter
 \setlength{\@fptop}{0pt}
 \makeatother
 
-%Copy-paste iz stare skripte.
-
-%\usepackage[tikz]{bclogo}
-\usepackage{graphicx}
-\usepackage{xcolor}
-\definecolor{darkblue}{rgb}{0,0,0.5} 
-\usepackage{transparent}
-\usepackage{import}
 \graphicspath{{./slike/}}
+
+%TOC====================================
+\setcounter{tocdepth}{2}
+\usepackage{titletoc} % Required for manipulating the table of contents
+%\contentsmargin{0cm} % Removes the default margin
+% Chapter text styling
+\titlecontents{chapter}[1.0cm] % Indentation
+{\addvspace{12pt}\normalsize\bfseries} % Spacing and font options for chapters
+{\color{ocre}\contentslabel[\bfseries\thecontentslabel]{1.00cm}\color{ocre}} % Chapter number
+{}  
+{\color{ocre}\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+% Section text styling
+\titlecontents{section}[1.75cm] % Indentation
+{\addvspace{2pt}\color{black}} % Spacing and font options for sections
+{\contentslabel[\thecontentslabel]{1.00cm}} % Section number
+{}
+{\hfill\color{black}\thecontentspage} % Page number
+[]
+% Subsection text styling
+\titlecontents{subsection}[2.25cm] % Indentation
+{\addvspace{1pt}} % Spacing and font options for subsections
+{\contentslabel[\thecontentslabel]{1.00cm}} % Subsection number
+{}
+{\hfill\color{black}\thecontentspage} % Page number
+[] 
+
+
+%REMARK================================
+\newenvironment{remark}{\par\vspace{10pt}\small % Vertical white space above the remark and smaller font size
+\begin{list}{}{
+\leftmargin=25pt % Indentation on the left
+\rightmargin=0pt}\item\ignorespaces % Indentation on the right
+\makebox[-2.5pt]{\begin{tikzpicture}[overlay]
+\node[draw=ocre!60,line width=1pt,circle,fill=ocre!25,inner sep=2pt,outer sep=0pt] at (-15pt,0pt){\textcolor{ocre}{$\bigstar$}};\end{tikzpicture}} % Star in a circle
+\advance\baselineskip -1pt}{\end{list}\vskip5pt} % Tighter line spacing and white space after remark
+
+
+%NALOGA===============================
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm} % For math equations, theorems, symbols, etc
+\newcommand{\intoo}[2]{\mathopen{]}#1\,;#2\mathclose{[}}
+\newcommand{\ud}{\mathop{\mathrm{{}d}}\mathopen{}}
+\newcommand{\intff}[2]{\mathopen{[}#1\,;#2\mathclose{]}}
+\newtheorem{notation}{Notation}[chapter]
+
+
+
+
+
+
+
+\newcounter{dummy} 
+\numberwithin{dummy}{section}
+\newtheorem{nalogaT}{Naloga}[section]
+
+
+
+
+\RequirePackage[framemethod=default]{mdframed}
+
+% Naloga box
+\newmdenv[
+skipabove=7pt,
+skipbelow=7pt,
+rightline=false,
+leftline=false,
+topline=true,
+bottomline=true,
+linecolor=ocre,
+innerleftmargin=0pt,
+innerrightmargin=0pt,
+innertopmargin=15pt,
+leftmargin=0cm,
+rightmargin=0cm,
+linewidth=1pt,
+innerbottommargin=7pt]{dBox}
+
+\newenvironment{naloga}{\begin{dBox}\begin{nalogaT}}{\end{nalogaT}\end{dBox}}	
