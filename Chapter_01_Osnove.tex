@@ -35,16 +35,19 @@ Poleg Maxwellovih enačb veljata zvezi
 kjer $\mathbf{P}$ označuje \index{Električna polarizacija}električno
 polarizacijo, to je gostoto električnih dipolov, in  $\mathbf{M}$
 \index{Magnetizacija}magnetizacijo, to je gostoto magnetnega momenta.
+
 Polarizacija $\mathbf{P}$ in magnetizacija $\mathbf{M}$ sta odvisni od zunanjih polj $\mathbf{E}$
 in $\mathbf{B}$. Na splošno sta njuni odvisnosti zelo zapleteni.
 V izotropnih in linearnih snoveh\footnote{Med nelinearne snovi, za katere
 napisani zvezi ne veljata, sodijo na primer feroelektriki in feromagneti.}
  se zvezi poenostavita v 
 \begin{equation}
-\mathbf{P}=\epsilon_{0}\chi_e\mathbf{E} = \epsilon_{0}(\epsilon-1)\mathbf{E} \qquad \textrm{in} 
-\qquad
-\mathbf{M}=\frac{(\mu-1)}{\mu\mu_0}\mathbf{B} = \chi_m \mathbf{H} = (\mu-1)\mathbf{H}
-\label{eq:PM}.
+\mathbf{P}=\epsilon_{0}\chi_e\mathbf{E} = \epsilon_{0}(\epsilon-1)\mathbf{E} 
+\label{eq:PM}
+\end{equation}
+in
+\begin{equation}
+\mathbf{M}=\frac{(\mu-1)}{\mu\mu_0}\mathbf{B} = \chi_m \mathbf{H} = (\mu-1)\mathbf{H}.
 \end{equation}
 Vpeljali smo \index{Susceptibilnost!električna} električno $\chi_e$ in 
 \index{Susceptibilnost!magnetna}magnetno $\chi_m$ susceptibilnost ter
@@ -89,12 +92,12 @@ normalni komponenti $D_n$ in $B_n$.}
 \section{Valovna enačba in Poyntingov vektor}
 Večinoma bomo obravnavali elektromagnetna valovanja v izotropnih, 
 homogenih in linearnih snoveh brez zunanjih izvorov polja ($\mathbf{j}_e=0$ in $\rho_{e}=0$). 
-Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpeljemo valovni 
-enačbi\index{Valovna enačba} za jakost električnega in gostoto magnetnega polja 
+Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpeljemo valovno
+enačbo\index{Valovna enačba} za jakost električnega polja
 \boxeq{eq:valovna-skalarna}{
 \nabla^{2}\mathbf{E}-\frac{1}{c^{2}}\frac{\partial^{2}\mathbf{E}}{\partial t^{2}} = 0
 }
-in
+in valovno enačbo za gostoto magnetnega polja 
 \begin{equation}
 \label{eq:valovna-skalarna-B}
 \nabla^{2}\mathbf{B}-\frac{1}{c^{2}}\frac{\partial^{2}\mathbf{B}}{\partial t^{2}} = 0.
@@ -111,6 +114,7 @@ svetlobe v snovi $c$ manjša od hitrosti svetlobe v praznem prostoru $c_0$. Velj
 n=\sqrt{\epsilon\mu}.
 \end{equation}
 Za izotropno in nemagnetno snov ($\mu=1$) je lomni količnik $n=\sqrt{\epsilon}$.
+
 Vpeljimo še Poyntingov 
 vektor\footnote{Angleški fizik John Henry Poynting, 1852--1914.} 
 \index{Poyntingov vektor}{$\mathbf{S}$}
@@ -157,7 +161,9 @@ za monokromatski val s krožno frekvenco $\omega$ naj bo
 kjer sta $\mathbf E(\mathbf{r})$ in $\mathbf B(\mathbf{r})$ časovno
 neodvisna vektorja jakosti električnega\index{Električno polje!jakost} in gostote
 magnetnega polja\index{Magnetno polje!gostota} s kompleksno
-amplitudo. Podobno vpeljemo kompleksne vektorje $\mathbf{P}$,
+amplitudo. 
+
+Podobno vpeljemo kompleksne vektorje $\mathbf{P}$,
 $\mathbf{M}$, $\mathbf{D}$ in $\mathbf{H},$ ki opisujejo realne količine (polarizacijo,
 magnetizacijo, gostoto električnega in jakost magnetnega polja).
 Čeprav bomo večinoma uporabljali kompleksni zapis polj, se moramo zavedati, da
@@ -175,6 +181,7 @@ V homogenem in izotropnem sredstvu ju zapišemo kot
 \nabla^{2}\mathbf{B}(\mathbf{r})+k^{2}\mathbf{B}(\mathbf{r}) =0,
 }
 kjer je $k=\omega/c = n \omega/c_0 = n k_0$ valovno število\index{Valovno število}. 
+
 Povprečni Poyntingov vektor\index{Poyntingov vektor}, povprečen
 po eni periodi, je enak
 \begin{equation}
