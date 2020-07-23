@@ -1,9 +1,21 @@
-\usepackage{xcolor} % Required for specifying colors by name
-\definecolor{ocre}{RGB}{0,56,102} 
-\definecolor{lightgray}{RGB}{229,229,229} 
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
+\usepackage{graphicx}
+\usepackage{framed}
+
+% FORMAT STRANI ===================
+\usepackage[driver=none,papersize={165mm,235mm},totalheight=190mm,textwidth=128mm,centering,marginpar=15mm]{geometry}
+\usepackage{crop}
+
+% DEFINICIJA BARVE ===================
+\usepackage{xcolor}
+\definecolor{MojaModra}{RGB}{0,56,102} 
+
+% DEFINICIJA FONTA ===================
 %\usepackage{avant} % Use the Avantgarde font for headings
-%\usepackage{times} % Use the Times font for headings
 \usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
 
 \usepackage{amssymb}
@@ -13,23 +25,27 @@
 \usepackage{color}
 \usepackage{caption}
 \usepackage{afterpage}
-\newcommand{\boxeq}[2]{\begin{empheq}[box=\colorbox{ocre!30}]{align}\label{#1}#2\end{empheq}}
-\newcommand*{\xdash}[1][8em]{\rule[0.5ex]{#1}{0.55pt}}
 
+% OKVIRČEK ZA ENAČBE ===================
+\newcommand{\boxeq}[2]{\begin{empheq}[box=\colorbox{MojaModra!25}]{align}\label{#1}#2\end{empheq}}
+
+% HYPERREF ===================
 \usepackage{hyperref}
-\hypersetup{hidelinks,backref=true,pagebackref=true,hyperindex=true,colorlinks=true,breaklinks=true,urlcolor= ocre,linkcolor=ocre,bookmarks=true,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+\hypersetup{hidelinks,backref=true,pagebackref=true,hyperindex=true,colorlinks=true,breaklinks=true,urlcolor= MojaModra,linkcolor=MojaModra,bookmarks=true,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
 
-% MATHS PACKAGE
+% MATHS ===================
 \usepackage{amsmath,tikz}
 \usetikzlibrary{matrix}
 \newcommand*{\horzbar}{\rule[0.05ex]{2.5ex}{0.5pt}}
 \usepackage{calc}
 \usepackage{siunitx}
 
+% ZA SLIKE (wrap & sub) ===================
 \usepackage{wrapfig}
 \usepackage{subfig}
 \usepackage{parskip}
 
+% RAZNO ===================
 \newcommand{\beq}{\begin{equation}}
 \newcommand{\eeq}{\end{equation}}
 \renewcommand{\arraystretch}{1.5}
@@ -40,18 +56,89 @@
 \setlength{\@fptop}{0pt}
 \makeatother
 
+% POT ZA SLIKE ===================
 \graphicspath{{./slike/}}
 
-%TOC====================================
+% HEADER ===================
+\usepackage{fancyhdr} 
+\fancyfoot{}
+\fancyhead{}
+\fancyhead[LE]{\thepage}
+\fancyhead[RO]{\thepage}
+\fancyhead[CE]{\itshape\nouppercase{\leftmark}}
+\fancyhead[CO]{\itshape\nouppercase{\leftmark}} %dala left na obe strani.
+\pagestyle{fancy}
+\fancyhfoffset[L]{0cm}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter~~#1}{\thechapter~~#1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection~~#1}}
+
+% ŠTEVILČENJE NASLOVOV ===================
+\renewcommand{\thepart}{\Roman{part}.} 
+\renewcommand{\thechapter}{\arabic{chapter}} %odstranila sem pike, sicer imajo enačbe po dve piki, npr. 4..2
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}} %odstranila sem pike
+\renewcommand{\thesubsection}{}
+
+% NASLOVI ===================
+\usepackage{titlesec}
+\titleformat{\part}[hang]{\normalfont\Huge\bfseries}{\thepart}{15pt}{\thispagestyle{empty}\filcenter}{}
+\titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\vspace*{7mm}\thechapter}{12pt}{}{}
+\titleformat{\section}[hang]{\normalfont\Large\bfseries}{\thesection}{10pt}{}{}
+\titleformat{\subsection}[hang]{\normalfont\large\bfseries}{}{0pt}{}{}
+
+% OPISI SLIK IN TABEL ===================
+\usepackage[font=small,format=plain,labelfont=sc,justification=centerlast]{caption} %odstranila italic
+%,figurewithin=none,tablewithin=none
+
+% OPOMBE POD ČRTO ===================
+\usepackage[bottom]{footmisc}
+\setlength{\footnotesep}{4mm}
+\setlength{\skip\footins}{5mm}
+\renewcommand{\footnoterule}{\kern -2.4pt\hrule width 2cm height 0.4pt\kern 2pt}
+
+% STVARNO KAZALO ===================
+\usepackage{makeidx}
+\makeindex 
+
+% RAZNO ===================
+\newcommand{\procent}[1]{\SI{#1}{\%}}
+\newcommand{\narekovaji}[1]{\guillemotright#1\guillemotleft}
+
+\renewcommand{\tan}{\mathop{\mathrm{tg}}\nolimits}
+\renewcommand{\arctan}{\mathop{\mathrm{arctg}}\nolimits}
+
+\newcommand{\UL}{\textsc{Univerza v Ljubljani}}
+\newcommand{\FMF}{\textsc{Fakulteta za matematiko in fiziko}}
+\newcommand{\LJ}[1]{\textsc{Ljubljana #1}}
+\newcommand{\avtor}[1]{{\centering\Large\textsc{#1}\par}}
+\newcommand{\naslov}[1]{{\centering\Huge\textbf{#1}\par}}
+\newcommand{\logotip}[1][1]{{\centering\includegraphics[scale=#1]{fmf.pdf}\par}}
+\newcommand{\zalozba}[1]{{\centering\UL\\\FMF\\[1mm]\LJ{#1}\par}}
+\newcommand{\sodastran}{\clearpage\ifodd\value{page}~\thispagestyle{empty}\clearpage\fi}
+\newcommand{\lihastran}{\clearpage\ifodd\value{page}\else~\thispagestyle{empty}\clearpage\fi}
+
+% OKVIRČEK ZA CIP ===================
+\newenvironment{CIP}{
+   \parskip=10pt
+   \parindent=0pt
+   \setlength{\FrameRule}{0.6pt}
+   \setlength{\FrameSep}{10pt}
+   \OuterFrameSep=0pt
+   \begin{framed}\raggedright\small
+   CIP -- Kataložni zapis o publikaciji \\
+   Narodna in univerzitetna knjižnica, Ljubljana\par}
+   {\end{framed}}
+   
+
+% KAZALO ===================
 \setcounter{tocdepth}{2}
 \usepackage{titletoc} % Required for manipulating the table of contents
 %\contentsmargin{0cm} % Removes the default margin
 % Chapter text styling
 \titlecontents{chapter}[1.0cm] % Indentation
 {\addvspace{12pt}\normalsize\bfseries} % Spacing and font options for chapters
-{\color{ocre}\contentslabel[\bfseries\thecontentslabel]{1.00cm}\color{ocre}} % Chapter number
+{\color{MojaModra}\contentslabel[\bfseries\thecontentslabel]{1.00cm}\color{MojaModra}} % Chapter number
 {}  
-{\color{ocre}\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+{\color{MojaModra}\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 % Section text styling
 \titlecontents{section}[1.75cm] % Indentation
 {\addvspace{2pt}\color{black}} % Spacing and font options for sections
@@ -68,40 +155,39 @@
 [] 
 
 
-%REMARK================================
+% OKOLJE: ZANIMIVOSTI Z ZVEZDICO (environment remark) ===================
 \newenvironment{remark}{\par\vspace{10pt}\small % Vertical white space above the remark and smaller font size
 \begin{list}{}{
 \leftmargin=25pt % Indentation on the left
 \rightmargin=0pt}\item\ignorespaces % Indentation on the right
 \makebox[-2.5pt]{\begin{tikzpicture}[overlay]
-\node[draw=ocre!60,line width=1pt,circle,fill=ocre!25,inner sep=2pt,outer sep=0pt] at (-15pt,0pt){\textcolor{ocre}{$\bigstar$}};\end{tikzpicture}} % Star in a circle
+\node[draw=MojaModra!60,line width=1pt,circle,fill=MojaModra!25,inner sep=2pt,outer sep=0pt] at (-15pt,0pt){\textcolor{MojaModra}{$\bigstar$}};\end{tikzpicture}} % Star in a circle
 \advance\baselineskip -1pt}{\end{list}\vskip5pt} % Tighter line spacing and white space after remark
 
 
-%NALOGA===============================
-
-\usepackage{amsmath,amsfonts,amssymb,amsthm} % For math equations, theorems, symbols, etc
-\newcommand{\intoo}[2]{\mathopen{]}#1\,;#2\mathclose{[}}
-\newcommand{\ud}{\mathop{\mathrm{{}d}}\mathopen{}}
-\newcommand{\intff}[2]{\mathopen{[}#1\,;#2\mathclose{]}}
-\newtheorem{notation}{Notation}[chapter]
-
-
-
-
-
-
+% OKOLJE: NALOGA ===================
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\makeatletter
+\newtheoremstyle{nalogabox} % Theorem style name
+{0pt}% Space above
+{0pt}% Space below
+{\normalfont}% Body font
+{}% Indent amount
+{\bf}% Theorem head font
+{\;}% Punctuation after theorem head
+{0.25em}% Space after theorem head
+{\normalsize\bfseries\thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}\@upn{#2}}% Theorem text (e.g. Theorem 2.1)
+\thmnote{\nobreakspace\the\thm@notefont\sffamily\bfseries---\nobreakspace#3.}}% Optional theorem note
+\makeatother
 
 \newcounter{dummy} 
 \numberwithin{dummy}{section}
+\theoremstyle{nalogabox}
 \newtheorem{nalogaT}{Naloga}[section]
-
-
-
 
 \RequirePackage[framemethod=default]{mdframed}
 
-% Naloga box
+% OKOLJE: NALOGA, OKVIR ===================
 \newmdenv[
 skipabove=7pt,
 skipbelow=7pt,
@@ -109,10 +195,10 @@ rightline=false,
 leftline=false,
 topline=true,
 bottomline=true,
-linecolor=ocre,
+linecolor=MojaModra,
 innerleftmargin=0pt,
 innerrightmargin=0pt,
-innertopmargin=15pt,
+innertopmargin=7pt,
 leftmargin=0cm,
 rightmargin=0cm,
 linewidth=1pt,
