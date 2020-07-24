@@ -34,7 +34,9 @@ Poleg Maxwellovih enačb veljata zvezi
 \end{align}
 kjer $\mathbf{P}$ označuje \index{Električna polarizacija}električno
 polarizacijo, to je gostoto električnih dipolov, in  $\mathbf{M}$
-\index{Magnetizacija}magnetizacijo, to je gostoto magnetnega momenta.
+\index{Magnetizacija}magnetizacijo, to je gostoto magnetnega momenta. Pri tem je $\varepsilon_0 = 
+8,854 \times 10^{-12}~\si{As/Vm}$ influenčna konstanta in $\mu_0 = 
+4 \pi \times 10^{-7}~\si{Vs/Am}$ indukcijska konstanta.
 
 Polarizacija $\mathbf{P}$ in magnetizacija $\mathbf{M}$ sta odvisni od zunanjih polj $\mathbf{E}$
 in $\mathbf{B}$. Na splošno sta njuni odvisnosti zelo zapleteni.
@@ -161,9 +163,7 @@ za monokromatski val s krožno frekvenco $\omega$ naj bo
 kjer sta $\mathbf E(\mathbf{r})$ in $\mathbf B(\mathbf{r})$ časovno
 neodvisna vektorja jakosti električnega\index{Električno polje!jakost} in gostote
 magnetnega polja\index{Magnetno polje!gostota} s kompleksno
-amplitudo. 
-
-Podobno vpeljemo kompleksne vektorje $\mathbf{P}$,
+amplitudo. Podobno vpeljemo kompleksne vektorje $\mathbf{P}$,
 $\mathbf{M}$, $\mathbf{D}$ in $\mathbf{H},$ ki opisujejo realne količine (polarizacijo,
 magnetizacijo, gostoto električnega in jakost magnetnega polja).
 Čeprav bomo večinoma uporabljali kompleksni zapis polj, se moramo zavedati, da
@@ -178,14 +178,16 @@ za kompleksna vektorja jakosti električnega in gostote magnetnega polja.
 V homogenem in izotropnem sredstvu ju zapišemo kot
 \boxeq{eq:Helmholtz}{
 \nabla^{2}\mathbf{E}(\mathbf{r})+k^{2}\mathbf{E}(\mathbf{r}) =0 \qquad \mathrm{in} \qquad 
-\nabla^{2}\mathbf{B}(\mathbf{r})+k^{2}\mathbf{B}(\mathbf{r}) =0,
+\nabla^{2}\mathbf{B}(\mathbf{r})+k^{2}\mathbf{B}(\mathbf{r}) =0.
 }
-kjer je $k=\omega/c = n \omega/c_0 = n k_0$ valovno število\index{Valovno število}. 
-
+Vpeljali smo valovno število\index{Valovno število}
+\boxeq{eq:k}{
+k=\frac{\omega}{c} = \frac{n \omega}{c_0} = n k_0.
+}
 Povprečni Poyntingov vektor\index{Poyntingov vektor}, povprečen
-po eni periodi, je enak
+po eni periodi, je v kompleksnem zapisu enak
 \begin{equation}
-\langle\mathbf{S}(\mathbf{r})\rangle=\frac{1}{2}\mathbf{E}(\mathbf{r})\times\mathbf{H}^{*}(\mathbf{r}).
+\langle\mathbf{S}(\mathbf{r})\rangle=\mathbf{E}(\mathbf{r})\times\mathbf{H}^{*}(\mathbf{r})/2.
 \label{eq:Poyntingov-vektor-c}
 \end{equation}
 
@@ -209,7 +211,7 @@ Zaradi enolične zveze med električnim in magnetnim poljem
 za opis ravnega vala zadošča le eno polje, navadno se odločimo za električno.
 
 Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) sledijo zveze o ortogonalnosti
-količin električnega in magnetnega polja. Vedno sta med seboj pravokotna vektorja
+količin električnega in magnetnega polja v elektromagnetnem valu. Vedno sta med seboj pravokotna vektorja
 jakosti električnega $\mathbf{E}$ in magnetnega polja $\mathbf{H}$, ki sta v izotropni snovi
 hkrati pravokotna na valovni vektor $\mathbf{k}$ (naloga~\ref{naloga-TEM-ortogonalnost}).
 Po definiciji sta $\mathbf{E}$ in $\mathbf{H}$ vedno pravokotna tudi na Poyntingov vektor $\mathbf{S}$ 
@@ -222,7 +224,7 @@ To velja vedno, tudi v anizotropnih sredstvih, vendar tam $\mathbf{E} \nparallel
 razdelek~\ref{chap:anizotropni}.} 
 \begin{naloga}
 \label{naloga-TEM-ortogonalnost}
-Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpelji zvezi
+Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) za ravni val izpelji zvezi
 \begin{align}
 \mathbf{k}\times\mathbf{H}_{0} & =-\omega\epsilon\epsilon_{0}\mathbf{E}_{0}\label{eq:TEM-pogoj1}\
 \quad \mathrm{in}\\
@@ -230,10 +232,7 @@ Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpelji zve
 \end{align}
 iz katerih izhaja, da je v izotropni snovi $\mathbf{E}_0\perp \mathbf{H}_0\perp 
 \mathbf{k}$.
-Pokaži tudi, da za ravni val vedno velja
-\begin{equation}
-\mathbf{D}_0 \perp \mathbf{B}_0 \perp \mathbf{k}.  
-\end{equation}
+Pokaži tudi, da za ravni val vedno velja $\mathbf{D}_0 \perp \mathbf{B}_0 \perp \mathbf{k}$.
 \end{naloga}
 
 Zapišimo še povprečno gostoto energije valovanja\index{Gostota energije} (enačba~\ref{eq:gostota-energije}). 
@@ -243,7 +242,7 @@ K energiji prispevata tako magnetno kot električno polje. Prispevka sta enaka, 
 \frac{1}{4}\frac{\left|B_{0}\right|^{2}}{\mu\mu_{0}}=\frac{1}{2}\epsilon\epsilon_{0}\left|E_{0}\right|^{2}.
 \end{equation}
 Povprečna gostota energije $w$, pomnožena s hitrostjo svetlobe v
-snovi, je enaka velikosti gostote energijskega toka $j$\index{Gostota energijskega toka}
+snovi $c$, je enaka velikosti gostote energijskega toka $j$\index{Gostota energijskega toka}
 \boxeq{eq:jcw}{
 j=cw = \frac{1}{2}c\epsilon\epsilon_{0}\left|E_{0}\right|^{2}=\frac{1}{2}c_{0}n\epsilon_{0}
 \left|E_{0}\right|^{2}.
@@ -315,7 +314,7 @@ Zapis z Jonesovimi vektorji je prikladen, saj omogoča preprost izračun
 prehoda ravnega vala skozi optične elemente, ki spreminjajo polarizacijo,
 a ohranjajo njegovo obliko. Naj bo pred prehodom skozi optični element kompleksna
 amplituda $\mathbf{E}_1$ in po prehodu $\mathbf{E}_2$. Spremembo amplitude 
-jakosti električnega polja zapišemo v matrični obliki
+jakosti električnega polja lahko zapišemo v matrični obliki
 \begin{equation}
 \mathbf{E}_{2}=A\cdot\mathbf{E}_{1},
 \end{equation}
@@ -333,8 +332,8 @@ A=\left[\begin{array}{cc}
 0 & 0
 \end{array}\right].
 \end{equation}
-Če pa je polarizator zasukan pod kotom $45~\si{\degree}$ v pozitivni 
-smeri glede na os $x$, je njegova Jonesova matrika
+Za polarizator, zasukan pod kotom $45~\si{\degree}$ v pozitivni 
+smeri glede na os $x$, je Jonesova matrika
 \begin{equation}
 A=\frac{1}{2}\left[\begin{array}{cc}
 1 & 1\\
@@ -349,7 +348,7 @@ A=\left[\begin{array}{cc}
 \end{array}\right].
 \end{equation}
 Tak element imenujemo ploščica $\lambda/2$\index{Ploščica $\lambda/2$} in 
-spremeni desno krožno polariziran val v levo 
+spremeni desno krožno polariziran val v levo krožno
 polariziran in obratno, linearno polariziran val pa prezrcali čez koordinatno os. 
 
 Podobno je Jonesova matrika za element, ki eni komponenti doda fazni zamik $\pi/2$ 
@@ -379,58 +378,62 @@ kjer je $R(\vartheta)$ rotacijska matrika.
 \end{naloga}
 
 \section{Lom in odboj EM valovanja}
-Na ravni meji med dvema izotropnima dielektrikoma se del svetlobe
-odbije po odbojnem zakonu, ki pravi, da je odbojni kot enak vpadnemu, 
-del pa lomi po lomnem \index{Lomni zakon}zakonu 
+Naj svetloba vpada na ravno mejo med dvema izotropnima dielektrikoma. Pri tem se 
+del svetlobe odbije po odbojnem zakonu, ki pravi, da je odbojni kot enak vpadnemu, 
+preostali del svetlobe pa se lomi. Zanj velja lomni \index{Lomni zakon}zakon 
 \boxeq{eq:lomni_zakon}{
 n_{1}\sin\vartheta_{1}=n_{2}\sin\vartheta_{2}.
 }
-S kotoma $\vartheta_{1}$ in $\vartheta_{2}$ smo označili vpadni in lomni
-kot ter z $n_{1}$ in $n_{2}$ lomna količnika prve in druge snovi (slika~\ref{fig:Lom}).
+Z $n_{1}$ in $n_{2}$ smo označili lomna količnika prve in druge snovi ter
+s kotoma $\vartheta_{1}$ in $\vartheta_{2}$ vpadni in lomni
+kot glede na normalo na mejno ploskev (slika~\ref{fig:Lom}).
 Poglejmo, kaj se pri lomu in odboju zgodi s polarizacijo valovanja.
 
 Dogovorimo se, da valovanje, pri katerem je jakost električnega polja pravokotna 
 na vpadno ravnino, imenujemo transverzalno električno (TE) 
 valovanje\index{Polarizacija!TE}. Kadar leži jakost električnega polja v
-vpadni ravnini in je nanjo pravokotna jakost magnetnega polja,
-govorimo o transverzalnem magnetnem valovanju (TM)\index{Polarizacija!TM}.\\
+vpadni ravnini,
+govorimo o transverzalnem magnetnem valovanju (TM)\index{Polarizacija!TM}.
 \begin{figure}[h]
-\centering \def\svgwidth{130truemm} 
+\centering \def\svgwidth{128truemm} 
   \input{slike/01_lom.pdf_tex}
 \caption{Lom elektromagnetnega valovanja na meji dveh izotropnih dielektrikov za (a)
 trans\-ver\-zal\-no električno (TE) valovanje in (b) trans\-ver\-zal\-no magnetno (TM) valovanje}
 \label{fig:Lom}
 \end{figure}
-
+\vskip-3truemm
 Z $E_1$ označimo amplitudo jakosti električnega polja vpadnega valovanja, 
 z $E_2$ prepuščenega in z $E_3$ odbitega.
 Nato vpeljemo amplitudno prepustnost $t$ in amplitudno odbojnost $r$, 
 ki sta odvisni od vpadne polarizacije. Zapišemo
 \begin{align}
-E_{2\mathrm{TE}} & =t_{\mathrm{TE}}E_{1\mathrm{TE}} & E_{3\mathrm{TE}} &=r_{\mathrm{TE}}E_{1\mathrm{TE}}\\
-E_{2\mathrm{TM}} & =t_{\mathrm{TM}}E_{1\mathrm{TM}} & E_{3\mathrm{TM}}&=r_{\mathrm{TM}}E_{1\mathrm{TM}}.
+E_{2\mathrm{TE}} & =t_{\mathrm{TE}}E_{1\mathrm{TE}} & E_{3\mathrm{TE}} &=r_{\mathrm{TE}}E_{1\mathrm{TE}}
 \end{align}
-
-Koeficiente $r$ in $t$ izračunamo iz robnih pogojev (enačbe~\ref{eq:robni-pogoji} in \ref{eq:robni-pogoji5}). 
+in podobno za TM polarizirano valovanje. Koeficiente $r$ in $t$ izračunamo iz robnih pogojev (enačbe~\ref{eq:robni-pogoji} in \ref{eq:robni-pogoji5}). 
 Enačbe, ki opisujejo odvisnost amplitudne odbojnosti
-in prepustnosti od vpadnega kota za različni vpadni polarizaciji, imenujemo
+in prepustnosti od vpadnega kota, imenujemo
 \index{Fresnelove enačbe}Fresnelove enačbe\footnote{Francoski fizik in inženir 
 Augustin Jean Fresnel, 1788--1827.}. Za TE polarizacijo velja 
 \begin{equation}
 r_{\mathrm{TE}}=\frac{n_{1}\cos\vartheta_{1}-n_{2}\cos\vartheta_{2}}{n_{1}\cos\vartheta_{1}+
-n_{2}\cos\vartheta_{2}}
-\label{eq:Fresnel1} \quad \mathrm{in} \quad
-t_{\mathrm{TE}}=1+r_{\mathrm{TE}}=\frac{2n_{1}\cos\vartheta_{1}}{n_{1}\cos\vartheta_{1}+
-n_{2}\cos\vartheta_{2}},
+n_{2}\cos\vartheta_{2}} = -\frac{\sin(\vartheta_1-\vartheta_2)}{\sin(\vartheta_1+\vartheta_2)}
+\label{eq:Fresnel1}
 \end{equation}
-in za  TM polarizacijo 
+in
 \begin{equation}
-r_{\mathrm{TM}}=\frac{n_{2}\cos\vartheta_{1}-n_{1}\cos\vartheta_{2}}{n_{2}\cos\vartheta_{1}+n_{1}\cos\vartheta_{2}}
-\quad \mathrm{in} \quad 
+t_{\mathrm{TE}}=1+r_{\mathrm{TE}}=\frac{2n_{1}\cos\vartheta_{1}}{n_{1}\cos\vartheta_{1}+
+n_{2}\cos\vartheta_{2}}.
+\end{equation}
+Amplitudna odbojnost in prepustnost za TM polarizacijo sta
+\begin{equation}
+r_{\mathrm{TM}}=\frac{n_{2}\cos\vartheta_{1}-n_{1}\cos\vartheta_{2}}{n_{2}\cos\vartheta_{1}+n_{1}\cos\vartheta_{2}} = \frac{\tan(\vartheta_1-\vartheta_2)}{\tan(\vartheta_1+\vartheta_2)}
+\label{eq:Fresnel2}
+\end{equation}
+in
+\begin{equation}
 t_{\mathrm{TM}}=(1-r_{\mathrm{TM}})\frac{\cos\vartheta_{1}}{\cos\vartheta_{2}}=
 \frac{2n_{1}\cos\vartheta_{1}}
 {n_{1}\cos\vartheta_{2}+n_{2}\cos\vartheta_{1}}.
-\label{eq:Fresnel2}
 \end{equation}
 
 Na splošno sta amplitudna odbojnost $r$ in prepustnost $t$ kompleksni
@@ -493,7 +496,7 @@ in $\mathcal{T}_\mathrm{TM}(\vartheta_B)=1$. Posledično je odbito valovanje ved
 polarizirano. 
 \begin{figure}[h]
 \centering
-  \def\svgwidth{140truemm} 
+  \def\svgwidth{128truemm} 
   \input{slike/01_BrewsterNew.pdf_tex}
 \caption{Amplitudna odbojnost $r$ za obe vpadni polarizaciji (a, b) in razmerje med 
 gostoto energijskega toka odbite in vpadne svetlobe $\mathcal{R}$ za obe polarizaciji (c, d)
