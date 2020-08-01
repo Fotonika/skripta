@@ -6,10 +6,6 @@
 \usepackage{graphicx}
 \usepackage{framed}
 
-% FORMAT STRANI ===================
-\usepackage[driver=none,papersize={165mm,235mm},totalheight=190mm,textwidth=128mm,centering,marginpar=15mm]{geometry}
-\usepackage{crop}
-
 % DEFINICIJA BARVE ===================
 \usepackage{xcolor}
 \definecolor{MojaModra}{RGB}{0,56,102} 
@@ -20,18 +16,12 @@
 
 \usepackage{amssymb}
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
-\usepackage[unicode]{hyperref}
 \usepackage{empheq}
 \usepackage{color}
-\usepackage{caption}
 \usepackage{afterpage}
 
 % OKVIRČEK ZA ENAČBE ===================
 \newcommand{\boxeq}[2]{\begin{empheq}[box=\colorbox{MojaModra!25}]{align}\label{#1}#2\end{empheq}}
-
-% HYPERREF ===================
-\usepackage{hyperref}
-\hypersetup{hidelinks,backref=true,pagebackref=true,hyperindex=true,colorlinks=true,breaklinks=true,urlcolor= MojaModra,linkcolor=MojaModra,bookmarks=true,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
 
 % MATHS ===================
 \usepackage{amsmath,tikz}
@@ -204,4 +194,14 @@ rightmargin=0cm,
 linewidth=1pt,
 innerbottommargin=7pt]{dBox}
 
-\newenvironment{naloga}{\begin{dBox}\begin{nalogaT}}{\end{nalogaT}\end{dBox}}	
+\newenvironment{naloga}{\begin{dBox}\begin{nalogaT}}{\end{nalogaT}\end{dBox}}
+
+% HYPERREF ===================
+\usepackage[unicode]{hyperref}
+\hypersetup{hidelinks,colorlinks=true,breaklinks=true,urlcolor= MojaModra,linkcolor=MojaModra,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+%backref=true,pagebackref=true,bookmarks=true,hyperindex=true
+
+% FORMAT STRANI ===================
+\usepackage[driver=none,papersize={165mm,235mm},totalheight=190mm,textwidth=128mm,centering,marginpar=15mm]{geometry}
+\usepackage{crop}
+

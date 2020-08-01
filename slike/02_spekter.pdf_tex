@@ -53,17 +53,17 @@
   \begin{picture}(1,0.34033492)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{02_spekter.pdf}}%
     \put(0.25118151,0.15912674){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2\gamma$\end{tabular}}}}%
     \put(0.21695001,0.00954202){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\omega_0$\end{tabular}}}}%
     \put(0.41973736,0.00945632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\omega$\end{tabular}}}}%
     \put(0.23664843,0.31691991){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$s(\omega)$\end{tabular}}}}%
     \put(0.14400451,0.28040444){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1/\pi\gamma$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{02_spekter.pdf}}%
+    \put(-0.00295765,0.32499181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0.9763619,0.01541715){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\tau$}\end{tabular}}}}%
-    \put(0.54207609,0.3119215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$|g(\tau)|$\end{tabular}}}}%
+    \put(0.54207608,0.3119215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$|g(\tau)|$\end{tabular}}}}%
     \put(0.62984752,0.00508481){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t_c$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{02_spekter.pdf}}%
-    \put(0.48357185,0.29790647){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(-0.00295765,0.29790647){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.48357185,0.32499181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.50354576,0.27938746){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
