@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{658.27988993bp}%
+    \setlength{\unitlength}{575.42731818bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,12 +50,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.18328541)%
+  \begin{picture}(1,0.20967567)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{03_uklon_na_rezi.pdf}}%
-    \put(0.26967765,0.08279508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2a$\end{tabular}}}}%
-    \put(0.78497354,0.11896393){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta \sim \lambda/a$ }\end{tabular}}}}%
-    \put(0.35624007,0.14037813){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$b$}\end{tabular}}}}%
+    \put(0.308507,0.09471631){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2a$\end{tabular}}}}%
+    \put(0.89799744,0.1360929){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta \sim \lambda/a$ }\end{tabular}}}}%
+    \put(0.40753306,0.16059042){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$b$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

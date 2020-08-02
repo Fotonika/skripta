@@ -7,24 +7,25 @@ se naučili računati prehode Gaussovih snopov skozi optične elemente.
 
 \section{Omejen snop svetlobe}
 Pri obravnavi elektromagnetnega valovanja pogosto uporabljamo
-približek ravnih valov. Ti so v smeri pravokotno na smer širjenja
-neomejeni in so zato lahko le idealizacija. Čim ravni val usmerimo skozi odprtino
+približek ravnih valov. Ravni val je v smeri pravokotno na smer širjenja
+neomejen, čim pa ga usmerimo skozi odprtino
 v zaslonu, nastane omejen snop svetlobe. V snopu valovne fronte (ploskve konstantne faze) 
 niso ravne in meje snopa niso vzporedne, ampak se snop zaradi uklona širi\index{Uklon} 
 (slika \ref{fig:Uklon-na-rezi}).
+\vglue-2truemm
 \begin{figure}[h]
 \centering
-\def\svgwidth{128truemm} 
+\def\svgwidth{100truemm} 
 \input{slike/03_uklon_na_rezi.pdf_tex}
 \caption{Omejeni snop svetlobe nastane ob prehodu ravnega vala skozi končno odprtino. 
-Polmer odprtine naj bo $a$, območje bližnjega polja označuje $b$, $2\vartheta$ pa 
+Polmer odprtine naj bo $a$, območje bližnjega polja označuje $b$ in $2\vartheta$ 
 celotni kot širjenja snopa.}
 \label{fig:Uklon-na-rezi}
 \end{figure}
-\vglue-5truemm
+\vglue-2truemm
 V veliki oddaljenosti od zaslona polje izračunamo s
 \index{Fraunhoferjev uklon}Fraunhoferjevo uklonsko teorijo (glej razdelek~\ref{FFuklon}). 
-Vendar za grobo oceno kota širjenja računa niti ne potrebujemo. Velja približno 
+Vendar lahko kot širjenja grobo ocenimo tudi brez računa. Velja približno 
 \begin{equation}
 \vartheta\sim\frac{\lambda}{a},
 \label{eq:kot_ocena}
@@ -46,13 +47,14 @@ uporabo obosnega približka valovne enačbe.
 \begin{naloga}
 \label{ffuklon}
 Pokaži, da je Fraunhoferjeva uklonska slika na odprtini, katere prepustnost se v radialni smeri
-spreminja kot Gaussova funkcija $T(\xi, \eta)=e^{-(\xi^2+\eta^2)/w_0^2}$, podana z Gaussovo funkcijo
-oblike $E(x,y,z) \propto e^{-(x^2+y^2)/w^2(z)}$ in določi odvisnost $w(z)$. Izračunaj še 
+spreminja kot Gaussova funkcija $T(\xi, \eta)=\exp(-(\xi^2+\eta^2)/w_0^2)$, podana z Gaussovo funkcijo
+oblike $E(x,y,z) \propto \exp(-(x^2+y^2)/w^2(z))$ in določi odvisnost $w(z)$. Izračunaj še 
 uklonsko sliko v bližnjem polju po Fresnelovi uklonski teoriji.
 \end{naloga}
 
 \section{Obosna valovna enačba}
-Obravnavo začnemo z valovno enačbo in monokromatskim valovanjem s krožno frekvenco $\omega$. Ustrezna
+Obravnavo začnemo z valovno enačbo in rešitvijo v obliki monokromatskega valovanja 
+s krožno frekvenco $\omega$. Ustrezna
 Helmholtzeva enačba je \index{Helmholtzeva enačba}(enačba~\ref{eq:Helmholtz})
 \begin{equation}
 \nabla^{2}E+k^{2}E=0,
@@ -60,16 +62,18 @@ Helmholtzeva enačba je \index{Helmholtzeva enačba}(enačba~\ref{eq:Helmholtz})
 \end{equation}
 kjer je $k=n\omega/c_{0}$ valovno število in $n$ lomni količnik
 sredstva, po katerem se valovanje širi. Zaradi enostavnosti obravnavamo
-le eno polarizacijo, tako da $E$ pišemo kot skalar. Iščemo rešitev za
-omejen snop, ki se širi približno vzdolž osi $z$. Uporabimo nastavek
+le eno polarizacijo, tako da $E$ pišemo kot skalar. Rešitev iščemo v obliki
+omejenega snopa, ki se širi približno vzdolž osi $z$. Uporabimo nastavek
 \begin{equation}
 E=E_{0}\psi(\mathbf{r},z)e^{ikz},
 \label{eq:ravni-val-nastavek}
 \end{equation}
 kjer je $\mathbf{r}$ krajevni vektor v ravnini $xy$, prečni na smer širjenja svetlobe. 
 Glavni del odvisnosti od koordinate $z$ smo zapisali v faktorju $e^{ikz}$, tako da lahko
-privzamemo, da se $\psi$ v smeri $z$ le počasi spreminja. Vstavimo
-nastavek v Helmholtzevo enačbo (enačba~\ref{eq:valovna-enacba-hh})
+privzamemo, da se $\psi$ v smeri $z$ le počasi spreminja. 
+
+Vstavimo
+nastavek (enačba~\ref{eq:ravni-val-nastavek}) v Helmholtzevo enačbo (enačba~\ref{eq:valovna-enacba-hh})
 in pri tem zanemarimo druge odvode $\psi$ po $z$, saj je zaradi počasnega spreminjanja
 $\partial^{2}\psi/\partial z^{2}$ majhen v primerjavi s $k\partial\psi/\partial z$ in $k^{2}\psi$.
 Dobimo obosno
@@ -78,12 +82,27 @@ ali paraksialno valovno enačbo\index{Obosna valovna enačba} za $\psi$
 \boxeq{eq:obosna-valovna-enacba}{
 \nabla_{\perp}^{2}\psi=-2ik{\frac{{\partial\psi}}{{\partial z}}}.
 }
+\begin{naloga}
+Izpelji obosno valovno enačbo (enačba~\ref{eq:obosna-valovna-enacba}).
+\end{naloga}
+\vglue-5truemm
 \begin{remark} 
 Opazimo, da je obosna valovna enačba enaka Schr\"{o}dingerjevi enačbi\index{Schr\"odingerjeva enačba}
 za prost delec v dveh dimenzijah, v kateri ima koordinata $z$ vlogo
 časa. Omejenemu snopu v kvantni mehaniki ustreza lokaliziran delec
 -- valovni paket. Ta se s časom širi, kar v optiki ustreza pojavu 
 uklona.\footnote{Glej npr. J. Strnad, {\it Fizika, 3. del}, tretja izdaja, DMFA--založništvo (2018).}
+\end{remark}
+\vglue-5truemm
+\begin{remark}\index{Fouriereva optika}
+Časovno odvisnost poljubnega začetnega
+stanja v kvantni mehaniki navadno izračunamo tako, da v začetnem
+trenutku paket razvijemo po lastnih stanjih energije -- ravnih valovih.
+Rešitev v poljubnem kasnejšem trenutku je potem dana v obliki Fourierevega
+integrala. Ta pot je zelo uporabna tudi v optiki in je osnova sklopa
+računskih metod, znanih pod imenom Fouriereva optika.\footnote{Glej npr. 
+E. Hecht, {\it Optics}, peta izdaja, Pearson Education Limited (2017).} V našem primeru
+z njo brez težav pridemo nazaj do Fresnelove uklonske formule.
 \end{remark}
 Preden se lotimo reševanja obosne valovne enačbe, jo primerjajmo s Helmholtzevo enačbo
 na primeru ravnega vala. Nastavek za ravni val \index{Ravni val} zapišemo v obliki
@@ -115,17 +134,6 @@ majhni v primerjavi z vzdolžno.
 Takrat je majhen tudi kot širjenja snopa in člene, višje od kvadratnih,
 lahko zanemarimo. To je tudi območje veljavnosti Fresnelove uklonske
 teorije.\index{Fresnelov uklon}
-\vglue-2truemm
-\begin{remark}\index{Fouriereva optika}
-Časovno odvisnost poljubnega začetnega
-stanja v kvantni mehaniki navadno izračunamo tako, da v začetnem
-trenutku paket razvijemo po lastnih stanjih energije -- ravnih valovih.
-Rešitev v poljubnem kasnejšem trenutku je potem dana v obliki Fourierevega
-integrala. Ta pot je zelo uporabna tudi v optiki in je osnova sklopa
-računskih metod, znanih pod imenom Fouriereva optika.\footnote{Glej npr. 
-E. Hecht, {\it Optics}, peta izdaja, Pearson Education Limited (2017).} V našem primeru
-z njo brez težav pridemo nazaj do Fresnelove uklonske formule.
-\end{remark}
 
 \section{Osnovni Gaussov snop}
 \label{chap:gaussovsnop}
