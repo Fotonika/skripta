@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '03_Bessel_profil.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{482.76040649bp}%
+    \setlength{\unitlength}{562.88214111bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,11 +50,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.78270657)%
+  \begin{picture}(1,0.6393297)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
+    \put(0.95483996,0.61473756){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+    \put(0.50412788,0.31508679){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.27217172,0.55859423){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{03_Bessel_profil.pdf}}%
-    \put(0.95331433,0.75073494){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{03_Bessel_profil.pdf}}%
   \end{picture}%
 \endgroup%

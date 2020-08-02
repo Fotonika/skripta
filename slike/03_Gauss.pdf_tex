@@ -53,7 +53,6 @@
   \begin{picture}(1,0.41542951)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{03_Gauss.pdf}}%
     \put(0.97926609,0.15825869){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
     \put(0.49921467,0.36954202){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
     \put(0.48189258,0.22889784){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w_0$\end{tabular}}}}%
@@ -61,6 +60,6 @@
     \put(0.54197174,0.3058885){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z_0$\end{tabular}}}}%
     \put(0.85540815,0.27240349){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R(z)$\end{tabular}}}}%
     \put(0.9050989,0.1085025){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\vartheta$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{03_Gauss.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{03_Gauss.pdf}}%
   \end{picture}%
 \endgroup%

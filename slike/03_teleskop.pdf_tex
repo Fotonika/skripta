@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '03_teleskop.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{575.44941406bp}%
+    \setlength{\unitlength}{539.47123718bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +50,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.16844614)%
+  \begin{picture}(1,0.23819127)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{03_teleskop.pdf}}%
-    \put(0.13679503,0.08501703){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F$}}}%
-    \put(0.34228415,0.08766213){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F$}}}%
-    \put(0.89169929,0.087446){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F$}}}%
-    \put(0.09728266,0.11324574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$w_{01}$}}}%
-    \put(0.87912012,0.15131866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$w_{02}$}}}%
-    \put(0.18640933,0.05502653){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$f_1$}}}%
-    \put(0.28347095,0.05520207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$f_1$}}}%
-    \put(0.51497755,0.05242163){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$f_2$}}}%
-    \put(0.76592361,0.05301071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$f_2$}}}%
+    \put(0.13679659,0.15476022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0.3422905,0.15740538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0.89171848,0.15718924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0.0972833,0.18298958){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w_{01}$\end{tabular}}}}%
+    \put(0.92640753,0.22106339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w_{02}$\end{tabular}}}}%
+    \put(0.18641205,0.024671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_1$\end{tabular}}}}%
+    \put(0.28903693,0.02484654){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_1$\end{tabular}}}}%
+    \put(0.48162191,0.02206604){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_2$\end{tabular}}}}%
+    \put(0.75481787,0.02265512){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f_2$\end{tabular}}}}%
+    \put(0.10935202,0.0251738){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x_1$\end{tabular}}}}%
+    \put(0.91365345,0.02472162){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x_2$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
