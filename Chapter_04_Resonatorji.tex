@@ -98,10 +98,11 @@ dimenzija resonatorja.
 
 Lastne krožne frekvence resonatorja so 
 \begin{equation}
-\omega_{l,m,n}=c|\mathbf{k}_{l,m,n}|.\label{eq:omega-votlina}
+\omega_{l,m,n}=c|\mathbf{k}_{l,m,n}|,\label{eq:omega-votlina}
 \end{equation}
+pri čemer je $c$ hitrost valovanja v resonatorju.
 Ker je dolžina resonatorja $L$ velika v primerjavi z $\lambda$, je $n$
-zelo veliko število. Če prečnih sten ni, je  $\mathbf{k}$ približno
+zelo veliko število. Če prečnih sten ni, je vektor $\mathbf{k}$ približno
 vzporeden z osjo $z$ in števili $l$ in $m$ sta majhni. Tedaj
 lahko velikost valovnega vektorja razvijemo in krožno frekvenco zapišemo kot
 \begin{equation}
@@ -116,10 +117,15 @@ smeri, ki pa navadno le malo vplivajo na lastne frekvence. V nadaljevanju
 bomo obravnavali predvsem lastna nihanja brez vozlov v prečni smeri in
 jih označili z enim samim indeksom $n$.
 
-Razlika med frekvencama dveh zaporednih lastnih nihanj\index{Lastne frekvence resonatorja} 
+Razlika med frekvencama dveh zaporednih lastnih nihanj\index{Lastne frekvence resonatorja} z
+indeksoma 
 $n$ in $n+1$ je
 \boxeq{eq:delta-omega-resonator}{
-\Delta\omega_n=\frac{\pi c}{L} \qquad \mathrm{oziroma} \qquad \Delta \nu_n = \frac{c}{2L}.
+\Delta\omega_n=\frac{\pi c}{L}
+}
+oziroma
+\boxeq{eq:delta-nu-resonator}{
+\Delta \nu_n = \frac{c}{2L}.
 }
 Pri dolžini resonatorja $L=30~\si{\centi\metre}$ je v frekvenčnem
 intervalu $\Delta \nu = 3\cdot10^{9}~\si{\hertz}$ le še $\Delta \nu /\Delta \nu_n = 6$ lastnih 
@@ -157,45 +163,40 @@ z veliko odbojnostjo. Takemu sistemu pravimo \index{Fabry-Perotov
 interferometer}Fabry-Perotov 
 interferometer\footnote{Francoska fizika Maurice Paul Auguste Charles Fabry, 1867--1945, in 
 Jean-Baptiste Alfred Perot, 1863--1925.}. 
-Da nastane med zrcaloma stoječe valovanje, mora biti razdalja 
+Da lahko pri dani valovni dolžini svetlobe med zrcaloma vzbudimo stoječe valovanje, mora biti razdalja 
 med zrcaloma večkratnik polovične valovne dolžine (enačba~\ref{eq:k-votlina})
 \begin{equation}
 L = \frac{n \lambda}{2}.
 \end{equation}
-Prepustnost interferometra za ravni val, ki vpada pravokotno na zrcali z
-odbojnostjo ${\cal R}$, lahko izračunamo (glej nalogo~\ref{naloga:FP}). Prepustnost, to je 
+Prepustnost interferometra za ravni val, ki vpada na zrcali z
+odbojnostjo ${\cal R}$, lahko izračunamo (glej nalogo~\ref{naloga:FP}). Prepustnost $T$, to je 
 razmerje med intenzitetama prepuščenega in vpadnega valovanja, je odvisna
-od  frekvence vpadnega valovanja
+od frekvence vpadnega valovanja $\nu$ in dolžine resonatorja $L$. Zaradi splošnosti upoštevamo
+še vpadni kot $\vartheta$, ki je lahko različen od nič. Prepustnost
 \begin{equation}
-T=\frac{I}{I_0} = \frac{1}{1+\frac{4{\cal R}}{(1-{\cal R})^{2}}\sin^{2}\omega L/c}
+T=\frac{I}{I_0} = \frac{1}{1+\frac{4{\cal R}}{(1-{\cal R})^{2}}\sin^{2}(2 \pi \nu L\cos \vartheta/c)}.
 \label{eq:Fabry-Perot-prepustnost}
 \end{equation}
-in je prikazana na sliki~\ref{fig:Fabry-Perot} za tri različne vrednosti ${\cal R}$.
-\begin{figure}[h!]
+je prikazana na sliki~\ref{fig:Fabry-Perot} za tri različne odbojnosti zrcal ${\cal R}$.
+\begin{figure}[ht]
 \centering
-\def\svgwidth{95truemm} 
+\def\svgwidth{85truemm} 
 \input{slike/04_fabry_perot.pdf_tex}
 \caption{
 Prepustnost Fabry-Perotovega interferometra $T$
 v odvisnosti od frekvence vpadnega valovanja $\nu$ pri različnih odbojnostih zrcal ${\cal R}$}
 \label{fig:Fabry-Perot}
 \end{figure}
-
+\vglue-2truemm
 Ko je frekvenca vpadnega valovanja enaka lastni frekvenci
 resonatorja, je sistem v resonanci in $T=1$. Pri drugih frekvencah je prepustnost znatno manjša, predvsem
 pri velikih $\cal{R}$, kjer pade praktično na nič. Z naraščajočo odbojnostjo zrcal ${\cal R}$ 
 se zmanjšuje tudi širina resonančnega vrha.
 \begin{naloga}
 \label{naloga:FP}
-Pokaži, da je prepustnost Fabry-Perotovega interferometra, katerega zrcali imata odbojnost $\cal{R}$, enaka 
-\begin{equation}
-T = \frac{1}{1+\frac{4\cal{R}}{(1-{\cal R})^2}\sin^2 \delta},
-\label{eq:FP}
-\end{equation}
-kjer je $\delta = kL\cos{\vartheta}$, $L$ razmik med zrcaloma, $\vartheta$ vpadni kot in
-$k$ valovno število.
+Izpelji prepustnost Fabry-Perotovega interferometra (enačba~\ref{eq:Fabry-Perot-prepustnost}).
 \end{naloga}
-
+\vglue-2truemm
 Prvemu pogoju za stabilnost ustrezajo v Fabry-Perotovem interferometru
 le žarki, ki so natanko pravokotni na zrcali. Čim sta zrcali le
 malo nevzporedni, stabilnih žarkov sploh ni več. Tak 
@@ -220,7 +221,7 @@ zrcalu ujema z obliko zrcala, električno polje na površini zrcala
 pa je približno enako nič (slika \ref{fig:Gaussov-snop-v-resonatorju}).
 \vskip5truemm
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{100truemm} 
 \input{slike/04_Resonator_Gauss.pdf_tex}
@@ -304,7 +305,7 @@ V simetričnih resonatorjih leži grlo Gaussovega snopa na sredini resonatorja.
 na ravnem zrcalu, saj so le tam valovne fronte ravne. V primeru konveksno-konkavnega 
 resonatorja leži grlo snopa izven resonatorja. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{95truemm} 
 \input{slike/04_stabilnost.pdf_tex}
@@ -407,7 +408,7 @@ Kot laserski resonator lahko delujejo tudi mikroploščice (d) ali mikrokroglice
 v katere je s totalnim odbojem\index{Totalni odboj} ujeta svetloba. 
 Namesto zrcal se v mikroresonatorjih in vlaknih uporablja periodične dielektrične strukture, na katerih 
 pride do Braggovega odboja valovanja (f).\index{Braggov odboj}
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/04_resonatorji.pdf_tex}
@@ -524,7 +525,7 @@ Gaussovega snopa in so odvisne od števila prečnih vozlov (slika~\ref{fig:crte}
 Razlika v lastnih frekvencah je dodaten razlog, da v laserjih, če se le da, 
 vzbujamo le osnovno lastno nihanje.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{110truemm} 
 \input{slike/04_crte.pdf_tex}
@@ -550,7 +551,7 @@ To lahko razumemo tudi iz geometrijske slike: žarek, ki vstopi v konfokalni
 resonator ali interferometer vzporedno z osjo, se šele po dveh obhodih vrne sam
 vase (slika~\ref{fig:Konfokalni_zarek}).
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{55truemm} 
 \input{slike/04_Konfokalni.pdf_tex}
@@ -710,7 +711,7 @@ E_{2} =  -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{
 \end{equation}
 Integriramo po celotni prvi ploskvi, $r$ je razdalja med točkama $P_{1}$ in $P_{2}$ ter $\vartheta$
 kot med zveznico in normalo na zrcali v osi (slika~\ref{fig:uklon_res_shema}). 
-\begin{figure}[!h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/04_Uklon.pdf_tex}
