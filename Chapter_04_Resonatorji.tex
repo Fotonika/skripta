@@ -12,21 +12,24 @@ spektralno širino izsevane svetlobe.
 Optični resonatorji\index{Resonator} so votline, v katerih je mogoče 
 vzpostaviti stoječe svetlobno\index{Stoječe valovanje} valovanje. Če vzbujamo v resonatorju valovanja z 
 različnimi frekvencami, se pri nekaterih diskretnih frekvencah pojavi resonančno
-obnašanje. Te frekvence imenujemo lastne frekvence\index{Lastne frekvence resonatorja}
-resonatorja in stoječa valovanja lastna nihanja. Zaradi dušenja imajo lastna nihanja
-v resonatorju končno frekvenčno oziroma spektralno 
+obnašanje. Pri teh frekvencah, imenujemo jih lastne frekvence\index{Lastne frekvence resonatorja}
+resonatorja, jakost električnega polja v resonatorju močno naraste. Stoječa valovanja, ki
+se pojavijo v resonatorju pri lastnih frekvencah, imenujemo lastna nihanja resonatorja.
+Zaradi izgub so lastna nihanja v resonatorju dušena in imajo končno frekvenčno oziroma spektralno 
 širino. Pri tem je čas dušenja mnogo daljši od nihajne periode. 
 
 Optične resonatorje uporabljamo predvsem v dva namena:
 \begin{enumerate}
-\item V resonatorjih se ob razmeroma šibkem zunanjem vzbujanju pojavi velika jakost
-električnega polja pri resonančni frekvenci. Za vzdrževanje
+\item V resonatorjih se ob razmeroma šibkem zunanjem vzbujanju 
+pri resonančni frekvenci pojavi velika jakost
+električnega polja. Za vzdrževanje
 konstantne amplitude lastnega nihanja mora zunanji vir zgolj pokrivati izgube. 
 Če so te majhne, je zunanji vir lahko šibek in polje
 v resonatorju vseeno veliko.
 \item Resonatorji delujejo kot filtri, ki prepuščajo le polje s točno  
 določeno frekvenco in izbrano prostorsko odvisnostjo. Primer take uporabe je 
-Fabry-Perotov interferometer\index{Fabry-Perotov interferometer}. 
+Fabry-Perotov interferometer\index{Fabry-Perotov interferometer}, ki ga bomo podrobneje
+obravnavali v nadaljevanju.
 \end{enumerate}
 
 \begin{remark}
@@ -41,7 +44,7 @@ frekvenčnem intervalu.
 \end{remark}
 
 V optiki so resonatorji navadno veliko večji
-od valovne dolžine svetlobe. Vzemimo kocko s stranico $L\gg \lambda$, 
+od valovne dolžine svetlobe. Za primer resonatorja vzemimo kocko s stranico $L\gg \lambda$, 
 v kateri je vzbujeno zelo veliko število lastnih nihanj. Število lastnih nihanj $N$ 
 na frekvenčni interval $\Delta \nu$ zapišemo z zvezno gostoto 
 stanj\index{Gostota stanj}\footnote{Glej npr. B. E. A. Saleh in M. C. Teich, 
@@ -59,7 +62,7 @@ Upoštevali smo tudi, da ima vsako lastno nihanje lahko dve polarizaciji.
 Poglejmo primer. Izberimo osrednjo frekvenco $\nu=3\cdot10^{14}~\si{\hertz}$, ki
 ustreza valovni dolžini $1~\si{\micro\metre}$, in širino frekvenčnega
 intervala $\Delta\nu=3\cdot10^{9}~\si{\hertz}$, ki je značilna za Dopplerjevo
-razširjeno emisijsko črto v plinu\index{Dopplerjeva razširitev}. 
+razširjeno emisijsko črto v plinu\index{Dopplerjeva razširitev} (glej razdelek~\ref{Razsiritev}). 
 Potem je v votlini s stranico $L=1~\si{\centi\metre}$ 
 in prostornino $V=1~\si{\centi\metre^3}$ število lastnih nihanj na izbran frekvenčni interval 
 po enačbi~(\ref{eq:N-stevilo-stanj}) enako
@@ -91,7 +94,9 @@ valovnega vektorja za lastna nihanja \index{Valovni vektor}
 \mathbf{k}_{l,m,n}=\left(\frac{l\pi}{a}\,,\frac{m\pi}{a}\,,\frac{n\pi}{L}\right),\label{eq:k-votlina}
 \end{equation}
 kjer so $l$, $m$ in $n$ cela števila, $L$ dolžina in $a$ prečna
-dimenzija resonatorja. Lastne krožne frekvence resonatorja so 
+dimenzija resonatorja. 
+
+Lastne krožne frekvence resonatorja so 
 \begin{equation}
 \omega_{l,m,n}=c|\mathbf{k}_{l,m,n}|.\label{eq:omega-votlina}
 \end{equation}
