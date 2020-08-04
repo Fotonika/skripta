@@ -242,8 +242,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1085"
      inkscape:window-height="800"
-     inkscape:window-x="40"
-     inkscape:window-y="325"
+     inkscape:window-x="129"
+     inkscape:window-y="213"
      inkscape:window-maximized="0"
      inkscape:snap-global="false" />
   <metadata
@@ -263,88 +263,85 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-30.972241,-44.946617)">
-    <g
-       id="g88">
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208"
-         font-size="10px"
-         y="215.04962"
-         x="678.69775">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720">$z$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5"
-         font-size="10px"
-         y="75.298431"
-         x="361.17267">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9">$r$</tspan>
-      </text>
-      <text
-         id="text5306"
-         y="168.32608"
+    <text
+       x="678.69775"
+       y="200.04962"
+       font-size="10px"
+       id="text208"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$z$</tspan>
+    </text>
+    <text
+       x="357.42267"
+       y="75.298431"
+       font-size="10px"
+       id="text208-5"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$r$</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="349.71515"
+       y="168.32608"
+       id="text5306"><tspan
+         sodipodi:role="line"
+         id="tspan5308"
          x="349.71515"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="168.32608"
-           x="349.71515"
-           id="tspan5308"
-           sodipodi:role="line">$w_0$</tspan></text>
-      <text
-         inkscape:transform-center-y="-24.041631"
-         inkscape:transform-center-x="-31.112698"
-         id="text5306-8"
-         y="113.09447"
+         y="168.32608"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$w_0$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="660.42072"
+       y="113.09447"
+       id="text5306-8"
+       inkscape:transform-center-x="-31.112698"
+       inkscape:transform-center-y="-24.041631"><tspan
+         sodipodi:role="line"
+         id="tspan5308-5"
          x="660.42072"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="113.09447"
-           x="660.42072"
-           id="tspan5308-5"
-           sodipodi:role="line">$w(z)$</tspan></text>
-      <text
-         id="text4587-3"
-         y="117.4014"
+         y="113.09447"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$w(z)$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="389.45389"
+       y="117.4014"
+       id="text4587-3"><tspan
+         sodipodi:role="line"
+         id="tspan4589-3"
          x="389.45389"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="117.4014"
-           x="389.45389"
-           id="tspan4589-3"
-           sodipodi:role="line">$z_0$</tspan></text>
-      <text
-         inkscape:transform-center-y="-24.041631"
-         inkscape:transform-center-x="-31.112698"
-         id="text5306-8-6"
-         y="139.54971"
+         y="117.4014"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$z_0$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="596.77319"
+       y="139.54971"
+       id="text5306-8-6"
+       inkscape:transform-center-x="-31.112698"
+       inkscape:transform-center-y="-24.041631"><tspan
+         sodipodi:role="line"
+         id="tspan5308-5-5"
          x="596.77319"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="139.54971"
-           x="596.77319"
-           id="tspan5308-5-5"
-           sodipodi:role="line">$R(z)$</tspan></text>
-      <text
-         id="text4650"
-         y="247.96034"
+         y="139.54971"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$R(z)$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="629.64062"
+       y="247.96034"
+       id="text4650"><tspan
+         sodipodi:role="line"
+         id="tspan4652"
          x="629.64062"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="247.96034"
-           x="629.64062"
-           id="tspan4652"
-           sodipodi:role="line">$\vartheta$</tspan></text>
-    </g>
+         y="247.96034"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$\vartheta$</tspan></text>
     <g
        id="g1481">
       <polyline

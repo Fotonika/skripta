@@ -158,19 +158,19 @@ in resonator je stabilen za $F>1$. Laserji imajo pogosto $F\gg 1$, lahko tudi $F
 prvi kriterij navadno odločujoč pri ugotavljanju stabilnosti resonatorja.
 
 \subsection*{Fabry-Perotov interferometer}
-Poglejmo resonator, omejen z dvema vzporednima ravnima zrcaloma
-z veliko odbojnostjo. Takemu sistemu pravimo \index{Fabry-Perotov 
+Resonator, omejen z dvema vzporednima ravnima zrcaloma
+z veliko odbojnostjo, imenujemo \index{Fabry-Perotov 
 interferometer}Fabry-Perotov 
 interferometer\footnote{Francoska fizika Maurice Paul Auguste Charles Fabry, 1867--1945, in 
 Jean-Baptiste Alfred Perot, 1863--1925.}. 
-Da lahko pri dani valovni dolžini svetlobe med zrcaloma vzbudimo stoječe valovanje, mora biti razdalja 
-med zrcaloma večkratnik polovične valovne dolžine (enačba~\ref{eq:k-votlina})
+Da lahko med zrcaloma vzbudimo stoječe valovanje izbrane valovne dolžine, mora biti razdalja 
+med zrcaloma večkratnik polovične valovne dolžine
 \begin{equation}
 L = \frac{n \lambda}{2}.
 \end{equation}
 Prepustnost interferometra za ravni val, ki vpada na zrcali z
 odbojnostjo ${\cal R}$, lahko izračunamo (glej nalogo~\ref{naloga:FP}). Prepustnost $T$, to je 
-razmerje med intenzitetama prepuščenega in vpadnega valovanja, je odvisna
+razmerje med intenzitetama prepuščenega in vpadnega valovanja, je odvisna še
 od frekvence vpadnega valovanja $\nu$ in dolžine resonatorja $L$. Zaradi splošnosti upoštevamo
 še vpadni kot $\vartheta$, ki je lahko različen od nič. Prepustnost
 \begin{equation}
@@ -189,12 +189,14 @@ v odvisnosti od frekvence vpadnega valovanja $\nu$ pri različnih odbojnostih zr
 \end{figure}
 \vglue-2truemm
 Ko je frekvenca vpadnega valovanja enaka lastni frekvenci
-resonatorja, je sistem v resonanci in $T=1$. Pri drugih frekvencah je prepustnost znatno manjša, predvsem
+resonatorja, je sistem v resonanci in vsa vpadna svetloba je prepuščena ($T=1$). 
+Pri drugih frekvencah je prepustnost znatno manjša, predvsem
 pri velikih $\cal{R}$, kjer pade praktično na nič. Z naraščajočo odbojnostjo zrcal ${\cal R}$ 
 se zmanjšuje tudi širina resonančnega vrha.
 \begin{naloga}
 \label{naloga:FP}
-Izpelji prepustnost Fabry-Perotovega interferometra (enačba~\ref{eq:Fabry-Perot-prepustnost}).
+Izpelji prepustnost Fabry-Perotovega interferometra (enačba~\ref{eq:Fabry-Perot-prepustnost}), tako da
+zapišeš prepuščeno svetlobo kot vsoto prispevkov po posameznih odbojih med zrcaloma. 
 \end{naloga}
 \vglue-2truemm
 Prvemu pogoju za stabilnost ustrezajo v Fabry-Perotovem interferometru
@@ -204,7 +206,7 @@ planparalelni interferometer\index{Resonator!planparalelni} torej deluje
 na meji stabilnosti. Z izpolnjevanjem drugega
 pogoja ni težav, saj morata biti pri na primer $30~\si{\centi\metre}$ dolgem resonatorju in 
 valovni dolžini $0,5~\si{\micro\metre}$ zrcali večji od $0,4~\si{\milli\metre}$, da zadostita pogoju, 
-zapisanem v enačbi~(\ref{eq:Fresnelovo_stevilo}).
+zapisanemu v enačbi~(\ref{eq:Fresnelovo_stevilo}).
 
 \section{Gaussovi snopi v resonatorjih}
 Spoznali smo planparalelni resonator, ki deluje na meji stabilnosti. 
@@ -216,23 +218,22 @@ enačbo (enačba~\ref{eq:obosna-valovna-enacba}).
 
 Poleg tega vemo, da se stoječe valovanje pojavi, kadar
 svetloba po odboju od zrcala konstruktivno interferira sama s sabo.
-Od tod izhaja robni pogoj, ki pravi, da se oblika valovne fronte stoječega valovanja na 
-zrcalu ujema z obliko zrcala, električno polje na površini zrcala
+Od tod izhaja robni pogoj, ki pravi, da se mora v stabilnem resonatorju 
+oblika valovne fronte stoječega valovanja na 
+zrcalu ujemati z obliko zrcala, električno polje na površini zrcala
 pa je približno enako nič (slika \ref{fig:Gaussov-snop-v-resonatorju}).
-\vskip5truemm
-
 \begin{figure}[ht]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{90truemm} 
 \input{slike/04_Resonator_Gauss.pdf_tex}
 \caption{Gaussov snop v odprtem resonatorju s konkavno ukrivljenima zrcaloma
-s krivinskima radijema $R_1$ in $R_2$. V stabilnem resonatorju se krivinski 
-radij snopa na zrcalu ujema s krivinskim radijem zrcala. Kadar $R_1 \neq R_2$, 
-grlo snopa ne leži na sredini resonatorja. Z $L$ označimo dolžino resonatorja,
-$z_1$ in $z_2$ pa sta razdalji od grla do zrcal.}
+s krivinskima radijema $R_1$ in $R_2$. Z $L$ označimo dolžino resonatorja,
+$z_1$ in $z_2$ pa sta razdalji od grla do zrcal. V stabilnem resonatorju se krivinski 
+radij snopa na zrcalu ujema s krivinskim radijem zrcala. Kadar je $R_1 = R_2$, 
+leži grlo snopa na sredini resonatorja. }
 \label{fig:Gaussov-snop-v-resonatorju}
 \end{figure}
-
+\vglue-2truemm
 V prečni smeri omejene rešitve obosne enačbe smo našli v obliki potujočih
 Gaussovih snopov\index{Gaussov snop} (enačba~\ref{eq:gaussov-snop}). 
 Podobno kot zapišemo stoječe valovanje z vsoto valovanj, ki se širita v nasprotnih smereh,
@@ -246,15 +247,20 @@ ki je povezan s parametrom $z_{0}$, in lega grla.
 Postavimo izhodišče osi $z$ v grlo, kot smo\index{Gaussov snop!krivinski radij}
 navajeni, tako da sta zrcali pri $z_{1}<0$ in $z_{2}>0$. Uporabimo enačbo
 za krivinski radij snopa $R$ (enačba~\ref{eq:R})  in zapišemo 
-\begin{align}
--R_{1} & =  z_{1}\left(1+\left(\frac{z_{0}}{z_{1}}\right)^{2}\right) \quad  \label{eq:krivinski1} \textrm{in}\\
-R_{2}  &=  z_{2}\left(1+\left(\frac{z_{0}}{z_{2}}\right)^{2}\right).
+\begin{equation}
+-R_{1}  =  z_{1}\left(1+\left(\frac{z_{0}}{z_{1}}\right)^{2}\right)
+\label{eq:krivinski1} 
+\end{equation}
+in
+\begin{equation}
+R_{2}  =  z_{2}\left(1+\left(\frac{z_{0}}{z_{2}}\right)^{2}\right).
 \label{eq:krivinski}
-\end{align}
+\end{equation}
 Pri tem smo upoštevali, da je krivinski radij za konkavno zrcalo glede na 
 pozitivno smer $z$ pozitiven. Prvo enačbo smo zapisali z negativnim 
 predznakom pri $R_1$, zato da je krivinski radij pozitivno število.
-Veljati mora še 
+
+Velja tudi 
 \begin{equation}
 z_{2}-z_{1}=L.
 \label{eq:razlikaz}
@@ -290,12 +296,14 @@ Za simetrične resonatorje\index{Resonator!simetrični}
 velja $R_{1}=R_{2}=R$ in na diagramu se taki resonatorji nahajajo na simetrali 
 lihih kvadrantov pri $x=y$. 
 
-Med njimi omenimo tri posebne vrste resonatorjev.
+Med simetričnimi stabilnimi resonatorji omenimo tri posebne vrste resonatorjev.
 Prvi je konfokalni \index{Resonator!konfokalni}resonator (a), 
 pri katerem sovpadata gorišči obeh zrcal in zanj velja $L=R$. Drugi je 
-koncentrični \index{Resonator!koncentrični}resonator (b), pri katerem sovpadata krivinski središči zrcal in $L=2R$.
+koncentrični \index{Resonator!koncentrični}resonator (b), 
+pri katerem sovpadata krivinski središči zrcal in $L=2R$.
 Tretji je\index{Resonator!planparalelni} planparalelni ali Fabry-Perotov (c), ki ga že poznamo. 
-Slednja sta skrajna primera stabilnega simetričnega resonatorja. 
+Slednja sta skrajna primera stabilnega simetričnega resonatorja, saj delujeta na meji
+stabilnosti. 
 Resonatorji, ki so sestavljeni iz dveh konveksnih zrcal, niso nikoli stabilni, lahko
 pa so stabilni resonatorji iz enega konveksnega in enega konkavnega zrcala (d)
 ali resonatorji iz enega ravnega in enega konkavnega zrcala (e). 
@@ -315,8 +323,8 @@ resonatorja leži grlo snopa izven resonatorja.
 (b) koncentrični resonator\index{Resonator!koncentrični}, 
 (c) planparalelni (Fabry-Perot) resonator, \index{Resonator!planparalelni}
 (d) konveksno-konkavni resonator 
-in (e) plankonkavni resonator. Pri tem je $L$ dolžina resonatorja, $R_1$ in $R_2$ pa
-krivinski radiji zrcal.}
+in (e) plankonkavni resonator. Pri tem je $L$ dolžina resonatorja, $R_1$ in $R_2$ pa sta
+krivinski radija zrcal.}
 \label{fig:Podrocje-stabilnih-resonatorjev}
 \end{figure}
 
@@ -335,7 +343,8 @@ w_{0}=\sqrt{\frac{\lambda z_{0}}{\pi}}=\sqrt{\frac{\lambda}{2\pi}}\sqrt[4]{(2R-L
 \begin{naloga}
 \label{naloga:uklon_konf}
  Izračunaj polmer
- snopa na zrcalu simetričnega resonatorja. Pokaži, da je polmer snopa na 
+ snopa na zrcalu simetričnega resonatorja (enačba~\ref{eq:grlo_v_res}). 
+ Pokaži, da je polmer snopa na 
  izhodnem zrcalu najmanjši v konfokalnem resonatorju. 
 \end{naloga} 
 
@@ -352,7 +361,7 @@ Pri zasuku zrcala se v navadnih stabilnih resonatorjih namreč premakne os, ki g
 krivinski središči obeh zrcal. Če želimo, da je največji odmik nove osi kar se da
 majhen, uporabimo konfokalne resonatorje. 
 \end{remark}
-\vglue-2truemm
+
 Pri dejanskem načrtovanju laserjev velja dodatna omejitev, saj želimo 
 ojačevalno sredstvo, ki je v resonatorju, čim bolj izkoristiti. Pogosto je zato 
 polmer grla snopa razmeroma velik. Iz enačbe~(\ref{eq:grlo_v_res})
@@ -370,7 +379,7 @@ uporabiti zrcali s krivinskim radijem okoli $50~\si{\metre}$.
 
 V koncentričnem resonatorju gre polmer grla (enačba~\ref{eq:grlo_v_res}) proti nič, v
 simetričnih resonatorjih z zelo velikim $R$ pa 
-raste sorazmerno z $R^{1/4}$. Pri resonatorjih z ravnimi zrcali 
+raste sorazmerno z $R^{1/4}$. V resonatorjih z ravnimi zrcali 
 postanejo uklonske izgube na robovih znatne. Račun z Gaussovimi snopi tedaj ni več veljaven
 in treba je uporabiti pristope, ki jih bomo opisali
 v razdelku~(\ref{Resonator_uklon}).
@@ -385,16 +394,15 @@ pogosto uporabimo zaslonko, ki snope višjih redov poreže,
 ali kakšen drug element, npr. Fabry-Perotov etalon\footnote{Razlika med Fabry-Perotovim
 interferometrom in etalonom je v tem, da je interferometer sestavljen iz premičnih 
 zrcal, etalon pa je ploščica z nespremenljivo debelino.}, ki poveča izgube za snope višjega reda.
-\vglue-3truemm
 \begin{remark}
 Včasih se uporabljajo tudi nestabilni resonatorji\index{Resonator!nestabilni}, za 
 katere ne obstajajo preproste rešitve v obliki osnovnih Gaussovih snopov. Taki resonatorji 
 imajo velike izgube na robovih zrcal, ker žarki v njih niso ujeti. 
 Uporabni so predvsem v močnih laserjih z velikim ojačenjem. Njihova prednost je v tem, da 
 je intenziteta svetlobe razmeroma velika v celotnem resonatorju in ne le ob 
-osi. \footnote{Glej npr. A. E. Siegman, {\it Lasers}, University Science Books (1986).}
+osi.\footnote{Glej npr. A. E. Siegman, {\it Lasers}, University Science Books (1986).}
 \end{remark}
-\vglue-3truemm
+
 Do zdaj smo obravnavali dva primera laserskih resonatorjev: Fabry-Perotov
 resonator z dvema vzporednima ravnima zrcaloma (slika~\ref{fig:resonatorji}\,a) 
 in resonator z dvema krogelnima zrcaloma (b).

@@ -56,9 +56,9 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{02_fluktuacije01.pdf}}%
     \put(0.04672463,0.37688958){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
     \put(0.42909781,0.10409721){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t_c$}\end{tabular}}}}%
-    \put(0.97438107,0.31241351){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
-    \put(0.9743807,0.44624485){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
-    \put(0.97437811,0.14707543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.97688688,0.31241351){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.97688656,0.44624485){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.97688392,0.14707543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
     \put(0.97688399,0.00161655){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
     \put(0.06687345,0.37502547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Re(E)$\end{tabular}}}}%
     \put(0.06687261,0.50885681){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Re(E)$\end{tabular}}}}%

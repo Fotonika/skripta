@@ -54,11 +54,11 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{04_Resonator_Gauss.pdf}}%
-    \put(0.44228981,0.45901153){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
+    \put(0.46820137,0.45901153){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
     \put(0.18945821,0.03671018){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z_1$\end{tabular}}}}%
     \put(0.58374689,0.03671018){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z_2$\end{tabular}}}}%
-    \put(0.89248116,0.35860616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_2$\end{tabular}}}}%
-    \put(-0.01319508,0.35860616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_1$\end{tabular}}}}%
-    \put(0.92877548,0.19767022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.88137621,0.35860616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_2$\end{tabular}}}}%
+    \put(-0.00209012,0.35860616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_1$\end{tabular}}}}%
+    \put(0.96949366,0.20137187){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
