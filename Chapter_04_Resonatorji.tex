@@ -1087,11 +1087,11 @@ sklopljena z delno prepustnim zrcalom. Sklopitev naj bo šibka, tako da lahko za
 \frac{da_1}{dt} =  -i\omega_{1}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
 \frac{da_2}{dt} = -i\omega_{2}a_{2}+\kappa_{21}a_{1}.
 \end{equation}
-
 Zaradi ohranitve energije sklopitvena koeficienta $\kappa_{12}$ in
-$\kappa_{21}$ nista neodvisna. Zapišemo vsoto energij obeh resonatorjev
+$\kappa_{21}$ nista neodvisna. Zvezo med njima poiščemo tako, da zapišemo 
+vsoto energij obeh resonatorjev (enačba~\ref{3.35}) in izračunamo njen časovni odvod
 \begin{align}
-\frac{d}{dt}(|a_{1}|^{2}+|a_{2}|^{2}) & =  a_{1}\frac{da_1^*}{dt}+a_{1}^{*}\frac{da_1}{dt}+
+\frac{d}{dt}\left(|a_{1}|^{2}+|a_{2}|^{2}\right) & =  a_{1}\frac{da_1^*}{dt}+a_{1}^{*}\frac{da_1}{dt}+
 a_{2}\frac{da_2^*}{dt}+a_{2}^{*}\frac{da_2}{dt}\nonumber \\
  & =  a_{1}^{*}\kappa_{12}a_{2}+a_{1}\kappa_{12}^{*}a_{2}^{*}+a_{2}^{*}\kappa_{21}a_{1}+
  a_{2}\kappa_{21}^{*}a_{1}^{*}.
@@ -1102,6 +1102,7 @@ Ta pogoj je izpolnjen, kadar velja
 \kappa_{12}+\kappa_{21}^{*}=0.
 \label{3.56}
 \end{equation}
+\newpage
 
 Poglejmo primer dveh sklopljenih resonatorjev, pri čemer je v drugem resonatorju vzbujeno 
 stoječe valovanje. Moč tistega dela, ki potuje proti prvemu resonatorju,
@@ -1127,16 +1128,16 @@ Poglejmo dva enaka sklopljena resonatorja
 \frac{da_1}{dt}  =  -i\omega_{0}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
 \frac{da_2}{dt} =  -i\omega_{0}a_{2}-\kappa_{12}a_{1}.
 \end{equation}
-Z nastavkom oblik $A_{i}e^{-i\omega t}$ dobimo homogen linearen sistem za $A_{1}$ in
+Z nastavkom oblike $A_{i}e^{-i\omega t}$ dobimo homogen linearen sistem za $A_{1}$ in
 $A_{2}$, ki je netrivialno rešljiv, če je determinanta sistema enaka nič.
-Ta pogoj da enačbo za krožno frekvenco 
+Ta pogoj da enačbo za krožno frekvenco \index{Lastne frekvence resonatorja}
 \begin{equation}
 (\omega-\omega_{0})^{2}=\kappa_{12}^{2}\label{3.61}
 \end{equation}
  in 
 \begin{equation}
 \omega_{1,2}=\omega_{0}\pm\kappa_{12}.\label{3.62}
-\end{equation}\index{Lastne frekvence resonatorja}
+\end{equation}
 Zaradi sklopitve sta se prej enaki frekvenci resonatorjev razcepili v dve, kot
 smo lahko pričakovali. Velikost razcepa je odvisna od odbojnosti zrcala in časa
 preleta resonatorja (enačba~\ref{3.59}).
