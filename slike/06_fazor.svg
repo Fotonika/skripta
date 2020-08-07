@@ -328,7 +328,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.95822"
-     inkscape:cx="149.88531"
+     inkscape:cx="150.90665"
      inkscape:cy="56.956866"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -423,94 +423,82 @@
          d="m 142.06179,231.69833 c 6.90242,2.23225 8.063,6.0308 9.03098,12.1611"
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.50000012;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
-    <g
-       id="g145">
-      <g
-         id="g92">
-        <g
-           id="g149">
-          <g
-             id="g86">
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="58.938915"
-               y="141.37062"
-               id="text6089"><tspan
-                 sodipodi:role="line"
-                 id="tspan6091"
-                 x="58.938915"
-                 y="141.37062"
-                 style="font-size:16.25px;line-height:1.25">$\Im E$</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="313.16754"
-               y="305.42642"
-               id="text6089-4"><tspan
-                 sodipodi:role="line"
-                 id="tspan6091-7"
-                 x="313.16754"
-                 y="305.42642"
-                 style="font-size:16.25px;line-height:1.25">$\Re E$</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="127.01735"
-               y="277.30392"
-               id="text6831"><tspan
-                 sodipodi:role="line"
-                 id="tspan6833"
-                 x="127.01735"
-                 y="277.30392"
-                 style="font-size:13.75000095px;line-height:1.25">$\varphi$</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="212.69431"
-               y="227.27335"
-               id="text6089-4-2"><tspan
-                 sodipodi:role="line"
-                 id="tspan6091-7-6"
-                 x="212.69431"
-                 y="227.27335"
-                 style="font-size:16.25px;line-height:1.25">$|E(t)|$</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="153.61501"
-               y="197.45239"
-               id="text6089-4-2-1"><tspan
-                 sodipodi:role="line"
-                 id="tspan6091-7-6-8"
-                 x="153.61501"
-                 y="197.45239"
-                 style="font-size:16.25px;line-height:1.25">$|E(t')|$</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="289.17654"
-               y="161.03706"
-               id="text6831-2"><tspan
-                 sodipodi:role="line"
-                 id="tspan6833-3"
-                 x="289.17654"
-                 y="161.03706"
-                 style="font-size:13.75000095px;line-height:1.25">$\psi$</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="111.82024"
-               y="234.03241"
-               id="text6831-5"><tspan
-                 sodipodi:role="line"
-                 id="tspan6833-9"
-                 x="111.82024"
-                 y="234.03241"
-                 style="font-size:13.75000095px;line-height:1.25">$\Delta \varphi_1$</tspan></text>
-          </g>
-        </g>
-      </g>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="96.760254"
+       y="129.40184"
+       id="text6089"><tspan
+         sodipodi:role="line"
+         id="tspan6091"
+         x="96.760254"
+         y="129.40184"
+         style="font-size:16.25px;line-height:1.25">$\Im E$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="348.79254"
+       y="305.42642"
+       id="text6089-4"><tspan
+         sodipodi:role="line"
+         id="tspan6091-7"
+         x="348.79254"
+         y="305.42642"
+         style="font-size:16.25px;line-height:1.25">$\Re E$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="127.01735"
+       y="277.30392"
+       id="text6831"><tspan
+         sodipodi:role="line"
+         id="tspan6833"
+         x="127.01735"
+         y="277.30392"
+         style="font-size:13.75000095px;line-height:1.25">$\varphi$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="212.69431"
+       y="227.27335"
+       id="text6089-4-2"><tspan
+         sodipodi:role="line"
+         id="tspan6091-7-6"
+         x="212.69431"
+         y="227.27335"
+         style="font-size:16.25px;line-height:1.25">$|E(t)|$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="153.61501"
+       y="195.57739"
+       id="text6089-4-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan6091-7-6-8"
+         x="153.61501"
+         y="195.57739"
+         style="font-size:16.25px;line-height:1.25">$|E(t')|$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="289.17654"
+       y="161.03706"
+       id="text6831-2"><tspan
+         sodipodi:role="line"
+         id="tspan6833-3"
+         x="289.17654"
+         y="161.03706"
+         style="font-size:13.75000095px;line-height:1.25">$\psi$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="111.82024"
+       y="234.03241"
+       id="text6831-5"><tspan
+         sodipodi:role="line"
+         id="tspan6833-9"
+         x="111.82024"
+         y="234.03241"
+         style="font-size:13.75000095px;line-height:1.25">$\Delta \varphi_1$</tspan></text>
   </g>
 </svg>
