@@ -58,14 +58,13 @@
     \put(0.01245724,0.69619673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
     \put(0.01245724,0.3911642){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
     \put(0.01211212,0.12667597){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
+    \put(0.0127736,0.84370019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0.95006616,0.41395301){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
     \put(0.08275562,0.67268795){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$G$\end{tabular}}}}%
     \put(-0.00078879,0.56120551){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$G_{\rm pr}$\end{tabular}}}}%
     \put(0.95006616,0.17507221){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
     \put(0.08273009,0.36894695){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
     \put(0.95006616,0.00251243){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{06_FPmodes.pdf}}%
-    \put(0.0127736,0.84370019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.95072759,0.71953667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
+    \put(0.95072758,0.71953667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

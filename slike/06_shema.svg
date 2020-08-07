@@ -14,7 +14,7 @@
    viewBox="0 0 542.28024 193.26378"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="06_shema.svg">
   <defs
      id="defs4">
@@ -243,7 +243,7 @@
      inkscape:window-width="1318"
      inkscape:window-height="780"
      inkscape:window-x="600"
-     inkscape:window-y="235"
+     inkscape:window-y="218"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -402,7 +402,7 @@
          id="tspan5064-5"
          x="450.80206"
          y="38.173935"
-         style="font-size:25px;line-height:1.25">${\cal R}_1 &lt; 1$</tspan></text>
+         style="font-size:25px;line-height:1.25">${\cal R}_2 &lt; 1$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -413,27 +413,27 @@
          id="tspan5064-5-6"
          x="1.6216773"
          y="38.023933"
-         style="font-size:25px;line-height:1.25">${\cal R}_2 \approx 1$</tspan></text>
+         style="font-size:25px;line-height:1.25">${\cal R}_1 \approx 1$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="178.26707"
+       x="163.26707"
        y="93.547226"
        id="text4218"><tspan
          sodipodi:role="line"
          id="tspan4220"
-         x="178.26707"
+         x="163.26707"
          y="93.547226"
          style="font-size:15px;line-height:1.25">ojačevalno sredstvo</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="178.8632"
+       x="163.8632"
        y="191.81152"
        id="text4218-5"><tspan
          sodipodi:role="line"
          id="tspan4220-3"
-         x="178.8632"
+         x="163.8632"
          y="191.81152"
          style="font-size:15px;line-height:1.25">črpalni mehanizem</tspan></text>
   </g>

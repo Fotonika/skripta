@@ -58,6 +58,5 @@
     \put(0.06180458,0.28656985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$S_0$\end{tabular}}}}%
     \put(0.67230158,0.28611158){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$S_c$\end{tabular}}}}%
     \put(0.65401743,0.20720198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Delta\Omega$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{06_svetlost.pdf}}%
   \end{picture}%
 \endgroup%
