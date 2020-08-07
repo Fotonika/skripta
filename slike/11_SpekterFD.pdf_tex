@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_SpekterFD.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{672.12958388bp}%
     \ifx\svgscale\undefined%
@@ -49,26 +51,27 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.7124983)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_SpekterFD.pdf}}%
-    \put(0.12955981,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$200$}}}%
-    \put(0.24208554,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$400$}}}%
-    \put(0.35218533,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$600$}}}%
-    \put(0.46168803,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$800$}}}%
-    \put(0.56161208,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1000$}}}%
-    \put(0.67111478,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1200$}}}%
-    \put(0.78299793,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1400$}}}%
-    \put(0.8946092,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1600$}}}%
-    \put(0.05738056,0.07419107){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.04401794,0.37578936){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$50$}}}%
-    \put(0.02759707,0.68958602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100$}}}%
-    \put(0.04457794,0.22456526){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$25$}}}%
-    \put(0.14734595,0.52382418){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Ag-ZnS}$}}}%
-    \put(0.55526038,0.65196125){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Si}$}}}%
-    \put(0.27320152,0.57970372){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Au-Si}$}}}%
-    \put(0.78020959,0.6071624){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Ge}$}}}%
-    \put(0.39276066,0.00567742){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Valovna dol{\v z}ina [nm]}$}}}%
-    \put(0.02062102,0.1835064){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\textrm{Kvantni izkoristek [\%}]$}}}}%
-    \put(0.04497677,0.53477274){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$75$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_SpekterFD.pdf}}%
+    \put(0.14734596,0.52382421){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ag-ZnS}$\end{tabular}}}}%
+    \put(0.5552604,0.65196129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Si}$\end{tabular}}}}%
+    \put(0.27320153,0.57970376){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Au-Si}$\end{tabular}}}}%
+    \put(0.78020962,0.60716243){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ge}$\end{tabular}}}}%
+    \put(0.12955981,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$200$\end{tabular}}}}%
+    \put(0.24208554,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$400$\end{tabular}}}}%
+    \put(0.35218534,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$\end{tabular}}}}%
+    \put(0.46168804,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$800$\end{tabular}}}}%
+    \put(0.5616121,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1000$\end{tabular}}}}%
+    \put(0.67111479,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1200$\end{tabular}}}}%
+    \put(0.78299795,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1400$\end{tabular}}}}%
+    \put(0.89460922,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1600$\end{tabular}}}}%
+    \put(0.39276067,0.00567743){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Valovna dol{\v z}ina [nm]}$\end{tabular}}}}%
+    \put(0.05738056,0.07419108){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.04401795,0.37578938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$50$\end{tabular}}}}%
+    \put(0.02759707,0.68958605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$100$\end{tabular}}}}%
+    \put(0.04457794,0.22456529){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$25$\end{tabular}}}}%
+    \put(0.02062102,0.18350642){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Kvantni izkoristek [\%}]$\end{tabular}}}}}%
+    \put(0.04497677,0.53477277){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$75$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

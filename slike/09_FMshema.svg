@@ -221,14 +221,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.72693605"
-     inkscape:cx="492.25369"
+     inkscape:cx="495.00496"
      inkscape:cy="145.01326"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1001"
+     inkscape:window-width="1559"
      inkscape:window-height="1006"
-     inkscape:window-x="898"
+     inkscape:window-x="340"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="0"
@@ -374,74 +374,73 @@
        inkscape:original-d="M 231.8851,732.84891 141.22556,709.40322"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:7.72324371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-7-0);marker-end:url(#Arrow1Mend-4-3)"
+       d="M -107.75349,899.21207 -40.139907,241.87338"
+       id="path3866-1-6"
+       inkscape:path-effect="#path-effect3868-36-0"
+       inkscape:original-d="M -107.75349,899.21207 -40.139907,241.87338"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       transform="matrix(0.29695593,0.485286,-0.42905161,0.2640526,655.79158,570.69073)" />
     <g
-       id="g7810">
-      <text
-         id="text3015"
-         y="361.41455"
-         x="154.37529"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-size:32px;line-height:1.25"
-           y="361.41455"
+       id="g84">
+      <g
+         id="g7810">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            x="154.37529"
-           id="tspan3017"
-           sodipodi:role="line">$U$</tspan></text>
-      <text
-         id="text4073-2-0"
-         y="701.82678"
-         x="160.40189"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-size:24px;line-height:1.25"
-           y="701.82678"
+           y="361.41455"
+           id="text3015"><tspan
+             sodipodi:role="line"
+             id="tspan3017"
+             x="154.37529"
+             y="361.41455"
+             style="font-size:32px;line-height:1.25">$U$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            x="160.40189"
-           id="tspan4075-7-9"
-           sodipodi:role="line">$x$</tspan></text>
-      <text
-         id="text4073"
-         y="692.72314"
-         x="260.1683"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-size:24px;line-height:1.25"
-           y="692.72314"
+           y="701.82678"
+           id="text4073-2-0"><tspan
+             sodipodi:role="line"
+             id="tspan4075-7-9"
+             x="160.40189"
+             y="701.82678"
+             style="font-size:24px;line-height:1.25">$x$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            x="260.1683"
-           id="tspan4075"
-           sodipodi:role="line">$z$</tspan></text>
-      <text
-         id="text4073-2"
-         y="638.54755"
-         x="245.69138"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-size:24px;line-height:1.25"
-           y="638.54755"
+           y="692.72314"
+           id="text4073"><tspan
+             sodipodi:role="line"
+             id="tspan4075"
+             x="260.1683"
+             y="692.72314"
+             style="font-size:24px;line-height:1.25">$z$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            x="245.69138"
-           id="tspan4075-7"
-           sodipodi:role="line">$y$</tspan></text>
-    </g>
-    <g
-       transform="translate(0.111553,1.03888)"
-       id="g6869">
-      <path
-         transform="matrix(0.29695593,0.485286,-0.42905161,0.2640526,655.68003,569.65185)"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         inkscape:original-d="M -107.75349,899.21207 -40.139907,241.87338"
-         inkscape:path-effect="#path-effect3868-36-0"
-         id="path3866-1-6"
-         d="M -107.75349,899.21207 -40.139907,241.87338"
-         style="fill:none;stroke:#000000;stroke-width:7.72324371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-7-0);marker-end:url(#Arrow1Mend-4-3)" />
+           y="638.54755"
+           id="text4073-2"><tspan
+             sodipodi:role="line"
+             id="tspan4075-7"
+             x="245.69138"
+             y="638.54755"
+             style="font-size:24px;line-height:1.25">$y$</tspan></text>
+      </g>
       <text
          id="text3015-1"
-         y="723.9165"
-         x="401.10388"
+         y="724.95538"
+         x="401.21542"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            style="font-size:32px;line-height:1.25"
-           y="723.9165"
-           x="401.10388"
+           y="724.95538"
+           x="401.21542"
            id="tspan3017-5"
            sodipodi:role="line">$L$</tspan></text>
     </g>

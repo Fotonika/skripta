@@ -11,7 +11,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="11_PN1.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    version="1.1"
    id="svg2"
    viewBox="0 0 986.91556 250.22559"
@@ -19,16 +19,16 @@
    width="278.52951mm">
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="26"
+     inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="1139"
+     inkscape:window-height="1159"
      inkscape:window-width="1920"
      inkscape:snap-grids="false"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      inkscape:cy="109.21904"
-     inkscape:cx="457.51575"
+     inkscape:cx="459.90044"
      inkscape:zoom="0.8386822"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -624,263 +624,6 @@
        inkscape:original-d="m 1421.8085,172.93125 v -39.8942"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1468.3687"
-       y="200.21095"
-       id="text17025"><tspan
-         sodipodi:role="line"
-         id="tspan17023"
-         x="1468.3687"
-         y="200.21095"
-         style="font-size:23.43749809px;line-height:1.25;stroke-width:0.93749994px"> </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="499.86526"
-       y="148.86438"
-       id="text4870-3-7-9-5-2"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-6"
-         x="499.86526"
-         y="148.86438"
-         style="font-size:20px;line-height:1.25">$E_a$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="894.45465"
-       y="70.300453"
-       id="text4870-3-7-9-5"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4"
-         x="894.45465"
-         y="70.300453"
-         style="font-size:20px;line-height:1.25">$E_d$</tspan></text>
-    <g
-       id="g16998"
-       transform="translate(0,0.02187021)">
-      <text
-         id="text5056-2-1-5-6-7-1"
-         y="228.18204"
-         x="593.54565"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:16.25px;line-height:1.25"
-           y="228.18204"
-           x="593.54565"
-           id="tspan5058-7-9-0-1-4-0"
-           sodipodi:role="line">$p$</tspan></text>
-      <text
-         id="text5056-2-1-5-6-7"
-         y="228.2039"
-         x="795.47314"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:16.25px;line-height:1.25"
-           y="228.2039"
-           x="795.47314"
-           id="tspan5058-7-9-0-1-4"
-           sodipodi:role="line">$n$</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="894.0069"
-       y="94.214043"
-       id="text4870-3-7-9-5-3"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-5"
-         x="894.0069"
-         y="94.214043"
-         style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="499.86526"
-       y="122.21405"
-       id="text4870-3-7-9-5-2-6"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-6-2"
-         x="499.86526"
-         y="122.21405"
-         style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="541.02246"
-       y="196.87123"
-       id="text11946"><tspan
-         sodipodi:role="line"
-         id="tspan11944"
-         x="541.02246"
-         y="196.87123"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749809px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749994px">valenčni pas</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="540.55145"
-       y="44.058735"
-       id="text11946-9"><tspan
-         sodipodi:role="line"
-         id="tspan11944-1"
-         x="540.55145"
-         y="44.058735"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749619px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749988px">prevodni pas</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98775291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="506.00998"
-       y="14.591481"
-       id="text8370"><tspan
-         sodipodi:role="line"
-         id="tspan8368"
-         x="506.00998"
-         y="14.591481"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69382286px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.98775291px">a)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98775291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="711.04474"
-       y="14.591481"
-       id="text8370-2"><tspan
-         sodipodi:role="line"
-         id="tspan8368-2"
-         x="711.04474"
-         y="14.591481"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69382286px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.98775291px">b)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1233.7731"
-       y="44.579533"
-       id="text4870-3-7-9-5-5-5"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-9-6"
-         x="1233.7731"
-         y="44.579533"
-         style="font-size:20px;line-height:1.25">$\mathbf{E}$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1429.6682"
-       y="92.175682"
-       id="text4870-3-7-9-5-5"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-9"
-         x="1429.6682"
-         y="92.175682"
-         style="font-size:20px;line-height:1.25">$E_d$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1006.9538"
-       y="126.73961"
-       id="text4870-3-7-9-5-2-8"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-6-9"
-         x="1006.9538"
-         y="126.73961"
-         style="font-size:20px;line-height:1.25">$E_a$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1429.2205"
-       y="116.08927"
-       id="text4870-3-7-9-5-3-2"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-5-9"
-         x="1429.2205"
-         y="116.08927"
-         style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1006.9538"
-       y="100.08928"
-       id="text4870-3-7-9-5-2-6-3"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-6-2-1"
-         x="1006.9538"
-         y="100.08928"
-         style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1429.7134"
-       y="159.08415"
-       id="text4870-3-7-9-5-3-2-7"><tspan
-         sodipodi:role="line"
-         id="tspan4872-6-8-7-4-5-9-7"
-         x="1429.7134"
-         y="159.08415"
-         style="font-size:20px;line-height:1.25;stroke-width:1px">$\Delta E$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98775291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1017.1317"
-       y="14.591481"
-       id="text8370-2-6"><tspan
-         sodipodi:role="line"
-         id="tspan8368-2-1"
-         x="1017.1317"
-         y="14.591481"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69382286px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.98775291px">c)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1047.9811"
-       y="196.87123"
-       id="text11946-7"><tspan
-         sodipodi:role="line"
-         id="tspan11944-3"
-         x="1047.9811"
-         y="196.87123"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749619px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749988px">valenčni pas</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1046.7915"
-       y="19.683735"
-       id="text11946-9-6"><tspan
-         sodipodi:role="line"
-         id="tspan11944-1-1"
-         x="1046.7915"
-         y="19.683735"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749428px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749982px">prevodni pas</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1099.8647"
-       y="228.2039"
-       id="text5056-2-1-5-6-7-1-9"><tspan
-         sodipodi:role="line"
-         id="tspan5058-7-9-0-1-4-0-3"
-         x="1099.8647"
-         y="228.2039"
-         style="font-size:16.25px;line-height:1.25">$p$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1335.5422"
-       y="228.22577"
-       id="text5056-2-1-5-6-7-19"><tspan
-         sodipodi:role="line"
-         id="tspan5058-7-9-0-1-4-4"
-         x="1335.5422"
-         y="228.22577"
-         style="font-size:16.25px;line-height:1.25">$n$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="741.76923"
-       y="196.57997"
-       id="text11946-1"><tspan
-         sodipodi:role="line"
-         id="tspan11944-0"
-         x="741.76923"
-         y="196.57997"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749619px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749988px">valenčni pas</tspan></text>
     <rect
        style="opacity:1;fill:url(#linearGradient9019-3);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5024-8-4-3-9-7-5"
@@ -888,16 +631,271 @@
        height="47"
        x="737.91125"
        y="9.2063932" />
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="743.29822"
-       y="43.767483"
-       id="text11946-9-63"><tspan
-         sodipodi:role="line"
-         id="tspan11944-1-2"
-         x="743.29822"
-         y="43.767483"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749428px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749982px">prevodni pas</tspan></text>
+    <g
+       id="g248">
+      <g
+         id="g197">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1233.7731"
+           y="44.579533"
+           id="text4870-3-7-9-5-5-5"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-9-6"
+             x="1233.7731"
+             y="44.579533"
+             style="font-size:20px;line-height:1.25">$\mathbf{E}$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1429.6682"
+           y="92.175682"
+           id="text4870-3-7-9-5-5"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-9"
+             x="1429.6682"
+             y="92.175682"
+             style="font-size:20px;line-height:1.25">$E_d$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1006.9538"
+           y="126.73961"
+           id="text4870-3-7-9-5-2-8"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-6-9"
+             x="1006.9538"
+             y="126.73961"
+             style="font-size:20px;line-height:1.25">$E_a$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1429.2205"
+           y="116.08927"
+           id="text4870-3-7-9-5-3-2"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-5-9"
+             x="1429.2205"
+             y="116.08927"
+             style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1006.9538"
+           y="100.08928"
+           id="text4870-3-7-9-5-2-6-3"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-6-2-1"
+             x="1006.9538"
+             y="100.08928"
+             style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1429.7134"
+           y="159.08415"
+           id="text4870-3-7-9-5-3-2-7"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-5-9-7"
+             x="1429.7134"
+             y="159.08415"
+             style="font-size:20px;line-height:1.25;stroke-width:1px">$\Delta E$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98775291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1017.1317"
+           y="14.591481"
+           id="text8370-2-6"><tspan
+             sodipodi:role="line"
+             id="tspan8368-2-1"
+             x="1017.1317"
+             y="14.591481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69382286px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.98775291px">c)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1047.9811"
+           y="196.87123"
+           id="text11946-7"><tspan
+             sodipodi:role="line"
+             id="tspan11944-3"
+             x="1047.9811"
+             y="196.87123"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749619px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749988px">valenčni pas</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1046.7915"
+           y="19.683735"
+           id="text11946-9-6"><tspan
+             sodipodi:role="line"
+             id="tspan11944-1-1"
+             x="1046.7915"
+             y="19.683735"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749428px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749982px">prevodni pas</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1099.8647"
+           y="228.2039"
+           id="text5056-2-1-5-6-7-1-9"><tspan
+             sodipodi:role="line"
+             id="tspan5058-7-9-0-1-4-0-3"
+             x="1099.8647"
+             y="228.2039"
+             style="font-size:16.25px;line-height:1.25">$p$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1335.5422"
+           y="228.22577"
+           id="text5056-2-1-5-6-7-19"><tspan
+             sodipodi:role="line"
+             id="tspan5058-7-9-0-1-4-4"
+             x="1335.5422"
+             y="228.22577"
+             style="font-size:16.25px;line-height:1.25">$n$</tspan></text>
+      </g>
+      <g
+         id="g173">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="499.86526"
+           y="148.86438"
+           id="text4870-3-7-9-5-2"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-6"
+             x="499.86526"
+             y="148.86438"
+             style="font-size:20px;line-height:1.25">$E_a$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="894.45465"
+           y="70.300453"
+           id="text4870-3-7-9-5"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4"
+             x="894.45465"
+             y="70.300453"
+             style="font-size:20px;line-height:1.25">$E_d$</tspan></text>
+        <g
+           id="g16998"
+           transform="translate(0,0.02187021)">
+          <text
+             id="text5056-2-1-5-6-7-1"
+             y="228.18204"
+             x="593.54565"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-size:16.25px;line-height:1.25"
+               y="228.18204"
+               x="593.54565"
+               id="tspan5058-7-9-0-1-4-0"
+               sodipodi:role="line">$p$</tspan></text>
+          <text
+             id="text5056-2-1-5-6-7"
+             y="228.2039"
+             x="795.47314"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-size:16.25px;line-height:1.25"
+               y="228.2039"
+               x="795.47314"
+               id="tspan5058-7-9-0-1-4"
+               sodipodi:role="line">$n$</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="894.0069"
+           y="94.214043"
+           id="text4870-3-7-9-5-3"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-5"
+             x="894.0069"
+             y="94.214043"
+             style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="499.86526"
+           y="122.21405"
+           id="text4870-3-7-9-5-2-6"><tspan
+             sodipodi:role="line"
+             id="tspan4872-6-8-7-4-6-2"
+             x="499.86526"
+             y="122.21405"
+             style="font-size:20px;line-height:1.25">$E_F$</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="541.02246"
+           y="196.87123"
+           id="text11946"><tspan
+             sodipodi:role="line"
+             id="tspan11944"
+             x="541.02246"
+             y="196.87123"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749809px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749994px">valenčni pas</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="540.55145"
+           y="44.058735"
+           id="text11946-9"><tspan
+             sodipodi:role="line"
+             id="tspan11944-1"
+             x="540.55145"
+             y="44.058735"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749619px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749988px">prevodni pas</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98775291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="506.00998"
+           y="14.591481"
+           id="text8370"><tspan
+             sodipodi:role="line"
+             id="tspan8368"
+             x="506.00998"
+             y="14.591481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69382286px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.98775291px">a)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98775291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="711.04474"
+           y="14.591481"
+           id="text8370-2"><tspan
+             sodipodi:role="line"
+             id="tspan8368-2"
+             x="711.04474"
+             y="14.591481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69382286px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.98775291px">b)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="741.76923"
+           y="196.57997"
+           id="text11946-1"><tspan
+             sodipodi:role="line"
+             id="tspan11944-0"
+             x="741.76923"
+             y="196.57997"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749619px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749988px">valenčni pas</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="743.29822"
+           y="43.767483"
+           id="text11946-9-63"><tspan
+             sodipodi:role="line"
+             id="tspan11944-1-2"
+             x="743.29822"
+             y="43.767483"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749428px;line-height:1.25;font-family:msbm10;-inkscape-font-specification:msbm10;stroke-width:0.93749982px">prevodni pas</tspan></text>
+      </g>
+    </g>
   </g>
 </svg>

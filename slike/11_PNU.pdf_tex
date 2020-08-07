@@ -53,10 +53,7 @@
   \begin{picture}(1,0.17824217)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.35996071,0.19737764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39583661\unitlength}\raggedright \textit{ }\end{minipage}}}%
-    \put(0.36779905,0.19884734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39289728\unitlength}\raggedright \textit{ }\end{minipage}}}%
-    \put(0.35245196,0.01968731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
-    \put(0.73798433,0.01968731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ }\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{11_PNU.pdf}}%
     \put(0.32360691,0.10279591){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
     \put(-0.00048446,0.08793944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
     \put(0.00443606,0.15878411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
@@ -65,20 +62,18 @@
     \put(0.0785495,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(0.25390551,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
     \put(0.32503588,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
+    \put(0.71056835,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
     \put(0.39538183,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
     \put(0.46408191,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(0.63943793,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
-    \put(0.71056835,0.00322146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
-    \put(0.93985942,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
-    \put(0.81333173,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(0.38996844,0.15878411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
     \put(0.70910722,0.09257636){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
     \put(0.38689605,0.10522152){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
     \put(0.56899834,0.07409291){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$e_0U$\end{tabular}}}}%
+    \put(0.93985942,-0.00017066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.81333173,-0.0001544){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(0.75456435,0.15878413){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
     \put(0.88601619,0.05972713){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$h\nu$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{11_PNU.pdf}}%
     \put(0.88092582,0.15318607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_PNU.pdf}}%
   \end{picture}%
 \endgroup%

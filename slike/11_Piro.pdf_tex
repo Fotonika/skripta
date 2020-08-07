@@ -53,11 +53,10 @@
   \begin{picture}(1,0.50077081)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{11_Piro.pdf}}%
     \put(0.87955693,0.00887223){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\omega$\end{tabular}}}}%
     \put(0.07797355,0.00940621){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Lambda/C$\end{tabular}}}}%
     \put(0.75885185,0.00843543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1/\tau_e$\end{tabular}}}}%
     \put(-0.0098118,0.44177644){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}${\mathcal R}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_Piro.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{11_Piro.pdf}}%
   \end{picture}%
 \endgroup%

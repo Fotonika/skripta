@@ -64,7 +64,6 @@
     \put(0.51016199,0.00297047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.6531564,0.00297047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\pi$\end{tabular}}}}%
     \put(0.92014796,0.00515422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta k L/2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{08_shg2.pdf}}%
     \put(0.78769331,0.00301409){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2\pi$\end{tabular}}}}%
     \put(0.35780029,0.00301764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-\pi$\end{tabular}}}}%
     \put(0.19738751,0.00301764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-2\pi$\end{tabular}}}}%

@@ -13,7 +13,7 @@
    height="380.07193"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="11_Hetero.svg">
   <defs
      id="defs4">
@@ -166,14 +166,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0938058"
-     inkscape:cx="388.21368"
+     inkscape:cx="390.04216"
      inkscape:cy="213.58581"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1142"
+     inkscape:window-width="1802"
      inkscape:window-height="920"
-     inkscape:window-x="805"
+     inkscape:window-x="116"
      inkscape:window-y="130"
      inkscape:window-maximized="0"
      showguides="true"
@@ -433,28 +433,6 @@
        id="path3431-3-6-7-1-9-2-0-4-9-5-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="236.43411"
-       y="507.22922"
-       id="text4993"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4995"
-         x="236.43411"
-         y="507.22922">referenca</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="21.868317"
-       y="166.71249"
-       id="text4993-4"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4995-8"
-         x="21.868317"
-         y="166.71249">signal</tspan></text>
     <rect
        style="display:inline;opacity:1;fill:#e9f7e9;fill-opacity:1;fill-rule:nonzero;stroke:#5ead54;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4477-7"
@@ -464,17 +442,42 @@
        y="565.11652"
        ry="0"
        transform="matrix(0,-1,1,0,0,0)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-306.52887"
-       y="617.85211"
-       id="text4993-1"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan4995-7"
+    <g
+       id="g79">
+      <text
+         id="text4993"
+         y="507.22922"
+         x="236.43411"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:37.5px;line-height:1.25"
+           y="507.22922"
+           x="236.43411"
+           id="tspan4995"
+           sodipodi:role="line">referenca</tspan></text>
+      <text
+         id="text4993-4"
+         y="166.71249"
+         x="21.868317"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:37.5px;line-height:1.25"
+           y="166.71249"
+           x="21.868317"
+           id="tspan4995-8"
+           sodipodi:role="line">signal</tspan></text>
+      <text
+         transform="rotate(-90)"
+         id="text4993-1"
+         y="617.85211"
          x="-306.52887"
-         y="617.85211">detektor</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:37.5px;line-height:1.25"
+           y="617.85211"
+           x="-306.52887"
+           id="tspan4995-7"
+           sodipodi:role="line">detektor</tspan></text>
+    </g>
   </g>
 </svg>

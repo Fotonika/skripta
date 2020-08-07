@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '08_Raman.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{444.81514518bp}%
+    \setlength{\unitlength}{423.66049459bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,24 +50,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.23319289)%
+  \begin{picture}(1,0.24632318)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.17524454,0.00636834){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
-    \put(0.20150784,0.08631303){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}vzbujeno\end{tabular}}}}%
-    \put(0.10881122,0.13242034){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_s$}\end{tabular}}}}%
-    \put(0.32783257,0.13126073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_0$}\end{tabular}}}}%
-    \put(0.16240234,0.05883835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}vibracijsko stanje\end{tabular}}}}%
-    \put(-0.00113305,0.21254673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.31552887,0.21254673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(0.53871369,0.21254673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
-    \put(0.61148998,0.14465172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\nu_0$}\end{tabular}}}}%
-    \put(0.61148998,0.10933256){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\nu_s$}\end{tabular}}}}%
-    \put(0.85704946,0.12935214){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\nu_f$}\end{tabular}}}}%
-    \put(0.007194,0.13126073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_0$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_Raman.pdf}}%
-    \put(0.42944978,0.13242034){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_{as}$}\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{08_Raman.pdf}}%
-    \put(0.8976942,0.03669053){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.18399505,0.00668632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
+    \put(0.21156975,0.0906229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}vzbujeno\end{tabular}}}}%
+    \put(0.1142445,0.13903249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_s$}\end{tabular}}}}%
+    \put(0.34420227,0.13781497){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_0$}\end{tabular}}}}%
+    \put(0.17051159,0.06177632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}vibracijsko stanje\end{tabular}}}}%
+    \put(-0.00118963,0.22315985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.3312842,0.22315985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.56561334,0.22315985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.64202357,0.15187462){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\nu_0$}\end{tabular}}}}%
+    \put(0.64202357,0.11479187){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\nu_s$}\end{tabular}}}}%
+    \put(0.89984461,0.13581109){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $\nu_f$}\end{tabular}}}}%
+    \put(0.00755321,0.13781497){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_0$}\end{tabular}}}}%
+    \put(0.45089355,0.13903249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{ $h\nu_{as}$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

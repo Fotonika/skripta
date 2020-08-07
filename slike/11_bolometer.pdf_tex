@@ -56,9 +56,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_bolometer.pdf}}%
     \put(0.21969577,0.01229422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{hladilni sistem}$\end{tabular}}}}%
     \put(0.22923663,0.11545083){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{termometer}$\end{tabular}}}}%
-    \put(0.05545898,0.10893155){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
     \put(0.1283708,0.16736198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{po\v crnjena plast}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_bolometer.pdf}}%
     \put(-0.00186332,0.2383297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0.61174526,0.2383297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%
