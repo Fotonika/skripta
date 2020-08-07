@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{413.36885708bp}%
+    \setlength{\unitlength}{338.52441022bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +50,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.77044077)%
+  \begin{picture}(1,0.93565867)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_TiE.pdf}}%
-    \put(0.03447693,0.73869672){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Energija\end{tabular}}}}%
-    \put(0.55984865,0.01263018){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
-    \put(0.19856451,0.34754051){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}optično črpanje\end{tabular}}}}%
-    \put(0.55853265,0.05719209){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
-    \put(0.55853265,0.52965845){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
-    \put(0.50726989,0.34393441){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$--$1100~\si{\nano\metre}$\end{tabular}}}}%
+    \put(0.04209944,0.89689633){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Energija\end{tabular}}}}%
+    \put(0.68362576,0.01030352){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
+    \put(0.2424652,0.41925928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}optično črpanje\end{tabular}}}}%
+    \put(0.6820188,0.06471764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
+    \put(0.6820188,0.64164173){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
+    \put(0.61942234,0.41485591){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$--$1100~\si{\nano\metre}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

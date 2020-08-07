@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '07_heshema.pdf' (pdf, eps, ps)
 %%
@@ -60,6 +60,5 @@
     \put(0.01952178,0.16579098){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
     \put(-0.09332269,0.02103194){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}izhodna svetloba\end{tabular}}}}%
     \put(1.00025513,0.32324502){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}oksid\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{07_heshema.pdf}}%
   \end{picture}%
 \endgroup%

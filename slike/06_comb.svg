@@ -17,7 +17,7 @@
    viewBox="0 0 1339.6293 275.22519"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="06_comb.svg"><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -32,7 +32,7 @@
    id="namedview224"
    showgrid="false"
    inkscape:zoom="0.38496334"
-   inkscape:cx="662.54985"
+   inkscape:cx="712.33788"
    inkscape:cy="-57.517245"
    inkscape:window-x="828"
    inkscape:window-y="145"
@@ -386,14 +386,15 @@
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-   x="1284.7977"
+   x="1323.7977"
    y="273.58719"
    id="text3749-5-6-7"><tspan
      sodipodi:role="line"
      id="tspan3751-9-3-6"
-     x="1284.7977"
+     x="1323.7977"
      y="273.58719"
-     style="font-size:13.00005245px;line-height:1.25;stroke-width:1px">$\nu$</tspan></text>
+     style="font-size:36.00014496px;line-height:1.25;stroke-width:1px">$\nu$</tspan></text>
+
 <rect
    y="70.212303"
    x="79.813057"
