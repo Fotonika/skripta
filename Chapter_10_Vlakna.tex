@@ -981,14 +981,14 @@ okoli $1450~\si{\nano\meter}$ se materialna in valovodna disperzija odštejeta i
 je praktično enaka nič.}
 \label{fig:MatVal}
 \end{figure}
-% \begin{remark}
-% Na valovodno disperzijo je mogoče vplivati tudi s konstrukcijo vlakna. Pokazali smo že, da
-% v idealnem primeru v vlaknu s paraboličnim profilom lomnega količnika disperzije ni. 
-% V praksi je sredica sestavljena iz več plasti z različnimi lomnimi količniki in različnimi
-% debelinami, s čimer se prispevek valovodne disperzije spremeni. Na ta način lahko 
-% položaj ničle celotne disperzije premaknemo k valovni dolžini izvora oziroma k 
-% valovni dolžini, pri kateri je v vlaknu najmanj absorpcije in izgub.
-% \end{remark}
+\begin{remark}
+Na valovodno disperzijo je mogoče vplivati tudi s konstrukcijo vlakna. Pokazali smo že, da
+v idealnem primeru v vlaknu s paraboličnim profilom lomnega količnika disperzije ni. 
+V praksi je sredica sestavljena iz več plasti z različnimi lomnimi količniki in različnimi
+debelinami, s čimer se prispevek valovodne disperzije spremeni. Na ta način lahko 
+položaj ničle celotne disperzije premaknemo k valovni dolžini izvora oziroma k 
+valovni dolžini, pri kateri je v vlaknu najmanj absorpcije in izgub.
+\end{remark}
 
 \section{*Potovanje kratkega sunka po enorodovnem vlaknu}
 \label{chap:sunvl}
@@ -1039,7 +1039,7 @@ razvoja (enačba~\ref{9.62c}) jo zapišemo kot
  \frac{i}{2}\beta''\,\Omega^2\, z - i\, \Omega\, t\right) d\Omega.
  \label{eq:ovojnica967}
 \end{equation}
-Odvajajmo ovojnico najprej parcialno po $z$
+Odvajajmo ovojnico najprej parcialno po $z$:
 \begin{equation}
  \frac{\partial A(z,t)}{\partial z} = \int \tilde{A}(\Omega)\, 
  \left(i \beta'\, \Omega + \frac{i}{2}\beta''\Omega^2 \right) 
@@ -1047,15 +1047,15 @@ Odvajajmo ovojnico najprej parcialno po $z$
  \frac{i}{2}\beta''\,\Omega^2\, z - i\, \Omega\, t\right) d\Omega,
 \label{9.67a}
 \end{equation}
-nato pa še enkrat 
+nato pa še po $t$: 
 \begin{equation}
  \frac{\partial A(z,t)}{\partial t} = \int \tilde{A}(\Omega)\, 
  \left(-i\Omega\right) 
  \exp \left(i \beta'\, \Omega\,z + 
- \frac{i}{2}\beta''\,\Omega^2\, z - i\, \Omega\, t\right) d\Omega
+ \frac{i}{2}\beta''\,\Omega^2\, z - i\, \Omega\, t\right) d\Omega.
 \label{9.67b}
 \end{equation}
-in dvakrat parcialno po $t$
+Drugi parcialni odvod po $t$ da:
 \begin{equation}
  \frac{\partial^2 A(z,t)}{\partial t^2} = \int \tilde{A}(\Omega)\, 
  \left(-\Omega^2\right) 
@@ -1091,6 +1091,7 @@ Z novima spremenljivkama se enačba~(\ref{9.68b}) prepiše v
 2\, i\,\frac{\partial A}{\partial\zeta}=0.
 \label{9.71}
 \end{equation}
+\vglue-2truemm
 Poglejmo enačbo podrobneje. Če ni disperzije in je $\beta''=0$, se $A$
 vzdolž koordinate $\zeta$ ne spreminja. To pomeni, da se oblika sunka
 ob odsotnosti disperzije ohranja in sunek poljubne začetne oblike nepopačen 
@@ -1104,7 +1105,7 @@ Razlika med obosno valovno enačbo in enačbo~(\ref{9.71}) je v tem, da vlogo
 prečne koordinate prevzame čas $\tau$. To, kar je bila prej širina snopa, 
 je zdaj dolžina sunka. Spomnimo se, da 
 obosno valovno enačbo rešijo Gaussovi snopi (enačba~\ref{eq:gaussov-snop}). 
-
+\vglue-3truemm
 \begin{remark}
 Podobnost med pojavoma seže dlje od formalne oblike. Pri snopih, ki so omejeni 
 v prečni smeri, disperzija fazne in grupne hitrosti po prečnih komponentah valovnega
@@ -1112,17 +1113,26 @@ vektorja povzroča spreminjanje prečnega preseka snopa. Pri časovno
 omejenih sunkih v sredstvu s frekvenčno disperzijo se namesto preseka sunka
 spreminja njegova vzdolžna oblika oziroma njegova dolžina.
 \end{remark}
-
-Celotnega računa
-ni treba ponavljati, namesto tega kar v izrazu za Gaussove snope 
+\vglue-3truemm
+Računa ni treba ponavljati, namesto tega kar v izrazu za Gaussove snope 
 (enačba~\ref{eq:gaussov-snop}) napravimo ustrezno zamenjavo spremenljivk. 
 Iz enačbe~(\ref{9.71}) razberemo, da valovnemu številu $k$ pri snopih  
 ustreza parameter $\mu=(d^{2}\beta/d\omega^{2})^{-1}$. Poleg tega vpeljemo
 dolžino sunka $2\sigma$, ki ustreza premeru Gaussovega snopa $2w$, in parameter
-$b$, ki ustreza krivinskemu radiju $R$. Oba parametra sta seveda odvisna od $\zeta$, 
-tako kot sta parametra $w$ in $R$ odvisna od $z$ (slika~\ref{fig:Gausstau}). 
+$b$, ki ustreza krivinskemu radiju $R$. Oba parametra sta seveda odvisna od $\zeta$, tako kot sta parametra $w$ in $R$ odvisna od $z$ (slika~\ref{fig:Gausstau}). 
+\begin{figure}[ht]
+\centering
+\def\svgwidth{100truemm} 
+\input{slike/10_Gausstau.pdf_tex}
+\caption{Primerjava širitve Gaussovega snopa (a) in podaljšanja Gaussovega sunka (b).
+Dolžina sunka $2\sigma$ med potovanjem po vlaknu narašča z enako odvisnostjo kot 
+narašča premer Gaussovega snopa $2w$ z oddaljenostjo od grla. Znotraj $\zeta_0$ se sunek
+še ne podaljša znatno.}
+\label{fig:Gausstau}
+\end{figure}
 
-Na podlagi analogije zapišemo obliko podaljšanega Gaussovega sunka\index{Gaussov sunek}
+Na podlagi analogije zapišemo obliko podaljšanega 
+Gaussovega sunka\index{Gaussov sunek}
 \begin{equation}
 A\left(\zeta,\tau\right)=\frac{A_{0}}{\sqrt{1+\frac{\zeta^{2}
 }{\zeta_{0}^{2}}}}\exp\left(-\frac{\tau^{2}}{\sigma^{2}}\right)\exp
@@ -1139,16 +1149,6 @@ kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R})
 ustreza količina $b=\zeta\left(1+\zeta_{0}^{2}/\zeta^{2}\right)$.
 Po analogiji s snopi lahko sklepamo, da se najmanj 
 podaljšuje ravno sunek z Gaussovo časovno odvisnostjo. 
-\begin{figure}[ht]
-\centering
-\def\svgwidth{100truemm} 
-\input{slike/10_Gausstau.pdf_tex}
-\caption{Primerjava širitve Gaussovega snopa (a) in podaljšanja Gaussovega sunka (b).
-Dolžina sunka $2\sigma$ med potovanjem po vlaknu narašča z enako odvisnostjo kot 
-narašča premer Gaussovega snopa $2w$ z oddaljenostjo od grla. Znotraj $\zeta_0$ se sunek
-še ne podaljša znatno.}
-\label{fig:Gausstau}
-\end{figure}
 
 Zanimivo je pogledati odvod faze po $\tau$, ki predstavlja spremembo krožne
 frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$
@@ -1177,9 +1177,9 @@ namreč ne povzroči razširitve, temveč le spremembo v hitrosti.
 
 \begin{naloga}
 \label{naloga:pulzdisperzija}
-Naj bo vpadni sunek svetlobe Gaussove oblike $E(x,y, z=0, t) = 
-\psi(x,y) e^{-at^2-i \omega_0 t}$. Pokaži, da je ustrezna funkcija
-$\tilde{A}(\Omega)$ oblike
+Naj bo vpadni sunek svetlobe Gaussove oblike $E = 
+\psi(x,y) e^{-at^2-i \omega_0 t}$.
+Pokaži, da je ustrezna funkcija $\tilde{A}(\Omega)$ oblike
 \begin{equation}
 \tilde{A}(\Omega) = \frac{1}{\sqrt{4 \pi a}}e^{-\Omega^2/4a}.
 \end{equation}
@@ -1216,20 +1216,22 @@ zrcalo, ki svetlobo usmeri po isti poti
 nazaj.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{115truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/10_comp.pdf_tex}
 \caption{Kompenzacija disperzije z uklonskima mrežicama (a) in shema z
-oznakami za izpeljavo faznega premika (b)}
+oznakami (b)}
 \label{fig:comp}
 \end{figure}
-
-Naj na par vzporednih uklonskih mrežic vpada ravni val pod kotom $\alpha$, ki se odbija
+\vglue-4truemm
+Naj na par vzporednih uklonskih mrežic vpada 
+ravni val pod kotom $\alpha$, ki se odbija
 pod kotom $\beta = \beta(\omega)$ (slika~\ref{fig:comp}\,b). 
 Pot, ki jo prepotuje žarek od vpada na mrežico 
 do izhoda iz sistema (med točkama $A$ in $B$), je enaka 
 \begin{equation}
 P = \frac{L}{\cos\beta} \left(1+\cos(\alpha + \beta)\right).
 \end{equation}
+
 Zaradi uklona velja zveza $\sin\,\alpha - \sin\,\beta = \lambda/\Lambda$,
 pri čemer je $\lambda$ valovna dolžina svetlobe in $\Lambda$ perioda uklonske mrežice. 
 Pri fazi moramo upoštevati še fazni premik na drugi mrežici
@@ -1254,7 +1256,6 @@ torej deluje kot sredstvo
 z negativno disperzijo in sunek, ki se je razširil zaradi potovanja
 po sredstvu s pozitivno disperzijo, lahko ponovno skrajša do meje,
 določene s širino spektra. 
-
 \begin{remark}
 Postopek kompenzacije disperzije se uporablja za pridobivanje zelo močnih zelo
 kratkih sunkov svetlobe.\footnote{~D. Strickland in G. Mourou, Opt. Comm. $\mathbf{56}$, 219 (1985).} 
@@ -1289,24 +1290,26 @@ koeficient\index{Atenuacijski koeficient}, merjen v decibelih ali dB/km
 A [dB] = -10 \log_{10}\frac{j(z)}{j(0)},
 }
 pri čemer je $j(z)$ gostota svetlobnega toka po prepotovani razdalji $z$ in $j(0)$
-vpadna gostota svetlobnega toka. Če se po prepotovanem
+vpadna gostota svetlobnega toka. Če se po enem
 kilometru signal zmanjša na polovico, so izgube $3~\si{\decibel/\kilo\meter}$.
-
+\begin{figure}[ht]
+\centering
+\def\svgwidth{90truemm} 
+\input{slike/10_FibAbs.pdf_tex} 
+\caption{Izgube v vlaknu v odvisnosti od valovne dolžine: vijolična črta --
+ultravijolična absorpcija, 
+črna črta -- infrardeča absorpcija, 
+zelena črta -- absorpcija na OH ionih in modra črta --
+izgube zaradi Rayleighovega sipanja. Z rdečo črto so označene skupne izgube.}
+\label{FibAbs}
+\end{figure}
+\vglue-10truemm
 Pri izdelavi optičnih vlaken se najpogosteje uporablja kremenovo steklo, ki 
 ima pri valovni dolžini $1,55~\si{\micro\meter}$ izgube okoli 
 $0,2~\si{\decibel/\kilo\meter}$.  
 Za primerjavo: navadno steklo ima pri vidni svetlobi atenuacijski koeficient okoli 
 $1000~\si{\decibel/\kilo\meter}$.
 
-\begin{figure}[ht]
-\centering
-\def\svgwidth{90truemm} 
-\input{slike/10_FibAbs.pdf_tex} 
-\caption{Izgube v vlaknu v odvisnosti od valovne dolžine: vijolična črta -- UV absorpcija, 
-črna črta -- IR absorpcija, zelena črta -- absorpcija na OH ionih in modra črta --
-izgube zaradi Rayleighovega sipanja. Z rdečo črto so označene skupne izgube.}
-\label{FibAbs}
-\end{figure}
 Slika~\ref{FibAbs} prikazuje odvisnost izgub od valovne dolžine 
 za dobro enorodovno vlakno.\footnote{~Slika povzeta po
 A. Yariv in P. Yeh, {\it Photonics}, šesta izdaja, Oxford
@@ -1328,7 +1331,7 @@ moment in izrazito absorpcijo pri $1380~\si{\nano\meter}$ (zelena črta). Zelo p
 izgubam, posebej pri krajših valovnih dolžinah, je Rayleighovo sipanje na fluktuacijah 
 gostote,\index{Izgube v optičnih vlaknih!Rayleighovo sipanje} 
 saj je sorazmerno z $\lambda^{-4}$ (modra črta). 
-
+\vglue-4truemm
 \begin{remark}
 Sipanje na fluktuacijah gostote predstavlja poglavitni del izgub v vlaknu. Na splošno
 so gostotne fluktuacije v steklu zaradi amorfne zgradbe neizogibne, vendar so v vlaknih
@@ -1336,14 +1339,14 @@ navadno še precej večje. Med izdelavo steklo namreč močno segrejejo
 (na okoli $2000~\si{\celsius}$), da lahko iz njega vlečejo vlakno in termične 
 fluktuacije gostote pri hitrem ohlajanju ostanejo zamrznjene v vlaknu. 
 \end{remark}
-
+\vglue-4truemm
 S slike~\ref{FibAbs} je razvidno, da so skupne izgube najmanjše pri 
 okoli $1,55~\si{\micro\meter}$, zato se to območje največ uporablja za prenos signalov
 na velike razdalje. Izgube so tako majhne, da omogočajo prenos signala 
 več sto kilometrov brez vmesnega ojačevanja. Teh izgub se  
 ne bo dalo več kaj dosti izboljšati, saj so že zdaj na meji,
-določeni s termičnimi fluktuacijami. Pri dolžini optičnih zvez tako izgube niso več glavna
-omejitev, ampak je to popačitev signala zaradi disperzije.
+določeni s termičnimi fluktuacijami. Pri optičnih zvezah tako glavna 
+omejitev niso izgube, ampak je to popačitev signala zaradi disperzije.
 
 \begin{remark}
 % Pri prenosu signalov z optičnimi vlakni vpeljemo različne pasove, ki ustrezajo 
@@ -1354,8 +1357,8 @@ omejitev, ampak je to popačitev signala zaradi disperzije.
 % Najširše uporabljan je pas C ({\it conventional}) pri valovnih dolžinah $1530$--$1565~\si{\nano\meter}$,
 % sledita mu še pas L ({\it long}, $1565$--$1625~\si{\nano\meter}$) in pas U 
 % ({\it ultralong}, $1625$--$1675~\si{\nano\meter}$).
-\index{Razvrščanje po valovni dolžini|see Multipleksiranje}
-Po optičnem vlaknu lahko prenašamo več signalov hkrati, če za vsakega posebej uporabimo
+Po optičnem \index{Razvrščanje po valovni dolžini|see Multipleksiranje}
+vlaknu lahko prenašamo več signalov hkrati, če za vsakega posebej uporabimo
 drugo valovno dolžino. Temu procesu pravimo razvrščanje po valovni dolžini
 (WDM -- {\it Wavelength-Division Multiplexing})\index{Multipleksiranje}
  in z njim dosežemo vzporeden prenos podatkov in hitrosti prenosa do 100~Tb/s.
@@ -1371,16 +1374,17 @@ svoje delovanje ne potrebujejo elektrike.\footnote{~Glej npr. B. E. A. Saleh in 
 {\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 \begin{figure}[ht]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/10_WDM.pdf_tex} 
 \caption{Shematski prikaz prenosa več signalov hkrati po enorodovnem vlaknu}
 \label{WDM}
 \end{figure}
+\vglue-10truemm
 \end{remark}
 \subsection*{*Izgube v ukrivljenem vlaknu}
 \index{Izgube v optičnih vlaknih!ukrivljeno vlakno}
-V vseh primerih do zdaj smo privzeli, da je vlakno povsem ravno 
-oziroma da so mejne ploskve valovnega vodnika vzporedne. 
+Do zdaj smo privzeli, da je vlakno povsem ravno 
+in da so mejne ploskve valovnega vodnika vzporedne. 
 Kadar je vlakno ukrivljeno, del valovanja uhaja v plašč in 
 izgube pri prenosu se povečajo. Te izgube postanejo znatne, 
 kadar je krivinski radij ukrivljenega vlakna tipično centimeter ali manj. 
@@ -1392,13 +1396,6 @@ $n_{1}$, ki je obdana s snovjo z lomnim količnikom $n_{2}$. Vodnik naj
 zdaj ne bo raven, temveč ukrivljen s krivinskim radijem $R$, tako da tvori 
 del kolobarja z notranjim polmerom $R-a/2$ in zunanjim polmerom $R+a/2$.
 Privzamemo, da je $R\gg a$ (slika~\ref{fig:bend}). 
-\begin{figure}[ht]
-\centering
-\def\svgwidth{50truemm} 
-\input{slike/10_Krivina.pdf_tex} 
-\caption{K izračunu izgub v ukrivljenem vodniku}
-\label{fig:bend}
-\end{figure}
 
 Zapišemo Helmholtzevo enačbo (enačba~\ref{eq:Helmholtz}) v cilindrični \index{Helmholtzeva enačba}
 geometriji
@@ -1409,7 +1406,16 @@ geometriji
 \end{equation}
 kjer ima $n\left(r\right)$ vrednost $n_{1}$ v sredici in $n_{2}$ v plašču. 
 Pri tem ne pozabimo, da $r$ ni več radialna koordinata vlakna, ampak
-označuje oddaljenost od središča krivine. Zanimajo nas rešitve oblike 
+označuje oddaljenost od središča krivine. 
+\begin{figure}[ht]
+\centering
+\def\svgwidth{50truemm} 
+\input{slike/10_Krivina.pdf_tex} 
+\caption{K izračunu izgub v ukrivljenem vodniku}
+\label{fig:bend}
+\end{figure}
+
+Zanimajo nas rešitve oblike 
 \begin{equation}
 E(r, \varphi) =\psi\left(r\right)\, e^{im\varphi},
 \label{9.32}
@@ -1457,21 +1463,25 @@ in dobimo enačbo
 \end{equation}
 Enačba je podobna enačbi za izračun lastnih rodov v planparalelnem
 vodniku (\ref{9.3a}), pri čemer se $\beta^2$ poveča za $1/4R^2$. Poleg tega je prisoten
-člen, ki je linearen v $x$. Če ponovno naredimo primerjavo
-med lastnimi načini v valovnem vodniku in stanji delca, ujetega v končno potencialno jamo, 
-ta člen ustreza potencialni energiji delca v konstantnem zunanjem električnem 
-polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne jame
-v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
+člen, ki je linearen v $x$. 
+
 \begin{figure}[ht]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/10_Tunel.pdf_tex} 
 \caption{Lastni načini širjenja svetlobe po ravnem vodniku so analogni stanjem 
 delca v končni potencialni jami (a). Načini širjenja po ukrivljenem vodniku
 so podobni stanjem delca v konstantnem zunanjem električnem polju (b). Podobno
 kot delci zaradi spremenjenega potenciala tunelirajo, uhaja svetloba iz ukrivljenega vlakna.}
 \label{fig:tunel}
+\vglue-5truemm
 \end{figure}
+
+Če ponovno naredimo primerjavo
+med lastnimi načini v valovnem vodniku in stanji delca, ujetega v končno potencialno jamo, 
+ta člen ustreza potencialni energiji delca v konstantnem zunanjem električnem 
+polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne jame
+v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 
 Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza jakosti električnega polja,
 lahko izgube iz vodnika (oziroma delež prepuščene svetlobe) zapišemo kot 
@@ -1482,7 +1492,6 @@ pri čemer je $C$ konstanta, odvisna od lomnih količnikov sredice in plašča, 
 ter od valovne dolžine potujoče svetlobe.\footnote{~Glej npr. A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford
 University Press (2007).} 
-
 
 \subsection*{Ojačevanje v vlaknih}
 \index{Optično ojačevanje!v vlaknih}
@@ -1680,14 +1689,14 @@ vendar energijski tok seže tudi izven nje, v plašč (enačba~\ref{confinement}
 se evanescentni električni polji enega in drugega vodnika v plašču prekrivata, se vodnika 
 sklopita in energijski tok se prenese iz enega vodnika v drugega 
 (slika~\ref{fig:fcoupler}). 
+
 \begin{figure}[ht]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{85truemm} 
 \input{slike/10_fcoupler.pdf_tex} 
 \caption{Sklopitev med dvema vzporednima vodnikoma.}
 \label{fig:fcoupler}
 \end{figure}
-
 Za podrobnejšo obravnavo bi morali zapisati Maxwellove enačbe z ustreznimi robnimi pogoji 
 in jih rešiti za sklopljen primer dveh vzporednih vodnikov. Tak račun je izredno zapleten, 
 zato bomo uporabili približek šibke sklopitve in predpostavili, da so rodovi v vodnikih taki, 
@@ -1776,6 +1785,7 @@ Enačbo~\ref{10_part} rešujemo z nastavkom
 A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right).
 \label{10_nastavek}
 \end{equation}
+\vglue-4truemm
 \begin{naloga}
  Pokaži, da  nastavek (enačba~\ref{10_nastavek}) reši enačbo~(\ref{10_part}) in pokaži,
  da med parametri enačb velja sledeča zveza, pri čemer je $K = \sqrt{K_{12}K_{21}}$ in 
@@ -1820,7 +1830,7 @@ odvisna od sklopitvenega faktorja $K$ in ujemanja valovnih
 in manjše odstopanje $\Delta \beta$ vodita v večji prenos svetlobnega toka v drugo vlakno. 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{128truemm} 
+\def\svgwidth{125truemm} 
 \input{slike/10_Coupler.pdf_tex} 
 \caption{Prenos svetlobnega toka med dvema sklopljenima vodnikoma. V prvem primeru (a) sta
 vodnika različna, v drugem primeru (b) sta vodnika enaka in prenos je popoln.}
@@ -1910,6 +1920,7 @@ prvi in drugi člen odštejeta. Iskan popravek k valovnemu številu je tako
 \beta_{lm}\int\left|\psi_{lm}\right|^{2}dS}.
 \label{9.25}
 \end{equation}
+
 \begin{remark}
 Ta rezultat je seveda analogen kvantnomehanskemu rezultatu, ki sledi iz 
 teorije motenj za spremembo energije lastnega stanja delca pri majhni 
