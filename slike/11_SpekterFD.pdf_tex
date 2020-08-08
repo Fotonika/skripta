@@ -54,10 +54,10 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_SpekterFD.pdf}}%
-    \put(0.14734596,0.52382421){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ag-ZnS}$\end{tabular}}}}%
-    \put(0.5552604,0.65196129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Si}$\end{tabular}}}}%
-    \put(0.27320153,0.57970376){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Au-Si}$\end{tabular}}}}%
-    \put(0.78020962,0.60716243){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ge}$\end{tabular}}}}%
+    \put(0.14734596,0.53051935){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ag-ZnS}$\end{tabular}}}}%
+    \put(0.55079697,0.65196129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Si}$\end{tabular}}}}%
+    \put(0.27320153,0.57747204){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Au-Si}$\end{tabular}}}}%
+    \put(0.78020962,0.61608928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ge}$\end{tabular}}}}%
     \put(0.12955981,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$200$\end{tabular}}}}%
     \put(0.24208554,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$400$\end{tabular}}}}%
     \put(0.35218534,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$\end{tabular}}}}%

@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="217.21992mm"
-   height="85.335335mm"
-   viewBox="0 0 769.6769 302.36929"
+   width="240.66296mm"
+   height="85.123032mm"
+   viewBox="0 0 852.74279 301.61703"
    id="svg4927"
    version="1.1"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -21,44 +21,47 @@
     <marker
        inkscape:stockid="Arrow1Sstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Sstart"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path959"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.2) translate(6,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Send"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker1267"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path1265"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Send"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow2Send"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path980"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
@@ -70,8 +73,8 @@
       <path
          inkscape:connector-curvature="0"
          id="path4575-70"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
          transform="matrix(0.4,0,0,0.4,4,0)" />
     </marker>
     <marker
@@ -84,8 +87,8 @@
       <path
          inkscape:connector-curvature="0"
          id="path4578-4"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
          transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
     <marker
@@ -98,8 +101,8 @@
       <path
          inkscape:connector-curvature="0"
          id="path4575-70-6"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
          transform="matrix(0.4,0,0,0.4,4,0)" />
     </marker>
     <marker
@@ -112,8 +115,8 @@
       <path
          inkscape:connector-curvature="0"
          id="path4578-4-5"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
          transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
     <marker
@@ -183,8 +186,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.299898"
-     inkscape:cx="526.92328"
-     inkscape:cy="164.75506"
+     inkscape:cx="555.17052"
+     inkscape:cy="162.70385"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -195,12 +198,12 @@
      inkscape:window-width="1920"
      inkscape:window-height="999"
      inkscape:window-x="0"
-     inkscape:window-y="1200"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:snap-global="true">
     <sodipodi:guide
-       position="304.63015,277.87673"
+       position="329.66952,275.95372"
        orientation="-0.70710678,0.70710678"
        id="guide4373"
        inkscape:locked="false" />
@@ -221,120 +224,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-410.651,-21.131408)">
-    <g
-       id="g92">
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-0"
-         font-size="10px"
-         y="216.89912"
-         x="1166.6136">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-93">$\zeta$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5-6"
-         font-size="10px"
-         y="77.147934"
-         x="849.08862">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9-0">$\tau$</tspan>
-      </text>
-      <text
-         id="text5306-6"
-         y="173.92558"
-         x="837.6311"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="173.92558"
-           x="837.6311"
-           id="tspan5308-2"
-           sodipodi:role="line">$\sigma_0$</tspan></text>
-      <text
-         inkscape:transform-center-y="-24.041631"
-         inkscape:transform-center-x="-31.112698"
-         id="text5306-8-6"
-         y="39.457378"
-         x="1124.4081"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="39.457378"
-           x="1124.4081"
-           id="tspan5308-5-1"
-           sodipodi:role="line">$\sigma(\zeta)$</tspan></text>
-      <text
-         id="text4587-3-8"
-         y="119.2509"
-         x="877.36975"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="119.2509"
-           x="877.36975"
-           id="tspan4589-3-7"
-           sodipodi:role="line">$\zeta_0$</tspan></text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208"
-         font-size="10px"
-         y="216.89912"
-         x="750.41071">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720">$z$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5"
-         font-size="10px"
-         y="77.147934"
-         x="432.88562">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9">$r$</tspan>
-      </text>
-      <text
-         id="text5306"
-         y="173.92558"
-         x="421.4281"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="173.92558"
-           x="421.4281"
-           id="tspan5308"
-           sodipodi:role="line">$w_0$</tspan></text>
-      <text
-         inkscape:transform-center-y="-24.041631"
-         inkscape:transform-center-x="-31.112698"
-         id="text5306-8"
-         y="39.457378"
-         x="708.20514"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="39.457378"
-           x="708.20514"
-           id="tspan5308-5"
-           sodipodi:role="line">$w(z)$</tspan></text>
-      <text
-         id="text4587-3"
-         y="119.2509"
-         x="461.16684"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           y="119.2509"
-           x="461.16684"
-           id="tspan4589-3"
-           sodipodi:role="line">$z_0$</tspan></text>
-    </g>
+     transform="translate(-385.61163,-19.960667)">
     <g
        id="g129">
       <polyline
@@ -360,7 +250,7 @@
          transform="matrix(1.8318938,0,0,2.953207,412.76442,18.179179)"
          style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
          id="polygon201-1"
-         points="409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 " />
+         points="408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 " />
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -369,7 +259,7 @@
          style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-17-3);marker-end:url(#Arrow1Mend-76-7)" />
     </g>
     <polygon
-       points="408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 "
+       points="419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 "
        id="polygon201-6-2"
        style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
        transform="matrix(0,-1.8318938,2.953207,0,668.8881,823.7308)" />
@@ -396,12 +286,12 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
     <polygon
-       points="408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 "
+       points="409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.805,53.7993 "
        id="polygon201"
        style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
        transform="matrix(1.8318938,0,0,2.953207,-3.438537,18.179179)" />
     <polygon
-       points="408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 "
+       points="408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 "
        id="polygon201-6"
        style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
        transform="matrix(0,-1.8318938,2.953207,0,252.68514,823.7308)" />
@@ -428,27 +318,157 @@
        id="path6432-6-5-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
-       x="384.11017"
-       y="38.954807"
-       id="text3674"><tspan
-         sodipodi:role="line"
-         id="tspan3672"
-         x="384.11017"
+    <g
+       id="g123">
+      <g
+         id="g95">
+        <g
+           id="g92">
+          <text
+             style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text208-0"
+             font-size="10px"
+             y="216.89912"
+             x="1166.6136">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               id="tspan4720-93">$\zeta$</tspan>
+          </text>
+          <text
+             style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text208-5-6"
+             font-size="10px"
+             y="77.147934"
+             x="849.08862">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               id="tspan4720-9-0">$\tau$</tspan>
+          </text>
+          <text
+             id="text5306-6"
+             y="173.92558"
+             x="837.6311"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               y="173.92558"
+               x="837.6311"
+               id="tspan5308-2"
+               sodipodi:role="line">$\sigma_0$</tspan></text>
+          <text
+             inkscape:transform-center-y="-24.041631"
+             inkscape:transform-center-x="-31.112698"
+             id="text5306-8-6"
+             y="39.457378"
+             x="1124.4081"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               y="39.457378"
+               x="1124.4081"
+               id="tspan5308-5-1"
+               sodipodi:role="line">$\sigma(\zeta)$</tspan></text>
+          <text
+             id="text4587-3-8"
+             y="119.2509"
+             x="877.36975"
+             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               y="119.2509"
+               x="877.36975"
+               id="tspan4589-3-7"
+               sodipodi:role="line">$\zeta_0$</tspan></text>
+          <text
+             style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text208"
+             font-size="10px"
+             y="216.89912"
+             x="750.41071">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               id="tspan4720">$z$</tspan>
+          </text>
+          <text
+             style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text208-5"
+             font-size="10px"
+             y="77.147934"
+             x="432.88562">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               id="tspan4720-9">$r$</tspan>
+          </text>
+          <text
+             id="text5306"
+             y="173.92558"
+             x="421.4281"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               y="173.92558"
+               x="421.4281"
+               id="tspan5308"
+               sodipodi:role="line">$w_0$</tspan></text>
+          <text
+             inkscape:transform-center-y="-24.041631"
+             inkscape:transform-center-x="-31.112698"
+             id="text5306-8"
+             y="39.457378"
+             x="708.20514"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               y="39.457378"
+               x="708.20514"
+               id="tspan5308-5"
+               sodipodi:role="line">$w(z)$</tspan></text>
+          <text
+             id="text4587-3"
+             y="119.2509"
+             x="461.16684"
+             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;line-height:1.25;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
+               y="119.2509"
+               x="461.16684"
+               id="tspan4589-3"
+               sodipodi:role="line">$z_0$</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+           x="384.11017"
+           y="38.954807"
+           id="text3674"><tspan
+             sodipodi:role="line"
+             id="tspan3672"
+             x="384.11017"
+             y="38.954807"
+             style="font-size:25px;stroke-width:0.9375">a)</tspan></text>
+      </g>
+      <text
+         id="text3674-7"
          y="38.954807"
-         style="font-size:25px;stroke-width:0.9375">a)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
-       x="800.1521"
-       y="38.954807"
-       id="text3674-7"><tspan
-         sodipodi:role="line"
-         id="tspan3672-0"
          x="800.1521"
-         y="38.954807"
-         style="font-size:25px;stroke-width:0.9375">b)</tspan></text>
-  </g>
+         style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+         xml:space="preserve"><tspan
+           style="font-size:25px;stroke-width:0.9375"
+           y="38.954807"
+           x="800.1521"
+           id="tspan3672-0"
+           sodipodi:role="line">b)</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot125"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.93749998,0,0,0.93749998,410.651,21.131408)"><flowRegion
+         id="flowRegion127"><rect
+           id="rect129"
+           width="1011.6179"
+           height="435.41879"
+           x="-56.927544"
+           y="-54.425404" /></flowRegion><flowPara
+         id="flowPara131"></flowPara></flowRoot>  </g>
 </svg>

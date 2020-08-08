@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{633.97293091bp}%
+    \setlength{\unitlength}{889.7754364bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,13 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.70493496)%
+  \begin{picture}(1,0.5731119)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(1.02096185,0.0281327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda$\end{tabular}}}}%
-    \put(-0.01602628,0.62556131){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}$\end{tabular}}}}%
-    \put(0.54677164,0.61437251){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{kvantni~detektor}$\end{tabular}}}}%
-    \put(0.30013257,0.23042132){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{termi\v cni~detektor}$\end{tabular}}}}%
+    \put(0.84442715,0.02191453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda$\end{tabular}}}}%
+    \put(0.023162,0.5254572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}$\end{tabular}}}}%
+    \put(0.43227432,0.52576907){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{kvantni~detektor}$\end{tabular}}}}%
+    \put(0.2288595,0.20540469){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{termi\v cni~detektor}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_ShemaTermKv.pdf}}%
+    \put(-0.08797022,0.44942424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.93273698\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%

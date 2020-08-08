@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_plaz.pdf' (pdf, eps, ps)
 %%
@@ -55,8 +55,8 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_plaz.pdf}}%
     \put(0.14962347,0.04648021){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.90295664\unitlength}\raggedright  \end{minipage}}}%
-    \put(0.47021772,0.66375792){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
-    \put(0.92616006,0.3605536){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
+    \put(0.54328935,0.66375792){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
+    \put(0.99401229,0.29009167){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
     \put(0.10859618,0.09278717){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{območje}$\end{tabular}}}}%
     \put(0.10834558,0.02733215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{delovanja}$\end{tabular}}}}%
   \end{picture}%

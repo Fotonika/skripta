@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{615.74151948bp}%
+    \setlength{\unitlength}{682.19422828bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,21 +50,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.39285224)%
+  \begin{picture}(1,0.35370225)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.98218183,0.13850172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\zeta$\end{tabular}}}}%
-    \put(0.56963855,0.32007297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
-    \put(0.55475241,0.19433495){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\sigma_0$\end{tabular}}}}%
-    \put(0.9273464,0.36904229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\sigma(\zeta)$\end{tabular}}}}%
-    \put(0.60638271,0.26537084){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\zeta_0$\end{tabular}}}}%
-    \put(0.44143161,0.13850172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
-    \put(0.02888825,0.32007297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
-    \put(0.01400211,0.19433495){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w_0$\end{tabular}}}}%
-    \put(0.38659618,0.36904229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w(z)$\end{tabular}}}}%
-    \put(0.06563253,0.26537084){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z_0$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{10_Gausstau.pdf}}%
-    \put(-0.03448308,0.36969525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.50605794,0.36969525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.91587058,0.12275516){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\zeta$\end{tabular}}}}%
+    \put(0.54351325,0.28663951){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0.53007717,0.17314966){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\sigma_0$\end{tabular}}}}%
+    \put(0.86637668,0.33083872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\sigma(\zeta)$\end{tabular}}}}%
+    \put(0.57667815,0.23726593){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\zeta_0$\end{tabular}}}}%
+    \put(0.42779498,0.12275516){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.05543757,0.28663951){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+    \put(0.04200149,0.17314966){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w_0$\end{tabular}}}}%
+    \put(0.37830108,0.33083872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$w(z)$\end{tabular}}}}%
+    \put(0.08860258,0.23726593){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z_0$\end{tabular}}}}%
+    \put(-0.00176074,0.33142808){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.48612605,0.33142808){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(-0.03322245,0.41216428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.1121663\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%
