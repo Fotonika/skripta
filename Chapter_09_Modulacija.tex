@@ -1459,10 +1459,11 @@ hitro uvidimo, da je valovna enačba\index{Valovna enačba}
 za valovanje s krožno frekvenco $\omega$ v našem primeru oblike
 \begin{equation}
 \frac{d^{2}\mathbf{E}}{dz^{2}}+\frac{\omega^{2}}{c^{2}} \epsilon
-(z)\mathbf{E}=0
+(z)\mathbf{E}=0.
 \label{7.61}
 \end{equation}
-ali po komponentah, upoštevajoč tenzor dielektričnosti~(enačba~\ref{7.59})
+
+Zapišimo jo po komponentah, upoštevajoč tenzor dielektričnosti~(enačba~\ref{7.59}):
 \begin{equation}
 \frac{d^{2}E_{x}}{dz^{2}} + 
 (\beta^{2}+\alpha^{2}\cos(2qz))E_{x}+\alpha^{2}E_{y}\sin(2qz) = 0
@@ -1474,7 +1475,7 @@ in
 \alpha^{2}E_{x}\sin(2qz)+(\beta^{2}-\alpha^{2}\cos(2qz))E_{y} = 0,
 \label{7.62b}
 \end{equation}
-kjer je $\alpha^{2}=\epsilon_{a}\omega^{2}/(2c^{2})$ in 
+pri čemer sta $\alpha^{2}=\epsilon_{a}\omega^{2}/(2c^{2})$ in 
 $\beta^{2}=\bar{\epsilon}\omega^{2}/c^{2}$. S tem smo dobili sistem
 dveh sklopljenih diferencialnih enačb, ki ga lahko rešimo.
 \begin{remark}
@@ -1512,7 +1513,11 @@ E_{-}  =  Be^{i(k-q)z}.
 Nastavek reši sistem enačb~(\ref{lcm1}) in (\ref{lcm2}) 
 natanko takrat, kadar $A$ in $B$ rešita sistem homogenih linearnih enačb 
 \begin{equation}
-\left((k+q)^{2}-\beta^{2}\right)A-\alpha^{2}B  =  0 \qquad \mathrm{in} \qquad 
+\left((k+q)^{2}-\beta^{2}\right)A-\alpha^{2}B  =  0 
+\label{7.66da}
+\end{equation}
+in
+\begin{equation}
 -\alpha^{2}A+\left((k-q)^{2}-\beta^{2}\right)B  =  0.
 \label{7.66d}
 \end{equation}
@@ -1549,11 +1554,14 @@ Ti dve vrednosti ustrezata velikosti valovnega vektorja za izredni
 in redni val v navadnem enoosnem kristalu. Vstavimo ju v enačbi~(\ref{7.65})
 in za polarizaciji lastnih valov dobimo $B=\pm A$.
 Izračunajmo še obe kartezični komponenti električnega polja za prvo rešitev ($A=B$)
-\begin{align}
-E_{x} &=  \frac{1}{2}(E_{+}+E_{-})  =  \frac{1}{2}Ae^{ikz}(e^{iqz}+e^{-iqz})  =  Ae^{ikz}\cos qz\\
-E_{y} & = \frac{1}{2i}(E_{+}-E_{-})  =  \frac{1}{2i}Ae^{ikz}(e^{iqz}-e^{-iqz})  =  Ae^{ikz}\sin qz.
+\begin{equation}
+E_{x} =  \frac{1}{2}(E_{+}+E_{-})  =  \frac{1}{2}Ae^{ikz}(e^{iqz}+e^{-iqz})  =  Ae^{ikz}\cos qz
+\end{equation}
+in 
+\begin{equation}
+E_{y} = \frac{1}{2i}(E_{+}-E_{-})  =  \frac{1}{2i}Ae^{ikz}(e^{iqz}-e^{-iqz})  =  Ae^{ikz}\sin qz.
 \label{7.68}
-\end{align}
+\end{equation}
 Zasuk polarizacije torej sledi zasuku optične osi. Druga rešitev ($A=-B$) da val,
 ki je polariziran pravokotno na lokalno optično os in se prav tako
 suče z njo. Pri tem se prvi val širi kot izredni val s fazno hitrostjo $c/n_{e}$ in  
@@ -1573,7 +1581,7 @@ obstajajo pri vseh frekvencah, razen v ozkem območju -- rečemo mu frekvenčna 
 štiri realne rešitve za $k$, po dve za valovanji v pozitivni in v negativni smeri.
 V območju reže je en par rešitev imaginaren. Vsaki vrednosti $k$
 pripada neko razmerje amplitud $A$ in $B$, ki ga izračunamo
-iz enačb~(\ref{7.66d}) in ki določa polarizacijo lastnega vala. Polarizacije
+iz enačb~(\ref{7.66da} in \ref{7.66d}) in ki določa polarizacijo lastnega vala. Polarizacije
 lastnih valov so na splošno eliptične in pri dani frekvenci med
 seboj niso pravokotne, saj zapisani sistem enačb ne predstavlja čisto 
 navadnega problema lastnih vektorjev simetrične matrike. 
