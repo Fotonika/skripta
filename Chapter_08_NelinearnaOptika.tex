@@ -710,7 +710,7 @@ tem $2\cdot10^{8}~\si{\watt/\centi\metre^{2}}$, kar je že blizu praga za poško
 \section{{*}Račun podvajanja Gaussovih snopov}
 \index{Gaussov snop!frekvenčno podvajanje}
 V prejšnjem razdelku smo grobo ocenili vpliv oblike Gaussovih snopov
-na frekvenčno podvajanje. Naredimo zdaj še natančnejši izračun. Vrnimo se k valovni
+na frekvenčno podvajanje. Naredimo zdaj natančnejši izračun. Vrnimo se k valovni
 enačbi (enačba~\ref{8.3}), vpadna snopa naj bosta pri frekvencah
 $\omega_{1}$ in $\omega_{2}$ in nastajajoč snop pri frekvenci
 $\omega_{3}=\omega_{1}+\omega_{2}$.
@@ -1286,8 +1286,8 @@ je vedno izpolnjen.
 \section{Samozbiranje in krajevni solitoni}
 \index{Samozbiranje}
 \index{Soliton!krajevni}
-Za začetek si oglejmo pojav samozbiranja svetlobe.\footnote{~P. L. Kelley, Phys. Rev. Lett. $\mathbf{15}$,
-1005 (1965).}
+Za začetek si oglejmo pojav samozbiranja svetlobe.\footnote{~P. L. Kelley, 
+Phys. Rev. Lett. $\mathbf{15}$, 1005 (1965).}
 Osnovni Gaussov snop 
 (enačba~\ref{eq:gaussov-snop}) naj vpada na sredstvo, v katerem je lomni 
 količnik odvisen od gostote energijskega toka vpadne svetlobe po enačbi~(\ref{eq:nnl}).
@@ -1301,6 +1301,7 @@ samozbiranje. Samozbiranje je pri dovolj
 veliki moči snopa lahko tako veliko, da pride do katastrofične zožitve snopa
 in s tem do tolikšnega povečanja gostote svetlobnega toka, da nastanejo
 poškodbe v snovi.
+\vglue0truemm
 \begin{figure}[ht]
 \centering
 \def\svgwidth{95truemm} 
@@ -1309,6 +1310,7 @@ poškodbe v snovi.
 zato je tudi lomni količnik nelinearnega sredstva  $n$ odvisen od nje. To vodi do 
  samozbiranja svetlobe. Na sliki so fronte vpadnega Gaussovega snopa narisane kot ravni valovi.}
 \label{fig:sf1}
+\vglue-1truemm
 \end{figure}
 \begin{naloga}
 Gaussov snop svetlobe z močjo $P$ in polmerom $w$ naj vpada pravokotno na ploščico
@@ -1374,13 +1376,12 @@ ni odvisna od začetnega polmera snopa.
 \begin{naloga}
 Nariši skico k enačbi~(\ref{8.77}) in izpelji izraz za moč, pri kateri se pojavijo
 solitoni (enačba~\ref{8.79}). 
-
 Izračunaj še kritično moč za pojav solitonov v CS$_{2}$,\index{CS$_2$}
-če je valovna dolžina vpadnega valovanja $1~\si{\micro\metre}$, 
-nelinearni lomni količnik te tekočine pa je 
+vpadnem valovanju z $\lambda = 1~\si{\micro\metre}$, če je 
+nelinearni lomni količnik te tekočine
  $n_{2}=3,2 \cdot 10^{-18}~\si{\metre^2/\watt}$. 
 \end{naloga}
-
+\vglue-6truemm
 \begin{remark}
 Eksperimentalna metoda, \index{Metoda vzdolžnega premika}
 \index{Z-scan|see {Metoda vzdolžnega premika}}s katero merimo nelinearni 
@@ -1403,15 +1404,16 @@ ključno uporabiti zaslonko (Z), s katero omejimo premer vpadnega snopa pred det
 Če zaslonko odstranimo in merimo 
 odvisnost celotne vpadne intenzitete od lege vzorca, nelinearnega lomnega količnika 
 ne moremo meriti, lahko pa določimo nelinearni absorpcijski koeficient. 
-
 \begin{figure}[ht]
 \raggedleft 
-\def\svgwidth{128truemm} 
+\def\svgwidth{118truemm} 
 \input{slike/08_zscan.pdf_tex}
-\caption{Shema metode vzdolžnega premika (a). Z -- zaslonka, D -- detektor, $n_2$ - optično
+\captionsetup{width=0.82\textwidth}
+\caption{Shema metode vzdolžnega premika (a). Z -- zaslonka, D -- detektor, $n_2$ -- optično
 nelinearno sredstvo in $f$ leča. Intenziteta svetlobe, ki vpade na detektor, je odvisna
 od lege nelinearnega sredstva (b).}
 \label{fig:zscan}
+\vglue-8truemm
 \end{figure}
 \end{remark}
 
@@ -1424,17 +1426,14 @@ enačbo v obosnem približku. Začnemo s skalarno obliko Helmholtzeve enačbe (e
 \nabla^{2}E+n^{2}\frac{\omega^{2}}{c_0^{2}}E=0.
 \label{8.80}
 \end{equation}
-Polje zapišemo v obliki počasi spreminjajoče se amplitude $\psi$ in faznega faktorja, podobno kot 
-smo to naredili pri izpeljavi Gaussovega snopa (enačba~\ref{eq:ravni-val-nastavek})
+Polje zapišemo v obliki počasi spreminjajoče se amplitude $\psi$ in faznega faktorja, 
+podobno kot smo to naredili pri izpeljavi Gaussovega snopa (enačba~\ref{eq:ravni-val-nastavek})
 \begin{equation}
 E=\psi(\mathbf{r},z)e^{ik_{0}z},
 \label{8.81}
 \end{equation}
- kjer je $\mathbf{r}$ krajevni vektor v ravnini $xy$ in 
-\begin{equation}
-k_{0}=\frac{\tilde{n}\omega}{c_0} 
-\end{equation}
-valovno število brez upoštevanja nelinearnosti.
+ kjer je $\mathbf{r}$ krajevni vektor v ravnini $xy$ in $k_{0}=\tilde{n}\omega/c_0$ valovno število brez upoštevanja nelinearnosti.
+ 
 Funkcija $\psi(\mathbf{r},z)$ naj se v smeri osi $z$ le počasi spreminja, tako da lahko
 drugi odvod po $z$ zanemarimo in zapišemo \index{Obosna valovna enačba}
 \begin{equation}
@@ -1526,15 +1525,6 @@ j_{s}(x,z)= j_0 \frac{1}{\cosh^2(\eta x)}.
 Vidimo, da je gostota svetlobnega toka neodvisna od $z$, kar pomeni, da sunek 
 (slika~\ref{fig:soliton}) ohranja svojo obliko, ko potuje vzdolž osi $z$.
 
-\begin{figure}[ht]
-\centering
-\def\svgwidth{100truemm} 
-\input{slike/08_soliton.pdf_tex}
-\caption{Prečna odvisnost relativne intenzitete krajevnega solitona $j/j_0$ v dveh dimenzijah. 
-Vzdolž koordinate $z$ se profil ohranja.}
-\label{fig:soliton}
-\end{figure}
-
 Če se vrnemo k izrazu za jakost električnega polja (enačba~\ref{8.89}), vidimo, da
 parameter $\eta$ nastopa tudi v faznem faktorju. To pomeni, da je od njega odvisna 
 tudi fazna hitrost
@@ -1546,6 +1536,15 @@ Fazna hitrost omejenih snopov oziroma solitonov je torej vedno manjša od fazne 
 Bolj ko je snop omejen, manjša je fazna hitrost, za velike polmere snopa pa doseže 
 limitno vrednost $c_0/\tilde{n}$.
 
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{105truemm} 
+\input{slike/08_soliton.pdf_tex}
+\caption{Prečna odvisnost relativne intenzitete krajevnega solitona $j/j_0$ v dveh dimenzijah. 
+Vzdolž koordinate $z$ se profil ohranja.}
+\label{fig:soliton}
+\end{figure}
 Celotna moč svetlobe v dvodimenzionalnem snopu je enaka integralu
 gostote svetlobnega toka (enačba~\ref{8.89a}) po $x$. Integriramo in zapišemo 
 \begin{equation}
@@ -1649,9 +1648,8 @@ valovne enačbe (enačba~\ref{8.3}), ki jo zapišemo v skalarni obliki
 pri čemer je 
 $P_\textrm{NL}$ nelinearna polarizacija tretjega reda (enačba~\ref{eq:nlin3}).
 Namesto v časovni domeni je enačbo prikladnejše reševati v frekvenčni domeni, zato
-namesto $E$ in $P_{\mathrm{NL}}$ vpeljemo Fourierevi transformiranki $\tilde{E}$ in $\tilde{P}$.
-
-Dobimo
+namesto $E$ in $P_{\mathrm{NL}}$ vpeljemo Fourierevi transformiranki
+$\tilde{E}$ in $\tilde{P}$. Dobimo
 \begin{equation}
 \nabla^{2}\tilde{E}+\frac{n^2}{c_0^{2}}\omega^2 \tilde{E}=
 - \mu_{0}\omega^2 \tilde{P}.
@@ -1665,7 +1663,8 @@ in
 \begin{equation}
  \tilde{P} = \tilde{B} (z,\omega - \omega_0) e^{ik_0z},
 \end{equation}
-pri čemer je $\omega_0$ osrednja krožna frekvenca svetlobnega sunka in $k_0 = \omega_0 \tilde{n}/c_0$. 
+pri čemer je $\omega_0$ osrednja krožna frekvenca svetlobnega sunka in $k_0 = \omega_0 \tilde{n}/c_0$.
+
 Vpeljemo še 
 $\Omega =\omega - \omega_0$ in valovna enačba~(\ref{eq:soleq1}) se prepiše v 
 \begin{equation}
@@ -1718,13 +1717,13 @@ z grupno hitrostjo skupaj s sunkom. Uporabimo pravilo verižnega odvajanja
 \frac{\partial \tau}{\partial z}
 = \frac{\partial A_S}{\partial z} -\frac{1}{v_g} \frac{\partial A_S}{\partial \tau}.
 \end{equation}
-Podobno naredimo še za odvod po času $\tau$, ki pa se ne razlikuje od odvoda po času $t$
+Podobno naredimo še za odvod po času $\tau$, ki pa se ne razlikuje od odvoda po času $t$:
 \begin{equation}
 \frac{\partial A}{\partial t} = \frac{\partial A_S}{\partial z}\frac{\partial z}{\partial \tau}+
 \frac{\partial A_S}{\partial \tau}\frac{\partial \tau}{\partial t} 
-= \frac{\partial A_S}{\partial \tau} 
+= \frac{\partial A_S}{\partial \tau}.
 \end{equation}
-in
+Enaka sta tudi druga odvoda po času:
 \begin{equation}
 \frac{\partial^2 A}{\partial t^2} = \frac{\partial^2 A_S}{\partial\tau^2}.
 \end{equation}
@@ -1830,6 +1829,7 @@ ne vpliva na obliko valovnih front, saj so te popolnoma enake kot pri signalnem
 valovanju. Ker novo valovanje iz signalnega nastane tako,
 da krajevni del faze kompleksno konjugiramo, nastalemu valovanju pravimo fazno
 konjugirano valovanje.
+
 \begin{figure}[ht]
 \centering
 \def\svgwidth{100truemm} 
@@ -1838,14 +1838,14 @@ konjugirano valovanje.
 vala (a), odboj krogelnega valovanja (b) in odboj popačenega vala (c). Valovne fronte 
 vpadnega vala so označene s polno črto in odbitega s črtkano.}
 \label{08_OPC2}
+\vglue-1truemm
 \end{figure}
-
 Uporabna posledica fazne konjugacije je prikazana na sliki~\ref{08_OPC2}.
 Najpreprostejši primer je vpad ravnega vala (a), ki se ne odbije po 
 odbojnem zakonu (slika zgoraj), ampak se odbije v smer, iz katere 
 je vpadel na snov (slika spodaj). Drugi primer je krogelni val 
 ali v približku tudi Gaussov snop (b). Po odboju od navadnega zrcala (zgoraj), se 
-valovanje še naprej razširja. Na fazno konjugiranem zrcalu se krogelni val po odboju spet
+valovanje še naprej razširja. Na fazno konjugiranem zrcalu se odbiti krogelni val 
 zbere v izvoru (spodaj). 
 
 V tretjem primeru vpada svetloba skozi sredstvo, ki valovanju doda naključno
@@ -1858,6 +1858,7 @@ skozi nepravilno sredstvo se neravnosti valovne fronte izničijo
 in nastanejo enake gladke valovne fronte ravnega vala kot na začetku. 
 To lastnost popravljanja valovne fronte je mogoče 
 koristno uporabiti, na primer namesto enega zrcala v laserskem resonatorju.
+\vglue-4truemm
 \begin{remark}
 Omenili smo, da se fazno konjugirana zrcala uporabljajo v laserjih za izničenje
 popačenj Gaussovega snopa. Drugi primer uporabe je v optični astronomiji
@@ -2008,8 +2009,8 @@ Zdaj lahko zapišemo amplitudi znotraj nelinearne snovi
 \frac{\sin\left(|\kappa|(L-z)\right)}{\cos\left(|\kappa|L\right)}.
 \label{8.109}
 \end{align}
-Izračunajmo še amplitudi odbitega in prepuščenega vala. Amplituda odbitega vala 
-pri $z=0$ je 
+Izračunajmo amplitudi odbitega in prepuščenega vala. Amplituda odbitega vala 
+pri $z=0$ je:
 \boxeq{8.110}{
 \tilde{A}_{4}(0)  =  \tilde{A}_3^*(0)\frac{i \kappa}{|\kappa|}
 \tan \left(|\kappa|L\right)\!\!,
@@ -2061,6 +2062,7 @@ odda energijo molekuli (slika~\ref{08_Raman}\,a),
 in anti-Stokesovo sipanje,
 \index{Ramanovo sipanje!Stokesovo}\index{Ramanovo sipanje!anti-Stokesovo}
 pri katerem foton prejme energijo od vzbujene molekule (slika~\ref{08_Raman}\,b).
+
 V prvem primeru je frekvenca
 sipane svetlobe $\nu_s=\nu_0-\nu_v$, kjer $\nu_0$ označuje frekvenco vpadne
 svetlobe in $\nu_v$ vibracijsko frekvenco, ter v drugem primeru $\nu_{as}=\nu_0+\nu_v$.
@@ -2072,6 +2074,7 @@ Drug zanimiv primer je, kadar se energija fotonov spremeni zaradi
 vzbujanja akustičnih valov (fononov). Takrat govorimo o Brillouinovem 
 sipanju\footnote{~Francoski fizik L\'eon Nicolas Brillouin, 1889--1969.} (slika~\ref{08_Raman}\,c).
 Tipični Brillouinov premik je $\sim 10^{10}~\si{\hertz}$. \index{Brillouinovo sipanje}
+\vglue3truemm
 
 \begin{figure}[ht]
 \centering
@@ -2101,6 +2104,7 @@ Stimulirano Ramanovo sipanje je navadno zelo močno, saj se lahko v Stokesov ža
 več kot $\sim 10\%$ energije črpalnega žarka. Za primerjavo, tipični delež sipane svetlobe v primeru 
 spontanega Ramanovega sipanja je $10^{-6}/\si{\centi\meter}$.\footnote{~Glej npr. 
 G. New, {\it Introduction to Nonlinear Optics}, Cambridge University Press (2011).}
+\newpage
 
 Obravnavajmo stimulirano Ramanovo sipanje v klasičnem približku, v katerem snov opišemo 
 z $N$ neodvisnimi enodimenzionalnimi harmonskimi oscilatorji na enoto prostornine.\footnote{~Glej npr. 
