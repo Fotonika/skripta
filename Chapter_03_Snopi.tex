@@ -161,7 +161,7 @@ simetrične rešitve in v cilindričnih koordinatah zapišemo
 \end{equation}
 Iz obosnega približka (enačba~\ref{eq:obosna-valovna-enacba}) sledi
 \begin{equation}
-\frac{2ik}{q}-\frac{k^2r^2}{q^2}=ik\left(\frac{ikr^{2}}{q^2}q(z)^{\prime}+2i\phi^{\prime}\right).
+\frac{2ik}{q}-\frac{k^2r^2}{q^2}=ik\left(\frac{ikr^{2}}{q^2}q(z)^{\prime}+2i\phi^{\prime}\right)\!\!.
 \end{equation}
 Zapisana zveza mora veljati pri vsakem $r$, zato sta koeficienta
 pri $r^{2}$ na obeh straneh enačbe enaka in člena brez odvisnosti od $r$ prav tako. Sledi
@@ -185,7 +185,7 @@ Sledi
 in
 \begin{equation}
  \psi = \frac{1}{1+i\frac{z}{z_{0}}}\,\exp\left(-\frac{kr^{2}z_{0}}{2(z_{0}^{2}+z^{2})}+
- \frac{ikr^{2}z}{2(z_{0}^{2}+z^{2})}\right).
+ \frac{ikr^{2}z}{2(z_{0}^{2}+z^{2})}\right)\!\!.
  \label{eq:gaussov-snop-vmesni}
 \end{equation}
 Najprej poglejmo realni del eksponenta, ki opisuje prečno obliko snopa. Vpeljemo novo spremenljivko $w$
@@ -193,11 +193,11 @@ in realni del prečne odvisnosti zapišemo z Gaussovo funkcijo $\exp(-r^2/w^2)$,
 ki da snopu tudi ime. Parameter $w$, ki označuje 
 polmer snopa\index{Gaussov snop!polmer} pri danem $z$, je podan z enačbo 
 \begin{equation}
-w^2 = \frac{2(z_0^2+z^2)}{kz_0}= \frac{2z_0}{k}\left(1+\left(\frac{z}{z_0}\right)^2\right).
+w^2 = \frac{2(z_0^2+z^2)}{kz_0}= \frac{2z_0}{k}\left(1+\left(\frac{z}{z_0}\right)^2\right)\!\!.
 \end{equation}
 Vpeljemo $w_0 = 2z_0/k$ kot polmer snopa v izhodišču (pri $z=0$) in zapišemo
 \boxeq{eq:w}{
-w^2 = w_{0}^{2}\left(1+\left(\frac{z}{z_{0}}\right)^{2}\right).
+w^2 = w_{0}^{2}\left(1+\left(\frac{z}{z_{0}}\right)^{2}\right)\!\!.
 }
 Pri $z=0$ je polmer snopa najmanjši in pravimo, da je tam grlo 
 snopa\index{Gaussov snop!grlo} 
@@ -259,7 +259,7 @@ Vrnimo se k imaginarnemu delu eksponenta v enačbi~(\ref{eq:gaussov-snop-vmesni}
 vpeljavo nove spremenljivke $R$ ga zapišemo v poenostavljeni obliki $\exp(ikr^2/2R)$. Parameter $R$, ki 
 ga vpeljemo kot 
 \boxeq{eq:R}{
-R=z\left(1+\left(\frac{z_{0}}{z}\right)^{2}\right),
+R=z\left(1+\left(\frac{z_{0}}{z}\right)^{2}\right)\!\!,
 }
 meri krivinski radij valovnih front\index{Gaussov snop!krivinski radij} 
 pri oddaljenosti od grla $z$. To najlažje
@@ -304,7 +304,7 @@ Ostal je  še faktor pred eksponentom v izrazu~(\ref{eq:gaussov-snop-vmesni})
 \end{equation}
  pri čemer je
 \boxeq{eq:eta}{
-\eta(z)=\arctan\left(\frac{z}{z_{0}}\right).
+\eta(z)=\arctan\left(\frac{z}{z_{0}}\right)\!\!.
 }
 Ta faktor poskrbi za ohranitev energijskega toka, saj opisuje zmanjševanje amplitude
 jakosti električnega polja z naraščajočo oddaljenostjo od izhodišča. \index{Gaussov snop!faza} 
@@ -378,7 +378,7 @@ TEM$_{n,m}$\index{TEM$_{n,m}$}\footnote{Glej npr. A. Yariv in P. Yeh, {\it Photo
 University Press (2007).}
 \begin{equation}
 \psi_{n,m}(x,y)=\frac{w_{0}}{w}H_{n}\left(\frac{\sqrt{2}x}{w}\right)H_{m}\left(\frac{\sqrt{2}y}{w}\right)
-\exp\left(\frac{ik(x^{2}+y^{2})}{2q}-i\eta_{n,m}\right).
+\exp\left(\frac{ik(x^{2}+y^{2})}{2q}-i\eta_{n,m}\right)\!\!.
 \label{eq:Gauss-Hermitevi}
 \end{equation}
 Pri tem $H_{n}$ označuje Hermitove polinome stopnje $n$ (na primer $H_0(x)=1$, $H_1(x)=2x$, 
@@ -396,7 +396,7 @@ Polmer snopa $w(z)$ in kompleksni krivinski radij $q(z)$ sta za\index{Gouyeva fa
 vse $n$ in $m$ enaka kot za osnovni snop (enačbi~\ref{eq:w} in \ref{eq:q}). 
 Razlika je v Gouyjevi fazi, ki je za snope višjega reda odvisna tudi od $n$ in $m$
 \begin{equation}
-\eta_{n,m}\left(z\right)=(n+m+1)\arctan\left(\frac{z}{z_{0}}\right).
+\eta_{n,m}\left(z\right)=(n+m+1)\arctan\left(\frac{z}{z_{0}}\right)\!\!.
 \end{equation}
 Na sliki~\ref{fig:Gauss-Hermitevi-snopi} so intenzitetni profili 
 Hermite-Gaussovih snopov višjih redov $|\psi_{n,m}(x, y, 0)|^2$.
@@ -448,14 +448,14 @@ Yeh, {\it Photonics}, šesta izdaja, Oxford
 University Press (2007).}
 \begin{equation}
 \psi_{p,l}(r,\varphi,z)=\frac{w_{0}}{w}\left(\frac{\sqrt{2}r}{w}\right)^{|l|}
-L_{p}^{|l|}\left(\frac{2r^{2}}{w^{2}}\right)e^{\pm il\varphi}\exp\left(\frac{ikr^{2}}{2q}-i\eta_{p,l}\right).
+L_{p}^{|l|}\left(\frac{2r^{2}}{w^{2}}\right)e^{\pm il\varphi}\exp\left(\frac{ikr^{2}}{2q}-i\eta_{p,l}\right)\!\!.
 \label{eq:Gauss-Laguerrevi}
 \end{equation}
 Pri tem $L_{p}^{l}$ označujejo pridružene Laguerrove polinome oblike $L_{0}^{l}(x) = 1$, 
 $L_{1}^{l}(x) = -x+l+1$, 
 $L_{2}^{l}(x) = x^2/2-(l+2)x+(l+2)(l+1)/2$ ..., Gouyjeva faza pa je 
 \begin{equation}\index{Gouyeva faza}
-\eta_{p,l}\left(z\right)=(2p+l+1)\arctan\left(\frac{z}{z_{0}}\right).
+\eta_{p,l}\left(z\right)=(2p+l+1)\arctan\left(\frac{z}{z_{0}}\right)\!\!.
 \label{eq:etaGL}
 \end{equation}
 
@@ -747,7 +747,7 @@ y_2\\
 \end{array}\right] = M \left[\begin{array}{c}
 y_1\\
 \vartheta_1
-\end{array}\right].
+\end{array}\right]\!\!.
 \end{equation}
 \begin{figure}[ht]
 \centering
@@ -765,7 +765,7 @@ Matrike $M$ so na splošno oblike
 M = \left[\begin{array}{cc}
 A & B\\
 C & D
-\end{array}\right],
+\end{array}\right]\!\!,
 \label{eq:ABCDdef}
 \end{equation}
 zato jih imenujemo matrike ABCD\index{Matrike ABCD}. Poglejmo nekaj primerov. 
@@ -779,7 +779,7 @@ y_{2}\\
 \end{array}\right]=\left[\begin{array}{c}
 y_{1}+d\vartheta_{1}\\
 \vartheta_{1}
-\end{array}\right].
+\end{array}\right]\!\!.
 \end{equation}
 To zapišemo v matrični obliki
 \begin{equation}
@@ -792,14 +792,14 @@ y_{2}\\
 \end{array}\right]\cdot\left[\begin{array}{c}
 y_{1}\\
 \vartheta_{1}
-\end{array}\right].
+\end{array}\right]\!\!.
 \end{equation}
 Matrika za premik $d$ vzdolž optične osi je tako
 \begin{equation}
 M= \left[\begin{array}{cc}
 1 & d\\
 0 & 1
-\end{array}\right].
+\end{array}\right]\!\!.
 \label{eq:MABCD1}
 \end{equation}
 Poglejmo še matriko za prehod skozi lečo. 
@@ -818,7 +818,7 @@ y_{1}\\
 \end{array}\right]\cdot\left[\begin{array}{c}
 y_{1}\\
 0
-\end{array}\right].
+\end{array}\right]\!\!.
 \end{equation}
 Pri tem koeficientov $B$ in $D$ še ne poznamo. Določimo jih iz drugega pogoja, 
 ki pravi, da se žarek, ki gre skozi lečo na osi, ne spremeni
@@ -835,14 +835,14 @@ y_{2}\\
 \end{array}\right]\cdot\left[\begin{array}{c}
 0\\
 \vartheta_{1}
-\end{array}\right].
+\end{array}\right]\!\!.
 \end{equation}
  Sledi $B=0$ in $D=1$. Matrika za prehod skozi lečo je tako 
 \begin{equation}
 M= \left[\begin{array}{cc}
 1 & 0\\
 -\frac{1}{f} & 1
-\end{array}\right].
+\end{array}\right]\!\!.
 \label{eq:MABCD2}
 \end{equation}
 Podobno izpeljavo kot za prehod skozi lečo naredimo za odboj na krogelnem zrcalu
@@ -851,7 +851,7 @@ s krivinskim radijem $R$. Pripadajoča matrika je
 M=\left[\begin{array}{cc}
 1 & 0\\
 -\frac{2}{R} & 1
-\end{array}\right],
+\end{array}\right]\!\!,
 \end{equation}
 pri čemer je $R>0$ za konkavna zrcala. Matrika za odboj na ravnem zrcalu je identiteta.
 
@@ -870,7 +870,7 @@ C_{2} & D_{2}
 \end{array}\right]\cdot\left[\begin{array}{cc}
 A_{1} & B_{1}\\
 C_{1} & D_{1}
-\end{array}\right].
+\end{array}\right]\!\!.
 \end{align}
 
 Poglejmo primer. Žarek naj najprej prepotuje razdaljo $d$, nato ga usmerimo
@@ -888,7 +888,7 @@ C & D
 \end{array}\right] =  \left[\begin{array}{cc}
 1 & d\\
 -\frac{1}{f} & -\frac{d}{f}+1
-\end{array}\right].
+\end{array}\right]\!\!.
 \label{eq:Mdf}
 \end{align}
 \vglue-5truemm

@@ -73,16 +73,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25759125"
-     inkscape:cx="1494.9878"
-     inkscape:cy="131.89012"
+     inkscape:zoom="0.36138248"
+     inkscape:cx="2599.3383"
+     inkscape:cy="259.46087"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1687"
      inkscape:window-height="823"
-     inkscape:window-x="361"
-     inkscape:window-y="43"
+     inkscape:window-x="609"
+     inkscape:window-y="251"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -310,10 +310,10 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:5.06400013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-       d="m 1389.9341,659.41208 1214.6511,-2.17051"
+       d="m 1389.9341,659.41208 1199.6511,-2.17051"
        id="path3098"
        inkscape:path-effect="#path-effect3100"
-       inkscape:original-d="m 1389.9341,659.41208 1214.6511,-2.17051"
+       inkscape:original-d="m 1389.9341,659.41208 1199.6511,-2.17051"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <g
@@ -341,14 +341,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="-283.65146"
-       y="717.14862"
+       x="-260.49484"
+       y="711.68311"
        id="text4444"
        transform="scale(0.97165016,1.029177)"><tspan
          sodipodi:role="line"
          id="tspan4446"
-         x="-283.65146"
-         y="717.14862"
+         x="-260.49484"
+         y="711.68311"
          style="font-size:58.29900742px;line-height:1.25">$\omega_1$<tspan
    style="font-size:37.89488983px;baseline-shift:sub"
    id="tspan4448" /></tspan></text>
@@ -501,30 +501,30 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="-678.88751"
-       y="2182.0571"
+       x="-547.10345"
+       y="2181.3154"
        id="text4444-8-1-7-9"
        transform="matrix(0.00639442,-0.88208268,1.133621,0.00821788,0,0)"
        inkscape:transform-center-x="180.18679"
        inkscape:transform-center-y="115.39436"><tspan
          sodipodi:role="line"
          id="tspan4446-8-6-5-1"
-         x="-678.88751"
-         y="2182.0571"
+         x="-547.10345"
+         y="2181.3154"
          style="font-size:59.04911041px;line-height:1.25">$\omega_1 + \omega_2$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="-692.43372"
-       y="1367.8351"
+       x="-562.77515"
+       y="1367.4479"
        id="text4444-8-1-7-1-2"
        transform="matrix(0.00340836,-0.88209929,1.1336423,0.00438031,0,0)"
        inkscape:transform-center-x="179.62483"
        inkscape:transform-center-y="116.01725"><tspan
          sodipodi:role="line"
          id="tspan4446-8-6-5-0-7"
-         x="-692.43372"
-         y="1367.8351"
+         x="-562.77515"
+         y="1367.4479"
          style="font-size:59.04911041px;line-height:1.25">$\omega_1 - \omega_2$</tspan></text>
     <text
        xml:space="preserve"
