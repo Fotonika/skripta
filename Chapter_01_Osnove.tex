@@ -18,10 +18,10 @@ polja\index{Magnetno polje!jakost} $\mathbf{H}(\mathbf{r},t)$.
 Vse te količine povezujejo \index{Maxwellove enačbe}Maxwellove
 enačbe\footnote{Škotski fizik James Clerk Maxwell, 1831--1879.}:
 \boxeq{eq:Maxwell1}{
-\nabla\times\mathbf{H} & =\frac{\partial\mathbf{D}}{\partial t}+\mathbf{j}_e\\
-\nabla\times\mathbf{E} & =-\frac{\partial\mathbf{B}}{\partial t}\label{eq:Maxwell2}\\
-\nabla\cdot\mathbf{D} & =\mbox{\ensuremath{\rho}}_{e}\label{eq:Maxwell3}\\
-\nabla\cdot\mathbf{B} & =0\label{eq:Maxwell4}
+\nabla\times\mathbf{H} & =\frac{\partial\mathbf{D}}{\partial t}+\mathbf{j}_e,\\
+\nabla\times\mathbf{E} & =-\frac{\partial\mathbf{B}}{\partial t}\label{eq:Maxwell2},\\
+\nabla\cdot\mathbf{D} & =\mbox{\ensuremath{\rho}}_{e}\label{eq:Maxwell3} \qquad \mathrm{in}\\
+\nabla\cdot\mathbf{B} & =0.\label{eq:Maxwell4}
 }\\
 Pri zapisu enačb smo upoštevali tudi izvore polj, to je gostoto
 električnega toka $\mathbf{j}_e(\mathbf{r},t)$ in gostoto
@@ -30,14 +30,14 @@ ju bomo v nadaljevanju izpuščali.
 
 Poleg Maxwellovih enačb veljata zvezi:
 \begin{align}
-\mathbf{D} & =\epsilon_{0}\mathbf{E}+\mathbf{P} \quad \mathrm{in}\\
+\mathbf{D} & =\epsilon_{0}\mathbf{E}+\mathbf{P} \qquad \mathrm{in}\\
 \mathbf{B} & =\mu_{0}\mathbf{H}+\mu_{0}\mathbf{M},
 \end{align}
-kjer $\mathbf{P}$ označuje \index{Električna polarizacija}električno
+pri čemer $\mathbf{P}$ označuje \index{Električna polarizacija}električno
 polarizacijo, to je gostoto električnih dipolov, in  $\mathbf{M}$
-\index{Magnetizacija}magnetizacijo, to je gostoto magnetnega momenta. Pri tem je $\varepsilon_0 = 
-8,854 \times 10^{-12}~\si{As/Vm}$ influenčna konstanta in $\mu_0 = 
-4 \pi \times 10^{-7}~\si{Vs/Am}$ indukcijska konstanta.
+\index{Magnetizacija}magnetizacijo, to je gostoto magnetnega momenta. Pri tem sta
+$\varepsilon_0 = 8,85 \times 10^{-12}~\si{As/Vm}$ influenčna in  
+$\mu_0 = 4 \pi \times 10^{-7}~\si{Vs/Am}$ indukcijska konstanta.
 
 Polarizacija $\mathbf{P}$ in magnetizacija $\mathbf{M}$ sta odvisni od zunanjih polj $\mathbf{E}$
 in $\mathbf{B}$. Na splošno sta njuni odvisnosti zelo zapleteni.
@@ -79,7 +79,7 @@ električnega in magnetnega polja (slika~\ref{fig:Robni-pogoji}):
 D_{1n} &=  D_{2n}\hspace{1cm} B_{1n} =  B_{2n},\\
 E_{1t} &=  E_{2t}\hspace{1.1cm} H_{1t} =  H_{2t}\label{eq:robni-pogoji5}.
 }
-Na meji z idealnim prevodnikom (kovino) je tangentna komponentna 
+Na meji z idealnim prevodnikom (kovino) je tangentna komponenta
 jakosti električnega polja enaka nič.
 
 \begin{figure}[ht]
@@ -129,7 +129,7 @@ smeri $\mathbf{E}$ in $\mathbf{H}$. Gostoto energijskega toka $\mathbf{j}$, to j
 energije, ki v danem času preteče skozi dano ploskev, izračunamo kot časovno 
 povprečje Poyntingovega vektorja:
 \begin{equation}
-\mathbf{j}=\langle \mathbf{\mathbf{S}}\rangle.
+\mathbf{j}=\langle \mathbf{\mathbf{S}}\rangle\!.
 \label{eq:jscal}
 \end{equation}
 Gostoto energijskega \index{Gostota energijskega toka}
@@ -220,7 +220,7 @@ Po definiciji sta $\mathbf{E}$ in $\mathbf{H}$ vedno pravokotna tudi na Poynting
 Poyntingov vektor in smer energijskega toka vzporedna valovnemu vektorju.\footnote{Na splošno 
 velja $\mathbf{E}\perp\mathbf{S}$ (enačba~\ref{eq:Poyntingov-vektor}) in 
 $\mathbf{D}\perp\mathbf{k}$ (naloga~\ref{naloga-TEM-ortogonalnost}). 
-To velja vedno, tudi v anizotropnih sredstvih, vendar tam $\mathbf{E} \nparallel 
+To velja vedno, tudi v anizotropnih snoveh, vendar tam $\mathbf{E} \nparallel 
 \mathbf{D}$ in $\mathbf k\nparallel\mathbf S$. Za podrobnejši opis glej 
 razdelek~\ref{chap:anizotropni}.} 
 \begin{naloga}
@@ -228,7 +228,7 @@ razdelek~\ref{chap:anizotropni}.}
 Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) za ravni val izpelji zvezi:
 \begin{align}
 \mathbf{k}\times\mathbf{H}_{0} & =-\omega\epsilon\epsilon_{0}\mathbf{E}_{0}\label{eq:TEM-pogoj1}\
-\quad \mathrm{in}\\
+\qquad \mathrm{in}\\
 \mathbf{k}\times\mathbf{E}_{0} & =\omega\mu\mu_{0}\mathbf{H}_{0}\label{eq:TEM-pogoj2},
 \end{align}
 iz katerih izhaja, da je v izotropni snovi $\mathbf{E}_0\perp \mathbf{H}_0\perp 
@@ -240,13 +240,13 @@ Zapišimo še povprečno gostoto energije valovanja\index{Gostota energije} (ena
 K energiji prispevata tako magnetno kot električno polje. Prispevka sta enaka, zato velja:
 \begin{equation}
 \left\langle w\right\rangle =\frac{1}{4}\epsilon\epsilon_{0}\left|E_{0}\right|^{2}+
-\frac{1}{4}\frac{\left|B_{0}\right|^{2}}{\mu\mu_{0}}=\frac{1}{2}\epsilon\epsilon_{0}\left|E_{0}\right|^{2}.
+\frac{1}{4}\frac{\left|B_{0}\right|^{2}}{\mu\mu_{0}}=\frac{1}{2}\epsilon\epsilon_{0}\left|E_{0}\right|^{2}\!\!.
 \end{equation}
 Povprečna gostota energije $w$, pomnožena s hitrostjo svetlobe v
 snovi $c$, je enaka velikosti gostote energijskega toka $j$\index{Gostota energijskega toka}:
 \boxeq{eq:jcw}{
 j=cw = \frac{1}{2}c\epsilon\epsilon_{0}\left|E_{0}\right|^{2}=\frac{1}{2}c_{0}n\epsilon_{0}
-\left|E_{0}\right|^{2}.
+\left|E_{0}\right|^{2}\!\!.
 }
 Prva enakost nazorno kaže, da je gostota svetlobnega toka pravzaprav pretok
 energije. To si lahko predstavljamo, če obravnavamo valj s prečnim presekom
@@ -350,7 +350,7 @@ A=\left[\begin{array}{cc}
 \end{equation}
 Tak element imenujemo ploščica $\lambda/2$\index{Ploščica $\lambda/2$} in 
 spremeni desno krožno polariziran val v levo krožno
-polariziran in obratno, linearno polariziran val pa prezrcali čez koordinatno os. 
+polariziranega, in obratno, linearno polariziran val pa prezrcali čez koordinatno os. 
 
 Podobno je Jonesova matrika za element, ki eni komponenti doda fazni zamik $\pi/2$ 
 (imenujemo ga ploščica $\lambda/4$\index{Ploščica $\lambda/4$}), enaka:
@@ -379,8 +379,8 @@ kjer je $R(\vartheta)$ rotacijska matrika.
 \end{naloga}
 
 \section{Lom in odboj elektromagnetnega valovanja}
-Naj svetloba vpada na ravno mejo med dvema izotropnima dielektrikoma. Pri tem se 
-del svetlobe odbije po odbojnem zakonu, ki pravi, da je odbojni kot enak vpadnemu, 
+Ko svetloba vpada na ravno mejo med dvema izotropnima dielektrikoma, se je 
+del odbije po odbojnem zakonu, ki pravi, da je odbojni kot enak vpadnemu, 
 preostali del svetlobe pa se lomi. Zanj velja lomni \index{Lomni zakon}zakon:
 \boxeq{eq:lomni_zakon}{
 n_{1}\sin\vartheta_{1}=n_{2}\sin\vartheta_{2}.
@@ -407,9 +407,10 @@ Z $E_1$ označimo amplitudo jakosti električnega polja vpadnega valovanja,
 z $E_2$ prepuščenega in z $E_3$ odbitega.
 Nato vpeljemo amplitudno prepustnost $t$ in amplitudno odbojnost $r$, 
 ki sta odvisni od vpadne polarizacije. Zapišemo:
-\begin{align}
-E_{2\mathrm{TE}} & =t_{\mathrm{TE}}E_{1\mathrm{TE}} & E_{3\mathrm{TE}} &=r_{\mathrm{TE}}E_{1\mathrm{TE}}
-\end{align}
+\begin{equation}
+E_{2\mathrm{TE}} =t_{\mathrm{TE}}E_{1\mathrm{TE}} \qquad \mathrm{in} \qquad 
+E_{3\mathrm{TE}} =r_{\mathrm{TE}}E_{1\mathrm{TE}}
+\end{equation}
 in podobno za TM polarizirano valovanje. Koeficiente $r$ in $t$ izračunamo iz robnih pogojev (enačbe~\ref{eq:robni-pogoji} in \ref{eq:robni-pogoji5}). 
 Enačbe, ki opisujejo odvisnost amplitudne odbojnosti
 in amplitudne prepustnosti od vpadnega kota, imenujemo
@@ -464,7 +465,7 @@ kar sledi iz ohranitve energije. Na splošno $\mathcal{T}$
 ni enak $\left|t\right|^{2}$, saj energijski tok potuje po različnih
 snoveh in v različnih smereh. Velja zveza:
 \begin{equation}
-\mathcal{T}=\frac{n_{2}\cos\vartheta_{2}}{n_{1}\cos\vartheta_{1}}\left|t\right|^{2}.
+\mathcal{T}=\frac{n_{2}\cos\vartheta_{2}}{n_{1}\cos\vartheta_{1}}\left|t\right|^{2}\!\!.
 \end{equation}
 Primer uporabe Fresnelovih enačb je pravokotni vpad svetlobe na mejo dveh sredstev. 
 Zaradi simetrije sta v tem primeru odbojnost in prepustnost neodvisni od polarizacije. Sledi:
@@ -515,7 +516,7 @@ Pri Brewstrovem vpadnem kotu je vsa vpadna TM polarizirana svetloba prepuščena
 in $\mathcal{T}_\mathrm{TM}(\vartheta_B)=1$. Posledično je odbito valovanje pri Brewstrovem
 kotu vedno TE polarizirano. 
 \begin{naloga}
-Pokaži, da za Brewstrov kot velja:
+Pokaži, da za Brewstrov kot velja
 $\vartheta_{B}=\arctan\left(\frac{n_2}{n_1}\right)\!\!.$
 \label{eq:Brew}
 \end{naloga}
@@ -549,12 +550,14 @@ polja v optično redkejšem sredstvu
 ni enaka nič, saj se tam pojavi evanescentno polje\index{Evanescentno polje}.
 To je polje, ki se širi v smeri mejne ravnine, njegova amplituda pa pojema 
 eksponentno z oddaljenostjo od nje. Vdorna globina je odvisna od valovne 
-dolžine valovanja, lomnega količnika snovi in tudi od vpadnega kota. 
+dolžine valovanja, lomnega količnika snovi in vpadnega kota (glej 
+nalogo~\ref{naloga:evp}). 
 Čeprav se v optično redkejši snovi pojavi električno polje, je Poyntingov
 vektor v smeri pravokotno na mejno ploskev v povprečju enak nič, zato se energija
 v drugo snov pri totalnem odboju ne prenaša.
 \begin{naloga}
-Izračunaj električno poljsko jakost evanescentega polja. Pokaži, da
+\label{naloga:evp}
+Izračunaj električno poljsko jakost evanescentnega polja. Pokaži, da
 je vdorna globina enaka:
 \begin{equation}
 d = \frac{\lambda_0}{2 \pi\sqrt{n_1^2 \sin^2 \vartheta_1 - n_2^2}},
@@ -785,7 +788,7 @@ Do zdaj smo obravnavali elektromagnetno valovanje
 v izotropnih snoveh, v katerih je di\-elek\-tri\-čnost skalar. 
 Na splošno so snovi anizotropne,
 dielektričnost\index{Dielektričnost} je tenzor, hitrost potovanja svetlobe \index{Hitrost valovanja}
-skozi snov pa je odvisna od njene smeri in polarizacije.
+skozi snov pa je odvisna od smeri svetlobe in njene polarizacije.
 
 Gostoto električnega polja~\index{Električno polje!gostota} v anizotropni snovi zapišemo kot:
 \begin{equation}
@@ -795,7 +798,7 @@ Gostoto električnega polja~\index{Električno polje!gostota} v anizotropni snov
 \epsilon_{11} & \epsilon_{12}& \epsilon_{13}\\
 \epsilon_{21} & \epsilon_{22}& \epsilon_{23}\\
 \epsilon_{31} & \epsilon_{32}& \epsilon_{33}\\
-\end{array}\right]\mathbf{E},
+\end{array}\right]\!\!\mathbf{E},
 \label{eq:gostota-elektricnega-polja-tenzor}
 \end{equation}
 pri čemer je $\underline{\epsilon}$ tenzor drugega ranga in ima na splošno devet komponent.
@@ -809,13 +812,13 @@ diagonalen. V takem koordinatnem sistemu velja:
 \epsilon_{1} & 0& 0\\
 0 & \epsilon_{2}& 0\\
 0 & 0& \epsilon_{3}\\
-\end{array}\right]\mathbf{E}
+\end{array}\right]\!\!\mathbf{E}
  \label{eq:gostota-elektricnega-polja-lastni}
 \end{equation}
 oziroma po komponentah:
 \begin{align}
 D_{1}&=\epsilon_{0}\epsilon_{1}E_{1}, \nonumber \\
-D_{2}&=\epsilon_{0}\epsilon_{2}E_{2} \nonumber \quad \mathrm{in} \\
+D_{2}&=\epsilon_{0}\epsilon_{2}E_{2} \nonumber \qquad \mathrm{in} \\
  D_{3}&=\epsilon_{0}\epsilon_{3}E_{3}.
 \end{align}
 Glavne osi novega koordinatnega sistema določajo smeri, vzdolž katerih sta jakost
@@ -835,7 +838,8 @@ skozi kristal polarizacija valovanja ohrani, lomni količnik za
 tak val je $n_{1}$. Podobno velja za val, polariziran v smeri
 $y$, za katerega je lomni količnik enak $n_{2}$. Če polarizacija valovanja, 
 ki se širi vzdolž lastne osi $z$, ne sovpada z lastnima osema $x$ ali $y$, nastane po 
-prehodu skozi kristal iz vpadnega linearno polariziranega valovanja na splošno eliptično valovanje\index{Polarizacija!eliptična}. Lastni komponenti namreč potujeta različno
+prehodu skozi kristal iz vpadnega linearno polariziranega valovanja na splošno eliptično
+polarizirano valovanje\index{Polarizacija!eliptična}. Lastni komponenti namreč potujeta različno
 hitro, zato se med njima pojavi fazni zamik. 
 
 Za poljubno smer širjenja valovanja in poljubno polarizacijo svetlobe je račun razmeroma zapleten. 
@@ -875,9 +879,10 @@ tako, da velja $n_{1}=n_{2}\neq n_{3}$. Navadno imenujemo
 $n_{1}=n_{2}=n_{o}$ redni (\textit{ordinary})
 lomni količnik\index{Lomni količnik!redni} in $n_{3}=n_{e}$ izredni 
 (\textit{extraordinary}) lomni 
-količnik\index{Lomni količnik!izredni}\footnote{~Pogosto za $n_o$ uporabljamo oznako $n_{\perp}$ in za $n_e$ oznako $n_{\parallel}$. Oznaki
-nakazujeta smer pripadajoče lastne polarizacije glede na optično os.}. 
-V eni smeri sta lomna količnika za obe polarizaciji enaka in tisti smeri pravimo 
+količnik\index{Lomni količnik!izredni}.\footnote{~Za $n_o$ lahko uporabljamo tudi 
+oznako $n_{\perp}$ in za $n_e$ oznako $n_{\parallel}$. Oznaki
+nakazujeta smer pripadajoče lastne polarizacije glede na optično os.}
+V eni smeri sta lomna količnika za obe polarizaciji enaka in tej smeri pravimo 
 optična os. Po dogovoru je to os $z$.\index{Optična os} Hitrost valovanja, ki
 se širi vzdolž optične osi, je tako neodvisna od polarizacije.
 Ker je optična os samo ena, imenujemo tak kristal optično enoosen. 
@@ -1010,7 +1015,7 @@ linearnega polarizatorja.}\index{Polarizacija}
       KH$_2$PO$_4$ (KDP) & 1,5074 & 1,4669 \\ \hline \index{KH$_2$PO$_4$|see {KDP}}\index{KDP}
       tekoči kristal 5CB ($25~\si{\degreeCelsius}$) & 1,5319 & 1,7060 \\ 
       \hline \index{Tekoči kristali} \index{Telur}\index{Tekoči kristali!5CB}
-      telur ($\lambda = 10~\si{\micro\metre}$) & 4,7969 & 6,2455 \\ 
+      telur ($\lambda = 10~\si{\micro\metre}$) & 4,7933 & 6,2455 \\ 
 \hline 
 \end{tabular}
   \caption{Redni in izredni lomni količniki za nekaj izbranih optično enoosnih kristalov. Razen v primeru telurja
