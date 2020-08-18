@@ -268,17 +268,17 @@ z_{2}-z_{1}=L.
 \end{equation}
 Iz  enačb~(\ref{eq:krivinski1}, \ref{eq:krivinski} in \ref{eq:razlikaz}) 
 najprej izračunamo razdaljo $z_{1}$, ki določa
-lego grla v resonatorju. Rezultat uporabimo za izračun parametra $z_{0}$, ki določa
-območje bližnjega polja, in z enačbo~(\ref{eq:z0}) enolično tudi polmer snopa v grlu:
+lego grla v resonatorju. Rezultat uporabimo za izračun parametra $z_{0}$, ki z 
+enačbo~(\ref{eq:z0}) enolično določa polmer snopa v grlu:
 \begin{equation}
 z_{0}^{2}=\frac{L(R_{1}-L)(R_{2}-L)(R_{1}+R_{2}-L)}{(R_{1}+R_{2}-2L)^{2}}.
 \label{eq:z0_stab}
 \end{equation}
-Da je snop realen in omejen, mora biti $z_{0}^{2}>0$ in zato števec
+Da je snop realen in omejen, mora biti $z_{0}^{2}\geq 0$ in zato števec
 v enačbi~(\ref{eq:z0_stab}) pozitiven. Ta pogoj s kratkim računom preoblikujemo
 v stabilnostni kriterij\index{Stabilnost resonatorja}:
 \boxeq{eq:stabilnost}{
-0<\left(1-\frac{L}{R_{1}}\right)\left(1-\frac{L}{R_{2}}\right)<1.
+0\leq\left(1-\frac{L}{R_{1}}\right)\left(1-\frac{L}{R_{2}}\right)\leq 1.
 }
 Resonatorji, ki zadoščajo zapisanemu pogoju, so stabilni. 
 
@@ -301,7 +301,7 @@ Med simetričnimi stabilnimi resonatorji omenimo tri posebne vrste resonatorjev.
 Prvi je konfokalni \index{Resonator!konfokalni}resonator (a), 
 pri katerem sovpadata gorišči obeh zrcal in zanj velja $L=R$. Drugi je 
 koncentrični \index{Resonator!koncentrični}resonator (b), 
-pri katerem sovpadata krivinski središči zrcal in zanj velja $L=2R$.
+pri katerem sovpadata krivinski središči zrcal. Zanj velja $L=2R$.
 Tretji je\index{Resonator!planparalelni} planparalelni ali Fabry-Perotov (c), ki ga že poznamo. 
 Slednja sta skrajna primera stabilnega simetričnega resonatorja, saj delujeta na meji
 stabilnosti. 
@@ -324,7 +324,7 @@ resonatorja leži grlo snopa izven resonatorja.
 (b) koncentrični resonator\index{Resonator!koncentrični}, 
 (c) planparalelni (Fabry-Perot) resonator, \index{Resonator!planparalelni}
 (d) konveksno-konkavni resonator 
-in (e) plankonkavni resonator. Pri tem so $L$ dolžina resonatorja, $R_1$ in $R_2$ pa sta
+in (e) plankonkavni resonator. Pri tem je $L$ dolžina resonatorja, $R_1$ in $R_2$ pa sta
 krivinska radija zrcal.}
 \label{fig:Podrocje-stabilnih-resonatorjev}
 \end{figure}
@@ -344,9 +344,8 @@ w_{0}=\sqrt{\frac{\lambda z_{0}}{\pi}}=\sqrt{\frac{\lambda}{2\pi}}\sqrt[4]{(2R-L
 \begin{naloga}
 \label{naloga:uklon_konf}
  Izračunaj polmer
- snopa na zrcalu simetričnega resonatorja (enačba~\ref{eq:grlo_v_res}). 
- Pokaži, da je polmer snopa na 
- izhodnem zrcalu najmanjši v konfokalnem resonatorju. 
+ snopa v grlu (enačba~\ref{eq:grlo_v_res}) in na zrcalu simetričnega resonatorja. 
+ Pokaži, da je polmer snopa na zrcalu najmanjši v konfokalnem resonatorju. 
 \end{naloga} 
 
 Iz naloge~\ref{naloga:uklon_konf} sledi, da je pri dani dolžini 
@@ -354,8 +353,7 @@ resonatorja polmer snopa na zrcalu najmanjši v konfokalnih
 resonatorjih. \index{Resonator!konfokalni} Hitro uvidimo, da takrat 
 velja $z_{0}=L/2$. Dolžina območja bližnjega polja je 
 enaka dolžini resonatorja in snop se na razdalji od grla do zrcala razširi
-za $w_1/w_0=\sqrt{2}$. 
-\vglue-2truemm
+za $w_1/w_0=\sqrt{2}$.
 \begin{remark}
 Konfokalni resonatorji so najmanj občutljivi na majhne zasuke zrcal. 
 Pri zasuku zrcala se namreč v navadnih stabilnih resonatorjih premakne os, ki gre skozi 
@@ -381,7 +379,8 @@ uporabiti zrcali s krivinskim radijem okoli $50~\si{\metre}$.
 V koncentričnem resonatorju gre polmer grla (enačba~\ref{eq:grlo_v_res}) proti nič, v
 simetričnih resonatorjih z zelo velikim $R$ pa 
 raste sorazmerno z $R^{1/4}$. V resonatorjih z ravnimi zrcali 
-postanejo uklonske izgube na robovih znatne. Račun z Gaussovimi snopi tedaj ni več veljaven
+postane snop širok, zato so uklonske izgube na robovih znatne. 
+Račun z Gaussovimi snopi tedaj ni več veljaven
 in treba je uporabiti pristope, ki jih bomo opisali
 v razdelku~\ref{Resonator_uklon}.
 
@@ -419,10 +418,10 @@ Namesto zrcal se v mikroresonatorjih in vlaknih uporablja periodične dielektri�
 pride do Braggovega odboja valovanja (f).\index{Braggov odboj}
 \begin{figure}[ht]
 \centering
-\def\svgwidth{128truemm} 
+\def\svgwidth{126truemm} 
 \input{slike/04_resonatorji.pdf_tex}
 \caption{Nekaj primerov različnih oblik resonatorjev: (a) Fabry-Perotov, (b) s krogelnima
-zrcaloma, (c) ciklični, (d) mikroploščice, (e) mikrokroglice in (f) periodične strukture.}
+zrcaloma, (c) ciklični, (d) mikroploščice, (e) mikrokroglice in (f) periodične strukture}
 \label{fig:resonatorji}
 \end{figure}
 
@@ -445,7 +444,7 @@ v izhodišče. V bolj zapletenih primerih je treba upoštevati še
 prehode skozi druge optične elemente.
 
 Matriko 
-za celoten prehod zapišemo kot produkt matrik ABCD za posamezne prehode skozi 
+za celoten obhod zapišemo kot produkt matrik ABCD za posamezne prehode skozi 
 optične elemente v resonatorju $M = M_N M_{N-1} ...M_2 M_1$.
 Končni produkt za celoten obhod je matrika oblike:
 \begin{equation}
@@ -466,12 +465,12 @@ Cq^2+(D-A)q-B=0.
 Da je $w$ realen, mora biti $q$ kompleksen (enačba~\ref{eq:q-inv}) 
 in zato diskriminanta kvadratne enačbe negativna:
 \begin{equation}
-(D-A)^2+ 4BC<0.
+(D-A)^2+ 4BC\leq 0.
 \end{equation}
 Upoštevamo še, da je determinanta matrike $AD-BC=1$ (enačba~\ref{eq:detabcd}), in pogoj za 
 stabilnost resonatorja\index{Stabilnost resonatorja} zapišemo s koeficienti matrike $M$:
 \boxeq{eq:stabilnost_ABCD}{
--1 < \left(\frac{A+D}{2}\right) < 1.
+-1 \leq \left(\frac{A+D}{2}\right) \leq 1.
 }
 
 \begin{naloga}
@@ -551,7 +550,7 @@ samo od dolžine resonatorja, razmik med frekvencami snopov višjih redov pa tud
 ukrivljenosti zrcal. Primer je narisan za skoraj planparalelni resonator.}
 \label{fig:crte}
 \end{figure}
-Prvi primer naj bo zanimiv in praktično pomemben konfokalni 
+Prvi primer naj bo zanimiv in praktično pomemben simetrični konfokalni 
 resonator\index{Resonator!konfokalni}, pri katerem je $z_{0}=L/2$ in 
 $\arctan(L/2z_{0})= \arctan(1)=\pi/4$. Resonančne frekvence so:
 \begin{equation}
@@ -559,7 +558,7 @@ $\arctan(L/2z_{0})= \arctan(1)=\pi/4$. Resonančne frekvence so:
 \label{eq:omega_konf}
 \end{equation}
 Snopi, pri katerih je $2p+l$ liho število, imajo enake resonančne frekvence kot
-osnovni snopi. Pri sodih $2p+l$ se pojavijo še resonance na sredini
+osnovni snopi. Pri sodih $2p+l$ se pojavijo dodatne resonance na sredini
 med frekvencami osnovnega snopa. Razmik med so\-sed\-nji\-mi frekvencami je tako $\Delta\nu=c/4L$
 in konfokalni resonator se obnaša kot dvakrat daljši planparalelni.
 To lahko razumemo tudi iz geometrijske slike: žarek, ki vstopi v konfokalni
@@ -604,7 +603,7 @@ Te izgube želimo navadno kar se da zmanjšati.
 Pri dani geometriji imajo najmanjši polmer osnovni snopi. Snopi višjega\index{Uklon}
 reda so širši, zato imajo večje uklonske izgube. Merilo za uklonske
 izgube je Fresnelovo število\index{Fresnelovo število} (enačba~\ref{eq:Fresnelovo_stevilo}) 
-$F=a^{2}/(L\lambda)$, kjer je $a$ polmer zrcal. Pri enakem $F$ je
+$F=a^{2}/(L\lambda)$, pri čemer je $a$ polmer zrcal. Pri enakem $F$ je
 polmer snopa na izhodnem zrcalu najmanjši, če je resonator konfokalni\index{Resonator!konfokalni}, 
 zato ima tak resonator tudi najmanjše uklonske izgube (glej nalogo~\ref{naloga:uklon_konf}).
 Navadno so uklonske izgube zanemarljive. 
@@ -612,7 +611,7 @@ Navadno so uklonske izgube zanemarljive.
 
 Zmanjševanje energije v resonatorju popišemo z enačbama:
 \begin{equation}
-\frac{dW}{dt}=-\frac{2}{\tau}W,
+\frac{dW}{dt}=-\frac{2}{\tau}W
 \label{eq:dW}
 \end{equation}
 in 
@@ -663,16 +662,16 @@ s celotno širino črte, ki ustreza ravno:
 \end{equation}
 Lastne krožne frekvence torej niso neskončno ozke, ampak imajo končno širino $2/\tau$.
 Poglejmo primer. Naj bodo notranje izgube na obhod $\Lambda_0=0,01$,
-eno zrcalo naj bo idealno (${\cal R}_1=1$), drugo naj ima odbojnost ${\cal R})2=0,93$. Dolžina
-resonatorja naj bo $L=0,5~\si{\metre}$ in valovna dolžina $500~\si{\nano\metre}$. Tedaj
-je po enačbi~(\ref{eq:taucca}) $1/\tau=12\times10^{6}~\si{\second}^{-1}$. Zanimivo je razmerje med 
+eno zrcalo naj bo idealno (${\cal R}_1=1$), drugo naj ima odbojnost ${\cal R}_2=0,93$. Dolžina
+resonatorja naj bo $L=0,5~\si{\metre}$ in valovna dolžina $500~\si{\nano\metre}$. Iz enačbe~(\ref{eq:taucca}) izračunamo $1/\tau=12\times10^{6}~\si{\second}^{-1}$. 
+Zanimivo je razmerje med 
 razliko krožnih frekvenc $\Delta \omega_n$ 
 (enačba~\ref{eq:delta-omega-resonator}) in širino resonance $2/\tau$. 
 Za opisani primer velja $\Delta\omega_n\tau/2 \approx 80$.
 
 \begin{remark}
 Namesto razpadnega časa $\tau$ se za opis izgub pogosto uporablja
-dobrota resonatorja\index{Dobrota resonatorja}, ki jo vpeljemo kot
+dobrota resonatorja\index{Dobrota resonatorja} $Q$, ki jo vpeljemo kot
 razmerje med resonančno krožno frekvenco in širino črte:
 \begin{equation}
 Q=\frac{\omega_{n}}{2\gamma} = \frac{\omega_{n}\tau}{2}.
@@ -683,16 +682,16 @@ frekvenca $\omega_n \sim 10^{15}~\si{\second}^{-1}$, širina pa reda
  resonatorji imajo zelo velike faktorje dobrote.
 \end{remark}
 
-Poglejmo še primer, ko je $\Lambda_0 \approx 0$ in ${\cal R}_1 = {\cal R}_2$.
+Poglejmo še primer, ko je $\Lambda_0 \approx 0$ in ${\cal R}_1 = {\cal R}_2 = {\cal R}$.
 Iz enačbe~(\ref{taulambda}) sledi:
 \boxeq{eq:taucca2}{
 \frac{2}{\tau}=\frac{c}{L} (1-{\cal R}).
 }
 
 Do istega rezultata pridemo tudi z razvojem izraza za prepustnost Fabry-Perotovega 
-interferometra\index{Fabry-Perotov interferometer} pri pravokotnem vpadu (enačba~\ref{eq:Fabry-Perot-prepustnost}) okoli vrha pri $\omega_{n}$:
+interferometra\index{Fabry-Perotov interferometer} (enačba~\ref{eq:Fabry-Perot-prepustnost}) pri pravokotnem vpadu  okoli vrha pri $\omega_{n}$:
 \begin{equation}
-T=\frac{1}{1+\frac{4{\cal R}}{(1-{\cal R})^{2}}\sin^{2}L\frac{(\omega-\omega_{n})}{c}}\approx 
+T=\frac{1}{1+\frac{4{\cal R}}{(1-{\cal R})^{2}}\sin^{2}\left((\omega-\omega_{n})L/c\right)}\approx 
 \frac{1}{1+\left(\frac{2}{(1-{\cal R})}\frac{L}{c}(\omega-\omega_{n})\right)^{2}},
 \label{3.27}
 \end{equation}
