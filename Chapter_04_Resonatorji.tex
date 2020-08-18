@@ -35,7 +35,7 @@ obravnavali v nadaljevanju.
 \begin{remark}
 Poleg optičnih resonatorjev poznamo resonatorje tudi na drugih področjih, 
 na primer akustične resonatorje pri glasbilih ali mikrovalovne in radijske resonatorje. 
-V mikrovalovnem področju, kjer so valovne dolžine valovanja
+V mikrovalovnem delu spektra, kjer so valovne dolžine valovanja
 okoli $1~\si{\centi\metre}$, 
 so resonatorji zaprte kovinske votline z dimenzijami, ki so primerljive z 
 valovno dolžino vzbujenega valovanja. Resonančne frekvence so v takem resonatorju 
@@ -48,7 +48,7 @@ od valovne dolžine svetlobe. Za primer resonatorja vzemimo kocko s stranico $L\
 v kateri je vzbujeno zelo veliko število lastnih nihanj. Število lastnih nihanj $N$ 
 na frekvenčni interval $\Delta \nu$ zapišemo z zvezno gostoto 
 stanj\index{Gostota stanj}\footnote{Glej npr. B. E. A. Saleh in M. C. Teich, 
-{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}:
 \begin{equation}
 N=2 \frac{1}{8} 4\pi k^{2}\Delta k \frac{1}{(\pi/L)^3}=\frac{\omega^{2}}{\pi^{2}c^{3}}V\Delta\omega=
 \frac{8\pi \nu^{2}}{c^{3}}V\Delta\nu.
@@ -59,14 +59,14 @@ valovnega vektorja med $k$ in $k+\Delta k$: volumen pripadajoče krogelne lupine
 $\frac{1}{8} 4\pi k^{2}\Delta k$ smo delili z volumnom $(\pi/L)^3$, ki pripada enemu stanju. 
 Upoštevali smo tudi, da ima vsako lastno nihanje lahko dve polarizaciji.
 
-Poglejmo primer. Izberimo osrednjo frekvenco $\nu=3\cdot10^{14}~\si{\hertz}$, ki
+Poglejmo primer. Izberimo osrednjo frekvenco $\nu=3\times10^{14}~\si{\hertz}$, ki
 ustreza valovni dolžini $1~\si{\micro\metre}$, in širino frekvenčnega
-intervala $\Delta\nu=3\cdot10^{9}~\si{\hertz}$, ki je značilna za Dopplerjevo
+intervala $\Delta\nu=3\times10^{9}~\si{\hertz}$, ki je značilna za Dopplerjevo
 razširjeno emisijsko črto v plinu\index{Dopplerjeva razširitev} (glej razdelek~\ref{Razsiritev}). 
 Potem je v votlini s stranico $L=1~\si{\centi\metre}$ 
 in prostornino $V=1~\si{\centi\metre^3}$ število lastnih nihanj na izbran frekvenčni interval 
 po enačbi~(\ref{eq:N-stevilo-stanj}) enako
-$N=2,5\cdot10^{8}$. Če bi bile vse stene votline idealna zrcala,
+$N=2,5\times10^{8}$. Če bi bile vse stene votline idealna zrcala,
 bi bil čas dušenja vseh lastnih nihanj približno enako dolg in vedno bi vzbujali
 zelo veliko število resonanc hkrati. Tak resonator bi bil neuporaben.
 
@@ -89,22 +89,22 @@ iz odprtega resonatorja uidejo (b).}
 
 Obravnavajmo odprte resonatorje podrobneje. V zaprti pravokotni votlini velikosti
 $a\times a\times L$ z idealno odbojnimi stenami so vrednosti
-valovnega vektorja za lastna nihanja \index{Valovni vektor}
+valovnega vektorja za lastna nihanja\index{Valovni vektor}:
 \begin{equation}
 \mathbf{k}_{l,m,n}=\left(\frac{l\pi}{a}\,,\frac{m\pi}{a}\,,\frac{n\pi}{L}\right)\!\!,\label{eq:k-votlina}
 \end{equation}
-kjer so $l$, $m$ in $n$ cela števila, $L$ dolžina in $a$ prečna
+pri čemer so $l$, $m$ in $n$ cela števila, $L$ dolžina in $a$ prečna
 dimenzija resonatorja. 
 
-Lastne krožne frekvence resonatorja so 
+Lastne krožne frekvence resonatorja so:
 \begin{equation}
 \omega_{l,m,n}=c|\mathbf{k}_{l,m,n}|,\label{eq:omega-votlina}
 \end{equation}
 pri čemer je $c$ hitrost valovanja v resonatorju.
-Ker je dolžina resonatorja $L$ velika v primerjavi z $\lambda$, je $n$
+Ker je dolžina resonatorja $L$ velika v primerjavi z $\lambda$, je tretji indeks $n$
 zelo veliko število. Če prečnih sten ni, je vektor $\mathbf{k}$ približno
 vzporeden z osjo $z$ in števili $l$ in $m$ sta majhni. Tedaj
-lahko velikost valovnega vektorja razvijemo in krožno frekvenco zapišemo kot
+lahko velikost valovnega vektorja razvijemo in krožno frekvenco zapišemo kot:
 \begin{equation}
 \omega_{l,m,n}=c\left(\frac{n\pi}{L}+\frac{l^{2}+m^{2}}{2n}\frac{L \pi}{a^{2}}\right)\!\!.
 \label{eq:delta-omega-resonator-razvoj}
@@ -112,14 +112,14 @@ lahko velikost valovnega vektorja razvijemo in krožno frekvenco zapišemo kot
 Drugi člen v oklepaju je le majhen popravek, tako da so
 lastne frekvence odprtih optičnih resonatorjev odvisne predvsem od
 števila vozlov v vzdolžni smeri. To število je navadno veliko, med $10^{5}$
-in $10^{7}$. Mogoča so tudi lastna nihanja z nekaj vozli v prečni
+in $10^{7}$. Mogoča so tudi lastna nihanja višjega reda z nekaj vozli v prečni
 smeri, ki pa navadno le malo vplivajo na lastne frekvence. V nadaljevanju
 bomo obravnavali predvsem lastna nihanja brez vozlov v prečni smeri in
 jih označili z enim samim indeksom $n$.
 
 Razlika med frekvencama dveh zaporednih lastnih nihanj\index{Lastne frekvence resonatorja} z
 indeksoma 
-$n$ in $n+1$ je
+$n$ in $n+1$ je:
 \boxeq{eq:delta-omega-resonator}{
 \Delta\omega_n=\frac{\pi c}{L}
 }
@@ -128,7 +128,7 @@ oziroma
 \Delta \nu_n = \frac{c}{2L}.
 }
 Pri dolžini resonatorja $L=30~\si{\centi\metre}$ je v frekvenčnem
-intervalu $\Delta \nu = 3\cdot10^{9}~\si{\hertz}$ le še $\Delta \nu /\Delta \nu_n = 6$ lastnih 
+intervalu $\Delta \nu = 3\times10^{9}~\si{\hertz}$ le še $\Delta \nu /\Delta \nu_n = 6$ lastnih 
 nihanj, ki jih je brez težav mogoče razločiti.
 
 V zaprtih votlinah z zrcalnimi stenami obstajajo dobro določena lastna
@@ -149,7 +149,7 @@ a_2 > L \vartheta = L\frac{\lambda}{a_1}\qquad \mathrm{oziroma} \qquad
 \frac{a_{1}a_{2}}{\lambda L}>1,
 \label{eq:Fresnelovo_stevilo}
 \end{equation}
-kjer sta $a_{1}$ in $a_{2}$ polmera zrcal. Izrazu 
+pri čemer sta $a_{1}$ in $a_{2}$ polmera zrcal. Izrazu:
 $
 F = a_{1}a_{2}/\lambda L
 $
@@ -164,20 +164,21 @@ interferometer}Fabry-Perotov
 interferometer\footnote{Francoska fizika Maurice Paul Auguste Charles Fabry, 1867--1945, in 
 Jean-Baptiste Alfred Perot, 1863--1925.}. 
 Da lahko med zrcaloma vzbudimo stoječe valovanje izbrane valovne dolžine, mora biti razdalja 
-med zrcaloma večkratnik polovične valovne dolžine
+med zrcaloma večkratnik polovične valovne dolžine:
 \begin{equation}
 L = \frac{n \lambda}{2}.
 \end{equation}
 Prepustnost interferometra za ravni val, ki vpada na zrcali z
 odbojnostjo ${\cal R}$, lahko izračunamo (glej nalogo~\ref{naloga:FP}). Prepustnost $T$, to je 
 razmerje med intenzitetama prepuščenega in vpadnega valovanja, je odvisna še
-od frekvence vpadnega valovanja $\nu$ in dolžine resonatorja $L$. Zaradi splošnosti upoštevamo
-še vpadni kot $\vartheta$, ki je lahko različen od nič. Prepustnost
+od krožne frekvence vpadnega valovanja $\omega$ in dolžine resonatorja $L$. Zaradi splošnosti upoštevamo
+tudi vpadni kot $\vartheta$, ki je lahko različen od nič, in zapišemo prepustnost:
 \begin{equation}
-T=\frac{I}{I_0} = \frac{1}{1+\frac{4{\cal R}}{(1-{\cal R})^{2}}\sin^{2}(2 \pi \nu L\cos \vartheta/c)}.
+T=\frac{I}{I_0} = \frac{1}{1+\frac{4{\cal R}}{(1-{\cal R})^{2}}\sin^{2}(\omega L\cos \vartheta/c)}.
 \label{eq:Fabry-Perot-prepustnost}
 \end{equation}
-je prikazana na sliki~\ref{fig:Fabry-Perot} za tri različne odbojnosti zrcal ${\cal R}$.
+Na sliki~\ref{fig:Fabry-Perot} je prikazana prepustnost $T(\nu)$ za tri različne 
+odbojnosti zrcal ${\cal R}$.
 \begin{figure}[ht]
 \centering
 \def\svgwidth{85truemm} 
@@ -348,7 +349,7 @@ w_{0}=\sqrt{\frac{\lambda z_{0}}{\pi}}=\sqrt{\frac{\lambda}{2\pi}}\sqrt[4]{(2R-L
  izhodnem zrcalu najmanjši v konfokalnem resonatorju. 
 \end{naloga} 
 
-Iz naloge~(\ref{naloga:uklon_konf}) sledi, da je pri dani dolžini 
+Iz naloge~\ref{naloga:uklon_konf} sledi, da je pri dani dolžini 
 resonatorja polmer snopa na zrcalu najmanjši v konfokalnih 
 resonatorjih. \index{Resonator!konfokalni} Hitro uvidimo, da takrat 
 velja $z_{0}=L/2$. Dolžina območja bližnjega polja je 
@@ -382,7 +383,7 @@ simetričnih resonatorjih z zelo velikim $R$ pa
 raste sorazmerno z $R^{1/4}$. V resonatorjih z ravnimi zrcali 
 postanejo uklonske izgube na robovih znatne. Račun z Gaussovimi snopi tedaj ni več veljaven
 in treba je uporabiti pristope, ki jih bomo opisali
-v razdelku~(\ref{Resonator_uklon}).
+v razdelku~\ref{Resonator_uklon}.
 
 Poleg osnovnega Gaussovega snopa rešijo obosno enačbo tudi snopi višjega reda. 
 Ti imajo enak parameter $z_{0}$ in enako ukrivljenost $R$, zato tudi taki snopi 
@@ -664,7 +665,7 @@ Lastne krožne frekvence torej niso neskončno ozke, ampak imajo končno širino
 Poglejmo primer. Naj bodo notranje izgube na obhod $\Lambda_0=0,01$,
 eno zrcalo naj bo idealno (${\cal R}_1=1$), drugo naj ima odbojnost ${\cal R})2=0,93$. Dolžina
 resonatorja naj bo $L=0,5~\si{\metre}$ in valovna dolžina $500~\si{\nano\metre}$. Tedaj
-je po enačbi~(\ref{eq:taucca}) $1/\tau=12\cdot10^{6}~\si{\second}^{-1}$. Zanimivo je razmerje med 
+je po enačbi~(\ref{eq:taucca}) $1/\tau=12\times10^{6}~\si{\second}^{-1}$. Zanimivo je razmerje med 
 razliko krožnih frekvenc $\Delta \omega_n$ 
 (enačba~\ref{eq:delta-omega-resonator}) in širino resonance $2/\tau$. 
 Za opisani primer velja $\Delta\omega_n\tau/2 \approx 80$.
