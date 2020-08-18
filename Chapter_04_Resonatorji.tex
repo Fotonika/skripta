@@ -717,7 +717,7 @@ Introduction to Modern Optics}, druga izdaja, Dover Publications (1975).}
 
 Označimo jakost električnega polja v točki $P_{1}$ na prvem zrcalu z $E_{1}$.
 Polje na drugem zrcalu v točki $P_2$ zapišemo s Kirchhoffovim uklonskim
-integralom\index{Kirchhoffov integral} (enačba~\ref{eq:Fresnelov-uklon})
+integralom\index{Kirchhoffov integral} (enačba~\ref{eq:Fresnelov-uklon}):
 \begin{equation}
 E_{2} =  -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{r}\, dS_{1}.
 \label{eq:resuklon}
@@ -732,19 +732,19 @@ kot med zveznico in normalo na zrcali v osi (slika~\ref{fig:uklon_res_shema}).
 \label{fig:uklon_res_shema}
 \end{figure}
 
-Enačbo~(\ref{eq:resuklon}) prepišemo v 
+Enačbo~(\ref{eq:resuklon}) prepišemo v:
 \begin{equation}
 E_2 =  \int_{1}E_{1}(P_{1})K(P_{1},P_{2})dS_{1}.
 \end{equation}
 
-Pri tem smo vpeljali
+Pri tem smo vpeljali:
 \begin{equation}
 K(P_{1},P_{2}) = -\frac{i}{2\lambda}\frac{e^{ikr}(1+\cos\vartheta)}{r},
 \label{jedro}
 \end{equation}
 ki predstavlja jedro integralske enačbe. Polje na prvem zrcalu je 
 na enak način povezano s poljem na drugem zrcalu. Če naj zapisano polje predstavlja lastno nihanje
-resonatorja, mora biti po dveh odbojih sorazmerno začetnemu polju in
+resonatorja, mora biti po dveh odbojih sorazmerno začetnemu polju in:
 \begin{equation}
 E_{1}(P)=\gamma\int_{1}\int_{2}E_{1}(P_{1})K(P_{1},P_{2})K(P_{2},P_1)\, dS_{1}\, dS_{2}.
 \label{3.71}
@@ -766,8 +766,8 @@ za predznak.
 
 Vpeljemo kartezične koordinate na obeh zrcalih, kot kaže slika~\ref{fig:uklon_res_shema}.
 Pričakujemo, da bo prečna razsežnost lastnega nihanja majhna v primerjavi
-z dolžino resonatorja $L$, zato lahko $r$ razvijemo, pri čemer se kvadratni členi ravno odštejejo 
-zaradi ukrivljenosti zrcal. Ostaneta le še mešana člena
+z dolžino resonatorja $L$, zato lahko $r$ razvijemo, pri čemer se kvadratni členi  
+zaradi ukrivljenosti zrcal odštejejo. Ostaneta le še mešana člena:
 \begin{equation}
 r\approx L-\frac{xx^{\prime}+yy^{\prime}}{L}.
 \label{3.72}
@@ -777,42 +777,42 @@ V imenovalcu jedra integrala (enačba~\ref{jedro}) zato lahko $r$ nadomestimo
 z $L$. Koti med zveznico točk na obeh zrcalih in normalo na zrcali
 so majhni, zato je  $\cos\vartheta \approx 1$. 
 
-Tako iz enačbe~(\ref{eq:resuklon}) sledi
+Tako iz enačbe~(\ref{eq:resuklon}) sledi:
 \begin{equation}
 E(x',y')=\pm\frac{ie^{ikL}}{\lambda L}\int E(x,y)\exp
 \left(\frac{-ik(xx^{\prime}+yy^{\prime})}{L}\right)\, dx\, dy.
 \label{3.73}
 \end{equation}
 Integracija poteka po celotnem zrcalu. Jedro integrala je produkt dveh
-faktorjev, ki vsebujeta vsak le $x'$ ali $y'$ koordinati. Zato poiščemo
+faktorjev, ki vsebujeta vsak le koordinati $x'$ ali $y'$. Zato poiščemo
 rešitev enačbe~(\ref{3.73}) v obliki  
 $E(x',y')=E_{0}f(x')g(y')$.
-S tem nastavkom mora funkcija $f(x')$ zadoščati enačbi
+S tem nastavkom mora funkcija $f(x')$ zadoščati enačbi:
 \begin{equation}
 \alpha f(x')=\int f(x)\exp\left(\frac{-ikxx^{\prime}}{L}\right)\, dx,
 \label{3.75}
 \end{equation}
-kjer je $\alpha$ še neznana konstanta. Meje integrala so od enega do 
+pri čemer je $\alpha$ še neznana konstanta. Meje integrala so od enega do 
 drugega roba zrcala. Če je zrcalo dovolj veliko,
 je polje na robu dovolj majhno, da lahko meje razširimo
-na $-\infty$ do $\infty$. Vpeljemo še brezdimenzijski koordinati
+na $-\infty$ do $\infty$. Vpeljemo še brezdimenzijski koordinati:
 \begin{equation}
 X=x\sqrt{k/L} \qquad \mathrm{in} \qquad X'=x'\sqrt{k/L}
 \label{3.76}
 \end{equation}
-in dobimo
+in dobimo:
 \begin{equation}
 \alpha f(X')=\sqrt{\frac{L}{k}}\int_{-\infty}^{\infty}f(X)e^{-iXX^{\prime}}\, dX.
 \label{3.77}
 \end{equation}
 Enačba~(\ref{3.77}) pravi, da mora
 biti $f(X)$ podobna svoji Fourierevi transformiranki. Najpreprostejša
-funkcija s to lastnostjo je Gaussova funkcija 
+funkcija s to lastnostjo je Gaussova funkcija:
 \begin{equation}
 f(X)=\exp\left(-\frac{1}{2}X^{2}\right)\!\!.
 \label{3.78}
 \end{equation}
-Podobno napravimo tudi za $g(Y)$. Polje na zrcalu ima po pričakovanju obliko Gaussovega snopa
+Podobno napravimo tudi za $g(Y)$. Polje na zrcalu ima po pričakovanju obliko Gaussovega snopa:
 \begin{equation}
 E(x,y)=E_{0}\exp\left(-\frac{k(x^{2}+y^{2})}{2L}\right)\!\!.
 \label{3.79}
@@ -824,14 +824,14 @@ $\alpha = \sqrt{2\pi L/k}=\sqrt{\lambda L}$.
 Postavimo izračunano jakost električnega
 polja (enačba~\ref{3.79}) z ustrezno vrednostjo za $\alpha$ v 
 enačbo~(\ref{3.73}) in upoštevajmo, da mora biti
-$E_{2}=\pm E_{1}$. Dobimo
+$E_{2}=\pm E_{1}$. Dobimo:
 \begin{equation}
 i\alpha^{2}\frac{e^{ikL}}{\lambda L}=ie^{ikL}=\pm1.
 \label{3.80}
 \end{equation}
 Iz tega izpeljemo resonančni pogoj za frekvence lastnega nihanja 
 in izračunamo razliko med dvema lastnima krožnima frekvencama, 
-ki jo že poznamo~(enačba~\ref{eq:deltaomega})
+ki jo že poznamo~(enačba~\ref{eq:deltaomega}):
 \begin{equation}
 \Delta \omega_n=\frac{\pi c}{L}.
 \label{3.81}
@@ -850,33 +850,33 @@ in izračunaj lastne frekvence nihanj višjega reda.
 Na začetku poglavja smo omenili, da resonatorjev ne uporabljamo le pri 
 izdelavi laserjev, ampak tudi kot frekvenčne in
 prostorske filtre za svetlobno valovanje. Povezavo med lastnimi nihanji
-resonatorja in prepustnostjo ter odbojnostjo valovanja, ki na resonator
+resonatorja ter prepustnostjo in odbojnostjo valovanja, ki na resonator
 vpada, bomo poiskali s formalizmom sklapljanja valovanj, 
 ki je neke vrste perturbacijska analiza in je pogosto zelo uporaben.
 
 Začnimo z resonatorjem z idealno odbojnimi stenami brez notranjih izgub. Stoječe
 lastno valovanje\index{Stoječe valovanje} v resonatorju zapišemo kot produkt krajevnega in časovnega
-dela
+dela:
 \begin{equation}
 E(\mathbf{r},t)=f(t)g(\mathbf{r}).
 \label{3.31}
 \end{equation}
 Krajevni del $g(\mathbf{r})$ naj bo normiran tako, da je $\int g^{2}dV=1$. Iz valovne
 enačbe (enačba~\ref{eq:valovna-skalarna}) sledi, da mora časovni del zadoščati 
-nihajni enačbi drugega reda
+nihajni enačbi drugega reda:
 \begin{equation}
 \frac{d^2f}{dt^2} + \omega_{n}^{2}f=0.
 \label{3.32}
 \end{equation}
 Vpeljemo spremenljivko $a$ kot kombinacijo funkcije $f$ in njenega
-časovnega odvoda
+časovnega odvoda:
 \begin{equation}
 a=\sqrt{\frac{\epsilon_{0}}{2}}(f+\frac{i}{\omega_{n}}\frac{df}{dt}).
 \label{3.33}
 \end{equation}
 Izbira predfaktorja bo razvidna v nadaljevanju. 
 Z odvajanjem in uporabo nihajne enačbe (enačba~\ref{3.32}) ugotovimo, da za $a$ velja 
-diferencialna enačba 
+diferencialna enačba:
 \begin{equation}
 \frac{da}{dt}=-i\omega_{n}a.
 \label{3.34}
@@ -884,7 +884,7 @@ diferencialna enačba
 Funkcija $a$ ima torej preprosto časovno odvisnost $e^{-i\omega_{n}t}$.
 
 Poglejmo elektromagnetno energijo v resonatorju. Električni
-del energije polja, ki je ravno polovica celotne energije, zapišemo kot
+del energije polja, ki je ravno polovica celotne energije, zapišemo kot:
 \begin{equation}
 W_e = \frac{1}{2}\varepsilon_0 \int E^2 dV = \frac{1}{2}\epsilon_{0}f^{2}
 \int g^{2}dV = \frac{1}{4} (a+a^{*})^2.
@@ -893,7 +893,7 @@ V spremenljivki $a$ in konjugirani spremenljivki $a^{*}$ prepoznamo
 klasično obliko anihilacijskih in kreacijskih operatorjev v kvantnomehanskem 
 opisu harmonskega oscilatorja. 
 
-Celotna energija lastnega nihanja resonatorja je po analogiji iz kvantne mehanike enaka
+Celotna energija lastnega nihanja resonatorja je po analogiji iz kvantne mehanike enaka:
 \begin{equation}
 W=|a|^2.
 \label{3.35}
@@ -903,7 +903,7 @@ zato ji pravimo tudi komponenta amplitude s pozitivno frekvenco.
 Prednost uporabe spremenljivke $a$ je v preprostejših enačbah, ki so le prvega reda. 
 
 \index{Izgube v resonatorju} 
-Izgube v resonatorju opišemo z dodatnim členom v enačbi~(\ref{3.34})
+Izgube v resonatorju opišemo z dodatnim členom v enačbi~(\ref{3.34}):
 \begin{equation}
 \frac{da}{dt}=-i\omega_{n}a-\frac{1}{\tau}a.
 \label{3.36}
@@ -919,25 +919,25 @@ Naj bo odbojnost enega zrcala resonatorja nekoliko manjša od 1. Izgube v resona
 potem opišemo kot (enačba~\ref{eq:taucca}) $1/\tau=(1-{\cal R})c/(4L)$. Druga posledica
 zmanjšane odbojnosti je sklopitev resonatorja z okolico. To pomeni, 
 da valovanje izhaja iz resonatorja, po drugi strani pa to pomeni tudi, da je 
-lastno nihanje mogoče vzbujati z valovanjem, ki na resonator vpada.
+lastno nihanje mogoče vzbujati z valovanjem, ki vpada na resonator.
 
 Naj $s_{+}$ opiše snop valovanja, ki vpada na resonator. Amplituda $s_{+}$
 naj bo izbrana tako, da je $|s_{+}|^{2}$ enako moči vpadnega valovanja. Zaenkrat
 tudi zanemarimo notranje izgube resonatorja. Potem lahko
-zapišemo 
+zapišemo:
 \begin{equation}
 \frac{da}{dt}=-i\omega_{n}a-\frac{1}{\tau}a+\kappa s_{+},
 \label{3.37}
 \end{equation}
-kjer je $\kappa$ sklopitveni koeficient med vpadnim valovanjem in
+pri čemer je $\kappa$ sklopitveni koeficient med vpadnim valovanjem in
 amplitudo lastnega nihanja. Koeficient $\kappa$ je določen
 s prepustnostjo zrcala, ki pa je vsebovana tudi v $1/\tau$. Koeficient
-$\kappa$ torej ni neodvisen in poiščimo zvezo med $\kappa$ in $1/\tau$.
+$\kappa$ torej ni neodvisen, zato poiščimo zvezo med $\kappa$ in $1/\tau$.
 
 Naj ima vpadno valovanje krožno  frekvenco $\omega$. Tedaj lahko iz enačbe~(\ref{3.37}) 
 izračunamo amplitudo nihanja v stacionarnem stanju. Upoštevamo, 
 da mora imeti v stacionarnem stanju nihanje enako frekvenco
-kot vpadni val. Sledi 
+kot vpadni val. Sledi:
 \begin{equation}
 a=\frac{\kappa s_{+}}{i(\omega_{n}-\omega)+1/\tau}.
 \label{3.38}
@@ -945,12 +945,12 @@ a=\frac{\kappa s_{+}}{i(\omega_{n}-\omega)+1/\tau}.
  
 Označimo del valovanja, ki se od resonatorja odbije ali iz njega izvira, s $s_{-}$.
 Če vpadnega vala ni, energija nihanja pojema zaradi odtekanja v $s_{-}$.
-Ohranitev energije da 
+Ohranitev energije da:
 \begin{equation}
 \frac{dW}{dt}=\frac{d}{dt}|a|^{2}=-\frac{2}{\tau}|a|^{2}=-|s_{-}|^{2}.
 \label{3.39}
 \end{equation}
-Sledi
+Sledi:
 \begin{equation}
 |s_{-}|=\sqrt{\frac{2}{\tau}}|a|,
 \label{3.40}
@@ -958,19 +958,19 @@ Sledi
 pri čemer smo fazo $s_{-}$ priredili z izbiro referenčne ravnine.
 
 Ob prisotnosti vpadnega vala $s_{+}$ lahko izhajajoči val zapišemo kot
-vsoto direktnega odboja vpadnega vala $s_{+}$ in prispevka iz resonatorja
+vsoto direktnega odboja vpadnega vala $s_{+}$ in prispevka iz resonatorja:
 \begin{equation}
 s_{-}=rs_{+}+\sqrt{\frac{2}{\tau}}a,
 \label{3.41}
 \end{equation}
 kjer $r$ zaenkrat še ne poznamo. Ker ni notranjih izgub, mora biti v 
-stacionarnem stanju vpadna moč enaka izhajajoči
+stacionarnem stanju vpadna moč enaka izhajajoči:
 \begin{equation}
 |s_{+}|^{2}=|s_{-}|^{2}.
 \label{3.42}
 \end{equation}
-Uporabimo še izraz za stacionarno vrednost $a$  (enačba~\ref{3.38}) in zapišemo
-enakost 
+Uporabimo še izraz za stacionarno vrednost $a$ (enačba~\ref{3.38}) in zapišemo
+enakost:
 \begin{equation}
 r^{2}+\frac{2(\tau\kappa^{2}+r\kappa\sqrt{2\tau})}{1+\tau^{2}(\omega_{n}-\omega)^{2}}=1.
 \label{3.43}
@@ -982,12 +982,12 @@ Ker sta $\tau$ in $\kappa$ pozitivna, je $r=-1$ in
 \kappa=\sqrt{\frac{2}{\tau}}.
 \label{3.44}
 \end{equation}
- Odbito valovanje zapišemo 
+ Odbito valovanje zapišemo:
 \begin{equation}
 s_{-}=-s_{+}+\sqrt{\frac{2}{\tau}}a.
 \label{3.45}
 \end{equation}
-Z upoštevanjem notranjih izgub, ki jih popišemo s $\tau_0$, se amplituda nihanja spremeni v 
+Z upoštevanjem notranjih izgub, ki jih popišemo s $\tau_0$, se amplituda nihanja spremeni v:
 \begin{equation}
 \frac{da}{dt}=-i\omega_{n}a-\left(\frac{1}{\tau_{0}}+\frac{1}{\tau}\right)a+
 \sqrt{\frac{2}{\tau}}s_{+}.
@@ -997,13 +997,13 @@ Z upoštevanjem notranjih izgub, ki jih popišemo s $\tau_0$, se amplituda nihan
 resonatorjev z enim vhodom. Za primer uporabe izračunajmo odbojnost
 resonatorja $s_{-}/s_{+}$ kot funkcijo frekvence vpadnega vala. V
 enačbo~(\ref{3.45}) vstavimo izraz za stacionarno vrednost amplitude
-nihanja 
+nihanja:
 \begin{equation}
 a=\frac{\sqrt{\frac{2}{\tau}}s_{+}}{i(\omega_{n}-\omega)+(\frac{1}{\tau_{0}}+
 \frac{1}{\tau})}.
 \label{3.47}
 \end{equation}
-Dobimo
+Dobimo:
 \begin{equation}
 \frac{s_{-}}{s_{+}}=\frac{\frac{1}{\tau}-\frac{1}{\tau_0}-i(\omega_{n}-\omega)}
 {\frac{1}{\tau}
@@ -1018,37 +1018,37 @@ je analogna zahtevi, da mora biti impedanca bremena na koncu valovoda
 ali koaksialnega kabla enaka impedanci valovoda oziroma kabla.
 
 Če sta obe zrcali resonatorja delno prepustni, kot na primer pri 
-Fabry-Perotovem interferometru, je enačba za amplitudo nihanja 
+Fabry-Perotovem interferometru, je enačba za amplitudo nihanja:
 \begin{equation}
 \frac{da}{dt}=-i\omega_{n}a-\left(\frac{1}{\tau_{0}}+\frac{1}{\tau_{1}}+\frac{1}{\tau_{2}}\right)
 a+\kappa_{1}s_{+1}+\kappa_{2}s_{+2},
 \label{3.49}
 \end{equation}
- kjer sta $s_{+1}$ in $s_{+2}$ valovanji, ki vpadata z ene in druge strani.
-Izgube zaradi končne prepustnosti so
+pri čemer sta $s_{+1}$ in $s_{+2}$ valovanji, ki vpadata z ene in druge strani.
+Izgube zaradi končne prepustnosti so:
 \begin{equation}
 \frac{1}{\tau_{1,2}}=\frac{c}{4L}(1-{\cal R}_{1,2}).\label{3.50}
 \end{equation}
 S podobnim razmislekom kot prej, s tem da postavimo najprej eno, nato drugo
-vpadno valovanje na nič, dobimo 
+vpadno valovanje na nič, dobimo: 
 \begin{equation}
 \kappa_{1,2}=\sqrt{\frac{2}{\tau_{1,2}}}.
 \label{3.51}
 \end{equation}
 Prepustnost resonatorja -- oziroma razmerje med močjo vpadnega valovanja
-na eni strani in izhodnega na drugi -- je
+na eni strani in izhodnega na drugi -- je:
 \begin{equation}
 T=\frac{|s_{-2}|^{2}}{|s_{+1}|^{2}}=\frac{2}{\tau_{2}}\frac{|a|^{2}}{|s_{+1}|^{2}}=\frac{4\tau_c^{2}/
 \tau_{1}\tau_{2}}{1+\tau_c^{2}(\omega_{n}-\omega)^{2}},
 \label{3.52}
 \end{equation}
- kjer je $1/\tau_c=1/\tau_{0}+1/\tau_{1}+1/\tau_{2}$. 
- Če ni notranjih izgub, je prepustnost v resonanci 
+pri čemer je $1/\tau_c=1/\tau_{0}+1/\tau_{1}+1/\tau_{2}$. 
+ Če ni notranjih izgub, je prepustnost v resonanci:
 \begin{equation}
 T=\frac{4/\tau_{1}\tau_{2}}{(1/\tau_{1}+1/\tau_{2})^{2}}.
 \label{3.53}
 \end{equation}
-Prepustnost je v resonanci popolna, če sta obe zrcali enaki in $\tau_{1}=\tau_{2}$.
+Prepustnost je v resonanci popolna, če sta obe zrcali enaki in je $\tau_{1}=\tau_{2}$.
 Enačbi~(\ref{3.52} in \ref{3.53}) se ujemata z znanim izrazom 
 za prepustnost Fabry-Perotovega interferometra v bližini resonanc,
 če so izgube in prepustnost zrcal majhne (enačbi~\ref{eq:Fabry-Perot-prepustnost} 
@@ -1082,14 +1082,14 @@ ko je resonator napolnjen z nelinearnim sredstvom.
 \index{Sklopitev resonatorja!z resonatorjem}
 Podobno kot sklopitev z zunanjim valovanjem lahko obravnavamo tudi
 sklopitev med dvema resonatorjema. Naj bosta dva resonatorja brez izgub
-sklopljena z delno prepustnim zrcalom. Sklopitev naj bo šibka, tako da lahko zapišemo 
+sklopljena z delno prepustnim zrcalom. Sklopitev naj bo šibka, tako da lahko zapišemo:
 \begin{equation}
 \frac{da_1}{dt} =  -i\omega_{1}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
 \frac{da_2}{dt} = -i\omega_{2}a_{2}+\kappa_{21}a_{1}.
 \end{equation}
 Zaradi ohranitve energije sklopitvena koeficienta $\kappa_{12}$ in
 $\kappa_{21}$ nista neodvisna. Zvezo med njima poiščemo tako, da zapišemo 
-vsoto energij obeh resonatorjev (enačba~\ref{3.35}) in izračunamo njen časovni odvod
+vsoto energij obeh resonatorjev (enačba~\ref{3.35}) in izračunamo njen časovni odvod:
 \begin{align}
 \frac{d}{dt}\left(|a_{1}|^{2}+|a_{2}|^{2}\right) & =  a_{1}\frac{da_1^*}{dt}+a_{1}^{*}\frac{da_1}{dt}+
 a_{2}\frac{da_2^*}{dt}+a_{2}^{*}\frac{da_2}{dt}\nonumber \\
@@ -1097,7 +1097,7 @@ a_{2}\frac{da_2^*}{dt}+a_{2}^{*}\frac{da_2}{dt}\nonumber \\
  a_{2}\kappa_{21}^{*}a_{1}^{*}.
 \end{align}
 Ker se skupna energija obeh resonatorjev ohranja, mora biti izračunani izraz enak  $0$.
-Ta pogoj je izpolnjen, kadar velja 
+Ta pogoj je izpolnjen, kadar velja:
 \begin{equation}
 \kappa_{12}+\kappa_{21}^{*}=0.
 \label{3.56}
@@ -1106,31 +1106,31 @@ Ta pogoj je izpolnjen, kadar velja
 
 Poglejmo primer dveh sklopljenih resonatorjev, pri čemer je v drugem resonatorju vzbujeno 
 stoječe valovanje. Moč tistega dela, ki potuje proti prvemu resonatorju,
-je polovica energije, deljena s časom preleta od enega zrcala do drugega
+je polovica energije, deljena s časom preleta od enega zrcala do drugega:
 \begin{equation}
 |s_{+}|^{2}=\frac{1}{2}|a_{2}|^{2}\frac{c}{L}.
 \label{3.57}
 \end{equation}
-Sledi
+Sledi:
 \begin{equation}
 \kappa_{12}a_{2}=\sqrt{\frac{2}{\tau}}\, s_{+}=\sqrt{\frac{c}{\tau L}}\, a_{2},
 \label{3.58}
 \end{equation}
- tako da je 
+ tako da je:
 \begin{equation}
 \kappa_{12}=\frac{c}{2L}\sqrt{1-{\cal R}}\qquad \mathrm{in} \qquad \kappa_{21}=-\kappa_{12}.
 \label{3.59}
 \end{equation}
 
 Zaradi sklopitve se spremenijo lastne frekvence resonatorjev. 
-Poglejmo dva enaka sklopljena resonatorja
+Poglejmo dva enaka sklopljena resonatorja:
 \begin{equation}
 \frac{da_1}{dt}  =  -i\omega_{0}a_{1}+\kappa_{12}a_{2} \qquad \mathrm{in} \qquad 
 \frac{da_2}{dt} =  -i\omega_{0}a_{2}-\kappa_{12}a_{1}.
 \end{equation}
-Z nastavkom oblike $A_{i}e^{-i\omega t}$ dobimo homogen linearen sistem za $A_{1}$ in
+Z nastavkom oblike $A_{i}e^{-i\omega t}$ dobimo homogeni linearni sistem za $A_{1}$ in
 $A_{2}$, ki je netrivialno rešljiv, če je determinanta sistema enaka nič.
-Ta pogoj da enačbo za krožno frekvenco \index{Lastne frekvence resonatorja}
+Ta pogoj da enačbo za krožno frekvenco\index{Lastne frekvence resonatorja}:
 \begin{equation}
 (\omega-\omega_{0})^{2}=\kappa_{12}^{2}\label{3.61}
 \end{equation}
