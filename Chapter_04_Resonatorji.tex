@@ -394,6 +394,20 @@ pogosto uporabimo zaslonko, ki snope višjih redov poreže,
 ali kakšen drug element, npr. Fabry-Perotov etalon\footnote{Razlika med Fabry-Perotovim
 interferometrom in etalonom je v tem, da je interferometer sestavljen iz premičnih 
 zrcal, etalon pa je ploščica z nespremenljivo debelino.}, ki poveča izgube za snope višjega reda.
+
+Do zdaj smo obravnavali dva primera laserskih resonatorjev: Fabry-Perotov
+resonator z dvema vzporednima ravnima zrcaloma (slika~\ref{fig:resonatorji}\,a) 
+in resonator z dvema krogelnima zrcaloma~(b).
+Poleg teh dveh primerov je v uporabi še cela vrsta drugih resonatorjev.\footnote{Glej 
+npr. B. E. A. Saleh in M. C. Teich, 
+{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).} Ciklični
+resonator\index{Resonator!ciklični}~(c) je
+sestavljen iz več zrcal in žarek ciklično potuje med njimi. V vlakenskih laserjih je resonator
+optično vlakno\index{Laser!vlakenski}. 
+Kot laserski resonator lahko delujejo tudi mikroploščice~(d) ali mikrokroglice~(e), 
+v katere je s totalnim odbojem\index{Totalni odboj} ujeta svetloba. 
+Namesto zrcal se v mikroresonatorjih in vlaknih uporablja periodične dielektrične strukture, na katerih 
+pride do Braggovega odboja valovanja~(f).\index{Braggov odboj}
 \begin{remark}
 Včasih se uporabljajo tudi nestabilni resonatorji\index{Resonator!nestabilni}, za 
 katere ne obstajajo preproste rešitve v obliki osnovnih Gaussovih snopov. Taki resonatorji 
@@ -403,19 +417,6 @@ je intenziteta svetlobe razmeroma velika v celotnem resonatorju in ne le ob
 osi.\footnote{Glej npr. A. E. Siegman, {\it Lasers}, University Science Books (1986).}
 \end{remark}
 
-Do zdaj smo obravnavali dva primera laserskih resonatorjev: Fabry-Perotov
-resonator z dvema vzporednima ravnima zrcaloma (slika~\ref{fig:resonatorji}\,a) 
-in resonator z dvema krogelnima zrcaloma (b).
-Poleg teh dveh primerov je v uporabi še cela vrsta drugih resonatorjev.\footnote{Glej 
-npr. B. E. A. Saleh in M. C. Teich, 
-{\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).} Ciklični
-resonator\index{Resonator!ciklični} (c) je
-sestavljen iz več zrcal in žarek ciklično potuje med njimi. V vlakenskih laserjih je resonator
-optično vlakno\index{Laser!vlakenski}. 
-Kot laserski resonator lahko delujejo tudi mikroploščice (d) ali mikrokroglice (e), 
-v katere je s totalnim odbojem\index{Totalni odboj} ujeta svetloba. 
-Namesto zrcal se v mikroresonatorjih in vlaknih uporablja periodične dielektrične strukture, na katerih 
-pride do Braggovega odboja valovanja (f).\index{Braggov odboj}
 \begin{figure}[ht]
 \centering
 \def\svgwidth{126truemm} 
@@ -722,8 +723,9 @@ integralom\index{Kirchhoffov integral} (enačba~\ref{eq:Fresnelov-uklon}):
 E_{2} =  -\frac{i}{2\lambda}\int_{1}E_{1}(P_{1})\frac{e^{ikr}(1+\cos\vartheta)}{r}\, dS_{1}.
 \label{eq:resuklon}
 \end{equation}
-Integriramo po celotni prvi ploskvi, $r$ je razdalja med točkama $P_{1}$ in $P_{2}$ ter $\vartheta$
-kot med zveznico in normalo na zrcali v osi (slika~\ref{fig:uklon_res_shema}). 
+Pri tem $r$ označuje razdaljo med točkama $P_{1}$ in $P_{2}$, kot $\vartheta$ pa je 
+kot med zveznico in normalo na zrcali v osi (slika~\ref{fig:uklon_res_shema}).
+Integriramo po celotnem prvem zrcalu.  
 \begin{figure}[ht]
 \centering
 \def\svgwidth{90truemm} 
@@ -760,30 +762,28 @@ metoda, pri kateri začnemo z nekim začetnim poljem in ponavljamo integracijo,
 dokler se polje ne spreminja več.
 
 Integralsko enačbo za lastna nihanja (enačba~\ref{3.71}) je mogoče analitično rešiti v primeru
-konfokalnega resonatorja\index{Resonator!konfokalni}. Privzemimo, da je brez izgub. 
-Resonator je simetričen, zato se polje na obeh zrcalih lahko razlikuje kvečjemu
+simetričnega konfokalnega resonatorja\index{Resonator!konfokalni}. Privzemimo, da je brez izgub. 
+Ker je resonator simetričen, se polje na obeh zrcalih lahko razlikuje kvečjemu
 za predznak.
 
 Vpeljemo kartezične koordinate na obeh zrcalih, kot kaže slika~\ref{fig:uklon_res_shema}.
 Pričakujemo, da bo prečna razsežnost lastnega nihanja majhna v primerjavi
-z dolžino resonatorja $L$, zato lahko $r$ razvijemo, pri čemer se kvadratni členi  
-zaradi ukrivljenosti zrcal odštejejo. Ostaneta le še mešana člena:
+z dolžino resonatorja $L$, zato $r$ razvijemo, pri čemer se kvadratni členi  
+zaradi ukrivljenosti zrcal odštejejo. Ostaneta le mešana člena:
 \begin{equation}
 r\approx L-\frac{xx^{\prime}+yy^{\prime}}{L}.
 \label{3.72}
 \end{equation}
-V konfokalnem resonatorju je krivinski radij zrcal enak dolžini resonatorja.
-V imenovalcu jedra integrala (enačba~\ref{jedro}) zato lahko $r$ nadomestimo
-z $L$. Koti med zveznico točk na obeh zrcalih in normalo na zrcali
+V imenovalcu jedra integrala (enačba~\ref{jedro}) lahko torej $r$ nadomestimo
+z razdaljo $L$. Koti med zveznico točk na obeh zrcalih in normalo na zrcali
 so majhni, zato je  $\cos\vartheta \approx 1$. 
-
-Tako iz enačbe~(\ref{eq:resuklon}) sledi:
+Iz enačbe~(\ref{eq:resuklon}) sledi:
 \begin{equation}
 E(x',y')=\pm\frac{ie^{ikL}}{\lambda L}\int E(x,y)\exp
 \left(\frac{-ik(xx^{\prime}+yy^{\prime})}{L}\right)\, dx\, dy.
 \label{3.73}
 \end{equation}
-Integracija poteka po celotnem zrcalu. Jedro integrala je produkt dveh
+Jedro integrala je produkt dveh
 faktorjev, ki vsebujeta vsak le koordinati $x'$ ali $y'$. Zato poiščemo
 rešitev enačbe~(\ref{3.73}) v obliki  
 $E(x',y')=E_{0}f(x')g(y')$.
@@ -795,7 +795,7 @@ S tem nastavkom mora funkcija $f(x')$ zadoščati enačbi:
 pri čemer je $\alpha$ še neznana konstanta. Meje integrala so od enega do 
 drugega roba zrcala. Če je zrcalo dovolj veliko,
 je polje na robu dovolj majhno, da lahko meje razširimo
-na $-\infty$ do $\infty$. Vpeljemo še brezdimenzijski koordinati:
+na $-\infty$ do $\infty$. Vpeljemo brezdimenzijski koordinati:
 \begin{equation}
 X=x\sqrt{k/L} \qquad \mathrm{in} \qquad X'=x'\sqrt{k/L}
 \label{3.76}
@@ -812,12 +812,13 @@ funkcija s to lastnostjo je Gaussova funkcija:
 f(X)=\exp\left(-\frac{1}{2}X^{2}\right)\!\!.
 \label{3.78}
 \end{equation}
-Podobno napravimo tudi za $g(Y)$. Polje na zrcalu ima po pričakovanju obliko Gaussovega snopa:
+Poodoben račun in razmislek naredimo tudi za $g(Y)$. 
+
+Polje na zrcalu ima po pričakovanju obliko Gaussovega snopa:
 \begin{equation}
 E(x,y)=E_{0}\exp\left(-\frac{k(x^{2}+y^{2})}{2L}\right)\!\!.
 \label{3.79}
 \end{equation}
-
 Poiščimo še konstanto $\alpha$. Iz enačbe (\ref{3.77}) sledi, da je njena vrednost 
 $\alpha = \sqrt{2\pi L/k}=\sqrt{\lambda L}$. 
 
@@ -905,7 +906,7 @@ Prednost uporabe spremenljivke $a$ je v preprostejših enačbah, ki so le prvega
 \index{Izgube v resonatorju} 
 Izgube v resonatorju opišemo z dodatnim členom v enačbi~(\ref{3.34}):
 \begin{equation}
-\frac{da}{dt}=-i\omega_{n}a-\frac{1}{\tau}a.
+\frac{da}{dt}=-i\omega_{n}a-\frac{a}{\tau}.
 \label{3.36}
 \end{equation}
 V taki obliki lahko zapišemo enačbo le, kadar so izgube majhne. Če niso, 
@@ -926,7 +927,7 @@ naj bo izbrana tako, da je $|s_{+}|^{2}$ enako moči vpadnega valovanja. Zaenkra
 tudi zanemarimo notranje izgube resonatorja. Potem lahko
 zapišemo:
 \begin{equation}
-\frac{da}{dt}=-i\omega_{n}a-\frac{1}{\tau}a+\kappa s_{+},
+\frac{da}{dt}=-i\omega_{n}a-\frac{a}{\tau}+\kappa s_{+},
 \label{3.37}
 \end{equation}
 pri čemer je $\kappa$ sklopitveni koeficient med vpadnim valovanjem in
@@ -963,7 +964,7 @@ vsoto direktnega odboja vpadnega vala $s_{+}$ in prispevka iz resonatorja:
 s_{-}=rs_{+}+\sqrt{\frac{2}{\tau}}a,
 \label{3.41}
 \end{equation}
-kjer $r$ zaenkrat še ne poznamo. Ker ni notranjih izgub, mora biti v 
+pri čemer $r$ zaenkrat še ne poznamo. Ker ni notranjih izgub, mora biti v 
 stacionarnem stanju vpadna moč enaka izhajajoči:
 \begin{equation}
 |s_{+}|^{2}=|s_{-}|^{2}.
@@ -1132,12 +1133,13 @@ Z nastavkom oblike $A_{i}e^{-i\omega t}$ dobimo homogeni linearni sistem za $A_{
 $A_{2}$, ki je netrivialno rešljiv, če je determinanta sistema enaka nič.
 Ta pogoj da enačbo za krožno frekvenco\index{Lastne frekvence resonatorja}:
 \begin{equation}
-(\omega-\omega_{0})^{2}=\kappa_{12}^{2}\label{3.61}
+(\omega-\omega_{0})^{2}=\kappa_{12}^{2}\label{3.61},
 \end{equation}
- in 
+od koder dobimo:
 \begin{equation}
 \omega_{1,2}=\omega_{0}\pm\kappa_{12}.\label{3.62}
 \end{equation}
 Zaradi sklopitve sta se prej enaki frekvenci resonatorjev razcepili v dve, kot
-smo lahko pričakovali. Velikost razcepa je odvisna od odbojnosti zrcala in časa
+smo lahko pričakovali. Velikost razcepa je odvisna od sklopitve med resonatorjema, ta
+pa je odvisna od odbojnosti zrcala in časa
 preleta resonatorja (enačba~\ref{3.59}).
