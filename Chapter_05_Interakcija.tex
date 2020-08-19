@@ -67,7 +67,7 @@ Upoštevati moramo še, da sta pri vsakem $\mathbf{k}$ dovoljeni dve polarizacij
 dN=\left(\frac{L}{\pi}\right)^{3}\pi k^{2}\, dk.
 \label{4.2}
 \end{equation}
-Zapišemo število lastnih nihanj na enoto volumna:
+Vpeljemo $V = L^3$ in zapišemo število lastnih nihanj na enoto volumna:
 \begin{equation}
 \frac{dN}{V}=\frac{ k^{2}}{\pi^{2}} dk
 \label{4.3}
@@ -93,10 +93,10 @@ z uporabo gostote stanj spremenimo v integrale po $k$ ali po $\omega$:
 Označimo brezdimenzijski krajevni del rešitve~(enačbe~\ref{eq:stojece_votlina}) z 
 $\mathbf{E}_{\alpha}$, kjer $\alpha$\index{Električno polje!jakost}
 \index{Magnetno polje!gostota}
-označuje trojico števil $l$, $m$ in $n$ ter še obe polarizaciji. 
-Pripadajoče magnetno polje je (enačba~\ref{eq:Maxwell2}):
+označuje trojico števil $l$, $m$ in $n$ ter še obe polarizaciji. Iz
+Maxwellove enačbe (enačba~\ref{eq:Maxwell2}) izračunamo pripadajoče magnetno polje:
 \begin{equation}
-\nabla\times\mathbf{E}_{\alpha}=i\omega_\alpha\mathbf{B}_{\alpha}.
+\mathbf{B}_{\alpha} = \frac{\nabla\times\mathbf{E}_{\alpha}}{i\omega_\alpha}.
 \label{Maxalfa}
 \end{equation}
 Polja $\mathbf{E}_{\alpha}$ in $\mathbf{B}_{\alpha}$ tvorijo kompletni ortogonalni
@@ -105,7 +105,7 @@ votlini\footnote{Glej npr. M. Fox, {\it Quantum Optics,
 An Introduction}, Oxford University Press (2006).}:
 \begin{align}
 \mathbf{E}(\mathbf{r},t) & =  -\frac{1}{\sqrt{V\epsilon_{0}}}
-\sum_{\alpha}p_{\alpha}(t)\mathbf{E}_{\alpha}(\mathbf{r}) \quad \mathrm{in} \label{eq:pqrazvoj1}\\
+\sum_{\alpha}p_{\alpha}(t)\mathbf{E}_{\alpha}(\mathbf{r}) \qquad \mathrm{in} \label{eq:pqrazvoj1}\\
 \mathbf{B}(\mathbf{r},t) & =  i\sqrt{\frac{\mu_{0}}{V}}c_0\sum_{\alpha}
 \omega_{\alpha}q_{\alpha}(t)\mathbf{B}_{\alpha}(\mathbf{r}).
 \label{eq:pqrazvoj}
@@ -137,8 +137,8 @@ normalizaciji izračunamo energijo
 polja ali \index{Hamiltonova funkcija}Hamiltonovo 
 funkcijo (enačba~\ref{eq:gostota-energije}) in dobimo:
 \begin{equation}
-{\cal H}=\frac{1}{2}\int(\epsilon_{0}E^{2}+\frac{B^{2}}{\mu_0})\, 
-dV=\frac{1}{2}\sum_{\alpha}(p_{\alpha}^{2}+\omega_{\alpha}^{2}q_{\alpha}^{2}).
+{\cal H}=\frac{1}{2}\int\left(\epsilon_{0}E^{2}+\frac{B^{2}}{\mu_0}\right)\, 
+dV=\frac{1}{2}\sum_{\alpha}\left(p_{\alpha}^{2}+\omega_{\alpha}^{2}q_{\alpha}^{2}\right)\!\!.
 \label{4.9}
 \end{equation}
 Zgornji zapis (enačbi \ref{4.8} in \ref{4.9}) kaže, 
@@ -160,7 +160,7 @@ opisanega s Hamiltonovo funkcijo (enačba~\ref{4.9}), diskretne.\footnote{Glej n
 {\it Fizika 3. del}, tretja izdaja, DMFA-založništvo (2018).} Njihove vrednosti so 
 enake:
 \boxeq{4.11}{
-W_{n}=\hslash\omega(n+\frac{1}{2}), \quad n= 0, 1, 2 \ldots
+W_{n}=\hslash\omega\left(n+\frac{1}{2}\right)\!\!, \quad \mathrm{pri~\check{c}emer~je} \quad n= 0, 1, 2 \ldots
 }
 {\bf Razliki energije harmonskega oscilatorja, če se \textit{\textbf{n}}
 spremeni za 1, pravimo foton.}\index{Foton} Energija
@@ -175,8 +175,8 @@ saj je to energija osnovnega stanja, ki se ne more sprostiti.
 
 \begin{remark}
 Vidna svetloba z valovno dolžino $500~\si{\nano\metre}$ ima frekvenco
-$\nu = 6 \cdot 10^{14}~\si{\hertz}$. Ustrezna energija fotona je
-$W = 4 \cdot 10^{-19}~\si{\joule}$ oziroma $W = 2,5~\mathrm{e}\si{\volt}$.
+$\nu = 6 \times 10^{14}~\si{\hertz}$. Ustrezna energija fotona je
+$W = 4 \times 10^{-19}~\si{\joule}$ oziroma $W = 2,5~\mathrm{e}\si{\volt}$.
 To vrednost si velja zapomniti.
 \end{remark}
 
@@ -190,10 +190,10 @@ npr. I. Kuščer in S. Žumer, {\it Toplota}, tretji natis, DMFA-založništvo (
 P(n)=\frac{e^{-W_{n}/k_BT}}{\sum_{n}e^{-W_{n}/k_BT}} = 
 \frac{e^{-\beta\hslash\omega n}}
 {\sum_{n}e^{-\beta\hslash\omega n}}=
-e^{-\beta\hslash\omega n}(1-e^{-\beta\hslash\omega}),
+e^{-\beta\hslash\omega n}\left(1-e^{-\beta\hslash\omega}\right)\!\!,
 \label{4.12}
 \end{equation}
-pri čemer sta $\beta = 1/k_BT$ in $k_B$ Boltzmannova konstanta. 
+pri čemer sta $k_B$ Boltzmannova konstanta in $\beta = 1/k_BT$. 
 
 Povprečno število fotonov v izbranem nihanju je potem\index{Sevanje črnega telesa}:
 \begin{equation}
@@ -210,13 +210,13 @@ povprečnega števila fotonov:
 Ravnovesno gostoto energije elektromagnetnega polja\index{Gostota energije} v votlini na
 frekvenčni interval izračunamo tako, da povprečno energijo posameznega
 nihanja $\langle W \rangle$ pomnožimo z gostoto stanj $\varrho (\omega)$ 
-(enačba~\ref{4.4}). Dobimo znan izraz za energijo na enoto volumna na enoto frekvence, 
+(enačba~\ref{4.4}). Dobimo znan izraz za energijo na enoto volumna na enoto frekvence ($u$), 
 to je \index{Planckov zakon}Planckov zakon\footnote{Nemški fizik in nobelovec 
 Max Karl Ernst Ludwig Planck, 1858--1947.} (slika~\ref{fig:Planck}).
-Planckov zakon opiše spektralno gostoto energije svetlobe $u$ 
-\index{Spektralna gostota energije}, izsevane iz \index{Spekter!Planckov}
-\index{Sevanje črnega telesa}črnega telesa, ki je v toplotnem ravnovesju z 
-okolico, s temperaturo $T$:
+Planckov zakon opiše spektralno gostoto energije  
+svetlobe\index{Spektralna gostota energije}, izsevane iz \index{Spekter!Planckov}
+\index{Sevanje črnega telesa}črnega telesa, ki je v toplotnem 
+ravnovesju z okolico s temperaturo $T$:
 
 \boxeq{eq:Planck}{
 u(\omega)=\hslash\omega\langle n\rangle \rho(\omega)
@@ -380,8 +380,8 @@ Phys. Z. $\mathbf{XVIII}$, 121 (1917).}
 
 \subsection*{Einsteinovi koeficienti}
 \label{AB}\index{Einsteinovi koeficienti}
-Število atomov v določenem atomskem nivoju imenujemo zasedenost 
-stanj.\index{Zasedenost stanj} 
+Število atomov v določenem atomskem nivoju imenujemo 
+zasedenost.\index{Zasedenost stanj} 
 Ker zaenkrat obravnavamo preproste modele atomov z zgolj 
 dvema nivojema, zapišemo samo dve zasedenosti\index{Dvonivojski sistem}. Naj bodo $N_1$ zasedenost 
 nižjega nivoja, $N_{2}$ zasedenost višjega nivoja in skupno število atomov 
@@ -428,16 +428,15 @@ u(\omega_{0})=\frac{A_{21}/B_{12}}{e^{\beta\hslash\omega_{0}}-B_{21}/B_{12}}.
 \end{equation}
 Po drugi strani vemo, da v termičnem ravnovesju spektralno gostoto energije sevanja
 $u(\omega_0)$ opišemo s Planckovim zakonom~(enačba~\ref{eq:Planck}).
-Iz primerjave obeh zapisov ugotovimo, da morata biti koeficienta $B_{21}$ in $B_{12}$ enaka, in
-določimo zvezo med koeficientoma $A_{21}$ in $B_{12}$:
+Iz primerjave obeh zapisov določimo zvezo med koeficientoma $A_{21}$ in $B_{12}$:
 \boxeq{4.27}{
-A_{21}=\frac{\hslash\omega^{3}}{\pi^{2}c^{3}}\, B_{12} 
+A_{21}=\frac{\hslash\omega^{3}}{\pi^{2}c^{3}}\, B_{12}.
 }
-in
+Poleg tega ugotovimo, da morata biti koeficienta $B_{21}$ in $B_{12}$ enaka:
 \boxeq{4.27a}{
 B_{12}=B_{21}.
 }
-Koeficient pred $B_{12}$ v prvi enačbi je ravno enak gostoti stanj elektromagnetnega polja 
+Koeficient pred $B_{12}$ v enačbi~(\ref{4.27}) je ravno enak gostoti stanj elektromagnetnega polja 
 $\rho(\omega)$ (enačba~\ref{4.4}), pomnoženi z energijo fotona $\hslash\omega$. 
 Videli bomo, da to ni slučaj, saj to izhaja iz verjetnosti za prehod v kvantni 
 elektrodinamiki (razdelek~\ref{chap:verjetnost}).
@@ -468,7 +467,7 @@ spekter vpadnega snopa ozek v primerjavi s širino atomskega prehoda
 a bo bolj priročen pri obravnavi laserja. Privzemimo še, da
 je stanje stacionarno. 
 
-Ko svetlobni snop vpade na plast plina debeline $dz$, se gostota
+Ko svetlobni snop vpade na tanko plast plina debeline $dz$, se gostota
 energijskega toka zmanjša zaradi absorpcije in hkrati poveča zaradi 
 stimulirane emisije (slika~\ref{fig:abs}). 
 Spontano sevanje, ki je tudi prisotno, lahko zanemarimo, saj
@@ -522,7 +521,7 @@ Vpeljali smo absorpcijski koeficient $\mu$\index{Absorpcijski koeficient}:
 \label{eq:muabs1}
 \end{equation}
  
-Makroskopski koeficient absorpcije svetlobe v plinu atomov smo tako povezali
+Makroskopski koeficient absorpcije svetlobe v plinu atomov $\mu$ smo tako povezali
 z Einsteinovim koefici\-entom $B_{21}$. Povejmo še, da so 
 tipične velikosti presekov za absorpcijo $\sigma \sim 10^{-24}$--$10^{-16}~\si{\metre^2}$.
 
@@ -536,8 +535,8 @@ emisijo vrne nazaj v osnovno. Pri tem se svetloba izseva na vse strani -- se sip
 \label{chap:NasAbs}
 Čeprav je videti izraz za zmanjševanje 
 gostote svetlobnega toka pri prehodu skozi absorbirajoči plin (enačba~\ref{eq:jabs}) 
-preprost, ga ni mogoče enostavno integrirati, saj je absorpcijski koeficient 
-$\mu$ odvisen od 
+preprost, ga ni mogoče enostavno integrirati. Absorpcijski koeficient 
+$\mu$ je namreč odvisen od 
 gostote energijskega toka $j$. Pri dovolj velikem svetlobnem toku namreč z 
 absorpcijo znaten delež atomov preide v višji nivo, zato se zmanjša razlika $\Delta N$
 in posledično tudi absorpcijski koeficient $\mu$. Takrat se absorpcija
@@ -720,7 +719,7 @@ zaradi absorpcije in spontanih prehodov.
 Zasedbene enačbe so tako\index{Zasedenost stanj}:
 \begin{align}
 \frac{dN_{0}}{dt} & =  -rN_0+A_{20}N_{2}+A_{10}N_{1}, \label{4.39.1}\\
-\frac{dN_{1}}{dt} & =  -A_{10}N_{1}+B_{21}\,g\,w\, (N_{2}-N_{1})+A_{21}N_{2} \label{4.39.2} \quad \mathrm{in}\\
+\frac{dN_{1}}{dt} & =  -A_{10}N_{1}+B_{21}\,g\,w\, (N_{2}-N_{1})+A_{21}N_{2} \label{4.39.2} \qquad \mathrm{in}\\
 \frac{dN_{2}}{dt} & =  rN_0-A_{20}N_{2}-A_{21}N_{2}-B_{21}\,g\,w\, (N_2-N_1).
 \label{4.39}
 \end{align}
@@ -919,7 +918,7 @@ in pokaži, da je širina črte podana z enačbo~(\ref{4.83}).
 
 Izračunajmo Dopplerjevo razširitev na primeru He-Ne laserja. Za prehod
 atoma neona pri $633~\si{nm}$ in temperaturi $300~\si{K}$ je izračunana vrednost
-$\Delta\omega_{D}\,=\,8\cdot10^{9}~\si{\second}^{-1}$ oziroma 
+$\Delta\omega_{D}\,=\,8\times 10^{9}~\si{\second}^{-1}$ oziroma 
 $\Delta\nu\,=\,1,4~\si{\giga\hertz}$. 
 Dejanske izmerjene vrednosti širine črte za He-Ne \index{Laser!He-Ne}laser 
 znašajo okoli $1,5~\si{\giga\hertz}$, kar je znatno več od naravne širine
@@ -1137,7 +1136,7 @@ Med atomom in poljem privzamemo električno dipolno interakcijo:
 \hat{H}_{i}=-e\hat{E}(\mathbf{r},t)\hat{x},
 \label{4.47}
 \end{equation}
-kjer je $\hat{x}$ operator koordinate elektrona v atomu. 
+pri čemer je $\hat{x}$ operator koordinate elektrona v atomu. 
 Privzeli
 smo, da je nihajoče polje polarizirano v smeri osi $x$. Stanja celotnega sistema, 
 to je atoma in polja, zapišemo v obliki produkta atomskih stanj in
