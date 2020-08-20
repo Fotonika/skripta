@@ -552,7 +552,7 @@ zasedenost spodnjega nivoja:
 \label{4.32}
 \end{equation}
 pri čemer smo za verjetnost za prehod uporabili
-enačbo~(\ref{4.18}) in upoštevali $w=j/c$. Zasedenost višjega nivoja $N_{2}$ izrazimo s 
+enačbo~(\ref{4.18}) in upoštevali $w=j/c$. Zasedenost nivoja $N_{2}$ izrazimo s 
 celotnim številom atomov $N$ in razliko zasedenosti $\Delta N$:
 \begin{equation}
 N_{2}=\frac{1}{2}(N_1+N_2) + \frac{1}{2}(N_2-N_1) = \frac{1}{2}N+\frac{1}{2}\Delta N.
@@ -577,8 +577,8 @@ j_{s}(\omega)=\frac{cA_{21}}{2B_{21}g}=
 \end{equation}
 pri čemer smo upoštevali zvezo med koeficientoma $A_{21}$ in $B_{21}$
 (enačba~\ref{4.27}).
-Kot vidimo, je saturacijska gostota odvisna le od krožne frekvence vpadnega valovanja 
-in vrednosti $g(\omega - \omega_0)$, ki je približno obratna vrednost širine atomskega 
+Saturacijska gostota $j_s$ je torej odvisna le od krožne frekvence vpadnega valovanja 
+in vrednosti $g(\omega-\omega_0)$, ki je približno obratna vrednost širine atomskega 
 prehoda. Za črto z valovno dolžino $600~\si{\nano\metre}$ 
 in širino $10^{8}~\si{\second}^{-1}$ znaša saturacijska gostota svetlobnega toka okoli 
 $20~\si{\milli\watt/\centi\metre^2}$. Tako veliko gostoto svetlobnega toka je v tako ozkem
@@ -587,7 +587,7 @@ medtem ko jo z laserji z lahkoto.
 
 Izraz za razliko zasedenosti stanj zapišemo v preglednejši obliki:
 \begin{equation}
-\Delta N=-\frac{N}{1+j/j_{s}(\omega)}.
+\Delta N=-\frac{N}{1+j/j_{s}}.
 \label{4.35}
 \end{equation}
 Vstavimo ga v enačbo za zmanjševanje gostote toka (enačba~\ref{4.30}) in dobimo:
@@ -623,11 +623,11 @@ v osnovno stanje s spontanim sevanjem.
 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{80truemm} 
+\def\svgwidth{75truemm} 
 \input{slike/05_jabs.pdf_tex}
 \caption{Pojemanje gostote svetlobnega toka $j$ v absorbirajočem plinu (enačba~\ref{4.37}). 
-Gostota vpadnega svetlobnega toka je $j_0$, za saturacijsko
-gostoto smo izbrali $j_s = 0,3 j_0$. Pri $j>j_s$ je absorbcija nasičena in pojemanje linearno, 
+Gostota vpadnega svetlobnega toka je $j_0$, primer je narisan za $j_s/j_0=0,3$. 
+Pri $j>j_s$ je absorbcija nasičena in pojemanje linearno, 
 pri $j<j_s$ je pojemanje eksponentno.}
 \label{fig:abs2}
 \end{figure}
@@ -652,7 +652,7 @@ laserjev (poglavje~\ref{chap:Primeri}).
 V plinih je najpogostejši način črpanja vzbujanje z električnim tokom. Elektroni
 se zaletavajo v atome ali ione plina in jih vzbujajo
 v višje nivoje. To povzroči obrnjeno zasedenost med
-nekim parom nivojev. Tako črpanje uporabljamo na primer v argonovem laserju\index{Laser!argonov}. 
+nekim parom nivojev. Tako črpanje uporabljamo na primer v argonskem laserju\index{Laser!argonski}. 
 
 Pogost proces v plinih je tudi prenos energije med atomi s trki. V
 mešanici dveh plinov, pri katerih se nek nivo enih atomov ujema po energiji z
@@ -664,18 +664,18 @@ do obrnjene zasedenosti. Primer takega črpanja je He-Ne laser\index{Laser!He-Ne
 
 V trdnih neprevodnih kristalih sta v optičnem področju absorpcija
 in sevanje navadno posledica primesi.
-Obrnjeno zasedenost para nivojev primesi navadno dosežemo tako, da
+Obrnjeno zasedenost para nivojev primesi dosežemo tako, da
 kristal obsevamo s svetlobo s frekvenco, ki ustreza prehodu na nek
-nivo, ki leži nad izbranim parom nivojev. Tako črpanje uporabljamo na primer v laserjih Nd:YAG in Ti:safir.
+nivo, ki leži nad izbranim parom nivojev. Tako črpanje uporabljamo na primer v Nd:YAG in Ti:safir laserjih.
 \index{Laser!Nd:YAG} \index{Laser!Ti:safir}
 
 V polprevodniških laserjih \index{Laser!polprevodniški}dosežemo obrnjeno zasedenost med 
 prevodnim in valenčnim pasom z vbrizgavanjem elektronov in vrzeli v območje spoja $p$-$n$ 
-z električnim tokom. 
+z električnim tokom v prevodni smeri. 
 
 \section{Optično črpanje trinivojskega sistema}
-Kot primer optičnega ojačevanja si oglejmo najpreprostejši model optičnega črpanja.
-To je plin atomov s tremi nivoji, tako imenovani trinivojski sistem (slika~\ref{fig:3nivojski}\,a). Osnovno stanje, ki 
+Optično ojačevanje si oglejmo na najpreprostejšem modelu optičnega črpanja.
+Obravnavajmo plin atomov s tremi nivoji, tako imenovani trinivojski sistem (slika~\ref{fig:3nivojski}\,a). Osnovno stanje, ki 
 ga označimo z $|0\rangle$,  naj ima energijo $E_0$. Poleg tega naj imajo atomi še 
 dve vzbujeni stanji z energijo $E_1$ (stanje $|1\rangle$) in energijo $E_2>E_1$
 (stanje $|2\rangle$)\index{Trinivojski sistem}, tako da je energijska razlika med vzbujenima nivojema $E_2-E_1 = \hslash \omega_0$.
@@ -724,12 +724,12 @@ Zasedbene enačbe so tako\index{Zasedenost stanj}:
 \label{4.39}
 \end{align}
 
-Poleg tega je vsota vseh treh zasedenosti enaka številu 
+Poleg tega je vsota zasedenosti enaka številu 
 vseh atomov in $N_{0}+N_{1}+N_{2}=N$. Pri zapisu zasedbenih enačb smo še 
 predpostavili, da je $N_0 \approx N \gg N_1, N_2$. Črpanje $B_{20}\, 
 u_{p} (N_0-N_2)$, ki je praktično konstantno, smo zapisali s koeficientom $r$. 
 Mehanizem črpanja 
-smo s tem skrili v $r$ in prav nič ni pomembno, na kakšen način 
+smo tako skrili v $r$ in prav nič ni pomembno, na kakšen način 
 poteka.\index{Optično črpanje}
 S tem smo obravnavo posplošili z optičnega na druge sisteme črpanja. 
 
@@ -810,8 +810,8 @@ Rešitev diferencialne enačbe (enačba~\ref{eq:djG}) je prikazana na sliki~\ref
 \def\svgwidth{80truemm} 
 \input{slike/05_joja.pdf_tex}
 \caption{Naraščanje gostote svetlobnega toka $j$ pri optičnem ojačevanju. 
-Gostota vpadnega svetlobnega toka je $j_0$, za saturacijsko
-gostoto smo izbrali $j_s = 20 j_0$. Pri $j<j_s$ je naraščanje eksponentno, 
+Gostota vpadnega svetlobnega toka je $j_0$, primer je narisan za $j_s/j_0 = 20$.
+Pri $j<j_s$ je naraščanje eksponentno, 
 pri $j>j_s$ je zaradi nasičenja linearno.
 }
 \label{fig:ojacanje}
@@ -842,16 +842,16 @@ Odvisen je od frekvence svetlobe in sorazmeren vrednosti atomske spektralne
 črte pri frekvenci prehoda. Za He-Ne laser\index{Laser!He-Ne} 
 ($\lambda\,=\,633~\si{nm}$ in $\Delta\nu\,\sim\,1,5~\si{\giga\hertz}$) znaša   
 $\sigma\,\sim\,10^{-16}~\si{\metre}^2$ in
-za Nd:YAG\index{Laser!Nd:YAG} ($1064~\si{nm}$ in 
+za Nd:YAG laser \index{Laser!Nd:YAG} ($1064~\si{nm}$ in 
 $\Delta\nu\,\sim\,150~\si{\giga\hertz}$)
 $\sigma\,\sim\,10^{-22}~\si{\metre}^2$.
 Zaradi različnih presekov, različnih gostot atomov in različnih načinov črpanja se 
 koeficienti ojačenja v večnivojskih sistemih med seboj precej razlikujejo. Tipično
 ojačenje v He-Ne laserju z dolžino $L\,=\,0,5~\si{\metre}$ je 
 $GL\,\sim\,1,015$ in v Nd:YAG laserju z dolžino ojačevalnega sredstva 
-$L\,=\,10~\si{\centi\metre}$ $GL \sim 50$. Pri prvem laserju je sicer 
-velik presek za stimulirano sevanje, vendar je gostota atomov v obrnjeni zasedenosti 
-razmeroma majhna. V drugem primeru močno črpanje prevlada nad majhnim presekom 
+$L\,=\,10~\si{\centi\metre}$ $GL \sim 50$. Pri prvem laserju je 
+velik presek za stimulirano sevanje, a majhna gostota atomov v obrnjeni zasedenosti. 
+V drugem primeru črpanje prevlada nad majhnim presekom 
 in ojačenje je veliko.\index{Optično ojačevanje}
 
 \section{Homogena in nehomogena razširitev spektralne črte}
@@ -917,7 +917,7 @@ in pokaži, da je širina črte podana z enačbo~(\ref{4.83}).
 \end{naloga}
 
 Izračunajmo Dopplerjevo razširitev na primeru He-Ne laserja. Za prehod
-atoma neona pri $633~\si{nm}$ in temperaturi $300~\si{K}$ je izračunana vrednost
+atoma neona pri valovni dolžini $633~\si{nm}$ in temperaturi $300~\si{K}$ je izračunana vrednost
 $\Delta\omega_{D}\,=\,8\times 10^{9}~\si{\second}^{-1}$ oziroma 
 $\Delta\nu\,=\,1,4~\si{\giga\hertz}$. 
 Dejanske izmerjene vrednosti širine črte za He-Ne \index{Laser!He-Ne}laser 
@@ -986,7 +986,7 @@ V stacionarnem stanju je odvod enak nič in dobimo:
 {\cal Z}(v)=\frac{{\cal N}(v)}{1+\frac{2B}{Ac}g(\omega_S-\omega_{0}+kv)j}.
 \label{4.88}
 \end{equation}
- Če je gostota vpadnega svetlobnega toka majhna, lahko razvijemo imenovalec. Sledi:
+ Če je gostota vpadnega svetlobnega toka majhna, lahko imenovalec razvijemo. Sledi:
 \begin{equation}
 {\cal Z}(v)\approx{\cal N}(v)\left(1-\frac{2B}{Ac}g(\omega_S-\omega_{0}+kv)j\right)\!\!.
 \label{4.89}
@@ -997,12 +997,10 @@ zmanjšana zaradi vpliva vpadne svetlobe (slika \ref{fig:Bennet}).
 Atomi s to hitrostjo namreč svetlobo
 absorbirajo in s tem prehajajo v zgornje stanje. V porazdelitvi
 atomov tako nastane vdolbina\index{Bennettova vdolbina}, ki jo imenujemo
-Bennettova 
-vdolbina\footnote{~Ameriški fizik William Ralph Bennett Jr., 
-1930--2008.}\footnote{~W. R. Bennett Jr., Phys. Rev. $\mathbf{126}$, 580 (1962).}.
-Širina vdolbine je določena
-s homogeno širino prehoda, to je s funkcijo $g(\omega_S-\omega_{0}+kv)$, in 
-globina  z gostoto vpadnega toka~$j$.\index{Spektralna črta!homogena razširitev}
+Bennettova vdolbina\footnote{~Ameriški fizik William Ralph Bennett Jr., 
+1930--2008.}. Širina vdolbine je določena
+s homogeno širino prehoda, to je s funkcijo $g(\omega_S-\omega_{0}+kv)$, 
+globina pa z gostoto vpadnega toka~$j$.\footnote{~W. R. Bennett Jr., Phys. Rev. $\mathbf{126}$, 580 (1962).}\index{Spektralna črta!homogena razširitev}
 
 Naj na snov poleg močne vpadne svetlobe pri $\omega_S$ vpada še šibko testno valovanje pri 
 frekvenci $\omega^{\prime}$. Izračunajmo absorpcijski koeficient za valovanje pri $\omega^\prime$. 
@@ -1033,7 +1031,7 @@ Tako je absorpcijski koeficient za šibko testno svetlobo:
 \begin{align}
 \label{eq:mumumu}
 \mu(\omega^{\prime}) & =  \frac{\hslash\omega^{\prime}}{k'c}B\frac{{\cal N}
-(\frac{\omega_0-\omega'}{k'})}{1+\frac{2Bj}{Ac}g(\omega_S-\omega')} \\ \nonumber 
+(\frac{\omega_0-\omega'}{k'})}{1+\frac{2Bj}{Ac}g(\omega_S-\omega')} \nonumber \\  
  & \approx  \hslash B{\cal N}\left(\frac{\omega_0-\omega'}{k'}\right)\left(1-\frac{2Bj}{Ac}g(\omega_S-\omega')\right)\!\!.
 \end{align}
 V drugi vrstici smo uporabili približek (enačba~\ref{4.89}). Vidimo, da je 
@@ -1065,13 +1063,13 @@ v spodnjem stanju simetrično pri hitrostih $\pm(\omega_{0}-\omega_S)/k$
 pojavita dve Bennettovi vdolbini (slika \ref{fig:Lamb}\,a).
 Kadar je $\omega_S$ blizu $\omega_{0}$, se vdolbini vsaj delno prekrivata, 
 nasičenje se poveča in v krivulji za absorpcijo svetlobe se pojavi 
-vdolbina (slika \ref{fig:Lamb}\,b).
-Imenujemo jo Lambova vdolbina\footnote{~Ameriški fizik in nobelovec 
-Willis Eugene Lamb Jr., 1913--2008.}\index{Lambova vdolbina}.\footnote{~R. A. McFarlane,
+vdolbina (slika \ref{fig:Lamb}\,b).\footnote{~R. A. McFarlane,
 W. R. Bennet Jr. in W. E. Lamb Jr, Appl. Phys. Lett. $\mathbf{2}$, 189 (1963).}
+Imenujemo jo Lambova vdolbina\footnote{~Ameriški fizik in nobelovec 
+Willis Eugene Lamb Jr., 1913--2008.}\index{Lambova vdolbina}.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{128truemm} 
+\def\svgwidth{120truemm} 
 \input{slike/05_Lamb.pdf_tex}
 \caption{Porazdelitev atomov v osnovnem stanju ${\cal N}_1$ po hitrosti $v$, kadar svetloba prehaja 
 skozi plin v dveh smereh (a). Če frekvenca vpadne svetlobe $\omega_S$ približno 
@@ -1079,7 +1077,7 @@ sovpada z osrednjo frekvenco prehoda $\omega_0$, se vdolbini prekrivata in absor
 se zmanjša (b).}
 \label{fig:Lamb}
 \end{figure}
-\vglue-12truemm
+\vglue-10truemm
 Zapišimo enačbe še za ta primer. Vpadni snop svetlobe povzroči spremembo zasedenosti
 pri prehodu skozi plin v obeh smereh, zato je zdaj:
 \begin{equation}
@@ -1092,19 +1090,19 @@ pozitivni smeri:
 \begin{align}
 \mu_{+}(\omega_S) & =  \frac{\hslash\omega}{c}B\int{\cal Z}(v)g(\omega_S-\omega_{0}+kv)\, dv\nonumber \\
  & \approx  \hslash B{\cal N}\left(\frac{\omega_S-\omega_0}{k}\right)\left(1-\frac{2Bj}
- {Ac}\left(g(0)+g(2(\omega_S-\omega_{0}))\right)\right)\;.
+ {Ac}\left(g(0)+g(2(\omega_S-\omega_{0}))\right)\right)\!\!.
  \label{eq:lamb}
 \end{align}
 Izmerjeni absorpcijski profil je odvisen od frekvence vpadne svetlobe $\omega_S$ in ima pri $\omega_0$ vdolbino,
 ki je podobna homogeno razširjeni črti. Faktor 2 v argumentu
-funkcije $g(2(\omega_S-\omega_{0}))$ je posledica  grobega približka,
-ko smo v integraciji $g(\omega_S-\omega_{0}+kv)$ nadomestili kar z $\delta$ funkcijo. 
+ $g(2(\omega_S-\omega_{0}))$ je posledica  grobega približka,
+ko smo v integraciji $g(\omega_S-\omega_{0}+kv)$ nadomestili z $\delta$ funkcijo. 
 Natančnejši račun pokaže, da je vrh pri $\omega_{0}$ oblike $g(\omega_S-\omega_{0})$.
 \begin{naloga}
 Pokaži, da je rezultat natančnejše izpeljave absorpcijskega koeficienta:
 \begin{equation}
  \mu_{+}(\omega_S) = \hslash B{\cal N}\left(\frac{\omega_S-\omega_0}{k}\right)\left(1-\frac{Bj}
- {Ac}\left(g(0)+g(\omega_S-\omega_{0})\right)\right)\;.
+ {Ac}\left(g(0)+g(\omega_S-\omega_{0})\right)\right)\!\!.
 \end{equation}
 Pri računu privzemi, da je širina Dopplerjeve porazdelitve bistveno večja od širine homogene
 razširitve (enačba~\ref{eq:homogenasirina}), in Maxwellovo porazdelitev postavi pred integral. 
@@ -1188,7 +1186,7 @@ Edini od nič različni matrični elementi so oblike:
 \label{eq:ankr}
 \end{align}
 Operatorje $\hat{p}_{\alpha}$ izrazimo s kreacijskimi in anihilacijskimi
-operatorji. Vstavimo jih v razvoj električnega polja (enačba~\ref{4.50}):
+operatorji ter jih vstavimo v razvoj električnega polja (enačba~\ref{4.50}):
 \begin{equation}
 \hat{E}(\mathbf{r},t)=-i\sum_{\alpha}\sqrt{\frac{\hslash\omega_{\alpha}}{2V\epsilon_{0}}}\,
 \left(\hat{a}_{\alpha}^{\dagger}-\hat{a}_{\alpha}\right)E_{\alpha}(\mathbf{r}).
@@ -1313,7 +1311,7 @@ H_0 = \hslash \omega_1 |1\rangle \langle1| + \hslash \omega_2 |2\rangle \langle2
 \end{equation}
 pri čemer je $\omega_2- \omega_1 = \omega_0$ frekvenca prehoda. V prisotnosti 
 svetlobnega polja moramo dodati še člen, ki opisuje dipolno interakcijo. Celoten
-Hamiltonian postane časovno odvisen in ga zapišemo kot
+Hamiltonian postane časovno odvisen in ga zapišemo kot:
 \begin{equation}
 H = \hslash \omega_1 |1\rangle \langle1| + \hslash \omega_2 |2\rangle \langle2|
 -e\hat{x}E_0 \cos (\omega t).
@@ -1335,7 +1333,7 @@ kombinacija obeh stanj. Nastavek (enačba~\ref{eq:sk-n}) in Hamiltonian
 z $\langle1|$ in drugič z $\langle2|$. Izpeljemo sistem dveh sklopljenih enačb:
 \begin{equation}
 \frac{d c_1}{dt}=-\frac{i}{\hslash} \mathcal{V} E_0\cos (\omega t) e^{-i\omega_0 t}\, c_2 
-\qquad \mathrm{in} \qquad
+\quad \mathrm{in} \quad
 \frac{d c_2}{dt}=-\frac{i}{\hslash} \mathcal{V} E_0\cos (\omega t) e^{i\omega_0 t}\, c_1,
 \label{eq:c1c2}
 \end{equation}
@@ -1344,7 +1342,7 @@ kompleksno število in zanemarimo hitro spreminjajočo se komponento pri $\omega
 tako da enačbi prepišemo v:
 \begin{equation}
 \frac{d c_1}{dt}=-\frac{i}{2\hslash} \mathcal{V} E_0 e^{-it\Delta}\, c_2 
-\qquad \mathrm{in} \qquad
+\quad \mathrm{in} \quad
 \frac{d c_2}{dt}=-\frac{i}{2\hslash} \mathcal{V} E_0 e^{it\Delta}\, c_1,
 \label{eq:rabi2}
 \end{equation}
