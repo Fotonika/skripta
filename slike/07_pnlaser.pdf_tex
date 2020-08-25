@@ -54,21 +54,21 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_pnlaser.pdf}}%
-    \put(0.45316983,0.13269647){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.45316983,0.13269648){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
     \put(0.03274323,0.03840486){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
-    \put(0.03143326,0.22912064){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
+    \put(0.03143326,0.22912065){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
     \put(0.08781326,0.00390105){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
     \put(0.34734359,0.00387699){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
-    \put(0.97684151,0.13803015){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_p$\end{tabular}}}}%
+    \put(0.97684151,0.13803016){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_p$\end{tabular}}}}%
     \put(0.55641496,0.03840486){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
     \put(0.55510492,0.16525048){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
     \put(0.61148499,0.00390105){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
-    \put(0.87101528,0.00387699){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
-    \put(0.51571584,0.05792565){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_v$\end{tabular}}}}%
+    \put(0.87101529,0.00387699){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.51571584,0.05792566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_v$\end{tabular}}}}%
     \put(0.801777,0.08413161){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_v$\end{tabular}}}}%
-    \put(0.68914577,0.10859571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_p$\end{tabular}}}}%
-    \put(-0.00155009,0.22851556){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.51537241,0.22868941){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(-0.09551308,0.28092085){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.11132283\unitlength}\raggedright \end{minipage}}}%
+    \put(0.68914578,0.10859572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$F_p$\end{tabular}}}}%
+    \put(-0.00155008,0.22851557){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.51537242,0.22868941){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(-0.09551308,0.28092086){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.11132283\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%

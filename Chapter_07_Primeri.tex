@@ -742,10 +742,10 @@ Gostota obrnjene zasedenosti $\Delta N/V$ & $ \sim 10^{24}/\si{\metre}^3$ \\ \hl
 
 Vlakenski laserji se uporabljajo v telekomunikacijah, saj oddajajo svetlobo 
 valovnih dolžin, pri katerih je v vlaknih najmanjša disperzija (glej razdelek~\ref{chap:Disperzija}). 
-Velika intenziteta svetlobe omogoča obdelavo materialov, varjenje, vrtanje in rezanje kovin. 
-Zaradi svojih mehanskih lastnosti so primerni tudi za premično lasersko obdelavo snovi.
-
-
+Velika intenziteta izhodne svetlobe omogoča obdelavo materialov, 
+varjenje, vrtanje in rezanje kovin. 
+Zaradi svojih mehanskih lastnosti so primerni tudi za 
+premično lasersko obdelavo snovi.
 
 \begin{remark}
  Namesto vlaken, dopiranih z ioni redkih zemelj, lahko za izdelavo vlakenskih laserjev
@@ -754,7 +754,8 @@ Zaradi svojih mehanskih lastnosti so primerni tudi za premično lasersko obdelav
  pri nižji frekvenci. Razlika frekvenc ustreza vibracijskim prehodom 
  molekul, ki prevzamejo preostanek energije. Signal, ki se pri prehodu ojačuje, 
  ostaja pretežno ujet v vlakno z Braggovimi periodičnimi strukturami na koncih.
- Zavedati se moramo razlike med navadnim laserjem, ki deluje zaradi vzpostavljene
+ Zavedati se moramo razlike med navadnim vlakenskim 
+ laserjem, ki deluje zaradi vzpostavljene
  obrnjene zasedenosti, in Ramanskim laserjem, v katerem se ojači sipana
  svetloba.\index{Laser!Ramanski}\index{Ramanovo sipanje!stimulirano}
 \end{remark}
@@ -789,7 +790,7 @@ V trdnih snoveh elektroni niso lokalizirani in zaradi interakcij med sosednjimi 
 se sicer ostra energijska stanja razširijo v energijske pasove. Zgornji pas je lahko 
 le delno zaseden (kovine), lahko pa se med najvišjim polno zasedenim 
 (valenčnim) pasom in najnižjim nezasedenim (prevodnim) pasom pojavi energijska reža. 
-Če je velikost energijske reže $E_g$ nekaj $kT$, je snov polprevodnik 
+Če je velikost energijske reže $E_g\sim 1~\si{eV}$, je snov polprevodnik 
 (tabela~\ref{table:gap}), sicer je izolator.\index{Polprevodnik}
 \begin{table}[ht]
  \centering
@@ -807,14 +808,14 @@ da se elektron, ki hitro preide na dno prevodnega pasu, spontano vrne v valenčn
 pas, pri čemer se svetloba izseva. Vendar je pri \index{Energijska reža}
 prehodu treba upoštevati tudi ohranitev gibalne količine. Pri najobičajnejših polprevodnikih, 
 siliciju in germaniju, leži vrh valenčnega pasu pri valovnem vektorju $\mathbf{k}=0$, 
-dno prevodnega pasu pa pri $\mathbf{k} \neq 0$ (slika~\ref{fig:Ek}\,a).\index{Silicij}\index{Germanij}
-\index{GaAs}\index{GaP}\index{InAs}\index{InSb}
+dno prevodnega pasu pa pri $\mathbf{k} \neq 0$ (slika~\ref{fig:Ek}\,a).
 Prehod elektrona prek take indirektne reže je malo verjeten, saj mora zaradi ohranitve 
 gibalne količine priti še do interakcije s fononom. Prehod je veliko bolj verjeten v 
 snoveh z direktno režo, pri katerih ležita tako dno prevodnega pasu kot 
 vrh valenčnega pasu 
 pri $\mathbf{k}=0$ (slika~\ref{fig:Ek}\,b). Snovi z direktno režo so na primer GaAs in 
-druge spojine elementov III. (Al, Ga, In) in V. skupine (P, As, Sb), ki so najuporabnejše za izdelavo diodnih laserjev.
+druge spojine elementov III. (Al, Ga, In) in V. skupine (P,~As,~Sb), ki so najuporabnejše za izdelavo diodnih laserjev.\index{Silicij}\index{Germanij}
+\index{GaAs}\index{GaP}\index{InAs}\index{InSb}
 \begin{figure}[ht]
 \centering
 \def\svgwidth{128truemm} 
@@ -864,7 +865,8 @@ Verjetnost za zasedenost stanj je podana s Fermi-Diracovo funkcijo:
 f_p(E)=\frac{1}{e^{(E-E_F)/k_B T}+1},
 \label{eq:7FD}
 \end{equation}
-pri čemer $E_F$ označuje Fermijevo energijo. Pri $T=0$ so vsa stanja pod \index{Fermijeva energija}
+pri čemer $E_F$ označuje Fermijevo energijo, $k_B$ pa Boltzmannovo konstanto. 
+Pri $T=0$ so vsa stanja pod \index{Fermijeva energija}
 Fermijevo energijo zasedena in nad njo prazna. Fermijeva energija leži
 v energijski reži (slika~\ref{fig:Fermi}\,a). Pri končni temperaturi se na dnu prevodnega pasu nahajajo 
 termično vzbujeni elektroni in na vrhu valenčnega pasu vrzeli (slika~\ref{fig:Fermi}\,b). Verjetnost 
@@ -882,7 +884,7 @@ stanja uporabimo dve Fermijevi energiji ($F_v$ in $F_p$), za vsak pas svojo (c).
 \end{figure}
 
 \begin{remark}
-$E_F$ se določi iz pogoja, da je število elektronov v prevodnem pasu enako 
+Fermijeva energija $E_F$ se določi iz pogoja, da je število elektronov v prevodnem pasu enako 
 številu vrzeli v valenčnem pasu in $N_{p0} = N_{v0}$. Fermijeva energija
 leži na sredini energijske reže le v primeru, da sta efektivni masi 
 za elektrone in vrzeli enaki. Sicer se Fermijeva energija premakne
@@ -903,8 +905,7 @@ N_{v0}=\int_{-\infty}^{0}\,\rho_v(E)f_v(E)\,dE.
 \eeq
 Število elektronov v prevodnem pasu (in vrzeli v valenčnem) je pri
 $T=0$ enako nič in tudi pri končnih temperaturah ostaja razmeroma nizko. 
-Znatno ga lahko povečamo, če polprevodnik dopiramo in s tem povišamo 
-Fermijevo energijo.
+Znatno ga lahko povečamo, če polprevodnik dopiramo.
 
 Dopiranje polprevodnika pomeni nadzorovano dodajanje ustreznih nečistoč. 
 Če dodamo donorske primesi, ki povečajo število elektronov v snovi, 
@@ -941,10 +942,12 @@ koncept kvazi-Fermijevih nivojev $F_p$ in $F_v$, s katerima opišemo porazdelitv
 v vsakem pasu posebej, za prevodni in valenčni pas:
 \beq
 f_p(E)=\frac{1}{e^{(E-F_p)/k_B T}+1}
+\label{eq:fDppas}
 \eeq
 in 
 \beq
 f_v(E)=\frac{1}{e^{(E-F_v)/k_B T}+1}.
+\label{eq:fDvpas}
 \eeq
 To lahko naredimo, ker je hitrost rekombinacije elektronov in vrzeli znatno počasnejša
 od vzpostavljanja kvaziravnovesja znotraj pasu. V termičnem ravnovesju je razlika med 
@@ -966,7 +969,7 @@ $f_p(E_b)$, verjetnost za zasedenost spodnjega stanja pa je $1-f_v(E_a)$. Verjet
 za prehod pri določenem valovnem vektorju je\index{Fermijevo zlato pravilo}:
 \begin{equation}  
 w_s(k)=\frac{2\pi}{\hslash}|H_{pv}|^2\delta(E_b-E_a- \hslash\omega)
-f_p(E_b)[1-f_v(E_a)],
+f_p(E_b)\left(1-f_v(E_a)\right)\!,
 \label{6.5}
 \end{equation}
 pri čemer je $H_{pv}= \langle p| \hat{x}|v\rangle E $ matrični element za dipolni
@@ -974,7 +977,7 @@ prehod  med prevodnim in valenčnim pasom v svetlobnem polju $E$. Podobna je
 verjetnost za absorpcijo:
 \begin{equation}  
 w_a(k)=\frac{2\pi}{\hslash}|H_{pv}|^2\delta(E_b-E_a- \hslash\omega)
-f_v(E_a)[1-f_p(E_b)].
+f_v(E_a)\left(1-f_p(E_b)\right)\!.
 \label{6.6}
 \end{equation}
 Upoštevamo enačbi~(\ref{pp:Ec}) in (\ref{pp:Ev}) in zapišemo razliko energij:
@@ -986,7 +989,7 @@ pri čemer smo z $m_r=m_v m_p/(m_v+m_p)$ označili reducirano maso elektrona in 
 
 Število emisij oziroma absorpcij na enoto volumna v danem času izračunamo tako,
 da verjetnosti za prehod integriramo po vseh $\mathbf{k}$. Razlika med številom 
-emisij in absorpcij na enoto volumna je:
+emisij $N_{pv}$ in absorpcij $N_{vp}$ na enoto volumna je:
 \begin{align}  
 N_{pv}-N_{vp}&=\int\left(w_s-w_a\right)\rho(k)\,dk  \nonumber \\
 &=\frac{2}{\pi\hslash} \int |H_{pv}|^2\left(f_p(E_b)-f_v(E_a)\right)
@@ -1000,8 +1003,8 @@ X = \frac{\hslash^2 k^2}{2m_r}+E_g -\hslash\omega
 \eeq
 in zapišemo integral:
 \beq
-N_{pv}-N_{vp}=\frac{1}{\pi\hslash}\left(\frac{2m_r}{\hslash^2}\right)^{3/2} 
-\int |H_{pv}|^2 \left(f_p(E_b)-f_v(E_a)\right)
+N_{pv}-N_{vp}=\frac{1}{\pi\hslash}\left(\frac{2m_r}{\hslash^2}\right)^{3/2}\!\!\int
+|H_{pv}|^2 \left(f_p(E_b)-f_v(E_a)\right)
 \sqrt{\left(X-E_g+\hslash \omega\right)}\,
 \delta (X) dX.
 \label{6.7a}
@@ -1009,18 +1012,19 @@ N_{pv}-N_{vp}=\frac{1}{\pi\hslash}\left(\frac{2m_r}{\hslash^2}\right)^{3/2}
 Z upoštevanjem lastnosti funkcije $\delta$ dobimo:
 \begin{equation}  
 N_{pv}-N_{vp}=\frac{1}{\pi\hslash}\left(\frac{2m_r}{\hslash^2}\right)^{3/2}
-|H_{pv}|^2 \sqrt{\hslash \omega-E_g}\left(f_p(E_b)-f_v(E_a)\right)\!\!.
+|H_{pv}|^2 \sqrt{\hslash \omega-E_g}\left(f_p(E_b)-f_v(E_a)\right)\!.
 \label{6.11}
 \end{equation}
-Da je število prehodov iz prevodnega v valenčni pas
-večje od števila prehodov v obratno smer in se torej vpadna svetloba ojačuje
-namesto absorbira, mora biti $N_{pv}-N_{vp} >0$. Sledi:
+Da se vpadna svetloba ojačuje namesto absorbira, mora biti število prehodov
+iz prevodnega v valenčni pas torej večje od števila prehodov v obratno smer. Pogoj
+$N_{pv}-N_{vp} >0$ je izpolnjen, kadar je razlika v oklepaju pozitivna. Vstavimo izraza
+za verjetnost (enačbi~\ref{eq:fDppas}~in~\ref{eq:fDvpas}) in zapišemo:
 \begin{equation}  
 \frac{1}{e^{(E_b-F_{p})/k_B T}+1}>\frac{1}{e^{(E_a-F_v)/k_B T}+1}.
 \label{6.12}
 \end{equation}
-Upoštevamo zvezo $E_b-E_a = \hslash \omega$ in zahtevo, da mora biti število prehodov realno. 
-Dobimo pogoj za ojačevanje:
+Upoštevamo zvezo $E_b-E_a = \hslash \omega$ in dobimo 
+pogoj za ojačevanje:
 \boxeq{6.13}{  
 E_g \leq \hslash\omega<F_{p}-F_{v}.
 }
@@ -1033,7 +1037,7 @@ Ojača se torej le svetloba z energijo fotonov, ki je manjša od razlike med kva
 nivojema. Koeficient ojačenja vpadne svetlobe pri dani krožni
 frekvenci $\omega$ je:
 \beq
-\gamma(\omega) = K \sqrt{\hslash \omega - E_g}\left(f_p(E_b)-f_v(E_a)\right)\!\!,
+\gamma(\omega) = K \sqrt{\hslash \omega - E_g}\left(f_p(E_b)-f_v(E_a)\right)\!,
 \label{eq:gainSC}
 \eeq
 pri čemer smo konstante pospravili v sorazmernostni faktor $K$. Za ojačenje velja:
@@ -1046,7 +1050,7 @@ temperaturo. Njegovo odvisnost od energije vpadnih fotonov kaže slika~\ref{s6.1
 naraščajočo temperaturo se zmanjšuje tudi širina pasu, v katerem se svetloba ojačuje.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{60truemm} 
+\def\svgwidth{55truemm} 
 \input{slike/07_gamma.pdf_tex}
 \caption{Ojačenje v polprevodniku kot funkcija energije vpadnih fotonov. Črna črta
 velja pri $T=0$ in rdeča pri $T>0$. Pri frekvencah, večjih od $(F_p-F_v)/\hslash$,
@@ -1103,17 +1107,17 @@ Pri večjih napetostih, ko je $e_0U \approx E_g$, so koncentracije nosilcev nabo
 stimulirane rekombinacije omogočajo optično ojačenje. Takrat presežemo prag delovanja
 diodnega laserja. \index{Prag delovanja laserja}
 Ojačenje v polprevodniških laserjih je precej veliko, lahko več od 
-$100~/\si{cm}$, zato je mogoče dobiti delujoč laser že v zelo majhnem aktivnem 
-območju, lahko tudi le nekaj mikronov. Navadni polprevodniški laserji so tako 
+$100/\si{cm}$, zato je mogoče dobiti delujoč laser že v zelo majhnem aktivnem 
+območju, velikem lahko le nekaj mikronov. Navadni polprevodniški laserji so tako 
 dolgi $\sim~0,25~\si{mm}$.
 \newpage
 
 \subsection*{Zgradba laserja}
 Prvi polprevodniški laser je bil narejen iz galijevega arzenida (GaAs) in je oddajal svetlobo \index{GaAs}
 pri $850~\si{nm}$.\footnote{~R. N. Hall 
-et al., Phys. Rev. Lett. $\mathbf{9}$, 366 (1962).}. 
-Shema takega laserja je na sliki~\ref{fig:pnshema} Svetloba se v njem ojačuje
-v tanki aktivni plasti in iz laserja izhaja v smeri vzdolžno z njim. 
+et al., Phys. Rev. Lett. $\mathbf{9}$, 366 (1962).} 
+Shema takega laserja je na sliki~\ref{fig:pnshema}. Svetloba se v njem ojačuje
+v tanki aktivni plasti in iz laserja izhaja v vzdolžni smeri. 
 Vidimo, da polprevodniški laser nima resonatorja iz dveh odbojnih zrcal,
 ampak se svetloba odbija kar na gladko odklanih stranskih ploskvah kristala. Zaradi
 velikega lomnega količnika (npr. $n=3,5$ za GaAs) je odbojnost dovolj velika
@@ -1135,7 +1139,7 @@ Opisani polprevodniški laserji imajo kar nekaj slabosti. So zelo močno dopiran
 dobro delujejo le močno hlajeni (prvotno pri $77~\si{K}$), poleg tega je snop 
 v takih laserjih pogosto širši od debeline aktivnega območja. To znaša
 $\sim 1~\si{\micro\meter}$, širina snopa pa nekaj mikronov več, zato
-znaten del svetlobe potuje po območju $p$ in $n$, kjer se absorbira in posledično
+znaten del svetlobe potuje po območju $p$ in $n$, kjer se svetloba absorbira in posledično
 snov segreva. Tokovi, potrebni za 
 delovanje takega laserja, so visoki ($\sim 100~\si{kA}/\si{cm}^2$ pri sobni temperaturi) in
 kakovost snopa razmeroma slaba. 
@@ -1147,7 +1151,7 @@ iznajdbo heterostruktur sta Zhores I. Alferov in Herbert Kroemer leta 2000 preje
 v katerih sta spojeni dve različni snovi, medtem ko se aktivno območje (tipično debelo le okoli $100~\si{nm}$) 
 nahaja med polprevodnikoma tipa $p$ in $n$.\footnote{~H. Kroemer, Proc. IEEE $\mathbf{51}$, 1782 (1963).}
 
-Najpomembnejši primer je plast $p$-GaAs, ki se nahaja med plastema  \index{Heterostruktura}
+Najpomembnejši primer heterostruktur je tanka plast $p$-GaAs, ki se nahaja med plastema  \index{Heterostruktura}
 $n$-Al$_x$Ga$_{1-x}$As in $p$-Al$_x$Ga$_{1-x}$As \index{AlGaAs}
 (slika~\ref{fig:hetero}\,a). Elektroni v tem primeru tečejo iz tipa $n$ v prevodni pas aktivne plasti
 GaAs in vrzeli iz tipa $p$ v valenčni pas. 
@@ -1174,8 +1178,8 @@ Take plastne strukture naredijo z epitaksialno rastjo, zato si morajo biti medat
 razdalje različnih materialov čim bolj podobne. V nasprotnem primeru se pojavijo 
 defekti, zaradi katerih naprava slabše deluje. 
 GaAs in AlAs imata enako strukturo in praktično enako medatomsko razdaljo, zato 
-lahko brez škode na strukturi atome galija zamenjamo z atomi aluminija. Tipične 
-vrednosti $x$ v Al$_x$Ga$_{1-x}$As so $0,3$. S spreminjanjem koncentracije aluminija $x$ hkrati
+lahko brez škode na strukturi atome galija zamenjamo z atomi aluminija. Tipična 
+vrednost $x$ v Al$_x$Ga$_{1-x}$As je okoli $0,3$. S spreminjanjem koncentracije aluminija $x$ hkrati
 zvezno spreminjamo širino energijske reže ($E_g \approx 1,42 + 1,3x~\si{eV}$) in lomni količnik 
 zlitine ($n \approx 3,5-0,71x$).
 \end{remark}
@@ -1199,18 +1203,18 @@ zato lahko hkrati sveti mnogo nihanj. Posledično je prečna koherenca snopa raz
 delovanje laserja nestabilno. 
 
 To slabost popravijo z jedkanjem plasti ob straneh, da ostane le
-kakih $5~\si{\micro\meter}$ širok pas (\ref{fig:heshema}). Odjedkani material nadomestijo s čistim Al$_x$Ga$_{1-x}$As, 
+kakih $5~\si{\micro\meter}$ širok pas (slika~\ref{fig:heshema}). Odjedkani material nadomestijo s čistim Al$_x$Ga$_{1-x}$As, 
 tako da je aktivno območje z vseh strani obdano s snovjo z večjim lomnim količnikom in laserski
 snop ostane ujet v pravokoten valovni vodnik. Izhodni snop je zaradi oblike aktivne snovi eliptičen s 
 premerom okoli $1~\si{\micro\meter}$ v navpični in $5~\si{\micro\meter}$ v prečni smeri. 
-V večji oddaljenosti je divergenca snopa $\sim~50~\si{\degree}$ v navpični in $\sim~5~\si{\degree}$ 
-v prečni smeri. Če potrebujemo cilindrično simetričen snop, ga moramo popraviti z ustreznimi 
+V večji oddaljenosti je divergenca snopa lahko tudi $\sim~50~\si{\degree}$ v navpični in $\sim~5~\si{\degree}$ 
+v prečni smeri. Če potrebujemo radialno simetričen snop, ga moramo popraviti z ustreznimi 
 lečami.
 \begin{figure}[ht]
 \centering
 \def\svgwidth{85truemm} 
 \input{slike/07_heshema.pdf_tex}
-\caption{Shema laserja z dvojno heterostrukuro z dodatno prečno omejitvijo
+\caption{Poenostavljena shema laserja z dvojno heterostrukuro z dodatno prečno omejitvijo
 }
 \label{fig:heshema}
 \end{figure}
@@ -1252,7 +1256,8 @@ Diodni laserji so danes eni izmed najpomembnejših laserjev. Uporabljamo jih v v
 (tiskalnikih, optičnih bralnikih), medicini, industriji, izrednega
 pomena so za telekomunikacije, pogosto jih uporabljamo tudi za 
 črpanje trdninskih ali vlakenskih laserjev. 
-Poleg že naštetih prednosti jih odlikuje tudi zelo dolg življenjski čas ($\sim~50\,000$~ur). 
+Poleg že naštetih prednosti jih odlikuje tudi zelo dolg življenjski čas 
+($\sim~50\,\,000$~ur). 
 \newpage
 
 \subsection{Svetleče diode -- LED}
@@ -1260,7 +1265,7 @@ Poleg že naštetih prednosti jih odlikuje tudi zelo dolg življenjski čas ($\s
 Svetleče diode so danes eden izmed najbolj razširjenih izvorov svetlobe in nadomeščajo
 navadne žarnice ali svetilke. Oddajajo svetlobo od ultravijolične do infrardeče, 
 odlikujeta jih \index{Ultravijolično valovanje}
-dober izkoristek (nad $25~\%$) in dolga življenjska doba ($\sim~50\,000$~ur).
+dober izkoristek (nad $25~\%$) in dolga življenjska doba ($\sim~50\,\,000$~ur).
 
 Svetleče diode delujejo podobno kot polprevodniški laserji. Na spoju $p$-$n$ prihaja do 
 spontane emisije fotonov zaradi rekombinacij elektronov in vrzeli. Za razliko od laserjev 
@@ -1291,6 +1296,6 @@ Posebna vrsta svetlečih diod so organske svetleče diode (OLED).\footnote{~C. W
 S. A. VanSlyke, Appl. Phys. Lett. $\mathbf{51}$, 913 (1987).} Te so narejene iz
 organskih snovi, ki se obnašajo kot organski polprevodniki. S spreminjanjem kemijske
 sestave se spreminja valovno dolžino, ki jo LED oddaja. Njihova poglavitna prednost
-je preprosta izdelava, saj je proizvodnja organski spojin preprostejša in cenejša
+je preprosta izdelava, saj je proizvodnja organskih spojin preprostejša in cenejša
 od rasti kristalov. \index{Svetleče diode!OLED}
 \end{remark}

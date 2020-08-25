@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="07_gamma.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    version="1.1"
    id="svg3464"
    viewBox="0 0 558.53496 367.637"
@@ -31,8 +31,8 @@
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      inkscape:cy="159.88116"
-     inkscape:cx="-47.265631"
-     inkscape:zoom="1.2358828"
+     inkscape:cx="264.50028"
+     inkscape:zoom="0.6179414"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -543,55 +543,52 @@
     <g
        id="g4598"
        transform="translate(-42,-94)" />
-    <g
-       id="g1653">
-      <text
-         inkscape:transform-center-y="-2.0000001"
-         inkscape:transform-center-x="11.000001"
-         id="text12647-1-6-2-5-5-3-4-3-7-9"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="315.05676"
+       y="467.42566"
+       id="text12647-1-6-2-5-5-3-4-3-7-9"
+       inkscape:transform-center-x="11.000001"
+       inkscape:transform-center-y="-2.0000001"><tspan
+         sodipodi:role="line"
+         x="315.05676"
          y="467.42566"
-         x="268.18176"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-9-7-5-6-5-3"
-           style="font-size:20px;line-height:1.25"
-           y="467.42566"
-           x="268.18176"
-           sodipodi:role="line">$\hbar \omega$</tspan></text>
-      <text
-         id="text12647-1-6-2-5-5-3-4-3-7-9-3"
-         y="283.57532"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-9-7-5-6-5-3">$\hslash \omega$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-134.26933"
+       y="283.57532"
+       id="text12647-1-6-2-5-5-3-4-3-7-9-3"><tspan
+         sodipodi:role="line"
          x="-134.26933"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-9-7-5-6-5-3-6"
-           style="font-size:20px;line-height:1.25"
-           y="283.57532"
-           x="-134.26933"
-           sodipodi:role="line">$\gamma$</tspan></text>
-      <text
-         id="text12647-1-6-2-5-5-3-4-3-7-9-9-6"
-         y="467.53348"
+         y="283.57532"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-9-7-5-6-5-3-6">$\gamma$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-105.7094"
+       y="467.53348"
+       id="text12647-1-6-2-5-5-3-4-3-7-9-9-6"><tspan
+         sodipodi:role="line"
          x="-105.7094"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-9-7-5-6-5-3-1-1"
-           style="font-size:20px;line-height:1.25"
-           y="467.53348"
-           x="-105.7094"
-           sodipodi:role="line">$E_g$</tspan></text>
-      <text
-         id="text12647-1-6-2-5-5-3-4-3-7-9-9-6-6"
-         y="408.96451"
+         y="467.53348"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-9-7-5-6-5-3-1-1">$E_g$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="176.56467"
+       y="408.96451"
+       id="text12647-1-6-2-5-5-3-4-3-7-9-9-6-6"><tspan
+         sodipodi:role="line"
          x="176.56467"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan12743-9-7-5-6-5-3-1-1-1"
-           style="font-size:20px;line-height:1.25"
-           y="408.96451"
-           x="176.56467"
-           sodipodi:role="line">$F_p-F_v$</tspan></text>
-    </g>
+         y="408.96451"
+         style="font-size:20px;line-height:1.25"
+         id="tspan12743-9-7-5-6-5-3-1-1-1">$F_p-F_v$</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.62500024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -99.01467,432.62777 v 11.17149"
