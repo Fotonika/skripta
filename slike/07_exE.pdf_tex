@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{327.60066956bp}%
+    \setlength{\unitlength}{326.42126128bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.68851544)%
+  \begin{picture}(1,0.71429843)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_exE.pdf}}%
-    \put(0.03115378,0.24776298){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}energija\end{tabular}}}}}%
-    \put(0.72935335,0.12370223){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Kr + Cl\end{tabular}}}}%
-    \put(0.49631429,0.31605976){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$222~\si{\nano\metre}$\end{tabular}}}}%
-    \put(0.19869208,0.00015868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}razdalja med jedroma\end{tabular}}}}%
-    \put(0.75907615,0.53091575){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}(KrCl)*\end{tabular}}}}%
+    \put(0.67927129,0.10791471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Kr + Cl\end{tabular}}}}%
+    \put(0.44539022,0.30096726){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$222~\si{\nano\metre}$\end{tabular}}}}%
+    \put(0.70910148,0.51659955){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}(KrCl)*\end{tabular}}}}%
+    \put(0.02921747,0.67655577){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E$\end{tabular}}}}%
+    \put(0.94273662,0.00617603){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$d$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

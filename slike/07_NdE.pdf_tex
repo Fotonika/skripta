@@ -54,19 +54,19 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_NdE.pdf}}%
-    \put(0.13645432,0.78434818){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Energija (eV)\end{tabular}}}}%
+    \put(0.15946163,0.78434818){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E$~[eV]\end{tabular}}}}%
     \put(0.52217914,0.00891659){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
     \put(0.42653133,0.36230896){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}optično\end{tabular}}}}%
-    \put(0.15222655,0.64147569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4F_{5/2}$\end{tabular}}}}%
+    \put(0.20591027,0.64147569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4$F$_{5/2}$\end{tabular}}}}%
     \put(0.68470804,0.061331){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
     \put(0.77367172,0.34979299){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,06~\si{\micro\metre}$\end{tabular}}}}%
-    \put(0.15222655,0.01242161){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4I_{9/2}$\end{tabular}}}}%
-    \put(0.88641554,0.10874089){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4I_{11/2}$\end{tabular}}}}%
-    \put(0.88641554,0.56549442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4F_{3/2}$\end{tabular}}}}%
+    \put(0.20591027,0.01242161){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4$I$_{9/2}$\end{tabular}}}}%
+    \put(0.8121161,0.13365493){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4$I$_{11/2}$\end{tabular}}}}%
+    \put(0.8121161,0.59191719){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$^4$F$_{3/2}$\end{tabular}}}}%
     \put(0.59248257,0.63920563){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
     \put(0.42673583,0.31723344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}črpanje\end{tabular}}}}%
-    \put(-0.00161791,0.59415414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,5$\end{tabular}}}}%
-    \put(-0.00161791,0.39940014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,0$\end{tabular}}}}%
-    \put(-0.00161791,0.20793721){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,5$\end{tabular}}}}%
+    \put(0.04823127,0.59415414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,5$\end{tabular}}}}%
+    \put(0.04823127,0.39940014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,0$\end{tabular}}}}%
+    \put(0.04823127,0.20793721){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,5$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

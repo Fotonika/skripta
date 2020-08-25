@@ -461,7 +461,7 @@
            style="font-size:20px;line-height:1.25"
            y="217.3067"
            x="215.70338"
-           sodipodi:role="line">$4p$</tspan></text>
+           sodipodi:role="line">$4$p</tspan></text>
       <text
          id="text12647-1-6-2-5-5-3-4-2-44-0"
          y="323.08005"
@@ -472,7 +472,7 @@
            style="font-size:20px;line-height:1.25"
            y="323.08005"
            x="415.37753"
-           sodipodi:role="line">$4s$</tspan></text>
+           sodipodi:role="line">$4$s</tspan></text>
       <text
          id="text12647-1-6-2-5-8"
          y="406.79327"
@@ -516,7 +516,7 @@
            style="font-size:20px;line-height:1.25"
            y="458.68396"
            x="215.70338"
-           sodipodi:role="line">$3p$</tspan></text>
+           sodipodi:role="line">$3$p</tspan></text>
       <text
          id="text12647-1-6-2-5-5-3-4-3-7-9"
          y="304.24963"
@@ -539,7 +539,7 @@
          id="tspan200"
          x="-28.465685"
          y="258.87064"
-         style="stroke-width:0.9375"></tspan><tspan
+         style="stroke-width:0.9375" /><tspan
          sodipodi:role="line"
          x="-28.465685"
          y="305.74564"
@@ -555,5 +555,42 @@
            height="80.74662"
            x="-169.6701"
            y="79.99749" /></flowRegion><flowPara
-         id="flowPara212"></flowPara></flowRoot>  </g>
+         id="flowPara212" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="736.19971"
+       y="406.79688"
+       id="text110"><tspan
+         sodipodi:role="line"
+         id="tspan108"
+         x="736.19971"
+         y="439.97559"
+         style="stroke-width:0.9375" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="811.89966"
+       y="137.53502"
+       id="text220"><tspan
+         sodipodi:role="line"
+         id="tspan218"
+         x="811.89966"
+         y="170.71373"
+         style="stroke-width:0.9375"></tspan><tspan
+         sodipodi:role="line"
+         x="811.89966"
+         y="217.58873"
+         style="stroke-width:0.9375"
+         id="tspan222" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot224"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion226"><rect
+           id="rect228"
+           width="93.011925"
+           height="132.87418"
+           x="709.34369"
+           y="-44.699821" /></flowRegion><flowPara
+         id="flowPara230"></flowPara></flowRoot>  </g>
 </svg>

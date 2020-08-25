@@ -56,7 +56,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4200241"
+     inkscape:zoom="0.71001205"
      inkscape:cx="307.28762"
      inkscape:cy="123.56944"
      inkscape:document-units="px"
@@ -268,52 +268,49 @@
            sodipodi:nodetypes="cc" />
       </g>
     </g>
-    <g
-       id="g58">
-      <text
-         id="text5062-3"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="272.31949"
+       y="411.95444"
+       id="text5062-3"><tspan
+         sodipodi:role="line"
+         id="tspan5064-56"
+         x="272.31949"
          y="411.95444"
-         x="268.56949"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:25px;line-height:1.25"
-           y="411.95444"
-           x="268.56949"
-           id="tspan5064-56"
-           sodipodi:role="line">BPS</tspan></text>
-      <text
-         id="text5062-5-3"
-         y="439.57794"
-         x="171.17651"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:25px;line-height:1.25"
-           y="439.57794"
-           x="171.17651"
-           id="tspan5064-3-6"
-           sodipodi:role="line">LD</tspan></text>
-      <text
-         id="text5062-3-3-3"
-         y="352.34195"
+         style="font-size:25px;line-height:1.25">BPS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="174.92651"
+       y="435.82794"
+       id="text5062-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan5064-3-6"
+         x="174.92651"
+         y="435.82794"
+         style="font-size:25px;line-height:1.25">LD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="539.92169"
+       y="352.34195"
+       id="text5062-3-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan5064-56-6-7"
          x="539.92169"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:25px;line-height:1.25"
-           y="352.34195"
-           x="539.92169"
-           id="tspan5064-56-6-7"
-           sodipodi:role="line">V</tspan></text>
-      <text
-         id="text5062-3-5"
+         y="352.34195"
+         style="font-size:25px;line-height:1.25">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="572.58667"
+       y="412.44913"
+       id="text5062-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan5064-56-92"
+         x="572.58667"
          y="412.44913"
-         x="568.83667"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:25px;line-height:1.25"
-           y="412.44913"
-           x="568.83667"
-           id="tspan5064-56-92"
-           sodipodi:role="line">BPS</tspan></text>
-    </g>
+         style="font-size:25px;line-height:1.25">BPS</tspan></text>
   </g>
 </svg>

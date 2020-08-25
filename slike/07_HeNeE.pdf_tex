@@ -63,13 +63,13 @@
     \put(0.27253083,0.00963628){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
     \put(0.18955187,0.2506428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}trki z elektroni\end{tabular}}}}%
     \put(0.25765561,0.50778442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}medatomski trki\end{tabular}}}}%
-    \put(0.06398938,0.48051479){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2^3S$\end{tabular}}}}%
-    \put(0.06520981,0.57657411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2^1S$\end{tabular}}}}%
-    \put(0.52556075,0.57653868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$5s$\end{tabular}}}}%
-    \put(0.52556075,0.47875927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4s$\end{tabular}}}}%
-    \put(0.52557355,0.17001766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3s$\end{tabular}}}}%
-    \put(0.90685265,0.53372384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4p$\end{tabular}}}}%
-    \put(0.90685265,0.35852293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3p$\end{tabular}}}}%
+    \put(0.06398938,0.48051479){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2^3$S\end{tabular}}}}%
+    \put(0.06520981,0.57657411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2^1$S\end{tabular}}}}%
+    \put(0.52556075,0.57653868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$5$s\end{tabular}}}}%
+    \put(0.52556075,0.47875927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4$s\end{tabular}}}}%
+    \put(0.52557355,0.17001766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$s\end{tabular}}}}%
+    \put(0.90685265,0.53372384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4$p\end{tabular}}}}%
+    \put(0.90685265,0.35852293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$p\end{tabular}}}}%
     \put(0.75923386,0.2231651){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
     \put(0.74683495,0.56239523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3,39~\si{\micro\metre}$\end{tabular}}}}%
     \put(0.78786053,0.44574897){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$632,8~\si{\nano\metre}$\end{tabular}}}}%
