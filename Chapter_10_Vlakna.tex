@@ -46,14 +46,14 @@ na mejo med sredico in plaščem večji od mejnega kota totalnega odboja $\varth
 Obstaja največji vpadni kot $\alpha_{\rm max}$, pri katerem se
 vpadna svetloba ujame v vlakno.
 Z njim povezana je numerična odprtina (apertura) vlakna\index{Numerična odprtina} $NA$, 
-ki jo izračunamo kot 
+ki jo izračunamo kot:
 \begin{equation}
 NA = \sin \alpha_{\rm max} = n_1 \sin \beta_{\rm max} = 
 n_1 \sin(\pi/2-\vartheta_T) =
 n_1 \cos\vartheta_T = n_1 \sqrt{1-\sin^2\vartheta_T}.
 \label{10NAa}
 \end{equation}
-Upoštevajoč enačbo~(\ref{10totalni}) numerično odprtino zapišemo kot 
+Upoštevajoč enačbo~(\ref{10totalni}) numerično odprtino zapišemo kot:
 \boxeq{10NA}{
 NA = \sqrt{n_1^2-n_2^2}.
 }
@@ -65,7 +65,7 @@ v vodnik (ali vlakno), da se vanj ujame, je tako navadno le nekaj stopinj.
 \subsection*{Valovni opis}
 Za natančen opis širjenja svetlobe po vodnikih ali vlaknih\footnote{Dogovorimo se, da  
 besedo vlakno uporabljamo za cilindrične strukture in besedo vodnik za planparalelne 
-ter njim podobne strukture.}, ki imajo debelino ali premer
+in njim podobne strukture.}, ki imajo debelino ali premer
 sredice od nekaj mikrometrov do nekaj deset mikrometrov, geometrijska optika ne
 zadošča. Rešiti moramo Maxwellove enačbe (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) 
 z ustreznimi robnimi pogoji (enačbe~\ref{eq:robni-pogoji} in \ref{eq:robni-pogoji5}),
@@ -99,7 +99,7 @@ $N\pi/a$, pri čemer je $N$
 celo število. Pravimo, da vsak $N$ določa en rod valovanj v vodniku. 
 
 Po drugi strani 
-obstaja največji $k_x$, za katerega približno velja
+obstaja največji $k_x$, za katerega približno velja:
 \begin{equation}
 k_{x \mathrm{max}} \approx k_0 \sin\alpha_{\rm max} = k_0 \sqrt{n_1^2 -n_2^2}.
 \end{equation}
@@ -111,16 +111,17 @@ valovanje ne more širiti. Enorodovna optična vlakna, torej vlakna, po katerih 
 en sam rod, imajo še posebej lepe lastnosti za uporabo v komunikacijskih
 sistemih\index{Optični vodnik!enorodovni}\index{Optično vlakno!enorodovno}.
 
-Povejmo še nekaj o hitrosti valovanja v vodniku.
+Zapišimo še nekaj o hitrosti valovanja v vodniku.
 Naj bo $\beta$ velikost komponente valovnega vektorja vzdolž smeri $z$ in odvisnost 
 polja od koordinate vzdolž vodnika $\exp (i\beta z)$. Velikost
-valovnega vektorja v sredici vodnika zapišemo kot
+valovnega vektorja v sredici vodnika zapišemo kot:
 \begin{equation}
 k_1 = n_{1}\frac{\omega}{c_0}=\sqrt{\beta^{2}+k_{x}^{2}}
 \label{9.0}.
 \end{equation}
-Vidimo, da za dano vrednost $k_{x}$ zveza med valovnim številom $\beta$
-in krožno frekvenco $\omega$ ni linearna. Fazna hitrost\index{Hitrost valovanja!fazna} 
+Za dano vrednost $k_{x}$ zveza med valovnim številom $\beta$
+in krožno frekvenco $\omega$ torej 
+ni linearna. Fazna hitrost\index{Hitrost valovanja!fazna} 
 valovanja $v_{f}=\omega/\beta$ je tako
 odvisna od krožne frekvence in nastopi disperzija\index{Disperzija}. Grupna ali skupinska
 hitrost\index{Hitrost valovanja!grupna} $v_{g}=d\omega/d\beta$ 
@@ -150,12 +151,12 @@ območje II označuje sredico, območji I in III naj bosta v plašču nad sredic
 \end{figure}
 
 Krajevni del valovne enačbe, ki jo rešujemo, opisuje Helmholtzeva 
-enačba\index{Helmholtzeva enačba} (enačba~\ref{eq:Helmholtz})
+enačba\index{Helmholtzeva enačba} (enačba~\ref{eq:Helmholtz}):
 \begin{equation}
 \nabla^{2}\mathbf{E}+n^2(x)\,k_{0}^{2}\,\mathbf{E}=0,
 \label{9.1}
 \end{equation}
-kjer je $k_{0}=\omega/c$. Pri tem $n(x)$  nezvezno spremeni vrednost ob prehodu iz sredice v plašč. 
+pri čemer je $k_{0}=\omega/c_0$. Lomni količnik $n(x)$  nezvezno spremeni vrednost ob prehodu iz sredice v plašč. 
 
 Nastavek za rešitev naj bo oblike:
 \begin{equation}
@@ -172,7 +173,7 @@ valovanja glej nalogo~\ref{naloga:TM}). Vstavimo nastavek (enačba~\ref{9.2}) v 
 \qquad \textrm{v sredici (obmo\v cje II)} 
 \label{9.3a}
 \end{equation}
-in:
+in
 \begin{equation}
 \frac{d^{2}{\bf \psi}}{dx^{2}}+\left(k_{0}^{2}n_2^{2}-\beta^{2}\right){\bf \psi}=0
 \qquad \textrm{v plašču (obmo\v cji I in III).} 
@@ -183,7 +184,7 @@ zapišemo v obliki:
 \begin{equation}
 \psi_{\mathrm{II}}(x) = C \cos(k_x x)+D \sin(k_x x),
 \end{equation}
-rešitve v plašču pa so oblike
+rešitve v plašču pa v obliki:
 \begin{equation}
 \psi_{\mathrm{I}}(x) = A \exp(-\kappa x)+B \exp(\kappa x)\quad \mathrm{in}\quad
 \psi_{\mathrm{III}}(x) = F \exp(-\kappa x)+G \exp(\kappa x),
@@ -195,7 +196,7 @@ z oddaljenostjo od sredice,
 sicer je valovanje v vseh treh območjih oscilatorno in ni ujeto v vlakno. 
 
 Iz zahteve, da sta $k_x$ in $\kappa$ realna, sledi pogoj za valovno 
-število\index{Valovno število} $\beta$
+število\index{Valovno število} $\beta$:
 \boxeq{vlaknobeta}{
 k_0 n_2 < \beta < k_0 n_1.
 }
@@ -207,9 +208,9 @@ simetrije vlakna lastne rešitve lahko le sode ali lihe funkcije.
 
 \subsection*{Sode rešitve}
 \index{Optični vodnik!sodi rodovi}
-Poglejmo najprej sode rešitve. V sredici bo različen od nič samo $C$, 
+Poglejmo najprej sode rešitve. V sredici je od nič različen samo $C$, 
 v območjih I in III pa bosta amplitudi enaki in $A = G$ (slika~\ref{fig:TESodi}\,a). 
-Dobimo 
+Dobimo:
 \begin{align}
 \psi_{\mathrm{I}}(x) =&~ A \exp(-\kappa x), \\
 \psi_{\mathrm{II}}(x) =&~ C \cos(k_x x) \qquad \mathrm{in}\\
@@ -220,28 +221,29 @@ med sredico in plaščem morata biti tangencialni komponenti
 jakosti električnega in magnetnega polja zvezni (enačbi~\ref{eq:robni-pogoji5}). 
 
 Iz tega izpeljemo pogoj, da se za TE valovanje
-na meji ohranja amplituda jakosti električnega polja. Pri $x = a/2$ zapišemo
+na meji ohranja amplituda jakosti električnega polja. Pri $x = a/2$ zapišemo:
 \begin{equation}
 A \exp(-\kappa a/2) = C \cos(k_x a/2).
 \label{eq:rps1}
 \end{equation}
-Drugi pogoj sledi iz zveze $\nabla\times{\bf E}=i\omega\mu_{0}{\bf H}$, ki izhaja
-neposredno iz Maxwellove enačbe~(\ref{eq:Maxwell2}). Ker se na meji ohranja
+Drugi pogoj izpeljemo iz Maxwellove enačbe~(enačba~\ref{eq:Maxwell2}). Ob upoštevanju
+časovne odvisnosti polja dobimo zvezo $\nabla\times{\bf E}=i\omega\mu_{0}{\bf H}$. 
+Ker se na meji ohranja
 tangencialna komponenta ${\bf H}$, to je v tem primeru $H_z$, se posledično ohranja 
 odvod jakosti električnega polja $dE_y/dx$. 
-Pri $x = a/2$  velja
+Pri $x = a/2$  velja:
 \begin{equation}
 -A \kappa \exp(-\kappa a/2) = -C k_x \sin(k_x a/2).
 \label{eq:rps2}
 \end{equation}
 Enačbo za $k_x$ izpeljemo iz zahteve, da sta robna 
 pogoja  (enačbi~\ref{eq:rps1} in \ref{eq:rps2}) hkrati izpolnjena. Izraza za robna pogoja delimo, tako da se amplitude pokrajšajo, in dobimo sekularno 
-enačbo za sode rešitve \index{Sekularna enačba!sodi rodovi}
+enačbo za sode rešitve: \index{Sekularna enačba!sodi rodovi}
 \boxeq{sekular1}{
 \frac{\kappa}{k_x} = \tan \frac{k_x a}{2}.
 }
 Rešitve enačbe so diskretne in vsaki vrednosti $k_x$ ustreza 
-en sodi rod oziroma sodi lastni način. Pri tem je zveza med $\kappa$ in $k_x$  
+en sodi rod oziroma sodi lastni način. Pri tem je zveza med $\kappa$ in $k_x$:
 \boxeq{kappak}{
 \kappa^{2}+ k_x^{2}=k_{0}^{2}\left(n_{1}^{2}-n_{2}^{2}\right)\!\!.
 }
@@ -257,7 +259,7 @@ pa plašč vodnika.
 \end{figure}
 \vglue-6truemm
 \begin{remark}
-Če ne prej, je bralec ob slikah~\ref{fig:TESodi} zagotovo opazil podobnost s kvantnim 
+Če ne prej, je bralec ob sliki~\ref{fig:TESodi} zagotovo opazil podobnost s kvantnim 
 delcem, ujetim v končni enodimenzionalni potencialni jami. Svetloba, ujeta v vodnik ali
 vlakno, ustreza vezanim stanjem delca, numerična odprtina pa je tisti parameter, 
 ki določa globino potencialne jame. Pri majhnih vrednostih obstaja ena sama rešitev 
@@ -269,14 +271,14 @@ J. Strnad, {\it Fizika, 3. del}, tretja izdaja, DMFA-založništvo (2018).}
 \subsection*{Lihe rešitve}
 \index{Optični vodnik!lihi rodovi}
 Oglejmo si še lihe rešitve v planparalelnem vodniku. V sredici je od nič različen
-le $D$, polji v plašču  sta nasprotno enaki in $A = -G$ (slika~\ref{fig:TESodi}\,b). Sledi
+le $D$, polji v plašču  sta nasprotno enaki in $A = -G$ (slika~\ref{fig:TESodi}\,b). Sledi:
 \begin{align}
 \psi_{\mathrm{I}}(x) =&~ A \exp(-\kappa x),\\
 \psi_{\mathrm{II}}(x) =&~ D \sin(k_x x),\\
 \psi_{\mathrm{III}}(x) =&~ -A \exp(\kappa x).
 \end{align}
 Z upoštevanjem zveznosti jakosti električnega polja in njenega odvoda na 
-meji med sredico in plaščem zapišemo robna pogoja pri $x=a/2$
+meji med sredico in plaščem zapišemo robna pogoja pri $x=a/2$:
 \begin{equation}
 A \exp(-\kappa a/2) = D \sin(k_x a/2)
 \end{equation}
@@ -284,7 +286,7 @@ in
 \begin{equation}
 -\kappa A \exp(-\kappa a/2) = D k_x \cos(k_x a/2).
 \end{equation}
-Ustrezna sekularna enačba za lihe rešitve je\index{Sekularna enačba!lihi rodovi}
+Ustrezna sekularna enačba za lihe rešitve je:\index{Sekularna enačba!lihi rodovi}
  \boxeq{sekular2}{
 -\frac{k_x}{\kappa} = \tan \frac{k_x a}{2}.
 }
@@ -294,7 +296,7 @@ analitično. Rešujemo jih numerično, zelo nazorna je tudi grafična predstavit
 $k_xa$ in narišemo funkcijo $k_xa\, \tan (k_xa/2)$ (črne črte). Enačbo za lihe 
 rodove~(enačba~\ref{sekular2}) preoblikujemo in narišemo $-k_xa\, \cot (k_xa/2)$ (rdeče črte).
 Nato pri danih parametrih $n_1$, $n_2$, $a$ in $k_0$ narišemo krožnico za $\kappa a$, 
-ki sledi iz enačbe~(\ref{kappak})
+ki sledi iz enačbe~(\ref{kappak}):
 \begin{equation}
  (\kappa a)^2+ (k_x a)^{2}=k_{0}^{2} a^2\left(n_{1}^{2}-n_{2}^{2}\right) = k_0^2\,a^2\,NA^2.
 \end{equation}
@@ -305,7 +307,7 @@ ki sledi iz enačbe~(\ref{kappak})
 \input{slike/10_TEsekularna_nova.pdf_tex}
 \caption{K izračunu $k_x$ v valovnem vodniku
 za TE polarizacijo. Število presečišč krožnice s krivuljami določa število lastnih rodov 
-v vodniku. Zelena krožnica prestavlja enorodovni vodnik, turkizna dvorodovnega in modra
+v vodniku. Zelena krožnica predstavlja enorodovni vodnik, turkizna dvorodovnega in modra
 petrodovnega s tremi sodimi in dvema lihima rešitvama.}
 \label{fig:TEsec}
 \end{figure}
@@ -316,18 +318,18 @@ dolžini svetlobe). V najtanjšem vodniku (zelena črta) je presečišče
 le eno in tak vodnik imenujemo enorodovni vodnik\index{Optični vodnik!enorodovni}. 
 Z večanjem debeline število presečišč -- in s tem število lastnih rodov -- narašča in taki vodniki so 
 večrodovni\index{Optični vodnik!večrodovni}. Lastni rodovi v večrodovnem vodniku
-so izmenično sodi in lihi, pri čemer je osnovni rod vedno sod. 
+so izmenično sodi in lihi, pri čemer je osnovni rod vedno sodi. 
 
 S slike~\ref{fig:TEsec} razberemo še eno pomembno lastnost vodnikov. 
 Ne glede na to, kako majhen je polmer krožnice, krožnica vedno seka črno krivuljo. 
 To pomeni, da v še tako tankem vodniku vsaj ena rešitev za $k_x$ vedno obstaja
 in ta je vedno soda. 
 
-Ocenimo še število lastnih rodov v vodniku. S slike~\ref{fig:TEsec} vidimo, da je 
+Ocenimo še število lastnih rodov v vodniku. Iz slike~\ref{fig:TEsec} je razvidno, da je 
 največja možna vrednost $k_x$ omejena s polmerom krožnice $k_0aNA$, ki ga imenujemo
 tudi normirana frekvenca\index{Normirana frekvenca} $V$. Do te vrednosti je 
 po ena rešitev na vsak interval dolžine $\pi$, izmenično soda in liha, 
-zato je celotno število rodov za eno polarizacijo\index{Optični vodnik!število rodov}
+zato je celotno število rodov za eno polarizacijo:\index{Optični vodnik!število rodov}
 \begin{equation}
 N \approx \frac{k_0 a NA}{\pi} = \frac{V}{\pi}.
 \end{equation}
@@ -338,40 +340,40 @@ debelina večrodovnega vodnika z okoli 20 rodovi $a\sim 50~\si{\micro\meter}$.
 \begin{naloga}
 \label{naloga:TM}
 Ponovi izračun za TM valovanje\index{Optični vodnik!TM rodovi}\index{Sekularna enačba!TM rodovi}
-in pokaži, da sta sekularni enačbi enaki 
+in pokaži, da sta sekularni enačbi enaki:
 \begin{equation}
 \frac{\kappa}{k_x} \left(\frac{n_1}{n_2}\right)^2= 
 \tan \frac{k_x a}{2} \qquad \mathrm{in} \qquad -\frac{k_x}{\kappa} \left(\frac{n_2}{n_1}\right)^2= 
 \tan \frac{k_x a}{2}.
 \end{equation}
-Namig: Zapiši enačbe za jakost magnetnega polja ${\bf H}$ in upoštevaj ustrezne robne pogoje.
+Namig: zapiši enačbe za jakost magnetnega polja ${\bf H}$ in upoštevaj ustrezne robne pogoje.
 \end{naloga}
 
 Podoben račun lahko naredimo tudi za TM valovanje (glej nalogo~\ref{naloga:TM}). Zaradi drugačnih
 robnih pogojev se sekularni enačbi razlikujeta od tistih za TE polarizacijo. Razlika je v
 faktorju $(n_1/n_2)^2$, ki je v tipičnem vodniku zelo blizu ena. Zato se tudi rešitve 
-za prečno komponento $k_x$ le malo razlikujejo. Bolj pomembna je ugotovitev, da je število
+za prečno komponento $k_x$ le malo razlikujejo. Pomembnejša je ugotovitev, da je število
 dovoljenih rodov za TM polarizacijo enako številu dovoljenih rodov za TE polarizacijo, 
 saj je največji $k_x$ v obeh primerih določen s polmerom krožnice $V$. 
-Vse lastne rodove, ki se širijo v danem planparalelnem vodniku, torej zajamemo z opisom TE sodih in lihih ter 
-TM sodih in lihih rodov.
+Vse lastne rodove, ki se širijo v danem planparalelnem vodniku, torej zajamemo z opisom sodih 
+in lihih TE ter sodih in lihih TM rodov.
 
 Ugotovili smo, da je jakost električnega polja tudi izven sredice vodnika različna od nič. 
 Poglejmo še, kako je z energijskim tokom. Čeprav se velika večina pretaka po sredici, 
 delež, ki se pretaka po plašču, ni vedno zanemarljiv. To posebej velja za višje rodove. 
 Delež energijskega toka, ki se pretaka po sredici, izračunamo\index{Gostota energijskega toka}
-z integralom
+z integralom:
 \boxeq{confinement}{
 \Gamma = \frac{\int_{-a/2}^{a/2}j\, dS}{\int_{-\infty}^{\infty}j\, dS}.
 }
 \vglue-5truemm
 \begin{naloga}
 Pokaži, da je razmerje med energijskim tokom $P_p$, ki se pretaka po plašču, in energijskim tokom, 
-ki se pretaka po sredici vodnika $P_s$, za sode rodove
+ki se pretaka po sredici vodnika $P_s$, za sode rodove:
 \begin{equation}
-\frac{P_p}{P_s}= \frac{n_2}{n_1}\frac{2 k_x}{\kappa} \frac{\cos^2(k_x a/2)}{k_xa + \sin(k_xa)},
+\frac{P_p}{P_s}= \frac{n_2}{n_1}\frac{2 k_x}{\kappa} \frac{\cos^2(k_x a/2)}{k_xa + \sin(k_xa)}
 \end{equation}
-in za lihe rodove
+in za lihe rodove:
 \begin{equation}
 \frac{P_p}{P_s}= \frac{n_2}{n_1}\frac{2 k_x}{\kappa} \frac{\sin^2(k_x a/2)}{k_xa - \sin(k_xa)}.
 \end{equation}
@@ -412,7 +414,7 @@ Izračun rodov v cilindričnem vlaknu presega okvir te knjige, zato
 si oglejmo le izhodiščne enačbe in rešitve.\footnote{Za račun glej npr. A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford
 University Press (2007).} Za jakost električnega polja velja 
-Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz})\index{Helmholtzeva enačba}
+Helmholtzeva enačba~(enačba~\ref{eq:Helmholtz}):\index{Helmholtzeva enačba}
 \begin{equation}
 \nabla^2 \mathbf{E} + n^2(r)\, k_0^2\, \mathbf{E} = 0,
 \end{equation}
@@ -430,38 +432,38 @@ vpliva na potovanje svetlobe.
 $\mathbf{E}$ in $\mathbf{H}$ sta vektorja in imata po 
 tri komponente, ki pa so med seboj odvisne. Računamo v cilindričnem koordinatnem sistemu,
 v katerem je os $z$ vzdolž osi vlakna. Izračunajmo naprej $E_z$, saj so za to
-komponento robni pogoji nesklopljeni. Uporabimo nastavek
+komponento robni pogoji nesklopljeni. Uporabimo nastavek:
 \begin{equation}
 E_z = R(r)e^{i \nu \varphi}e^{i \beta z},
 \end{equation}
-pri čemer je $r$ razdalja od osi, $\varphi$ polarni kot in $\nu$ celo število zaradi 
+pri čemer so $r$ razdalja od osi, $\varphi$ polarni kot in $\nu$ celo število zaradi 
 zahteve po enoličnosti rešitve pri spremembi
-kota za $2\pi$. Za $R(r)$ v sredici vlakna tako dobimo enačbo
+kota za $2\pi$. Za $R(r)$ v sredici vlakna tako dobimo enačbo:
 \begin{equation}
 r^2 R(r)'' + r R(r)' + (k_s^2r^2 - \nu^2)R(r) = 0,
 \label{10BS}
 \end{equation}
-kjer za prečno komponento valovnega vektorja velja
+pri čemer za prečno komponento valovnega vektorja velja:
 \begin{equation}
 k_s^2=k_0^2n_1^2- \beta^2,
 \label{eq:ks}
 \end{equation}
-in v plašču
+in v plašču:
 \begin{equation}
 r^2 R(r)'' + r R(r)' + (-\kappa^2r^2 - \nu^2)R(r) = 0,
 \label{10BP}
 \end{equation}
-kjer je 
+pri čemer je:
 \begin{equation}
 \kappa^2=\beta^2-k_0^2n_2^2.
 \end{equation}
 V enačbah (\ref{10BS}) in (\ref{10BP}) prepoznamo Besslovo diferencialno enačbo. 
-Upoštevajoč le funkcije, ki na izbranem območju ne divergirajo, zapišemo rešitve v sredici kot
+Upoštevajoč le funkcije, ki na izbranem območju ne divergirajo, zapišemo rešitve v sredici kot:
 \begin{equation}
 E_z (r, \varphi, z) = A J_\nu(k_sr)\sin(\nu \varphi)e^{i \beta z} \quad  \mathrm{in} \quad 
 H_z (r, \varphi, z) = B J_\nu(k_sr)\cos(\nu \varphi)e^{i \beta z}.
 \end{equation}
-Podobno zapišemo tudi rešitve v plašču
+Podobno zapišemo tudi rešitve v plašču:
 \begin{equation}
 E_z (r, \varphi, z)= C K_\nu(\kappa r)\sin(\nu \varphi)e^{i \beta z} \quad \mathrm{in} \quad 
 H_z (r, \varphi, z)= D K_\nu(\kappa r)\cos(\nu \varphi)e^{i \beta z}.
@@ -494,18 +496,18 @@ več rešitev, zato lastne rodove označujemo s parom indeksov $\nu$ in $m$, npr
 Najprej si oglejmo rešitve, pri katerih je $\nu=0$ in so zato neodvisne od kota $\varphi$. 
 V klasični sliki so to žarki, ki potujejo po osi vlakna. Iz robnih pogojev sledi, da 
 gre za transverzalne TE rodove, za katere velja $E_z=0$, $E_r=0$ in $E_\varphi \propto J_1(k_sr)$.
-Jakost električnega polja za TE zapišemo kot \index{Optično vlakno!TE rodovi}
+Jakost električnega polja za TE zapišemo kot: \index{Optično vlakno!TE rodovi}
 \begin{equation}
 \mathbf{E} \propto \mathbf{e}_\varphi \, J_1(k_s r),
 \end{equation}
-kjer je $\mathbf{e}_\varphi$ enotski vektor.
+pri čemer je $\mathbf{e}_\varphi$ enotski vektor.
 
 Podobno lahko prepoznamo tudi TM rodove, pri katerih je $H_z=0$, $H_r=0$ in $H_\varphi \propto J_1(k_sr)$.
-Jakost električnega polja za TM rodove je\index{Optično vlakno!TM rodovi}
+Jakost električnega polja za TM rodove je:\index{Optično vlakno!TM rodovi}
 \begin{equation}
-\mathbf{E} \propto \mathbf{e}_r \, J_1(k_s r)
+\mathbf{E} \propto \mathbf{e}_r \, J_1(k_s r),
 \end{equation}
-kjer je $\mathbf{e}_r$ enotski vektor v radialni smeri. 
+pri čemer je $\mathbf{e}_r$ enotski vektor v radialni smeri. 
 Amplitudi jakosti električnega polja sta za TE in TM rodove enaki, zato
 sta enaki tudi sliki gostote svetlobnega toka (slika~\ref{fig:TE01}). Opazimo, da je v osi
 vlakna gostota svetlobnega toka enaka nič, zato sklepamo, da to niso osnovni načini 
@@ -523,12 +525,12 @@ Podobno kot smo zapisali sekularno enačbo v valovnem vodniku (enačbi~\ref{seku
 in~\ref{sekular2}), tudi tukaj zapišemo enačbo za dovoljene vrednosti $k_s$. 
 Ob približku, da se lomna količnika\index{Sekularna enačba!za cilindrično vlakno}
 sredice in plašča le malo razlikujeta, je poenostavljena enačba za TE 
-valovanje\footnote{Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
+valovanje:\footnote{Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
 \boxeq{sekFiber}{
 -k_sa\,\frac{J_0(k_sa)}{J_1(k_sa)}=\kappa a\,\frac{K_0(\kappa a)}{K_1(\kappa a)},
 }
 pri čemer velja zveza $\kappa^2+k_s^2=(NA)^2k_0^2$. Zaporedne rešitve enačbe ustrezajo rodovom TE$_{0m}$. 
-Za izračun valovnih vektorjev za rodove TM$_{0m}$, moramo levo stran enačbe~(\ref{sekFiber}) pomnožiti z $(n_1/n_2)^2$. Ker je ta faktor približno ena, se rešitve enačb med seboj le malo razlikujejo.
+Za izračun valovnih vektorjev za rodove TM$_{0m}$ moramo levo stran enačbe~(\ref{sekFiber}) pomnožiti z $(n_1/n_2)^2$. Ker je ta faktor približno ena, se rešitve enačb med seboj le malo razlikujejo.
 
 \begin{figure}[ht]
 \centering
@@ -541,7 +543,7 @@ $V=k_0aNA$.}
 \label{fig:TEsecFib}
 \end{figure}
 
-Zapisano sekularno enačbo rešujemo ali numerično ali se je lotimo grafično in 
+Zapisano sekularno enačbo rešujemo ali numerično ali pa se je lotimo grafično in 
 na sliki~\ref{fig:TEsecFib} poiščemo presečišča krivulj. Na sliki je leva stran enačbe prikazana
 s črno barvo in desna za tri različne vrednosti $V= k_0 a\,NA$. Pri velikem $V$ (modra črta) ima sistem tri 
 rešitve, pri srednjem $V$ (turkizna črta) eno rešitev, medtem ko se pri majhnem $V$ (zelena črta) 
@@ -550,8 +552,8 @@ krivulji ne sekata. To pomeni, da pri dovolj majhnem polmeru vlakna TE rod ne ob
 Zapišimo to ugotovitev še matematično. Desna stran enačbe da realne rešitve za 
 $k_s a \le  V$. Po drugi strani leva stran enačbe postane pozitivna šele pri 
 $J_0 (k_s a)  = 0$, to je pri $k_s a= 2,405$. Sistem ima vsaj eno rešitev, če velja
-$V>2,405$. Polmer, pri katerem se TE$_{01}$ (ali TM$_{01}$) valovanje 
-z dano valovno dolžino sploh širi po vlaknu, je torej navzdol omejen z 
+$V>2,405$. Polmer, pri katerem se valovanje TE$_{01}$ (ali TM$_{01}$) valovanje 
+z dano valovno dolžino sploh širi po vlaknu, je torej navzdol omejen z:
 \boxeq{10_cutoff}{
 a \geq \frac{2,405}{k_0 NA}.
 }
@@ -598,7 +600,7 @@ zato ga lahko razmeroma dobro opišemo z Gaussovim približkom.
 Pri tem efektivni polmer snopa
 $w$ izračunamo po Marcusejevi\index{Marcusejeva formula}
 \index{Gaussov snop!efektivni polmer} formuli\footnote{D. Marcuse, Bell Syst. Tech. J. $\mathbf{56}$, 
-703 (1977).}
+703 (1977).}:
 \begin{equation} 
 w = \left(0,65 + \frac{1,619}{V^{3/2}}+\frac{2,879}{V^{6}}\right)\,a,
 \label{Marcuse}
@@ -613,7 +615,7 @@ oblikami posameznih rodov, ki je posledica majhne razlike med lomnima količniko
 ($n_1 \approx n_2$). V takem primeru se sekularne enačbe poenostavijo, nekateri rodovi so 
 med seboj degenerirani in dajo približno enako rešitev. 
 Poleg rodov z enako obliko in različno polarizacijo so tako 
-med seboj degenerirani še HE$_{\nu+1,m}$ in EH$_{\nu-1,m}$ rodovi. Degenerirane 
+med seboj degenerirani še rodovi HE$_{\nu+1,m}$ in EH$_{\nu-1,m}$. Degenerirane 
 rodove lahko združimo v linearne kombinacije in nastanejo pretežno 
 linearno polarizirani LP rodovi. 
 
@@ -627,7 +629,7 @@ kombinacijo lastnih rodov, ki so zaradi majhne razlike med lomnima količnikoma 
 in plašča degenerirani. Tudi te rodove označimo z dvema indeksoma: prvi določa število azimutalnih
 vozlov in drugi število radialnih vrhov. Poglejmo nekaj primerov (slika~\ref{fig:LP}).
 
-Osnovni HE$_{11}$ rod je pri majhnih razlikah lomnih količnikov praktično linearno polariziran in ustreza polariziranemu rodu LP$_{01}$. Jakost električnega polja v njem je 
+Osnovni HE$_{11}$ rod je pri majhnih razlikah lomnih količnikov praktično linearno polariziran in ustreza polariziranemu rodu LP$_{01}$. Jakost električnega polja v njem je:
 \begin{equation}
 \mathbf{E}_\mathrm{LP01} \propto 
 \left \{
@@ -636,11 +638,12 @@ Osnovni HE$_{11}$ rod je pri majhnih razlikah lomnih količnikov praktično line
   \end{matrix}
 \right \} \, J_0(k_s r),
 \end{equation}
-saj ima dve možni smeri polarizacije. Na splošno HE$_{1m}$ rodovi ustrezajo rodovom LP$_{0m}$. 
+saj ima dve možni smeri polarizacije. Na splošno rodovi HE$_{1m}$ ustrezajo 
+rodovom LP$_{0m}$. 
 
-Višje rodove, na primer LP$_{11}$ sestavimo kot linearno kombinacijo 
+Višje rodove, na primer LP$_{11}$, sestavimo kot linearno kombinacijo 
 TE$_{01}$ ali TM$_{01}$ in HE$_{21}$.
-Jakost električnega polja v LP$_{11}$ je tako v obliki štirih možnih kombinacij
+Jakost električnega polja v LP$_{11}$ je tako v obliki štirih možnih kombinacij:
 \begin{equation}
 \mathbf{E}_\mathrm{LP11} \propto \left \{
   \begin{matrix}
@@ -651,7 +654,7 @@ Jakost električnega polja v LP$_{11}$ je tako v obliki štirih možnih kombinac
   \begin{matrix}
   \cos\varphi  \\ \sin\varphi 
   \end{matrix}
-\right \}
+\right \}\!,
 \end{equation}
 kar opisuje štiri različne oblike rodov LP$_{11}$.
 \begin{figure}
@@ -673,10 +676,8 @@ LP$_{01}$, LP$_{02}$, LP$_{11}$ in LP$_{21}$}
 \label{fig:LP}
 \end{figure}
 
-
-
-Rodove LP$_{21}$, ki nastanejo kot kombinacija HE$_{31}$
-in EH$_{11}$ rodov, zapišemo kot eno od štirih kombinacij
+Rodove LP$_{21}$, ki nastanejo kot kombinacija rodov HE$_{31}$
+in EH$_{11}$, zapišemo kot eno od štirih kombinacij:
 \begin{equation}
 \mathbf{E}_\mathrm{LP21} \propto \left \{
   \begin{matrix}
@@ -687,7 +688,7 @@ in EH$_{11}$ rodov, zapišemo kot eno od štirih kombinacij
   \begin{matrix}
   \cos 2 \varphi  \\ \sin 2 \varphi 
   \end{matrix}
-\right \}.
+\right \}\!.
 \end{equation}
 Linearno polarizirani LP rodovi imajo precejšnjo uporabno vrednost. To so 
 namreč rodovi, ki jih v vlaknu vzbudimo, ko nanj posvetimo s polarizirano 
@@ -699,8 +700,8 @@ hitrostmi. Polarizacija svetlobe se zato vzdolž vlakna ne ohranja povsem.
 Število rodov v večrodovnem cilindričnem vlaknu pri izbrani normirani 
 frekvenci $V = k_0a\, NA$ lahko približno ocenimo z uporabo asimptotičnega 
 razvoja Besslovih funkcij za velike argumente. Približna ocena vključuje 
-vse dovoljene rešitve pri vsaki vrednosti $\nu$ in dve polarizaciji. 
-da\index{Optično vlakno!število rodov}\footnote{~Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
+vse dovoljene rešitve pri vsaki vrednosti $\nu$ in obe polarizaciji. 
+Dobimo:\index{Optično vlakno!število rodov}\footnote{~Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
 \begin{equation} 
 N = \frac{4 V^2}{\pi^2}.
 \end{equation}
@@ -712,7 +713,7 @@ se  pri valovni dolžini $1~\si{\micro\meter}$ po tej oceni lahko širi 256 rodo
 Čeprav je izračun lastnih načinov v cilindričnem vlaknu zapleten, lahko 
 razmeroma enostavno poiščemo rešitve za vlakno, v katerem je dielektrična 
 konstanta kvadratna funkcija radialne koordinate $r$\index{Optično vlakno!parabolični profil lomnega količnika}. 
-Zapišemo lomni količnik, pri čemer vpeljemo brezdimenzijski parameter $\Delta$
+Zapišemo lomni količnik, pri čemer vpeljemo brezdimenzijski parameter $\Delta$:
 \begin{equation}
 n^2\left(r<a\right)=n_{1}^{2}- \Delta^2 \frac{r^2}{a^2},
 \label{9.15}
@@ -732,22 +733,23 @@ Tipičen polmer sredice $a$ je nekaj deset mikrometrov in plašča približno pe
 \label{fig:GRIN}
 \end{figure}
 
-Jakost električnega polja za izbrano polarizacijo zapišemo v obliki 
+Jakost električnega polja za izbrano polarizacijo zapišemo v obliki:
 \begin{equation}
 E=E_{0}\psi(x,y)\, e^{i\beta z-i\omega t}.
 \label{9.16}
 \end{equation}
-Pri tem smo zanemarili, da zaradi odvisnosti od prečnih koordinat in pogoja $\nabla\cdot{\bf D}=0$
-polje ne more imeti povsod iste smeri; za bolj natančen račun bi morali zapisati enačbo za
+Pri tem smo zanemarili, da zaradi odvisnosti od prečnih koordinat in pogoja 
+$\nabla\cdot{\bf D}=0$ polje ne more imeti povsod iste smeri; 
+za natančnejši račun bi morali zapisati enačbo za
 vektorsko polje. Vstavimo približni
 nastavek~(enačba~\ref{9.16}) in krajevno odvisnost lomnega količnika~(enačba~\ref{9.15})
-v valovno enačbo (enačba~\ref{eq:valovna-skalarna}) 
+v valovno enačbo (enačba~\ref{eq:valovna-skalarna}):
 \begin{equation}
 \nabla_{\perp}^{2}\psi+\left(k_{0}^{2}\left(n_{1}^{2}-\Delta^{2}\frac{r^{2}}{a^2}\right)-
 \beta^{2}\right)\,\psi=0.
 \label{9.17}
 \end{equation}
-Rešitve lahko zapišemo v obliki
+Rešitve lahko zapišemo v obliki:
 \begin{equation}
 \psi(x,y) = X(x)Y(y),
 \end{equation}
@@ -756,7 +758,7 @@ od koder sledita dve neodvisni enačbi:
 X'' - \frac{k_0^2 \Delta^2}{a^2}\,X\,x^2 - \lambda_1 X = 0
 \label{eq:XY}
 \end{equation}
-in:
+in
 \begin{equation}
 Y'' - \frac{k_0^2 \Delta^2}{a^2}\,Y\,y^2 - \lambda_2 Y = 0,
 \end{equation}
@@ -764,31 +766,32 @@ pri čemer sta $\lambda_1$ in $\lambda_2$ konstanti.
 Opazimo, da sta enačbi popolnoma enaki enačbama za krajevni del lastnih funkcij 
 harmonskega oscilatorja v kvantni mehaniki.
 Rešitev posamezne enačbe je tako 
-produkt Gaussove in Hermitove funkcije
+produkt Gaussove in Hermitove funkcije:
 \begin{equation}
 X_n(x) = e^{-\xi^2 x^2/2} H_n(\xi x),
 \label{eq:GH}
 \end{equation}
 pri čemer je $\xi = \sqrt{k_0 \Delta/a}$.
 \begin{naloga}
-Uporabi nastavek (enačba~\ref{eq:GH}) in pokaži, da reši enačbo~(\ref{eq:XY}). Pri tem si pomagaj z 
-diferencialno enačbo za Hermitove polinome
+Uporabi nastavek (enačba~\ref{eq:GH}) in pokaži, da reši enačbo~(\ref{eq:XY}). 
+Pri tem si pomagaj z 
+diferencialno enačbo za Hermitove polinome:
 \begin{equation}
 \left( \frac{d^2}{dx^2}-2x\frac{d}{dx}+2n \right) H_n(x) = 0.
 \end{equation}
 \end{naloga}
-Lastne vrednosti enačbe (\ref{9.17}) so oblike
+Lastne vrednosti enačbe (\ref{9.17}) so oblike:
 \begin{equation}
 \beta_{mn}^{2}=n_{1}^{2}k_{0}^{2}\left(1-\frac{2\Delta}{k_{0}n_{1}^2a}\left(m+n+1\right)\right)\!\!.
 \label{9.19}
 \end{equation}
-Drugi člen v oklepaju je navadno zelo majhen, zato lahko izraz razvijemo in 
+Drugi člen v oklepaju je navadno zelo majhen, zato lahko izraz razvijemo in:
 \begin{equation}
 \beta_{mn}=n_{1}k_{0}\left(1-\frac{\Delta}{k_{0}n_{1}^2 a}\left(m+n+1\right)\right)
 = n_{1}k_{0} - \frac{\Delta \left(m+n+1\right)}{n_{1} a}.
 \end{equation}
 Ob predpostavki, da je parameter $\Delta$ neodvisen od krožne frekvence, je grupna 
-hitrost\index{Hitrost valovanja!grupna}
+hitrost:\index{Hitrost valovanja!grupna}
 \begin{equation}
 v_{g}=\left(\frac{d\beta_{mn}}{d\omega}\right)^{-1}=\frac{c_{0}}{n_{1}}
 \label{9.21}
@@ -1843,7 +1846,7 @@ enaki, je $\Delta \beta = 0$ in $\gamma = K$, tako da pride do popolnega prenosa
 svetlobnega toka iz enega vlakna v drugo in seveda tudi obratno.
 Takrat veljata enačbi
 \boxeq{10_couplfib}{
-P_1 &= P_0 \cos^2 (\gamma z) \quad \mathrm{in}\\
+P_1 &= P_0 \cos^2 (\gamma z) \qquad \mathrm{in}\\
 P_2 &= P_0 \sin^2 (\gamma z).
 }
 Na ta način lahko v drugo vlakno sklopimo poljuben delež vpadne svetlobe. 
