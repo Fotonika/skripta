@@ -684,15 +684,14 @@ njuno stabilnost.
 
 \section{Večfrekvenčni laser}
 \label{section:vecfrek}
-Do zdaj smo obravnavali laserje, v katerih je bilo vzbujeno eno samo stoječe
+Obravnavali smo laserje, v katerih je bilo vzbujeno eno samo stoječe
 valovanje. Vendar je ojačevalna širina večine aktivnih (ojačevalnih) sredstev 
 navadno večja od razlike med frekvencami posameznih \index{Laser!večfrekvenčni}
-nihanj resonatorja. Na primer v plinih je ojačevalna širina zaradi 
-Dopplerjevega pojava vsaj nekaj $\si{GHz}$. Po drugi strani so lastne frekvence resonatorja 
-pri $30~\si{cm}$ dolgem resonatorju razmaknjene za $500~\si{MHz}$ in kaj  
-lahko se zgodi, da ojačenje v laserju za več lastnih nihanj hkrati 
-presega ojačenje na pragu. Takrat je v resonatorju vzbujenih več lastnih nihanj in 
-svetloba iz takega večfrekvenčnega laserja ni monokromatska,
+nihanj resonatorja. V plinih je ojačevalna širina zaradi 
+Dopplerjevega pojava vsaj nekaj $\si{GHz}$, medtem ko so lastne frekvence resonatorja 
+pri $30~\si{cm}$ dolgem resonatorju razmaknjene za $500~\si{MHz}$. Ojačenje 
+v laserju tako za več lastnih nihanj hkrati presega ojačenje na pragu. Ker je v 
+resonatorju vzbujenih več lastnih nihanj, svetloba iz takega večfrekvenčnega laserja ni monokromatska,
 temveč je sestavljena iz množice ozkih črt znotraj ojačevalnega pasu.
 Izsevana svetloba ni bistveno bolj monokromatska od ustrezne spektralne 
 komponente svetlečega plina. Ostaja seveda prostorsko koherentna.
@@ -710,14 +709,17 @@ ki ga vstavimo v laserski resonator
 \input{slike/06_FPres.pdf_tex}
 \caption{Shema laserja z vstavljenim Fabry-Perotovim etalonom}
 \label{fig:FPres}
+\vglue-2truemm
 \end{figure}
-\vglue-5truemm
+
 Prepustnost etalona je odvisna od krožne frekvence 
-svetlobe $\omega$, debeline ploščice $L$, lomnega količnika $n$, odbojnosti na stenah 
-${\cal R}$ in nagiba glede na os resonatorja $\vartheta$ (enačba~\ref{eq:Fabry-Perot-prepustnost}):
+svetlobe $\omega$, odbojnosti na stenah 
+${\cal R}$, debeline ploščice $L$, lomnega količnika ploščice $n$ in kota, pod katerim potuje
+svetloba znotraj ploščice glede na normalo 
+$\vartheta$ (enačba~\ref{eq:Fabry-Perot-prepustnost}):
 \begin{equation}
 T=\frac{1}{1+\frac{4{\cal {R}}}{(1-{\cal {R}})^{2}}\sin^{2}
-(\omega n L \cos \vartheta/c)}.
+(\omega L n \cos \vartheta/c)}.
 \label{5.22}
 \end{equation}
 Debelino etalona in njegov nagib 
