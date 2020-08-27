@@ -913,7 +913,7 @@ Dolžino sunka $\tau$ po prehodu skozi vlakno dolžine $L$ približno zapišemo 
 \Delta \omega\, L\, \frac{d^2 \beta}{d \omega^2}.
 \label{dispračun}
 \end{equation}
-Za enorodovno vlakno velja $k_x \approx 0$ in $\beta \approx n_1 \omega/c_0$ in zapišemo:
+Za enorodovno vlakno velja $k_x \approx 0$ in $\beta \approx n_1 \omega/c_0$. Dobimo:
 \begin{equation}
 \tau = \Delta \omega\, \frac{L}{c_0}\,\frac{d^2 (n_1 \omega)}{d \omega^2}.
 \end{equation}
@@ -969,8 +969,8 @@ Fundamentals of Optoelectronics}, Irwin (1995).}
 
 Ker ima sunek svetlobe vedno neko končno spektralno širino, disperzije 
 v optičnem vlaknu nikoli ne moremo povsem odpraviti. Pri celotni disperziji 
-$5~\si{\pico\second/\nano\meter\,\kilo\meter}$ in spektralni širini 
-$1~\si{\nano\meter}$ znaša v $100~\si{\kilo\meter}$ dolgem vlaknu najvišja 
+$5~\si{\pico\second/\nano\meter\,\kilo\meter}$ in spektralni širini, ki ustreza
+$\Delta \lambda = 1~\si{\nano\meter}$, znaša v $100~\si{\kilo\meter}$ dolgem vlaknu najvišja 
 frekvenca modulacije vhodnega signala, ki ga na izhodu še lahko razločimo, 
 okoli $2~\si{\giga\hertz}$. V nadaljevanju bomo videli, da je pri prenosu podatkov
 v vlaknih poglavitni omejujoči faktor ravno disperzija in ne absorpcija. 
@@ -1037,7 +1037,7 @@ a\left(z,t\right)=\int \tilde{A}(\Omega)\, e^{i \beta (\omega_0 + \Omega)z -
 i(\omega_0 + \Omega) t}d\Omega  =  e^{i \beta (\omega_0)z - i\omega_0 t} A(z,t).
 \label{9.62b}
 \end{equation}
-Funkcija $A(z, t)$ predstavlja prostorsko in časovno odvisnost ovojnice sunka. Z upoštevanjem
+Funkcija $A(z, t)$ torej predstavlja prostorsko in časovno odvisnost ovojnice sunka. Z upoštevanjem
 razvoja (enačba~\ref{9.62c}) jo zapišemo kot:
 \begin{equation}
  A(z,t) = \int \tilde{A}(\Omega)\, \exp \left(i \beta'\, \Omega\,z + 
@@ -1060,7 +1060,7 @@ nato pa še po $t$:
  \frac{i}{2}\beta''\,\Omega^2\, z - i\, \Omega\, t\right) d\Omega.
 \label{9.67b}
 \end{equation}
-Drugi parcialni odvod po $t$ da:
+Drugi parcialni odvod po $t$ je enak:
 \begin{equation}
  \frac{\partial^2 A(z,t)}{\partial t^2} = \int \tilde{A}(\Omega)\, 
  \left(-\Omega^2\right) 
@@ -1127,7 +1127,7 @@ dolžino sunka $2\sigma$, ki ustreza premeru Gaussovega snopa $2w$, in parameter
 $b$, ki ustreza krivinskemu radiju $R$. Oba parametra sta seveda odvisna od $\zeta$, tako kot sta parametra $w$ in $R$ odvisna od $z$ (slika~\ref{fig:Gausstau}). 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/10_Gausstau.pdf_tex}
 \caption{Primerjava širitve Gaussovega snopa (a) in podaljšanja Gaussovega sunka (b).
 Dolžina sunka $2\sigma$ med potovanjem po vlaknu narašča z enako odvisnostjo kot 
@@ -1262,10 +1262,10 @@ z negativno disperzijo in sunek, ki se je razširil zaradi potovanja
 po sredstvu s pozitivno disperzijo, lahko ponovno skrajša do meje,
 določene s širino spektra. 
 \begin{remark}
-Postopek kompenzacije disperzije se uporablja za pridobivanje zelo močnih in zelo
+Postopek kompenzacije disperzije se uporablja za pridobivanje zelo močnih in hkrati zelo
 kratkih sunkov svetlobe.\footnote{~D. Strickland in G. Mourou, Opt. Comm. $\mathbf{56}$, 219 (1985).} 
 Sunku iz fazno uklenjenega barvilnega\index{Laser!organska barvila} 
-ali Ti:safirnega\index{Laser!Ti:safir}\index{Uklepanje faz}
+ali titan-safirnega\index{Laser!Ti:safir}\index{Uklepanje faz}
 laserja se najprej v nelinearnem sredstvu razširi spekter, hkrati
 se sunek tudi časovno podaljša. Podaljšan sunek lahko ojačimo, česar 
 s prvotnim kratkim in razmeroma močnim sunkom ne bi mogli narediti. Razširjen
@@ -1299,12 +1299,12 @@ vpadna gostota svetlobnega toka. Če se po enem
 kilometru signal zmanjša na polovico, so izgube $3~\si{\decibel/\kilo\meter}$.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{88truemm} 
 \input{slike/10_FibAbs.pdf_tex} 
 \caption{Izgube v vlaknu v odvisnosti od valovne dolžine: vijolična črta --
 ultravijolična absorpcija, 
 črna črta -- infrardeča absorpcija, 
-zelena črta -- absorpcija na ionih OH in modra črta --
+zelena črta -- absorpcija na ionih OH$^{-}$ in modra črta --
 izgube zaradi Rayleighovega sipanja. Z rdečo črto so označene skupne izgube.}
 \label{FibAbs}
 \end{figure}
@@ -1331,7 +1331,7 @@ vibracijskih prehodov (črna črta). Čeprav so ti prehodi pri nižjih frekvenca
 so vrhovi zelo široki in sežejo do okoli $1500~\si{\nano\meter}$. 
 Absorpcija na nečistočah lahko ob pazljivi izdelavi postane skoraj v celotnem 
 območju praktično zanemarljiva. 
-Najbolj problematična nečistoča je voda oziroma OH$^{-}$ ioni, ki imajo velik dipolni
+Najbolj problematična nečistoča je voda oziroma ioni OH$^{-}$, ki imajo velik dipolni
 moment in izrazito absorpcijo pri $1380~\si{\nano\meter}$ (zelena črta). Zelo pomemben prispevek k 
 izgubam, posebej pri krajših valovnih dolžinah, je Rayleighovo sipanje na fluktuacijah 
 gostote,\index{Izgube v optičnih vlaknih!Rayleighovo sipanje} 
@@ -1344,24 +1344,16 @@ navadno še precej večje. Med izdelavo steklo namreč močno segrejejo
 (na okoli $2000~\si{\celsius}$), da lahko iz njega vlečejo vlakno, in termične 
 fluktuacije gostote pri hitrem ohlajanju ostanejo zamrznjene v vlaknu. 
 \end{remark}
-\vglue-4truemm
+\vglue-2truemm
 Iz slike~\ref{FibAbs} je razvidno, da so skupne izgube najmanjše pri 
 okoli $1,55~\si{\micro\meter}$, zato se to območje največ uporablja za prenos signalov
 na velike razdalje. Izgube so tako majhne, da omogočajo prenos signala 
 več sto kilometrov brez vmesnega ojačevanja. Teh izgub se  
 ne bo dalo več kaj dosti izboljšati, saj so že zdaj na meji,
 določeni s termičnimi fluktuacijami. Pri optičnih zvezah tako glavna 
-omejitev niso izgube, ampak je to popačitev signala zaradi disperzije.
+omejitev niso izgube, ampak popačitev signala zaradi disperzije.
 
 \begin{remark}
-% Pri prenosu signalov z optičnimi vlakni vpeljemo različne pasove, ki ustrezajo 
-% različnim valovnim dolžinam. Pri valovnih dolžinah $1260$--$1360~\si{\nano\meter}$ je tako imenovani
-% pas O ({\it original}), ki so ga sprva uporabljali zaradi razpoložljivih virov svetlobe
-% in nizke disperzije. Sledita pas E ({\it extended}, $1360$--$1460~\si{\nano\meter}$) in pas S 
-% ({\it short}, $1460$--$1530~\si{\nano\meter}$). 
-% Najširše uporabljan je pas C ({\it conventional}) pri valovnih dolžinah $1530$--$1565~\si{\nano\meter}$,
-% sledita mu še pas L ({\it long}, $1565$--$1625~\si{\nano\meter}$) in pas U 
-% ({\it ultralong}, $1625$--$1675~\si{\nano\meter}$).
 Po optičnem \index{Razvrščanje po valovni dolžini|see Multipleksiranje}
 vlaknu lahko prenašamo več signalov hkrati, če za vsakega posebej uporabimo
 drugo valovno dolžino. Temu procesu pravimo razvrščanje po valovni dolžini
@@ -1489,7 +1481,7 @@ polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne ja
 v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 
 Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza jakosti električnega polja,
-lahko izgube iz vodnika (oziroma delež prepuščene svetlobe) zapišemo kot:
+lahko atenuacijski koeficient v ukrivljenem vlaknu zapišemo kot:
 \begin{equation}
 A \propto e^{-CR},
 \end{equation}
@@ -1507,10 +1499,10 @@ Precej bolj priročna rešitev je optično ojačevanje v vlaknu
 samem.\footnote{~Glej npr. A. Ghatak in K. Thyagarajan, {\it Introduction to Fiber Optics}, 
 Cambridge University Press (1997).} 
 
+\index{Erbij}\index{Optično vlakno!dopirano z erbijem}
 V ta namen se najpogosteje uporablja vlakno, dopirano z erbijevimi 
-ioni\footnote{~EDFA -- {\it Erbium-Doped Fiber Amplifier}, \index{Optično vlakno!dopirano z erbijem}
-\index{Erbij}
-ojačevalnik na vlakno, dopirano z erbijem.}. 
+ioni\footnote{~EDFA -- {\it Erbium-Doped Fiber Amplifier},
+ojačevalnik na vlakno, dopirano z erbijem.}.
 Na določenih razdaljah (na okoli $100~\si{\kilo\meter}$) svetlobo iz navadnega vlakna 
 sklopimo v vlakno, v katerem so erbijevi ioni.
 S črpalnim laserjem erbijeve ione vzbudimo, da dosežemo obrnjeno zasedenost. \index{Obrnjena zasedenost}
@@ -1562,7 +1554,7 @@ kot\footnote{~Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Ir
 dx\, dy \right)}.
 }
 Točen račun prekrivalnega integrala je na splošno precej zapleten, saj vsebuje integrale
-Besslovih funkcij. V primeru osnovnega roda račun močno poenostavimo, tako da 
+Besslovih funkcij. V primeru osnovnega roda račun močno poenostavimo, če 
 prečno odvisnost polja nadomestimo z Gaussovim profilom z ustreznim 
 efektivnim polmerom (po enačbi~\ref{Marcuse}). 
 
@@ -1710,8 +1702,8 @@ Sklopitev torej ne bo spremenila oblike lastnih rodov, bo pa spremenila njihove 
 bodo tako postale odvisne od vzdolžne koordinate $z$.\footnote{~Glej npr. B. E. A. Saleh in M. C. Teich, 
 {\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 
-Imejmo dva enorodovna vodnika z lomnima količnikoma sredice $n_1$ in $n_2$ ter enako 
-debelino $a$, med njima in okoli njiju pa naj bo snov z lomnim količnikom $n_0$. Širina 
+Imejmo dva enorodovna vodnika debeline $a$ z lomnima količnikoma sredice $n_1$ in $n_2$, 
+med njima in okoli njiju pa naj bo snov z lomnim količnikom $n_0$. Širina 
 reže med vodnikoma naj bo $2d$.
 Potem zapišemo jakosti električnega polja v prvem in drugem vodniku kot:
 \begin{equation}
