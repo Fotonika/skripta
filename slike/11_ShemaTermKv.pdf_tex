@@ -53,10 +53,10 @@
   \begin{picture}(1,0.5731119)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.84442715,0.02191453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda$\end{tabular}}}}%
-    \put(0.023162,0.5254572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}$\end{tabular}}}}%
+    \put(0.84442715,0.03034363){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda$\end{tabular}}}}%
+    \put(0.02821946,0.5254572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathcal{R}$\end{tabular}}}}%
     \put(0.43227432,0.52576907){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{kvantni~detektor}$\end{tabular}}}}%
-    \put(0.2288595,0.20540469){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{termi\v cni~detektor}$\end{tabular}}}}%
+    \put(0.23391695,0.20540469){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{termi\v cni~detektor}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_ShemaTermKv.pdf}}%
     \put(-0.08797022,0.44942424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.93273698\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%

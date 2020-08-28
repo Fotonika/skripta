@@ -2,7 +2,7 @@
 
 \chapter{Detektorji svetlobe}
 
-Spoznali bomo detektorje, ki so nujni za kvantitativno obravnavo
+Detektorji svetlobe so nujni za kvantitativno obravnavo
 optičnih pojavov in sprejemanje optičnih signalov. Podrobneje bomo spoznali
 načine delovanja in specifikacije posameznih vrst detektorjev.\index{Detektor}
 V grobem delimo detektorje v dve skupini, na termične\index{Detektor!termični} in 
@@ -14,8 +14,8 @@ signal, ki ga z detektorjem še lahko izmerimo.
 \section{Osnovne karakteristike detektorjev}
 Osnovna naloga optičnih detektorjev je spremeniti vpadni svetlobni signal 
 v nek drug signal, ki ga lahko natančno merimo. Navadno sta to električni tok 
-ali električna napetost, ki sta sorazmerna z močjo vpadne svetlobe 
-in ne z amplitudo jakosti električnega polja. Pri navadni detekciji se tako
+ali električna napetost. Ker sta ti dve količini sorazmerni z močjo vpadne svetlobe 
+in ne z jakostjo električnega polja, se pri navadni detekciji 
 podatek o fazi valovanja izgubi. 
 
 Termični detektorji delujejo na osnovi povišanja temperature senzorja 
@@ -110,9 +110,10 @@ temperatura tipala ne spreminja in razlika temperature tipala in zalogovnika je:
 T - T_0 = \frac{P}{\Lambda}.
 \label{temp_sens}
 \end{equation}
-Občutljivost detektorja je sorazmerna z razliko temperatur in
+Občutljivost detektorja, ki je sorazmerna z razliko temperatur, je torej
 obratno sorazmerna s toplotnimi izgubami. Za večjo občutljivost moramo
 toplotne izgube kar se da zmanjšati.
+
 Po enačbi~(\ref{TD1}) se temperatura približuje stacionarni vrednosti s časovno konstanto: 
 \begin{equation}
 \tau = \frac{C}{\Lambda}.
@@ -125,8 +126,9 @@ Iz enačbe~(\ref{TermD_t}) sledi, da moramo za dosego čim krajšega odzivnega �
 kar se da povečati. Velike izgube sicer skrajšajo odzivni čas, 
 vendar tudi zmanjšajo občutljivost (enačba~\ref{temp_sens}), 
 zato termični detektorji ne morejo imeti hkrati velikega in hitrega odziva. 
-Če želimo toplotne izgube povečati in s tem skrajšati odzivni čas, detektorje hladimo z zrakom 
-ali celo z vodo, navzdol so toplotne izgube omejene s sevanjem.  
+Če želimo toplotne izgube povečati in s tem skrajšati odzivni čas,
+detektorje hladimo z zrakom ali celo z vodo. 
+Navzdol so toplotne izgube omejene s sevanjem.  
 
 Poglejmo odziv termičnega detektorja na vpadno svetlobo. Naj se  moč vpadne svetlobe
 spreminja s časom, temperatura na detektorju pa temu sledi z določeno zakasnitvijo. Odziv
@@ -136,7 +138,7 @@ P(t) = \int_{-\infty}^{\infty} P_\omega e^{i\omega t}d\omega \qquad \mathrm{in} 
 T(t) = T_0 + \int_{-\infty}^{\infty} T_\omega e^{i\omega t}d\omega.
 \label{TermTF}
 \end{equation}
-To vstavimo v enačbo~(\ref{TD1}) in zapišemo:
+To vstavimo v enačbo~(\ref{TD1}) in dobimo:
 \begin{equation}
 \int_{-\infty}^{\infty} i \omega T_\omega e^{i\omega t}d\omega = \frac{1}{C}
 \int_{-\infty}^{\infty} (P_\omega - \Lambda T_\omega) e^{i\omega t}d\omega.
@@ -145,13 +147,13 @@ Enačbi zadostimo tako, da izenačimo člene pred vsako spektralno komponento po
 \begin{equation}
 i \omega T_\omega = \frac{1}{C}\left(P_\omega - \Lambda T_\omega\right)\!\!.
 \end{equation}
-Če vstavimo odzivni čas $\tau$ (enačba~\ref{TermD_t}), \index{Detektor!odzivni čas}dobimo:
+Kapaciteto izrazimo z odzivnim časom $\tau$ (enačba~\ref{TermD_t}) in \index{Detektor!odzivni čas}dobimo:
 \begin{equation}
 T_\omega = \frac{1}{\Lambda}\left(\frac{1}{1+i \omega \tau}\right)P_\omega = 
 \frac{P_\omega}{\Lambda}\left(\frac{1-i \omega \tau}{1+(\omega \tau)^2}\right)\!\!.
 \label{TermOdziv}
 \end{equation}
-Imaginarni del predstavlja fazni zamik, amplituda odziva, ki nas zanima, je 
+Imaginarni del predstavlja fazni zamik, amplituda odziva, ki nas zanima, pa je 
 podana kot realni del. Odziv je velik le za počasne spremembe signala, ko
 je $\omega$ majhen in je $T_\omega \approx P_\omega/\Lambda$. Z naraščajočo frekvenco
 $\omega$ se odziv zmanjšuje in hitrim spremembam detektor ne more slediti. 
@@ -169,13 +171,13 @@ zaradi spremembe temperature tipala.\footnote{Prvi bolometer je leta 1881 naredi
 ameriški fizik, astronom in letalski inženir Samuel Pierpont Langley, 1834--1906.}
 Tipalo je praviloma počrnjena tanka ploščica, 
 navadno narejena iz termistorja\footnote{Termistor je upornik, katerega
-upornost se spreminja s temperaturo.}, \index{Termistor} polprevodnika ali superprevodnika 
+upornost se močno spreminja s temperaturo.}, \index{Termistor} polprevodnika ali superprevodnika 
 (slika~\ref{fig:Bolometer-shema}). Tipalo prek
 referenčnega upora priključimo na napetost, prek kondenzatorja pa merimo napetost na njem.
 Za meritve konstantnega svetlobnega toka tipalo navadno vežemo v Wheatstonov mostiček.\footnote{Glej
 npr. J. Strnad, {\it Fizika, 2. del}, osmi natis, DMFA-založništvo (2018).} V obeh
 primerih za referenčni upor vzamemo enako tipalo, ki ga zaščitimo pred vpadno svetlobo, 
-tako da postane sistem neobčutljiv na morebitne spremembe temperature okolice.
+tako da postane sistem neobčutljiv na morebitne temperaturne spremembe okolice.
 \begin{figure}[ht]
 \centering
 \def\svgwidth{120truemm} 
@@ -192,9 +194,9 @@ Termistorji imajo približno eksponentno odvisnost upornosti od temperature, zat
 s termistorjem razmeroma veliko občutljivost. Občutljivost pri neki tipični
 velikosti upora $R$ znaša $\mathcal{R}\sim 100~\si{\volt/\watt}$. Poleg tega so 
 robustni, stabilni in delujejo pri sobni temperaturi. 
-
 Odzivni časi bolometrov so okoli 
 $\tau \sim 1$--$20~\si{\milli\second}$. 
+
 Pri polprevodniških bolometrih upornost pojema eksponentno s temperaturo. 
 Primerni so za detekcijo teraherčnih valovanj,\index{Teraherčno valovanje} 
 vendar mora biti za ta namen bolometer (npr. germanijev) hlajen s tekočim helijem.\footnote{F. J. 
@@ -207,7 +209,7 @@ od temperature v bližini prehoda v superprevodno stanje zelo velika
 \subsection*{Termočlen}
 Termočlen je sestavljen iz dveh različnih kovinskih vodnikov\index{Termočlen}. 
 En spoj vodnikov počrnimo, drugega, 
-referenčnega, zaščitimo pred svetlobo. Zaradi vpadne svetlobe se počrnjeni spoj 
+referenčnega, pa zaščitimo pred svetlobo. Zaradi vpadne svetlobe se počrnjeni spoj 
 segreje, med obema spojema se pojavi temperaturna razlika in zaradi termoelektričnega 
 pojava električna napetost, ki jo lahko merimo. Električna prevodnost
 vodnikov mora biti čim večja, njihova toplotna prevodnost pa čim manjša. Odzivni čas termočlenov je 
@@ -236,11 +238,11 @@ LiTaO$_3$\index{LiTaO$_3$} je $a = 2,3 \times 10^{-4}~\si{\ampere \second /\metr
 
 Med dvema elektrodama s površino $S$ zaradi spremembe temperature steče naboj:
 \begin{equation}
-de = I\, dt = S\, dP_\mathrm{el} = S a\, dT.
+de = S\, dP_\mathrm{el} = S a\, dT.
 \end{equation}
 Tok, ki steče skozi tipalo, je tako:
 \begin{equation}
-I = S a \frac{dT}{dt}.
+I = \frac{de}{dt} = S a \frac{dT}{dt}.
 \label{piro}
 \end{equation}
 Piroelektrični detektor je torej občutljiv na časovni odvod temperature detektorja in s tem 
@@ -262,7 +264,7 @@ Upoštevamo še enačbo (\ref{TermOdziv}) in dobimo:
 I=Sa\int_{-\infty}^{\infty}\frac{1}{\Lambda}\left(\frac{P_\omega}{1+i \omega \tau}\right) \,i \omega\,
 e^{i\omega t}d\omega.
 \end{equation}
-Od tu razberemo tok $I$ v odvisnosti od krožne frekvence modulacije:
+Od tu razberemo tok $I$ pri dani krožni frekvenci modulacije:
 \begin{equation}
 I_\omega = \frac{i \omega\, SaP_\omega/\Lambda}{1 + i \omega \tau} = 
 \frac{SaP_\omega}{\Lambda}\frac{(\omega^2\tau + i \omega)}{1+(\omega\tau)^2}.

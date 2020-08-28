@@ -91,10 +91,10 @@
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:zoom="0.69674848"
-   inkscape:cx="589.55856"
+   inkscape:cx="592.42904"
    inkscape:cy="371.75991"
-   inkscape:window-x="409"
-   inkscape:window-y="75"
+   inkscape:window-x="9"
+   inkscape:window-y="106"
    inkscape:window-maximized="0"
    inkscape:current-layer="svg2" />
 
@@ -108,26 +108,28 @@
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.87110138px;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="752.38165"
-   y="489.77335"
+   y="482.28357"
    id="text3349"
    transform="scale(0.99863287,1.001369)"><tspan
      sodipodi:role="line"
      id="tspan3351"
      x="752.38165"
-     y="489.77335"
+     y="482.28357"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.78529167px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';stroke-width:1px">$\lambda$</tspan></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.87110138px;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-   x="20.636766"
+   x="25.142946"
    y="42.344181"
    id="text3349-6"
    transform="scale(0.99863287,1.001369)"><tspan
      sodipodi:role="line"
      id="tspan3351-0"
-     x="20.636766"
+     x="25.142946"
      y="42.344181"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.78529167px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';stroke-width:1px">$\mathcal{R}$</tspan></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.87110138px;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -140,18 +142,20 @@
      x="385.15466"
      y="42.067066"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.78529167px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:1px">$\textrm{kvantni~detektor}$</tspan></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.87110138px;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-   x="203.91264"
+   x="208.41882"
    y="326.73087"
    id="text3347-7"
    transform="scale(0.99863287,1.001369)"><tspan
      sodipodi:role="line"
      id="tspan3349-0"
-     x="203.91264"
+     x="208.41882"
      y="326.73087"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.78529167px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:1px">$\textrm{termi\v cni~detektor}$</tspan></text>
+
 <path
    style="fill:none;stroke:#d40000;stroke-width:4.00001621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    d="m 9.041407,339.81702 h 8.937762 8.937761 8.937761 8.937761 8.937761 8.937761 8.937761 8.937761 8.937761 8.937762 8.937751 8.93777 8.93776 8.93776 8.93776 8.93777 8.93761 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93777 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93777 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93777 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93761 8.93777 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93777 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93777 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93776 8.93777 8.93776 8.93776 8.93761 8.93776 8.93776 8.93776 8.93776"
@@ -183,4 +187,4 @@
        height="576.96576"
        x="-101.90191"
        y="-77.754234" /></flowRegion><flowPara
-     id="flowPara1319"></flowPara></flowRoot></svg>
+     id="flowPara1319" /></flowRoot></svg>
