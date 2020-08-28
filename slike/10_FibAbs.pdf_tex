@@ -68,7 +68,7 @@
     \put(0.74752585,0.127873){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}IR \end{tabular}}}}%
     \put(0.46299322,0.19330154){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}OH\end{tabular}}}}%
     \put(0.14366294,0.42281107){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}R\end{tabular}}}}%
-    \put(0.94831742,0.00555716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda [\mathrm{nm}]$\end{tabular}}}}%
-    \put(-0.11896817,0.63238327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A \mathrm{[dB/km]}$\end{tabular}}}}%
+    \put(0.94831742,0.00555716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda~[\mathrm{nm}]$\end{tabular}}}}%
+    \put(-0.11896817,0.63238327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A~\mathrm{[dB/km]}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
