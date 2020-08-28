@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{789.5324707bp}%
+    \setlength{\unitlength}{773.60497662bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,32 +50,32 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.25354306)%
+  \begin{picture}(1,0.2761427)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_PN1.pdf}}%
-    \put(0.74297816,0.18489868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
-    \put(0.94147047,0.1366715){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_d$\end{tabular}}}}%
-    \put(0.51315173,0.10164933){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_a$\end{tabular}}}}%
-    \put(0.94101678,0.11244087){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
-    \put(0.51315173,0.12865298){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
-    \put(0.94151624,0.06887596){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta E$\end{tabular}}}}%
-    \put(0.52346459,0.21528431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
-    \put(0.55472295,0.0305879){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
-    \put(0.55351761,0.21012454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
-    \put(0.60729449,-0.00116018){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
-    \put(0.84609658,-0.00118233){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
-    \put(-0.00065975,0.07923123){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_a$\end{tabular}}}}%
-    \put(0.39916108,0.15883675){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_d$\end{tabular}}}}%
-    \put(0.09426265,-0.00116018){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
-    \put(0.29886728,-0.00118234){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
-    \put(0.39870739,0.13460611){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
-    \put(-0.00065975,0.10623488){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
-    \put(0.04104311,0.0305879){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
-    \put(0.04056586,0.18542638){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
-    \put(0.00556643,0.21528431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.21331953,0.21528431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(0.24445136,0.03088302){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
-    \put(0.24600062,0.18572149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
+    \put(0.76121638,0.1935529){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
+    \put(0.96379537,0.14433279){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_d$\end{tabular}}}}%
+    \put(0.52665813,0.10858956){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_a$\end{tabular}}}}%
+    \put(0.96333234,0.11960328){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.52665813,0.13614918){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.96384208,0.07514143){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta E$\end{tabular}}}}%
+    \put(0.52748845,0.25752669){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.56908525,0.03606507){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
+    \put(0.56785509,0.21929813){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
+    \put(0.62273916,0.00366335){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.86645786,0.00364073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.00226797,0.0857099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_a$\end{tabular}}}}%
+    \put(0.42001544,0.16695439){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_d$\end{tabular}}}}%
+    \put(0.0991447,0.00366335){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.31765673,0.00364073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.41955241,0.14222488){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.00226797,0.11326952){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_F$\end{tabular}}}}%
+    \put(0.04482943,0.03606507){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
+    \put(0.04434236,0.19409146){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
+    \put(-0.00107253,0.25752669){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.2206528,0.25752669){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.26212046,0.03636627){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valenčni pas\end{tabular}}}}%
+    \put(0.26370162,0.19439265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}prevodni pas\end{tabular}}}}%
   \end{picture}%
 \endgroup%

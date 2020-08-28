@@ -1139,238 +1139,226 @@
        inkscape:original-d="m 455.5221,153.11633 0,-56.347036"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <g
-       id="g304">
-      <g
-         id="g227">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-305.07837"
-           y="30.400295"
-           id="text4870"><tspan
-             sodipodi:role="line"
-             id="tspan4872"
-             x="-305.07837"
-             y="30.400295"
-             style="font-size:20px;line-height:1.25">$E$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-451.45334"
-           y="236.4003"
-           id="text5056"><tspan
-             sodipodi:role="line"
-             id="tspan5058"
-             x="-451.45334"
-             y="236.4003"
-             style="font-size:16.25px;line-height:1.25">$\textrm{kovina}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-299.32654"
-           y="236.13278"
-           id="text5056-9"><tspan
-             sodipodi:role="line"
-             id="tspan5058-1"
-             x="-299.32654"
-             y="236.13278"
-             style="font-size:16.25px;line-height:1.25">$\textrm{vakuum}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-479.07654"
-           y="191.63278"
-           id="text5056-2"><tspan
-             sodipodi:role="line"
-             id="tspan5058-7"
-             x="-479.07654"
-             y="191.63278"
-             style="font-size:16.25px;line-height:1.25">$\textrm{prevodni pas}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-297.83002"
-           y="113.34029"
-           id="text4870-3"><tspan
-             sodipodi:role="line"
-             id="tspan4872-6"
-             x="-297.83002"
-             y="113.34029"
-             style="font-size:20px;line-height:1.25">$\Phi$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-505.38547"
-           y="30.505407"
-           id="text8370"><tspan
-             sodipodi:role="line"
-             id="tspan8368"
-             x="-505.38547"
-             y="30.505407"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4375px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.9375px">a)</tspan></text>
-      </g>
-      <g
-         id="g245">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="83.00238"
-           y="131.95819"
-           id="text4870-3-7-5"><tspan
-             sodipodi:role="line"
-             id="tspan4872-6-8-5"
-             x="83.00238"
-             y="131.95819"
-             style="font-size:20px;line-height:1.25">$E_g$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="71.796623"
-           y="30.400295"
-           id="text4870-26"><tspan
-             sodipodi:role="line"
-             id="tspan4872-1"
-             x="71.796623"
-             y="30.400295"
-             style="font-size:20px;line-height:1.25">$E$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-107.95336"
-           y="236.4003"
-           id="text5056-0"><tspan
-             sodipodi:role="line"
-             id="tspan5058-23"
-             x="-107.95336"
-             y="236.4003"
-             style="font-size:16.25px;line-height:1.25">$\textrm{polprevodnik}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="77.548454"
-           y="236.13278"
-           id="text5056-9-2"><tspan
-             sodipodi:role="line"
-             id="tspan5058-1-2"
-             x="77.548454"
-             y="236.13278"
-             style="font-size:16.25px;line-height:1.25">$\textrm{vakuum}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-102.20155"
-           y="191.63278"
-           id="text5056-2-8"><tspan
-             sodipodi:role="line"
-             id="tspan5058-7-97"
-             x="-102.20155"
-             y="191.63278"
-             style="font-size:16.25px;line-height:1.25">$\textrm{valenčni pas}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-113.05176"
-           y="89.635063"
-           id="text5056-2-1-5-8"><tspan
-             sodipodi:role="line"
-             id="tspan5058-7-9-0-4"
-             x="-113.05176"
-             y="89.635063"
-             style="font-size:16.25px;line-height:1.25;stroke-width:1px">$\textrm{prevodni~~~~~pas}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="82.347717"
-           y="84.877113"
-           id="text4870-3-7-2-7"><tspan
-             sodipodi:role="line"
-             id="tspan4872-6-8-0-6"
-             x="82.347717"
-             y="84.877113"
-             style="font-size:20px;line-height:1.25">$E_a$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-128.51047"
-           y="30.505407"
-           id="text8370-2"><tspan
-             sodipodi:role="line"
-             id="tspan8368-2"
-             x="-128.51047"
-             y="30.505407"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4375px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.9375px">b)</tspan></text>
-      </g>
-      <g
-         id="g259">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="455.17938"
-           y="30.302803"
-           id="text4870-26-3"><tspan
-             sodipodi:role="line"
-             id="tspan4872-1-1"
-             x="455.17938"
-             y="30.302803"
-             style="font-size:20px;line-height:1.25">$E$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="275.42941"
-           y="236.30281"
-           id="text5056-0-2"><tspan
-             sodipodi:role="line"
-             id="tspan5058-23-0"
-             x="275.42941"
-             y="236.30281"
-             style="font-size:16.25px;line-height:1.25">$\textrm{polprevodnik}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="281.18121"
-           y="191.53529"
-           id="text5056-2-8-9"><tspan
-             sodipodi:role="line"
-             id="tspan5058-7-97-2"
-             x="281.18121"
-             y="191.53529"
-             style="font-size:16.25px;line-height:1.25">$\textrm{valenčni pas}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="270.33102"
-           y="85.787567"
-           id="text5056-2-1-5-8-9"><tspan
-             sodipodi:role="line"
-             id="tspan5058-7-9-0-4-5"
-             x="270.33102"
-             y="85.787567"
-             style="font-size:16.25px;line-height:1.25;stroke-width:1px">$\textrm{prevodni~~~~~pas}$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="466.38516"
-           y="131.8607"
-           id="text4870-3-7-5-7"><tspan
-             sodipodi:role="line"
-             id="tspan4872-6-8-5-1"
-             x="466.38516"
-             y="131.8607"
-             style="font-size:20px;line-height:1.25">$E_g$</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="252.93256"
-           y="30.505407"
-           id="text8370-2-6"><tspan
-             sodipodi:role="line"
-             id="tspan8368-2-1"
-             x="252.93256"
-             y="30.505407"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4375px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.9375px">c)</tspan></text>
-      </g>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-305.07837"
+       y="30.400295"
+       id="text4870"><tspan
+         sodipodi:role="line"
+         id="tspan4872"
+         x="-305.07837"
+         y="30.400295"
+         style="font-size:20px;line-height:1.25">$E$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-451.45334"
+       y="236.4003"
+       id="text5056"><tspan
+         sodipodi:role="line"
+         id="tspan5058"
+         x="-451.45334"
+         y="236.4003"
+         style="font-size:16.25px;line-height:1.25">$\textrm{kovina}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-299.32654"
+       y="236.13278"
+       id="text5056-9"><tspan
+         sodipodi:role="line"
+         id="tspan5058-1"
+         x="-299.32654"
+         y="236.13278"
+         style="font-size:16.25px;line-height:1.25">$\textrm{vakuum}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-479.07654"
+       y="191.63278"
+       id="text5056-2"><tspan
+         sodipodi:role="line"
+         id="tspan5058-7"
+         x="-479.07654"
+         y="191.63278"
+         style="font-size:16.25px;line-height:1.25">$\textrm{prevodni pas}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-297.83002"
+       y="113.34029"
+       id="text4870-3"><tspan
+         sodipodi:role="line"
+         id="tspan4872-6"
+         x="-297.83002"
+         y="113.34029"
+         style="font-size:20px;line-height:1.25">$\Phi$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-505.38547"
+       y="30.505407"
+       id="text8370"><tspan
+         sodipodi:role="line"
+         id="tspan8368"
+         x="-505.38547"
+         y="30.505407"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4375px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.9375px">a)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="83.00238"
+       y="131.95819"
+       id="text4870-3-7-5"><tspan
+         sodipodi:role="line"
+         id="tspan4872-6-8-5"
+         x="83.00238"
+         y="131.95819"
+         style="font-size:20px;line-height:1.25">$E_g$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="71.796623"
+       y="30.400295"
+       id="text4870-26"><tspan
+         sodipodi:role="line"
+         id="tspan4872-1"
+         x="71.796623"
+         y="30.400295"
+         style="font-size:20px;line-height:1.25">$E$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-107.95336"
+       y="236.4003"
+       id="text5056-0"><tspan
+         sodipodi:role="line"
+         id="tspan5058-23"
+         x="-107.95336"
+         y="236.4003"
+         style="font-size:16.25px;line-height:1.25">$\textrm{polprevodnik}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.548454"
+       y="236.13278"
+       id="text5056-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan5058-1-2"
+         x="77.548454"
+         y="236.13278"
+         style="font-size:16.25px;line-height:1.25">$\textrm{vakuum}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-102.20155"
+       y="191.63278"
+       id="text5056-2-8"><tspan
+         sodipodi:role="line"
+         id="tspan5058-7-97"
+         x="-102.20155"
+         y="191.63278"
+         style="font-size:16.25px;line-height:1.25">$\textrm{valenčni pas}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-113.05176"
+       y="89.635063"
+       id="text5056-2-1-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan5058-7-9-0-4"
+         x="-113.05176"
+         y="89.635063"
+         style="font-size:16.25px;line-height:1.25;stroke-width:1px">$\textrm{prevodni~~~~~pas}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="82.347717"
+       y="84.877113"
+       id="text4870-3-7-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan4872-6-8-0-6"
+         x="82.347717"
+         y="84.877113"
+         style="font-size:20px;line-height:1.25">$E_a$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-128.51047"
+       y="30.505407"
+       id="text8370-2"><tspan
+         sodipodi:role="line"
+         id="tspan8368-2"
+         x="-128.51047"
+         y="30.505407"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4375px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.9375px">b)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="455.17938"
+       y="30.302803"
+       id="text4870-26-3"><tspan
+         sodipodi:role="line"
+         id="tspan4872-1-1"
+         x="455.17938"
+         y="30.302803"
+         style="font-size:20px;line-height:1.25">$E$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="275.42941"
+       y="236.30281"
+       id="text5056-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan5058-23-0"
+         x="275.42941"
+         y="236.30281"
+         style="font-size:16.25px;line-height:1.25">$\textrm{polprevodnik}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="281.18121"
+       y="191.53529"
+       id="text5056-2-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan5058-7-97-2"
+         x="281.18121"
+         y="191.53529"
+         style="font-size:16.25px;line-height:1.25">$\textrm{valenčni pas}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="270.33102"
+       y="85.787567"
+       id="text5056-2-1-5-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan5058-7-9-0-4-5"
+         x="270.33102"
+         y="85.787567"
+         style="font-size:16.25px;line-height:1.25;stroke-width:1px">$\textrm{prevodni~~~~~pas}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="466.38516"
+       y="131.8607"
+       id="text4870-3-7-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan4872-6-8-5-1"
+         x="466.38516"
+         y="131.8607"
+         style="font-size:20px;line-height:1.25">$E_g$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="252.93256"
+       y="30.505407"
+       id="text8370-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan8368-2-1"
+         x="252.93256"
+         y="30.505407"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.4375px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L';stroke-width:0.9375px">c)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1382,5 +1370,16 @@
          x="51.384918"
          y="87.207741"
          style="font-size:37.5px;line-height:1.25"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-470.42337"
+       y="83.988907"
+       id="text4870-36"><tspan
+         sodipodi:role="line"
+         id="tspan4872-7"
+         x="-470.42337"
+         y="83.988907"
+         style="font-size:20px;line-height:1.25;stroke-width:1px">$h \nu$</tspan></text>
   </g>
 </svg>
