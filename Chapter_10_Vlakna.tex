@@ -1481,7 +1481,7 @@ polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne ja
 v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 
 Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza jakosti električnega polja,
-lahko atenuacijski koeficient v ukrivljenem vlaknu zapišemo kot:
+lahko atenuacijski koeficient v ukrivljenem vlaknu zapišemo približno kot:
 \begin{equation}
 A \propto e^{-CR},
 \end{equation}
@@ -1723,7 +1723,7 @@ mora zadoščati Helmholtzevi enačbi
 \nabla^{2}E(x,z)+k_0^{2}n(x)^2 E(x,z) =0.
 \end{equation}
 Z $n(x)$ smo označili prečno odvisnost lomnega količnika.
-Vstavimo nastavek za jakost električnega polja v Helmholtzevo enačbo in zapišemo:
+Vstavimo nastavek za jakost električnega polja v Helmholtzevo enačbo in dobimo:
 \begin{align}
 A e^{i \beta_1 z}\left(\frac{\partial^2\psi_1(x)}{\partial x^2} - \beta_1^2\psi_1 + k_0^2
 n(x)^2 \psi_1 \right)
@@ -1744,9 +1744,9 @@ in
 \begin{equation}
  \frac{\partial^2\psi_2(x)}{\partial x^2} + \left(k_0^2n_2(x)^2-\beta_2^2\right) \psi_2 =0.
 \end{equation}
-Lomna količnika $n_1(x)$ in $n_2(x)$ sta tukaj tudi funkciji prečne koordinate. Naj bo $n_1(x)$  
+Lomna količnika $n_1(x)$ in $n_2(x)$ sta tudi tukaj funkciji prečne koordinate. Naj bo $n_1(x)$  
 povsod enak $n_0$, razen v sredici prvega vodnika, kjer je $n_1$, in naj bo 
-$n_2(x)$ povsod enak $n_0$, razen v sredici drugega vlakna, kjer je enak $n_2$. Sledi:
+$n_2(x)$ povsod enak $n_0$, razen v sredici drugega vodnika, kjer je enak $n_2$. Sledi:
 \begin{align}
 A e^{i \beta_1 z}k_0^2\left(n(x)^2 -n_1(x)^2\right)\psi_1 
 + 
@@ -1756,7 +1756,7 @@ B e^{i \beta_2 z}k_0^2\left(n(x)^2 -n_2(x)^2\right)\psi_2 &+
 2 i \beta_2 \frac{\partial B}{\partial z} \psi_2 e^{i \beta_2 z} &= 0.
 \end{align}
 Enačbo pomnožimo s kompleksno konjugirano vrednostjo $\psi_1^*$ in integriramo po $x$.
-Upoštevamo, da se funkciji $\psi_1$ in $\psi_2$ le malo prekrivata, in zapišemo:
+Upoštevamo, da se funkciji $\psi_1$ in $\psi_2$ le malo prekrivata, in dobimo:
 \begin{equation}
 \frac{\partial A}{\partial z} = i A K_{11}+i B e^{i(\beta_2-\beta_1)z} K_{12},
 \end{equation}
@@ -1769,15 +1769,15 @@ Koeficient $K_{11}$ določa spremembo faze v vlaknu zaradi prisotnosti
 drugega vlakna in ga lahko zanemarimo. Tako ostane samo:
 \begin{equation}
 \frac{\partial A}{\partial z} = i B e^{i(\beta_2-\beta_1)z} K_{12} \qquad \mathrm{in}
-\qquad \frac{\partial B}{\partial z} = i A e^{i(-\beta_2+\beta_1)z} K_{21}.
+\qquad \frac{\partial B}{\partial z} = i A e^{-i(\beta_2-\beta_1)z} K_{21}.
 \label{10_B}
 \end{equation}
 Prvo enačbo odvajamo po $z$, upoštevamo drugo in zapišemo:
 \begin{equation}
-\frac{\partial^2 A}{\partial z^2}-i \Delta \beta \frac{\partial A}{\partial z} + K_{12}K_{21}A = 0.
+\frac{\partial^2 A}{\partial z^2}-i \Delta \beta \frac{\partial A}{\partial z} + K_{12}K_{21}A = 0,
 \label{10_part}
 \end{equation}
-Enačbo~\ref{10_part} rešujemo z nastavkom:
+pri čemer je $\Delta \beta = \beta_2 - \beta_1$. Enačbo~\ref{10_part} rešujemo z nastavkom:
 \begin{equation}
 A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right)\!\!.
 \label{10_nastavek}
@@ -1785,8 +1785,7 @@ A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right)
 \vglue-4truemm
 \begin{naloga}
  Pokaži, da  nastavek (enačba~\ref{10_nastavek}) reši enačbo~(\ref{10_part}), in pokaži,
- da med parametri enačb velja naslednja zveza, pri čemer je $K = \sqrt{K_{12}K_{21}}$ in 
- $\Delta \beta = \beta_2 - \beta_1$:
+ da med parametri enačb velja naslednja zveza, pri čemer je $K = \sqrt{K_{12}K_{21}}$:
  \begin{equation}
  \gamma^2 = K^2 + \frac{\Delta \beta ^2}{4}.
  \label{10kgamma}
@@ -1830,7 +1829,7 @@ in manjše odstopanje $\Delta \beta$ vodita v večji prenos svetlobnega toka v d
 \def\svgwidth{125truemm} 
 \input{slike/10_Coupler.pdf_tex} 
 \caption{Prenos svetlobnega toka med dvema sklopljenima vodnikoma. V prvem primeru (a) sta
-vodnika različna, v drugem primeru (b) pa sta vodnika in prenos je popoln.}
+vodnika različna, v drugem primeru (b) pa enaka in prenos je popoln.}
 \label{fig:foscil}
 \end{figure}
 
@@ -1843,7 +1842,7 @@ P_1 &= P_0 \cos^2 (\gamma z) \qquad \mathrm{in}\\
 P_2 &= P_0 \sin^2 (\gamma z).
 }
 Na ta način lahko v drugo vlakno sklopimo poljuben delež vpadne svetlobe. 
-Celotni prenosa svetlobnega toka v drugo vlakno nastopi pri dolžini sklopitve $L = \pi/2 \gamma$. 
+Prenos celotnega svetlobnega toka v drugo vlakno nastopi pri dolžini sklopitve $L = \pi/2 \gamma$. 
 Pri dolžini $L = \pi/4 \gamma$ sklopimo eno polovico gostote vpadnega svetlobnega toka in govorimo o 3-dB sklopitvi. \index{Sklopitev med valovodi!3-dB sklopitev}
 
 \begin{remark}
@@ -1868,7 +1867,7 @@ spremembah merjene količine. Po drugi strani že majhna sprememba
 valovnega števila povzroča neželene spremembe faze in odboje pri prenosu 
 informacij.
 V tem razdelku zato poglejmo, kako se spremeni valovno število pri
-dani spremembi lomnega količnika in koliko svetlobe se odbije.
+dani spremembi lomnega količnika in koliko svetlobe se v takem primeru odbije.
 
 Obravnavajmo rod z vzdolžno komponento valovnega vektorja $\beta_{lm}$ in prečnim
 profilom $\psi_{lm}\left(r,\varphi\right)\!\!.$ Ta mora zadoščati Helmholtzevi enačbi 
@@ -1917,7 +1916,6 @@ prvi in drugi člen odštejeta. Iskan popravek k valovnemu številu je tako:
 \beta_{lm}\int\left|\psi_{lm}\right|^{2}dS}.
 \label{9.25}
 \end{equation}
-
 \begin{remark}
 Ta rezultat je seveda analogen kvantnomehanskemu rezultatu, ki sledi iz 
 teorije motenj za spremembo energije lastnega stanja delca pri majhni 
@@ -1929,14 +1927,14 @@ $\delta\epsilon$, pri čemer je utež $\psi_{lm}$.
 Sprememba valovnega števila $\delta \beta$ v delu vlakna ne povzroči le spremembe faze, 
 ampak tudi delni odboj.
 To je le nekoliko druga oblika odboja na (zvezni ali ostri) meji 
-dveh dielektrikov ali, splošneje, odboja valovanja na območju,
+dveh dielektrikov ali, še splošneje, odboja valovanja na območju,
 kjer se spremeni fazna hitrost valovanja.
 Amplitudo odbitega valovanja, ki se odbije na območju spreminjajočega $\beta$, 
 najpreprosteje dobimo z uporabo
 enačbe za odboj na meji dveh dielektrikov pri pravokotnem
 vpadu. Odbita amplituda je tedaj (enačba~\ref{eq:Fresnel1}):
 \begin{equation}
-E_{r}=\frac{n_{2}-n_{1}}{n_{2}+n_{1}}E_{0},
+E_{r}=\frac{n_{1}-n_{2}}{n_{1}+n_{2}}E_{0},
 \label{9.26}
 \end{equation}
 pri čemer $n_1$ in $n_2$ označujeta nespremenjen in rahlo spremenjen lomni
@@ -1969,12 +1967,12 @@ Za primer poglejmo linearno spremembo lomnega količnika in linearno spremembo
 valovnega števila za $\Delta\beta$ na razdalji $L$. Krajši račun pokaže, da je 
 delež intenzitete odbitega valovanja:
 \begin{equation}
-\frac{I_{r}}{I_{0}}=\left( \frac{\Delta\beta}{2 \beta}\,\frac{\sin\beta L}{\beta L}\right)^2.
+\frac{I_{r}}{I_{0}}=\left( \frac{\Delta\beta}{2 \beta}\,\frac{\sin\beta L}{\beta L}\right)^2\!\!.
 \label{9.30}
 \end{equation}
 Odbojnost je največja, kadar je $L \ll 1/\beta$,
 torej kadar je sprememba $\beta$ ostra stopnica. Čim počasnejša je
-sprememba, tem manj je odboja. Kadar je $\sin\beta L=0$, vsi delni 
+sprememba, tem manj je odboja. Kadar je $\sin\beta L=0$, delni 
 odboji destruktivno interferirajo in odbojnost je enaka nič.
 
 \begin{naloga}
