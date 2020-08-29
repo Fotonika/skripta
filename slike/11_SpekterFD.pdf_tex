@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{672.12958388bp}%
+    \setlength{\unitlength}{665.66339448bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,28 +50,28 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.7124983)%
+  \begin{picture}(1,0.67321434)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_SpekterFD.pdf}}%
-    \put(0.14734596,0.53051935){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ag-ZnS}$\end{tabular}}}}%
-    \put(0.55079697,0.65196129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Si}$\end{tabular}}}}%
-    \put(0.27320153,0.57747204){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Au-Si}$\end{tabular}}}}%
-    \put(0.78020962,0.61608928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ge}$\end{tabular}}}}%
-    \put(0.12955981,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$200$\end{tabular}}}}%
-    \put(0.24208554,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$400$\end{tabular}}}}%
-    \put(0.35218534,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$\end{tabular}}}}%
-    \put(0.46168804,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$800$\end{tabular}}}}%
-    \put(0.5616121,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1000$\end{tabular}}}}%
-    \put(0.67111479,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1200$\end{tabular}}}}%
-    \put(0.78299795,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1400$\end{tabular}}}}%
-    \put(0.89460922,0.04950988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1600$\end{tabular}}}}%
-    \put(0.39276067,0.00567743){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Valovna dol{\v z}ina [nm]}$\end{tabular}}}}%
-    \put(0.05738056,0.07419108){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.04401795,0.37578938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$50$\end{tabular}}}}%
-    \put(0.02759707,0.68958605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$100$\end{tabular}}}}%
-    \put(0.04457794,0.22456529){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$25$\end{tabular}}}}%
-    \put(0.02062102,0.18350642){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Kvantni izkoristek [\%}]$\end{tabular}}}}}%
-    \put(0.04497677,0.53477277){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$75$\end{tabular}}}}%
+    \put(0.14560533,0.48946766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ag-ZnS}$\end{tabular}}}}%
+    \put(0.55297543,0.61208927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Si}$\end{tabular}}}}%
+    \put(0.27268345,0.53687645){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Au-Si}$\end{tabular}}}}%
+    \put(0.78461657,0.57586881){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Ge}$\end{tabular}}}}%
+    \put(0.12764641,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$200$\end{tabular}}}}%
+    \put(0.24126521,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$400$\end{tabular}}}}%
+    \put(0.35243451,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$\end{tabular}}}}%
+    \put(0.4630009,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$800$\end{tabular}}}}%
+    \put(0.56389561,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1000$\end{tabular}}}}%
+    \put(0.67446201,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1200$\end{tabular}}}}%
+    \put(0.78743198,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1400$\end{tabular}}}}%
+    \put(0.90012744,0.00378571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1600$\end{tabular}}}}%
+    \put(0.05476602,0.02870666){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.0412736,0.33323466){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$50$\end{tabular}}}}%
+    \put(0.02469321,0.65007952){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$100$\end{tabular}}}}%
+    \put(0.04183904,0.18054158){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$25$\end{tabular}}}}%
+    \put(0.04224173,0.49376239){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$75$\end{tabular}}}}%
+    \put(-0.00114195,0.60182116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\eta~\mathrm{[\%]}$\end{tabular}}}}%
+    \put(0.99125658,0.00262226){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda~\mathrm{[nm]}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

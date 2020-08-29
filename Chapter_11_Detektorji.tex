@@ -920,11 +920,14 @@ Slabost dodatnega
 sloja je povečanje časa preleta čez izpraznjeno plast, vendar lahko
 z ustrezno optimizacijo konstrukcije dosežemo odzivne čase nekaj deset $\si{ps}$.
 Kvantni izkoristki $p$-$i$-$n$ so visoki, a seveda odvisni od valovne dolžine svetlobe
-(slika~\ref{11_odziv}).\footnote{~Slika povzeta po S. M. Sze in M. K. Lee, {\it Semiconductor Devices: Physics and Technology}, tretja izdaja, John Wiley \& Sons, Inc. (2012).}
+(slika~\ref{11_odziv}).\footnote{~Slika povzeta po S. M. Sze in M. K. Lee, {\it Semiconductor Devices: Physics and Technology}, tretja izdaja, John Wiley \& Sons, Inc. (2012).} Za detekcijo
+v telekomunikacijah se navadno uporablja fotodiode iz germanija ali InGaAs z izkoristkom
+okoli $80$--$90~\%$. Silicijeve fotodiode dosegajo sicer še večji izkoristek, vendar omogočajo
+le detekcijo do okoli $1000~\si{nm}$.
 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{110truemm} 
+\def\svgwidth{100truemm} 
 \input{slike/11_SpekterFD.pdf_tex}
 \caption{Kvantni izkoristek nekaterih $p$-$i$-$n$ (Si in Ge) in Schottkyjevih (Au-Si in Ag-ZnS)
 fotodiod}
@@ -991,7 +994,7 @@ ali fotoprevodnikov\index{Fotoprevodnik} (za infrardeče
 valovanje),\index{Infrardeče valovanje}
 Schottkyjevih fotodiod\index{Fotodioda!Schottkyjeva} (npr. PtSi, ki seže od ultravijolične svetlobe do
 okoli $6~\si{\micro\meter}$) ali plazovnih fotodiod.\index{Fotodioda!plazovna}\index{Ultravijolično valovanje}
-\vglue-5truemm
+\vglue-9truemm
 \end{remark}
 
 \subsection*{CCD}
@@ -1005,14 +1008,14 @@ plast med polprevodnikom in prevodno elektrodo pa je navadno zelo tanka plast (p
 SiO$_2$ (slika~\ref{11_MOS}).\index{SiO$_2$}
 Prevodna elektroda je bila prvotno iz kovine (npr. aluminija) in je detektorju 
 dala tudi ime.
-Danes je kovino večinoma nadomestil polikristalni silicij (polisilicij), ime pa je ostalo.
+Danes je kovino večinoma nadomestil polikristalni silicij (polisilicij).
 Tipična dolžina stranice posameznega elementa je $5$--$40~\si{\micro\meter}$.
 
 \begin{figure}[ht]
 \centering
 \def\svgwidth{120truemm} 
 \input{slike/11_MOS.pdf_tex}
-\caption{Shema strukture MOS strukture (a), na kateri temeljijo slikovni detektorji CCD in CMOS. Osnova je 
+\caption{Shema strukture MOS (a), na kateri temeljijo slikovni detektorji CCD in CMOS. Osnova je 
 polprevodnik ($p$), na katerem je plast dielektrika (SiO$_2$) in na njej elektroda (siva). 
 Ob absorpciji svetlobe se pojavijo fotoelektroni, ki jih pozitivna napetost
 na elektrodi drži ujete v potencialno jamo (vijolična). S spreminjanjem napetosti
@@ -1182,7 +1185,7 @@ torej signal kar se da velik.
 
 \begin{remark}
 Razmerje signal proti šumu $SNR$ lahko vpeljemo na več načinov. Prvi je ta, ki smo ga 
-uporabili mi, pri katerem velja $SNR = \overline{n}/\sigma = \overline{n}$. To je
+uporabili mi, pri katerem velja $SNR = \overline{n}/\sigma = \sqrt{\overline{n}}$. To je
 $SNR$ optične moči oziroma števila fotonov in nastalega električnega toka. Lahko
 pa vpeljemo tudi $SNR_e$ električne moči na detektorju.
 Zaradi kvadratne zveze med električnim tokom in električno močjo velja 
@@ -1213,11 +1216,11 @@ pri čemer smo upoštevali enačbo~(\ref{varianca}).
 
 Vpeljemo še pasovno širino 
 detekcije\footnote{~Pri detekciji signala navadno uporabljamo
-čas osvetlitve $\tau$ in pri telekomunikacijah pasovno širino $\Delta\nu_B$.}
-\footnote{~Glej npr. R. W. Boyd, 
-{\it Radiometry and the Detection of Optical Radiation}, John Wiley \& Sons, Inc. (1983).}, ki je 
+čas osvetlitve $\tau$ in pri telekomunikacijah pasovno širino $\Delta\nu_B$.}, ki je 
 enaka $\Delta\nu_B = 1/(2\tau)$,
-in zapišemo\index{Pasovna širina detekcije}:
+in zapišemo\footnote{~Glej npr. R. W. Boyd, 
+{\it Radiometry and the Detection of Optical Radiation}, John Wiley \& Sons,
+Inc. (1983).}\index{Pasovna širina detekcije}:
 \boxeq{11:sum}{
 \overline{(\Delta I)^2} = 2 \overline{I}\,e_0\, \Delta\nu_B.
 }
