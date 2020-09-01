@@ -69,15 +69,16 @@ V lastnem nemotenem sistemu ga preprosto zapišemo kot:
 Ko priključimo zunanje polje, se tenzor $\underline{\tilde{b}}$
 spremeni. Pri elektro-optičnem pojavu so spremembe tenzorja dielektričnosti zaradi vpliva
 zunanjega polja navadno majhne in lahko spremembo komponente $\delta b_{ij}$ zapišemo kot 
-potenčno vrsto zunanjega polja $E$, 
-pri čemer upoštevamo zgolj prva dva člena v razvoju:
+potenčno vrsto zunanjega polja $\mathbf{E}$, 
+pri čemer upoštevamo zgolj prva dva člena v razvoju in uporabimo 
+Einsteinov zapis seštevanja:
 \boxeq{7.1}{
-\delta b_{ij}=r_{ijk}E_{k}+q_{ijkl}E_{k}E_{l}.
+\delta b_{ij}=\sum_{k=1}^3 r_{ijk}E_{k}+ \sum_{k=1}^3 \sum_{l=1}^3 q_{ijkl}E_{k}E_{l} = 
+r_{ijk}E_{k}+q_{ijkl}E_{k}E_{l}.
 }
 Prvi člen je linearno sorazmeren z zunanjim poljem in opisuje linearni elektro-optični
 \index{Elektro-optični pojav!linearni|see {Pockelsov pojav}}
-ali Pockelsov\index{Pockelsov pojav} pojav\footnote{Nemški fizik Friedrich Carl Alwin Pockels, 1865--1913.}. 
-Tenzor tretjega ranga $r_{ijk}$ imenujemo elektro-optični 
+ali Pockelsov\index{Pockelsov pojav} pojav\footnote{Nemški fizik Friedrich Carl Alwin Pockels, 1865--1913.}. Tenzor tretjega ranga $r_{ijk}$ imenujemo elektro-optični 
 tenzor\index{Elektro-optični tenzor}
 ali tudi Pockelsov tenzor\index{Pockelsov tenzor|see {Elektro-optični tenzor}}. 
 Pockelsov tenzor je različen od nič v snoveh brez centra inverzije, značilne vrednosti Pockelsovega
@@ -91,7 +92,7 @@ Značilna vrednost Kerrovega tenzorja je $q \sim 10^{-24}$~m$^2$/V$^2$.
 
 Navadno ločimo dva primera Kerrovega pojava: Kerrov elektro-optični pojav 
 pri zunanjih poljih z nizko frekvenco in optični Kerrov pojav, ki ga bomo  
-podrobneje spoznali pri obravnavi nelinearnih optičnih pojavov (razdelek~\ref{OKP}).
+podrobneje spoznali v razdelku~\ref{OKP} pri obravnavi nelinearnih optičnih pojavov.
 
 Pri uporabi trdnih kristalov navadno prevlada linearni člen, zato se osredotočimo
 le nanj in zapišemo:
@@ -180,12 +181,13 @@ GaAs\index{GaAs} (levo) in \index{LiNbO$_3$} LiNbO$_3$ (desno).
 \end{remark}
 
 \section{Longitudinalna modulacija}
-Poglejmo podrobneje, kako električno polje spremeni optične lastnosti 
-elektro-optičnega kristala in kako to vpliva na svetlobo, ki potuje skozi tak kristal.
-Navadno se uporabljajo kristali, ki so dvolomni že brez zunanjega polja. 
+Poglejmo podrobneje, kako zunanje električno polje spremeni optične lastnosti 
+kristala in kako to vpliva na svetlobo, ki potuje skozi kristal.
+Navadno se za elektro-optično modulacijo 
+uporabljajo kristali, ki so dvolomni že brez zunanjega polja. 
 Kot primer vzemimo kristal KH$_{2}$PO$_{4}$ (KDP)\index{KDP}, ki ima tetragonalno 
-simetrijo ($\bar{4}2m$). Kot razberemo iz tabele~\ref{table:Pockels}, ima 
-elektro-optični tenzor dve neodvisni komponenti: $r_{41} = r_{52}=8,77 \times 10^{-12}~\si{\m/\V}$
+simetrijo ($\bar{4}2$m). Kot razberemo iz tabele~\ref{table:Pockels}, ima 
+elektro-optični tenzor KDP dve neodvisni komponenti: $r_{41} = r_{52}=8,77 \times 10^{-12}~\si{\m/\V}$
 in $r_{63}= 10,3 \times 10^{-12}~\si{\m/\V}$.
 
 Kristal naj bo odrezan po kristalografskih oseh. Svetloba naj skozi kristal potuje 
@@ -255,7 +257,7 @@ in pripadajoče nove lastne osi so:
 \lambda_2 &= \frac{1}{n_o^2}- r_{63}E_z \qquad \mathrm{in} \qquad \mathbf{e}_2 = \frac{1}{\sqrt{2}}(-1,1,0),\\
 \lambda_3 &= \frac{1}{n_e^2} \qquad \mathrm{in} \qquad \mathbf{e}_3 = (0,0,1).
 \end{align}
-Os $z$ se ohranja, medtem ko sta drugi dve novi lastni osi zasukani za kot $45~\si{\degree}$ 
+Os $z$ se ohranja, medtem ko sta drugi dve novi lastni osi zasukani za kot $45\si{\degree}$ 
 glede na prvotni osi $x$ in $y$ (slika~\ref{fig:amn}).
 V novem koordinatnem sistemu je inverzni dielektrični tenzor diagonalen in enak:
 \begin{equation}
@@ -279,7 +281,7 @@ optično dvoosen, saj so vse tri lastne vrednosti tenzorja dielektričnosti razl
 \caption{Optično enoosen kristal postane pod napetostjo dvoosen. Indikatrisa, ki je pravokotno
 na optično os brez priključenega polja krožnica (polna črta), se pod vplivom 
 napetosti spremeni v elipso (črtkana črta). Pri tem sta osi elipse zasukani za kot 
-$45~\si{\degree}$ glede na prvotni osi $x$ in $y$.}
+$45\si{\degree}$ glede na prvotni osi $x$ in $y$.}
 \label{fig:amn}
 \end{figure}
 
@@ -293,14 +295,14 @@ novima lastnima količnikoma, ki ju izrazimo kot\index{Lomni količnik}:
 \end{equation}
 Za vse eksperimentalno dosegljive jakosti električnega polja velja $r_{63}E\ll1/n_o^2$,
 zato lahko  
-enačbi~(\ref{eq:eonxnyr}) razvijemo:
+enačbi~(\ref{eq:eonxnyr}) razvijemo in dobimo:
 \begin{equation}
 n_{x'} = \sqrt{\frac{n_o^2}{1+ n_o^2 r_{63}E_z}} \approx n_o \sqrt{1- n_o^2 r_{63}E_z} \approx
 n_o - \frac{1}{2}n_o^3 r_{63}E_z.
 \end{equation}
 Nova lomna količnika sta:
 \boxeq{EOnx}{
-n_{x'}&\approx n_o - \frac{1}{2}n_o^3 r_{63}E_z \quad \mathrm{in}\\
+n_{x'}&\approx n_o - \frac{1}{2}n_o^3 r_{63}E_z \qquad \mathrm{in}\\
 n_{y'}&\approx n_o + \frac{1}{2}n_o^3 r_{63}E_z.
 }
 Svetloba z različnima lastnima polarizacijama ob priključenem zunanjem polju potuje vzdolž 
@@ -363,26 +365,26 @@ Tudi v tem primeru tenzor diagonaliziramo in poiščemo nove lastne vrednosti.
 zanemarimo člene, v katerih $rE$ nastopa v kvadratni obliki. Nove lastne vrednosti so tako:
 \begin{align}
 \lambda_1 &\approx \frac{1}{n_o^2}-r_{22}E_y, \\
-\lambda_2 &\approx \frac{1}{n_o^2}+ r_{22}E_y\quad \mathrm{in} \\
+\lambda_2 &\approx \frac{1}{n_o^2}+ r_{22}E_y\qquad \mathrm{in} \\
 \lambda_3 &\approx \frac{1}{n_e^2}.
 \end{align}
 Izračunamo še ustrezne lomne količnike:
 \begin{align}
 n_{x'} &\approx n_o+\frac{1}{2}n_o^3r_{22}E_y,\\
-n_{y'} &\approx n_o-\frac{1}{2}n_o^3r_{22}E_y \quad \mathrm{in}\\
+n_{y'} &\approx n_o-\frac{1}{2}n_o^3r_{22}E_y \qquad \mathrm{in}\\
 n_z' &\approx n_e.
 \end{align}
 Kako pa je z novimi lastnimi osmi?\index{Dvolomnost!dvoosne snovi} 
 Hitro ugotovimo (enačba~\ref{7.8b}), da se ob
 priključenem polju os $x$ ohranja. Pojavi se zasuk okoli osi $x$,
 ki ga označimo s kotom $\vartheta$. Račun pokaže, da je za smiselne
-vrednosti električnega polja ta kot zelo majhen ($\vartheta~
+vrednosti električnega polja ta kot majhen ($\vartheta~
 \approx~r_{51}E_y/(1/n_o^2-1/n_e^2) \sim~1~\si{mrad}$),
 tako da lahko v približku rečemo, da se lastne osi ohranjajo. 
 
 Če potuje svetloba vzdolž osi $z$, sta torej lomna količnika za 
 polarizaciji v smeri $x$ in $y$ približno enaka $n_{x'}$ in $n_{y'}$. Fazna razlika med 
-polarizacijama po preletu kristala z dolžino $L$ je:
+polarizacijama po preletu kristala z dolžino $L$ je tako:
 \begin{equation}
 \Delta \phi = k_0 n_{y'} L - k_0 n_{x'} L = \frac{\omega}{c_0}L 
 n_o^3 r_{22}E_y = \frac{\omega}{c_0}L n_o^3 r_{22}\frac{U}{d}.
@@ -421,7 +423,7 @@ naravne dvolomnosti odšteje, zaradi modulacijske napetosti pa sešteje.
 \index{Elektro-optična modulacija!amplitudna}
 Poglejmo, kako lahko elektro-optični pojav izkoristimo za modulacijo
 amplitude svetlobe. Pod vplivom polja se v kristalu pojavi
-fazni zamik med polarizacijama, ki je sorazmeren napetosti 
+fazni zamik med polarizacijama, ki je sorazmeren priključeni napetosti 
 (enačbi~\ref{phiAM} in \ref{fazaTM}).
 Če za tak kristal postavimo analizator, lahko z napetostjo spreminjamo 
 moč prepuščene svetlobe -- amplitudno moduliramo signal.
@@ -430,7 +432,7 @@ Vrnimo se k longitudinalni\index{Elektro-optična modulacija!longitudinalna}
 modulaciji (slika~\ref{fig:amshema}).
 Naj bo vpadno električno polje polarizirano v smeri $y$. 
 Ko priključimo napetost, sta novi lastni osi zasukani 
-za kot $45~\si{\degree}$ glede na prvotni lastni osi (slika~\ref{fig:amn}). Vpadno 
+za kot $45\si{\degree}$ glede na prvotni lastni osi (slika~\ref{fig:amn}). Vpadno 
 valovanje zato razstavimo na komponenti $x'$ in $y'$:
 \begin{equation}
 \mathbf{E}_0 = E_0\, \mathbf{e}_y = \frac{E_0}{\sqrt{2}}\left(\mathbf{e}_{x'} + \mathbf{e}_{y'}\right)\!\!.
@@ -458,11 +460,11 @@ Gostota prepuščenega svetlobnega toka ob vpadnem toku $j_0$ je tako:
 j=\frac{1}{4}j_{0}\left|1-e^{i\Delta\phi}\right|^{2}=\frac{1}{2}j_{0}(1-\cos\Delta\phi).
 \label{7.17}
 \end{equation}
-Preoblikujemo izraz in zapišemo prepustnost modulatorja ob upoštevanju 
+Preoblikujemo izraz in zapišemo prepustnost modulatorja $T$ ob upoštevanju 
 zveze~(\ref{phiAM}):
 \boxeq{AMfinal}{
 T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 = 
-\sin\left(\frac{\pi n_o^3 r_{63}U}{\lambda}\right)^2 .
+\sin\left(\frac{\pi n_o^3 r_{63}U}{\lambda}\right)^2\!\!.
 }
 \vglue-3truemm
 \begin{figure}[ht]
@@ -470,11 +472,10 @@ T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 =
 \def\svgwidth{65truemm} 
 \input{slike/09_AMT.pdf_tex}
 \caption{Prepustnost amplitudnega modulatorja $T$ v 
-odvisnosti od faznega zamika $\Delta \phi$, 
-sorazmernega priključeni napetosti (rdeča črta). 
+odvisnosti od faznega zamika $\Delta \phi$ (rdeča črta). 
 Če pred vzorec dodamo ploščico $\lambda/4$, 
-se faza zamakne za $\pi/2$ in odvisnost prepustnosti od priključene napetosti
-postane približno linearna (modra črta).}
+se faza zamakne za $\pi/2$ in odvisnost prepustnosti od faze (in priključene 
+napetosti) postane približno linearna (modra črta).}
 \label{fig:amt}
 \end{figure}
 
@@ -537,12 +538,13 @@ Celotna faza prepuščenega valovanja je potem:
 \phi = \frac{\omega_0}{c_0}L n_o - \frac{\omega_0 n_o^3 r_{63}}{2c_0}\left( U_0 + 
 \frac{\Delta U}{\Delta t}t\right) - \omega_0 t.
 \end{equation}
-Krožno frekvenco valovanja v danem trenutku izračunamo kot negativni odvod faze po času:
+Krožno frekvenco valovanja izračunamo kot negativni odvod faze po času:
 \begin{equation}
 \omega = -\frac{d\phi}{dt} = \omega_0 + \frac{\omega_0 n_o^3 r_{63}}{2c_0}\frac{\Delta U}{\Delta t} =
 \omega_0 + \Delta \omega.
 \end{equation}
-Razvidno je, da linearno spreminjajoča se modulacijska napetost pomeni spremembo frekvence svetlobe. 
+Linearno spreminjajoča se modulacijska napetost torej 
+povzroči spremembo frekvence izhodne svetlobe. 
 Dosegljive spremembe frekvence so seveda dokaj majhne,
 do nekaj $100~\si{MHz}$, saj so omejene s hitrostjo spreminjanja napetosti.
 Napetost seveda tudi ne more neomejeno naraščati. Kadar se napetost
@@ -562,7 +564,7 @@ se računa lotimo drugače. Konstantni člen, ki predstavlja le konstantni fazni
 lahko izpustimo in zapišemo jakost električnega polja prepuščenega valovanja: 
 \begin{equation}
 E = E_0 \cos\left( \omega_0 t + \frac{\omega_0 n_o^3 r_{63}}{2c_0} U_0\sin(\omega_{m}t)\right)
-= E_0 \cos\left( \omega_0 t + \delta \sin(\omega_{m}t)\right)\!\!,
+= E_0 \cos\left( \omega_0 t + \delta \sin(\omega_{m}t)\right)\!,
 \end{equation}
 pri čemer je:
 \begin{equation}
@@ -571,7 +573,7 @@ pri čemer je:
 Z uporabo Jacobi-Angerjevih identitet: 
 \begin{align}
 \cos\left(\delta\sin x\right)  &=J_0(\delta)+2J_2(\delta)\cos2x+
-2J_4(\delta)\cos4x + \ldots\nonumber \quad \mathrm{in}\\
+2J_4(\delta)\cos4x + \ldots\nonumber \qquad \mathrm{in}\\
 \sin\left(\delta\sin x\right) &=2J_1(\delta)\sin x+2J_3\sin3x+
 2J_5\sin5x+\ldots
 \label{JA}
@@ -1161,7 +1163,7 @@ Izkoristek pretvorbe s koeficientom $M$ zapišemo kot:
 \end{equation}
 Poglejmo primer. V kremenu z gostoto $\varrho=2200~\si{\kilo\gram/\metre^3}$ 
 je hitrost zvoka $v_{z}=6000~\si{\metre/\second}$,
-$\tilde{n}=1,46$ in $p=0,2$. To da $M=8\cdot10^{-16}~\si{\metre^2/\watt}$.
+$\tilde{n}=1,46$ in $p=0,2$. To da $M=8\times 10^{-16}~\si{\metre^2/\watt}$.
 Pri gostoti zvočnega toka $10~\si{\watt/\centi\metre^2}$ in valovni dolžini svetlobe 
 $633~\si{\nano\metre}$ nastopi popoln prenos moči v uklonjeni snop pri 
 debelini $d \sim 3~\si{\centi\metre}$. Upoštevana gostota zvočnega toka je kar velika

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '09_AMindikatrisa.pdf' (pdf, eps, ps)
 %%
@@ -54,13 +54,13 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0.44804085,0.85215894){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
-    \put(0.91853453,0.22839477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.95548882,0.24687189){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
     \put(0.82035411,0.65345326){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x'$\end{tabular}}}}%
-    \put(0.46980458,0.24793192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z = z'$\end{tabular}}}}%
-    \put(0.06231615,0.67316532){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y'$\end{tabular}}}}%
+    \put(0.48458627,0.24793192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z = z'$\end{tabular}}}}%
+    \put(0.07709784,0.67316532){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y'$\end{tabular}}}}%
     \put(0.71448934,0.32294874){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_o$\end{tabular}}}}%
-    \put(0.69792664,0.04183292){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_y'$\end{tabular}}}}%
-    \put(0.29372113,0.14306848){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_x'$\end{tabular}}}}%
+    \put(0.70162206,0.03444207){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_y'$\end{tabular}}}}%
+    \put(0.29741656,0.14676391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_x'$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{09_AMindikatrisa.pdf}}%
   \end{picture}%
 \endgroup%
