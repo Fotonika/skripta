@@ -1269,11 +1269,8 @@ Največja povprečna moč, ki jo lahko dobimo iz takega vezja zaradi šuma, je e
 \end{equation}
 pri čemer $\Delta I$ označuje fluktuacije električnega toka skozi upornik.
 
-Velja tudi zveza:
-\begin{equation}
-\overline{W} = \overline{P}\tau_e,
-\end{equation}
-pri čemer je $\tau_e$ odzivni čas vezja in je enak $\tau_e = RC$. Sledi:
+Upoštevamo zvezo $\overline{W} = \overline{P}\tau_e$, pri čemer je 
+$\tau_e$ odzivni čas vezja in je enak $\tau_e = RC$. Sledi:
 \begin{equation}
 \overline{(\Delta I)^2} = \frac{kT}{R^2C}.
 \end{equation}
@@ -1289,26 +1286,31 @@ Podobno lahko zapišemo še za fluktuacije napetosti:
 \overline{(\Delta U)^2}  = 4 kTR \Delta \nu_B.
 }
 Termični šum je odvisen od temperature in upornosti detektorja oziroma
-vezja, prek katerega zaznavamo signal. En način za zmanjšanje termičnega šuma
-je povečanje upornosti detektorja, vendar na ta način zmanjšamo hitrost
+vezja, prek katerega zaznavamo signal. Zmanjšamo ga lahko tako, da 
+povečamo upornost detektorja, vendar na ta način zmanjšamo hitrost
 odziva. Tipične upornosti, ki se uporabljajo pri hitrih detektorjih, so 
-tako $R \sim 50~\si{\ohm}$. Drugi način za zmanjševanje termičnega šuma je
-hlajenje. Na ta način lahko termični šum zelo zmanjšamo, nikoli pa ga ne moremo povsem
+tako $R \sim 50~\si{\ohm}$. Drugi način za zmanjšanje termičnega šuma je
+hlajenje. Na ta način lahko termični šum zelo zmanjšamo, 
+nikoli pa ga ne moremo povsem
 odpraviti.  
 
-\subsection*{Šum temnega toka} 
-Natančna opazovanja pokažejo, da na večini kvantnih detektorjev zaznamo 
-nek majhen izhodni signal tudi v odsotnosti vpadne svetlobe. 
+\subsection*{Šum temnega toka}
 \index{Šum!temnega toka}
-\index{Temni tok}To je tako imenovani temni tok, ki je posledica
-spontanih nastankov para elektron--vrzel ali spontane emisije elektronov. 
-Izraza za temni tok tukaj ne bomo 
-izpeljevali\footnote{~Glej npr. N. W. Ashcroft in N. D. Mermin, {\it Solid State Physics}, Harcourt College
-Publishers (1976).},
-povejmo le, da je sorazmeren s površino diode $S$ in 
-eksponentno odvisen od temperature $T$ in energijske reže polprevodnika $E_g$:
+\index{Temni tok}
+Natančna opazovanja pokažejo, da na večini kvantnih detektorjev
+zaznamo nek majhen izhodni signal tudi v odsotnosti vpadne svetlobe. 
+To je tako imenovani temni tok, ki je posledica
+spontanih nastankov parov elektron--vrzel ali spontane emisije elektronov. 
+Poglejmo primer fotodiode, na katero je priključena napetost v zaporni smeri. 
+Največji temni tok je po enačbi~(\ref{11:fotodioda}) enak $-I_0$. 
+Izraza za $I_0$ ne bomo izpeljevali\footnote{~Glej npr.
+N. W. Ashcroft in N. D. Mermin, {\it Solid State Physics}, Harcourt 
+College Publishers (1976).}, povejmo le, da je 
+sorazmeren s površino diode $S$ ter eksponentno odvisen od temperature
+$T$ in energijske reže polprevodnika $E_g$:
 \begin{equation}
-I_0 = j_0\, S\, e^{-E_g/kT}.
+I_0 = j_0\, S\, e^{-E_g/kT}\!\!.
+\label{11:darkcurr}
 \end{equation}
 Zaradi diskretne narave elektronov se -- podobno
 kot v primeru diskretnih vpadnih fotonov -- tudi tukaj pojavi šum štetja, le da 
@@ -1317,10 +1319,15 @@ Enačbo (\ref{11:sum}) zato zapišemo kot:
 \boxeq{11:dark}{
 \overline{(\Delta I)^2} = 2 I_0\,e_0\, \Delta\nu_B.
 }
-Manjši šum je pri detektorjih, ki imajo manjši temni tok, na primer pri siliciju.\index{Silicij}
-Germanij \index{Germanij} ima na splošno večji temni tok in zato tudi več šuma temnega toka. Pomembno
-vlogo pa ima tudi temperatura, saj v temnem toku nastopa v eksponentu. S hlajenjem lahko 
-šum temnega toka znatno zmanjšamo. 
+Manjši šum je pri detektorjih, ki imajo manjši temni tok, na 
+primer pri siliciju.\index{Silicij} Germanij \index{Germanij} ima 
+na splošno večji temni tok in zato tudi več šuma temnega toka. 
+Temni tok lahko zmanjšamo tako, da zmanjšamo priključeno napetost.
+Pri $U=0$ se namreč izraz v oklepaju enačbe~(\ref{11:fotodioda}) odšteje in
+tok v odsotnosti svetlobe se približa vrednosti $I=0$. Ključno
+vlogo pri zmanjšanju temnega toka ima tudi temperatura, saj v izrazu za
+temni tok (enačba~\ref{11:darkcurr}) nastopa v eksponentu. 
+S hlajenjem lahko šum temnega toka znatno zmanjšamo. 
 
 \subsection*{Šum zaradi sevanja ozadja}
 Kot že ime pove, je ta vrsta šuma posledica sevanja ozadja pri končni temperaturi.
@@ -1332,8 +1339,10 @@ spektralni vrh pomika h krajšim valovnim dolžinam in s tem
 v infrardeči del spektra\index{Infrardeče valovanje} ali celo v vidno svetlobo. 
 
 Sevanje ozadja predstavlja največji problem pri meritvah v
-območju valovnih dolžin okoli $10$--$30~\si{\micro\meter}$, v katerem znatno sevajo še telesa 
-pri sobni temperaturi. Detektorjem za infrardeče valovanje zato pogosto zmanjšamo aperturo 
+območju valovnih dolžin okoli $10$--$30~\si{\micro\meter}$, v katerem 
+znatno sevajo že telesa 
+pri sobni temperaturi. 
+Detektorjem za infrardeče valovanje zato pogosto zmanjšamo aperturo 
 na najmanjšo možno, poleg tega jih izoliramo od okolice in hladimo. 
 
 Sevanje ozadja je neodvisno od vpadnega signala. Ker detektor ne loči fotonov, ki 
@@ -1367,11 +1376,11 @@ Na splošno lahko vse prispevke združimo v skupni šum, pri čemer seštevamo k
 odstopanj:
 \begin{equation}
 \overline{(\Delta I)^2} = \overline{(\Delta I)^2}_{\mathrm{\check{s}tetja}} + 
-\overline{(\Delta I)^2}_{\mathrm{termi\check{c}ni}} + \overline{(\Delta I)^2}_{\mathrm{temni}} + 
+\overline{(\Delta I)^2}_{\mathrm{termi\check{c}ni}} + \overline{(\Delta I)^2}_{\mathrm{temni~tok}} + 
 \overline{(\Delta I)^2}_{\mathrm{ozadja}}.
 \end{equation}
 Če vstavimo izraze za tokove (enačbe~\ref{11:sum}, \ref{11:termicnii}, \ref{11:dark}
-in \ref{11:ozadje}), sledi:
+in \ref{11:ozadje}), dobimo:
 \boxeq{skupensum}{
 \overline{(\Delta I)^2} = \left( 2 \overline{I}\,e_0 + \frac{4 kT}{R} + 2 I_0\,e_0
 + 2 I_o\,e_0 \right) \Delta\nu_B.
@@ -1405,8 +1414,8 @@ da je razmerje signal proti šumu $SNR\sim250$.
 
 Pomemben parameter, ki ga pogosto vpeljemo, je $NEP$ ({\it Noise Equivalent Power} -- 
 moč, ki ustreza šumu).\index{NEP@$NEP$} To je vpadna moč svetlobe, ki je po velikosti primerljiva 
-s šumom in zato predstavlja spodnjo mejo še možne detekcije. To se navadno zgodi 
-pri zelo nizkih močeh vpadne svetlobe, pri katerih je šum štetja zanemarljiv.
+s šumom in zato predstavlja spodnjo mejo še možne detekcije. Spodnjo mejo detekcije
+navadno dosežemo pri zelo nizkih močeh vpadne svetlobe, pri katerih je šum štetja zanemarljiv.
 Pogoj, pri katerem je $SNR=1$, zapišemo kot:
 \begin{equation}
 NEP\, \frac{e_0}{h \nu} \eta \approx \sqrt{\left(\frac{4 kT}{R} + 2 I_0\,e_0 \right) \Delta\nu_B}.
@@ -1427,7 +1436,7 @@ $\Delta\nu_B=150~\si{\mega\hertz}$.
 \begin{remark}
 Zaradi priročnosti je pogosto podan $NEP$ na koren spektralne širine, saj ta ni 
 karakteristična za detektor, ampak je odvisna od časa zajemanja. Podatek, ki 
-ga navedejo proizvajalci detektorjev, je $NEP$ v enotah 
+ga navedejo proizvajalci detektorjev, je tako $NEP$ v enotah 
 $\si{\watt}/\sqrt{\si{\hertz}}$. Tipične vrednosti so 
 $10^{-11}$--$10^{-15}~\si{\watt}/\sqrt{\si{\hertz}}$, pri čemer najmanjše vrednosti
 dosegajo silicijeve fotodiode.\index{Silicij}\footnote{~Glej npr. C. R. Pollock, {\it Fundamentals of Optoelectronics}, Irwin (1995).}
