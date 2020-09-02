@@ -1006,7 +1006,9 @@ e^{i((k_x+nq)x+k_{z}z-(\omega+n\Omega)t)}.
 \label{7.35}
 \end{equation}
 Člene z $A_{n}''$ lahko izpustimo, če je le $k_{z}A_{n}'\gg A_{n}''$ oziroma 
-kadar se $A_{n}$ spreminjajo počasi v primerjavi z $\exp(ik_{z}z)$. Drugi odvod 
+kadar se $A_{n}$ spreminjajo počasi v primerjavi z $\exp(ik_{z}z)$. 
+
+Drugi odvod 
 polarizacije po času da:
 \begin{equation}
 \begin{split}
@@ -1025,11 +1027,14 @@ A_{n}(z)e^{in(qx-\Omega t)}e^{i(k_{x}x+k_{z}z-\omega t)}.
 Vstavimo izraze (\ref{7.35}), (\ref{7.35a}) in (\ref{7.35b}) v valovno enačbo (\ref{7.33a})
 in izenačimo člene z isto časovno in prostorsko odvisnostjo, na primer
 s $k_z z+(k_x+mq)x-(\omega+m\Omega)t$. Sledi:
-\begin{eqnarray}
+\begin{equation}
+\begin{split}
 -\left(k_{z}^{2}+(k_{x}+mq)^{2}\right)A_{m}+2ik_{z}A_{m}' + \frac{\tilde{\varepsilon}}{c^2}(m\Omega+\omega)^2A_m
 =\\ =\frac{\mu_0\varepsilon_0\tilde{\varepsilon}^2pS_0}{2i}(\omega+m\Omega)^{2}(A_{m-1}-A_{m+1}).
-\end{eqnarray}
+\end{split}
+\end{equation}
 Upoštevamo, da je:
+\vglue-8truemm
 \begin{equation} 
 k_{x}^{2}+k_{z}^{2}=k^{2}=\frac{\tilde{\epsilon}\omega^2}{c^{2}},
 \end{equation}
@@ -1040,17 +1045,14 @@ A_{m}'+i\beta_{m}A_{m}+\xi(A_{m+1}-A_{m-1})=0,
 \label{7.37}
 \end{equation}
 pri čemer sta:
+\vglue-8truemm
 \begin{equation}
-\beta_{m}=\frac{mq}{k_{z}}(k_{x}+\frac{1}{2}mq)
+\beta_{m}=\frac{mq}{k_{z}}(k_{x}+\frac{1}{2}mq) \qquad \mathrm{in} \qquad 
+\xi=-\frac{\tilde{\epsilon} pS_0k^2}{4k_z}.
 \label{7.38}
 \end{equation}
-in
-\begin{equation}
-\xi=-\frac{\tilde{\epsilon} pS_0k^2}{4k_z}.
-\label{7.38b}
-\end{equation}
 Reševanje sistema enačb~(\ref{7.37}) je težavno, zato poiščimo rešitve le v treh
-pomembnih limitnih primerih. Amplituda vala, ki vpada z leve, naj bo $A_{0}(0)=A_{0}$, 
+pomembnih limitnih primerih. Amplituda vpadnega vala naj bo $A_{0}(0)=A_{0}$, 
 za ostale naj velja $A_{n}(0)=0$.
 
 \subsection*{Braggov uklon ob šibki pretvorbi}
@@ -1138,7 +1140,7 @@ je izpolnjen Braggov pogoj.}
 \label{s7.10}
 \end{figure}
 
-Vstavimo še parameter $\xi$, ki je podan z enačbo~(\ref{7.38b}).
+Vstavimo še parameter $\xi$, ki je podan z enačbo~(\ref{7.38}).
 Razmerje med intenziteto uklonjenega in vpadnega snopa je tako:
 \boxeq{7.48}{
 \frac{I_{1}}{I_{0}}=\sin^{2}\left(\frac{\pi \tilde{n}^{3}pS_{0}d}{2\lambda\cos\vartheta}\right)\!\!,
@@ -1207,7 +1209,7 @@ preide v:
 2\frac{dA_{m}(\zeta)}{d\zeta}+A_{m+1}(\zeta)-A_{m-1}(\zeta)=\frac{\beta_{m}}{i\xi}A_{m}.
 \label{7.53}
 \end{equation}
-Upoštevamo izraza za $\beta_m$ in $\xi$~(enačbi~\ref{7.38} in \ref{7.38b}). 
+Upoštevamo izraza za $\beta_m$ in $\xi$~(enačbi~\ref{7.38}). 
 Člen na desni lahko izpustimo, če je:
 \begin{equation}
 \frac{\beta_{m}}{\xi}=\left| \frac{4mq}{\tilde{\varepsilon}pS_0k}\left(\sin\vartheta+\frac{mq}{2k}\right)\right| 
@@ -1750,7 +1752,7 @@ v deformirano stanje pravimo  Frederiksov prehod\footnote{~Ruski fizik
 Vsevolod Konstantinovič Frederiks, tudi Fr\'{e}edericksz, 1885--1944.}.\footnote{~V. Frederiks in V. Zolina, Trans. Faraday Soc. $\mathbf{29}$, 919 (1933).}  Na njem
 temelji preklapljanje optičnih prikazovalnikov na nematične tekoče kristale.
 
-Izračunajmo še kritično jakost električnega polja, pri kateri pride do prehoda v deformirano fazo.
+Izračunajmo še kritično jakost električnega polja, pri kateri preide tekoči kristal v deformirano fazo.
 To se zgodi pri:
 \begin{equation}
 \epsilon_{0}\epsilon_{a}E_c^2-K_{1}q^{2} = 0
