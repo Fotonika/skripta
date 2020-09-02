@@ -231,7 +231,7 @@ Sprememba inverznega tenzorja je potem po enačbi~(\ref{eq:Pockels}):
 \delta b_{zz} & = r_{zzx}E_x + r_{zzy}E_y + r_{zzz}E_z = 0.
 \end{align}
 Čeprav je zaradi simetrije večina členov enaka nič, se zaradi zunanjega električnega
-polja v smeri $z$ pojavi izvendiagonalna komponenta $\delta b_{xy}$:
+polja $E_z$ pojavi izvendiagonalna komponenta $\delta b_{xy}$:
 \begin{equation}
 \underline{b} = 
 \left[\begin{array}{ccc}
@@ -382,7 +382,7 @@ vrednosti električnega polja ta kot majhen ($\vartheta~
 \approx~r_{51}E_y/(1/n_o^2-1/n_e^2) \sim~1~\si{mrad}$),
 tako da lahko v približku rečemo, da se lastne osi ohranjajo. 
 
-Če potuje svetloba vzdolž osi $z$, sta torej lomna količnika za 
+Če potuje svetloba vzdolž osi $z$, sta lomna količnika za 
 polarizaciji v smeri $x$ in $y$ približno enaka $n_{x'}$ in $n_{y'}$. Fazna razlika med 
 polarizacijama po preletu kristala z dolžino $L$ je tako:
 \begin{equation}
@@ -503,7 +503,8 @@ poljem spremenimo fazi lastnih valov, zaradi česar postane linearno
 polarizirano vpadno valovanje po prehodu kristala eliptično polarizirano.
 Spremembo polarizacije z analizatorjem prevedemo v spremembo amplitude.
 
-Pogosto je bolje modulirati fazo vpadne svetlobe. Tudi to si oglejmo na primeru longitudinalne
+Pogosto želimo modulirati fazo vpadne svetlobe. Tudi to
+si oglejmo na primeru longitudinalne
  modulacije\index{Elektro-optična modulacija!longitudinalna}. Fazno oziroma 
  frekvenčno modulacijo dosežemo tako,
 da vhodno polarizacijo izberemo vzporedno eni od novih lastnih osi kristala, 
@@ -544,15 +545,20 @@ Krožno frekvenco valovanja izračunamo kot negativni odvod faze po času:
 \omega_0 + \Delta \omega.
 \end{equation}
 Linearno spreminjajoča se modulacijska napetost torej 
-povzroči spremembo frekvence izhodne svetlobe. 
+povzroči spremembo frekvence izhodne svetlobe:
+\begin{equation}
+\Delta \omega = \frac{\omega_0 n_o^3 r_{63}}{2c_0}\frac{\Delta U}{\Delta t}.
+\end{equation}
 Dosegljive spremembe frekvence so seveda dokaj majhne,
 do nekaj $100~\si{MHz}$, saj so omejene s hitrostjo spreminjanja napetosti.
 Napetost seveda tudi ne more neomejeno naraščati. Kadar se napetost
 vrača na nič, pride do frekvenčnega premika v nasprotni smeri, ki  ga
 lahko zanemarimo, če je čas vračanja bistveno krajši od časa naraščanja.
 
-Poglejmo še primer, ko se priključena napetost periodično spreminja kot
-$U=U_{0}\sin(\omega_{m}t)$.
+Poglejmo še primer, ko se priključena napetost periodično spreminja kot:
+\begin{equation}
+U=U_{0}\sin(\omega_{m}t).
+\end{equation}
 Vstavimo izraz v enačbo~(\ref{fmphi}) in zapišemo fazo izhodnega valovanja:
 \begin{equation}
 \phi = \frac{\omega_0}{c_0}L n_o - \frac{\omega_0 n_o^3 r_{63}}{2c_0} U_0\sin(\omega_{m}t)
@@ -606,21 +612,23 @@ B. E. A. Saleh in M. C. Teich,
 {\it Fundamentals of Photonics}, druga izdaja, John Wiley \& Sons, Inc. (2007).}
 \index{Elektro-optični deflektor}
 Najpreprostejši primer deflektorja je trikotna prizma z elektrodama na osnovnih 
-ploskvah (slika~\ref{fig:deflshema}). Svetloba se ob prehodu skozi prizmo lomi v odvisnosti od njenega 
+ploskvah. Svetloba se ob prehodu skozi prizmo lomi v odvisnosti od njenega 
 lomnega količnika, tega pa lahko spreminjamo 
-z napetostjo na elektrodah. Praktično je bolj uporabna dvojna prizma. Sestavljena je iz dveh enakih 
+z napetostjo na elektrodah. Praktično je bolj uporabna dvojna prizma 
+(slika~\ref{fig:deflshema}). Sestavljena je iz dveh enakih 
 prizem, ki skupaj tvorita kvader, pri čemer osi $z$ zgornje in spodnje prizme
 kažeta v nasprotni smeri. S spreminjanjem napetosti, ki jo priključimo prečno na smer
-razširjanja svetlobe, lahko zelo hitro in zelo natančno spreminjamo smer izhodnega žarka. 
+širjenja svetlobe, lahko zelo hitro in zelo natančno spreminjamo smer izhodnega žarka. 
 Vendar ta pristop ni splošno uveljavljen, predvsem zaradi velikih napetosti, ki so 
 potrebne za znatno uklanjanje. Veliko bolj razširjen je akusto-optični pojav, ki ga 
-bomo spoznali v nadaljevanju. 
+bomo spoznali v naslednjem razdelku. 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{95truemm} 
+\def\svgwidth{65truemm} 
 \input{slike/09_EOdefl.pdf_tex}
 \caption{Shema elektro-optičnega deflektorja}
 \label{fig:deflshema}
+\vglue-10truemm
 \end{figure}
 \end{remark}
 \begin{remark}
@@ -649,13 +657,13 @@ kar je za visokonapetosten in hiter izvor že znatna moč.
 \section{Elasto-optični in akusto-optični pojav}
 \index{Elasto-optični pojav}
 \index{Akusto-optični pojav}
-Pri elasto-optičnem pojavu dielektrične lastnosti snovi in njen lomni količnik
+Pri elasto-optičnem pojavu dielektrične lastnosti snovi
 spreminjamo z mehansko deformacijo. Tudi tu opišemo pojav
 s spremembo inverznega dielektričnega tenzorja\index{Dielektričnost!inverzna}:
 \begin{equation}
 \underline{b} = \underline{\tilde{b}}+ \delta\underline{b},
 \end{equation}
-pri čemer sta $\underline{\tilde{b}}$ tenzor v odsotnosti mehanske deformacije in
+pri čemer sta $\underline{\tilde{b}}$ tenzor v odsotnosti deformacije in
 $\delta\underline{b}$ sprememba tenzorja zaradi deformacije snovi. Deformacijo
 snovi v linearnem približku opišemo z Greenovim tenzorjem:
 \begin{equation}
@@ -699,9 +707,15 @@ p_{12} & p_{12}& p_{11}&0&0&0\\
 \end{equation}
 pri čemer je $p_{44}= \frac{1}{2}(p_{11}-p_{12})$. Koeficienti tenzorja so 
 brezdimenzijski, njihova tipična vrednost je $p\sim0,1$. Za vodo 
-velja $p_{11} \simeq p_{12} = 0,31$ in $p_{44} = 0$, za LiNbO$_3$\index{LiNbO$_3$} pa $p_{11} = -0,034$, 
-$p_{12} = 0,072$, $p_{13} = 0,139$, $p_{14} = 0,066$, $p_{31} = 0,178$, $p_{33} = 0,06$,
-$p_{41} = 0,154$ in $p_{44} = 0,3$.\footnote{A. Yariv in 
+velja $p_{11} \simeq p_{12} = 0,31$ in $p_{44} = 0$, za LiNbO$_3$\index{LiNbO$_3$} pa 
+$p_{11} = -0,026$, 
+$p_{12} = 0,090$, 
+$p_{13} = 0,133$, 
+$p_{14} = -0,075$, 
+$p_{31} = 0,179$, 
+$p_{33} = 0,071$,
+$p_{41} = -0,151$ in 
+$p_{44} = 0,146$.\footnote{A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007)}
 
 Iz zveze $\underline{b} = \underline{\varepsilon}^{-1}$ in enačbe~(\ref{7.27}) izrazimo
@@ -710,7 +724,7 @@ spremembo dielektričnega tenzorja:
 \delta\epsilon_{ij}=-\tilde{\epsilon}_{ii}\tilde{\epsilon}_{jj}p_{ijkl}S_{kl},
 \label{7.29}
 \end{equation}
-kjer smo privzeli, da je nemoteni $\tilde{\epsilon}$ diagonalen. Ob mehanski deformaciji
+pri čemer smo privzeli, da je nemoteni $\tilde{\epsilon}$ diagonalen. Ob mehanski deformaciji
 torej v splošnem tudi izotropna snov postane dvolomna.
 Dvojni lom\index{Dvolomnost}, ki se pojavi v deformirani snovi, izkoriščamo za proučevanje
 mehanskih napetosti v snoveh, na primer v prozornih plastičnih modelih. 
@@ -745,42 +759,45 @@ v snovi vzbudimo stoječe valovanje.
 Zaradi zvočnega valovanja se v snovi periodično spreminjata gostota in 
 z njo lomni količnik\index{Lomni količnik} (glej nalogo~\ref{nalogaAO}):
 \begin{equation}
-n = \tilde{n} + \delta n \,\sin \left(2\pi x/\Lambda- \Omega t\right)\!\!.
+n = \tilde{n} + \delta n \,\sin \left(2\pi x/\Lambda- \Omega t\right)\!.
 \end{equation}
 V zgoščini je lomni količnik nekoliko večji kot v razredčini, zato je optična pot na takem mestu
 skozi plast daljša. Ravno svetlobno valovanje, ki vpada na plast pravokotno glede
 na smer širjenja zvoka, po izstopu zato nima povsod enake faze in valovno čelo 
 je periodično modulirano s periodo 
 valovne dolžine zvočnega valovanja. Zvočno valovanje v snovi torej deluje kot 
-optična fazna mrežica (slika~\ref{fig:ao}). Tipična frekvenca, s katero vzbujamo elastično
-deformacijo, je okoli $\Omega/2\pi \sim 50~\si{MHz}$ in ustrezna valovna dolžina okoli 
-$\Lambda \sim 100~\si{\micro\metre}$. Frekvence, ki so v uporabi, navadno sežejo od 
-nekaj $\si{MHz}$ prek $10~\si{GHz}$. Čeprav so vse te frekvence
-daleč nad slišnimi, taka valovanja imenujemo zvočna oziroma akustična. 
+optična fazna mrežica in vpadni žarek se na splošno uklanja (slika~\ref{fig:ao}). 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{60truemm} 
+\def\svgwidth{50truemm} 
 \input{slike/09_AOshema.pdf_tex}
 \caption{Zvočno valovanje v snovi deluje kot optična fazna mrežica in vpadna svetloba 
 se na njem uklanja. Debelina plasti je $d$, valovna dolžina zvočnega valovanja $\Lambda$
 in vpadni kot $\vartheta$.}
 \label{fig:ao}
 \end{figure}
+
+Tipična frekvenca, s katero vzbujamo elastično
+deformacijo, je okoli $\Omega/2\pi \sim 50~\si{MHz}$ in ustrezna valovna dolžina okoli 
+$\Lambda \sim 100~\si{\micro\metre}$. Frekvence, ki so v uporabi, navadno sežejo od 
+nekaj $\si{MHz}$ prek $10~\si{GHz}$. Čeprav so vse te frekvence
+daleč nad slišnimi, taka valovanja imenujemo zvočna oziroma akustična. 
+\index{Uklon}\index{Uklonska 
+mrežica} 
+
 Oglejmo si dva limitna primera. V prvem primeru je debelina plasti, 
-v kateri vzbujamo zvočno valovanje, zelo majhna in 
-$d \ll \Lambda^2/\lambda$ (slika~\ref{fig:ao_bragg}\,a).
-Takrat modulator deluje kot tanka uklonska mrežica \index{Uklon}\index{Uklonska 
-mrežica}in pojavi se veliko 
-uklonskih vrhov, vendar je intenziteta posameznega žarka razmeroma majhna. 
+v kateri vzbujamo zvočno valovanje, zelo majhna 
+($d \ll \Lambda^2/\lambda$) in modulator deluje kot tanka uklonska mrežica.
+Pojavi se veliko 
+uklonskih vrhov, vendar je intenziteta posameznega žarka razmeroma 
+majhna (slika~\ref{fig:ao_bragg}\,a). 
 Kote $\beta$, pod katerimi se pojavijo ojačitve, izračunamo po preprosti enačbi:
 \boxeq{R-N}{
 \Lambda (\sin \vartheta - \sin \beta ) = N \lambda,
 }
 pri čemer so $\vartheta$ vpadni kot, $\lambda$ valovna dolžina svetlobe v snovi, 
 $\Lambda$ valovna dolžina zvočnega valovanja in 
-$N$ celo število. 
-
-Takemu pojavu 
+$N$ celo število. Takemu pojavu 
 pravimo Raman-Nathov uklon\footnote{Indijski fizik in nobelovec Sir Chandrasekhara 
 Venkata Raman, 1888--1970, 
 in indijski fizik N. S. Nagendra Nath.}\index{Raman-Nathov uklon}. 
@@ -796,9 +813,9 @@ pojavi veliko uklonskih vrhov (a). Na debeli plasti je opazen zgolj en uklonjen 
 še ta le ob izpolnjenem Braggovem pogoju (b).}
 \label{fig:ao_bragg}
 \end{figure}
-V nasprotnem limitnem primeru modulator deluje 
-kot debela uklonska mrežica. 
 
+V nasprotnem limitnem primeru modulator deluje 
+kot debela uklonska mrežica (slika~\ref{fig:ao_bragg}\,b). 
 Na splošno je delež uklonjene svetlobe na taki mrežici neuporabno majhen. 
 Znaten postane le tedaj, kadar je izpolnjen Braggov\index{Braggov uklon}
 pogoj\footnote{Angleška znanstvenika in nobelovca, oče in sin, Sir William Henry Bragg, 1862--1942,
@@ -806,11 +823,11 @@ in Sir William Lawrence Bragg, 1890--1971.}:
 \boxeq{7.29a}{
 2 \Lambda\sin\vartheta= N\lambda
 }
-in je vpadni kot enak uklonjenemu (slika~\ref{fig:ao_bragg}\,b).
+in je vpadni kot enak uklonjenemu.
 Ker je valovna dolžina svetlobe precej manjša od valovne dolžine zvočnega valovanja, je $\vartheta$
 praviloma zelo majhen: $\vartheta \sim 10^{-2}$. 
 
-Poglejmo natančneje, kako pridemo do enačbe~\ref{7.29a}. Pogoj
+Poglejmo natančneje, kako pridemo do Braggovega pogoja (enačba~\ref{7.29a}). Pogoj
 za ohranitev gibalne količine fotona pri sipanju na zvočnem valu je:
 \begin{equation}
 \mathbf{k}_{0}\pm\mathbf{q}=\mathbf{k}_{1},
@@ -928,8 +945,8 @@ Fourierevo transformiranko svetlobnega snopa pred lečo.
 \section{*Račun akusto-optičnega pojava}
 \index{Akusto-optični pojav}
 Izračunajmo gostoto energijskega toka svetlobe, ki se uklanja na zvočnem valovanju. Izhajamo 
-iz valovne enačbe v nehomogenem sredstvu, kar je dokaj težaven problem
-in se moramo zateči k približkom. Uporabili bomo metodo sklopljenih 
+iz valovne enačbe v nehomogenem sredstvu, kar je dokaj težaven problem, zato 
+se moramo zateči k približkom. Uporabili bomo metodo sklopljenih 
 valov.\index{Metoda sklopljenih valov}\footnote{Glej npr. A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007).}
 
@@ -938,7 +955,7 @@ potuje v smeri $x$.
 Nanj pod kotom $\vartheta$ glede na os $z$ (normalo na kristal) 
 vpada ravno svetlobno valovanje z valovnim vektorjem 
 $\mathbf{k}=(k_{x},0,k_{z})= k(\sin\vartheta,0,\cos\vartheta)$.
-Vse valovanje, vpadno na levi od zvočnega snopa in izhodno na njegovi desni,
+Vsa valovanja (vpadno na levi od zvočnega snopa in izhodna valovanja na njegovi desni)
 obravnavajmo znotraj snovi, da ni treba upoštevati še loma, ki
 le zaplete izraze. 
 
@@ -1027,7 +1044,7 @@ pri čemer sta:
 \beta_{m}=\frac{mq}{k_{z}}(k_{x}+\frac{1}{2}mq)
 \label{7.38}
 \end{equation}
-in:
+in
 \begin{equation}
 \xi=-\frac{\tilde{\epsilon} pS_0k^2}{4k_z}.
 \label{7.38b}
