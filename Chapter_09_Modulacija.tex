@@ -977,7 +977,7 @@ $\delta P$\index{Električna polarizacija}:
 \tilde{\varepsilon}^2 p S_0 \sin(qx-\Omega t)E.
 \end{equation}
 Dodatna polarizacija v valovno enačbo (enačba~\ref{eq:valovna-skalarna}) 
-doprinese nehomogen člen. Zapišemo\index{Valovna enačba}:
+doprinese nehomogen člen. Dobimo\index{Valovna enačba}:
 \begin{equation}
 \nabla^{2}E-\frac{\tilde{\epsilon}}{c^{2}}{\frac{\partial E^{2}}
 {\partial t^{2}}}=\mu_{0}{\frac{\partial^2 \delta P}{\partial t^{2}}},
@@ -1013,7 +1013,7 @@ polarizacije po času da:
 \begin{equation}
 \begin{split}
 \frac{\partial^2 \delta P}{\partial t^2} =&-\frac{\varepsilon_0 \tilde{\varepsilon}^2pS_0}{2i} 
-\sum_{n} A_n(z) \exp\left(i((k_x+nq)x+k_{z}z-(\omega+n\Omega)t)\right) \cdot \\ &\left(
+\sum_{n} A_n(z) \exp\left(i((k_x+nq)x+k_{z}z-(\omega+n\Omega)t)\right) \times \\ &\left(
 -(n\Omega+\omega+\Omega)^2e^{i(qx-\Omega t)} + (n\Omega+\omega-\Omega)^2e^{i(-qx+\Omega t)} \right)\!\!.
 \label{7.35a}
 \end{split}
@@ -1070,18 +1070,19 @@ A_{m}(z)=\xi e^{-i\beta_{m}z}\int_{0}^{z}A_{m-1}(z')
 e^{i\beta_{m}z'}dz'.
 \label{7.41}
 \end{equation}
-Podobne izraze izpeljemo za negativne $m$.
+Podobne izraze izpeljemo tudi za negativne $m$.
 
 Poglejmo posebej prvi uklonjeni val z amplitudo $A_{1}$. Po predpostavki,
 da je $A_{\pm1}\ll A_{0}$, se le malo energije uklanja iz osnovnega
 vala in lahko privzamemo, da je $A_{0}(z)$ skoraj konstanta. 
 Potem lahko integral v enačbi~(\ref{7.41})
-izračunamo:
+izračunamo in dobimo:
 \begin{equation}
-A_{1}(d)=A_{0}\xi d\,\frac{\sin\beta_{1}d/2}{\beta_{1}d/2}\, e^{-i\beta_{1}d/2}\;,
+A_{1}(d)=A_{0}\xi d\,\frac{\sin\beta_{1}d/2}{\beta_{1}d/2}\, e^{-i\beta_{1}d/2},
 \label{7.41a}
 \end{equation}
-pri čemer je $d$ debelina plasti zvočnega valovanja.
+pri čemer je $d$ debelina plasti zvočnega valovanja, parametra $\xi$ in $\beta_1$ pa 
+sta določena z enačbama~(\ref{7.38}).
 Funkcija $A_{1}(d)$ ima vrh pri $\beta_{1}=0$, to je po enačbi~(\ref{7.38}) pri:
 \begin{equation}
 k_x+ \frac{q}{2} = k \sin\vartheta + \frac{q}{2} = 0
@@ -1094,7 +1095,7 @@ vala.\index{Braggov uklon}
 Delež moči uklonjenega vala je:
 \boxeq{7.45}{
 \frac{I_{1}}{I_{0}}=\left|\frac{A_{1}}{A_{0}}\right|^{2}=(\xi d)^{2}
-\left(\frac{\sin\beta_{1}d/2}{\beta_{1}d/2}\right)^{2}.
+\left(\frac{\sin\beta_{1}d/2}{\beta_{1}d/2}\right)^{2}\!\!.
 }
 Če je Braggov pogoj izpolnjen, je $I_{1}/I_{0}=(\xi d)^{2}$ in naraščanje parabolično. To seveda
 lahko velja le, dokler je $\xi d\ll1$. Kadar intenziteta uklonjenega žarka
@@ -1128,7 +1129,7 @@ A_{1}(d) = A_{0}\sin (\xi d).
 Če je izpolnjen Braggov pogoj, se moč vpadnega vala na razdalji $\pi/(2\xi)$
 skoraj vsa pretoči v uklonjeni snop in z naraščajočo debelino ponovno vsa v
 prepuščeni val (slika \ref{s7.10}).
-Za čim učinkovitejše delovanje akusto-optičnega modulatorja seveda
+Za učinkovito delovanje akusto-optičnega modulatorja seveda
 želimo doseči take pogoje.
 \begin{figure}[ht]
 \centering
@@ -1152,7 +1153,7 @@ $u = u_0 \cos(qx - \Omega t)$ je deformacija enaka:
 S_{xx} = \frac{1}{2}\left(\frac{\partial u}{\partial x}+ 
 \frac{\partial u}{\partial x}\right) = \frac{\partial u}{\partial x} = - u_0 q\, \sin(qx - \Omega t).
 \end{equation}
-Povprečna gostota energijskega toka zvočnega valovanja je\footnote{~Glej 
+Povprečna gostota energijskega toka zvočnega valovanja v času $T$ je\footnote{~Glej 
 npr. J. Strnad, {\it Fizika 1. del}, druga izdaja, DMFA-založništvo 
 (2016).}\index{Gostota energijskega toka}:
 \begin{equation}
@@ -1213,7 +1214,7 @@ Upoštevamo izraza za $\beta_m$ in $\xi$~(enačbi~\ref{7.38}).
 Člen na desni lahko izpustimo, če je:
 \begin{equation}
 \frac{\beta_{m}}{\xi}=\left| \frac{4mq}{\tilde{\varepsilon}pS_0k}\left(\sin\vartheta+\frac{mq}{2k}\right)\right| 
-\ll 1,
+\ll 1
 \label{7.54}
 \end{equation}
 oziroma če je valovna dolžina zvoka dovolj velika v primerjavi z valovno dolžino svetlobe. Potem 
@@ -1403,26 +1404,17 @@ se polarizacija ne zasuče in analizator svetlobe ne prepusti. Plast med prekri�
 polarizatorjema brez polja torej prepušča svetlobo, s poljem pa ne. Pri tem
 delovanje prikazovalnika ni dosti odvisno niti od debeline plasti, niti
 od valovne dolžine svetlobe. 
-\vglue-2truemm
+
 \begin{figure}[ht]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/09_LCD1.pdf_tex}
 \caption{V zasukani nematični celici polarizacija $P$ sledi smeri zasukanega 
 direktorja in analizator (A) prepušča svetlobo (a). V električnem polju 
 ($\mathbf{E}$) se tekočekristalne molekule zasučejo v smer polja. 
 Polarizacija svetlobe se ohranja in analizator svetlobe ne prepušča (b).}
 \label{LCD1}
-\vglue-3truemm
 \end{figure}
-\begin{figure}[ht]
-\centering
-\includegraphics[width=80truemm]{slike/09_LCD.jpg}
-\caption{Na močno povečani fotografiji računalniškega tekočekristalnega zaslona se 
-jasno vidi, da je vsak piksel sestavljen iz treh delov: rdečega, modrega in zelenega.}
-\label{fig:LCD}
-\end{figure}
-
 \begin{remark}
 Tekočekristalni zasloni, ki jih uporabljamo danes, so precej bolj zapleteni.
 Najpreprostejši so črno-beli prikazovalniki, ki delujejo z odbito svetlobo (npr. 
@@ -1437,6 +1429,13 @@ preklapljanje v ravnini (IPS -- {\it In-Plane Switching}), lahko so molekule
 urejene vertikalno in jih s poljem nagibamo (VA -- {\it Vertical Alignment}), tekočekristalne 
 zaslone lahko z dodatnimi plastmi naredimo tudi občutljive na dotik.
 \end{remark}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=95truemm]{slike/09_LCD.jpg}
+\caption{Na močno povečani fotografiji računalniškega tekočekristalnega zaslona se 
+jasno vidi, da je vsak piksel sestavljen iz treh delov: rdečega, modrega in zelenega.}
+\label{fig:LCD}
+\end{figure}
 
 \section{*Račun prehoda svetlobe skozi zasukan nematik}
 \index{Tekoči kristali!zasukan nematik}
@@ -1446,7 +1445,7 @@ približno sledi zasuku optične osi.\footnote{~Glej npr. P. G. de Gennes in J. 
 Vzemimo vzorec, kakršen je na sliki~\ref{LCD1}\,a, in ga obravnavajmo
 kot lokalno optično enoosno snov. Pri $z=0$ naj bo optična
 os v smeri $x$, ko se premikamo vzdolž osi $z$, naj se optična os suče
-v ravnini $xy$. Kot med optično osjo in osjo $x$ zapišemo:
+v ravnini $xy$. Kot med optično osjo in osjo $x$ naj bo:
 \begin{equation}
 \varphi=qz.
 \label{7.58}
@@ -1467,7 +1466,7 @@ Pokaži, da se dielektrični tenzor v zasukani nematični plasti zapiše kot:\in
 \label{7.59}
 \end{equation}
 pri čemer je $z$ razdalja od plasti, v kateri je direktor
-obrnjen v smeri $x$, in povprečna vrednost $\bar{\varepsilon}$:
+obrnjen v smeri $x$. Vpeljali smo še povprečno vrednost $\bar{\varepsilon}$:
 \begin{equation}
 \bar{\varepsilon}=(\varepsilon_{\parallel}+\varepsilon_{\perp})/2.
 \label{7.60}
@@ -1546,14 +1545,14 @@ in
  Sistem je netrivialno rešljiv, če je determinanta koeficientov enaka
 nič:
 \begin{equation}
-\left(k^{2}+q^{2}-\beta^{2}\right)^{2}-4k^{2}q^{2}-\alpha^{4}=0.
+\left(k^{2}+q^{2}-\beta^{2}\right)^{2}\!\!-4k^{2}q^{2}-\alpha^{4}=0.
 \label{7.66}
 \end{equation}
 Spomnimo se, da sta $\beta$ in $\alpha$ sorazmerna z $\omega$,
 zato dobljena enačba predstavlja disperzijsko relacijo -- zvezo med 
 $\omega$ in $k$ -- za svetlobo v zasukanem sredstvu:
 \begin{equation}
-\left(k^{2}+q^{2}-\frac{\bar{\epsilon}\omega^{2}}{c^{2}}\right)^{2}-
+\left(k^{2}+q^{2}-\frac{\bar{\epsilon}\omega^{2}}{c^{2}}\right)^{2}\!\!-
 4k^{2}q^{2}- \frac{\epsilon_{a}^2\omega^{4}}{4c^{4}}
 =0.
 \label{7.66a}
@@ -1587,7 +1586,7 @@ E_{y} = \frac{1}{2i}(E_{+}-E_{-})  =  \frac{1}{2i}Ae^{ikz}(e^{iqz}-e^{-iqz})  = 
 Zasuk polarizacije torej sledi zasuku optične osi. Druga rešitev ($A=-B$) da val,
 ki je polariziran pravokotno na lokalno optično os in se prav tako
 suče z njo. Pri tem se prvi val širi kot izredni val s fazno hitrostjo $c/n_{e}$ in  
-drugi kot redni val s $c/n_{o}$. Če na zasukano
+drugi kot redni val s hitrostjo $c/n_{o}$. Če na zasukano
 nematično celico vpada svetloba, ki je polarizirana ali vzporedno z 
 optično osjo ob meji ali pravokotno nanjo, izstopa iz celice svetloba, katere 
 polarizacija je zasukana za enak kot, kot je zasukana optična os. 
@@ -1619,8 +1618,8 @@ je povsem analogen Braggovemu odboju na kristalih.\index{Tekoči kristali!holest
 \def\svgwidth{80truemm} 
 \input{slike/09_gap.pdf_tex}
 \caption{Rešitve disperzijske zveze (enačba~\ref{7.66}) v zasukanem nematiku
-ali holesteriku pri danem $\alpha$. Razen v frekvenčni reži (modra pasova) obstajajo štiri 
-rešitve pri vsaki frekvenci.}
+ali holesteriku pri izbranem $\alpha$. Razen v frekvenčni reži (modra pasova) obstajajo
+pri vsaki frekvenci štiri rešitve za $k$.}
 \label{gap}
 \end{figure}
 \end{remark}
@@ -1634,8 +1633,8 @@ obrnemo v smeri polja. Izračunajmo jakost polja, ki je potrebna za ta zasuk.
 Energija nematičnega tekočega kristala je najnižja, kadar je direktor $\mathbf{n}$
 povsod obrnjen v isto smer. Povečanje energije zaradi krajevne odvisnosti $\mathbf{n}$
 zapišemo z orientacijsko elastično energijo oziroma Frankovo prosto 
-energijo\footnote{~Angleški fizik Sir Frederick Charles Frank, 1911--1998.}
-\index{Frankova prosta energija}:
+energijo\footnote{~Angleški fizik Sir Frederick Charles Frank, 
+1911--1998.}\index{Frankova prosta energija}:
 \boxeq{7.70}{
 F_{e}=\frac{1}{2}\int\left\{ K_{1}(\nabla\cdot\mathbf{n})^{2}+K_{2}
 \left(\mathbf{n}\cdot(\nabla\times\mathbf{n})\right)^{2}+K_{3}
@@ -1665,7 +1664,7 @@ F_{el} = -\int \frac{1}{2} \mathbf{D}\cdot\mathbf{E}\, dV= -\frac{1}{2} \int
 \varepsilon_{0}\varepsilon_{a}(\mathbf{E}\cdot\mathbf{n})^{2}\right)dV = F_0 + F_{el,a}.
 \end{equation}
 Pri tem $F_{0}$ predstavlja del proste energije, ki je neodvisen od $\mathbf{n}$ in 
-zato ni pomemben pri izračunu preklopa. Prosta energija
+ni pomemben pri izračunu preklopa. Prosta energija
 nematičnega tekočega kristala v električnem polju je tako:
 \begin{equation}
 F=F_e + F_{el} = F_0 + F_e + F_{el,a} = F_{0}+F_{e}-\int \frac{1}{2}\varepsilon_{0}\varepsilon_{a}
@@ -1704,19 +1703,19 @@ n_x = \sqrt{1-a^2\sin^2(qz)} \approx 1 - \frac{a^2}{2}\sin^2(qz).
 \end{equation}
 Vzdolž smeri $x$ in $y$ se direktor ne spreminja, zato velja:
 \begin{equation}
-\nabla\times\mathbf{n}=\left(0,\frac{dn_{x}}{dz},0\right)
+\nabla\times\mathbf{n}=\left(0,\,\frac{dn_{x}}{dz},\,0\right)
 \label{7.75}
 \end{equation}
  in 
 \begin{equation}
-\mathbf{n}\times(\nabla\times\mathbf{n})=\left(-n_{z}\frac{dn_{x}}{dz},0,
+\mathbf{n}\times(\nabla\times\mathbf{n})=\left(-n_{z}\frac{dn_{x}}{dz},\,0,\,
 n_{x}\frac{dn_{x}}{dz}\right)\!\!.
 \label{7.76}
 \end{equation}
 Prosta energija na enoto površine je tako do konstante:
 \begin{align}
-F_S & =  \frac{1}{2}\int\left(K_{1}\left(\frac{dn_{z}}{dz}\right)^{2}+K_{3}(n_x^2+n_{z}^{2})
-\left(\frac{dn_{x}}{dz}\right)^{2}-
+F_S & =  \frac{1}{2}\int\left(K_{1}\left(\frac{dn_{z}}{dz}\right)^{2}+
+K_{3}\left(n_x^2+n_{z}^{2}\right) \left(\frac{dn_{x}}{dz}\right)^{2}-
 \epsilon_{0}\epsilon_{a}(n_{z}E)^{2}\right)dz=\nonumber \\
  & =  \frac{1}{2}\int_{0}^{d}
  \left(K_{1}q^{2}a^{2}\cos^{2}(qz)+K_{3}q^{2}a^{4}\sin^{2}(qz)\cos^2(qz)-
@@ -1746,7 +1745,7 @@ a^{2}=2\frac{\epsilon_{0}\epsilon_{a}E^2-K_{1}q^{2}}{K_{3}q^{2}}.
 je fizikalno smiselna le prva rešitev, ki predstavlja vzorec brez deformacije. Pri 
 velikih poljih postane stabilna druga rešitev. Takrat deformacija
 v sredini plasti hitro naraste, tako da se $\mathbf{n}$ postavi skoraj
-popolnoma v smer zunanjega polja.Tedaj naša rešitev seveda ni dobra,
+popolnoma v smer zunanjega polja. Tedaj naša rešitev seveda ni dobra,
 saj smo pri računu privzeli, da je $n_{z}\ll1$. Prehodu iz nedeformiranega
 v deformirano stanje pravimo  Frederiksov prehod\footnote{~Ruski fizik
 Vsevolod Konstantinovič Frederiks, tudi Fr\'{e}edericksz, 1885--1944.}.\footnote{~V. Frederiks in V. Zolina, Trans. Faraday Soc. $\mathbf{29}$, 919 (1933).}  Na njem
@@ -1764,8 +1763,7 @@ E_c = \frac{\pi}{d}\sqrt{\frac{K_1}{\varepsilon_0\varepsilon_a}}.
 V tipičnem tekočekristalnem prikazovalniku je napetost, potrebna za prehod, $U = E_cd \sim 3~\si{\volt}$. 
 \index{Tekočekristalni prikazovalnik}
 
-Poglejmo še, kako narašča amplituda deformacije v bližini prehoda. Iz enačbe~(\ref{7.79})
-sledi:
+Poglejmo še, kako narašča amplituda deformacije v bližini Frederiksovega prehoda. Iz enačbe~(\ref{7.79}) sledi:
 \begin{equation}
 a = \sqrt{\frac{2 \varepsilon_0 \varepsilon_a}{K_3 q^2 }(E^2-E_c^2)}.
 \end{equation}
