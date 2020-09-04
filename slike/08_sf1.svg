@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="2255.9556"
-   height="880.29431"
-   viewBox="0 0 2255.9556 880.29429"
+   width="2255.9558"
+   height="914.29437"
+   viewBox="0 0 2255.9558 914.29435"
    id="svg3378"
    version="1.1"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -151,8 +151,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.32971668"
-     inkscape:cx="1400.7326"
-     inkscape:cy="587.78432"
+     inkscape:cx="1406.7984"
+     inkscape:cy="587.78434"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -162,8 +162,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1748"
      inkscape:window-height="929"
-     inkscape:window-x="200"
-     inkscape:window-y="381"
+     inkscape:window-x="170"
+     inkscape:window-y="69"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -183,7 +183,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(751.00482,-279.83832)">
+     transform="translate(751.00482,-245.83827)">
     <g
        id="g85"
        transform="matrix(1,0,0,0.81702909,0,51.202272)"
@@ -377,26 +377,26 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8467598px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
-       x="-461.18787"
-       y="666.94684"
+       x="-448.53326"
+       y="658.09625"
        id="text4117"
        transform="scale(1.1063212,0.90389662)"><tspan
          sodipodi:role="line"
          id="tspan4119"
-         x="-461.18787"
-         y="666.94684"
+         x="-448.53326"
+         y="658.09625"
          style="font-size:32.54027939px;line-height:1.25;stroke-width:1">$j(r, z)$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8467598px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
        x="1308.8739"
-       y="772.66608"
+       y="759.3902"
        id="text4121"
        transform="scale(1.1063212,0.90389662)"><tspan
          sodipodi:role="line"
          id="tspan4123"
          x="1308.8739"
-         y="772.66608"
+         y="759.3902"
          style="font-size:32.54027939px;line-height:1.25;stroke-width:1">$z$</tspan></text>
     <text
        xml:space="preserve"
@@ -413,14 +413,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8467598px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
-       x="251.37169"
-       y="312.52063"
+       x="249.56389"
+       y="297.0321"
        id="text4167"
        transform="scale(1.1063212,0.90389662)"><tspan
          sodipodi:role="line"
          id="tspan4169"
-         x="251.37169"
-         y="312.52063"
+         x="249.56389"
+         y="297.0321"
          style="font-size:32.54027939px;line-height:1.25;stroke-width:1">$n = n(j) = n(r)$</tspan></text>
   </g>
 </svg>

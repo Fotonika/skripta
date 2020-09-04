@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3060.3774"
-   height="732.04761"
+   width="3055.0173"
+   height="866.46338"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -18,7 +18,7 @@
    inkscape:export-filename="/home/mojca/Delo/FotonikaSkripta/MojcaNova/slike/08_nl2.png"
    inkscape:export-xdpi="599"
    inkscape:export-ydpi="599"
-   viewBox="0 0 2869.1038 686.29462">
+   viewBox="0 0 2864.0787 812.3094">
   <defs
      id="defs4">
     <marker
@@ -73,16 +73,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.36138248"
-     inkscape:cx="2599.3383"
-     inkscape:cy="259.46087"
+     inkscape:zoom="2.9303405"
+     inkscape:cx="705.71489"
+     inkscape:cy="356.5973"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1687"
      inkscape:window-height="823"
-     inkscape:window-x="609"
-     inkscape:window-y="251"
+     inkscape:window-x="231"
+     inkscape:window-y="175"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -104,7 +104,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(264.51394,-157.91018)">
+     transform="translate(264.51394,-90.049253)">
     <path
        style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.92743826;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 296.0845,314.46151 -97.236532,474.2693 232.2731,555.91223 577.88195,395.13422 Z"
@@ -160,23 +160,23 @@
     </g>
     <g
        id="g4412-4"
-       style="fill:#ff6600"
-       transform="translate(16.750331,-452.18382)">
+       style="fill:#ff6600;stroke-width:1.87499996;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;stroke-opacity:1"
+       transform="translate(29.875331,-450.30882)">
       <path
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.87499996;marker:none;enable-background:accumulate;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 588.125,610.6875 276.875,756.59375 279,761.125 590.25,615.21875 Z"
          id="path3964-6"
          inkscape:connector-curvature="0" />
       <path
          d="m 560.37745,613.09229 34.79457,-2.99829 -24.56303,24.82558 c 1.72108,-8.66596 -2.4386,-17.46886 -10.23154,-21.82729 z"
-         style="fill:#ff6600;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         style="fill:#ff6600;fill-rule:evenodd;stroke-width:1.87499996;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;stroke-opacity:1"
          id="path4418-0"
          inkscape:connector-curvature="0" />
     </g>
     <g
        id="g4412-7-6"
        style="fill:#aa0000"
-       transform="translate(110.50633,-428.81134)">
+       transform="translate(119.88133,-425.06134)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#aa0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
          d="M 588.125,610.6875 276.875,756.59375 279,761.125 590.25,615.21875 Z"
@@ -191,7 +191,7 @@
     <g
        id="g4412-7-6-6"
        style="fill:#2c2ca0"
-       transform="translate(208.24588,-397.69781)">
+       transform="translate(219.49588,-393.94781)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2c2ca0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
          d="M 588.125,610.6875 276.875,756.59375 279,761.125 590.25,615.21875 Z"
@@ -206,7 +206,7 @@
     <g
        id="g4412-7-6-6-0"
        style="fill:#550000"
-       transform="translate(301.79088,-344.95259)">
+       transform="translate(305.54088,-344.95259)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#550000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
          d="M 588.125,610.6875 276.875,756.59375 279,761.125 590.25,615.21875 Z"
@@ -231,7 +231,7 @@
     <g
        id="g4412-7-6-6-6-7"
        style="fill:#4400aa"
-       transform="translate(299.35442,-264.75293)">
+       transform="translate(304.97942,-264.75293)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#4400aa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;enable-background:accumulate"
          d="M 588.125,610.6875 276.875,756.59375 279,761.125 590.25,615.21875 Z"

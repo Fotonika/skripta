@@ -39,10 +39,10 @@
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:zoom="0.63608041"
-   inkscape:cx="486.41373"
+   inkscape:cx="489.55799"
    inkscape:cy="332.55495"
-   inkscape:window-x="764"
-   inkscape:window-y="167"
+   inkscape:window-x="667"
+   inkscape:window-y="54"
    inkscape:window-maximized="0"
    inkscape:current-layer="svg2" /><path
    style="fill:none;stroke:#000000;stroke-width:2.67729998;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
@@ -228,17 +228,19 @@
      y="443.10089"
      style="font-size:16.00006485px;line-height:1.25"> </tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-   x="345.70999"
-   y="463.70224"
+   x="648.71002"
+   y="454.70224"
    id="text3542"><tspan
      sodipodi:role="line"
      id="tspan3544"
-     x="345.70999"
-     y="463.70224"
+     x="648.71002"
+     y="454.70224"
      style="font-size:16.00006485px;line-height:1.25">$\kappa L$</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -252,6 +254,7 @@
      y="450.53781"
      style="font-size:16.00006485px;line-height:1.25">$0$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -263,6 +266,7 @@
      x="257.75851"
      y="450.53781"
      style="font-size:16.00006485px;line-height:1.25">$1$</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -276,17 +280,8 @@
      y="450.53781"
      style="font-size:16.00006485px;line-height:1.25">$2$</tspan></text>
 
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-   x="656.84167"
-   y="450.53781"
-   id="text3542-3-7-3-6"><tspan
-     sodipodi:role="line"
-     id="tspan3544-6-5-5-2"
-     x="656.84167"
-     y="450.53781"
-     style="font-size:16.00006485px;line-height:1.25">$3$</tspan></text>
+
+
 
 <text
    xml:space="preserve"
@@ -300,6 +295,7 @@
      y="426.19406"
      style="font-size:16.00006485px;line-height:1.25">$0$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -311,6 +307,7 @@
      x="40.489082"
      y="12.32005"
      style="font-size:16.00006485px;line-height:1.25">$1$</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -324,6 +321,7 @@
      y="346.11234"
      style="font-size:16.00006485px;line-height:1.25">$0,2$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -335,6 +333,7 @@
      x="13.588974"
      y="259.48444"
      style="font-size:16.00006485px;line-height:1.25">$0,4$</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -348,6 +347,7 @@
      y="178.69403"
      style="font-size:16.00006485px;line-height:1.25">$0,6$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -360,6 +360,7 @@
      y="95.068886"
      style="font-size:16.00006485px;line-height:1.25">$0,8$</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -371,5 +372,6 @@
      x="-50.409946"
      y="45.706818"
      style="font-size:16.00006485px;line-height:1.25">$j_{2\omega}/j_\omega$</tspan></text>
+
 
 </svg>
