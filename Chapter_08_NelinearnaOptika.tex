@@ -1,5 +1,4 @@
 %\chapterimage{slike/NLO.jpg} 
-
 \chapter{Nelinearna optika}
 \label{chap:NLO}
 Pri obravnavi svetlobnega valovanja v snovi smo doslej vedno privzeli linearno 
@@ -1615,7 +1614,7 @@ vpade sunek svetlobe, ki je Gaussove oblike v času:
 j(t) = j_0 e^{-2t^2/\tau^2}.
 \label{08_pulz}
 \end{equation}
-Faza takega sunka je:
+Faza takega sunka je ob upoštevanju enačbe~(\ref{eq:nnl}) enaka:
 \begin{equation}
 \phi (t) = k_0 n z - \omega_0 t = k_0 (\tilde{n} + n_2 j)z - \omega_0 t = 
 \phi_0 + k_0 n_2 z j - \omega_0 t,
@@ -1702,13 +1701,13 @@ $\Omega =\omega - \omega_0$ in valovna enačba~(\ref{eq:soleq1}) se prepiše v:
 \end{equation}
 Da lahko rešimo to enačbo, naredimo nekaj približkov. Ker je $\omega \approx \omega_0$, na desni strani
 enačbe nadomestimo frekvenco z osrednjo frekvenco. Poleg tega upoštevamo, da se amplituda 
-glede na valovno dolžino le počasi spreminja, zato drugi odvod zanemarimo in: 
+glede na valovno dolžino le počasi spreminja, zato drugi odvod zanemarimo in zapišemo: 
 \begin{equation}
 2 i k_0 \frac{\partial \tilde{A}}{\partial z} + (k^2-k_0^2) \tilde{A} = - \mu_{0}\omega_0^2 \tilde{B}.
 \end{equation}
 Člen $k^2 - k_0^2$ razstavimo kot razliko kvadratov, ob šibki disperziji pa $k(\omega_0 + \Omega)$
 razvijemo v Taylorjevo vrsto za majhne $\Omega$ 
-okoli osrednje krožne frekvence $\omega_0$ do tretjega člena. Dobimo:
+okoli osrednje krožne frekvence $\omega_0$. Dobimo:
 \begin{equation}
 k^2 - k_0^2 \approx 2k_0 (k-k_0) \approx 2k_0 (k'\Omega + \frac{1}{2}k''\Omega^2),
 \end{equation}
@@ -1841,7 +1840,7 @@ potekata sočasno.
 \end{remark}
 
 Koordinatni sistem izberemo tako, da se signalno valovanje s frekvenco $\omega$ in amplitudo $A_3$
-širi v smeri $z$. Zapišemo ga tako:
+širi v smeri $z$. Zapišemo ga kot:
 \begin{equation}
 E_{3}=\mathfrak{\Re}\left(A_3\left(z\right)\, e^{i\left(kz-\omega t\right)}\right)\!\!,
 \label{8.97}
@@ -1903,7 +1902,7 @@ tega je šibek vpadni signal lahko še dodatno ojačen.
 Poglejmo podrobneje, kako v nelinearnem sredstvu nastane fazno konjugirani
 val. Kot je razvidno iz slike~\ref{08_OPC1}, je celotno polje v nelinearnem
 sredstvu vsota štirih valovanj, dveh močnih črpalnih (oznaki 1 in 2), signalnega 
-(oznaka 3) in novonastalega (oznaka 4)
+(oznaka 3) in novonastalega (oznaka 4):
 \begin{equation}
 E=\frac{1}{2}A_{1}e^{i{\bf k}_{1}\cdot{\bf r}-i\omega t}+\frac{1}{2}A_{2}e^{-i{\bf k}_{1}\cdot{\bf r}-
 i\omega t}+\frac{1}{2}A_{3}\left(z\right)e^{ikz-i\omega t}+\frac{1}{2}A_{4}
@@ -1935,23 +1934,27 @@ Ker je $E$ zapisan kot vsota osmih členov
 Poleg tega nas ne zanimajo različne kombinacije valovnih vektorjev, ampak k enačbi za $E_{3}$ 
 prispevajo le tisti členi s krajevnim faznim faktorjem $\exp(ikz)$, 
 k enačbi za $E_4$ pa tisti z $\exp(-ikz)$. Sledi:
-\begin{align}
-P_{\mathrm{NL}\,3,4} &= \frac{\varepsilon_0\chi}{8} \big(
+\begin{equation}
+\begin{split}
+P_{\mathrm{NL}\,3,4} = \frac{\varepsilon_0\chi}{8} \big(
 \left(6 A_1 A_2 A_4^*+ 6A_1 A_1^*A_3 + 6A_2A_2^*A_3 + 3 A_3A_3^*A_3 + 6 A_4 A_4^* A_3\right)
-e^{i k z - i\omega t} \nonumber\\
-&+
+e^{i k z - i\omega t} \\
++
 \left(6 A_1 A_2 A_3^*+6 A_1 A_1^*A_4 + 6A_2A_2^*A_4 + 6 A_3A_3^*A_4 + 3 A_4 A_4^* A_4\right)
 e^{-i k z - i\omega t} \big).
-\end{align}
+\end{split}
+\end{equation}
 Če zanemarimo še člene, v katerih nastopata $A_3$ in $A_4$ v višjih potencah, dobimo:
-\begin{align}
+\begin{equation}
+\begin{split}
 P_{\mathrm{NL}\,3,4} = \frac{3\varepsilon_0\chi}{4} \big(
 \left( A_1 A_2 A_4^*+ |A_1|^2 A_3 + |A_2|^2 A_3 \right)
-e^{i k z - i\omega t} \nonumber\\
+e^{i k z - i\omega t} \\
 + 
 \left( A_1 A_2 A_3^*+|A_1|^2 A_4 + |A_2|^2A_4 \right)
 e^{-i k z - i\omega t} \big).
-\end{align}
+\end{split}
+\end{equation}
 Vstavimo izračunani izraz v valovno enačbo~(enačba~\ref{8.100}) in upoštevamo, 
 da se $A_i(z)$ le počasi 
 spreminja (kar pomeni, da zanemarimo drugi odvod po $z$). Za $A_3$ so pomembni 
@@ -1983,7 +1986,10 @@ Ko novi amplitudi vstavimo v diferencialni enačbi~(enačbi~\ref{eq:opc1} in
 in enačbi se prepišeta v:
 \begin{equation}
 \frac{d\tilde{A}_{3}}{dz}=i\frac{ 3 \chi \omega}{4 c_0 n}\,
-A_{1}A_{2}\tilde{A}_{4}^{*} \qquad \textrm{in} \qquad 
+A_{1}A_{2}\tilde{A}_{4}^{*}
+\end{equation}
+in
+\begin{equation}
 \frac{d\tilde{A}_{4}}{dz}=-i\frac{ 3 \chi \omega}{4 c_0 n}\,
 A_{1}A_{2}\tilde{A}_{3}^*.
 \label{8.105}
@@ -1993,26 +1999,31 @@ Vpeljemo še sklopitveno konstanto:
 \kappa=\frac{ 3 \chi \omega}{4 c_0 n}A_1 A_2.
 \label{8.106}
 \end{equation}
-Enačbi se poenostavita v:
+ in enačbi se poenostavita v:
 \begin{equation}
-\frac{d\tilde{A}_{3}}{dz}=i\kappa \tilde{A}_{4}^{*} \quad
-\textrm{oziroma} \quad \frac{d\tilde{A}^*_{3}}{dz}=-i\kappa^* \tilde{A}_{4} 
-\qquad \textrm{in} \qquad
-\frac{d\tilde{A}_{4}}{dz}=-i\kappa \tilde{A}_{3}^*.
+\frac{d\tilde{A}_{3}}{dz}=i\kappa \tilde{A}_{4}^{*} \qquad
+\textrm{oziroma} \qquad \frac{d\tilde{A}^*_{3}}{dz}=-i\kappa^* \tilde{A}_{4} 
 \label{8.107}
+\end{equation}
+in
+\begin{equation}
+\frac{d\tilde{A}_{4}}{dz}=-i\kappa \tilde{A}_{3}^*.
+\label{8.107a}
 \end{equation}
 Zelo težaven problem nelinearne valovne enačbe smo prevedli na linearni
 sistem dveh preprostih sklopljenih enačb za amplitudi signalnega in
-odbitega vala. Rešitvi sistema enačb~(\ref{8.107}):
-sta 
-\begin{align}
-\tilde{A}_3^* \left(z\right) & =  C_{1}\cos(\left|\kappa\right|z)+
+odbitega vala. Rešitvi sistema sta:
+\begin{equation}
+\tilde{A}_3^* \left(z\right) =  C_{1}\cos(\left|\kappa\right|z)+
 C_{2}\sin(\left|\kappa\right|z)
-\label{8.108} \qquad \mathrm{in}\\
-\tilde{A}_4 \left(z\right) & =  D_{1}\cos(\left|\kappa\right|z)+
+\end{equation}
+in
+\begin{equation}
+\tilde{A}_4 \left(z\right) =  D_{1}\cos(\left|\kappa\right|z)+
 D_{2}\sin(\left|\kappa\right|z).
 \label{8.108a}
-\end{align}
+\end{equation}
+
 Z upoštevanjem zveze, ki izhaja  iz prve diferencialne enačbe 
 (enačba~\ref{8.107}), zapišemo:
 \begin{equation}
@@ -2025,24 +2036,28 @@ poznamo $\tilde{A}_{3}^{*}\left(0\right)$, pri $z=L$ pa ne more biti odbitega
 vala in je zato $\tilde{A}_{4}\left(L\right)=0$. S tem določimo konstanti $D_{1}$
 in $D_{2}$:
 \begin{equation}
-D_2 = -\frac{i|\kappa|}{\kappa^*} \tilde{A}_3^*(0) \qquad
-\textrm{in} \qquad 
+D_2 = -\frac{i|\kappa|}{\kappa^*} \tilde{A}_3^*(0)
+\end{equation}
+in
+\begin{equation}
 D_1 = -D_2 \tan(|\kappa|L). 
 \end{equation}
 Zdaj lahko zapišemo amplitudi znotraj nelinearne snovi:
-\begin{align}
-\tilde{A}_{3}\left(z\right) & =  \tilde{A}_3(0)
+\begin{equation}
+\tilde{A}_{3}\left(z\right)  =  \tilde{A}_3(0)
 \frac{\cos\left(|\kappa|(L-z)\right)}{\cos\left(|\kappa|L\right)}
-\qquad \mathrm{in} \qquad
-\tilde{A}_{4}\left(z\right) & =  \tilde{A}_3^*(0)\frac{i \kappa}{|\kappa|}
+\end{equation}
+in
+\begin{equation}
+\tilde{A}_{4}\left(z\right) =  \tilde{A}_3^*(0)\frac{i \kappa}{|\kappa|}
 \frac{\sin\left(|\kappa|(L-z)\right)}{\cos\left(|\kappa|L\right)}.
 \label{8.109}
-\end{align}
+\end{equation}
 Izračunajmo amplitudi odbitega in prepuščenega vala. Amplituda odbitega vala 
 pri $z=0$ je:
 \boxeq{8.110}{
 \tilde{A}_{4}(0)  =  \tilde{A}_3^*(0)\frac{i \kappa}{|\kappa|}
-\tan \left(|\kappa|L\right)\!\!,
+\tan \left(|\kappa|L\right)\!,
 }
 amplituda prepuščenega pri $z = L$ pa:
 \boxeq{8.110a}{
@@ -2091,7 +2106,6 @@ odda energijo molekuli (slika~\ref{08_Raman}\,a),
 in anti-Stokesovo sipanje,
 \index{Ramanovo sipanje!Stokesovo}\index{Ramanovo sipanje!anti-Stokesovo}
 pri katerem foton prejme energijo od vzbujene molekule (slika~\ref{08_Raman}\,b).
-
 V prvem primeru je frekvenca
 sipane svetlobe $\nu_s=\nu_0-\nu_v$, pri čemer $\nu_0$ označuje frekvenco vpadne
 svetlobe in $\nu_v$ vibracijsko frekvenco, v drugem primeru pa $\nu_{as}=\nu_0+\nu_v$.
@@ -2101,31 +2115,33 @@ procesi redki in intenziteta anti-Stokesovega sipanja je zato
 $\nu_0-\nu_s$ znaša okoli $10^{12}$--$10^{13}~\si{\hertz}$.
 Drugi zanimiv primer je, kadar se energija fotonov spremeni zaradi 
 vzbujanja akustičnih valov (fononov). Takrat govorimo o Brillouinovem 
-sipanju\footnote{~Francoski fizik L\'eon Nicolas Brillouin, 1889--1969.} (slika~\ref{08_Raman}\,c).
+sipanju (slika~\ref{08_Raman}\,c).
 Tipični Brillouinov premik je $\sim 10^{10}~\si{\hertz}$. \index{Brillouinovo sipanje}
-\vglue3truemm
-
+\vglue-1truemm
 \begin{figure}[ht]
 \centering
-\def\svgwidth{128truemm} 
+\def\svgwidth{120truemm} 
 \input{slike/08_Raman.pdf_tex}
 \caption{Prehodi med energijskimi nivoji za Ramanovo sipanje in shema Brillouinovega sipanja. Vpadna 
 svetloba ima frekvenco $\nu_0$, sipana pa $\nu_s$ oziroma $\nu_{as}$. Pri Stokesovem sipanju 
 snov energijo prevzame (a), pri anti-Stokesovem sipanju energijo odda (b).
-Pri Brillouinovem sipanju svetloba vzbuja akustične valove s frekvenco $\nu_f$ (c) in se na njih odbije.}
+Pri Brillouinovem sipanju svetloba vzbuja akustične valove s frekvenco $\nu_f$ in se na njih odbije (c).}
 \label{08_Raman}
+\vglue-5truemm
 \end{figure}
 
 \subsection*{Stimulirano Ramanovo sipanje}
 Pri spontanem Ramanovem sipanju se svetloba siplje na termično vzbujenih fluktuacijah
-v snovi. Če se svetloba siplje na fluktuacijah, ki jih je povzročilo vpadno
-svetlobno polje, govorimo o stimuliranem Ramanovem sipanju.\footnote{~G. Eckhardt et al., Phys. Rev. Lett.
-$\mathbf{9}$, 455 (1962).} Dosežemo ga tako, da na snov svetimo z dvema žarkoma hkrati: 
+v snovi. Lahko pa se svetloba siplje na fluktuacijah, ki jih povzroči vpadno
+svetlobno polje.\footnote{~G. Eckhardt et al., Phys. Rev. Lett.
+$\mathbf{9}$, 455 (1962).} To se zgodi, kadar na snov svetimo z dvema žarkoma hkrati: 
 s črpalnim žarkom s frekvenco $\nu_0$ in s Stokesovim žarkom s frekvenco $\nu_s$. 
 Fotoni črpalnega žarka se absorbirajo in molekule vzbudijo v virtualno stanje, nato pa 
 Stokesov žarek stimulira točno določen prehod. Če razlika frekvenc vpadnih 
-žarkov ravno ustreza frekvenci določenega vzbujenega stanja, se  molekule vračajo
-v izbrano vzbujeno stanje in pri tem izsevajo dodatne fotone s frekvenco $\nu_s$. Zaradi
+žarkov ustreza frekvenci določenega vzbujenega stanja, se  molekule vračajo
+v izbrano vzbujeno stanje in pri tem izsevajo dodatne fotone s frekvenco $\nu_s$. 
+
+Zaradi
 stimuliranega sevanja\index{Stimulirano sevanje} je izsevana svetloba po fazi in smeri enaka vpadni in Stokesov
 žarek se ojačuje. Tako resonančno ojačenje svetlobe na račun črpalne svetlobe imenujemo stimulirano  
 Ramanovo sipanje. Moč svetlobe pri $\nu_s$  narašča eksponentno -- do določene meje, seveda.
@@ -2133,7 +2149,6 @@ Stimulirano Ramanovo sipanje je navadno zelo močno, saj se lahko v Stokesov ža
 več kot $\sim 10~\%$ energije črpalnega žarka. Za primerjavo, tipični delež sipane svetlobe v primeru 
 spontanega Ramanovega sipanja je $10^{-6}/\si{\centi\meter}$.\footnote{~Glej npr. 
 G. New, {\it Introduction to Nonlinear Optics}, Cambridge University Press (2011).}
-\newpage
 
 Obravnavajmo stimulirano Ramanovo sipanje v klasičnem približku, v katerem snov opišemo 
 z $N$ neodvisnimi enodimenzionalnimi harmonskimi oscilatorji na enoto prostornine.\footnote{~Glej npr. 
@@ -2147,15 +2162,14 @@ Pri tem so $X$ odmik od ravnovesne lege, $\gamma$ koeficient dušenja, $m$ masa 
 Glavna predpostavka modela je, da polarizirnost molekul ni konstantna, ampak odvisna od 
 ``raztega'' nihajoče molekule oziroma oscilatorja. Polarizirnost $\alpha$, ki jo vpeljemo
 kot kvocient med induciranim dipolnim momentom in jakostjo električnega polja $\mathbf{p} = \alpha \mathbf{E}$,
-razvijemo v Taylorjevo vrsto do prvega člena in zapišemo dielektričnost:
+razvijemo v Taylorjevo vrsto okoli ravnovesne polarizirnosti  $\alpha_0$   in zapišemo dielektričnost:
 \begin{equation}
-\varepsilon = 1+N\alpha/\varepsilon_0 = 1+\frac{N}{\varepsilon_0}\left(\alpha_0 + \frac{d\alpha}{dX}\,X\right)\!\!,
+\varepsilon = 1+N\alpha/\varepsilon_0 = 1+\frac{N}{\varepsilon_0}\left(\alpha_0 + \left(\frac{d\alpha}{dX}\right) _0 X\right)\!\!.
 \label{srs:a}
 \end{equation}
-pri čemer je $\alpha_0$ polarizirnost pri ravnovesnem razmiku.
 Silo na en oscilator izračunamo kot odvod energije po odmiku:
 \begin{equation}
-F = \frac{dW}{dX}= \frac{1}{2}\frac{d\alpha}{dX}\,\overline{E^2}.
+F = \frac{dW}{dX}= \frac{1}{2}\left(\frac{d\alpha}{dX}\right)_0\,\overline{E^2}.
 \label{srs:F}
 \end{equation}
 Jakost električnega polja smo zapisali kot povprečje, saj so optične frekvence 
@@ -2165,38 +2179,40 @@ Celotno električno polje zapišemo kot vsoto črpalnega in Stokesovega polja:
 E(z,t)= \frac{1}{2}\left( E_0(z)e^{-i\omega_0t}+ E_s(z)e^{-i\omega_st} + \mathrm{k.~k.}\right)
 \label{eq:srsE}
 \end{equation}
-in povprečje kvadrata:
+in časovno odvisno povprečje kvadrata:
 \begin{equation}
 \overline{E^2} = \frac{1}{4}\left(2E_0E_s^* e^{-i(\omega_0-\omega_s)t}+\mathrm{k.~k.}\right)\!\!.
 \end{equation}
-Vstavimo zapisano jakost električnega polja najprej v izraz za silo (enačba~\ref{srs:F}),
-nato pa v enačbo oscilatorja (enačba~\ref{srs:X}). Dobimo:
+Vstavimo zapisano jakost električnega polja v izraz za silo (enačba~\ref{srs:F}),
+to pa v enačbo oscilatorja (enačba~\ref{srs:X}). Dobimo:
 \begin{equation}
 \frac{1}{2}\left(\omega_v^2-\omega^2-i\omega\gamma\right)\tilde{X} = 
-\frac{1}{4m}\frac{d\alpha}{dX}E_0 E_s^*,
+\frac{1}{4m}\left(\frac{d\alpha}{dX}\right)_0 E_0 E_s^*,
 \end{equation}
-pri čemer smo vpeljali $\omega = \omega_0-\omega_s$ in $\tilde{X}$, tako da velja:
+pri čemer smo vpeljali $\omega = \omega_0-\omega_s$. 
+
+Za $\tilde{X}$ velja:
 \begin{equation}
-X(z,t) = \frac{1}{2}\left(\tilde{X}e^{-i\omega t}+ \mathrm{k.~k.}\right)\!\!.
+X(z,t) = \left(\tilde{X}e^{-i\omega t}+ \mathrm{k.~k.}\right)/2\!\!.
 \label{eq:srsX}
 \end{equation}
 Oscilatorji torej nihajo s kompleksno amplitudo:
 \begin{equation}
-\tilde{X} = \frac{\frac{d\alpha}{dX}E_0 E_s^*}{2m\left(
+\tilde{X} = \frac{\left(\frac{d\alpha}{dX}\right)_0 E_0 E_s^*}{2m\left(
 \omega_v^2-(\omega_0-\omega_s)^2-i(\omega_0-\omega_s)\gamma\right)}.
 \end{equation}
 Zdaj lahko zapišemo polarizacijo $P = N\alpha E$. Nelinearni del
 polarizacije dobimo z uporabo razvoja v enačbi~(\ref{srs:a}) \index{Električna polarizacija}
 in z upoštevanjem enačb~(\ref{eq:srsE}) in (\ref{eq:srsX}):
 \begin{equation}
-P_{\mathrm{NL}} = \frac{1}{4} N \frac{d\alpha}{dX} \, \left(\tilde{X}
+P_{\mathrm{NL}} = \frac{1}{4} N \left(\frac{d\alpha}{dX}\right)_0 \, \left(\tilde{X}
 e^{-i(\omega_0-\omega_s)t}
 + \mathrm{k.~k.}\right) \cdot \left( E_0(z)e^{-i\omega_0t}+ E_s(z)e^{-i\omega_st} + \mathrm{k.~k.}\right)\!\!.
 \end{equation}
 Omejimo se le na polarizacijo pri krožni frekvenci $\omega_s$ in zapišemo:
 \begin{equation}
 P_{\mathrm{NL},\omega_s} = \varepsilon_0 \chi_s E_s = 
-\frac{N }{8m}\left(\frac{d\alpha}{dX}\right)^2 \, 
+\frac{N }{8m}\left(\frac{d\alpha}{dX}\right)_0^2 \, 
 \frac{|E_0|^2}{\omega_v^2-(\omega_0-\omega_s)^2+i(\omega_0-\omega_s)\gamma}\,E_s.
 \label{srs:chi}
 \end{equation}
@@ -2212,19 +2228,19 @@ Kompleksna susceptibilnost pomeni kompleksni lomni količnik. Če upoštevamo
 le prve člene v razvoju, se vpadna svetloba po snovi širi 
 kot\index{Susceptibilnost!kompleksna}:
 \begin{equation}
-E_s(z) = E_s(0)\exp\left(i k z + ikz\frac{1}{2}\Re(\chi_s)- k z \frac{1}{2}\Im(\chi_s)\right)\!\!,
+E_s(z) = E_s(0)\exp\left(i k z + ikz\frac{1}{2}\Re(\chi_s)- k z \frac{1}{2}\Im(\chi_s)\right)\!\!.
 \label{srs:Es}
 \end{equation}
-pri čemer $\Re$ označuje realni in $\Im$ imaginarni del.
+\vglue-2truemm
 \begin{naloga}
 \label{nalogasrs}
- Izpelji enačbo~(\ref{srs:Es}), tako da iz efektivne susceptibilnosti izračunaš lomni količnik,
+Izpelji enačbo~(\ref{srs:Es}), tako da iz efektivne susceptibilnosti izračunaš lomni količnik,
 in pokaži, da je imaginarni del susceptibilnosti $\Im(\chi_s)$ vedno negativen. 
 \end{naloga}
 Ker je imaginarni del efektivne susceptibilnosti vedno negativen (naloga~\ref{nalogasrs}), 
 jakost e\-lek\-trič\-nega polja eksponentno narašča na račun črpalnega laserskega snopa. 
 Največjo ojačenje je seveda v primeru, ko je sistem v resonanci
-in razlika frekvenc vpadne svetlobe ravno enaka vibracijski frekvenci.
+in razlika frekvenc vpadne svetlobe enaka vibracijski frekvenci.
 Če zanemarimo izgube, lahko zapišemo:
 \begin{equation}
 |E_s(L)|^2 = |E_s(0)|^2 e^{G_RjL}.
@@ -2236,7 +2252,7 @@ P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007).}
 V $1~\si{m}$ dolgem odseku optičnega vlakna je tako pri gostoti svetlobnega toka 
 $10^{10}~\si{\watt/\meter^2}$ faktor ojačenja $1,08$, na vlaknu dolžine $20~\si{\metre}$
 pa $5$.
-
+\vglue-2truemm
 \begin{remark}
 Pojav stimuliranega Ramanovega sipanja se uporablja za izdelavo optičnih 
 ojačevalnikov. Posebej pomemben je ta pojav za ojačenje signala v 
@@ -2246,7 +2262,7 @@ optičnih vlaknih, predvsem zaradi velike intenzitete na velikih dolžinah.
 
 \subsection*{Stimulirano Brillouinovo sipanje}
 \index{Brillouinovo sipanje!stimulirano}
-Stimulirano Brillouinovo sipanje je pojav, pri katerem vpadno svetlobno valovanje
+Stimulirano Brillouinovo sipanje\footnote{~Francoski fizik L\'eon Nicolas Brillouin, 1889--1969.} je pojav, pri katerem vpadno svetlobno valovanje
 vzbudi akustični val (fonon), nato pa se na njem siplje. Poleg vpadne svetlobe pri $\nu_0$
 se tako pojavi še Stokesova svetloba pri frekvenci $\nu_s = \nu_0-\nu_f$, pri čemer 
 $\nu_f$ označuje frekvenco akustičnega vala  (slika~\ref{08_Raman}\,c). Interferenca
@@ -2357,6 +2373,6 @@ valovanja pri dodatnih frekvencah (vsotah in razlikah frekvenc obstoječih valov
 predvsem v vlaknih z zelo majhno disperzijo, v katerih se faze lahko ujemajo.
 \end{enumerate}
 
-Čeprav so nelinerani pojavi v vlaknih pogosto nezaželeni, jih lahko s pridom
+Čeprav so nelinearni pojavi v vlaknih pogosto nezaželeni, jih lahko s pridom
 izkoriščamo pri izdelavi na primer novih vlakenskih laserjev, ojačevalnikov, preklopnikov ali 
 optičnih logičnih vezij. 

@@ -54,8 +54,8 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_OpticniSoliton.pdf}}%
-    \put(0.91531347,0.34065596){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
-    \put(0.91379807,0.13613934){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
+    \put(0.980125,0.27769618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
+    \put(0.9786096,0.07317957){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
     \put(0.43306273,0.57873916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j$\end{tabular}}}}%
     \put(0.30411073,0.25287339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\omega-\omega_0$\end{tabular}}}}%
   \end{picture}%
