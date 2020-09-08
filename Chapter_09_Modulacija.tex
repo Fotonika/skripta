@@ -121,8 +121,8 @@ Zaradi simetrijskih lastnosti lahko tenzor poenostavljeno zapišemo le z dvema
 indeksoma. To naredimo tako, da prva dva indeksa, v katerih je $r_{ijk}$ simetričen, združimo
 v enega z vrednostmi od 1 do 6 po dogovoru:
 \begin{eqnarray}
- &xx=1 \qquad  &yz=zy = 4 \\
- &yy=2 \qquad  &zx=xz = 5 \\
+ &xx=1 \qquad  &yz=zy = 4 \nonumber \\
+ &yy=2 \qquad  &zx=xz = 5 \nonumber \\
  &zz=3 \qquad  &xy=yx = 6.
 \end{eqnarray}
 S tem $r_{ijk}$ postane matrika velikosti $6\times3$, simetrični tenzor drugega 
@@ -579,13 +579,15 @@ pri čemer je:
 \delta = \frac{\omega_0 n_o^3 r_{63}}{2c_0} U_0.
 \end{equation}
 Z uporabo Jacobi-Angerjevih identitet: 
-\begin{align}
-\cos\left(\delta\sin x\right)  &=J_0(\delta)+2J_2(\delta)\cos2x+
-2J_4(\delta)\cos4x + \ldots\nonumber \qquad \mathrm{in}\\
+\begin{equation}
+ \begin{split}
+  \cos\left(\delta\sin x\right)  &=J_0(\delta)+2J_2(\delta)\cos2x+
+2J_4(\delta)\cos4x + \ldots\qquad \mathrm{in} \\
 \sin\left(\delta\sin x\right) &=2J_1(\delta)\sin x+2J_3\sin3x+
 2J_5\sin5x+\ldots
+ \end{split}
 \label{JA}
-\end{align}
+\end{equation}
 je izhodno polje mogoče zapisati v obliki:
 \boxeq{fmJA}{
 \begin{split}

@@ -72,6 +72,6 @@
     \put(0.81774251,0.53064068){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$D_m$\end{tabular}}}}%
     \put(0.81774251,0.42768983){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$D$\end{tabular}}}}%
     \put(1.0127999,-0.01378473){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda~\mathrm{[nm]}$\end{tabular}}}}%
-    \put(-0.14727609,0.61590216){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}ps /nm km\end{tabular}}}}%
+    \put(-0.15704872,0.61590216){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}[ps /nm km]\end{tabular}}}}%
   \end{picture}%
 \endgroup%

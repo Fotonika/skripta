@@ -43,10 +43,10 @@
    id="namedview116"
    showgrid="false"
    inkscape:zoom="0.98173642"
-   inkscape:cx="533.32089"
+   inkscape:cx="318.76269"
    inkscape:cy="268.29789"
-   inkscape:window-x="615"
-   inkscape:window-y="172"
+   inkscape:window-x="536"
+   inkscape:window-y="10"
    inkscape:window-maximized="0"
    inkscape:current-layer="svg2"
    fit-margin-top="0"
@@ -205,11 +205,13 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.65888023px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text50"
    x="99.366211"
    y="452.03851">$1200$</text>
+
 
 
 
@@ -221,11 +223,13 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.65888023px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text54"
    x="297.68625"
    y="452.03851">$1400$</text>
+
 
 
 
@@ -237,11 +241,13 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.65888023px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text58"
    x="496.12622"
    y="452.03851">$1600$</text>
+
 
 
 
@@ -253,11 +259,13 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.65888023px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text100"
    x="-30.183405"
    y="359.71686">$-20$</text>
+
 
 
 
@@ -269,11 +277,13 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.65888023px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text104"
    x="1.3366613"
    y="220.89284">$0$</text>
+
 
 
 
@@ -285,11 +295,13 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.65888023px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text108"
    x="-11.863352"
    y="82.06884">$20$</text>
+
 
 
 
@@ -301,12 +313,14 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.68849564px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text58-3"
    x="591.33496"
    y="452.84229"
    transform="scale(1.0017779,0.99822526)">$1700$</text>
+
 
 
 
@@ -324,6 +338,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -335,6 +350,7 @@
      x="535.53296"
      y="96.014343"
      style="font-size:14.40005779px;line-height:1.25">$D_m$</tspan></text>
+
 
 
 
@@ -352,6 +368,7 @@
 
 
 
+
 <text
    style="font-style:normal;font-weight:normal;font-size:16.68849564px;line-height:0%;fill:#000000;fill-rule:nonzero"
    id="text58-3-3"
@@ -361,17 +378,19 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-   x="-96.450356"
+   x="-102.85037"
    y="40.177246"
    id="text4742-5-6"><tspan
      sodipodi:role="line"
      id="tspan4744-3-7"
-     x="-96.450356"
+     x="-102.85037"
      y="40.177246"
-     style="font-size:14.40005875px;line-height:1.25">ps /nm km</tspan></text>
+     style="font-size:14.40005875px;line-height:1.25">[ps /nm km]</tspan></text>
+
 
 
 
