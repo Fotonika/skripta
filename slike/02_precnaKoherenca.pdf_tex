@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{577.05674744bp}%
+    \setlength{\unitlength}{573.63451379bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,27 +50,27 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.33563315)%
+  \begin{picture}(1,0.33484778)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
+    \put(0.47887004,0.18076417){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.47887004,0.18076417){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{02_precnaKoherenca.pdf}}%
-    \put(0.48320948,0.18107847){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{02_precnaKoherenca.pdf}}%
-    \put(0.45307301,0.00652252){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$z$}\end{tabular}}}}%
-    \put(0.84539481,0.00831921){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$z+a$}\end{tabular}}}}%
-    \put(0.46440819,0.04421036){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
-    \put(0.87165761,0.04100787){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$B$\end{tabular}}}}%
-    \put(0.50127995,0.23871876){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$y$}\end{tabular}}}}%
-    \put(0.53939045,0.16608581){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
-    \put(0.46115158,0.2136363){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\delta s$\end{tabular}}}}%
-    \put(0.0011073,0.00392249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$0$}\end{tabular}}}}%
-    \put(0.01424423,0.09686039){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$R$}\end{tabular}}}}%
-    \put(0.08406027,0.17671953){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\xi$}\end{tabular}}}}%
-    \put(0.05033105,0.23296569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\eta$}\end{tabular}}}}%
-    \put(0.23201266,0.07764558){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$s$}\end{tabular}}}}%
-    \put(0.25325918,0.13208765){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
-    \put(0.48030466,0.18203661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
-    \put(0.63121616,0.1257957){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta$}\end{tabular}}}}%
-    \put(0.50046303,0.11847711){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$d$}\end{tabular}}}}%
+    \put(0.44811356,0.00519742){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$z$}\end{tabular}}}}%
+    \put(0.84277591,0.00700483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$z+a$}\end{tabular}}}}%
+    \put(0.45951636,0.0431101){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+    \put(0.8691954,0.0398885){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$B$\end{tabular}}}}%
+    \put(0.49660809,0.23877892){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$y$}\end{tabular}}}}%
+    \put(0.53494595,0.16571265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$x$}\end{tabular}}}}%
+    \put(0.45624032,0.21354683){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\delta s$\end{tabular}}}}%
+    \put(-0.00654855,0.00258188){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$0$}\end{tabular}}}}%
+    \put(0.00666676,0.09607424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$R$}\end{tabular}}}}%
+    \put(0.07689931,0.17640981){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\xi$}\end{tabular}}}}%
+    \put(0.04296887,0.23299153){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\eta$}\end{tabular}}}}%
+    \put(0.22573438,0.07674479){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$s$}\end{tabular}}}}%
+    \put(0.24710766,0.13151166){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
+    \put(0.47550767,0.18175862){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\varphi$}\end{tabular}}}}%
+    \put(0.62731949,0.12518217){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$\vartheta$}\end{tabular}}}}%
+    \put(0.4957863,0.11781992){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$d$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%
