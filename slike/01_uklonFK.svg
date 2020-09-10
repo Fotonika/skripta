@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg4570"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    width="143.12277mm"
    height="95.265236mm"
    xml:space="preserve"
@@ -33,7 +33,7 @@
      id="namedview4572"
      showgrid="false"
      inkscape:zoom="1.2909955"
-     inkscape:cx="218.2329"
+     inkscape:cx="219.78209"
      inkscape:cy="253.69278"
      inkscape:window-x="608"
      inkscape:window-y="114"
@@ -592,6 +592,7 @@
      sodipodi:role="line"
      style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan></text>
 
+
 <flowRoot
    style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
    id="flowRoot8113"
@@ -630,6 +631,7 @@
      x="295.69528"
      id="tspan3189"
      sodipodi:role="line"> </tspan></text>
+
 
 <path
    sodipodi:nodetypes="cc"
@@ -682,6 +684,7 @@
      id="tspan4643"
      sodipodi:role="line">$T$</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text4641-1"
@@ -694,6 +697,7 @@
      x="360.17456"
      id="tspan4643-5"
      sodipodi:role="line">$P$</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -708,6 +712,7 @@
      id="tspan4759"
      sodipodi:role="line">$\mathbf{n}$</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text4761"
@@ -720,6 +725,7 @@
      x="290.81155"
      id="tspan4763"
      sodipodi:role="line">$\mathbf{r}$</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -734,16 +740,18 @@
      x="112.41106"
      y="-378.99594">$\mathbf{r'}$</tspan></text>
 
+
 <text
    id="text4641-3"
    y="-484.17282"
-   x="408.24997"
+   x="411.24997"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994"
    xml:space="preserve"
    transform="scale(1,-1)"><tspan
      style="font-size:17.60000038px;line-height:1.25;stroke-width:0.99999994"
      y="-484.17282"
-     x="408.24997"
+     x="411.24997"
      id="tspan4643-6"
      sodipodi:role="line">$S$</tspan></text>
+
 </g></g></svg>
