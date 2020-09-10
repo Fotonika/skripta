@@ -15,7 +15,7 @@
    viewBox="0 0 634.99998 267.79318"
    id="svg3398"
    version="1.1"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="04_resonatorji.svg">
   <defs
      id="defs3400">
@@ -198,9 +198,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="290.35909"
-     inkscape:cy="154.14046"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="484.24177"
+     inkscape:cy="155.95671"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -222,7 +222,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -352,7 +352,7 @@
        style="fill:none;stroke:#d40000;stroke-width:1.03391718999999993;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        transform="matrix(-1.8016588,0,0,1.1737863,927.85781,53.040495)" />
     <path
-       style="fill:none;stroke:#d40000;stroke-width:1.48210466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#3f3d99;stroke-width:1.48210466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        inkscape:path-effect="#path-effect4215-1"
        inkscape:original-d="m 278.65368,77.663645 c 12.93136,2.262599 28.71546,17.002901 44.46391,16.928807 15.74845,-0.07407 109.52239,11.522548 47.42218,11.772748 -62.10021,0.25022 35.2915,-6.600418 51.04397,-12.785063 15.75247,-6.184645 56.65001,-19.020655 70.95157,-27.631916"
        id="path4213"
@@ -360,7 +360,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="czzzc" />
     <path
-       style="fill:none;stroke:#d40000;stroke-width:1.48210466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#3f3d99;stroke-width:1.48210466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        inkscape:path-effect="#path-effect4215-0-1"
        inkscape:original-d="m 279.05842,160.66941 c 12.93135,-2.2626 28.71546,-17.00291 44.4639,-16.92881 15.74844,0.074 109.52239,-11.52252 47.42218,-11.77273 -62.10021,-0.25022 35.2915,6.60043 51.04398,12.78504 15.75246,6.18465 56.65001,19.02066 70.95156,27.63193"
        id="path4213-6"
@@ -773,67 +773,73 @@
     <g
        id="g3452">
       <text
+         sodipodi:linespacing="125%"
          id="text4514"
          y="65.467735"
          x="53.018768"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:125%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
            y="65.467735"
            x="53.018768"
            id="tspan4516"
            sodipodi:role="line">a)</tspan></text>
       <text
+         sodipodi:linespacing="125%"
          id="text4514-0"
          y="65.467735"
          x="273.85385"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:125%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
            y="65.467735"
            x="273.85385"
            id="tspan4516-7"
            sodipodi:role="line">b)</tspan></text>
       <text
+         sodipodi:linespacing="125%"
          id="text4514-0-8"
          y="65.467735"
          x="540.04517"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:125%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
            y="65.467735"
            x="540.04517"
            id="tspan4516-7-2"
            sodipodi:role="line">c)</tspan></text>
       <text
+         sodipodi:linespacing="125%"
          id="text4514-5"
          y="210.46774"
          x="53.151642"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:125%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
            y="210.46774"
            x="53.151642"
            id="tspan4516-3"
            sodipodi:role="line">d)</tspan></text>
       <text
+         sodipodi:linespacing="125%"
          id="text4514-5-1"
          y="210.46774"
          x="273.81052"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:125%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
            y="210.46774"
            x="273.81052"
            id="tspan4516-3-1"
            sodipodi:role="line">e)</tspan></text>
       <text
+         sodipodi:linespacing="125%"
          id="text4514-0-8-8"
          y="210.46774"
          x="542.91754"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:125%;font-family:msbm10;-inkscape-font-specification:msbm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.0354538px;line-height:1.25;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nimbus Sans L';-inkscape-font-specification:'Nimbus Sans L'"
            y="210.46774"
            x="542.91754"
            id="tspan4516-7-2-3"

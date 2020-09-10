@@ -53,10 +53,10 @@
   \begin{picture}(1,0.24792022)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
+    \put(0.21399488,0.21797002){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$L$}\end{tabular}}}}%
+    \put(0.16460544,-0.00072873){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$k_n=n\pi/L$}\end{tabular}}}}%
+    \put(0.52034258,0.22382734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.00056205,0.22553643){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{04_Odprt_resonator.pdf}}%
-    \put(0.16753854,0.22070274){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$L$}\end{tabular}}}}%
-    \put(0.11814909,0.00746945){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$k_n=n\pi/L$}\end{tabular}}}}%
-    \put(0.47388624,0.22656007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(-0.04589429,0.22826916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
   \end{picture}%
 \endgroup%
