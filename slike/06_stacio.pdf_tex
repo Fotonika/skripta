@@ -55,8 +55,8 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{06_stacio.pdf}}%
     \put(0.27909686,0.21520747){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Lambda W$\end{tabular}}}}%
-    \put(0.42593604,0.00262221){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
-    \put(0.95785748,0.00262221){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
+    \put(0.44034376,0.00262221){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
+    \put(0.97226521,0.00262221){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
     \put(0.81064009,0.21671619){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Lambda W$\end{tabular}}}}%
     \put(0.29410389,0.10563695){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\frac{2 G L^\prime W}{1+W/W_s}$\end{tabular}}}}%
     \put(0.81382422,0.14242437){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\frac{2G L^\prime W}{1+W/W_s}$\end{tabular}}}}%

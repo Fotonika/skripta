@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '06_comb.pdf' (pdf, eps, ps)
 %%
@@ -54,7 +54,7 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0.35518568,-0.73866758){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.49570297\unitlength}\raggedright \end{minipage}}}%
-    \put(0.95906902,0.00122273){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
+    \put(0.98818151,0.00122273){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\nu$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{06_comb.pdf}}%
   \end{picture}%
 \endgroup%

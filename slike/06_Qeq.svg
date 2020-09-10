@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="111.15269mm"
-   height="64.835045mm"
-   viewBox="0 0 393.84811 229.73045"
+   width="104.79683mm"
+   height="65.364212mm"
+   viewBox="0 0 371.32735 231.60544"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="06_Qeq.svg">
   <defs
      id="defs4">
@@ -252,15 +252,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9077806"
-     inkscape:cx="188.59763"
-     inkscape:cy="138.65832"
+     inkscape:cx="198.9835"
+     inkscape:cy="140.65834"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1386"
      inkscape:window-height="947"
-     inkscape:window-x="719"
-     inkscape:window-y="63"
+     inkscape:window-x="540"
+     inkscape:window-y="83"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -283,18 +283,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-32.667178,-69.732966)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="33.433846"
-       y="161.93689"
-       id="text5411"><tspan
-         sodipodi:role="line"
-         id="tspan5413"
-         x="33.433846"
-         y="161.93689"
-         style="font-size:37.5px;line-height:1.25"> </tspan></text>
+     transform="translate(-55.18795,-69.732966)">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5248)"
        d="m 88.05417,285.47393 335.99774,-10e-6"
@@ -408,14 +397,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="398.00378"
-       y="308.73837"
+       x="422.37878"
+       y="299.36337"
        id="text6089-4"><tspan
          sodipodi:role="line"
          id="tspan6091-7"
-         x="398.00378"
-         y="308.73837"
-         style="font-size:16.25px;line-height:1.25">$N_{20}/\tilde{N}_2$</tspan></text>
+         x="422.37878"
+         y="299.36337"
+         style="font-size:10px;line-height:1.25">$N_{20}/\tilde{N}_2$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749809px;line-height:125%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -474,14 +463,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="32.138145"
-       y="98.13871"
+       x="38.679398"
+       y="86.836311"
        id="text6089-4-9"><tspan
          sodipodi:role="line"
          id="tspan6091-7-2"
-         x="32.138145"
-         y="98.13871"
-         style="font-size:16.25px;line-height:1.25;stroke-width:1px">$N_{2k}/\tilde{N}_2$</tspan></text>
+         x="38.679398"
+         y="86.836311"
+         style="font-size:11.25px;line-height:1.25;stroke-width:1px">$N_{2k}/\tilde{N}_2$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.43749809px;line-height:125%;font-family:msbm10;-inkscape-font-specification:'msbm10 Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93749988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
