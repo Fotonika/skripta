@@ -7,37 +7,37 @@ se naučili računati prehode Gaussovih snopov skozi optične elemente.
 
 \section{Omejen snop svetlobe}
 Pri obravnavi elektromagnetnega valovanja pogosto uporabljamo
-približek ravnih valov. Ti so v smeri pravokotno na smer širjenja
-neomejeni in so zato lahko le idealizacija. Čim ravni val usmerimo skozi odprtino
-v zaslonu, nastane omejen snop svetlobe. V snopu valovne fronte (ploskve konstantne faze) 
+približek ravnih valov. Ravni val je v smeri pravokotno na smer širjenja
+neomejen, čim pa ga usmerimo skozi odprtino
+v zaslonu, nastane omejen snop svetlobe. V njem valovne fronte (ploskve konstantne faze) 
 niso ravne in meje snopa niso vzporedne, ampak se snop zaradi uklona širi\index{Uklon} 
 (slika \ref{fig:Uklon-na-rezi}).
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
-\def\svgwidth{120truemm} 
+\def\svgwidth{130truemm} 
 \input{slike/03_uklon_na_rezi.pdf_tex}
 \caption{Omejeni snop svetlobe nastane ob prehodu ravnega vala skozi končno odprtino. 
-Polmer odprtine naj bo $a$, območje bližnjega polja označuje $b$, $2\vartheta$ pa 
+Polmer odprtine naj bo $a$, območje bližnjega polja označuje $b$ in $2\vartheta$ 
 celotni kot širjenja snopa.}
 \label{fig:Uklon-na-rezi}
 \end{figure}
-\vglue-5truemm
+
 V veliki oddaljenosti od zaslona polje izračunamo s
-\index{Fraunhoferjev uklon}Fraunhoferjevo uklonsko teorijo (glej razdelek~\ref{FFuklon}). 
-Vendar za grobo oceno kota širjenja računa niti ne potrebujemo. Velja približno 
+\index{Fraunhoferjev uklon}Fraunhoferjevo uklonsko teorijo, za
+opis polja v bližini zaslona pa je treba uporabiti Fresnelov približek
+\index{Fresnelov uklon} (glej razdelek~\ref{FFuklon}). 
+Vendar lahko nekaj grobih ocen naredimo tudi brez računa. Kot širjenja je približno
 \begin{equation}
 \vartheta\sim\frac{\lambda}{a},
 \label{eq:kot_ocena}
 \end{equation}
-kjer je $a$ polmer odprtine v zaslonu.\index{Območje bližnjega polja}
-Opis polja v bližini zaslona je zahtevnejši, saj je treba uporabiti 
-Fresnelov približek\index{Fresnelov uklon} (enačba~\ref{eq:FresnelApprox}).
-Območje bližnjega polja seže do $b$, ki ga ocenimo s slike~\ref{fig:Uklon-na-rezi}
+pri čemer je $a$ polmer odprtine v zaslonu.\index{Območje bližnjega polja}
+S slike~\ref{fig:Uklon-na-rezi} lahko ocenimo tudi območje bližnjega polja, ki seže do $b$.
+Dobimo
 \begin{equation}
 \frac{a}{b}\sim \vartheta \qquad \mathrm{in~tako} \qquad b\sim\frac{a^2}{\lambda}.
 \label{eq:z_ocena}
 \end{equation}
-
 Bolj kvantitativen opis omejenih
 snopov bi dobili s Fraunhoferjevo in Fresnelovo uklonsko teorijo,
 kar ni najudobnejša pot (glej nalogo~\ref{ffuklon}). Lotimo se problema raje z 
@@ -46,30 +46,31 @@ uporabo obosnega približka valovne enačbe.
 \begin{definition}
 \label{ffuklon}
 Pokaži, da je Fraunhoferjeva uklonska slika na odprtini, katere prepustnost se v radialni smeri
-spreminja kot Gaussova funkcija $T(\xi, \eta)=e^{-(\xi^2+\eta^2)/w_0^2}$, podana z Gaussovo funkcijo
-oblike $E(x,y,z) \propto e^{-(x^2+y^2)/w^2(z)}$ in določi odvisnost $w(z)$. Izračunaj še 
+spreminja kot Gaussova funkcija $T(\xi, \eta)=\exp(-(\xi^2+\eta^2)/w_0^2)$, podana z Gaussovo funkcijo
+oblike $E(x,y,z) \propto \exp(-(x^2+y^2)/w^2(z))$ in določi odvisnost $w(z)$. Izračunaj še 
 uklonsko sliko v bližnjem polju po Fresnelovi uklonski teoriji.
 \end{definition}
 
 \section{Obosna valovna enačba}
-Obravnavo začnemo z valovno enačbo in monokromatskim valovanjem s krožno frekvenco $\omega$. Ustrezna
+Obravnavo začnemo z valovno enačbo in rešitvijo v obliki monokromatskega valovanja 
+s krožno frekvenco $\omega$. Zaradi enostavnosti se omejimo le na eno polarizacijo, 
+tako da $\mathbf{E}$ pišemo kot skalar. Ustrezna
 Helmholtzeva enačba je \index{Helmholtzeva enačba}(enačba~\ref{eq:Helmholtz})
 \begin{equation}
 \nabla^{2}E+k^{2}E=0,
 \label{eq:valovna-enacba-hh}
 \end{equation}
-kjer je $k=n\omega/c_{0}$ valovno število in $n$ lomni količnik
-sredstva, po katerem se valovanje širi. Zaradi enostavnosti obravnavamo
-le eno polarizacijo, tako da $E$ pišemo kot skalar. Iščemo rešitev za
-omejen snop, ki se širi približno vzdolž osi $z$. Uporabimo nastavek
+pri čemer sta $k=n\omega/c_{0}$ valovno število in $n$ lomni količnik
+sredstva, po katerem se valovanje širi. Rešitev iščemo v obliki omejenega snopa, 
+ki se širi približno vzdolž osi $z$, z nastavkom
 \begin{equation}
 E=E_{0}\psi(\mathbf{r},z)e^{ikz},
 \label{eq:ravni-val-nastavek}
 \end{equation}
-kjer je $\mathbf{r}$ krajevni vektor v ravnini $xy$, prečni na smer širjenja svetlobe. 
+pri čemer je $\mathbf{r}$ krajevni vektor v ravnini $xy$, prečni na smer širjenja svetlobe. 
 Glavni del odvisnosti od koordinate $z$ smo zapisali v faktorju $e^{ikz}$, tako da lahko
 privzamemo, da se $\psi$ v smeri $z$ le počasi spreminja. Vstavimo
-nastavek v Helmholtzevo enačbo (enačba~\ref{eq:valovna-enacba-hh})
+nastavek (enačba~\ref{eq:ravni-val-nastavek}) v Helmholtzevo enačbo (enačba~\ref{eq:valovna-enacba-hh})
 in pri tem zanemarimo druge odvode $\psi$ po $z$, saj je zaradi počasnega spreminjanja
 $\partial^{2}\psi/\partial z^{2}$ majhen v primerjavi s $k\partial\psi/\partial z$ in $k^{2}\psi$.
 Dobimo obosno
@@ -78,12 +79,13 @@ ali paraksialno valovno enačbo\index{Obosna valovna enačba} za $\psi$
 \boxeq{eq:obosna-valovna-enacba}{
 \nabla_{\perp}^{2}\psi=-2ik{\frac{{\partial\psi}}{{\partial z}}}.
 }
+\vglue-3truemm
 \begin{remark} 
 Opazimo, da je obosna valovna enačba enaka Schr\"{o}dingerjevi enačbi\index{Schr\"odingerjeva enačba}
 za prost delec v dveh dimenzijah, v kateri ima koordinata $z$ vlogo
 časa. Omejenemu snopu v kvantni mehaniki ustreza lokaliziran delec
 -- valovni paket. Ta se s časom širi, kar v optiki ustreza pojavu 
-uklona.\footnote{Glej npr. J. Strnad, {\it Fizika, 3. del}, tretja izdaja, DMFA--založništvo (2018).}
+uklona.\footnote{~Glej npr. J. Strnad, {\it Fizika, 3. del}, tretja izdaja, DMFA-založništvo (2018).}
 \end{remark}
 Preden se lotimo reševanja obosne valovne enačbe, jo primerjajmo s Helmholtzevo enačbo
 na primeru ravnega vala. Nastavek za ravni val \index{Ravni val} zapišemo v obliki
@@ -102,7 +104,7 @@ Ko vstavimo nastavek za $\psi$ v izraz za polje $E$
 k_{3}=k-\beta=k-\frac{k_{1}^{2}+k_{2}^{2}}{2k}.
 \label{eq:k3-razvoj}
 \end{equation}
-Pri tem $k_{3}$ označuje vzdolžno in $k_{1}$ ter $k_{2}$ prečni komponenti valovnega 
+Pri tem označujejo $k_{3}$ vzdolžno ter $k_{1}$ in $k_{2}$ prečni komponenti valovnega 
 vektorja, $k$ pa je valovno število. Po drugi strani za ravni val, ki je 
 rešitev Helmholtzeve enačbe (enačba~\ref{eq:valovna-enacba-hh}), velja zveza
 \begin{equation}
@@ -115,16 +117,16 @@ majhni v primerjavi z vzdolžno.
 Takrat je majhen tudi kot širjenja snopa in člene, višje od kvadratnih,
 lahko zanemarimo. To je tudi območje veljavnosti Fresnelove uklonske
 teorije.\index{Fresnelov uklon}
-\vglue-2truemm
+
 \begin{remark}\index{Fouriereva optika}
 Časovno odvisnost poljubnega začetnega
 stanja v kvantni mehaniki navadno izračunamo tako, da v začetnem
 trenutku paket razvijemo po lastnih stanjih energije -- ravnih valovih.
 Rešitev v poljubnem kasnejšem trenutku je potem dana v obliki Fourierevega
 integrala. Ta pot je zelo uporabna tudi v optiki in je osnova sklopa
-računskih metod, znanih pod imenom Fouriereva optika.\footnote{Glej npr. 
+računskih metod, znanih pod imenom Fouriereva optika.\footnote{~Glej npr. 
 E. Hecht, {\it Optics}, peta izdaja, Pearson Education Limited (2017).} V našem primeru
-z njo brez težav pridemo nazaj do Fresnelove uklonske formule.
+z njo brez težav pridemo nazaj do Fresnelovega uklonskega približka.
 \end{remark}
 
 \section{Osnovni Gaussov snop}
@@ -137,8 +139,8 @@ enačbe (enačba~\ref{eq:obosna-valovna-enacba}) z nastavkom
 \begin{equation}
 \psi(r,z)=e^{ikr^{2}/2q(z)}\, e^{-i\phi(z)},\label{eq:gaussov-snop-nastavek}
 \end{equation}
-kjer funkcija $q(z)$ opisuje širjenje snopa v prečni smeri,
-$\phi(z)$ pa opisuje počasno spreminjanje faze snopa vzdolž osi $z$.
+pri čemer funkcija $q(z)$ opisuje širjenje snopa v prečni smeri,
+$\phi(z)$ pa počasno spreminjanje faze snopa vzdolž osi $z$.
 Vstavimo nastavek (enačba~\ref{eq:gaussov-snop-nastavek}) v obosno valovno enačbo 
 (enačba~\ref{eq:obosna-valovna-enacba}). Zaenkrat se omejimo le na radialno 
 simetrične rešitve in v cilindričnih koordinatah zapišemo
@@ -150,30 +152,33 @@ simetrične rešitve in v cilindričnih koordinatah zapišemo
 \begin{equation}
 \frac{\partial\psi}{\partial z}=\left(-\frac{ikr^{2}}{2q^2}q(z)^{\prime}-i\phi^{\prime}\right)\psi.
 \end{equation}
+Pri tem črtica označuje odvod po koordinati $z$.
 Iz obosnega približka (enačba~\ref{eq:obosna-valovna-enacba}) sledi
 \begin{equation}
-\frac{2ik}{q}-\frac{k^2r^2}{q^2}=ik\left(\frac{ikr^{2}}{q^2}q(z)^{\prime}+2i\phi^{\prime}\right).
+\frac{2ik}{q}-\frac{k^2r^2}{q^2}=ik\left(\frac{ikr^{2}}{q^2}q(z)^{\prime}+2i\phi^{\prime}\right)\!.
 \end{equation}
 Zapisana zveza mora veljati pri vsakem $r$, zato sta koeficienta
 pri $r^{2}$ na obeh straneh enačbe enaka in člena brez odvisnosti od $r$ prav tako. Sledi
 \begin{equation}
-q(z)^{\prime}=1\mbox{\hskip1cm in \hskip1cm}\phi^{\prime}=-\frac{i}{q}.
+q(z)^{\prime}=1 \qquad \mathrm{in} \qquad \phi^{\prime}=-\frac{i}{q}.
 \end{equation}
 Z integracijo dobimo najprej 
 \begin{equation}
 q=z-iz_{0},
 \label{eq:alpha}
 \end{equation}
-kjer smo z $-i z_{0}$ označili integracijsko konstanto. 
+pri čemer smo z $-i z_{0}$ označili integracijsko konstanto. 
 Integriramo še enačbo za fazo 
 \begin{equation}
 \phi=\int_{0}^{z}\,-\frac{i dz}{z-iz_{0}}=-i\ln(1+i\frac{z}{z_{0}}).
+\label{eq:phiphi}
 \end{equation}
-Sledi
+Vstavimo izraza za $q$ in $\phi$ 
+v nastavek za $\psi$ (enačba~\ref{eq:gaussov-snop-nastavek}) in zapišemo
 \begin{equation}
 \psi = \exp\left(i\frac{kr^{2}}{2(z-iz_0)}\right)\,\exp\left(-\ln(1+i\frac{z}{z_{0}})\right)
 \end{equation}
-in
+Izraz preoblikujemo in dobimo
 \begin{equation}
  \psi = \frac{1}{1+i\frac{z}{z_{0}}}\,\exp\left(-\frac{kr^{2}z_{0}}{2(z_{0}^{2}+z^{2})}+
  \frac{ikr^{2}z}{2(z_{0}^{2}+z^{2})}\right).
@@ -182,13 +187,13 @@ in
 Najprej poglejmo realni del eksponenta, ki opisuje prečno obliko snopa. Vpeljemo novo spremenljivko $w$
 in realni del prečne odvisnosti zapišemo z Gaussovo funkcijo $\exp(-r^2/w^2)$, 
 ki da snopu tudi ime. Parameter $w$, ki označuje 
-polmer snopa\index{Gaussov snop!polmer} pri danem $z$, je podan z enačbo 
+polmer snopa\index{Gaussov snop!polmer} pri danem $z$, je podan z
 \begin{equation}
-w^2 = \frac{2(z_0^2+z^2)}{kz_0}= \frac{2z_0}{k}\left(1+\left(\frac{z}{z_0}\right)^2\right).
+w^2 = \frac{2(z_0^2+z^2)}{kz_0}= \frac{2z_0}{k}\left(1+\left(\frac{z}{z_0}\right)^2\right)\!.
 \end{equation}
 Vpeljemo $w_0 = 2z_0/k$ kot polmer snopa v izhodišču (pri $z=0$) in zapišemo
 \boxeq{eq:w}{
-w^2 = w_{0}^{2}\left(1+\left(\frac{z}{z_{0}}\right)^{2}\right).
+w^2 = w_{0}^{2}\left(1+\left(\frac{z}{z_{0}}\right)^{2}\right)\!.
 }
 Pri $z=0$ je polmer snopa najmanjši in pravimo, da je tam grlo snopa\index{Gaussov snop!grlo} 
 (slika~\ref{fig:Gauss}). Parameter $z_0$ 
@@ -199,15 +204,15 @@ z_{0}=\frac{\pi w_{0}^{2}}{\lambda}.
 Parameter $z_{0}$\index{Gaussov snop!bližnje polje} označuje oddaljenost od grla, 
 pri kateri snop preide v asimptotično širjenje in tako omejuje območje,
 znotraj katerega se snop ne razširi znatno. Imenujemo ga \index{Območje bližnjega polja}
-\index{Rayleighova dolžina}Rayleighova dolžina\footnote{Angleški fizik in 
+\index{Rayleighova dolžina}Rayleighova dolžina\footnote{~Angleški fizik in 
 nobelovec John William Strutt, 3. baron Rayleighški; lord Rayleigh, 1842--1919.}
 in območje približno konstantne širine snopa Rayleighovo
 območje ali območje bližnjega 
-polja\index{Rayleighovo območje|see{Območje bližnjega polja}}. Celotno Rayleighovo 
-območje je zaradi simetričnosti dolgo $2z_0$. 
+polja\index{Rayleighovo območje|see{Območje bližnjega polja}}. Zaradi simetričnosti
+rešitve je celotno Rayleighovo območje dolgo $2z_0$. 
 Vrednost $z_{0}$ označuje tudi oddaljenost od grla, pri kateri začne veljati 
 Fraunhoferjev uklonski približek. 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{100truemm} 
 \input{slike/03_Gauss.pdf_tex}
@@ -215,9 +220,10 @@ Fraunhoferjev uklonski približek.
 od grla pa polmer snopa $w$ narašča. Z oddaljenostjo od grla se spreminja tudi krivinski radij front $R$.
 Parameter $z_0$ je Rayleighova dolžina in kot $\vartheta$ polovični kot širjenja snopa.}
 \label{fig:Gauss}
+\vglue-2truemm
 \end{figure}
 
-Zapišimo še divergenco snopa v velikih oddaljenostih od grla. Polovični kot širjenja je
+Izračunajmo še divergenco snopa v velikih oddaljenostih od grla. Polovični kot širjenja je
 \begin{equation}
 \vartheta=\lim_{z \to \infty} \frac{dw}{dz} = \lim_{z \to \infty}\frac{d}{dz} \left(w_0\sqrt{1+z^2/z_0^2}\right)=
 \frac{w_{0}}{z_{0}}= \frac{\lambda}{\pi w_{0}}\label{eq:divergenca-snopa}
@@ -228,9 +234,9 @@ in celotna divergenca snopa\index{Gaussov snop!divergenca}
 }
 
 Izraza za območje bližnjega polja (enačba~\ref{eq:z0}) in divergenco 
-(enačba~\ref{eq:divergenca-snopa}) sta v skladu z ocenama, ki smo ju 
+(enačba~\ref{eq:divergenca-snopa}) sta v skladu z grobima ocenama, ki smo ju 
 napravili na začetku poglavja (enačbi~\ref{eq:kot_ocena} in \ref{eq:z_ocena}). Faktor
-$\pi$ oziroma $1/\pi$ je značilen za Gaussov snop, ki ima od vseh oblik snopa 
+$\pi$ oziroma $1/\pi$ je značilen za Gaussov snop, ki ima od vseh snopov 
 najmanjšo divergenco. 
 
 \begin{remark}
@@ -240,19 +246,19 @@ $\theta = M^2 \, 2\lambda/\pi w_{0}$.
 Dobri laserji dosegajo vrednost $M^2 \sim 1$,
 pri močnejših trdninskih ali polprevodniških laserjih je $M^2 \sim 30$ ali več. 
 V grobem velja, da $M^2$ narašča z močjo laserja in oblika snopa močnih laserjev navadno znatno
-odstopa od oblike idealnega Gaussovega snopa.\footnote{A. E. Siegman, Proc. SPIE $\mathbf{1868}$, 2 (1993).}  
+odstopa od oblike idealnega Gaussovega snopa.\footnote{~A. E. Siegman, Proc. SPIE $\mathbf{1868}$, 2 (1993).}  
 \end{remark}
 
-Vrnimo se k imaginarnemu delu eksponenta v enačbi~(\ref{eq:gaussov-snop-vmesni}), ki ga
-z vpeljavo nove spremenljivke $R$ poenostavimo v obliko $\exp(ikr^2/2R)$. Parameter $R$, ki 
-ga zapišemo kot 
+Vrnimo se k imaginarnemu delu eksponenta v enačbi~(\ref{eq:gaussov-snop-vmesni}). Z
+vpeljavo nove spremenljivke $R$ ga zapišemo v poenostavljeni obliki $\exp(ikr^2/2R)$. Parameter $R$, ki 
+ga vpeljemo kot 
 \boxeq{eq:R}{
-R=z\left(1+\left(\frac{z_{0}}{z}\right)^{2}\right),
+R=z\left(1+\left(\frac{z_{0}}{z}\right)^{2}\right)\!,
 }
 meri krivinski radij valovnih front\index{Gaussov snop!krivinski radij} 
 pri oddaljenosti od grla $z$. To najlažje
-uvidimo, če zapis imaginarnega dela primerjamo z zapisom za krogelni val, razvit 
-po majhnih odmikih $r$ od osi
+uvidimo, če imaginarni del primerjamo z zapisom za krogelni val, razvit 
+po majhnih odmikih $r$ od osi $z$
 $z$
 \begin{equation}
 \frac{1}{R}e^{ikR}=\frac{1}{R}e^{ik\sqrt{z^{2}+r^{2}}}\approx \frac{1}{R}e^{ikz+ikr^{2}/2z} \approx \frac{1}{R}e^{ikz+ikr^{2}/2R}.
@@ -269,13 +275,13 @@ Izračunaj še ukrivljenost front v grlu in v veliki oddaljenosti od grla.
 \end{definition}
 
 Na sliki~\ref{fig:ravni-Gaussov-krogelni-val} so prikazane valovne fronte (ploskve konstantne faze)
-ravnega vala, Gaussovega snopa (enačba~\ref{eq:gaussov-snop}) 
-in krogelnega vala (enačba~\ref{eq:krogelni-val}). V bližini grla je
-Gaussov snop podoben ravnemu valu. Po drugi strani je za velike oddaljenosti snop 
-podoben delu krogelnega vala, le da je, kot bomo videli, faza Gaussovega snopa 
+ravnega vala, Gaussovega snopa
+in krogelnega vala. V bližini grla so valovne fronte v Gaussovem snopu ravne in snop je 
+podoben ravnemu valu. Po drugi strani so za velike oddaljenosti fronte v Gaussovem snopu 
+podobne delu krogelnega vala, le da je, kot bomo videli, faza Gaussovega snopa
 zamaknjena za $\pi/2$ glede na krogelni val. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/03_fronte.pdf_tex}
@@ -284,26 +290,26 @@ krogelnega vala (c). V bližini grla je Gaussov snop podoben ravnemu valu in
 pri velikih oddaljenostih od grla krogelnemu valu, vendar z dodatnim faznim zamikom.}
 \label{fig:ravni-Gaussov-krogelni-val}
 \end{figure}
-
 Ostal je  še faktor pred eksponentom v izrazu~(\ref{eq:gaussov-snop-vmesni})
 \begin{equation}
 \frac{1}{1+i\frac{z}{z_{0}}}=\frac{1}{\sqrt{1+(\frac{z}{z_0})^{2}}}e^{-i\eta(z)}=\frac{w_{0}}{w}e^{-i\eta(z)},
 \end{equation}
  pri čemer je
 \boxeq{eq:eta}{
-\eta(z)=\arctan\left(\frac{z}{z_{0}}\right).
+\eta(z)=\arctan\left(\frac{z}{z_{0}}\right)\!.
 }
 Ta faktor poskrbi za ohranitev energijskega toka, saj opisuje zmanjševanje amplitude
 jakosti električnega polja z naraščajočo oddaljenostjo od izhodišča. \index{Gaussov snop!faza} 
 Dodatna faza $\eta$, imenujemo jo \index{Gouyeva faza}Gouyeva 
-faza\footnote{Francoski fizik Louis Georges Gouy, 1854--1926.},
+faza\footnote{~Francoski fizik Louis Georges Gouy, 1854--1926.},
 je posledica povečane fazne hitrosti, 
 kadar je valovanje omejeno v prečni smeri. Podoben pojav bomo srečali tudi pri valovanju, ki je 
-omejeno v valovode (poglavje~\ref{chap:fibri}). Za velike oddaljenosti od izhodišča je enaka $\eta (z\to\infty) = \pi/2$,
+omejeno v valovode (poglavje~\ref{chap:fibri}). Za velike oddaljenosti od izhodišča je Gouyjeva faya
+enaka $\pi/2$,
 kar predstavlja fazni zamik na sliki~\ref{fig:ravni-Gaussov-krogelni-val}.
 
 S tem končno zapišemo izraz za jakost električnega polja osnovnega \index{Gaussov snop}Gaussovega 
-snopa\footnote{Nemški matematik, fizik in astronom Carl Friedrich Gauss, 1777--1855.}
+snopa\footnote{~Nemški matematik, fizik in astronom Carl Friedrich Gauss, 1777--1855.}
 \boxeq{eq:gaussov-snop}{
 E(r,z,t)=E_{0}\,\frac{w_{0}}{w}\,e^{ikz-i\omega t}\,e^{-r^{2}/w^{2}}\,e^{ikr^{2}/2R}
 e^{-i\eta},
@@ -313,49 +319,53 @@ Intenziteta svetlobe\index{Gaussov snop!intenziteta} v Gaussovem snopu je
 \boxeq{eq:gaussov-snop-intenziteta}{
 I(r,z)= E(r,z,t)E^*(r,z,t) = I_{0}\,\frac{w_0^2}{w^2}\,e^{-2r^{2}/w^{2}}.
 }
-\vglue-5truemm
-\begin{figure}[h]
+\vglue-3truemm
+\begin{figure}[ht]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{88truemm} 
 \input{slike/03_Gauss_3D.pdf_tex}
 \caption{Upodobitev intenzitete svetlobe v Gaussovem snopu za $z>0$ }
 \label{fig:Gauss_3D}
+\vglue-2truemm
 \end{figure}
-
 \begin{definition}
-\label{naloga-širina-snopa}
-Pokaži, da je svetlobna moč v Gaussovem snopu 
-enaka 
-$P = c_0 \varepsilon_0 I_0 \pi w_0^2/4$.
+\vglue-3truemm
+Pokaži, da je svetlobna moč v Gaussovem snopu neodvisna od $z$ in da je enaka \label{naloga-širina-snopa}
+$ P = \pi w_0^2\varepsilon_0 c_0 E_0^2/4$.
 \end{definition}
-
-Povejmo še nekaj o parametru $q(z)$, ki smo ga uporabili pri izračunu Gaussovega snopa v nastavku
-(enačba~\ref{eq:gaussov-snop-nastavek}). Spomnimo 
-se, da parameter $q$ narašča linearno z oddaljenostjo od grla
+\vglue-3truemm
+Povejmo še nekaj o parametru q(z), ki smo ga uporabili pri izračunu Gaussovega snopa v
+nastavku (enačba~\ref{eq:gaussov-snop-nastavek}). Spomnimo se, da parameter $q$ narašča linearno z oddaljenostjo od grla
+\vglue-10truemm
 \begin{equation}
 q(z) = z -iz_0.
 \label{eq:q}
 \end{equation}
+\vglue-4truemm
 Parameter $q$ imenujemo kompleksni krivinski radij\index{Kompleksni krivinski radij} in
 \index{Gaussov snop!kompleksna ukrivljenost}\index{Gaussov snop!kompleksni krivinski radij}
 njegov inverz kompleksna ukrivljenost\index{Kompleksna ukrivljenost}
 \boxeq{eq:q-inv}{
-\frac{1}{q(z)}=\frac{1}{R}+i\frac{2}{kw^{2}}.
+\frac{1}{q}=\frac{1}{R}+i\frac{2}{kw^{2}}.
 }
+Pri tem so $q$, $R$ in $w$ seveda funkcije koordinate $z$.
+Kot bomo videli v nadaljevanju, je kompleksni krivinski radij 
+zelo uporaben pri obravnavi preslikav Gaussovih snopov z lečami.
+\vglue-0truemm
 \begin{definition}
-Uporabi enačbi (\ref{eq:z0} in \ref{eq:R}) in izpelji enačbo~(\ref{eq:q-inv}).
+\vglue-3truemm
+Uporabi enačbi~(\ref{eq:z0}) in (enačba~\ref{eq:R}) in izpelji enačbo za $q$ (enačba~\ref{eq:q-inv}).
 \end{definition}
-Kompleksni krivinski radij je zelo uporaben pri obravnavi preslikav Gaussovih snopov z lečami.
 
 \section{Snopi višjega reda}
 Osnovna rešitev obosne valovne enačbe (enačba~\ref{eq:obosna-valovna-enacba}) 
-je Gaussov snop (enačba~\ref{eq:gaussov-snop}), ki ga imenujemo tudi TEM$_{00}$ 
-snop\footnote{TEM -- {\it Transverse Electromagnetic Mode}, 
+je Gaussov snop (enačba~\ref{eq:gaussov-snop}), ki ga imenujemo tudi snop 
+TEM$_{00}$\footnote{~TEM -- {\it Transverse Electromagnetic Mode}, 
 transverzalno elektromagnetno valovanje.}.\index{TEM$_{00}$} 
-Poleg te rešitve obstaja še veliko drugih rešitev, ki so prav tako omejene v prečni smeri. 
+Poleg te osnovne rešitve obstaja še veliko drugih rešitev, ki so prav tako omejene v prečni smeri. 
 V kartezičnih koordinatah rešijo obosno valovno enačbo
 \index{Hermite-Gaussovi snopi}Hermite-Gaussovi snopi, imenovani tudi 
-TEM$_{n,m}$\index{TEM$_{n,m}$}\footnote{Glej npr. A. Yariv in P. Yeh, {\it Photonics}, šesta izdaja, Oxford
+TEM$_{n,m}$\index{TEM$_{n,m}$}\footnote{~Glej npr. A. Yariv in P. Yeh, {\it Photonics}, šesta izdaja, Oxford
 University Press (2007).}
 \begin{equation}
 \psi_{n,m}(x,y)=\frac{w_{0}}{w}H_{n}\left(\frac{\sqrt{2}x}{w}\right)H_{m}\left(\frac{\sqrt{2}y}{w}\right)
@@ -363,9 +373,9 @@ University Press (2007).}
 \label{eq:Gauss-Hermitevi}
 \end{equation}
 Pri tem $H_{n}$ označuje Hermitove polinome stopnje $n$ ($H_0(x)=1$, $H_1(x)=2x$, 
-$H_2(x)=4x^2-2$, $H_3(x)=8x^3-12x$ ...). 
-V to se lahko
-prepričamo, če izraz vstavimo v obosno valovno enačbo\index{Obosna valovna enačba}
+$H_2(x)=4x^2-2$, $H_3(x)=8x^3-12x$ ...). Da so tudi ti snopi rešitve obosne valovne enačbe, 
+se prepričamo, če izraz (enačba~\ref{eq:Gauss-Hermitevi}) vstavimo v obosno valovno 
+enačbo\index{Obosna valovna enačba} (enačba~\ref{eq:obosna-valovna-enacba})
 in upoštevamo zvezo med Hermitovimi polinomi
 \begin{equation}
 H_{n}^{\prime\prime}-2xH_{n}^{\prime}+2nH_{n}=0,
@@ -374,27 +384,29 @@ pri čemer črtica pomeni odvod po $x$.
 Osnovni Gaussov snop je očitno poseben primer rešitve za $n=m=0$.
 Polmer snopa $w(z)$ in kompleksni krivinski radij $q(z)$ sta za\index{Gouyeva faza}
 vse $n$ in $m$ enaka kot za osnovni snop (enačbi~\ref{eq:w} in \ref{eq:q}). 
-Razlika je v fazi, ki je odvisna tudi od $n$ in $m$
+Razlika je v Gouyjevi fazi, ki je za snope višjega reda odvisna tudi od $n$ in $m$
 \begin{equation}
-\eta_{n,m}\left(z\right)=(n+m+1)\arctan\left(\frac{z}{z_{0}}\right).
+\eta_{n,m}\left(z\right)=(n+m+1)\arctan\left(\frac{z}{z_{0}}\right)\!.
 \end{equation}
 Na sliki~\ref{fig:Gauss-Hermitevi-snopi} so intenzitetni profili 
 Hermite-Gaussovih snopov višjih redov $|\psi_{n,m}(x, y, 0)|^2$.
 Indeksa $n$ in $m$ določata število vozlov v prečnih smereh $x$ in $y$. Opazimo, da se 
 širina snopa z 
 naraščajočima $n$ in $m$ povečuje.
-
-\begin{figure}[h]
+\vglue-2truemm
+\begin{figure}[ht]
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/03_Hermite_Gauss.pdf_tex}
 \caption{Prečni profil intenzitete Hermite-Gaussovih snopov v grlu 
 za različne vrednosti $(n,m)$}
 \label{fig:Gauss-Hermitevi-snopi}
+\vglue-2truemm
 \end{figure}
 
 \begin{definition}
 \label{naloga:HG}
+\vglue-3truemm
 Pokaži, da za Hermite-Gaussove snope višjih redov efektivni polmer snopa 
 narašča sorazmerno s korenom iz števila prečnih vozlov $ w_{\mathrm{eff}}\propto w\sqrt{n+m}$.\\
 Namig: pri zapisu prečne odvisnosti polja upoštevaj le vodilni člen Hermitovih polinomov 
@@ -412,7 +424,7 @@ Polje nekega valovanja, ki ga poznamo v ravnini $z=0$, pri
 poljubnem $z$ izračunamo z razvojem po Hermite-Gaussovih snopih. Pri tem
 je izbira polmera grla $w_{0}$ poljubna, bo pa seveda vplivala na
 hitrost konvergence razvoja. Na tak način lahko obravnavamo uklon
-na odprtini, kjer je očitno smiselno vzeti $w_{0}$ približno enak
+na odprtini, pri čemer je očitno smiselno vzeti $w_{0}$ približno enak
 dimenziji odprtine. Dobljeni rezultat je enako natančen kot Fresnelov
 uklonski integral.\index{Fresnelov uklon}
 
@@ -424,19 +436,19 @@ $H_{n}(x)\exp(-x^{2}/2)$ kar Hermite-Gaussova funkcija.\index{Fraunhoferjev uklo
 \end{remark}
 
 V cilindričnih koordinatah imajo snopi višjega reda obliko Laguerre-Gaussovih 
-snopov\index{Laguerre-Gaussovi snopi}\footnote{Glej npr. A. Yariv in P.
+snopov\index{Laguerre-Gaussovi snopi}\footnote{~Glej npr. A. Yariv in P.
 Yeh, {\it Photonics}, šesta izdaja, Oxford
 University Press (2007).}
 \begin{equation}
 \psi_{p,l}(r,\varphi,z)=\frac{w_{0}}{w}\left(\frac{\sqrt{2}r}{w}\right)^{|l|}
-L_{p}^{|l|}\left(\frac{2r^{2}}{w^{2}}\right)e^{\pm il\varphi}\exp\left(\frac{ikr^{2}}{2q}-i\eta_{p,l}\right).
+L_{p}^{|l|}\left(\frac{2r^{2}}{w^{2}}\right)e^{\pm il\varphi}\exp\left(\frac{ikr^{2}}{2q}-i\eta_{p,l}\right)\!.
 \label{eq:Gauss-Laguerrevi}
 \end{equation}
 Pri tem $L_{p}^{l}$ označujejo pridružene Laguerrove polinome oblike $L_{0}^{l}(x) = 1$, 
 $L_{1}^{l}(x) = -x+l+1$, 
-$L_{2}^{l}(x) = x^2/2-(l+2)x+(l+2)(l+1)/2$ ..., faza pa je 
+$L_{2}^{l}(x) = x^2/2-(l+2)x+(l+2)(l+1)/2$ ... Gouyjeva faza teh snopov je 
 \begin{equation}\index{Gouyeva faza}
-\eta_{p,l}\left(z\right)=(2p+l+1)\arctan\left(\frac{z}{z_{0}}\right).
+\eta_{p,l}\left(z\right)=(2p+l+1)\arctan\left(\frac{z}{z_{0}}\right)\!.
 \label{eq:etaGL}
 \end{equation}
 
@@ -447,31 +459,33 @@ je prikazanih nekaj intenzitetnih profilov Laguerre-Gaussovih snopov
 višjih redov $|\psi_{p,l}(r, \varphi, 0)|^2$. Ker nastopa  odvisnost od kota
 le v fazi, so intenzitetni profili snopa radialno simetrični. Opazimo, da je pri  
 vseh snopih z $l \ne 0$ v središču snopa minimum. 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{100truemm} 
 \input{slike/03_Laguerre_Gauss.pdf_tex}
 \caption{Prečni profil intenzitete Laguerre-Gaussovih snopov v grlu 
 za različne vrednosti $(p,l)$}
 \label{fig:Laguerrovi_presek}
+\vglue-3truemm
 \end{figure}
 
-Navadno želimo, da iz laserja izhaja čim čistejši osnovni snop, vendar
+Navadno želimo, da iz laserja izhaja snop, ki je čim bolj podoben osnovnemu
+Gaussovemu snopu, vendar
 pogosto opazimo tudi snope višjega reda. Da dobimo le osnovni
-snop, je treba posebej paziti pri konstrukciji laserja.
+snop, je treba biti pri načrtovanju laserja posebej pazljiv.
 
 \begin{remark}
 Ploskve konstantne faze Laguerre-Gaussovih snopov imajo pri $l\ne0$  obliko 
 vijačnic (slika~\ref{fig:Laguerrova_fronta}). 
 Poyntingov vektor\index{Poyntingov vektor} 
-pri njih ni vzporeden z osjo snopa, ampak ima komponento tudi v prečni smeri. Ta spreminja smer, 
+pri njih ni vzporeden z osjo snopa, temveč ima komponento tudi v prečni smeri. Ta spreminja smer, 
 zato ima snop vrtilno količino v smeri osi in snop na snov deluje z navorom. 
 Pravimo, da Laguerre-Gaussovi snopi nosijo t.\ i.\ tirno vrtilno 
-količino\index{Tirna vrtilna količina}.\footnote{L. Allen, M. W. Beijersbergen, R. J. C. Spreeuw in 
+količino\index{Tirna vrtilna količina}.\footnote{~L. Allen, M. W. Beijersbergen, R. J. C. Spreeuw in 
 J. P. Woerdman, Phys. Rev. A $\mathbf{45}$, 8185 (1992).}
 V kvantni mehaniki funkcija $\psi_{p,l}$ predstavlja foton s tirno vrtilno količino $L = \hslash l$, 
 medtem ko leva in desna krožna polarizacija predstavljata spin fotona. 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=10truecm]{slike/03_Laguerre_faza.png}
 \caption{Ploskev konstantne faze (valovna fronta) Laguerre-Gaussovega snopa}
@@ -479,9 +493,9 @@ medtem ko leva in desna krožna polarizacija predstavljata spin fotona.
 \end{figure}
 \end{remark}
 
-\section{*Besslov snop}
+\section{Besslov snop}
 Poglejmo še en primer omejenega snopa, to je \index{Besslov snop}Besslov
-snop\footnote{Nemški astronom, matematik in fizik Friedrich Wilhelm Bessel, 1784--1846.}. 
+snop\footnote{~Nemški astronom, matematik in fizik Friedrich Wilhelm Bessel, 1784--1846.}. 
 Nastavek za rešitev valovne enačbe (enačba~\ref{eq:valovna-skalarna}), 
 pri čemer obravnavamo polje skalarno, naj bo
 \begin{equation}
@@ -490,19 +504,20 @@ E=E_{0}\psi(x,y)e^{i\beta z-i\omega t}.
 Funkcija $\psi$ mora zadoščati Helmholtzevi enačbi\index{Helmholtzeva enačba}
 (enačba~\ref{eq:Helmholtz})
 \begin{equation}
-\nabla_{\perp}^{2}\psi+k_{\perp}^{2}\psi=0
+\nabla_{\perp}^{2}\psi+k_{\perp}^{2}\psi=0,
 \end{equation}
-pri $k_{\perp}^{2}=k^{2}-\beta^{2}$. V cilindričnih
-koordinatah ($x=r\cos\varphi$, $y=r\sin\varphi$) se enačba prepiše v 
+pri čemer je $k_{\perp}^{2}=k^{2}-\beta^{2}$. V cilindričnih
+koordinatah, kjer sta $x=r\cos\varphi$ in  $y=r\sin\varphi$, se enačba prepiše v 
 \begin{equation}
 \frac{\partial^2 \psi}{\partial r^2}+ \frac{1}{r}\frac{\partial \psi}{\partial r}
 + \frac{1}{r^2}\frac{\partial^2 \psi}{\partial \varphi^2}+k_{\perp}^{2}\psi=0.
 \end{equation}
-Rešitve so s faznim faktorjem pomnožene Besslove funkcije
+Rešitve te enačbe so s faznim faktorjem pomnožene Besslove funkcije
 \begin{equation}
 \psi_m(r, \varphi)=J_{m}(k_{\perp}r)e^{im\varphi},
 \end{equation}
-kjer je $J_{m}$ Besslova funkcija reda $m$ in $m$ celo število. Za
+pri čemer je $J_{m}$ zaradi zahteve po enoličnosti rešitev
+celo število, $J_{m}$ pa je Besslova funkcija reda $m$. Za
 $m=0$ je rešitev osnovi Besslov snop (slika~\ref{fig:Besslov_presek})
 \begin{equation}
 E(r,z,t)=E_{0}J_{0}(k_{\perp}r)e^{i\beta z-i \omega t}.
@@ -510,7 +525,9 @@ E(r,z,t)=E_{0}J_{0}(k_{\perp}r)e^{i\beta z-i \omega t}.
 \end{equation}
 Valovne fronte osnovnega Besslovega snopa so ravne
  in njegova divergenca je enaka nič\index{Besslov snop!divergenca}, zato Besslov snop na
-poljubni oddaljenosti od izhodišča ohranja svojo obliko. Vendar Besslov snop ni 
+poljubni oddaljenosti od izhodišča ohranja svojo obliko. 
+
+Vendar Besslov snop ni 
 omejen v pravem smislu. Za velike oddaljenosti od osi snopa $r$ intenzitetni profil 
 namreč pojema kot $I \propto J_{0}^{2}(k_{\perp}r)\sim (2/\pi k_{\perp}r)\cos^{2}(k_{\perp}r-\pi/4)$.
 Energija takega snopa ni omejena znotraj efektivnega polmera,
@@ -519,29 +536,29 @@ bi (tako kot za konstrukcijo ravnega vala) potrebovali neskončno energije,
 kar je seveda nemogoče. Lahko pa ustvarimo dobre približke Besslovih 
 snopov, ki imajo pomembne in uporabne lastnosti. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
-\def\svgwidth{50truemm} 
+\def\svgwidth{60truemm} 
 \input{slike/03_Bessel_profil.pdf_tex}
 \caption{Prečni presek in profil intenzitete osnovnega Besslovega snopa}
 \label{fig:Besslov_presek}
 \end{figure}
 
 \begin{remark}
-Z uporabo stožčaste leče (aksikona) Gaussov snop
+Z uporabo stožčaste leče (aksikona) lahko Gaussov snop
 preoblikujemo v približek Besslovega snopa (slika~\ref{fig:Bessel_leca}). 
 Na plašču stožčaste leče se namreč Gaussov snop zlomi in valovni vektorji 
 nastalega snopa opisujejo stožec, kar je sicer lastnost Besslovih snopov.
 Dobljeni snop je na območju z dolžino $z_{max}$ dober približek Besslovega 
-snopa.\footnote{R. M. Herman in T. A. Wiggins, J. Opt. Soc. A $\mathbf{8}$, 932 (1991).}
+snopa.\footnote{~R. M. Herman in T. A. Wiggins, J. Opt. Soc. A $\mathbf{8}$, 932 (1991).}
 Znotraj tega območja je divergenca snopa praktično enaka nič. Poleg manjše divergence
 imajo ti snopi še lastnost regeneracije. To pomeni, da se snop 
 za objektom, ki ga osvetljuje (na primer v optični pinceti), regenerira. 
 Profil snopa na senčni strani (daleč stran od objekta) je tako enak profilu 
 snopa pred objektom. 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{80truemm} 
 \input{slike/03_Bessel_nastanek.pdf_tex}
 \caption{Nastanek približka Besslovega snopa na stožčasti leči}
 \label{fig:Bessel_leca}
@@ -549,15 +566,16 @@ snopa pred objektom.
 \end{remark}
 
 \section{Transformacije snopov z lečami}
-
 Vrnimo se k osnovnim Gaussovim snopom in poglejmo, kaj se zgodi z njimi pri prehodu
 skozi optične elemente\index{Preslikava z lečo}. Začnemo
-z enostavno tanko lečo z goriščno razdaljo $f$. V geometrijski optiki
+z enostavno tanko lečo z goriščno razdaljo $f$. 
+
+V geometrijski optiki
 je krivinski radij krogelnega vala, ki izhaja iz točke na osi, kar
 enak razdalji do točke. Leča točko na optični osi preslika v točko na osi,
 od koder sledi, da se krogelni val s krivinskim radijem $R_{1}$
-po prehodu skozi lečo spremeni v val s krivinskim radijem $R_{2}$.
-Pri tem velja zveza\footnote{Glej npr. J. Strnad, {\it Fizika, 2. del}, osmi natis, DMFA--založništvo (2018).}
+po prehodu skozi lečo spremeni v krogelni val s krivinskim radijem $R_{2}$.
+Pri tem velja zveza\footnote{~Glej npr. J. Strnad, {\it Fizika, 2. del}, osmi natis, DMFA-založništvo (2018).}
 \begin{equation}
 \frac{1}{R_{1}}-\frac{1}{R_{2}}=\frac{1}{f}.
 \label{eq:leca}
@@ -578,10 +596,13 @@ imaginarnega dela polmer snopa. Enačba~(\ref{eq:preslikava-zveza-leca}) torej
 zadošča za račun prehoda snopa skozi poljuben sistem leč brez aberacij, če le poznamo
 njegovo goriščno razdaljo.
 
-Kot primer poglejmo, kako z zbiralno lečo zberemo Gaussov snop.
-\begin{figure}[h]
+Kot primer poglejmo, kako s tanko zbiralno lečo zberemo Gaussov snop.
+Vpadni snop naj ima grlo s polmerom $w_{01}$ in parametrom $z_{01}=\pi w_{01}^2/\lambda$. 
+Grlo naj leži v točki, ki je za $x_{1}$ oddaljena od levega gorišča leče $F$ (slika
+\ref{fig:Prehod-Gaussovega-snopa}). 
+\begin{figure}[ht]
 \centering
-\def\svgwidth{140truemm} 
+\def\svgwidth{145truemm} 
 \input{slike/03_preslikava.pdf_tex}
 \caption{Prehod Gaussovega snopa skozi
 tanko lečo. Grlo s polmerom $w_{01}$ v oddaljenosti $x_{1}$ od gorišča
@@ -590,28 +611,27 @@ leče $F$.}
 \label{fig:Prehod-Gaussovega-snopa}
 \end{figure}
 
-Vpadni snop naj ima grlo s polmerom $w_{01}$ in parametrom $z_{01}=\pi w_{01}^2/\lambda$. 
-Grlo naj leži v točki, ki je za $x_{1}$ oddaljena od levega gorišča leče $F$ (slika
-\ref{fig:Prehod-Gaussovega-snopa}). Naj bosta 
+Vpeljemo parametra
 \begin{equation}
-q_{1}^{F}=x_{1}-iz_{01}\mbox{\hskip1cm in \hskip1cm}q_{2}^{F}=-x_{2}-iz_{02}
+q_{1}^{F}=x_{1}-iz_{01} \qquad \mathrm{in} \qquad q_{2}^{F}=-x_{2}-iz_{02},
 \label{eq:qFqF}
 \end{equation}
- kompleksna krivinska radija v levem in desnem gorišču, pri čemer je koordinatna os $z$ 
- usmerjena v desno, gledamo pa referenčno glede na lego grla vsakega posameznega snopa. 
+ki predstavljata kompleksna krivinska radija v levem in desnem gorišču. Koordinatna os 
+$z$ je usmerjenav desno, gledamo pa referenčno glede na lego grla vsakega posameznega snopa. 
  Za vrednosti $q$ tik pred lečo in tik za njo velja tudi
 \begin{equation}
-q_{1}=q_{1}^{F}+f\mbox{\hskip1cm in \hskip1cm}q_{2}=q_{2}^{F}-f.
+q_{1}=q_{1}^{F}+f \qquad \mathrm{in} \qquad q_{2}=q_{2}^{F}-f.
 \end{equation}
- Od tod z uporabo enačbe~(\ref{eq:preslikava-zveza-leca}) izpeljemo zvezo
+
+Od tod z uporabo enačbe~(\ref{eq:preslikava-zveza-leca}) izpeljemo zvezo
 za $q$ v goriščih v kompaktni obliki 
 \boxeq{eq:qqf}{
 q_{1}^{F}q_{2}^{F}=-f^{2}.
 }
 Uporabimo enačbi~(\ref{eq:qFqF}) in 
-zapišemo posebej realni in imaginarni del 
+zapišemo posebej realni in imaginarni del
 \begin{equation}
-x_{1}x_{2}=f^{2}-z_{01}z_{02} \qquad \mathrm{in} \qquad
+x_{1}x_{2}=f^{2}-z_{01}z_{02} \qquad \mathrm{in} \qquad 
 \frac{x_{1}}{z_{01}}=\frac{x_{2}}{z_{02}}.
 \end{equation}
 Dobimo enačbi za preslikavo Gaussovega snopa z lečo z goriščno razdaljo $f$.
@@ -638,14 +658,14 @@ $w_{01}=0,5~\si{\milli\metre}$. Za tak snop je $z_{01}=124~\si{\centi\metre}$.
 Na oddaljenost $50~\si{\centi\metre}$ od grla postavimo lečo z goriščno razdaljo 
 $f=25~\si{\centi\metre}$. Po enačbi (\ref{eq:preslikava-grlo})
 leži grlo za lečo v oddaljenosti $1~\si{\centi\metre}$ od gorišča in torej $26~\si{\centi\metre}$ 
-za lečo. Izračunan polmer je po enačbi~(\ref{eq:preslikava-povecava})
+za lečo. Izračunani polmer je po enačbi~(\ref{eq:preslikava-povecava})
 $w_{02}=100~\si{\micro\metre}$. Enačbe geometrijske optike bi
 dale popolnoma napačen položaj grla $50~\si{\centi\metre}$ za lečo in polmer grla  
 $0,5~\si{\milli\metre}$. Po drugi strani bi približek, da je vpadni
 snop kar raven, dal grlo na desni v gorišču s približno pravim polmerom. Zakaj da približek ravnih 
-valov bolj pravilen rezultat, hitro uvidimo, če pogledamo
+valov pravilnejši rezultat, hitro uvidimo, če pogledamo
 Rayleighovo dolžino snopa $z_{01}$: 
-snop vpada na lečo še v območju bližnjega polja ($x_1 + f < z_{01}$), znotraj katerega
+snop vpada na lečo v območju bližnjega polja ($x_1 + f < z_{01}$), znotraj katerega
 ima približno obliko ravnih valov. 
 
 Če postavimo gorišče leče v grlo snopa ($x_{1}=0$), je grlo na
@@ -655,12 +675,12 @@ na eni in drugi strani leče izračunamo
 \lim_{x_1 \to 0}~\frac{x_{2}}{x_{1}}=\frac{f^{2}}{z_{01}^{2}} \qquad \textrm{in} \qquad
 \frac{w_{02}}{w_{01}}= \frac{f}{z_{01}}.\index{Gaussov snop!grlo}
 \end{equation}
-Velikost grla na desni strani je tako
+Velikost grla na desni strani je potem
 \begin{equation}
 w_{02}=\frac{\lambda f}{\pi w_{01}}.
 \end{equation}
-Če želimo doseči kar se da majhno grlo po prehodu skozi lečo, mora biti polmer
-vpadnega snopa kar se da velik. Vpadni snop je tako smiselno
+Če želimo doseči kar se da majhno grlo $w_{02}$ po prehodu skozi lečo, mora biti polmer
+vpadnega snopa $w_{01}$ kar se da velik. Vpadni snop je tako smiselno
 razširiti, vendar polmer snopa ne more biti večji od polmera leče $a$. 
 Najmanjša velikost grla, ki jo še lahko dosežemo z zbiralno lečo, je tako 
 \boxeq{eq:wmin}{
@@ -672,11 +692,11 @@ zbrati v piko velikosti $\sim\lambda$.
 
 Omenili smo, da je treba za dosego majhnega polmera grla za lečo snop pred lečo čim bolj razširiti.
 Razširitev vpadnega snopa naredimo s teleskopom~(slika~\ref{fig:Prehod-Gaussovega-snopa-teleskop}),
-katerega značilnost je, da je razmik med lečama enak vsoti goriščnih razdalj leč in zato gorišči
+pri katerem je razmik med lečama enak vsoti goriščnih razdalj leč in zato gorišči
 sovpadata. Povečava teleskopa je pri taki postavitvi enaka razmerju med goriščnima razdaljama leč
 (glej nalogo~\ref{teleskop}).
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \def\svgwidth{145truemm} 
 \input{slike/03_teleskop.pdf_tex}
 \caption{Prehod Gaussovega snopa
@@ -695,10 +715,11 @@ razdalji $d=f_{1}+f_{2}$. Pokaži, da je povečava takega teleskopa enaka
 \end{definition}
 
 \section{Matrične (ABCD) preslikave v geometrijski optiki}
-
+\label{chap:ABCDgeo}
 Preden se lotimo splošnejšega zapisa preslikav Gaussovega snopa, 
 se spomnimo, kako obravnavamo preslikave v geometrijski 
-optiki.\footnote{Glej npr. G. R. Fowles, {\it Introduction to Modern Optics}, druga izdaja, Dover Publications (1975).}
+optiki.\footnote{~Glej npr. G. R. Fowles, {\it Introduction to Modern Optics}, 
+druga izdaja, Dover Publications (1975).}
 Slika nastane kot presečišče žarkov,
 ki izhajajo iz točke predmeta pred optičnim sistemom. Žarek 
 je pravokoten na valovne ploskve, pri čemer moramo vzeti še limito zelo majhne
@@ -715,7 +736,7 @@ y\\
 \vartheta
 \end{array}\right].
 \end{equation}
-Preslikavo žarka zapišemo kot matriko, ki deluje na vpadni vektor in ga preslika
+Preslikavo žarka potem zapišemo kot matriko, ki deluje na vpadni vektor in ga preslika
 v izhodni vektor (slika~\ref{fig:K-matricni-obravnavi})
 \begin{equation}
 \left[\begin{array}{c}
@@ -724,10 +745,10 @@ y_2\\
 \end{array}\right] = M \left[\begin{array}{c}
 y_1\\
 \vartheta_1
-\end{array}\right].
+\end{array}\right]\!.
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \centering
 \def\svgwidth{100truemm}
@@ -743,7 +764,7 @@ Matrike $M$ so na splošno oblike
 M = \left[\begin{array}{cc}
 A & B\\
 C & D
-\end{array}\right],
+\end{array}\right]\!,
 \label{eq:ABCDdef}
 \end{equation}
 zato jih imenujemo matrike ABCD\index{Matrike ABCD}. Poglejmo nekaj primerov. 
@@ -757,7 +778,7 @@ y_{2}\\
 \end{array}\right]=\left[\begin{array}{c}
 y_{1}+d\vartheta_{1}\\
 \vartheta_{1}
-\end{array}\right].
+\end{array}\right]\!.
 \end{equation}
 To zapišemo v matrični obliki
 \begin{equation}
@@ -770,19 +791,19 @@ y_{2}\\
 \end{array}\right]\cdot\left[\begin{array}{c}
 y_{1}\\
 \vartheta_{1}
-\end{array}\right].
+\end{array}\right]\!.
 \end{equation}
 Matrika za premik $d$ vzdolž optične osi je tako
 \begin{equation}
 M= \left[\begin{array}{cc}
 1 & d\\
 0 & 1
-\end{array}\right].
+\end{array}\right]\!.
 \label{eq:MABCD1}
 \end{equation}
 Poglejmo še matriko za prehod skozi lečo. 
 Pri prehodu skozi tanko lečo se spremeni nagib žarka. Če je žarek pred
-lečo vzporeden z optično osjo, gre za lečo skozi gorišče, zato 
+lečo vzporeden z optično osjo, gre za lečo skozi gorišče, zato velja
 \begin{equation}
 \left[\begin{array}{c}
 y_{2}\\
@@ -796,7 +817,7 @@ y_{1}\\
 \end{array}\right]\cdot\left[\begin{array}{c}
 y_{1}\\
 0
-\end{array}\right].
+\end{array}\right]\!.
 \end{equation}
 Pri tem koeficientov $B$ in $D$ še ne poznamo. Določimo jih iz drugega pogoja, 
 ki pravi, da se žarek, ki gre skozi lečo na osi, ne spremeni
@@ -813,14 +834,14 @@ y_{2}\\
 \end{array}\right]\cdot\left[\begin{array}{c}
 0\\
 \vartheta_{1}
-\end{array}\right].
+\end{array}\right]\!.
 \end{equation}
- Sledi $B=0$ in $D=1$. Matrika za prehod skozi lečo je tako 
+ Sledi $B=0$ in $D=1$. Matrika za prehod skozi tanko lečo je tako 
 \begin{equation}
 M= \left[\begin{array}{cc}
 1 & 0\\
 -\frac{1}{f} & 1
-\end{array}\right].
+\end{array}\right]\!.
 \label{eq:MABCD2}
 \end{equation}
 Podobno izpeljavo kot za prehod skozi lečo naredimo za odboj na krogelnem zrcalu
@@ -833,8 +854,9 @@ M=\left[\begin{array}{cc}
 \end{equation}
 pri čemer je $R>0$ za konkavna zrcala. Matrika za odboj na ravnem zrcalu je identiteta.
 
-Matriko sestavljene optične naprave zapišemo kot produkt matrik posameznih komponent. 
-Pri tem moramo paziti na vrstni red množenja, saj množenje matrik ni komutativno.
+Matriko sestavljene optične naprave zapišemo kot produkt matrik posameznih komponent, pri čemer
+ne smemo pozabiti na premike med posameznimi elementi. Paziti moramo tudi na 
+vrstni red množenja, saj množenje matrik ni komutativno.
 Matriko preslikave z dvema optičnima elementoma, pri čemer žarek 
 najprej preide element z indeksom 1 in nato element z indeksom 2, zapišemo kot 
 \begin{align}
@@ -847,7 +869,7 @@ C_{2} & D_{2}
 \end{array}\right]\cdot\left[\begin{array}{cc}
 A_{1} & B_{1}\\
 C_{1} & D_{1}
-\end{array}\right].
+\end{array}\right]\!.
 \end{align}
 V sistemu z več elementi zapišemo produkt matrik za vse elemente, 
 vendar ne smemo pozabiti na premike med posameznimi elementi.
@@ -879,20 +901,17 @@ rezultatov geometrijske optike v optiko Gaussovih snopov.
 \end{remark}
 
 \section{Linearne racionalne transformacije kompleksnega krivinskega radija}
-
+\label{chap:ABCD}
 Poskusimo zapisati podoben formalizem za kompleksne krivinske
 radije. Za opis Gaussovega snopa zadošča, da v izbrani ravnini $z$ poznamo kompleksni
 krivinski radij $q$. Vemo, da je $q$ linearna funkcija
-premika po $z$ (enačba~\ref{eq:q}), in vemo, kako se $q$ 
-spremeni pri prehodu skozi tanko lečo (enačba~\ref{eq:preslikava-zveza-leca}). 
-
-Pri premiku iz ravnine $z_1$ v ravnino $z_2$, ki je od prve oddaljena
+premika po $z$ (enačba~\ref{eq:q}). Pri premiku iz ravnine $z_1$ v ravnino $z_2$, ki je od prve oddaljena
 za $d$, se $q$ spremeni 
 \begin{equation}
 q_2=q_1+d.
 \label{eq:abcdq1}
 \end{equation}
-Po enačbi~(\ref{eq:preslikava-zveza-leca}) je pri prehodu skozi lečo
+Vemo tudi, kako se $q$ spremeni pri prehodu skozi tanko lečo (enačba~\ref{eq:preslikava-zveza-leca})
 \begin{equation}
 q_2=\frac{q_1f}{f-q_1}=\frac{q_1}{-\frac{q_1}{f}+1}.
 \label{eq:abcdq2}
@@ -918,7 +937,7 @@ C & D
 in iz enačb (\ref{eq:abcdq1}, \ref{eq:abcdq2} in \ref{eq:premikleca}) razberemo 
 koeficiente matrik \index{Matrike ABCD} za opisane 
 preslikave, vidimo, da so povsem enaki koeficientom matrik ABCD, ki jih poznamo iz
-geometrijske optike (\ref{eq:MABCD1}, \ref{eq:MABCD2} in \ref{eq:Mdf}). Na splošno
+geometrijske optike (enačbe~\ref{eq:MABCD1}, \ref{eq:MABCD2} in \ref{eq:Mdf}). Na splošno
 velja, da lahko matrike, ki jih
 poznamo iz geometrijske optike, uporabimo tudi za izračun preslikave snopov,
 vendar v tem primeru elemente matrike razvrstimo v ulomljeno linearno preslikavo.
@@ -929,9 +948,10 @@ ABCD enaka 1. V nasprotnem
 primeru je determinanta matrike enaka razmerju lomnih količnikov začetne in končne snovi
 \begin{equation}
 \det(M) = AD-BC = \frac{n_1}{n_2}.
+\label{eq:detabcd}
 \end{equation}
 \newpage
-\begin{table}[t!]
+\begin{table}[ht]
  \centering
   \begin{tabular}{|c|c|c|} \hline
   Opis prehoda & Skica & Matrika za prehod \\ \hline   
@@ -957,16 +977,17 @@ primeru je determinanta matrike enaka razmerju lomnih količnikov začetne in ko
 \end{table}
 
 \begin{definition}
-Pokaži, da za naslednje prehode veljajo ustrezne matrike ABCD. \\ \\
-\begin{tabular}{|c|c|c|} \hline  
+Pokaži, da za naslednje prehode veljajo ustrezne matrike ABCD.
+\vglue2truemm
+\begin{tabular}{|c|c|c|} \hline 
       Prehod skozi prostor in lečo & \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_df.pdf_tex}} & 
       $\begin{bmatrix} 1 & d\\ -\frac{1}{f} & 1-\frac{d}{f} \end{bmatrix}$ \\ \hline
       \parbox[c]{12em}{Prehod skozi lečo z debelino $d$ 
-      in krivinskima radijema $R_1$ in $R_2$}& 
+      in krivinskima radijema $R_1$ in $R_2$, kjer sta $f_{i}=R_{i}/(n-1)$}& 
       \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_fd.pdf_tex}} & 
       $\begin{bmatrix} 1-\frac{d}{nf_{1}} & \frac{d}{n}\\
       -\frac{1}{f_2}- \frac{1}{f_1}+\frac{d}{nf_1f_2}& 1-\frac{d}{nf_{2}} \end{bmatrix}$
-      $f_{i}=\frac{R_{i}}{n-1}$\\ \hline
+      \\ \hline
       Prehod skozi zaporedje plasti & \parbox[c]{3cm}{\def\svgwidth{3cm}\input{slike/03_matrika_nN.pdf_tex}} & 
       $\begin{bmatrix} 1 & \sum_{i=1}^{N}\frac{d_{i}}{n_{i}}\\ 0 & 1 \end{bmatrix}$ \\ \hline 
 \end{tabular}
