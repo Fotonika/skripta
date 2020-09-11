@@ -88,15 +88,15 @@ splošnega tenzorja tretjega ranga smo uvedli matriko velikosti $3\times6$,
 v kateri je zaradi simetrije navadno le nekaj komponent 
 različnih od nič. 
 
-Kadar je v snovi absorpcija dovolj majhna, lahko matriko poenostavimo
+Kadar je absorpcija v snovi dovolj majhna, lahko matriko poenostavimo
 z dodatnim približkom, tako imenovano  
-\index{Kleinmanova domneva} Kleinmanovo domnevo\footnote{D. A. Kleinman, Phys. Rev. $\mathbf{126}$, 1977 (1962).}.
+\index{Kleinmanova domneva} Kleinmanovo domnevo\footnote{~D. A. Kleinman, Phys. Rev. $\mathbf{126}$, 1977 (1962).}.
 Ta pravi, da je 
 \begin{equation}
 \chi_{ijk} = \chi_{ikj} = \chi_{kij} = \chi_{kji} = \chi_{jik} = \chi_{jki}.
 \label{Klein}
 \end{equation}
-\begin{table}[!h]
+\begin{table}[ht]
  \centering
 \begin{tabular}{|c|c|c|c|} \hline  
       Kristal & Grupa & Neničelne komponente tenzorja $\chi$ & Vrednosti ($10^{-12}~\si{\metre/\volt}$)\\ \hline
@@ -142,24 +142,24 @@ Z upoštevanjem Kleinmanove domneve se število različnih členov še zmanjša 
 \begin{equation}
 \chi_{xxz} = \chi_{xzx} = \chi_{yyz} = \chi_{yzy} =\chi_{zxx} = \chi_{zyy} \qquad \mathrm{in} \qquad \chi_{zzz}.   
 \end{equation}
-Primerjajmo rezultat s tabelo~(\ref{table:chi}).\footnote{A. Yariv in 
+Primerjajmo rezultat s tabelo~\ref{table:chi}\footnote{~A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007) in
-{\it CRC Handbook of Chemistry and Physics}, CRC Press (2002).} V tabeli
-so navedene izmerjene nelinearne susceptibilnosti\footnote{Izmerjene vrednosti, 
-ki jih najdemo v literaturi, se od vira do vira pogosto znatno razlikujejo.} in vidimo, da Kleinmanova
+{\it CRC Handbook of Chemistry and Physics}, CRC Press (2002).}, v kateri
+so navedene izmerjene nelinearne susceptibilnosti\footnote{~Izmerjene vrednosti, 
+ki jih najdemo v literaturi, se od vira do vira pogosto znatno razlikujejo.}. Vidimo, da Kleinmanova
 domneva ni povsem točna, je pa razmeroma dober približek. 
 
 \section{Nelinearni optični pojavi drugega reda}
 \index{Nelinearna optika!drugega reda}
 Vzemimo optično nelinearni kristal s $\chi^{(2)} \neq 0$. V smeri pravokotno 
-glede na njegovo mejno ploskev naj vpadata dve valovanji s frekvencama\footnote{Tudi 
+glede na njegovo mejno ploskev naj vpadata dve valovanji s frekvencama\footnote{~Tudi 
 v tem poglavju bomo $\omega$ namesto krožna frekvenca pogosto imenovali zgolj frekvenca.}
 $\omega_{1}$ in $\omega_{2}$. Zaradi nelinearne sklopitve nastajajo v snovi nova 
 valovanja z različnimi kombinacijami frekvenc (slika~\ref{fig:nl2}).
 Tako poleg valovanj z osnovnima frekvencama izhajajo iz kristala tudi 
 valovanja pri dvakratnikih obeh vstopnih frekvenc, pri njuni vsoti, 
 razliki in celo pri frekvenci nič. Oglejmo si te pojave podrobneje.
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/08_nl3.pdf_tex}
@@ -182,7 +182,7 @@ statičnega polja pri $\omega = 0$ optično usmerjanje\index{Optično usmerjanje
 
 Navadna valovna enačba za opis svetlobe v snovi  
 ne velja za opis pojavov pri velikih 
-intenzitetah vpadnih valovanj, saj se pojav nelinearna polarizacija. Valovanje 
+intenzitetah vpadnih valovanj, saj se pojavi nelinearna polarizacija. Valovanje 
 v takem primeru opišemo z nelinearno valovno 
 enačbo\index{Valovna enačba!nelinearna}
 \boxeq{8.3}{
@@ -194,10 +194,10 @@ enačbo\index{Valovna enačba!nelinearna}
 Iz Maxwellovih enačb (enačbe~\ref{eq:Maxwell1}--\ref{eq:Maxwell4}) izpelji 
 nelinearno valovno enačbo (enačba~\ref{8.3}), pri čemer upoštevaj enačbo~(\ref{8.1}). 
 Pomagaj si z identiteto
-$$
+\begin{equation}
 \nabla \times (\nabla \times \mathbf{A}) = \nabla (\nabla \cdot \mathbf{A}) 
 - \nabla^2 \mathbf{A}.
-$$
+\end{equation}
 \end{definition} 
 
 Nelinearne valovne enačbe na splošno ne znamo rešiti, zato se zatečemo k približkom.
@@ -210,14 +210,14 @@ da so amplitude nastalih valov vedno majhne, vendar je lahko, kot bomo videli
 pozneje, le eno nastalo valovanje naenkrat po jakosti primerljivo z vpadnima. 
 
 V snovi so tako prisotna tri valovanja:
-dve vpadni in tretje, novo nastalo. Zapišemo jih z 
+dve vpadni in eno novonastalo. Zapišemo jih z 
 \begin{align}
 \mathbf{E}_{1} & =  \frac{\mathbf{e}_{1}}{2}\left(A_{1}(z)\, 
-e^{i(k_{1}z-\omega_{1}t)}+A_{1}^{*}(z)\, e^{-i(k_{1}z-\omega_{1}t)}\right),\nonumber \\
+e^{i(k_{1}z-\omega_{1}t)}+A_{1}^{*}(z)\, e^{-i(k_{1}z-\omega_{1}t)}\right)\!,\nonumber \\
 \mathbf{E}_{2} & =  \frac{\mathbf{e}_{2}}{2}\left(A_{2}(z)\, 
-e^{i(k_{2}z-\omega_{2}t)}+A_{2}^{*}(z)\, e^{-i(k_{2}z-\omega_{2}t)}\right) \quad \mathrm{in} \nonumber \\
+e^{i(k_{2}z-\omega_{2}t)}+A_{2}^{*}(z)\, e^{-i(k_{2}z-\omega_{2}t)}\right) \qquad \mathrm{in} \nonumber \\
 \mathbf{E}_{3} & =  \frac{\mathbf{e}_{3}}{2}\left(A_{3}(z)\, 
-e^{i(k_{3}z-\omega_{3}t)}+A_{3}^{*}(z)\, e^{-i(k_{3}z-\omega_{3}t)}\right).
+e^{i(k_{3}z-\omega_{3}t)}+A_{3}^{*}(z)\, e^{-i(k_{3}z-\omega_{3}t)}\right)\!.
 \end{align}
 Ker valovna enačba (enačba~\ref{8.3}) ni linearna, smo polja 
 zapisali v realni obliki s kompleksno konjugiranimi
@@ -236,22 +236,22 @@ je ugotoviti, kako se zaradi nelinearnih pojavov spreminjajo amplitude posamezni
 Nastavek za polje, ki bo približno rešil nelinearno valovno enačbo, je tako
 \begin{equation}
 \mathbf{E}(z,t) = \sum_{n=1}^3 \frac{\mathbf{e}_{n}}{2}\left(A_{n}(z)\, 
-e^{i(k_{n}z-\omega_{n}t)}+A_{n}^{*}(z)\, e^{-i(k_{n}z-\omega_{n}t)}\right).
+e^{i(k_{n}z-\omega_{n}t)}+A_{n}^{*}(z)\, e^{-i(k_{n}z-\omega_{n}t)}\right)\!.
 \label{eq:nlnastavek}
 \end{equation}
 Izračunajmo najprej 
 \begin{equation}
 \nabla^{2}\mathbf{E}=-\sum_{n=1}^3 \frac{\mathbf{e}_{n}}{2}\left(k_{n}^{2}A_{n}(z)-2ik_{n}
-\frac{dA_{n}(z)}{dz}\right)\, e^{i(k_{n}z-\omega_{n}t)}+\mbox{k.\,k.}
+\frac{dA_{n}(z)}{dz}\right)\, e^{i(k_{n}z-\omega_{n}t)}+\mathrm{k.~k.}
 \label{8.5}
 \end{equation}
 S k.\,k. smo označili kompleksno konjugirani del. Upoštevali smo,
-da se amplituda $A_{n}(z)$ le počasi spreminja s krajem in smo zato njen
+da se amplituda $A_{n}(z)$ le počasi spreminja s krajem, zato smo njen
 drugi odvod po kraju zanemarili.
 Izračunamo še drugi odvod po času 
 \begin{equation}
 \frac{\partial^2\mathbf{E}}{\partial t^2}=\sum_{n=1}^3 \frac{\mathbf{e}_{n}}{2}
-\left(-\omega_n^2\right) \left(A_{n}(z)\, e^{i(k_{n}z-\omega_{n}t)}+\mbox{ k. k.}\right).
+\left(-\omega_n^2\right) \left(A_{n}(z)\, e^{i(k_{n}z-\omega_{n}t)}+\mathrm{k.~k.}\right)\!.
 \label{8.5a}
 \end{equation}
 Nelinearna polarizacija vsebuje produkte polj, ki nihajo z
@@ -259,19 +259,21 @@ vsotami in razlikami parov frekvenc $\omega_{1}$, $\omega_{2}$ in
 $\omega_{3}$.
 
 Vstavimo nastavek za polje (enačba~\ref{eq:nlnastavek}) 
-in dobimo\footnote{Spomnimo, da je $\chi^{(2)}:\mathbf{e}_{n}\,\mathbf{e}_{m}$ 
+in dobimo\footnote{~Spomnimo, da je $\chi^{(2)}:\mathbf{e}_{n}\,\mathbf{e}_{m}$ 
 notranji produkt tenzorja z enotskima vektorjema polarizacije, 
 katerega $i$-ta komponenta se izračuna kot $\sum_{jk}\chi^{(2)}_{ijk}\mathbf{e}_{nj}\,\mathbf{e}_{mk}$.
 Indeksa $n$ in $m$ označujeta valovanje, $i, j$ in $k$ pa kartezične koordinate.}
-\begin{multline}
+\begin{equation}
+\begin{split}
 \mathbf{P}_{\mathrm{NL}}= \epsilon_{0}\chi^{(2)}:\mathbf{E}\, \mathbf{E} =
 \varepsilon_0 \sum_{n=1}^3 \sum_{m=1}^3 
  \left( \frac{1}{4} \chi^{(2)}:\mathbf{e}_{n}\,\mathbf{e}_{m}\right) 
  A_{n}(z)\,A_{m}(z) e^{i(k_{n}+k_{m})z-i(\omega_{n}+\omega_{m})t}+  \\
 \left( \frac{1}{4} \chi^{(2)}:\mathbf{e}_{n}\,\mathbf{e}_{m}\right)
-A_{n}(z)\,A_{m}^*(z) e^{i(k_{n}-k_{m})z-i(\omega_{n}-\omega_{m})t}+ \mathrm{k. k.}
+A_{n}(z)\,A_{m}^*(z) e^{i(k_{n}-k_{m})z-i(\omega_{n}-\omega_{m})t}+ \mathrm{k.~k.}
 \label{8.5b}
-\end{multline}
+\end{split}
+\end{equation}
 Valovna enačba (enačba~\ref{8.3}) je izpolnjena ob vsakem času $t$, če se izrazi 
 pri istih časovnih odvisnostih, to je pri istih frekvencah, ujemajo. Najprej 
 zberemo člene pri $\omega_3 = \omega_1 + \omega_2$. Dobimo
@@ -281,7 +283,7 @@ ik_{3}\mathbf{e}_{3}\frac{dA_{3}}{dz}e^{ik_{3}z}=-\frac{\mu_{0}
 \label{8.7}
 \end{equation}
 Množimo obe strani skalarno z $\mathbf{e}_{3}$, upoštevamo zvezo med $k_{3}$ in $\omega_{3}$
-in ravnamo podobno še za drugi dve valovanji. Dobimo sistem sklopljenih
+ter ravnamo podobno še za drugi dve valovanji. Dobimo sistem sklopljenih
 enačb za amplitude valovanj v optično nelinearnem sredstvu
 \boxeq{eq:nlAz}{
 \frac{dA_{3}}{dz} &= \frac{i\omega_{3}\chi_{ef}}{4c_0 n_3} A_{1}\, A_{2}\, e^{-i\Delta kz}\\
@@ -290,9 +292,12 @@ enačb za amplitude valovanj v optično nelinearnem sredstvu
 }
 Pri tem je $\Delta k$ razlika valovnih vektorjev
 \begin{equation}
-\Delta k = k_{3}-k_{1}-k_{2},
+\Delta k = k_{3}-k_{1}-k_{2}.
 \end{equation}
-s $\chi_{ef}$ pa smo označili efektivno susceptibilnost.\footnote{Glej npr. F. Zernike in J. E. Midwinter, 
+Čeprav je $\omega_{3}-\omega_{2}-\omega_{1}=0$, je $\Delta k$ navadno različen od nič zaradi 
+disperzije lomnega količnika. Videli bomo, da je to ključnega pomena 
+pri vrsti nelinearnih optičnih pojavov. S $\chi_{ef}$ pa smo označili efektivno 
+susceptibilnost.\footnote{~Glej npr. F. Zernike in J. E. Midwinter, 
 {\it Applied Nonlinear Optics}, John Wiley \& Sons, Inc. (1973).}
 Izračunamo jo kot \index{Susceptibilnost!efektivna}
 \begin{equation}
@@ -326,7 +331,7 @@ $\mathbf{E}_2$ z enakima frekvencama $\omega_{1}=\omega_{2}=\omega$. Vpadni valo
 razlikujemo zaradi možnosti dveh različnih polarizacij. Izhodna svetloba vsebuje valovanje
 s frekvenco $\omega_{3}=2\omega$, zato govorimo o frekvenčnem 
 podvajanju\index{Frekvenčno podvajanje}. To je
-najpreprostejši in tudi najpomembnejši nelinearni optični pojav.\footnote{P. A. Franken et al, Phys. Rev. Lett.
+najpreprostejši in tudi najpomembnejši nelinearni optični pojav.\footnote{~P. A. Franken et al, Phys. Rev. Lett.
 $\mathbf{7}$, 118 (1961).} 
 Pogosto ga uporabljamo za pridobivanje laserske svetlobe pri krajših valovnih dolžinah, na primer
 pri Nd:YAG laserju\index{Laser!Nd:YAG}, ko infrardeče izhodno valovanje ($1064~\si{\nano\metre}$) 
@@ -343,22 +348,21 @@ A_{2\omega}(L)=\frac{i\omega \chi_{ef} A_0^2}{2c_0 n_{2\omega}}
 \,e^{-i\Delta kL/2}\, \frac{\sin\left(\frac{\Delta k L}{2}\right)}{\frac{\Delta kL}{2}}L,
 \label{8.9}
 \end{equation}
-kjer smo z $n_{2\omega}$ označili lomni količnik pri dvojni frekvenci.
+pri čemer smo z $n_{2\omega}$ označili lomni količnik pri dvojni frekvenci.
 Iz tega izraza izračunamo izhodno gostoto svetlobnega toka pri dvojni
-frekvenci (enačba~\ref{eq:jcw})
+frekvenci. Upoštevamo enačbo~(\ref{eq:jcw}) in dobimo
 \begin{equation}
 j_{2\omega}(L) =\frac{1}{2}\epsilon_{0}n_{2\omega}c_0|A_3|^2 = 
 \frac{\omega^2 \chi_{ef}^2}{2 n_{2\omega} n_\omega^2c_0^3\varepsilon_0} j_\omega^2 L^2
 \left(\frac{\sin\left(\frac{\Delta k L}{2}\right)}{\frac{\Delta kL}{2}}\right)^2.
 \label{8.10}
 \end{equation}
-\vglue-3truemm
 \begin{remark}
 Pri izpeljavi frekvenčnega podvajanja iz enačb za nelinearne pojave drugega
 reda (enačbe~\ref{eq:nlAz}--\ref{eq:nlA3}) moramo biti pazljivi. 
 Uporabili smo splošne enačbe in predpostavili, da je 
 vpadno valovanje se\-stav\-lje\-no iz dveh ločenih valovanj s frekvenco $\omega$
-z gostoto svetlobnega toka $j_\omega$. Lahko pa frekvenčno podvajanje obravnavamo
+in gostoto svetlobnega toka $j_\omega$. Lahko pa frekvenčno podvajanje obravnavamo
 z enim vpadnim valovanjem s frekvenco $\omega$ in gostoto svetlobnega toka $2j_\omega$, 
 ki nelinearno interagira samo s sabo. Takrat je zapis enačb za predfaktor
 drugačen, končni rezultat pa seveda enak. 
@@ -370,19 +374,20 @@ energijskim tokom pri podvojeni in osnovni frekvenci (izkoristek pretvorbe) enak
 \boxeq{8.11}{
 \frac{P_{2\omega}}{P_{\omega}}=
 \frac{\omega^2 \chi_{ef}^2}{2 S n_{2\omega} n_\omega^2c_0^3\varepsilon_0} P_\omega L^2
-\left(\frac{\sin\left(\frac{\Delta k L}{2}\right)}{\frac{\Delta kL}{2}}\right)^2.
+\left(\frac{\sin\left(\frac{\Delta k L}{2}\right)}{\frac{\Delta kL}{2}}\right)^2\!.
 }
-
+Izkoristek pretvorbe v frekvenčno podvojeno valovanje narašča z močjo vpadnega valovanja.
+Vendar je pomembnejši faktor, ki v enačbi~(\ref{8.11}) nastopa v oklepaju.
 Odvisnost faktorja v oklepaju od $\Delta kL/2$ je prikazana 
 na sliki~\ref{fig:shg2}. Vidimo, da je faktor največji pri $\Delta kL = 0$, potem pa zelo hitro
 pade na zelo majhne vrednosti. 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{72truemm} 
 \input{slike/08_shg2.pdf_tex}
 \caption{Izkoristek pretvorbe v frekvenčno podvojeno valovanje $j_{2\omega}/j_\omega$ je 
 sorazmeren s funkcijo $(\sin(x)/x)^2$,
-kjer je $x = \Delta k L/2$ (enačba~\ref{8.11}). 
+pri čemer je $x = \Delta k L/2$ (enačba~\ref{8.11}). 
 Pri tem $\Delta k$ označuje razliko valovnih vektorjev in
 $L$ prepotovano pot v kristalu.}
 \label{fig:shg2}
@@ -420,7 +425,7 @@ j_{2\omega} (L) = j_\omega \tanh^2 \left(\chi_{ef}\omega L \sqrt{\frac{j_\omega}
 Namig: upoštevaj, da se celotna energija ohranja.
 \end{definition}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{72truemm} 
 \input{slike/08_shg_depletion.pdf_tex}
@@ -428,7 +433,7 @@ Namig: upoštevaj, da se celotna energija ohranja.
 pri $\Delta k = 0$.
 Če privzamemo, da se gostota svetlobnega toka osnovnega žarka ne zmanjšuje, 
 je odvisnost parabolična (rdeča krivulja), kar 
-je dober približek le za majhne gostote toka. Bolj natančen izračun pokaže, da je izkoristek 
+je dober približek le za majhne gostote toka. Natančnejši izračun pokaže, da je izkoristek 
 pretvorbe sorazmeren s $\tanh^2(\kappa L)$ (enačba~\ref{eq:nondepl}, črna krivulja).}
 \label{fig:shg2dep}
 \end{figure}
@@ -436,10 +441,10 @@ pretvorbe sorazmeren s $\tanh^2(\kappa L)$ (enačba~\ref{eq:nondepl}, črna kriv
 Kaj pa se zgodi, kadar pogoj ujemanja faz ni izpolnjen in 
  $\Delta k \neq 0$? Takrat lahko  $L^2$ v enačbi~(\ref{8.11})
 okrajšamo in izkoristek pretvorbe z naraščajočim
-$L$ sinusno niha med nič in neko največjo vrednostjo. Omenjen pojav lahko opazimo, če
-uporabimo klinast vzorec, ki se mu debelina spreminja, ali če vzorec sučemo 
+$L$ sinusno niha med nič in neko največjo vrednostjo. Ta pojav lahko opazimo, če
+uporabimo klinast vzorec, ki se mu spreminja debelina, ali če vzorec sučemo 
 in tako spreminjamo razliko faz. Pojav, imenujemo ga Makerjeve 
-oscilacije\footnote{P. D. Maker et al., Phys. Rev. Lett. $\mathbf{8}$, 21 (1962).}, 
+oscilacije\footnote{~P. D. Maker et al., Phys. Rev. Lett. $\mathbf{8}$, 21 (1962).}, 
 uporabljamo za merjenje nelinearne susceptibilnosti kristalov.\index{Makerjeve oscilacije}
 
 \subsection*{Ujemanje faz}
@@ -450,7 +455,8 @@ frekvenčno podvajanje. Spomnimo se, da je pogoj za ujemanje faz
 \Delta k = k_3 - k_1 -k_2 = k_3(2\omega) - k_1(\omega) -k_2(\omega) = 
 \frac{2\omega}{c_0} n_3(2\omega) - \frac{\omega}{c_0} n_1(\omega)- \frac{\omega}{c_0} n_2(\omega) =0.
 \end{equation}
-Pri tem smo lomnim količnikom pripisali ustrezno frekvenco svetlobe in jo navedli v oklepaju. Dobimo
+Valovna števila izrazimo s krožnimi frekvencami, pri čemer 
+lomnim količnikom pripišemo ustrezno frekvenco svetlobe in jo navedemo v oklepajih. Dobimo
 pogoj za ujemanje faz 
 \boxeq{eq:dk0}{
 n_1(\omega) + n_2(\omega) = 2n_3(2\omega).
@@ -460,7 +466,7 @@ anizotropnih kristalih. Omejimo se le na optično
 enoosne kristale\index{Dvolomnost!enoosne snovi} brez absorpcije in z 
 normalno disperzijo, pri katerih oba lomna količnika naraščata s frekvenco.  
 
-Za razumevanje je najbolj nazoren grafični prikaz (slika~\ref{fig:dk}), pri katerem
+Za razumevanje je najnazornješi grafični prikaz (slika~\ref{fig:dk}), pri katerem
 rišemo presek ploskve valovnega vektorja z ravnino, določeno z optično osjo in valovnim
 vektorjem (glej razdelek~\ref{chap:anizotropni}). 
 Za vsako smer valovnega vektorja obstajata dve rešitvi:
@@ -483,7 +489,7 @@ ki jo določata smer optične osi in smer valovnega vektorja, polarizacija
 izhodnega frekvenčno podvojenega žarka pa 
 je pravokotna na optično os. Zapišimo ta razmislek še z enačbo.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/08_phasematch.pdf_tex}
@@ -509,8 +515,7 @@ Ko izenačimo $n_o(2\omega) = n(\omega,\vartheta_m)$, dobimo
 {(n_{o}(\omega))^{-2}-(n_{e}(\omega))^{-2}},
 \label{8.13}
 \end{equation}
-iz katerega lahko izračunamo kot $\vartheta_m$, pri katerem pride do ujemanja faz.
-\vglue-2truemm
+iz česar lahko izračunamo kot $\vartheta_m$, pri katerem pride do ujemanja faz.
 \begin{definition}
 Pokaži, da v primeru negativne anizotropije (slika~\ref{fig:dk}\,b) 
 pogoj za ujemanje faz zapišemo kot
@@ -521,9 +526,9 @@ pogoj za ujemanje faz zapišemo kot
 \end{equation}
 \end{definition}
 
-S slik~\ref{fig:dk} c in d razberemo, da obstaja še en primer, pri 
-katerem je izpolnjen pogoj za ujemanje faz. Kot zgled t.\ i.\ ujemanja faz druge vrste
-obravnavajmo primer na sliki (c).
+S slik~\ref{fig:dk}\,c in d razberemo, da obstaja še en primer, pri 
+katerem je izpolnjen pogoj za ujemanje faz. Kot zgled tako imenovanega ujemanja faz druge vrste
+obravnavajmo primer na sliki~\ref{fig:dk}\,c.
 Vzemimo različno polarizirani vhodni valovanji z ustreznima različnima lomnima
 količnikoma $n_o(\omega)$ in $n(\omega,\vartheta)$, ki ju na sliki predstavljata
 rdeča krog in elipsa.
@@ -547,19 +552,18 @@ $\vartheta_m$ (enačbi~\ref{8.13} in \ref{8.13a}). Zaradi simetrije
 to pomeni, da obstaja cel stožec smeri, v katerih se faze ujemajo.
 Drugi kot, ki določa smer širjenja valovanja v ravnini, pravokotni na optično os, 
 izberemo tako, da izkoristimo največje komponente nelinearne 
-susceptibilnosti.\footnote{Glej npr. C. C. Davis, {\it Lasers and Electro-Optics}, 
+susceptibilnosti.\footnote{~Glej npr. C. C. Davis, {\it Lasers and Electro-Optics}, 
 Cambridge University Press (2006).}
-\newpage
 
 Poglejmo primer KDP (KH$_{2}$PO$_{4}$)\index{KDP}, ki je negativno anizotropen 
 z vrednostmi $n_o(\omega) = 1,4942$, 
-$n_e(\omega) = 1,4603$, $n_o(2\omega) = 1,5129$ in $n_e(2\omega) = 1,4709$.\footnote{A. Yariv in 
+$n_e(\omega) = 1,4603$, $n_o(2\omega) = 1,5129$ in $n_e(2\omega) = 1,4709$.\footnote{~A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007).}
 Podatki so za valovno dolžino osnovnega snopa 1064~nm. 
 Zaradi negativne anizotropije za izračun kota ujemanja faz 
 uporabimo enačbo~(\ref{8.13a}) in dobimo $\vartheta_m = 41,25^\circ$. 
-Poleg tega iz tabele~(\ref{table:chi}) razberemo, da ima nelinearna susceptibilnost v tetragonalni
-simetriji $\bar{4}2m$ od nič različne komponente $\chi_{xyz}$, $\chi_{xzy}$, $\chi_{yxz}$,
+Poleg tega iz tabele~\ref{table:chi} razberemo, da ima nelinearna susceptibilnost v tetragonalni
+simetriji $\bar{4}2$m od nič različne komponente $\chi_{xyz}$, $\chi_{xzy}$, $\chi_{yxz}$,
 $\chi_{yzx}$, $\chi_{zxy}$ in $\chi_{zyx}$.
 Zaradi poenostavitve privzamemo, da so njihove vrednosti enake. 
 
@@ -572,12 +576,12 @@ $\mathbf{s}$ na ravnino $xy$
 \label{8.14}
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/08_chi.pdf_tex}
 \caption{K izračunu efektivne susceptibilnosti. Črtkan krog opisuje osnovno ploskev
-stožca, ki je določen s $\vartheta_m$, in pikčast krog njegovo projekcijo
+stožca, ki je določen s $\vartheta_m$, pikčast krog pa njegovo projekcijo
 na ravnino $xy$. Rdeč vektor označuje polarizacijo redno polariziranega valovanja in
 moder polarizacijo izredno polariziranega valovanja.}
 \label{fig:chi}
@@ -592,7 +596,7 @@ ravnino, ki jo tvorita os $z$ in vektor $\mathbf{s}$. Zapišemo jo kot
 \mathbf{e}_o=(e_{ox}, e_{oy}, e_{oz}) = (\sin\varphi,-\cos\varphi,0).
 \label{8.15}
 \end{equation}
-To najlažje preverimo, tako da postavimo vektor $\mathbf{s}$ enkrat v ravnino $xz$ in
+To najlažje preverimo tako, da postavimo vektor $\mathbf{s}$ enkrat v ravnino $xz$ in
 drugič v ravnino $yz$. Izredna polarizacija leži v ravnini, ki jo tvori 
 vektor $\mathbf{s}$ z osjo $z$, hkrati pa je približno pravokotna na vektor $\mathbf{s}$. 
 Majhno odstopanje zaradi anizotropije kristala tukaj zanemarimo. Izredno polarizacijo 
@@ -609,7 +613,7 @@ pri čemer upoštevamo, da sta žarka 1 in 2 pri osnovni frekvenci redno polariz
 \chi_{ef} = \sum_{ijk} \chi_{ijk} e_{3i} e_{1j} e_{2k} = \sum_{ijk} \chi_{ijk} e_{ei} e_{oj} e_{ok}.
 \end{equation}
 Krajši račun pokaže, da je zaradi oblike tenzorja nelinearne susceptibilnosti v izbranem 
-primeru od nič različna le ena komponenta nelinearne polarizacije, komponenta $z$. Zapišemo
+primeru od nič različna le ena komponenta nelinearne polarizacije, komponenta $z$. Dobimo
 \begin{equation}
 \chi_{ef} = \chi_{zxy} e_{ez} e_{ox} e_{oy} + \chi_{zyx} e_{ez} e_{oy} e_{ox}.
 \end{equation}
@@ -637,11 +641,11 @@ $n_e(\omega) = 6,2455$, $n_o(2\omega) = 4,8657$ in $n_e(2\omega) = 6,3152$.\inde
 
 \begin{remark}
 Namesto zvezne svetlobe za optično podvajanje frekvenc pogosto uporabimo kratke laserske sunke, saj je 
-vršna moč v njih zelo velika in je zato velika tudi pretvorba v frekvenčno podvojen signal.
+vršna moč v njih zelo velika in je zato velika tudi pretvorba v frekvenčno podvojeni signal.
 Vendar je treba biti pazljiv, saj lahko zaradi disperzije grupne hitrosti osnovni in 
 podvojeni signal ne potujeta z enakima hitrostma. Navadno podvojeni signal potuje 
 počasneje in zaostaja za osnovnim, zato lahko iz kristala izhaja razmeroma sploščen in 
-precej razvlečen frekvenčno podvojen sunek svetlobe. Pojav je izrazit predvsem pri podvajanju v
+precej razvlečen frekvenčno podvojeni sunek svetlobe. Pojav je izrazit predvsem pri podvajanju v
 ultravijolični del spektra.\index{Ultravijolično valovanje}
 \end{remark}
 
@@ -651,8 +655,8 @@ Doslej smo vpadno in frekvenčno podvojeno svetlobo obravnavali kot ravni valova
 ki sta bili razsežni v prečni smeri. Izračunali smo, da v primeru \index{Ujemanje faz}
 ujemanja faz ($\Delta k=0$)
 moč frekvenčno podvojene svetlobe narašča s kvadratom dolžine poti po nelinearnem
-sredstvu. Pretvorba v frekvenčno podvojeno svetlobo je po enačbi~(\ref{8.11}) tem
-učinkovitejša, čim večja je gostota svetlobnega toka pri osnovni frekvenci.
+sredstvu. Pretvorba v frekvenčno podvojeno svetlobo je po enačbi~(\ref{8.11}) sorazmerna
+z gostoto svetlobnega toka pri osnovni frekvenci.
 Zato v praksi vpadno svetlobo vselej zberemo in tako povečamo gostoto toka. 
 Pri tem moramo paziti, da je nelinearni kristal odporen proti poškodbam
 zaradi velike gostote svetlobnega toka. Odpornost in možnost izpolnitve kriterija ujemanja 
@@ -670,46 +674,47 @@ L=2z_{0}=2\frac{\pi w_{0}^{2}}{\lambda/n} = \frac{n w_0^2 \omega}{c_0}  \qquad \
 w_{0}^{2} = \frac{c_0 L}{n \omega}.
 \label{SHGG}
 \end{equation}
-Pri zapisu preseka vpadnega snopa upoštevajmo še faktor ena polovica, do katerega 
-pridemo, če integriramo gostoto svetlobnega toka
+Pri zapisu preseka vpadnega snopa upoštevajmo še faktor ena polovica, ki ga dobimo ob integraciji
+ gostote svetlobnega toka
 snopa po celotni površini (glej nalogo~\ref{naloga-širina-snopa}). Sledi
 \begin{equation}
 S=\frac{1}{2}\pi w_{0}^{2} = \frac{\pi c_0 L}{2 n \omega}.
 \end{equation}
-Večja ko je dolžina $L$, na kateri pride do frekvenčnega podvajanja, 
-večji je tudi presek snopa $S$ in zato intenziteta svetlobe manjša, kar zmanjša
-učinek pretvorbe v frekvenčno podvojeno valovanje.
+Večja ko je dolžina $L$, na kateri se svetloba frekvenčno podvaja, 
+večji je presek snopa $S$ in zato intenziteta svetlobe manjša, kar zmanjša
+učinek pretvorbe.
 V enačbi~(\ref{8.10}) upoštevamo ujemanje faz in $S$ pri podvojeni frekvenci. Dobimo
-\boxeq{8.17}{
+\begin{equation}
 \frac{P_{2\omega}}{P_{\omega}}=
 \frac{\omega^3 \chi_{ef}^2}{2\pi n_{2\omega} n_\omega c_0^4\varepsilon_0} P_\omega\, L.
-}
+\label{8.17}
+\end{equation}
 Ob optimalnem zbiranju je izkoristek pretvorbe torej sorazmeren z dolžino kristala.
 \begin{definition}
 Naj na $1~\si{\centi\metre}$ dolg kristal KH$_{2}$PO$_{4}$\index{KDP} vpada svetloba
 z valovno dolžino $1,06~\si{\micro\metre}$ in vhodno močjo $P_\omega = 5~\si{\kilo\watt}$.
-Efektivna nelinearna susceptibilnost je $\chi_{ef}=7\cdot10^{-13}~\si{\metre/\volt}$, 
+Efektivna nelinearna susceptibilnost je $\chi_{ef}=7\times 10^{-13}~\si{\metre/\volt}$, 
 $\Delta k=0$ in $n=1,5$. Izračunaj
 faktor pretvorbe v frekvenčno podvojeno svetlobo.
 Da je Rayleighova dolžina $2z_{0}=1~\si{\centi\metre}$, mora biti polmer
 grla okoli $40~\si{\micro\metre}$. Gostota svetlobnega toka v kristalu je pri
-tem $2\cdot10^{8}~\si{\watt/\centi\metre^{2}}$, kar je že blizu praga za poškodbe,
+tem $2\times 10^{8}~\si{\watt/\centi\metre^{2}}$, kar je že blizu praga za poškodbe,
 predvsem na vstopni ali izstopni ploskvi. 
 \end{definition}
 
 \section{{*}Račun podvajanja Gaussovih snopov}
 \index{Gaussov snop!frekvenčno podvajanje}
 V prejšnjem razdelku smo grobo ocenili vpliv oblike Gaussovih snopov
-na frekvenčno podvajanje. Naredimo zdaj še natančnejši izračun. Vrnimo se k valovni
-enačbi (enačba~\ref{8.3}), vpadna snopa naj bosta pri frekvencah
-$\omega_{1}$ in $\omega_{2}$ in nastajajoč snop pri frekvenci
+na frekvenčno podvajanje. Naredimo zdaj natančnejši izračun. Vrnimo se k valovni
+enačbi (enačba~\ref{8.3}), vpadna snopa naj bosta pri krožnih frekvencah
+$\omega_{1}$ in $\omega_{2}$ in nastajajoči snop pri frekvenci
 $\omega_{3}=\omega_{1}+\omega_{2}$.
 Vsako od polj ($i=1,2,3$) naj ima obliko 
 \begin{equation}
 \mathbf{E}_{i}  = \frac{\mathbf{e}_{i}}{2}\left(\tilde{A}_{i}(r,z)\, 
-e^{i(k_{i}z-\omega_{i}t)}+\tilde{A}_{i}^{*}(r,z)\, e^{-i(k_{i}z-\omega_{i}t)}\right),
+e^{i(k_{i}z-\omega_{i}t)}+\tilde{A}_{i}^{*}(r,z)\, e^{-i(k_{i}z-\omega_{i}t)}\right)\!,
 \end{equation}
-pri čemer je $\tilde{A}(r,z)$ funkcija tako vzdolžne kot tudi prečne koordinate. Privzamemo, 
+pri čemer je $\tilde{A}(r,z)$ funkcija tako vzdolžne kot prečne koordinate. Privzamemo, 
 da se vzdolž smeri  $z$ le počasi spreminja.
 Zaradi poenostavljenega zapisa vpeljemo nove spremenljivke 
 \begin{equation}
@@ -718,7 +723,7 @@ Zaradi poenostavljenega zapisa vpeljemo nove spremenljivke
 Tako je nastavek za jakost električnega polja
 \begin{equation}
 \mathbf{E}_{i}=\frac{\mathbf{e}_{i}}{2}\sqrt{\frac{\omega_{i}}{n_{i}}}\psi_{i}(r,z)
-e^{i(k_{i}z-\omega_{i}t)}+\mbox{ k. k.}
+e^{i(k_{i}z-\omega_{i}t)}+\mathrm{k.~k.}
 \label{8.18}
 \end{equation}
 Vstavimo nastavek (enačbe~\ref{8.18}) v valovno
@@ -729,13 +734,13 @@ $\psi$ po $z$. Od tod sledi sklopljen sistem obosnih enačb
 \nabla_{\perp}^{2}\psi_{1}+2ik_{1}\psi_{1}^{\prime} & =  -
 \frac{k_{1}}{2}\kappa\psi_{2}^{\ast}\psi_{3}e^{i\Delta kz},\label{SHGGAuss-1}\\
 \nabla_{\perp}^{2}\psi_{2}+2ik_{2}\psi_{2}^{\prime} & =  -
-\frac{k_{2}}{2}\kappa\psi_{1}^{\ast}\psi_{3}e^{i\Delta kz} \qquad \mathrm{in}\\
+\frac{k_{2}}{2}\kappa\psi_{1}^{\ast}\psi_{3}e^{i\Delta kz},\\
 \nabla_{\perp}^{2}\psi_{3}+2ik_{3}\psi_{3}^{\prime} & =
  - \frac{k_{3}}{2}\kappa\psi_{1}\psi_{2}e^{-i\Delta kz}
 \label{SHGGauss_3}
 \end{align}
-s pripadajočim sistemom kompleksno konjugiranih enačb. S črtico smo označili odvajanje po $z$. 
-Pri tem je 
+in pripadajoč sistem kompleksno konjugiranih enačb. S črtico smo označili odvajanje po $z$. 
+Vpeljali smo še parameter $\kappa$, za katerega velja
 \begin{equation}
 \kappa=\frac{\chi_{ef}}{c_0} \sqrt{\frac{\omega_{1}\omega_{2}\omega_{3}}{n_{1}n_{2}n_{3}}}.
 \label{8.20}
@@ -751,7 +756,7 @@ Vpadna snopa naj bosta enaka in Gaussove oblike~(enačba~\ref{eq:gaussov-snop}),
 njuna amplituda  naj bo enaka $A_1$
 \begin{equation}
 \psi_{1} = \psi_2 = A_{1}\frac{1}{1+iz/z_1}
-\exp\left(-\frac{r^{2}}{w_1^{2}(z)}+\frac{ik_1r^{2}}{2R_1(z)}\right).
+\exp\left(-\frac{r^{2}}{w_1^{2}(z)}+\frac{ik_1r^{2}}{2R_1(z)}\right)\!.
 \label{8.21}
 \end{equation}
 Privzamemo, da je izpolnjen pogoj za ujemanje faz\index{Ujemanje faz} 
@@ -760,20 +765,22 @@ ni treba upoštevati. Tudi za podvojeni snop privzamemo Gaussovo
 obliko, vendar naj njegova amplituda $A_3$ le počasi narašča. Zapišemo ga kot
 \begin{equation}
 \psi_{3}=A_{3}(z)\psi_{3H}(z,r)=A_{3}(z)\frac{1}{1+iz/z_{3}}
-\exp\left(-\frac{r^{2}}{w_{3}^{2}(z)}+\frac{ik_{3}r^{2}}{2R_{3}(z)}\right),
+\exp\left(-\frac{r^{2}}{w_{3}^{2}(z)}+\frac{ik_{3}r^{2}}{2R_{3}(z)}\right)\!,
 \label{8.22}
 \end{equation}
 pri čemer $\psi_{3H}$ reši homogeno obosno valovno 
 enačbo (enačba~\ref{eq:obosna-valovna-enacba}). Ko izraza za $\psi_{1}$
 in $\psi_{3}$ vstavimo v enačbo (\ref{SHGGauss_3}),
 ostane na levi le člen oblike $2ik_{3}A_{3}^{\prime}(z)\psi_{3H}$. Tako dobimo pogoj
-\begin{multline}
+\begin{equation}
+\begin{split}
 A_{3}^{\prime}(z)\frac{1}{1+iz/z_3}\exp\left(-\frac{r^{2}}{w_{3}^{2}(z)}+\frac{ik_{3}r^{2}}
 {2R_{3}(z)}\right)=\\
 \frac{i\kappa}{4}A_{1}^{2}\frac{1}{(1+iz/z_{1})^{2}}\exp\left(-\frac{2r^{2}}
-{w_{1}^{2}(z)}+\frac{ik_{1}r^{2}}{R_{1}(z)}\right).
+{w_{1}^{2}(z)}+\frac{ik_{1}r^{2}}{R_{1}(z)}\right)\!.
 \label{8.23}
-\end{multline}
+\end{split}
+\end{equation}
 Poiščimo rešitev te enačbe v obliki, za katero velja $w_{30}^{2}=w_{10}^{2}/2$. Tedaj je 
 \begin{equation}
 z_{3}=\frac{k_{3}w_{30}^{2}}{2}=\frac{2k_{1}w_{10}^{2}}{4}=z_{1}
@@ -789,7 +796,7 @@ snopa ravno na sredini nelinearnega sredstva, tako da integriramo
 od $-L/2$ do $L/2$
 \begin{align}
 A_{3}(L) & =  \frac{i\kappa}{4}A_{1}^{2}\int_{-L/2}^{L/2}\frac{dz}{1+iz/z_1} 
-  = \frac{\kappa}{4}A_{1}^{2}z_{1}\ln\frac{1+i\frac{L}{2z_{1}}}{1-i\frac{L}{2z_{1}}}= \nonumber \\
+  = \frac{\kappa}{4}A_{1}^{2}z_{1}\ln\frac{1+i\frac{L}{2z_{1}}}{1-i\frac{L}{2z_{1}}}\nonumber \\
  & =  \frac{\kappa}{2}A_{1}^{2}z_{1}\arctan\frac{L}{2z_{1}}\;.
 \end{align}
 Moč Gaussovega snopa je
@@ -799,16 +806,14 @@ P_{i}=\frac{1}{2}\pi w_{i0}^{2} \frac{1}{2}c_0 n_i \epsilon_{0}E_{i0}^{2}=
 \label{8.26}
 \end{equation}
 tako da je izkoristek pri frekvenčnem podvajanju Gaussovega snopa 
-\begin{equation}
-\begin{aligned}
+\begin{align}
 \frac{P_{2\omega}}{P_{\omega}}=\frac{A_3^2}{A_1^2}  = &
 \frac{\chi_{ef}^2 \omega^3 P_\omega z_1}{\pi c_0^4 \varepsilon_0 n_\omega n_{2\omega}} 
-\arctan^2 \left( \frac{L}{2z_1}\right) \\
+\arctan^2 \left( \frac{L}{2z_1}\right) \nonumber\\
  = &\frac{\chi_{ef}^2 \omega^3 P_\omega}{\pi c_0^4 \varepsilon_0 n_\omega n_{2\omega}} \frac{L}{2}
-\left(\frac {\arctan^2 \left( L/2z_1\right)}{L/2z_1}\right).
+\left(\frac {\arctan^2 \left( L/2z_1\right)}{L/2z_1}\right)\!.
 \label{8.27}
-\end{aligned}
-\end{equation}
+\end{align}
 Funkcija $(\arctan^{2}x)/x$ zavzame največjo vrednost 0,64 pri $x =L/2z_1=1,39$.
 Pri dani dolžini nelinearnega sredstva $L$ je torej 
 izkoristek največji, kadar je $z_{1}=0,36\,L$, kar je malo manj kot pri
@@ -829,7 +834,7 @@ rezultat le malo zgrešili, v obeh primerih pa izkoristek narašča linearno z d
 Oglejmo si še en zelo uporaben primer mešanja treh valovanj, 
 ki ga opisujejo enačbe (\ref{eq:nlAz}--\ref{eq:nlA3}). To je
 optično parametrično ojačevanje, pri katerem nelinearne optične pojave
-izkoristimo za ojačenje optičnih signalov.\footnote{N. M. Kroll, Phys. Rev. $\mathbf{127}$, 1207 (1962).}
+izkoristimo za ojačenje optičnih signalov.\footnote{~N. M. Kroll, Phys. Rev. $\mathbf{127}$, 1207 (1962).}
 Imejmo razmeroma šibek vhodni
 signal pri frekvenci $\omega_{1}$, ki ga želimo ojačiti, in močno črpalno valovanje
 pri frekvenci $\omega_{3}>\omega_{1}$. Zaradi nelinearnosti v snovi  
@@ -841,7 +846,7 @@ si torej lahko predstavljamo kot pretvorbo enega fotona pri frekvenci
 $\omega_{3}$ v dva fotona pri $\omega_{1}$ in $\omega_{2}$.
 Parametrično ojačevanje pogosto uporabljamo za ojačenje šibkih signalov 
 v infrardečem delu spektra.\index{Infrardeče valovanje}
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{70truemm} 
 \input{slike/08_opa.pdf_tex}
@@ -852,15 +857,15 @@ $\omega_3$. Pri tem nastane nedejaven žarek s krožno frekvenco $\omega_2 =  \o
 \end{figure}
 
 Izhajamo iz splošnih enačb za nelinearne optične pojave drugega reda 
-(enačbe~\ref{eq:nlAz}--\ref{eq:nlA3}). 
+(enačbe~\ref{eq:nlAz}--\ref{eq:nlA3})
 \begin{align}
 \frac{dA_{3}}{dz} &=\frac{i\omega_{3}\chi_{ef}}{4c_0 n_3} A_{1}\, A_{2}\, e^{-i\Delta kz}, \\
-\frac{dA_{2}}{dz} &=\frac{i\omega_{2}\chi_{ef}}{4c_0 n_2} A_{1}^*\, A_{3}\, e^{i\Delta kz}\quad \textrm{in}\\
+\frac{dA_{2}}{dz} &=\frac{i\omega_{2}\chi_{ef}}{4c_0 n_2} A_{1}^*\, A_{3}\, e^{i\Delta kz}\qquad \textrm{in}\\
 \frac{dA_{1}}{dz} &=\frac{i\omega_{1}\chi_{ef}}{4c_0 n_1} A_{2}^*\, A_{3}\, e^{i\Delta kz}.
 \label{eq:opaA}
 \end{align}
 Privzamemo, da je črpalno valovanje vselej dosti močnejše od drugih dveh
-($A_{3}\gg A_{1}$, $A_{2}$) in njegova jakost približno konstantna $A_3 = A_{30}$.
+($A_{3}\gg A_{1}$, $A_{2}$) in da je njegova jakost približno konstantna $A_3 = A_{30}$.
 Poskrbimo še, da je izpolnjen pogoj za ujemanje faz $\Delta k=0$ in
 začetna pogoja zapišemo kot $A_{1}(z=0)=A_{10}$ in $A_{2}(z=0)=0$. Ko vse to upoštevamo,
 dobimo sklopljeni enačbi
@@ -870,7 +875,7 @@ dobimo sklopljeni enačbi
 \frac{dA_{2}^*}{dz} &= -\frac{i\omega_{2}\chi_{ef}}{4c_0 n_2} A_{1}\, A_{30}^*.
 \label{eq:opaA2}
 \end{align}
-Enačbi lahko rešimo, tako da prvo odvajamo po $z$ in vanjo vstavimo drugo enačbo.
+Enačbi lahko rešimo tako, da prvo odvajamo po $z$ in vanjo vstavimo drugo enačbo.
 Dobimo
 \begin{equation}
 \frac{d^2 A_1}{d z^2} = \frac{\omega_1 \omega_2 \chi_{ef}^2|A_{30}|^2}
@@ -895,9 +900,9 @@ pri čemer je $L$ dolžina nelinearnega sredstva in
 Hkrati s signalnim žarkom narašča tudi amplituda dodatnega nedejavnega 
 ({\it idle}) žarka, ki nastane med procesom ojačenja\index{Nedejavni žarek}
 \boxeq{eq:opan}{
-A_2 = A_{20} \sinh (\kappa L),
+A_2 = A_{20} \sinh (\kappa L).
 }
-pri čemer je 
+Vrednost $A_{20}$ lahko izrazimo z začetno amplitudo signalnega žarka $A_{10}$
 \begin{equation}
 A_{20} = i \sqrt{\frac{\omega_2 n_1}{\omega_1 n_2}} A_{10}.
 \label{opakapaA}
@@ -905,10 +910,10 @@ A_{20} = i \sqrt{\frac{\omega_2 n_1}{\omega_1 n_2}} A_{10}.
 Na začetku intenziteti obeh valovanj naraščata približno eksponentno na račun črpalnega
 valovanja (slika~\ref{fig:opagraf}). Ko postane njuna intenziteta znatna in se 
 začne $A_3$ zmanjševati, je treba to seveda
-upoštevati v računu. Rešiti je treba bolj zahteven sistem treh 
+upoštevati v računu. Rešiti je treba zahtevnejši sistem treh 
 sklopljenih enačb, podobno~\textendash~a še bolj zapleteno~\textendash~kot v nalogi~(\ref{deplet}).
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{90truemm} 
 \input{slike/08_opagraf.pdf_tex}
@@ -974,8 +979,8 @@ valovno dolžino okoli $500~\si{\nano\metre}$ in gostoto svetlobnega
 toka $5~\si{\mega\watt}/\si{\centi\metre}^{2}$. Lomni količnik snovi je 
 $n = 2,2$ in efektivna nelinearna susceptibilnost  $\chi_{ef} = 5~\si{\pico\metre}/\si{\volt}$. 
 Vstavimo podatke v enačbo~(\ref{opakapa}) in izračunamo vrednost 
-$\kappa \sim 0,15~/\si{\centi\metre}$. Porast intenzitete vpadne svetlobe v $1~\si{cm}$ 
-dolgem kristalu je tako le približno $2~\%$. 
+$\kappa \sim 0,15~/\si{\centi\metre}$. To pomeni, da je porast intenzitete vpadne svetlobe v $1~\si{cm}$ 
+dolgem kristalu le približno $2~\%$. 
 
 \subsection*{Optični parametrični oscilator (OPO)}
 \index{Optični parametrični oscilator}
@@ -984,9 +989,9 @@ kljub dokaj močnemu črpalnemu žarku. Zato je smiselno, da svetloba večkrat p
 ojačevalno sredstvo in se postopoma ojačuje. To naredimo tako, 
 da optično ojačevalno sredstvo zapremo v optični 
 resonator\index{Resonator!parametrični oscilator}
-in signal se ob vsakem obhodu ojači. Sestavili smo t.\ i.\ optični parametrični oscilator
+in signal se ob vsakem obhodu ojači. Sestavili smo tako imenovani optični parametrični oscilator
 (slika~\ref{fig:opo}). 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{80truemm} 
 \input{slike/08_opo.pdf_tex}
@@ -1005,7 +1010,7 @@ S sukanjem ojačevalnega kristala lahko na ta način spreminjamo
 ojačeno frekvenco in naredili smo nastavljiv izvor svetlobe, navadno v 
 infrardečem delu spektra.\index{Infrardeče valovanje}
 
-\pagebreak
+
 Za delovanje oscilatorja mora biti jakost črpalnega žarka tako velika, da je 
 ojačenje signala na obhod večje od izgub. Signal z močjo 
 $P_0$ se ob prehodu skozi ojačevalno sredstvo ojači (enačba~\ref{eq:opa})
@@ -1024,15 +1029,14 @@ oziroma
 \begin{equation}
 \cosh^2 (\kappa L) =\frac{1}{(1-\Lambda_0)\, \mathcal{R}}.
 \end{equation}
-Od tu izračunamo parameter $\kappa$, po enačbi~(\ref{opakapa}) pa mejno 
+Iz tega pogoja izračunamo parameter $\kappa$, po enačbi~(\ref{opakapa}) pa mejno 
 amplitudo oziroma intenziteto črpalnega žarka. Nadaljujmo še prejšnji primer ojačenja 
 svetlobe v $1~\si{cm}$ dolgem kristalu LiNbO$_{3}$.\index{LiNbO$_3$}
 Če je odbojnost izhodnega zrcala $\mathcal{R}=0,85$, notranje izgube $\Lambda_0 = 0,05$ in prečni presek 
 žarka $10~\si{\micro\metre^2}$, je moč praga $P_{\omega_3} = 5~\si{\watt}$.
-\vglue-5truemm
 \begin{remark}
 Optični parametrični oscilator oddaja svetlobo, podobno kot laser. Tudi sicer
-sta si do neke mere podobna: oba sistema potrebujeta močen črpalni mehanizem, oba sistema
+sta si do neke mere podobna: oba sistema potrebujeta močen črpalni mehanizem, oba 
 sta sestavljena iz resonatorja, v katerem se žarek velikokrat odbije in postopoma ojačuje,
 in oba oddajata koherentno svetlobo pri točno določeni valovni dolžini. Vendar
 je med parametričnim oscilatorjem in laserjem velika razlika. Pri laserju se svetloba
@@ -1049,10 +1053,10 @@ s prehodom med nivoji, ampak z izpolnjevanjem pogoja za ujemanje faz.
 Ko smo obravnavali nelinearne optične pojave drugega reda, smo zapisali
 različne frekvence, ki so vsebovane v izhodnem signalu (slika~\ref{fig:nl2}). Eno izmed
 izhodnih valovanj ima tudi frekvenco enako nič, kar pomeni, da je to statično električno polje. Iz analogije
-z elektronskimi vezji, kjer izmenično napetost z usmernikom spremenimo v enosmerno napetost, 
+z elektronskimi vezji, v katerih izmenično napetost z usmernikom spremenimo v enosmerno napetost, 
 pojav imenujemo optično usmerjanje, saj iz svetlobnega valovanja nastane statično polje. Tako statično 
 polje navadno ni veliko, saj sunek svetlobe z vršno močjo nekaj $\si{\mega\watt}$ tipično povzroči 
-več $\si{\milli\volt}$ napetosti v smeri prečno na smer potovanja svetlobe.\footnote{M. Bass
+nekaj $\si{\milli\volt}$ napetosti v smeri prečno na smer potovanja svetlobe.\footnote{~M. Bass
 et al., Phys. Rev. Lett. $\mathbf{9}$, 446 (1962).}
 
 \begin{definition}
@@ -1060,22 +1064,23 @@ Pokaži, da je napetost, ki se pojavi pri optičnem usmerjanju, približno enaka
 \begin{equation}
 U = \frac{\chi P_0}{n^3 \varepsilon_0 c_0 a},
 \end{equation}
-pri čemer je $P_0$ moč vpadne svetlobe, $n$ lomni količnik snovi in $a$ širina kristala.\\
+pri čemer so $P_0$ moč vpadne svetlobe, $n$ lomni količnik snovi in $a$ širina kristala.
 Namig: nelinearni kristal obravnavaj kot ploščati kondenzator in zapiši polarizacijo.
 
 Oceni še napetost, če je
-$\chi = 3~\si{\pico\meter/\volt}, P_0 = 1~\si{\mega\watt}, n = 2,2$ in $a = 5~\si{\milli\metre}$. 
+$\chi = 3~\si{\pico\meter/\volt}$, $P_0 = 1~\si{\mega\watt}$, $n = 2,2$ in $a = 5~\si{\milli\metre}$. 
 \end{definition}
 
 Precej bolj uporaben je pojav, ko na nelinearni kristal posvetimo z ultrakratkimi 
-sunki svetlobe, tipično okoli $\si{ps}$ ali krajšimi. Spomnimo se, da je povsem 
+sunki svetlobe, tipično dolgimi okoli $\si{ps}$ ali še krajšimi. Spomnimo se, da je povsem 
 monokromatsko valovanje lahko samo tako, ki je časovno neomejeno in ima neskončen koherenčni čas
 (enačba~\ref{eq:spektralna-sirina-zveza}). 
-Čim je valovanje časovno omejeno, ima njegov spekter končno širino, pri čemer 
-imajo krajši sunki svetlobe širši spekter valovanja. 
+Čim je valovanje časovno omejeno, na primer v obliki kratkega sunka, ima njegov spekter 
+končno širino, pri čemer imajo krajši sunki svetlobe širši spekter valovanja. Označimo 
+osrednjo krožno frekvenco z $\omega$ in širino spektra z $\Delta \omega$. 
 
 Ko z ultrakratkim sunkom osvetlimo optično 
-nelinearni kristal, v kristal vstopajo vse frekvence z danega intervala $\omega \pm \Delta \omega/2$.
+nelinearni kristal, vanj vstopajo vse frekvence z danega intervala $\omega \pm \Delta \omega/2$.
 Optično usmerjanje ni več popolno, saj se frekvence ne odštejejo povsem, ampak se 
 namesto statičnega polja pojavi sunek svetlobe s širokim spektrom, ki sega od ničelne
 frekvence do neke največje vrednosti. Celotna spektralna širina tega signala je 
@@ -1083,7 +1088,7 @@ približno enaka spektralni širini vstopnega sunka, ta pa je obratno sorazmerna
 (slika~\ref{fig:THz}).
 Ocenimo te vrednosti še numerično. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{110truemm} 
 \input{slike/08_THz.pdf_tex}
@@ -1106,15 +1111,18 @@ elektromagnetno valovanje s frekvencami v območju od 0,3 do $3~\si{\tera\hertz}
 oziroma z valovnimi dolžinami med 0,1 in $1~\si{\milli\metre}$, 
 se uporablja za neinvazivno slikanje in preiskave tkiv in materialov. Kristali, ki 
 se najpogosteje uporabljajo za nastanek teraherčnega valovanja, so ZnTe\index{ZnTe}, 
-GaP, GaSe in GaAs.\index{GaP} \index{GaSe} \index{GaAs}
+GaP, GaSe in GaAs. Slabost optičnega usmerjanja je razmeroma nizek izkoristek zaradi majhne frekvence
+ nastalega valovanja, poleg tega je treba paziti, da absorpcija teraherčnega valovanja
+ v snovi ni prevelika.\index{GaP} \index{GaSe} \index{GaAs}
 
 \section{Nelinearni pojavi tretjega reda}
 \index{Nelinearna optika!tretjega reda}
 Doslej smo obravnavali najnižji red nelinearnosti, katerega glavni
 učinek je mešanje treh frekvenc, na primer optično frekvenčno podvajanje ali
 optično parametrično ojačevanje. Ti pojavi so mogoči le v kristalih brez centra
-inverzije. Nelinearna polarizacija tretjega reda pa je monžna v vsaki snovi. 
-V njej nastopa jakost električnega polja v tretji potenci
+inverzije. Nelinearna polarizacija in z njo povezani nelinearni pojavi tretjega reda pa so
+možni v vsaki snovi. 
+V nelinearni polarizaciji tretjega reda nastopa jakost električnega polja v tretji potenci
 \boxeq{eq:nl3P}{
 \mathbf{P}_{\mathrm{NL,3}}= \epsilon_{0}\chi^{(3)}\vdots \mathbin 
 \mathbf{E}\mathbin \mathbf{E}\mathbin\mathbf{E}
@@ -1156,7 +1164,7 @@ frekvenco. Takrat se pojavi valovanje pri potrojeni frekvenci, pa tudi
 pri frekvenci, ki je enaka vpadni. Pojavi se torej polarizacija pri 
 vpadni frekvenci, ki spremeni obnašanje osnovnega valovanja, in valovanje vpliva samo nase.
 Ti pojavi, ki jih poimenujemo s predpono {\it samo-}, kot na primer samozbiranje, so
-značilni za nelinearne pojave tretjega reda\index{Samozbiranje}.\footnote{Glej 
+značilni za nelinearne pojave tretjega reda\index{Samozbiranje}.\footnote{~Glej 
 npr. R. W. Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).}
 
 \section{Optični Kerrov pojav}
@@ -1174,13 +1182,13 @@ Polarizacija je potem enaka vsoti linearnega in nelinearnega dela tretjega reda
 Ker obravnavamo nelinearne pojave, moramo tudi v tem primeru zapisati realna
 električna polja. To naredimo z vsoto dveh kompleksno konjugiranih členov
 \begin{equation}
-\mathbf{E}=\frac{\mathbf{e}}{2}\left(Ae^{i(kz-\omega t)}+A^{*}e^{-i(kz-\omega t)}\right).
+\mathbf{E}=\frac{\mathbf{e}}{2}\left(Ae^{i(kz-\omega t)}+A^{*}e^{-i(kz-\omega t)}\right)\!.
 \label{8.71}
 \end{equation}
 Podobno zapišemo tudi polarizacijo, pri čemer nas zanimajo samo členi,
-ki nihajo s frekvenco $\omega$
+ki nihajo s krožno frekvenco $\omega$
 \begin{equation}
-\mathbf{P}=\frac{\mathbf{e}}{2}\left(P_\omega e^{i(kz-\omega t)}+P_\omega^{*}e^{-i(kz-\omega t)}\right).
+\mathbf{P}=\frac{\mathbf{e}}{2}\left(P_\omega e^{i(kz-\omega t)}+P_\omega^{*}e^{-i(kz-\omega t)}\right)\!.
 \label{8.71a}
 \end{equation}
 Nelinearna polarizacija tretjega reda ima frekvenco $\omega$, kadar v produktu 
@@ -1199,7 +1207,7 @@ Celotna polarizacija je
 \varepsilon_0 \chi^{(3)}\vdots \mathbin \mathbf{e}\mathbin \mathbf{e} \right) \mathbf{E}.
 \label{eq:ptnl}
 \end{equation}
-Z upoštevanjem zveze med amplitudo polja in povprečno gostoto energijskega toka (enačba~\ref{eq:jcw})
+Upoštevamo zvezo med amplitudo polja in povprečno gostoto energijskega toka (enačba~\ref{eq:jcw}) in
 zapišemo
 \begin{equation}
 \mathbf{P}=
@@ -1208,7 +1216,7 @@ zapišemo
 \mathbf{e} \right) \mathbf{E}.
 \label{eq:pppeee}
 \end{equation}
-Z $\tilde{n}$ smo označili lomni količnik pri frekvenci $\omega$. 
+Z $\tilde{n}$ smo označili lomni količnik pri krožni frekvenci $\omega$. 
 Faktor v oklepaju ni nič drugega kot efektivna susceptibilnost, ki je neposredno povezana
 z lomnim količnikom snovi $\chi_{ef} = \varepsilon -1 =n^2 -1$. Enačba~(\ref{eq:pppeee}) 
 torej opisuje pojav, 
@@ -1217,9 +1225,9 @@ potuje.\index{Susceptibilnost!efektivna}
 To je podoben učinek kot pri navadnem Kerrovem pojavu, pri katerem se lomni količnik 
 spremeni pod vplivom zunanjega električnega polja (enačba~\ref{7.1}).
 Opisani optični ekvivalent zato imenujemo optični 
-Kerrov pojav\footnote{Škotski fizik John Kerr, 1824\textendash1907.}.
+Kerrov pojav\footnote{~Škotski fizik John Kerr, 1824\textendash1907.}.
 
-Poglejmo pojav podrobneje na primeru izotropne snovi. Na snov naj vpada valovanje, ki je polarizirano
+Poglejmo pojav na primeru izotropne snovi. Na snov naj vpada valovanje, ki je polarizirano
 v smeri $x$, tako da ima nelinearna polarizacija le komponento 
 \begin{equation}
 P_{\mathrm{NL},x}=
@@ -1239,12 +1247,12 @@ n_2 = \frac{3 \chi_{xxxx}}{4 \varepsilon_0 c_0 \tilde{n}^2}.
 }
 Efektivni lomni količnik snovi je torej odvisen od gostote svetlobnega toka, ki vpada nanjo. 
 Tipične vrednosti nelinearnega lomnega količnika za vidno svetlobo so $10^{-20}~\si{\metre^2/\watt}$.
-V tekočini CS$_2$ je $n_2 = 3,2 \cdot 10^{-18}~\si{\metre^2/\watt}$, v nekaterih \index{CS$_2$}
+V tekočini CS$_2$ je $n_2 = 3,2 \times 10^{-18}~\si{\metre^2/\watt}$, v nekaterih \index{CS$_2$}
 drugih snoveh (npr. polprevodnikih) je lahko vrednost $n_2$ večja še za nekaj 
-velikostnih redov, $n_2$ pa je lahko tudi negativen (tabela~\ref{table:chi3}).\footnote{R.
+velikostnih redov, $n_2$ pa je lahko tudi negativen (tabela~\ref{table:chi3}).\footnote{~R.
 W. Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).}
 
-\begin{table}[h]
+\begin{table}[ht]
  \centering
 \begin{tabular}{|c|c|c|} \hline  
       Snov & $\chi^{(3)}~(\si{\metre^2/\volt^2})$ & $n_2~(\si{\metre^2/\watt})$\\ \hline
@@ -1272,7 +1280,7 @@ je vedno izpolnjen.
 \section{Samozbiranje in krajevni solitoni}
 \index{Samozbiranje}
 \index{Soliton!krajevni}
-Za začetek si oglejmo pojav samozbiranja svetlobe.\footnote{P. L. Kelley, Phys. Rev. Lett. $\mathbf{15}$,
+Za začetek si oglejmo pojav samozbiranja svetlobe.\footnote{~P. L. Kelley, Phys. Rev. Lett. $\mathbf{15}$,
 1005 (1965).}
 Osnovni Gaussov snop 
 (enačba~\ref{eq:gaussov-snop}) naj vpada na sredstvo, v katerem je lomni 
@@ -1287,7 +1295,7 @@ samozbiranje. Samozbiranje je pri dovolj
 veliki moči snopa lahko tako veliko, da pride do katastrofične zožitve snopa
 in s tem do tolikšnega povečanja gostote svetlobnega toka, da nastanejo
 poškodbe v snovi.
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{95truemm} 
 \input{slike/08_sf1.pdf_tex}
@@ -1298,18 +1306,19 @@ zato je tudi lomni količnik nelinearnega sredstva  $n$ odvisen od nje. To vodi 
 \end{figure}
 \begin{definition}
 Gaussov snop svetlobe z močjo $P$ in polmerom $w$ naj vpada pravokotno na ploščico
-kristala debeline $d$. Pokaži, da ploščica deluje na snop kot leča z goriščno razdaljo 
+kristala debeline $d$. Pokaži, da ploščica deluje na snop kot leča, pri čemer je njena
+goriščna razdalja enaka  
 \begin{equation}
-f = \frac{\pi w^4}{8 n_2 d P},
+f = \frac{\pi w^4}{8 n_2 d P}.
 \end{equation}
-pri čemer je $n_2$ nelinearni lomni količnik.
+Z $n_2$ smo označili nelinearni lomni količnik ploščice.
 \end{definition}
 
 Zaradi uklona se Gaussov snop širi, medtem ko ima pojav samozbiranja ravno nasprotni
-učinek. Snop samemu sebi ustvarja valovni vodnik, v katerem je v sredi lomni količnik 
+učinek. Snop samemu sebi ustvarja valovni vodnik, v katerem je v sredini lomni količnik 
 večji kot na robu. Pri določeni moči snopa se oba pojava po
 velikosti ravno izenačita. Snop, ki potuje po snovi, ima tako konstanten polmer, 
-valovne fronte pa so ravne -- nastane t.\,i. krajevni soliton.\footnote{Glej npr. G. New, {\it Introduction
+valovne fronte pa so ravne -- nastane tako imenovani krajevni soliton.\footnote{~Glej npr. G. New, {\it Introduction
 to Nonlinear Optics}, Cambridge University Press (2011).}
 \index{Soliton!krajevni}
 
@@ -1336,7 +1345,7 @@ ukrivi na nek krivinski radij $-R$. Iz preproste geometrije velja zveza
 \label{8.77}
 \end{equation}
 Da valovna fronta ostane ravna, se morata krivinska radija zaradi uklona 
-(enačba~\ref{8.75}) in samozbiranja (enačba~\ref{8.77}) ravno izenačiti. 
+(enačba~\ref{8.75}) in samozbiranja (enačba~\ref{8.77}) po velikosti izenačiti. 
 Od tod sledi 
 \begin{equation}
 \Delta n=\frac{w_{0}^{2}}{4z_{0}^{2}}.
@@ -1353,7 +1362,7 @@ pri čemer smo upoštevali zvezo med $z_0$ in $w_0$ (enačba~\ref{eq:z0}).
 Pri moči, ki je manjša od kritične moči, se vpadli Gaussov snop širi, 
 čeprav nekoliko počasneje kot v sredstvu s konstantnim lomnim količnikom. 
 Če pa je moč znatno večja od kritične moči, lahko
-nastopi katastrofično samozbiranje in porušitev snovi.
+nastopita katastrofično samozbiranje in porušitev snovi.
 Zanimivo je, da kritična moč, pri kateri se pojavijo solitoni, 
 ni odvisna od začetnega polmera snopa.
 
@@ -1363,24 +1372,23 @@ solitoni (enačba~\ref{8.79}).
 
 Izračunaj še kritično moč za pojav solitonov v CS$_{2}$,\index{CS$_2$}
 če je valovna dolžina vpadnega valovanja $1~\si{\micro\metre}$, 
-nelinearni lomni količnik te tekočine pa je 
- $n_{2}=3,2 \cdot 10^{-18}~\si{\metre^2/\watt}$. 
+nelinearni lomni količnik te tekočine pa 
+ $n_{2}=3,2 \times 10^{-18}~\si{\metre^2/\watt}$. 
 \end{definition}
-\pagebreak
 
 \begin{remark}
 Eksperimentalna metoda, \index{Metoda vzdolžnega premika}
 \index{Z-scan|see {Metoda vzdolžnega premika}}s katero merimo nelinearni 
 lomni količnik, je tako imenovana
-metoda vzdolžnega premika ({\it Z-scan}).\footnote{M. Sheik-bahae, A. A. Said in E. W. Van Stryland, 
+metoda vzdolžnega premika ({\it Z-scan}).\footnote{~M. Sheik-bahae, A. A. Said in E. W. Van Stryland, 
 Opt. Lett. $\mathbf{14}$, 955 (1989).} 
 Optično nelinearno sredstvo (naj ima $n_2>0$)
 postavimo v zbran laserski snop (slika~\ref{fig:zscan}). 
 Zaradi samozbiranja deluje vzorec kot leča, njena goriščna razdalja
-pa je odvisna od intenzitete snopa in od nelinearnega lomnega količnika. Ko vzorec 
+pa je odvisna od intenzitete snopa in nelinearnega lomnega količnika. Ko vzorec 
 premikamo vzdolž snopa, se skupna efektivna goriščna razdalja leče in nelinearne snovi 
 spreminja in snop na detektorju je enkrat bolj zbran, drugič manj. 
-Za lege vzorca desno od prvotnega gorišča ($z>0$), je skupna goriščna
+Za lege vzorca desno od prvotnega gorišča ($z>0$) je skupna goriščna
 razdalja daljša od goriščne razdalje leče, snop je bolj zbran (pikčasta črta) in signal 
 na detektorju (D) naraste. Za lege vzorca levo
 od prvotnega gorišča ($z<0$) je ravno obratno, snop se razširi (črtkana črta) in 
@@ -1391,13 +1399,13 @@ ključno uporabiti zaslonko (Z), s katero omejimo premer vpadnega snopa pred det
 odvisnost celotne vpadne intenzitete od lege vzorca, nelinearnega lomnega količnika 
 ne moremo meriti, lahko pa določimo nelinearni absorpcijski koeficient. 
 
-\begin{figure}[h!]
+\begin{figure}[ht]
 \raggedleft 
 \def\svgwidth{130truemm} 
 \input{slike/08_zscan.pdf_tex}
-\caption{Shema metode vzdolžnega premika (a). Z -- zaslonka, D -- detektor, $n_2$ - optično
-nelinearno sredstvo in $f$ leča. Intenziteta svetlobe, ki vpade na detektor, je odvisna
-od lege nelinearnega sredstva (b).}
+\caption{Shema metode vzdolžnega premika (a): Z -- zaslonka, D -- detektor, $n_2$ - optično
+nelinearno sredstvo in $f$ -- leča. S premikanjem nelinearnega sredstva se spreminja intenziteta svetlobe, 
+ki vpade na detektor (b).}
 \label{fig:zscan}
 \end{figure}
 \end{remark}
@@ -1405,8 +1413,9 @@ od lege nelinearnega sredstva (b).}
 \section{*Izpeljava krajevnih solitonov}
 \index{Soliton!krajevni}
 \label{chap:ks}
+V prejšnjem razdelku smo opisali nastanek solitonov v optično nelinarnih snoveh. 
 Za podrobnejšo obravnavo krajevnih solitonov moramo rešiti valovno 
-enačbo v obosnem približku. Začnemo s skalarno obliko Helmholtzeve enačbe (enačba~\ref{eq:Helmholtz})
+enačbo. Reševali jo bomo v obosnem približku in začeli s skalarno obliko Helmholtzeve enačbe (enačba~\ref{eq:Helmholtz})
 \begin{equation}
 \nabla^{2}E+n^{2}\frac{\omega^{2}}{c_0^{2}}E=0.
 \label{8.80}
@@ -1417,7 +1426,7 @@ smo to naredili pri izpeljavi Gaussovega snopa (enačba~\ref{eq:ravni-val-nastav
 E=\psi(\mathbf{r},z)e^{ik_{0}z},
 \label{8.81}
 \end{equation}
- kjer je $\mathbf{r}$ krajevni vektor v ravnini $xy$ in 
+pri čemer sta $\mathbf{r}$ krajevni vektor v ravnini $xy$ in 
 \begin{equation}
 k_{0}=\frac{\tilde{n}\omega}{c_0} 
 \end{equation}
@@ -1430,7 +1439,7 @@ drugi odvod po $z$ zanemarimo in zapišemo \index{Obosna valovna enačba}
 \label{8.82}
 \end{equation}
 Upoštevamo odvisnost lomnega količnika od intenzitete, pri čemer
-zanemarimo člen z $n_{2}^{2}$, ker je gotovo majhen. Sledi
+zanemarimo člen z $n_{2}^{2}$, ker je gotovo majhen. Zapišemo
 \begin{equation}
 \nabla_{\bot}^{2}\psi+2k_{0}^{2}\frac{n_{2}}{\tilde{n}}j\psi+2ik_{0}\frac{\partial\psi}{\partial z}=0.
 \label{8.83}
@@ -1464,7 +1473,7 @@ rešitev iščemo v obliki
 \psi=e^{i\eta^{2}\zeta}\, u(x),
 \label{8.87}
 \end{equation}
- kjer je $\eta$ konstanta, katere pomen bomo videli v nadaljevanju, 
+pri čemer je $\eta$ konstanta, katere pomen bomo videli v nadaljevanju, 
  funkcija $u(x)$ pa naj bo realna. 
 Uporabimo nastavek (enačba~\ref{8.87}) v enačbi (\ref{8.84}) in dobimo
 \begin{equation}
@@ -1502,18 +1511,18 @@ je le njegov prečni premik, ki ga lahko brez škode postavimo na $x_0=0$. Tako
 zapišemo celotno polje stacionarnega snopa 
 \begin{equation}
 E_{s}(x,z)=\sqrt{\frac{2}{\kappa}}\,\frac{\eta}{\cosh(\eta x)}\,\exp\left(ik_{0}z\left(1+
-\frac{\eta^{2}}{2k_{0}^{2}}\right)\right).
+\frac{\eta^{2}}{2k_{0}^{2}}\right)\right)\!.
 \label{8.89}
 \end{equation}
-Zapišemo gostoto svetlobnega toka,\index{Gostota energijskega toka} ki je sorazmerna 
-kvadratu amplitude polja, kot
+Gostoto svetlobnega toka,\index{Gostota energijskega toka} ki je sorazmerna 
+kvadratu amplitude polja, zapišemo kot
 \boxeq{8.89a}{
 j_{s}(x,z)= j_0 \frac{1}{\cosh^2(\eta x)}.
 }
-Vidimo, da je gostota svetlobnega toka neodvisna od $z$, kar pomeni, da sunek 
-(slika~\ref{fig:soliton}) ohranja svojo obliko, ko potuje vzdolž osi $z$.
+Iz zgornje enačbe sledi, da je gostota svetlobnega toka neodvisna od $z$, kar pomeni, 
+da sunek  ohranja svojo obliko, ko potuje vzdolž osi $z$ (slika~\ref{fig:soliton}).
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{100truemm} 
 \input{slike/08_soliton.pdf_tex}
@@ -1536,7 +1545,7 @@ limitno vrednost $c_0/\tilde{n}$.
 Celotna moč svetlobe v dvodimenzionalnem snopu je enaka integralu
 gostote svetlobnega toka (enačba~\ref{8.89a}) po $x$. Integriramo in zapišemo 
 \begin{equation}
-P_s = \int j_s dx \propto \int |E_s|^2 dx  = 
+P_s = \int j_s\,dx \propto \int |E_s|^2 dx  = 
 \frac{2}{\kappa}\,\eta^{2}\int_{-\infty}^{\infty}\frac{dx}
 {\cosh^{2}\eta x}=\frac{4\eta}{\kappa}.
 \label{eq:solj}
@@ -1554,7 +1563,7 @@ V prejšnjem razdelku smo ugotovili, da pojav samozbiranja lahko izniči širjen
 svetlobnega snopa zaradi uklona, tako da ima pri
 ustrezni moči snop vzdolž smeri širjenja konstantno širino in obliko. Takim snopom 
 smo rekli krajevni solitoni. Povsem podoben pojav poznamo tudi v časovni 
-domeni, kjer se pojavijo časovni ali optični solitoni.\footnote{Glej npr. R. W. 
+domeni, kjer se pojavijo časovni ali optični solitoni.\footnote{~Glej npr. R. W. 
 Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).}
 
 Sunek svetlobe  naj se širi po valovnem vodniku. Zaradi disperzije je lomni količnik\index{Disperzija}
@@ -1574,7 +1583,7 @@ vpade sunek svetlobe, ki je Gaussove oblike v času
 j(t) = j_0 e^{-2t^2/\tau^2}.
 \label{08_pulz}
 \end{equation}
-Faza takega sunka je 
+Faza takega sunka je ob upoštevanju enačbe~(\ref{eq:nnl}) enaka
 \begin{equation}
 \phi (t) = k_0 n z - \omega_0 t = k_0 (\tilde{n} + n_2 j)z - \omega_0 t = 
 \phi_0 + k_0 n_2 z j - \omega_0 t,
@@ -1589,12 +1598,12 @@ frekvenca takega sunka spreminja s časom
 \omega = \omega_0 + \frac{4k_0 n_2 z j_0}{\tau^2} \, t \, e^{-2t^2/\tau^2}.
 \label{eq:chirpi}
 \end{equation}
-Začetnemu delu sunka (pri $t<0$) se krožna frekvenca zmanjša, zadnjemu delu sunka
-(pri $t>0$) pa se poveča (slika~\ref{fig:optsoliton}). 
+Začetnemu delu sunka (pri $t<0$) se krožna frekvenca zmanjša, medtem ko se zadnjemu delu sunka
+(pri $t>0$) poveča (slika~\ref{fig:optsoliton}). 
 Ta pojav spreminjanja frekvence znotraj kratkega sunka imenujemo čirikanje
 ({\it chirping}), \index{Čirikanje} po podobnosti z oglašanjem čričkov.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{70truemm} 
 \input{slike/08_OpticniSoliton.pdf_tex}
@@ -1616,7 +1625,7 @@ lahko dosežemo, da potuje del valovanja z daljšo valovno dolžino počasneje k
 s krajšo valovno dolžino (slika~\ref{fig:chirp}\,b). V tem primeru končni del sunka 
 dohiteva sprednjega in učinek disperzije ravno izniči učinek nelinearnosti. 
 Nastane signal, ki ohranja svojo obliko~\textendash~soliton. 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{145truemm} 
 \input{slike/08_Chirp.pdf_tex}
@@ -1661,7 +1670,7 @@ $\Omega =\omega - \omega_0$ in valovna enačba~(\ref{eq:soleq1}) se prepiše v
 \end{equation}
 Da lahko rešimo to enačbo, naredimo nekaj približkov. Ker je $\omega \approx \omega_0$, na desni strani
 enačbe nadomestimo frekvenco z osrednjo frekvenco. Poleg tega upoštevamo, da se amplituda 
-glede na valovno dolžino le počasi spreminja, zato drugi odvod zanemarimo in 
+glede na valovno dolžino le počasi spreminja, zato drugi odvod zanemarimo in zapišemo
 \begin{equation}
 2 i k_0 \frac{\partial \tilde{A}}{\partial z} + (k^2-k_0^2) \tilde{A} = - \mu_{0}\omega_0^2 \tilde{B}.
 \end{equation}
@@ -1733,7 +1742,7 @@ Pri tem je parameter
 sorazmeren nelinearnemu lomnemu količniku $n_2$ 
 (enačba~\ref{eq:n2}). Enačba~(\ref{8.95}) ni nič drugega kot nelinearna Schr\"odingerjeva 
 enačba\index{Schr\"odingerjeva enačba!nelinearna}, ki smo jo 
-zapisali že pri izpeljavi krajevnih solitonov~(enačba~\ref{8.84}). Enačbi se razlikujeta v tem, da
+zapisali že pri izpeljavi krajevnih solitonov~(enačba~\ref{8.84}). Enačbi se razlikujeta po tem, da
 ima vlogo prečne koordinate $x$ tukaj čas $\tau$ in rešitve nimajo več konstantnega premera,
 ampak imajo konstantno dolžino sunka. Stacionarne rešitve obstajajo le v primeru, kadar je  $d^{2}k/d\omega^{2}<0$ oziroma kadar ima drugi odvod nasprotni predznak od nelinearnega lomnega količnika $n_2$. Kot pri krajevnih solitonih tudi tukaj vpeljemo parameter $\eta$, ki je sorazmeren 
 z energijo solitona (enačba~\ref{eq:solj}). Sledi 
@@ -1763,9 +1772,9 @@ pri prenosu signalov po optičnih vlaknih, in signal lahko potuje brez podaljše
 \index{Optična fazna konjugacija}
 Optična fazna konjugacija je zanimiv in danes tudi praktično pomemben
 pojav, pri katerem nastane iz danega valovanja novo valovanje z enakimi valovnimi
-frontami, vendar potuje novo valovanje v nasprotni smeri od prvotnega.\footnote{Glej npr. R.
+frontami, vendar potuje novo valovanje v nasprotni smeri od prvotnega.\footnote{~Glej npr. R.
 W. Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).} Novo valovanje je tako,
-kot bi začetnemu valovanju obrnili predznak časa in ga ``zavrteli nazaj''.\footnote{R. W. Hellwarth, 
+kot bi začetnemu valovanju obrnili predznak časa in ga ``zavrteli nazaj''.\footnote{~R. W. Hellwarth, 
 J. Opt. Soc. Am $\mathbf{67}$, 1 (1977).}
 
 Vzemimo optično nelinearno snov, na katero posvetimo z dvema močnima 
@@ -1782,7 +1791,7 @@ nasprotno smer od prvega. Črpalni valovanji sta seveda enakovredni in ni
 mogoče ločiti med valovanjem, s katerim signalno valovanje interferira, in valovanjem, 
 ki se uklanja.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{60truemm} 
 \input{slike/08_opc1.pdf_tex}
@@ -1800,15 +1809,15 @@ potekata sočasno.
 \end{remark}
 
 Koordinatni sistem izberemo tako, da se signalno valovanje s frekvenco $\omega$ in amplitudo $A_3$
-širi v smeri $z$. Zapišemo ga
+širi v smeri $z$. Zapišemo ga kot
 \begin{equation}
-E_{3}=\mathfrak{\Re}\left(A_3\left(z\right)\, e^{i\left(kz-\omega t\right)}\right),
+E_{3}=\mathfrak{\Re}\left(A_3\left(z\right)\, e^{i\left(kz-\omega t\right)}\right)\!,
 \label{8.97}
 \end{equation}
 pri čemer $\mathfrak{\Re}$ označuje realni del. 
 V naslednjem razdelku bomo z računom pokazali, da je novonastalo valovanje sorazmerno
 \begin{equation}
-E_{4} \propto \mathfrak{\Re}\left(A_3^{*}\left(z\right)\, e^{i\left(-kz-\omega t\right)}\right).
+E_{4} \propto \mathfrak{\Re}\left(A_3^{*}\left(z\right)\, e^{i\left(-kz-\omega t\right)}\right)\!.
 \label{8.98}
 \end{equation}
 Zaradi nasprotnega predznaka $k$ potuje nastalo valovanje v obratni smeri od signalnega
@@ -1817,7 +1826,7 @@ ne vpliva na obliko valovnih front, saj so te popolnoma enake kot pri signalnem
 valovanju. Ker novo valovanje iz signalnega nastane tako,
 da krajevni del faze kompleksno konjugiramo, nastalemu valovanju pravimo fazno
 konjugirano valovanje.
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{100truemm} 
 \input{slike/08_opc2.pdf_tex}
@@ -1832,14 +1841,14 @@ Najpreprostejši primer je vpad ravnega vala (a), ki se ne odbije po
 odbojnem zakonu (slika zgoraj), ampak se odbije v smer, iz katere 
 je vpadel na snov (slika spodaj). Drugi primer je krogelni val 
 ali v približku tudi Gaussov snop (b). Po odboju od navadnega zrcala (zgoraj), se 
-valovanje še naprej razširja. Na fazno konjugiranem zrcalu se krogelni val po odboju spet
+valovanje še naprej razširja. Na fazno konjugiranem zrcalu se odbiti krogelni val spet
 zbere v izvoru (spodaj). 
 
 V tretjem primeru vpada svetloba skozi sredstvo, ki valovanju doda naključno
 fazo, zato po prehodu valovne fronte niso več gladke (c). Od navadnega zrcala
 se popačen snop odbije, pri ponovnem prehodu skozi sredstvo pa se popačenje
 še poveča. Povsem drugačno je obnašanje pri odboju na faznem konjugatorju. 
-Ko popačen snop vpade na fazni konjugator, v njem ustvari fazno konjugiran snop, 
+Ko popačen snop vpade na fazni konjugator, v njem ustvari fazno konjugirani snop, 
 ki potuje v nasprotni smeri in ima enako nepravilne valovne fronte kot vpadni val. Po prehodu
 skozi nepravilno sredstvo se neravnosti valovne fronte izničijo
 in nastanejo enake gladke valovne fronte ravnega vala kot na začetku. 
@@ -1858,16 +1867,16 @@ tega je šibek vpadni signal lahko še dodatno ojačen.
 \section{*Izpeljava optične fazne konjugacije}
 \index{Optična fazna konjugacija}
 Poglejmo podrobneje, kako v nelinearnem sredstvu nastane fazno konjugirani
-val. Kot kaže slika~\ref{08_OPC1}, je celotno polje v nelinearnem
+val. Kot je razvidno iz slike~\ref{08_OPC1}, je celotno polje v nelinearnem
 sredstvu vsota štirih valovanj, dveh močnih črpalnih (oznaki 1 in 2), signalnega 
 (oznaka 3) in novonastalega (oznaka 4)
 \begin{equation}
 E=\frac{1}{2}A_{1}e^{i{\bf k}_{1}\cdot{\bf r}-i\omega t}+\frac{1}{2}A_{2}e^{-i{\bf k}_{1}\cdot{\bf r}-
 i\omega t}+\frac{1}{2}A_{3}\left(z\right)e^{ikz-i\omega t}+\frac{1}{2}A_{4}
-\left(z\right)e^{-ikz-i\omega t}+{\rm k.k.}
+\left(z\right)e^{-ikz-i\omega t}+\mathrm{k.~k.}
 \label{8.99}
 \end{equation}
-S k.k. smo spet označili kompleksno konjugirane člene.  Vsa valovanja naj imajo
+S k.~k. smo spet označili kompleksno konjugirane člene.  Vsa valovanja naj imajo
 enako frekvenco, zaradi enostavnosti privzamemo, da so enake tudi vse polarizacije.
 Račun poenostavimo še s predpostavko, da sta črpalna vala dosti močnejša 
 od signalnega in novonastalega, tako da sta njuni
@@ -1882,8 +1891,8 @@ E=\mu_{0}\frac{\partial^2 P_{\mathrm{NL}}}{\partial t^2},
 \label{8.100}
 \end{equation}
 pri čemer je $n\,\omega/c_0=k$. $P_{\textrm{NL}}$ je po enačbi~(\ref{eq:nl3P})
-enak $P_\mathrm{NL}= \epsilon_{0}\chi^{(3)}E^3$, kjer je $\chi^{(3)} = \chi$
-efektivna nelinearna susceptibilnost
+enak $P_\mathrm{NL}= \epsilon_{0}\chi^{(3)}E^3$. S $\chi^{(3)} = \chi$ smo označili
+efektivno nelinearno susceptibilnost
 za izbrano polarizacijo. 
 
 Ker je $E$ zapisan kot vsota osmih členov
@@ -1892,23 +1901,27 @@ Ker je $E$ zapisan kot vsota osmih členov
 Poleg tega nas ne zanimajo različne kombinacije valovnih vektorjev, ampak k enačbi za $E_{3}$ 
 prispevajo le tisti členi s krajevnim faznim faktorjem $\exp(ikz)$, 
 k enačbi za $E_4$ pa tisti z $\exp(-ikz)$. Sledi
-\begin{align}
-P_{\mathrm{NL}\,3,4} &= \frac{\varepsilon_0\chi}{8} \big(
+\begin{equation}
+\begin{split}
+P_{\mathrm{NL}\,3,4} = \frac{\varepsilon_0\chi}{8} \big(
 \left(6 A_1 A_2 A_4^*+ 6A_1 A_1^*A_3 + 6A_2A_2^*A_3 + 3 A_3A_3^*A_3 + 6 A_4 A_4^* A_3\right)
-e^{i k z - i\omega t} \nonumber\\
-&+
+e^{i k z - i\omega t} \\
++
 \left(6 A_1 A_2 A_3^*+6 A_1 A_1^*A_4 + 6A_2A_2^*A_4 + 6 A_3A_3^*A_4 + 3 A_4 A_4^* A_4\right)
 e^{-i k z - i\omega t} \big).
-\end{align}
+\end{split}
+\end{equation}
 Če zanemarimo še člene, v katerih nastopata $A_3$ in $A_4$ v višjih potencah, dobimo
-\begin{align}
+\begin{equation}
+\begin{split}
 P_{\mathrm{NL}\,3,4} = \frac{3\varepsilon_0\chi}{4} \big(
 \left( A_1 A_2 A_4^*+ |A_1|^2 A_3 + |A_2|^2 A_3 \right)
-e^{i k z - i\omega t} \nonumber\\
+e^{i k z - i\omega t} \\
 + 
 \left( A_1 A_2 A_3^*+|A_1|^2 A_4 + |A_2|^2A_4 \right)
 e^{-i k z - i\omega t} \big).
-\end{align}
+\end{split}
+\end{equation}
 Vstavimo izračunani izraz v valovno enačbo~(enačba~\ref{8.100}) in upoštevamo, 
 da se $A_i(z)$ le počasi 
 spreminja (kar pomeni, da zanemarimo drugi odvod po $z$). Za $A_3$ so pomembni 
@@ -1921,7 +1934,7 @@ i k \frac{dA_3}{dz} = - \frac{3}{4} \mu_0\varepsilon_0 \chi \omega^2
 in 
 \begin{equation}
 -i k \frac{dA_4}{dz} = - \frac{3}{4} \mu_0\varepsilon_0 \chi \omega^2 
-\left( A_1 A_2 A_3^*+ (|A_1|^2 + |A_2|^2) A_4 \right).
+\left( A_1 A_2 A_3^*+ (|A_1|^2 + |A_2|^2) A_4 \right)\!.
 \label{eq:opc2}
 \end{equation}
 Drugi člen na desni že poznamo: opisuje odvisnost lomnega količnika
@@ -1933,7 +1946,7 @@ k fazi. Vpeljemo novi amplitudi, ki se od prejšnjih razlikujeta zgolj v faznem 
 \end{equation}
 in 
 \begin{equation}
-\tilde{A}_4 = A_4 \exp\left(i\frac{ 3 \chi \omega}{4 c_0 n}(|A_1|^2 + |A_2|^2)z\right).
+\tilde{A}_4 = A_4 \exp\left(i\frac{ 3 \chi \omega}{4 c_0 n}(|A_1|^2 + |A_2|^2)z\right)\!.
 \end{equation}
 Ko novi amplitudi vstavimo v diferencialni enačbi~(enačbi~\ref{eq:opc1} in 
 \ref{eq:opc2}), se Kerrov prispevek k fazi odšteje
@@ -1952,15 +1965,18 @@ Vpeljemo še sklopitveno konstanto
 \end{equation}
 Enačbi se poenostavita v 
 \begin{equation}
-\frac{d\tilde{A}_{3}}{dz}=i\kappa \tilde{A}_{4}^{*} \quad
-\textrm{oziroma} \quad \frac{d\tilde{A}^*_{3}}{dz}=-i\kappa^* \tilde{A}_{4} 
-\qquad \textrm{in} \qquad
-\frac{d\tilde{A}_{4}}{dz}=-i\kappa \tilde{A}_{3}^*.
+\frac{d\tilde{A}_{3}}{dz}=i\kappa \tilde{A}_{4}^{*} \qquad
+\textrm{oziroma} \qquad \frac{d\tilde{A}^*_{3}}{dz}=-i\kappa^* \tilde{A}_{4} 
 \label{8.107}
 \end{equation}
-Zelo težaven problem nelinearne valovne enačbe smo prevedli na linearen
+in
+\begin{equation}
+\frac{d\tilde{A}_{4}}{dz}=-i\kappa \tilde{A}_{3}^*.
+\label{8.107a}
+\end{equation}
+Zelo težaven problem nelinearne valovne enačbe smo prevedli na linearni
 sistem dveh preprostih sklopljenih enačb za amplitudi signalnega in
-odbitega vala. Rešitvi sistema enačb~(\ref{8.107}) 
+odbitega vala. Rešitvi sistema sta
 sta 
 \begin{align}
 \tilde{A}_3^* \left(z\right) & =  C_{1}\cos(\left|\kappa\right|z)+
@@ -1999,7 +2015,7 @@ Izračunajmo še amplitudi odbitega in prepuščenega vala. Amplituda odbitega v
 pri $z=0$ je 
 \boxeq{8.110}{
 \tilde{A}_{4}(0)  =  \tilde{A}_3^*(0)\frac{i \kappa}{|\kappa|}
-\tan \left(|\kappa|L\right),
+\tan \left(|\kappa|L\right)\!,
 }
 amplituda prepuščenega pri $z = L$ pa
 \boxeq{8.110a}{
@@ -2011,7 +2027,7 @@ kompleksno konjugirani amplitudi vpadnega vala, kar je poglavitna značilnost
 fazne konjugacije. 
 Poleg konjugirane amplitude ima tudi natanko nasprotni valovni vektor. 
 Zanimiva je tudi njegova velikost. Ker 
-je lahko $\tan\left(|\kappa|L\right)>1$, je odbit val lahko močnejši od vpadnega.
+je lahko $\tan\left(|\kappa|L\right)>1$, je odbiti val lahko močnejši od vpadnega.
 Ojačenje odbitega vala gre seveda na račun moči črpalnih
 valov. V našem računu bi lahko amplituda odbite svetlobe narasla proti neskončnosti, 
 vendar zapisane enačbe takrat niso več veljavne, saj smo privzeli, 
@@ -2040,117 +2056,115 @@ vpadnih.
 
 Če se energija fotonov spremeni zaradi prehajanja molekul snovi med različnimi
 vibracijskimi ali rotacijskimi stanji, govorimo o Ramanovem\index{Ramanovo sipanje}
-sipanju\footnote{Indijski fizik in nobelovec Sir Chandrasekhara Venkata Raman, 1888--1970.}. 
-Ta pojav je mogoč tako v plinih in tekočinah kot tudi v trdnih snoveh. Navadno 
-ločimo dva primera: Stokesovo sipanje\footnote{Irski fizik in matematik Sir George Gabriel
-Stokes, 1819--1903.}, pri katerem foton preko virtualnega vmesnega stanja 
+sipanju\footnote{~Indijski fizik in nobelovec Sir Chandrasekhara Venkata Raman, 1888--1970.}. 
+Ta pojav je mogoč tako v plinih in tekočinah kot v trdnih snoveh. Navadno 
+ločimo dva primera: Stokesovo sipanje\footnote{~Irski fizik in matematik Sir George Gabriel
+Stokes, 1819--1903.}, pri katerem foton prek virtualnega vmesnega stanja 
 odda energijo molekuli (slika~\ref{08_Raman}\,a),
 in anti-Stokesovo sipanje,
 \index{Ramanovo sipanje!Stokesovo}\index{Ramanovo sipanje!anti-Stokesovo}
 pri katerem foton prejme energijo od vzbujene molekule (slika~\ref{08_Raman}\,b).
 V prvem primeru je frekvenca
-sipane svetlobe $\nu_s=\nu_0-\nu_v$, kjer $\nu_0$ označuje frekvenco vpadne
-svetlobe in $\nu_v$ vibracijsko frekvenco, ter v drugem primeru $\nu_{as}=\nu_0+\nu_v$.
-Ker je v termičnem ravnovesju razmeroma malo molekul v vzbujenem stanju, so slednji 
+sipane svetlobe $\nu_s=\nu_0-\nu_v$, pri čemer $\nu_0$ označuje frekvenco vpadne
+svetlobe in $\nu_v$ vibracijsko frekvenco, ter v drugem primeru pa $\nu_{as}=\nu_0+\nu_v$.
+Ker je v termičnem ravnovesju razmeroma malo molekul v vzbujenem stanju, so ti 
 procesi redki in intenziteta anti-Stokesovega sipanja je zato 
 še znatno šibkejša od že tako šibkega Stokesovega sipanja. Tipični Ramanov premik 
 $\nu_0-\nu_s$ znaša okoli $10^{12}$--$10^{13}~\si{\hertz}$.
-Drug zanimiv primer je, kadar se energija fotonov spremeni zaradi 
+Drugi zanimiv primer je, kadar se energija fotonov spremeni zaradi 
 vzbujanja akustičnih valov (fononov). Takrat govorimo o Brillouinovem 
-sipanju\footnote{Francoski fizik L\'eon Nicolas Brillouin, 1889--1969.} (slika~\ref{08_Raman}\,c).
+sipanju (slika~\ref{08_Raman}\,c).
 Tipični Brillouinov premik je $\sim 10^{10}~\si{\hertz}$. \index{Brillouinovo sipanje}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{140truemm} 
 \input{slike/08_Raman.pdf_tex}
 \caption{Prehodi med energijskimi nivoji za Ramanovo sipanje in shema Brillouinovega sipanja. Vpadna 
 svetloba ima frekvenco $\nu_0$, sipana pa $\nu_s$ oziroma $\nu_{as}$. Pri Stokesovem sipanju 
-snov prevzame energijo (a), pri anti-Stokesovem sipanju energijo odda (b).
-Pri Brillouinovem sipanju svetloba vzbuja akustične valove s frekvenco $\nu_f$ (c) in se na njih odbije.}
+snov energijo prevzame (a), pri anti-Stokesovem sipanju energijo odda (b).
+Pri Brillouinovem sipanju svetloba vzbuja akustične valove s frekvenco $\nu_f$ in se na njih odbije (c).}
 \label{08_Raman}
 \end{figure}
 
 \subsection*{Stimulirano Ramanovo sipanje}
 Pri spontanem Ramanovem sipanju se svetloba siplje na termično vzbujenih fluktuacijah
-v snovi. Če se svetloba siplje na fluktuacijah, ki jih je povzročilo vpadno
-svetlobno polje, govorimo o stimuliranem Ramanovem sipanju.\footnote{G. Eckhardt et al., Phys. Rev. Lett.
-$\mathbf{9}$, 455 (1962).} Dosežemo ga tako, da na snov svetimo z dvema žarkoma hkrati: 
+v snovi. Lahko pa se svetloba siplje na fluktuacijah, ki jih povzroči vpadno
+svetlobno polje.\footnote{~G. Eckhardt et al., Phys. Rev. Lett.
+$\mathbf{9}$, 455 (1962).} To se zgodi, kadar na snov svetimo z dvema žarkoma hkrati: 
 s črpalnim žarkom s frekvenco $\nu_0$ in s Stokesovim žarkom s frekvenco $\nu_s$. 
 Fotoni črpalnega žarka se absorbirajo in molekule vzbudijo v virtualno stanje, nato pa 
 Stokesov žarek stimulira točno določen prehod. Če razlika frekvenc vpadnih 
-žarkov ravno ustreza frekvenci določenega vzbujenega stanja, se  molekule vračajo
+žarkov ustreza frekvenci določenega vzbujenega stanja, se  molekule vračajo
 v izbrano vzbujeno stanje in pri tem izsevajo dodatne fotone s frekvenco $\nu_s$. Zaradi
 stimuliranega sevanja\index{Stimulirano sevanje} je izsevana svetloba po fazi in smeri enaka vpadni in Stokesov
 žarek se ojačuje. Tako resonančno ojačenje svetlobe na račun črpalne svetlobe imenujemo stimulirano  
 Ramanovo sipanje. Moč svetlobe pri $\nu_s$  narašča eksponentno -- do določene meje, seveda.
 Stimulirano Ramanovo sipanje je navadno zelo močno, saj se lahko v Stokesov žarek pretvori 
-več kot $\sim 10\%$ energije črpalnega žarka. Za primerjavo, tipični delež sipane svetlobe v primeru 
-spontanega Ramanovega sipanja je $10^{-6}/\si{\centi\meter}$.\footnote{Glej npr. 
+več kot $\sim 10~\%$ energije črpalnega žarka. Za primerjavo, tipični delež sipane svetlobe v primeru 
+spontanega Ramanovega sipanja je $10^{-6}/\si{\centi\meter}$.\footnote{~Glej npr. 
 G. New, {\it Introduction to Nonlinear Optics}, Cambridge University Press (2011).}
 
 Obravnavajmo stimulirano Ramanovo sipanje v klasičnem približku, v katerem snov opišemo 
-z $N$ neodvisnimi enodimenzionalnimi harmonskimi oscilatorji na enoto prostornine.\footnote{Glej npr. 
+z $N$ neodvisnimi enodimenzionalnimi harmonskimi oscilatorji na enoto prostornine.\footnote{~Glej npr. 
 R. W. Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).} Nihanje
 posameznega oscilatorja zadošča enačbi\index{Harmonski oscilator}
 \begin{equation}
 \frac{d^2X(z,t)}{dt^2}+ \gamma \frac{dX}{dt}+\omega_v^2X = \frac{F(z,t)}{m}.
 \label{srs:X}
 \end{equation}
-Pri tem je $X$ odmik od ravnovesne lege, $\gamma$ koeficient dušenja, $m$ masa in $F$ zunanja sila.
+Pri tem so $X$ odmik od ravnovesne lege, $\gamma$ koeficient dušenja, $m$ masa in $F$ zunanja sila.
 Glavna predpostavka modela je, da polarizirnost molekul ni konstantna, ampak odvisna od 
 ``raztega'' nihajoče molekule oziroma oscilatorja. Polarizirnost $\alpha$, ki jo vpeljemo
 kot kvocient med induciranim dipolnim momentom in jakostjo električnega polja $\mathbf{p} = \alpha \mathbf{E}$,
-razvijemo v Taylorjevo vrsto do prvega člena in zapišemo dielektričnost
+razvijemo v Taylorjevo vrsto okoli ravnovesne polarizirnosti  $\alpha_0$ do prvega člena in zapišemo dielektričnost
 \begin{equation}
-\varepsilon = 1+N\alpha/\varepsilon_0 = 1+\frac{N}{\varepsilon_0}\left(\alpha_0 + \frac{d\alpha}{dX}\,X\right),
-\label{srs:a}
+\varepsilon = 1+N\alpha/\varepsilon_0 = 1+\frac{N}{\varepsilon_0}\left(\alpha_0 + \left(\frac{d\alpha}{dX}\right) _0 X\right)\!.\label{srs:a}
 \end{equation}
-pri čemer je $\alpha_0$ polarizirnost pri ravnovesnem razmiku.
 Silo na en oscilator izračunamo kot odvod energije po odmiku
 \begin{equation}
-F = \frac{dW}{dX}= \frac{1}{2}\frac{d\alpha}{dX}\,\overline{E^2}.
+F = \frac{dW}{dX}= \frac{1}{2}\left(\frac{d\alpha}{dX}\right)_0\,\overline{E^2}.
 \label{srs:F}
 \end{equation}
 Jakost električnega polja smo zapisali kot povprečje, saj so optične frekvence 
 tako hitre, da jim molekule ne morejo slediti. 
 Celotno električno polje zapišemo kot vsoto črpalnega in Stokesovega polja
 \begin{equation}
-E(z,t)= \frac{1}{2}\left( E_0(z)e^{-i\omega_0t}+ E_s(z)e^{-i\omega_st} + \mathrm{k.k.}\right)
+E(z,t)= \frac{1}{2}\left( E_0(z)e^{-i\omega_0t}+ E_s(z)e^{-i\omega_st} + \mathrm{k.\,k.}\right)
 \label{eq:srsE}
 \end{equation}
-in povprečje kvadrata
+in časovno odvisno povprečje kvadrata
 \begin{equation}
-\overline{E^2} = \frac{1}{4}\left(2E_0E_s^* e^{-i(\omega_0-\omega_s)t}+\mathrm{k.k.}\right).
+\overline{E^2} = \frac{1}{4}\left(2E_0E_s^* e^{-i(\omega_0-\omega_s)t}+\mathrm{k.\,k.}\right)\!.
 \end{equation}
-Vstavimo zapisano jakost električnega polja najprej v izraz za silo (enačba~\ref{srs:F}),
-nato pa v enačbo oscilatorja (enačba~\ref{srs:X}). Dobimo
+Vstavimo zapisano jakost električnega polja v izraz za silo (enačba~\ref{srs:F}),
+to pa v enačbo oscilatorja (enačba~\ref{srs:X}). Dobimo
 \begin{equation}
 \frac{1}{2}\left(\omega_v^2-\omega^2-i\omega\gamma\right)\tilde{X} = 
-\frac{1}{4m}\frac{d\alpha}{dX}E_0 E_s^*,
+\frac{1}{4m}\left(\frac{d\alpha}{dX}\right)_0 E_0 E_s^*,
 \end{equation}
 pri čemer smo vpeljali $\omega = \omega_0-\omega_s$ in $\tilde{X}$, tako da velja
 \begin{equation}
-X(z,t) = \frac{1}{2}\left(\tilde{X}e^{-i\omega t}+ \mathrm{k.k.}\right).
+X(z,t) = \frac{1}{2}\left(\tilde{X}e^{-i\omega t}+ \mathrm{k.~k.}\right)\!.
 \label{eq:srsX}
 \end{equation}
 Oscilatorji torej nihajo s kompleksno amplitudo
 \begin{equation}
-\tilde{X} = \frac{\frac{d\alpha}{dX}E_0 E_s^*}{2m\left(
+\tilde{X} = \frac{\left(\frac{d\alpha}{dX}\right)_0 E_0 E_s^*}{2m\left(
 \omega_v^2-(\omega_0-\omega_s)^2-i(\omega_0-\omega_s)\gamma\right)}.
 \end{equation}
 Zdaj lahko zapišemo polarizacijo $P = N\alpha E$. Nelinearni del
 polarizacije dobimo z uporabo razvoja v enačbi~(\ref{srs:a}) \index{Električna polarizacija}
-in upoštevanjem enačb~(\ref{eq:srsE}) in (\ref{eq:srsX}) 
+in z upoštevanjem enačb~(\ref{eq:srsE}) in (\ref{eq:srsX}) 
 \begin{equation}
-P_{\mathrm{NL}} = \frac{1}{4} N \frac{d\alpha}{dX} \, \left(\tilde{X}
+P_{\mathrm{NL}} = \frac{1}{4} N \left(\frac{d\alpha}{dX}\right)_0 \, \left(\tilde{X}
 e^{-i(\omega_0-\omega_s)t}
-+ \mathrm{k.k.}\right) \cdot \left( E_0(z)e^{-i\omega_0t}+ E_s(z)e^{-i\omega_st} + \mathrm{k.k.}\right).
++ \mathrm{k.~k.}\right) \cdot \left( E_0(z)e^{-i\omega_0t}+ E_s(z)e^{-i\omega_st} + \mathrm{k.~k.}\right)\!.
 \end{equation}
 Omejimo se le na polarizacijo pri krožni frekvenci $\omega_s$ in zapišemo
 \begin{equation}
 P_{\mathrm{NL},\omega_s} = \varepsilon_0 \chi_s E_s = 
-\frac{N }{8m}\left(\frac{d\alpha}{dX}\right)^2 \, 
+\frac{N }{8m}\left(\frac{d\alpha}{dX}\right)_0^2 \, 
 \frac{|E_0|^2}{\omega_v^2-(\omega_0-\omega_s)^2+i(\omega_0-\omega_s)\gamma}\,E_s.
 \label{srs:chi}
 \end{equation}
@@ -2160,12 +2174,12 @@ vpadne laserske svetlobe pri krožni frekvenci $\omega_0$.
 V resonanci, ko je $\omega_0-\omega_s = \omega_v$, je efektivna susceptibilnost
 imaginarna in negativnega predznaka, kar ima, kot bomo videli, zelo pomembne 
 fizikalne posledice. Iz zapisanega izraza je tudi razvidno, zakaj gre pri 
-stimuliranem Ramanovem sipanju za nelinearen optični pojav tretjega reda. 
+stimuliranem Ramanovem sipanju za nelinearni optični pojav tretjega reda. 
 
 Kompleksna susceptibilnost pomeni kompleksni lomni količnik. Če upoštevamo
 le prve člene v razvoju, se vpadna svetloba po snovi širi kot\index{Susceptibilnost!kompleksna}
 \begin{equation}
-E_s(z) = E_s(0)\exp\left(i k z + ikz\frac{1}{2}\Re(\chi_s)- k z \frac{1}{2}\Im(\chi_s)\right),
+E_s(z) = E_s(0)\exp\left(i k z + ikz\frac{1}{2}\Re(\chi_s)- k z \frac{1}{2}\Im(\chi_s)\right)\!,
 \label{srs:Es}
 \end{equation}
 pri čemer $\Re$ označuje realni in $\Im$ imaginarni del.
@@ -2177,17 +2191,17 @@ in pokaži, da je imaginarni del susceptibilnosti $\Im(\chi_s)$ vedno negativen.
 Ker je imaginarni del efektivne susceptibilnosti vedno negativen (naloga~\ref{nalogasrs}), 
 jakost e\-lek\-trič\-nega polja eksponentno narašča na račun črpalnega laserskega snopa. 
 Največjo ojačenje je seveda v primeru, ko je sistem v resonanci
-in razlika frekvenc vpadne svetlobe ravno enaka vibracijski frekvenci.
+in razlika frekvenc vpadne svetlobe enaka vibracijski frekvenci.
 Če zanemarimo izgube, lahko zapišemo
 \begin{equation}
 |E_s(L)|^2 = |E_s(0)|^2 e^{G_RjL}.
 \end{equation}
 Vrednosti $G_R$ za najmočnejša nihanja so $0,024~\si{\cm/\mega\watt}$ za CS$_2$, \index{CS$_2$}
 $0,029~\si{\cm/\mega\watt}$ za LiNbO$_3$ \index{LiNbO$_3$}
-in $0,0008~\si{\cm/\mega\watt}$ za SiO$_2$.\index{SiO$_2$}\footnote{A. Yariv in 
+in $0,0008~\si{\cm/\mega\watt}$ za SiO$_2$.\index{SiO$_2$}\footnote{~A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007).}
-V meter dolgem odseku optičnega vlakna je tako pri gostoti svetlobnega toka 
-$10^{10}~\si{\watt/\meter^2}$  faktorja ojačenja $1,08$, na vlaknu dolžine $20~\si{\metre}$
+V $1~\si{m}$ dolgem odseku optičnega vlakna je tako pri gostoti svetlobnega toka 
+$10^{10}~\si{\watt/\meter^2}$  faktor ojačenja $1,08$, na vlaknu dolžine $20~\si{\metre}$
 pa $5$.
 
 \begin{remark}
@@ -2199,7 +2213,8 @@ optičnih vlaknih, predvsem zaradi velike intenzitete na velikih dolžinah.
 
 \subsection*{Stimulirano Brillouinovo sipanje}
 \index{Brillouinovo sipanje!stimulirano}
-Stimulirano Brillouinovo sipanje je pojav, pri katerem vpadno svetlobno valovanje
+Stimulirano Brillouinovo sipanje\footnote{~Francoski fizik L\'eon Nicolas Brillouin, 1889--1969.} je 
+pojav, pri katerem vpadno svetlobno valovanje
 vzbudi akustični val (fonon), nato pa se na njem siplje. Poleg vpadne svetlobe pri $\nu_0$
 se tako pojavi še Stokesova svetloba pri frekvenci $\nu_s = \nu_0-\nu_f$, pri čemer 
 $\nu_f$ označuje frekvenco akustičnega vala  (slika~\ref{08_Raman}\,c). Interferenca
@@ -2212,7 +2227,7 @@ ravno v nasproti smeri od vpadne svetlobe, v smeri naprej pa Brillouinovega sipa
 valovnih vektorjev enaka nič. 
 
 Računa za Brillouinovo sipanje ne bomo naredili, ga pa lahko bralec poišče
-v literaturi.\footnote{Glej npr. R. W. Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).}
+v literaturi.\footnote{~Glej npr. R. W. Boyd, {\it Nonlinear Optics}, tretja izdaja, Academic Press (2008).}
 Poglavitno 
 je, da se tudi pri stimuliranem Brillouinovem sipanju signal pri zmanjšani frekvenci
 eksponentno ojačuje
@@ -2221,7 +2236,7 @@ eksponentno ojačuje
 \end{equation}
 Pri zapisu smo upoštevali, da se val širi in ojačuje v nasprotni smeri od vpadnega.
 Vrednosti parametra $G_B$ so na primer $0,13~\si{\cm/\mega\watt}$ za CS$_2$ \index{CS$_2$}
-in $0,0045~\si{\cm/\mega\watt}$ za SiO$_2$.\index{SiO$_2$}\footnote{A. Yariv in 
+in $0,0045~\si{\cm/\mega\watt}$ za SiO$_2$.\index{SiO$_2$}\footnote{~A. Yariv in 
 P. Yeh, {\it Photonics}, šesta izdaja, Oxford University Press (2007).}
 Ker je koeficient $G_B$ odvisen od zunanjih parametrov, na primer od 
 temperature ali pritiska, lahko stimulirano Brillouinovo sipanje uporabimo tudi za
@@ -2230,7 +2245,7 @@ izdelavo natančnih senzorjev.
 \section{Nelinearni pojavi v optičnih vlaknih}
 \label{NLOFIB}
 V osmem poglavju smo podrobno obravnavali optična vlakna. Omenili smo, da pri 
-velikih intenzitetah lahko nastopijo nelinearni pojavi. Oglejmo si nekaj najpomembnejših.\footnote{Glej npr.
+velikih intenzitetah lahko nastopijo nelinearni pojavi. Oglejmo si nekaj najpomembnejših.\footnote{~Glej npr.
 G. P. Agrawal, {\it Applications of Nonlinear Fiber Optics}, Academic Press (2001).}
 
 \subsection*{Pojavi drugega reda}\index{Nelinearna optika!v vlaknih}
@@ -2291,7 +2306,7 @@ in slika~\ref{fig:optsoliton}). \index{Samomodulacija faze}
 Pojav vodi do spektralne razširitve in zaradi\index{Čirikanje}
 disperzije tudi do časovnega podaljšanja sunka. Z ustrezno disperzijo dosežemo 
 krajšanje sunkov ali pojav optičnih solitonov (razdelek~\ref{chap:soliton}).
-\index{Soliton!optični}\\
+\index{Soliton!optični}
 
 \item
 Navzkrižna modulacija faze ({\it CPM -- Cross-Phase Modulation}).\index{Navzkrižna
@@ -2300,17 +2315,16 @@ potuje več svetlobnih sunkov hkrati, prvi sunek povzroči spremembo lomnega kol
 drugi sunki pa to spremembo občutijo. Medsebojna motnja med sunki povzroči 
 spektralno razširitev. Pojav lahko izkoristimo za krajšanje sunkov ali
 za izdelavo optičnih stikal, 
-saj lahko z zunanjim kontrolnim žarkom spreminjamo fazo izbranega sunka. \\
+saj lahko z zunanjim kontrolnim žarkom spreminjamo fazo izbranega sunka.
 
 \item
 Sklopitev štirih valov ({\it FWM -- Four-wave mixing}). Če po vlaknu potuje več
 valovanj z različnimi frekvencami,\index{Sklopitev štirih valov} 
 se zaradi nelinearne sklopitve pojavijo
 valovanja pri dodatnih frekvencah (vsotah in razlikah frekvenc obstoječih valovanj). To velja
-predvsem v vlaknih z zelo majhno disperzijo, v katerih pride do ujemanja
-faz.  
+predvsem v vlaknih z zelo majhno disperzijo, v katerih se faze lahko ujemajo.  
 \end{enumerate}
 
-Čeprav so nelinerani pojavi v vlaknih pogosto nezaželeni, jih lahko s pridom
-izkoriščamo pri izdelavi npr. novih vlakenskih laserjev, ojačevalnikov, preklopnikov ali 
+Čeprav so nelinearni pojavi v vlaknih pogosto nezaželeni, jih lahko s pridom
+izkoriščamo pri izdelavi na primer novih vlakenskih laserjev, ojačevalnikov, preklopnikov ali 
 optičnih logičnih vezij. 
