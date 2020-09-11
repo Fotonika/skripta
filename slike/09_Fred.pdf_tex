@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '09_Fred.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{689.73544922bp}%
+    \setlength{\unitlength}{301.89919281bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,12 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.6744445)%
+  \begin{picture}(1,0.40769153)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{09_Fred.pdf}}%
-    \put(0.45990238,0.01143161){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_c$}}}%
-    \put(0.88681332,0.00891923){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
-    \put(-0.00214335,0.60414502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
-    \put(0.02815626,0.01101659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.00462927,0.05585176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.35752021,0.01517683){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_c$\end{tabular}}}}%
+    \put(0.80830513,0.01227677){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E$\end{tabular}}}}%
+    \put(0.12875625,0.34887074){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$a$\end{tabular}}}}%
+    \put(0.08128518,0.01227677){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.0577617,0.05467279){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_MOS.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{729.38215121bp}%
     \ifx\svgscale\undefined%
@@ -49,23 +51,21 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.33173513)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_MOS.pdf}}%
-    \put(0.22023906,0.08468846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$p$}}}%
-    \put(0.41630814,0.21923351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SiO$_2$}}}%
-    \put(0.2208708,0.2653345){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.12203974,0.27568572){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$h\nu$}}}%
-    \put(0.31213104,0.13556163){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e^{-}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_MOS.pdf}}%
-    \put(-0.0010365,0.30718759){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a)}}}%
-    \put(0.56794208,0.3071876){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b)}}}%
-    \put(0.53483774,0.29073532){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.55232652\unitlength}\raggedright \end{minipage}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{11_MOS.pdf}}%
-    \put(0.70709945,0.31529452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.90452638,0.31529452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{11_MOS.pdf}}%
-    \put(0.70709946,0.20398166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.90452632,0.20398166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.70709946,0.09484813){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.90452632,0.09484813){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.22023907,0.08468846){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.41630816,0.21923351){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}SiO$_2$\end{tabular}}}}%
+    \put(0.2208708,0.26533451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.13437896,0.27568574){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$h\nu$\end{tabular}}}}%
+    \put(0.31213105,0.13556163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$e^{-}$\end{tabular}}}}%
+    \put(-0.0010365,0.30718761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.56794208,0.30718761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.70709947,0.31529453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.90452641,0.31529453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.70709949,0.20398166){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.90452635,0.20398166){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.70709949,0.09484812){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.90452635,0.09484812){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

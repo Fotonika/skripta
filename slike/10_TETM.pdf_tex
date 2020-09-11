@@ -58,10 +58,9 @@
     \put(0.52074107,0.1210966){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{E}$\end{tabular}}}}%
     \put(0.17846678,0.00988696){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathrm{TE}$\end{tabular}}}}%
     \put(0.60309566,0.0087619){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathrm{TM}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{10_TETM.pdf}}%
-    \put(0.96413104,0.08579633){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
-    \put(0.90646771,0.15776347){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
-    \put(0.91416669,0.08597368){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
+    \put(0.97151142,0.08579631){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.90646773,0.15776345){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.91416668,0.08597366){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
     \put(-0.001182,0.16388737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
     \put(0.42935025,0.16388737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%

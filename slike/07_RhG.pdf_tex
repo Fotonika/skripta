@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{305.91729112bp}%
+    \setlength{\unitlength}{305.27521809bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,18 +50,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.77439779)%
+  \begin{picture}(1,0.72657293)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_RhG.pdf}}%
-    \put(0.35358235,0.00970199){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}valovna dolžina [nm]\end{tabular}}}}%
-    \put(0.09326898,0.05071969){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
-    \put(0.27600134,0.05071969){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
-    \put(0.45825609,0.05071969){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
-    \put(0.64096974,0.05071969){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
-    \put(0.82389152,0.05071969){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}650\end{tabular}}}}%
-    \put(0.20323462,0.69122671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}absorpcija\end{tabular}}}}%
-    \put(0.5827686,0.41503384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}emisija\end{tabular}}}}%
-    \put(-0.01452858,0.30211334){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}intenziteta\end{tabular}}}}}%
+    \put(0.9857592,0.00908673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda$~[nm]\end{tabular}}}}%
+    \put(0.0910439,0.0010547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0.27416061,0.0010547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0.45679871,0.0010547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0.63989667,0.0010547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0.8232032,0.0010547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}650\end{tabular}}}}%
+    \put(0.20124084,0.64290894){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}absorpcija\end{tabular}}}}%
+    \put(0.58157311,0.36613514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}emisija\end{tabular}}}}%
   \end{picture}%
 \endgroup%

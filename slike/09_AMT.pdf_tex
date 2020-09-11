@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '09_AMT.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{606.02109375bp}%
+    \setlength{\unitlength}{568.14477539bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,16 +51,18 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.77748622)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{09_AMT.pdf}}%
-    \put(-0.0159892,0.75054573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(1.01993166,0.08492688){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\phi$}}}%
-    \put(-0.00240693,0.03723701){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.47867286,0.03723701){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\pi$}}}%
-    \put(0.9791962,0.04403804){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\pi$}}}%
-    \put(-0.10541152,0.75041755){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
-    \put(-0.06939248,0.40978517){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,5$}}}%
-    \put(-0.02688463,0.06902462){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.23851511,0.03768056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\pi/2$}}}%
-    \put(0.72084754,0.03768056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3\pi/2$}}}%
+    \put(-0.02390972,0.75054573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(1.03313276,0.04796449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\Delta\phi$\end{tabular}}}}%
+    \put(-0.00240692,0.03723702){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.47867286,0.03723702){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\pi$\end{tabular}}}}%
+    \put(0.94751353,0.04403805){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2\pi$\end{tabular}}}}%
+    \put(-0.05524825,0.66857221){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
+    \put(-0.06939248,0.40978518){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,5$\end{tabular}}}}%
+    \put(-0.02688462,0.06902463){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.2068331,0.03768057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\pi/2$\end{tabular}}}}%
+    \put(0.67332444,0.03768057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3\pi/2$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

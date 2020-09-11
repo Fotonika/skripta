@@ -55,11 +55,10 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_shg_depletion.pdf}}%
     \put(0.69877369,0.05167261){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
-    \put(0.50620696,0.02150706){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\kappa L$\end{tabular}}}}%
+    \put(0.94987521,0.03468532){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\kappa L$\end{tabular}}}}%
     \put(0.09021483,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.37742388,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
     \put(0.6709879,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
-    \put(0.961782,0.04078309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
     \put(0.05928679,0.07642847){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.05928679,0.68244411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
     \put(0.01989826,0.19368825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,2$\end{tabular}}}}%

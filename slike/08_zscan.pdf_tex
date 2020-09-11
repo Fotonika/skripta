@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{3203.27819824bp}%
+    \setlength{\unitlength}{3228.85803223bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,20 +50,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.246069)%
+  \begin{picture}(1,0.25365237)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.14279265,0.15221713){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.14166141,0.15134702){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_zscan.pdf}}%
-    \put(0.20131919,0.22582188){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f$\end{tabular}}}}%
-    \put(0.41314618,0.24037821){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_2$\end{tabular}}}}%
-    \put(0.65073445,0.22492761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Z\end{tabular}}}}%
-    \put(0.69907681,0.15100988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}D\end{tabular}}}}%
-    \put(0.54559302,0.01061624){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+z$\end{tabular}}}}%
-    \put(0.34825937,0.00995399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-z$\end{tabular}}}}%
-    \put(0.96287469,0.12650722){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
-    \put(0.84309822,0.19736627){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j$\end{tabular}}}}%
-    \put(-0.00134993,0.22773301){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.77830355,0.22773301){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.19972429,0.22436865){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$f$\end{tabular}}}}%
+    \put(0.40987314,0.24113247){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n_2$\end{tabular}}}}%
+    \put(0.64465004,0.22580428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Z\end{tabular}}}}%
+    \put(0.69307399,0.15014934){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}D\end{tabular}}}}%
+    \put(0.5412707,0.01086793){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+z$\end{tabular}}}}%
+    \put(0.34550037,0.01021092){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-z$\end{tabular}}}}%
+    \put(0.97429354,0.12723447){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.83688354,0.19753216){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j$\end{tabular}}}}%
+    \put(-0.00133924,0.22626465){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.77213763,0.22626465){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
   \end{picture}%
 \endgroup%

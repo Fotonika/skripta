@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '10_FibAbs.pdf' (pdf, eps, ps)
 %%
@@ -54,21 +54,21 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{10_FibAbs.pdf}}%
-    \put(0.11781917,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$800$\end{tabular}}}}%
-    \put(0.29528281,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1000$\end{tabular}}}}%
+    \put(0.12650743,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$800$\end{tabular}}}}%
+    \put(0.28659455,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1000$\end{tabular}}}}%
     \put(0.45161675,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1200$\end{tabular}}}}%
     \put(0.61870083,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1400$\end{tabular}}}}%
     \put(0.78597016,0.00378175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1600$\end{tabular}}}}%
     \put(-0.00213587,0.04373194){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,01$\end{tabular}}}}%
-    \put(0.01578127,0.20455046){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,1$\end{tabular}}}}%
+    \put(0.01578127,0.20165437){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,1$\end{tabular}}}}%
     \put(0.0400003,0.36351548){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
     \put(0.02480164,0.5245193){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$10$\end{tabular}}}}%
     \put(0.0072552,0.68533781){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$100$\end{tabular}}}}%
-    \put(0.11453564,0.24258143){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}UV\end{tabular}}}}%
+    \put(0.12032781,0.23968534){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}UV\end{tabular}}}}%
     \put(0.74752585,0.127873){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}IR \end{tabular}}}}%
     \put(0.46299322,0.19330154){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}OH\end{tabular}}}}%
-    \put(0.14366294,0.41412282){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}R\end{tabular}}}}%
-    \put(0.94831742,0.00555716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda [\mathrm{nm}]$\end{tabular}}}}%
-    \put(-0.11896817,0.63238327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A \mathrm{[dB/km]}$\end{tabular}}}}%
+    \put(0.14366294,0.42281107){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}R\end{tabular}}}}%
+    \put(0.94831742,0.00555716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda~[\mathrm{nm}]$\end{tabular}}}}%
+    \put(-0.11896817,0.63238327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A~\mathrm{[dB/km]}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

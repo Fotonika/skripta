@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{607.42062378bp}%
+    \setlength{\unitlength}{655.12106323bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,20 +50,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.80429204)%
+  \begin{picture}(1,0.74573017)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_IU.pdf}}%
-    \put(0.49850294,0.75203041){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
-    \put(0.91562007,0.33605082){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_IU.pdf}}%
-    \put(0.047677,0.72498032){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}fotovoltaični način\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{11_IU.pdf}}%
-    \put(0.047677,0.6591281){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}kratko sklenjeni način\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{11_IU.pdf}}%
-    \put(0.04796675,0.59841235){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}zaporna smer\end{tabular}}}}%
-    \put(0.04931014,0.53256012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}zaporna smer z upornikom\end{tabular}}}}%
-    \put(0.49441321,0.0389022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-|U_0|/R$\end{tabular}}}}%
-    \put(0.03267961,0.34840766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-|U_0|$\end{tabular}}}}%
+    \put(0.54188612,0.7064324){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
+    \put(0.98129401,0.25663092){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
+    \put(0.04145809,0.67219326){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}fotovoltaični način\end{tabular}}}}%
+    \put(0.04145809,0.61113585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}kratko sklenjeni način\end{tabular}}}}%
+    \put(0.04172674,0.55484091){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}zaporna smer\end{tabular}}}}%
+    \put(0.04297231,0.4937835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}zaporna smer z upornikom\end{tabular}}}}%
+    \put(0.53122524,0.03606964){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-|U_0|/R$\end{tabular}}}}%
+    \put(0.10311124,0.32303949){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-|U_0|$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

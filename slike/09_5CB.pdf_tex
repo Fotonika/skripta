@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1064.77441406bp}%
+    \setlength{\unitlength}{1126.27441406bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,17 +50,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.37958677)%
+  \begin{picture}(1,0.39785391)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{09_5CB.pdf}}%
-    \put(0.23344002,0.36656993){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}CH$_3$\end{tabular}}}}%
-    \put(0.05641853,0.04224252){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
-    \put(0.02233139,-0.00000001){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}N\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{09_5CB.pdf}}%
-    \put(0.85054326,0.16941016){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{n}$\end{tabular}}}}%
-    \put(-0.05945086,0.34166835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
-    \put(0.42466232,0.34166835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
-    \put(0.00952427,0.44664148){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.99078371\unitlength}\raggedright \end{minipage}}}%
+    \put(0.27529788,0.34655345){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}CH$_3$\end{tabular}}}}%
+    \put(0.10794262,0.03993588){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0.07571679,-0.00000002){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}N\end{tabular}}}}%
+    \put(0.85870433,0.16015954){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\mathbf{n}$\end{tabular}}}}%
+    \put(-0.00159975,0.37761642){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.45607852,0.37761642){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.06360901,0.42225271){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.93668215\unitlength}\raggedright \end{minipage}}}%
   \end{picture}%
 \endgroup%

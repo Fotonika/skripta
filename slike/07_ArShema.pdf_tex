@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '07_ArShema.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{486.44199642bp}%
     \ifx\svgscale\undefined%
@@ -49,13 +51,15 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.32135003)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_ArShema.pdf}}%
-    \put(0.0993897,0.00518047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Z}}}%
-    \put(0.88132544,0.00868984){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{IZ}}}%
-    \put(0.27052653,0.23764481){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{B}}}%
-    \put(0.77273058,0.23399936){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{B}}}%
-    \put(0.41004899,0.29189795){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U \sim \si{\kilo\volt}$}}}%
-    \put(0.09317007,0.18981309){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{P}}}%
-    \put(0.50980118,0.0407245){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{R}}}%
+    \put(0.0993897,0.00518047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Z\end{tabular}}}}%
+    \put(0.88132546,0.00868984){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}IZ\end{tabular}}}}%
+    \put(0.27052654,0.23764482){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}B\end{tabular}}}}%
+    \put(0.7727306,0.23399937){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}B\end{tabular}}}}%
+    \put(0.410049,0.29189796){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$U \sim \mathrm{kV}$\end{tabular}}}}%
+    \put(0.09317007,0.1898131){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}P\end{tabular}}}}%
+    \put(0.50980119,0.04072451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}R\end{tabular}}}}%
   \end{picture}%
 \endgroup%

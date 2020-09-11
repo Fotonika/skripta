@@ -14,7 +14,7 @@
    viewBox="0 0 608.0525 195.39768"
    id="svg3410"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="07_ArShema.svg">
   <defs
      id="defs3412">
@@ -54,7 +54,7 @@
      inkscape:window-width="1180"
      inkscape:window-height="778"
      inkscape:window-x="661"
-     inkscape:window-y="238"
+     inkscape:window-y="220"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata3415">
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -191,85 +191,78 @@
     <g
        id="g4255">
       <text
-         sodipodi:linespacing="125%"
          id="text5062"
          y="306.91104"
          x="170.69363"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:25px"
+           style="font-size:25px;line-height:1.25"
            y="306.91104"
            x="170.69363"
            id="tspan5064"
            sodipodi:role="line">Z</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text5062-7"
          y="304.77716"
          x="646.15161"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:25px"
+           style="font-size:25px;line-height:1.25"
            y="304.77716"
            x="646.15161"
            id="tspan5064-5"
            sodipodi:role="line">IZ</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text5062-3"
          y="165.56052"
          x="274.75381"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:25px"
+           style="font-size:25px;line-height:1.25"
            y="165.56052"
            x="274.75381"
            id="tspan5064-56"
            sodipodi:role="line">B</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text5062-3-2"
          y="167.77715"
          x="580.12024"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:25px"
+           style="font-size:25px;line-height:1.25"
            y="167.77715"
            x="580.12024"
            id="tspan5064-56-9"
            sodipodi:role="line">B</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text5120"
          y="132.57176"
          x="359.59079"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:15px"
+           style="font-size:15px;line-height:1.25"
            y="132.57176"
            x="359.59079"
            id="tspan5122"
-           sodipodi:role="line">$U \sim \si{\kilo\volt}$</tspan></text>
+           sodipodi:role="line">$U \sim \mathrm{kV}$</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text5062-5"
          y="194.64471"
          x="166.91177"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:25px"
+           style="font-size:25px;line-height:1.25"
            y="194.64471"
            x="166.91177"
            id="tspan5064-3"
            sodipodi:role="line">P</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text5062-3-3"
          y="285.2984"
          x="420.24536"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:25px"
+           style="font-size:25px;line-height:1.25"
            y="285.2984"
            x="420.24536"
            id="tspan5064-56-6"

@@ -54,9 +54,9 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{10_Tunel.pdf}}%
-    \put(0.38966859,0.12153355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.43608123,0.12153355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
     \put(0.22208692,0.25437737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$V$\end{tabular}}}}%
-    \put(0.92334286,0.12153355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.97177344,0.12153355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
     \put(0.75576126,0.25437737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$V$\end{tabular}}}}%
     \put(0.29293268,0.06480605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
     \put(0.94844442,0.06768796){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '07_Fibshema.pdf' (pdf, eps, ps)
 %%
@@ -54,11 +54,9 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_Fibshema.pdf}}%
-    \put(0.24269417,0.08134936){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}BPS\end{tabular}}}}%
-    \put(0.06464747,0.0308501){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}LD\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{07_Fibshema.pdf}}%
+    \put(0.24954965,0.08134936){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}BPS\end{tabular}}}}%
+    \put(0.07150294,0.03770557){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}LD\end{tabular}}}}%
     \put(0.73876039,0.19032855){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}V\end{tabular}}}}%
-    \put(0.79162063,0.08044501){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}BPS\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{07_Fibshema.pdf}}%
+    \put(0.79847611,0.08044501){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}BPS\end{tabular}}}}%
   \end{picture}%
 \endgroup%

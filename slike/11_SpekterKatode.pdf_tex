@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_SpekterKatode.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{672.12958388bp}%
+    \setlength{\unitlength}{671.19033934bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,27 +50,28 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.7124983)%
+  \begin{picture}(1,0.66767073)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_SpekterKatode.pdf}}%
-    \put(0.12955981,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$200$}}}%
-    \put(0.24208554,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$400$}}}%
-    \put(0.35218533,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$600$}}}%
-    \put(0.46168803,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$800$}}}%
-    \put(0.56161208,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1000$}}}%
-    \put(0.67111478,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1200$}}}%
-    \put(0.78299793,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1400$}}}%
-    \put(0.8946092,0.04950986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1600$}}}%
-    \put(0.03833661,0.07419107){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,1$}}}%
-    \put(0.0612414,0.27931661){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.04401794,0.48529205){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10$}}}%
-    \put(0.02759707,0.68958602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_SpekterKatode.pdf}}%
-    \put(0.11943265,0.52925325){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Cs-Te}$}}}%
-    \put(0.70498294,0.37255781){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{InP/InGaAs}$}}}%
-    \put(0.52205029,0.57179485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{GaAs}$}}}%
-    \put(0.38055658,0.63663533){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{GaAsP}$}}}%
-    \put(0.13719281,0.63663534){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{bialkalna}$}}}%
-    \put(0.39276066,0.00567742){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{Valovna dol{\v z}ina [nm]}$}}}%
-    \put(0.02062102,0.1835064){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\textrm{Kvantni izkoristek [\%}]$}}}}%
+    \put(0.11893046,0.48416927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{Cs-Te}$\end{tabular}}}}%
+    \put(0.70530017,0.32725455){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{InP/InGaAs}$\end{tabular}}}}%
+    \put(0.52211153,0.52677041){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{GaAs}$\end{tabular}}}}%
+    \put(0.38041981,0.59170163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{GaAsP}$\end{tabular}}}}%
+    \put(0.13671548,0.59170163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{bialkalna}$\end{tabular}}}}%
+    \put(0.12907179,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$200$\end{tabular}}}}%
+    \put(0.24175499,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$400$\end{tabular}}}}%
+    \put(0.35200886,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$600$\end{tabular}}}}%
+    \put(0.46166479,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$800$\end{tabular}}}}%
+    \put(0.56172868,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1000$\end{tabular}}}}%
+    \put(0.67138461,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1200$\end{tabular}}}}%
+    \put(0.78342433,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1400$\end{tabular}}}}%
+    \put(0.89519179,0.00375453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1600$\end{tabular}}}}%
+    \put(0.98653961,0.00301744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\lambda~\mathrm{[nm]}$\end{tabular}}}}%
+    \put(0.03772094,0.02847027){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$0,1$\end{tabular}}}}%
+    \put(0.06065777,0.23388287){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.04341022,0.44014656){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$10$\end{tabular}}}}%
+    \put(0.02696636,0.64472641){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$100$\end{tabular}}}}%
+    \put(-0.00113255,0.59860901){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\eta~\mathrm{[\%]}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

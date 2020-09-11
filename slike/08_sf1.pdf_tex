@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1694.13885498bp}%
+    \setlength{\unitlength}{1691.96685791bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.47836614)%
+  \begin{picture}(1,0.40528027)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{08_sf1.pdf}}%
-    \put(0.15271063,0.2996545){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
-    \put(0.09052391,0.29348329){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j(r, z)$\end{tabular}}}}%
-    \put(0.97490447,0.24506308){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{08_sf1.pdf}}%
-    \put(0.02147789,0.44840365){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
-    \put(0.45697007,0.46609443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n = n(j) = n(r)$\end{tabular}}}}%
+    \put(0.15152144,0.24400898){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.11293792,0.25057302){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$j(r, z)$\end{tabular}}}}%
+    \put(0.97477076,0.20998745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.02012025,0.36569737){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+    \put(0.45528491,0.39524104){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n = n(j) = n(r)$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

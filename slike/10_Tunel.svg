@@ -19,6 +19,20 @@
   <defs
      id="defs4929">
     <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path881"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
        refY="0"
@@ -82,9 +96,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.74690273"
-     inkscape:cx="782.10204"
-     inkscape:cy="67.265416"
+     inkscape:zoom="1.4938055"
+     inkscape:cx="475.96812"
+     inkscape:cy="150.09345"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -94,7 +108,7 @@
      fit-margin-bottom="0"
      inkscape:window-width="1669"
      inkscape:window-height="863"
-     inkscape:window-x="474"
+     inkscape:window-x="249"
      inkscape:window-y="153"
      inkscape:window-maximized="0"
      showguides="false">
@@ -124,22 +138,12 @@
     <polyline
        points="74.1,56.2125 409.608,56.2125 "
        id="polyline194"
-       style="fill:none;stroke:#000000;stroke-width:1.67466688;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:2.35500032;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-76)"
        transform="matrix(1.2180575,0,0,1.1709418,136.27219,117.67338)" />
-    <polygon
-       points="409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 "
-       id="polygon201"
-       style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
-       transform="matrix(1.8318938,0,0,2.953207,-120.22191,17.212677)" />
-    <polygon
-       points="408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 "
-       id="polygon201-6"
-       style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
-       transform="matrix(0,-1.8318938,2.953207,0,252.68514,833.72504)" />
     <polyline
        points="246.55,99.325 246.55,99.2986 246.55,99.2721 246.55,99.2192 246.55,99.1134 246.55,98.9019 246.55,98.4788 246.55,97.6325 246.55,95.7977 246.55,94.0844 246.55,92.4048 246.55,90.5828 246.55,88.8824 246.55,87.0396 246.55,85.2304 246.55,83.5428 246.55,81.7129 246.55,80.0046 246.55,78.3298 246.55,76.5127 246.55,74.8172 246.55,72.9793 246.55,71.1751 246.55,69.4924 246.55,67.6674 246.55,65.9639 246.55,64.1181 246.55,62.3059 246.55,60.6153 246.55,58.7823 246.55,57.071 246.55,55.3932 246.55,53.5731 246.55,51.8745 246.55,50.0336 246.55,48.2263 246.55,46.5406 246.55,44.7126 246.55,43.0061 246.55,41.3332 246.55,39.518 246.55,37.8243 246.55,35.9884 246.55,34.2739 246.55,32.5931 246.55,30.77 246.55,29.0684 246.55,27.2245 246.55,25.4142 246.55,23.7254 246.55,21.8943 246.55,20.1848 246.55,18.5089 246.55,16.6907 246.55,14.994 246.55,14.9644 246.55,14.9348 246.55,14.8756 246.55,14.7572 246.55,14.5205 246.55,14.047 246.55,14.0174 246.55,13.9878 246.55,13.9286 246.55,13.8102 246.55,13.5735 246.55,13.5439 246.55,13.5143 246.55,13.4551 246.55,13.3367 246.55,13.3072 246.55,13.2776 246.55,13.2184 246.55,13.1888 246.55,13.1592 246.55,13.1296 246.55,13.1 "
        id="polyline52"
-       style="fill:none;stroke:#000000;stroke-width:0.8598702;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.20919245;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-76)"
        transform="matrix(1.8318938,0,0,2.953207,-32.77109,30.173419)" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#0000d4;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -150,22 +154,12 @@
     <polyline
        points="74.1,56.2125 409.608,56.2125 "
        id="polyline194-6"
-       style="fill:none;stroke:#000000;stroke-width:1.67466688;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:2.35500032;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-76)"
        transform="matrix(1.2180575,0,0,1.1709418,632.14362,117.67338)" />
-    <polygon
-       points="408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 "
-       id="polygon201-7"
-       style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
-       transform="matrix(1.8318938,0,0,2.953207,375.64952,17.212677)" />
-    <polygon
-       points="409.572,56.5324 409.466,56.9463 409.313,57.4119 409.137,57.8873 408.805,58.699 408.653,59.0443 419,56.2125 408.653,53.4896 408.653,53.4896 408.805,53.7993 409.137,54.5423 409.313,54.9891 409.466,55.4396 409.572,55.8591 409.608,56.2125 "
-       id="polygon201-6-5"
-       style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none"
-       transform="matrix(0,-1.8318938,2.953207,0,748.55657,833.72504)" />
     <polyline
        points="246.55,99.325 246.55,99.2986 246.55,99.2721 246.55,99.2192 246.55,99.1134 246.55,98.9019 246.55,98.4788 246.55,97.6325 246.55,95.7977 246.55,94.0844 246.55,92.4048 246.55,90.5828 246.55,88.8824 246.55,87.0396 246.55,85.2304 246.55,83.5428 246.55,81.7129 246.55,80.0046 246.55,78.3298 246.55,76.5127 246.55,74.8172 246.55,72.9793 246.55,71.1751 246.55,69.4924 246.55,67.6674 246.55,65.9639 246.55,64.1181 246.55,62.3059 246.55,60.6153 246.55,58.7823 246.55,57.071 246.55,55.3932 246.55,53.5731 246.55,51.8745 246.55,50.0336 246.55,48.2263 246.55,46.5406 246.55,44.7126 246.55,43.0061 246.55,41.3332 246.55,39.518 246.55,37.8243 246.55,35.9884 246.55,34.2739 246.55,32.5931 246.55,30.77 246.55,29.0684 246.55,27.2245 246.55,25.4142 246.55,23.7254 246.55,21.8943 246.55,20.1848 246.55,18.5089 246.55,16.6907 246.55,14.994 246.55,14.9644 246.55,14.9348 246.55,14.8756 246.55,14.7572 246.55,14.5205 246.55,14.047 246.55,14.0174 246.55,13.9878 246.55,13.9286 246.55,13.8102 246.55,13.5735 246.55,13.5439 246.55,13.5143 246.55,13.4551 246.55,13.3367 246.55,13.3072 246.55,13.2776 246.55,13.2184 246.55,13.1888 246.55,13.1592 246.55,13.1296 246.55,13.1 "
        id="polyline52-9"
-       style="fill:none;stroke:#000000;stroke-width:0.8598702;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.20919245;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-76)"
        transform="matrix(1.8318938,0,0,2.953207,463.10034,30.173419)" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#0000d4;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -193,71 +187,68 @@
        id="polyline194-2-7-9"
        style="fill:#800000;stroke:#d40000;stroke-width:3.14086962;stroke-miterlimit:4;stroke-dasharray:25.12695643, 25.12695643;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0.12466007,0,0,-1.1709418,975.09996,319.40596)" />
-    <g
-       id="g4655">
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208"
-         font-size="10px"
-         y="210.57599"
-         x="588.59662">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720">$x$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5"
-         font-size="10px"
-         y="87.142174"
-         x="432.88562">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9">$V$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-3"
-         font-size="10px"
-         y="210.57599"
-         x="1084.468">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-5">$x$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5-6"
-         font-size="10px"
-         y="87.142174"
-         x="928.75708">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9-2">$V$</tspan>
-      </text>
-      <text
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5-3"
-         font-size="10px"
-         y="263.28519"
-         x="498.71301">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9-6">$W$</tspan>
-      </text>
-      <text
-         inkscape:transform-center-y="9.372037"
-         inkscape:transform-center-x="540.90042"
-         style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="text208-5-3-0"
-         font-size="10px"
-         y="260.60742"
-         x="1107.7915">
-        <tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'"
-           id="tspan4720-9-6-6">$W$</tspan>
-      </text>
-    </g>
+    <text
+       x="631.72162"
+       y="210.57599"
+       font-size="10px"
+       id="text208"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$x$</tspan>
+    </text>
+    <text
+       x="432.88562"
+       y="87.142174"
+       font-size="10px"
+       id="text208-5"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$V$</tspan>
+    </text>
+    <text
+       x="1129.468"
+       y="210.57599"
+       font-size="10px"
+       id="text208-3"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$x$</tspan>
+    </text>
+    <text
+       x="928.75708"
+       y="87.142174"
+       font-size="10px"
+       id="text208-5-6"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$V$</tspan>
+    </text>
+    <text
+       x="498.71301"
+       y="263.28519"
+       font-size="10px"
+       id="text208-5-3"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none">
+      <tspan
+         id="tspan4720-9-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$W$</tspan>
+    </text>
+    <text
+       x="1107.7915"
+       y="260.60742"
+       font-size="10px"
+       id="text208-5-3-0"
+       style="font-size:18.33284569px;line-height:0%;font-family:Times;fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:transform-center-x="540.90042"
+       inkscape:transform-center-y="9.372037">
+      <tspan
+         id="tspan4720-9-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.20766258px;font-family:'Nimbus Roman No9 L';-inkscape-font-specification:'Nimbus Roman No9 L'">$W$</tspan>
+    </text>
     <text
        id="text6153"
        y="91.236336"

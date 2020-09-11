@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_diode.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{762.66994687bp}%
+    \setlength{\unitlength}{787.49792384bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,20 +50,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.27221024)%
-    \put(0.01023255,0.26752786){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26627646\unitlength}\raggedright \end{minipage}}}%
+  \begin{picture}(1,0.2536993)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.04143761,0.25909333){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25788139\unitlength}\raggedright  \end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_diode.pdf}}%
-    \put(0.16490423,0.15949212){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$p$}}}%
-    \put(0.16575868,0.09653077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n$}}}%
-    \put(0.00223615,0.14501665){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.00191917,0.10555044){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.26447272,0.15131033){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.26415574,0.11184412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.81128706,0.232115){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.81128706,0.0216705){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(-0.01573417,0.2561947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a)}}}%
-    \put(0.24592927,0.2561947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b)}}}%
-    \put(0.50908892,0.2561947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c)}}}%
-    \put(0.78474841,0.2561947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{d)}}}%
+    \put(0.19123286,0.15446371){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$p$\end{tabular}}}}%
+    \put(0.19206037,0.09348738){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$n$\end{tabular}}}}%
+    \put(0.03369332,0.14044461){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.03338634,0.10222267){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
+    \put(0.28766218,0.14653986){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
+    \put(0.2873552,0.10831793){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.81723675,0.22479695){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$+$\end{tabular}}}}%
+    \put(0.81723675,0.02098728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$-$\end{tabular}}}}%
+    \put(-0.00085334,0.23478411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.25256047,0.23478411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.50742331,0.23478411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.7743919,0.23478411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
   \end{picture}%
 \endgroup%

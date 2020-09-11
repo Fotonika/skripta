@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '07_HeNeE.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{461.58862978bp}%
     \ifx\svgscale\undefined%
@@ -49,29 +51,31 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.66274876)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{07_HeNeE.pdf}}%
-    \put(0.04963148,0.65292182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Energija (eV)}}}%
-    \put(-0.07237423,0.16920656){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$17$}}}%
-    \put(-0.07237423,0.2745919){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$18$}}}%
-    \put(-0.07237423,0.37758444){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$19$}}}%
-    \put(-0.07237423,0.4787947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$20$}}}%
-    \put(-0.07237423,0.57828954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$21$}}}%
-    \put(0.27253084,0.00963626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{osnovno stanje}}}%
-    \put(0.18955187,0.25064279){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{trki z elektroni}}}%
-    \put(0.25765561,0.50778442){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{medatomski trki}}}%
-    \put(0.06398939,0.48051478){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2^3S$}}}%
-    \put(0.06520982,0.57657411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2^1S$}}}%
-    \put(0.52556077,0.57653867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5s$}}}%
-    \put(0.52556077,0.47875927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4s$}}}%
-    \put(0.52557357,0.17001765){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3s$}}}%
-    \put(0.90685269,0.53372384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4p$}}}%
-    \put(0.90685269,0.35852292){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3p$}}}%
-    \put(0.75923389,0.22316508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{hitri prehodi}}}%
-    \put(0.74683498,0.56239523){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3,39~\si{\micro\metre}$}}}%
-    \put(0.78786056,0.44574896){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$632,8~\si{\nano\metre}$}}}%
-    \put(0.63585378,0.37519418){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1,15~\si{\micro\metre}$}}}%
-    \put(0.62503807,0.07853787){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{trki ob stene}}}%
-    \put(0.22418036,0.60757129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{He}}}%
-    \put(0.66347118,0.60757129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ne}}}%
+    \put(0.04963148,0.65292182){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E$~[eV]\end{tabular}}}}%
+    \put(-0.07237423,0.16920658){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$17$\end{tabular}}}}%
+    \put(-0.07237423,0.27459192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$18$\end{tabular}}}}%
+    \put(-0.07237423,0.37758445){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$19$\end{tabular}}}}%
+    \put(-0.07237423,0.47879471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$20$\end{tabular}}}}%
+    \put(-0.07237423,0.57828954){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$21$\end{tabular}}}}%
+    \put(0.27253083,0.00963628){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}osnovno stanje\end{tabular}}}}%
+    \put(0.18955187,0.2506428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}trki z elektroni\end{tabular}}}}%
+    \put(0.25765561,0.50778442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}medatomski trki\end{tabular}}}}%
+    \put(0.06398938,0.48051479){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2^3$S\end{tabular}}}}%
+    \put(0.06520981,0.57657411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$2^1$S\end{tabular}}}}%
+    \put(0.52556075,0.57653868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$5$s\end{tabular}}}}%
+    \put(0.52556075,0.47875927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4$s\end{tabular}}}}%
+    \put(0.52557355,0.17001766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$s\end{tabular}}}}%
+    \put(0.90685265,0.53372384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$4$p\end{tabular}}}}%
+    \put(0.90685265,0.35852293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3$p\end{tabular}}}}%
+    \put(0.75923386,0.2231651){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}hitri prehodi\end{tabular}}}}%
+    \put(0.74683495,0.56239523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$3,39~\si{\micro\metre}$\end{tabular}}}}%
+    \put(0.78786053,0.44574897){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$632,8~\si{\nano\metre}$\end{tabular}}}}%
+    \put(0.63585376,0.37519419){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$1,15~\si{\micro\metre}$\end{tabular}}}}%
+    \put(0.62503805,0.07853789){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}trki ob stene\end{tabular}}}}%
+    \put(0.22418035,0.60757129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}He\end{tabular}}}}%
+    \put(0.66347115,0.60757129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Ne\end{tabular}}}}%
   \end{picture}%
 \endgroup%

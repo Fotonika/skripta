@@ -10,12 +10,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="11_SpekterKatode.svg"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    version="1.1"
    id="svg2"
-   viewBox="0 0 840.16198 598.61398"
-   height="168.94217mm"
-   width="237.11238mm">
+   viewBox="0 0 838.98792 560.16767"
+   height="158.09177mm"
+   width="236.78104mm">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -85,16 +85,16 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="0"
-     inkscape:window-y="44"
-     inkscape:window-x="732"
-     inkscape:window-height="955"
-     inkscape:window-width="1104"
+     inkscape:window-y="193"
+     inkscape:window-x="174"
+     inkscape:window-height="929"
+     inkscape:window-width="1208"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="318.60586"
-     inkscape:cx="707.44684"
-     inkscape:zoom="1.0096098"
+     inkscape:cy="277.59645"
+     inkscape:cx="524.92432"
+     inkscape:zoom="0.71390194"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -121,7 +121,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(91.475581,2.8054295)">
+     transform="translate(90.914027,2.8054295)">
     <g
        transform="matrix(1.249995,0,0,1.249995,-113.40307,-105.20059)"
        id="g4111">
@@ -130,11 +130,11 @@
          style="fill:none;stroke:#000000;stroke-width:2.23110008;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
          id="g3679">
         <path
-           d="m 89.244,89.244 594.96,0"
+           d="m 89.244,89.244 h 594.96"
            id="path3681"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,505.716 594.96,0"
+           d="m 89.244,505.716 h 594.96"
            id="path3683"
            inkscape:connector-curvature="0" />
       </g>
@@ -143,75 +143,75 @@
          style="fill:none;stroke:#000000;stroke-width:1.78489995;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
          id="g3685">
         <path
-           d="m 89.244,89.244 0,5.9496"
+           d="m 89.244,89.244 v 5.9496"
            id="path3687"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,505.716 0,-5.9496"
+           d="m 89.244,505.716 v -5.9496"
            id="path3689"
            inkscape:connector-curvature="0" />
         <path
-           d="m 163.614,89.244 0,5.9496"
+           d="m 163.614,89.244 v 5.9496"
            id="path3691"
            inkscape:connector-curvature="0" />
         <path
-           d="m 163.614,505.716 0,-5.9496"
+           d="m 163.614,505.716 v -5.9496"
            id="path3693"
            inkscape:connector-curvature="0" />
         <path
-           d="m 237.984,89.244 0,5.9496"
+           d="m 237.984,89.244 v 5.9496"
            id="path3695"
            inkscape:connector-curvature="0" />
         <path
-           d="m 237.984,505.716 0,-5.9496"
+           d="m 237.984,505.716 v -5.9496"
            id="path3697"
            inkscape:connector-curvature="0" />
         <path
-           d="m 312.354,89.244 0,5.9496"
+           d="m 312.354,89.244 v 5.9496"
            id="path3699"
            inkscape:connector-curvature="0" />
         <path
-           d="m 312.354,505.716 0,-5.9496"
+           d="m 312.354,505.716 v -5.9496"
            id="path3701"
            inkscape:connector-curvature="0" />
         <path
-           d="m 386.724,89.244 0,5.9496"
+           d="m 386.724,89.244 v 5.9496"
            id="path3703"
            inkscape:connector-curvature="0" />
         <path
-           d="m 386.724,505.716 0,-5.9496"
+           d="m 386.724,505.716 v -5.9496"
            id="path3705"
            inkscape:connector-curvature="0" />
         <path
-           d="m 461.094,89.244 0,5.9496"
+           d="m 461.094,89.244 v 5.9496"
            id="path3707"
            inkscape:connector-curvature="0" />
         <path
-           d="m 461.094,505.716 0,-5.9496"
+           d="m 461.094,505.716 v -5.9496"
            id="path3709"
            inkscape:connector-curvature="0" />
         <path
-           d="m 535.464,89.244 0,5.9496"
+           d="m 535.464,89.244 v 5.9496"
            id="path3711"
            inkscape:connector-curvature="0" />
         <path
-           d="m 535.464,505.716 0,-5.9496"
+           d="m 535.464,505.716 v -5.9496"
            id="path3713"
            inkscape:connector-curvature="0" />
         <path
-           d="m 609.834,89.244 0,5.9496"
+           d="m 609.834,89.244 v 5.9496"
            id="path3715"
            inkscape:connector-curvature="0" />
         <path
-           d="m 609.834,505.716 0,-5.9496"
+           d="m 609.834,505.716 v -5.9496"
            id="path3717"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,89.244 0,5.9496"
+           d="m 684.204,89.244 v 5.9496"
            id="path3719"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,505.716 0,-5.9496"
+           d="m 684.204,505.716 v -5.9496"
            id="path3721"
            inkscape:connector-curvature="0" />
       </g>
@@ -220,75 +220,75 @@
          style="fill:none;stroke:#000000;stroke-width:2.23110008;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
          id="g3723">
         <path
-           d="m 126.429,89.244 0,11.8992"
+           d="m 126.429,89.244 v 11.8992"
            id="path3725"
            inkscape:connector-curvature="0" />
         <path
-           d="m 126.429,505.716 0,-11.8992"
+           d="M 126.429,505.716 V 493.8168"
            id="path3727"
            inkscape:connector-curvature="0" />
         <path
-           d="m 200.799,89.244 0,11.8992"
+           d="m 200.799,89.244 v 11.8992"
            id="path3729"
            inkscape:connector-curvature="0" />
         <path
-           d="m 200.799,505.716 0,-11.8992"
+           d="M 200.799,505.716 V 493.8168"
            id="path3731"
            inkscape:connector-curvature="0" />
         <path
-           d="m 275.169,89.244 0,11.8992"
+           d="m 275.169,89.244 v 11.8992"
            id="path3733"
            inkscape:connector-curvature="0" />
         <path
-           d="m 275.169,505.716 0,-11.8992"
+           d="M 275.169,505.716 V 493.8168"
            id="path3735"
            inkscape:connector-curvature="0" />
         <path
-           d="m 349.539,89.244 0,11.8992"
+           d="m 349.539,89.244 v 11.8992"
            id="path3737"
            inkscape:connector-curvature="0" />
         <path
-           d="m 349.539,505.716 0,-11.8992"
+           d="M 349.539,505.716 V 493.8168"
            id="path3739"
            inkscape:connector-curvature="0" />
         <path
-           d="m 423.909,89.244 0,11.8992"
+           d="m 423.909,89.244 v 11.8992"
            id="path3741"
            inkscape:connector-curvature="0" />
         <path
-           d="m 423.909,505.716 0,-11.8992"
+           d="M 423.909,505.716 V 493.8168"
            id="path3743"
            inkscape:connector-curvature="0" />
         <path
-           d="m 498.279,89.244 0,11.8992"
+           d="m 498.279,89.244 v 11.8992"
            id="path3745"
            inkscape:connector-curvature="0" />
         <path
-           d="m 498.279,505.716 0,-11.8992"
+           d="M 498.279,505.716 V 493.8168"
            id="path3747"
            inkscape:connector-curvature="0" />
         <path
-           d="m 572.649,89.244 0,11.8992"
+           d="m 572.649,89.244 v 11.8992"
            id="path3749"
            inkscape:connector-curvature="0" />
         <path
-           d="m 572.649,505.716 0,-11.8992"
+           d="M 572.649,505.716 V 493.8168"
            id="path3751"
            inkscape:connector-curvature="0" />
         <path
-           d="m 647.019,89.244 0,11.8992"
+           d="m 647.019,89.244 v 11.8992"
            id="path3753"
            inkscape:connector-curvature="0" />
         <path
-           d="m 647.019,505.716 0,-11.8992"
+           d="M 647.019,505.716 V 493.8168"
            id="path3755"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,89.244 0,416.472"
+           d="M 89.244,89.244 V 505.716"
            id="path3757"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,89.244 0,416.472"
+           d="M 684.204,89.244 V 505.716"
            id="path3759"
            inkscape:connector-curvature="0" />
       </g>
@@ -297,219 +297,219 @@
          style="fill:none;stroke:#000000;stroke-width:1.78489995;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
          id="g3761">
         <path
-           d="m 89.244,131.0342 5.9496,0"
+           d="m 89.244,131.0342 h 5.9496"
            id="path3763"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,131.0342 -5.9496,0"
+           d="m 684.204,131.0342 h -5.9496"
            id="path3765"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,155.4799 5.9496,0"
+           d="m 89.244,155.4799 h 5.9496"
            id="path3767"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,155.4799 -5.9496,0"
+           d="m 684.204,155.4799 h -5.9496"
            id="path3769"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,172.8244 5.9496,0"
+           d="m 89.244,172.8244 h 5.9496"
            id="path3771"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,172.8244 -5.9496,0"
+           d="m 684.204,172.8244 h -5.9496"
            id="path3773"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,186.2778 5.9496,0"
+           d="m 89.244,186.2778 h 5.9496"
            id="path3775"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,186.2778 -5.9496,0"
+           d="m 684.204,186.2778 h -5.9496"
            id="path3777"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,197.2701 5.9496,0"
+           d="m 89.244,197.2701 h 5.9496"
            id="path3779"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,197.2701 -5.9496,0"
+           d="m 684.204,197.2701 h -5.9496"
            id="path3781"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,206.5639 5.9496,0"
+           d="m 89.244,206.5639 h 5.9496"
            id="path3783"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,206.5639 -5.9496,0"
+           d="m 684.204,206.5639 h -5.9496"
            id="path3785"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,214.6146 5.9496,0"
+           d="m 89.244,214.6146 h 5.9496"
            id="path3787"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,214.6146 -5.9496,0"
+           d="m 684.204,214.6146 h -5.9496"
            id="path3789"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,221.7158 5.9496,0"
+           d="m 89.244,221.7158 h 5.9496"
            id="path3791"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,221.7158 -5.9496,0"
+           d="m 684.204,221.7158 h -5.9496"
            id="path3793"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,228.068 5.9496,0"
+           d="m 89.244,228.068 h 5.9496"
            id="path3795"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,228.068 -5.9496,0"
+           d="m 684.204,228.068 h -5.9496"
            id="path3797"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,269.8582 5.9496,0"
+           d="m 89.244,269.8582 h 5.9496"
            id="path3799"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,269.8582 -5.9496,0"
+           d="m 684.204,269.8582 h -5.9496"
            id="path3801"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,294.3039 5.9496,0"
+           d="m 89.244,294.3039 h 5.9496"
            id="path3803"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,294.3039 -5.9496,0"
+           d="m 684.204,294.3039 h -5.9496"
            id="path3805"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,311.6484 5.9496,0"
+           d="m 89.244,311.6484 h 5.9496"
            id="path3807"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,311.6484 -5.9496,0"
+           d="m 684.204,311.6484 h -5.9496"
            id="path3809"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,325.1018 5.9496,0"
+           d="m 89.244,325.1018 h 5.9496"
            id="path3811"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,325.1018 -5.9496,0"
+           d="m 684.204,325.1018 h -5.9496"
            id="path3813"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,336.0941 5.9496,0"
+           d="m 89.244,336.0941 h 5.9496"
            id="path3815"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,336.0941 -5.9496,0"
+           d="m 684.204,336.0941 h -5.9496"
            id="path3817"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,345.3879 5.9496,0"
+           d="m 89.244,345.3879 h 5.9496"
            id="path3819"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,345.3879 -5.9496,0"
+           d="m 684.204,345.3879 h -5.9496"
            id="path3821"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,353.4386 5.9496,0"
+           d="m 89.244,353.4386 h 5.9496"
            id="path3823"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,353.4386 -5.9496,0"
+           d="m 684.204,353.4386 h -5.9496"
            id="path3825"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,360.5398 5.9496,0"
+           d="m 89.244,360.5398 h 5.9496"
            id="path3827"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,360.5398 -5.9496,0"
+           d="m 684.204,360.5398 h -5.9496"
            id="path3829"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,366.892 5.9496,0"
+           d="m 89.244,366.892 h 5.9496"
            id="path3831"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,366.892 -5.9496,0"
+           d="m 684.204,366.892 h -5.9496"
            id="path3833"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,408.6822 5.9496,0"
+           d="m 89.244,408.6822 h 5.9496"
            id="path3835"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,408.6822 -5.9496,0"
+           d="m 684.204,408.6822 h -5.9496"
            id="path3837"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,433.1279 5.9496,0"
+           d="m 89.244,433.1279 h 5.9496"
            id="path3839"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,433.1279 -5.9496,0"
+           d="m 684.204,433.1279 h -5.9496"
            id="path3841"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,450.4724 5.9496,0"
+           d="m 89.244,450.4724 h 5.9496"
            id="path3843"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,450.4724 -5.9496,0"
+           d="m 684.204,450.4724 h -5.9496"
            id="path3845"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,463.9258 5.9496,0"
+           d="m 89.244,463.9258 h 5.9496"
            id="path3847"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,463.9258 -5.9496,0"
+           d="m 684.204,463.9258 h -5.9496"
            id="path3849"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,474.9181 5.9496,0"
+           d="m 89.244,474.9181 h 5.9496"
            id="path3851"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,474.9181 -5.9496,0"
+           d="m 684.204,474.9181 h -5.9496"
            id="path3853"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,484.2119 5.9496,0"
+           d="m 89.244,484.2119 h 5.9496"
            id="path3855"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,484.2119 -5.9496,0"
+           d="m 684.204,484.2119 h -5.9496"
            id="path3857"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,492.2626 5.9496,0"
+           d="m 89.244,492.2626 h 5.9496"
            id="path3859"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,492.2626 -5.9496,0"
+           d="m 684.204,492.2626 h -5.9496"
            id="path3861"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,499.3638 5.9496,0"
+           d="m 89.244,499.3638 h 5.9496"
            id="path3863"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,499.3638 -5.9496,0"
+           d="m 684.204,499.3638 h -5.9496"
            id="path3865"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,505.716 5.9496,0"
+           d="m 89.244,505.716 h 5.9496"
            id="path3867"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,505.716 -5.9496,0"
+           d="m 684.204,505.716 h -5.9496"
            id="path3869"
            inkscape:connector-curvature="0" />
       </g>
@@ -518,35 +518,35 @@
          style="fill:none;stroke:#000000;stroke-width:2.23110008;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
          id="g3871">
         <path
-           d="m 89.244,89.244 11.8992,0"
+           d="m 89.244,89.244 h 11.8992"
            id="path3873"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,89.244 -11.8992,0"
+           d="M 684.204,89.244 H 672.3048"
            id="path3875"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,228.068 11.8992,0"
+           d="m 89.244,228.068 h 11.8992"
            id="path3877"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,228.068 -11.8992,0"
+           d="M 684.204,228.068 H 672.3048"
            id="path3879"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,366.892 11.8992,0"
+           d="m 89.244,366.892 h 11.8992"
            id="path3881"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,366.892 -11.8992,0"
+           d="M 684.204,366.892 H 672.3048"
            id="path3883"
            inkscape:connector-curvature="0" />
         <path
-           d="m 89.244,505.716 11.8992,0"
+           d="m 89.244,505.716 h 11.8992"
            id="path3885"
            inkscape:connector-curvature="0" />
         <path
-           d="m 684.204,505.716 -11.8992,0"
+           d="M 684.204,505.716 H 672.3048"
            id="path3887"
            inkscape:connector-curvature="0" />
       </g>
@@ -555,7 +555,7 @@
          style="fill:none;stroke:#000000;stroke-width:0.89240003;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
          id="g3889">
         <path
-           d="m 89.244,89.244 0,416.472 594.96,0 0,-416.472 z"
+           d="m 89.244,89.244 v 416.472 h 594.96 V 89.244 Z"
            id="path3891"
            inkscape:connector-curvature="0" />
       </g>
@@ -590,150 +590,6 @@
        id="path4607"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="czsssscc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="17.375645"
-       y="554.21222"
-       id="text5539"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541"
-         x="17.375645"
-         y="554.21222"
-         style="font-size:25px">$200$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="111.91548"
-       y="554.21222"
-       id="text5539-3"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6"
-         x="111.91548"
-         y="554.21222"
-         style="font-size:25px">$400$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="204.41714"
-       y="554.21222"
-       id="text5539-3-7"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6-5"
-         x="204.41714"
-         y="554.21222"
-         style="font-size:25px">$600$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="296.41714"
-       y="554.21222"
-       id="text5539-3-7-3"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6-5-5"
-         x="296.41714"
-         y="554.21222"
-         style="font-size:25px">$800$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="380.36954"
-       y="554.21222"
-       id="text5539-3-7-3-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6-5-5-2"
-         x="380.36954"
-         y="554.21222"
-         style="font-size:25px">$1000$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="472.36954"
-       y="554.21222"
-       id="text5539-3-7-3-6-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6-5-5-2-1"
-         x="472.36954"
-         y="554.21222"
-         style="font-size:25px">$1200$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="566.36951"
-       y="554.21222"
-       id="text5539-3-7-3-6-9-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6-5-5-2-1-7"
-         x="566.36951"
-         y="554.21222"
-         style="font-size:25px">$1400$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="660.14105"
-       y="554.21222"
-       id="text5539-3-7-3-6-9-2-0"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-6-5-5-2-1-7-9"
-         x="660.14105"
-         y="554.21222"
-         style="font-size:25px">$1600$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-59.266617"
-       y="533.47601"
-       id="text5539-36"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-0"
-         x="-59.266617"
-         y="533.47601"
-         style="font-size:25px">$0,1$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-40.022888"
-       y="361.13733"
-       id="text5539-36-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-0-2"
-         x="-40.022888"
-         y="361.13733"
-         style="font-size:25px">$1$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-54.493378"
-       y="188.08459"
-       id="text5539-36-6-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-0-2-1"
-         x="-54.493378"
-         y="188.08459"
-         style="font-size:25px">$10$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-68.289574"
-       y="16.444571"
-       id="text5539-36-6-6-8"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5541-0-2-1-7"
-         x="-68.289574"
-         y="16.444571"
-         style="font-size:25px">$100$</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#606060;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M -1.9809632,353.08218 741.87073,353.57741"
@@ -752,88 +608,213 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="8.8671885"
        y="151.15007"
-       id="text5539-36-6-6-8-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text5539-36-6-6-8-0"><tspan
          sodipodi:role="line"
          id="tspan5541-0-2-1-7-2"
          x="8.8671885"
          y="151.15007"
-         style="font-size:25px">$\textrm{Cs-Te}$</tspan></text>
+         style="font-size:25px;line-height:1.25">$\textrm{Cs-Te}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="500.82428"
        y="282.79962"
-       id="text5539-36-6-6-8-0-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text5539-36-6-6-8-0-3"><tspan
          sodipodi:role="line"
          id="tspan5541-0-2-1-7-2-7"
          x="500.82428"
          y="282.79962"
-         style="font-size:25px">$\textrm{InP/InGaAs}$</tspan></text>
+         style="font-size:25px;line-height:1.25">$\textrm{InP/InGaAs}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="347.13123"
        y="115.40823"
-       id="text5539-36-6-6-8-0-3-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text5539-36-6-6-8-0-3-5"><tspan
          sodipodi:role="line"
          id="tspan5541-0-2-1-7-2-7-9"
          x="347.13123"
          y="115.40823"
-         style="font-size:25px">$\textrm{GaAs}$</tspan></text>
+         style="font-size:25px;line-height:1.25">$\textrm{GaAs}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="228.25359"
        y="60.931725"
-       id="text5539-36-6-6-8-0-3-5-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text5539-36-6-6-8-0-3-5-2"><tspan
          sodipodi:role="line"
          id="tspan5541-0-2-1-7-2-7-9-2"
          x="228.25359"
          y="60.931725"
-         style="font-size:25px">$\textrm{GaAsP}$</tspan></text>
+         style="font-size:25px;line-height:1.25">$\textrm{GaAsP}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="23.788603"
        y="60.931721"
-       id="text5539-36-6-6-8-0-3-5-2-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text5539-36-6-6-8-0-3-5-2-8"><tspan
          sodipodi:role="line"
          id="tspan5541-0-2-1-7-2-7-9-2-9"
          x="23.788603"
          y="60.931721"
-         style="font-size:25px">$\textrm{bialkalna}$</tspan></text>
+         style="font-size:25px;line-height:1.25">$\textrm{bialkalna}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="238.50699"
-       y="591.03857"
-       id="text9428"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="17.375645"
+       y="554.21222"
+       id="text5539"><tspan
+         sodipodi:role="line"
+         id="tspan5541"
+         x="17.375645"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$200$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="111.91548"
+       y="554.21222"
+       id="text5539-3"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6"
+         x="111.91548"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$400$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="204.41714"
+       y="554.21222"
+       id="text5539-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6-5"
+         x="204.41714"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$600$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="296.41714"
+       y="554.21222"
+       id="text5539-3-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6-5-5"
+         x="296.41714"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$800$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="380.36954"
+       y="554.21222"
+       id="text5539-3-7-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6-5-5-2"
+         x="380.36954"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$1000$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="472.36954"
+       y="554.21222"
+       id="text5539-3-7-3-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6-5-5-2-1"
+         x="472.36954"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$1200$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="566.36951"
+       y="554.21222"
+       id="text5539-3-7-3-6-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6-5-5-2-1-7"
+         x="566.36951"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$1400$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="660.14105"
+       y="554.21222"
+       id="text5539-3-7-3-6-9-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan5541-6-5-5-2-1-7-9"
+         x="660.14105"
+         y="554.21222"
+         style="font-size:25px;line-height:1.25">$1600$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="736.78076"
+       y="554.83063"
+       id="text9428"><tspan
          sodipodi:role="line"
          id="tspan9430"
-         x="238.50699"
-         y="591.03857"
-         style="font-size:22.5px">$\textrm{Valovna dol{\v z}ina [nm]}$</tspan></text>
+         x="736.78076"
+         y="554.83063"
+         style="font-size:22.5px;line-height:1.25">$\lambda~\mathrm{[nm]}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:125%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-441.63342"
-       y="-74.150581"
-       id="text9428-7"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-59.266617"
+       y="533.47601"
+       id="text5539-36"><tspan
          sodipodi:role="line"
-         id="tspan9430-3"
-         x="-441.63342"
-         y="-74.150581"
-         style="font-size:22.5px">$\textrm{Kvantni izkoristek [\%}]$</tspan></text>
+         id="tspan5541-0"
+         x="-59.266617"
+         y="533.47601"
+         style="font-size:25px;line-height:1.25">$0,1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-40.022888"
+       y="361.13733"
+       id="text5539-36-6"><tspan
+         sodipodi:role="line"
+         id="tspan5541-0-2"
+         x="-40.022888"
+         y="361.13733"
+         style="font-size:25px;line-height:1.25">$1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-54.493378"
+       y="188.08459"
+       id="text5539-36-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan5541-0-2-1"
+         x="-54.493378"
+         y="188.08459"
+         style="font-size:25px;line-height:1.25">$10$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-68.289574"
+       y="16.444571"
+       id="text5539-36-6-6-8"><tspan
+         sodipodi:role="line"
+         id="tspan5541-0-2-1-7"
+         x="-68.289574"
+         y="16.444571"
+         style="font-size:25px;line-height:1.25">$100$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.39911366px;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-88.907211"
+       y="56.970325"
+       id="text9428-7"
+       transform="scale(1.0332595,0.96781108)"><tspan
+         sodipodi:role="line"
+         x="-88.907211"
+         y="56.970325"
+         style="font-size:23.2483387px;line-height:1.25;stroke-width:1px"
+         id="tspan285">$\eta~\mathrm{[\%]}$</tspan></text>
   </g>
 </svg>

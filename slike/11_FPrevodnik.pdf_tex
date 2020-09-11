@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_FPrevodnik.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{571.75351601bp}%
     \ifx\svgscale\undefined%
@@ -49,20 +51,23 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.27115035)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_FPrevodnik.pdf}}%
-    \put(0.09800521,0.01151546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{valenčni pas}$}}}%
-    \put(0.22186203,0.1299626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_g$}}}%
-    \put(0.09595948,0.24107242){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{prevodni pas}$}}}%
-    \put(0.4338223,0.01151546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{valenčni pas}$}}}%
-    \put(0.55767912,0.17486359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_d$}}}%
-    \put(0.43177657,0.24107242){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{prevodni pas}$}}}%
-    \put(0.42631976,0.1370433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{donorski nivo}$}}}%
-    \put(0.76605228,0.01151546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{valenčni pas}$}}}%
-    \put(0.88990911,0.08534509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_a$}}}%
-    \put(0.76400651,0.24107242){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{prevodni pas}$}}}%
-    \put(0.7417593,0.13147708){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textrm{akceptorski nivo}$}}}%
-    \put(0.00996493,0.25050757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a)}}}%
-    \put(0.34443428,0.25050757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b)}}}%
-    \put(0.67869646,0.25050757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c)}}}%
+    \put(0.09800521,0.01151546){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{valenčni pas}$\end{tabular}}}}%
+    \put(0.22186203,0.1299626){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_g$\end{tabular}}}}%
+    \put(0.09595948,0.24107242){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{prevodni pas}$\end{tabular}}}}%
+    \put(0.4338223,0.01151546){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{valenčni pas}$\end{tabular}}}}%
+    \put(0.55767912,0.17486359){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_d$\end{tabular}}}}%
+    \put(0.43177657,0.24107242){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{prevodni pas}$\end{tabular}}}}%
+    \put(0.42631976,0.1370433){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{donorski nivo}$\end{tabular}}}}%
+    \put(0.76605228,0.01151546){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{valenčni pas}$\end{tabular}}}}%
+    \put(0.88990911,0.08534509){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$E_a$\end{tabular}}}}%
+    \put(0.76400651,0.24107242){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{prevodni pas}$\end{tabular}}}}%
+    \put(0.7417593,0.13147708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$\textrm{akceptorski nivo}$\end{tabular}}}}%
+    \put(0.00996493,0.25050757){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.34443428,0.25050757){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.67869646,0.25050757){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.03810429,0.1670271){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$h\nu$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

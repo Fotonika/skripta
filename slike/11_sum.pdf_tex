@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11_sum.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{836.02119141bp}%
+    \setlength{\unitlength}{783.76986694bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,25 +51,24 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.20703498)%
-    \put(0.98964251,0.08099738){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.0008001\unitlength}\raggedright \end{minipage}}}%
-    \put(0.23912213,0.24888477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.82748014\unitlength}\raggedright \end{minipage}}}%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11_sum.pdf}}%
-    \put(0.97129335,0.1120788){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$t$}}}}%
-    \put(0.34956588,0.19380635){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$I$}}}}%
-    \put(0.62265478,0.11207881){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$t$}}}}%
-    \put(0.00534281,0.19380635){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$I$}}}}%
-    \put(0.27843167,0.11207881){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$t$}}}}%
-    \put(0.69820451,0.19380635){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$I$}}}}%
-    \put(0.34956588,0.07138917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$I$}}}}%
-    \put(0.62265472,-0.01033838){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$t$}}}}%
-    \put(0.00534281,0.07138917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$I$}}}}%
-    \put(0.27843167,-0.01033838){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$t$}}}}%
-    \put(0.69820451,0.07138916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$I$}}}}%
-    \put(0.97129335,-0.01033839){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$t$}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11_sum.pdf}}%
-    \put(0.32068565,0.15537884){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{+}}}%
-    \put(0.32068565,0.0395923){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{+}}}%
-    \put(0.66995909,0.15103684){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{=}}}%
-    \put(0.66995909,0.0352503){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{=}}}%
+    \put(0.32068565,0.15537884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}+\end{tabular}}}}%
+    \put(0.32068565,0.0395923){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}+\end{tabular}}}}%
+    \put(0.66995909,0.15103684){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}=\end{tabular}}}}%
+    \put(0.99617311,0.1120788){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.37444563,0.19380635){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$I$}\end{tabular}}}}%
+    \put(0.64753453,0.11207881){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.03022256,0.19380635){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$I$}\end{tabular}}}}%
+    \put(0.30331143,0.11207881){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.72308427,0.19380635){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$I$}\end{tabular}}}}%
+    \put(0.37444563,0.07138917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$I$}\end{tabular}}}}%
+    \put(0.64753447,-0.01033838){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.03022256,0.07138917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$I$}\end{tabular}}}}%
+    \put(0.30331143,-0.01033838){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.72308427,0.07138916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$I$}\end{tabular}}}}%
+    \put(0.99617311,-0.01033839){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{$t$}\end{tabular}}}}%
+    \put(0.66995909,0.0352503){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}=\end{tabular}}}}%
   \end{picture}%
 \endgroup%
