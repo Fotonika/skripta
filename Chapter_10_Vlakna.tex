@@ -20,20 +20,7 @@ Klasično pojasnimo delovanje optičnih vlaken s totalnim odbojem~\index{Totalni
 na meji med dvema dielektrikoma. Kadar prehaja svetloba iz snovi 
 z večjim lomnim količnikom\index{Lomni količnik} $n_1$ v sredstvo z manjšim lomnim količnikom $n_2$, se pri vpadnih kotih $\vartheta$, ki so večji od mejnega 
 kota $\vartheta_T$, totalno odbije. Za mejni kot velja 
-(enačba~\ref{eq:totalniodbojkot}):
-\beq
-\sin\vartheta_{T}=\frac{n_{2}}{n_{1}}.
-\label{10totalni}
-\eeq
-\begin{figure}[ht]
-\centering
-\def\svgwidth{110truemm} 
-\input{slike/10_Vodnik.pdf_tex}
-\caption{Klasična razlaga razširjanja svetlobe po valovnem vodniku. Z modro je označena sredica
-vodnika z lomnim količnikom $n_1$ in z zeleno plašč z lomnim količnikom $n_2$. 
-Žarek se na meji med sredico in plaščem totalno odbija.}
-\label{fig:vodnik}
-\end{figure}
+(enačba~\ref{eq:totalniodbojkot}): $\sin\vartheta_{T}=n_{2}/n_{1}$.
 
 Najpreprostejši optični vodnik je planparalelna plast 
 dielektrika, ki je obdana s snovjo z manjšim lomnim količnikom (slika~\ref{fig:vodnik}). 
@@ -42,6 +29,16 @@ okoliški snovi z lomnim količnikom $n_2<n_1$ plašč\index{Optični vodnik!pla
 Žarek potuje po vodniku, če je vpadni kot 
 na mejo med sredico in plaščem večji od mejnega kota totalnega odboja $\vartheta_T$.
 
+\begin{figure}[ht]
+\centering
+\def\svgwidth{100truemm} 
+\input{slike/10_Vodnik.pdf_tex}
+\caption{Klasična razlaga razširjanja svetlobe po valovnem vodniku. Z modro je označena sredica
+vodnika z lomnim količnikom $n_1$ in z zeleno plašč z lomnim količnikom $n_2$. 
+Žarek se na meji med sredico in plaščem totalno odbija.}
+\label{fig:vodnik}
+\vglue-3truemm
+\end{figure}
 Obstaja največji vpadni kot $\alpha_{\rm max}$, pri katerem se
 vpadna svetloba ujame v vlakno.
 Z njim povezana je numerična odprtina (apertura) vlakna\index{Numerična odprtina} $NA$, 
@@ -52,7 +49,7 @@ n_1 \sin(\pi/2-\vartheta_T) =
 n_1 \cos\vartheta_T = n_1 \sqrt{1-\sin^2\vartheta_T}.
 \label{10NAa}
 \end{equation}
-Upoštevajoč enačbo~(\ref{10totalni}) numerično odprtino zapišemo kot 
+Upoštevajoč lomni zakon numerično odprtino zapišemo kot 
 \boxeq{10NA}{
 NA = \sqrt{n_1^2-n_2^2}.
 }
@@ -416,10 +413,11 @@ lomni količnik plašča, ki je dovolj debel, da njegova debelina ne
 vpliva na potovanje svetlobe.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{60truemm} 
+\def\svgwidth{50truemm} 
 \input{slike/10_CilinderRacun.pdf_tex}
 \caption{K izračunu lastnih rodov v cilindričnem vodniku}
 \label{fig:cilindricnivodnik}
+\vglue-5truemm
 \end{figure}
 
 $\mathbf{E}$ in $\mathbf{H}$ sta vektorja in imata po 
@@ -438,10 +436,10 @@ r^2 R(r)'' + r R(r)' + (k_s^2r^2 - \nu^2)R(r) = 0,
 \end{equation}
 pri čemer za prečno komponento valovnega vektorja velja
 \begin{equation}
-k_s^2=k_0^2n_1^2- \beta^2,
+k_s^2=k_0^2n_1^2- \beta^2.
 \label{eq:ks}
 \end{equation}
-in v plašču
+V plašču velja enačba
 \begin{equation}
 r^2 R(r)'' + r R(r)' + (-\kappa^2r^2 - \nu^2)R(r) = 0,
 \label{10BP}
@@ -453,12 +451,12 @@ pri čemer je
 V enačbah (\ref{10BS}) in (\ref{10BP}) prepoznamo Besslovo diferencialno enačbo. 
 Upoštevajoč le funkcije, ki na izbranem območju ne divergirajo, zapišemo rešitve v sredici kot
 \begin{equation}
-E_z (r, \varphi, z) = A J_\nu(k_sr)\sin(\nu \varphi)e^{i \beta z} \quad  \mathrm{in} \quad 
+E_z (r, \varphi, z) = A J_\nu(k_sr)\sin(\nu \varphi)e^{i \beta z} \qquad  \mathrm{in} \qquad 
 H_z (r, \varphi, z) = B J_\nu(k_sr)\cos(\nu \varphi)e^{i \beta z}.
 \end{equation}
 Podobno zapišemo tudi rešitve v plašču
 \begin{equation}
-E_z (r, \varphi, z)= C K_\nu(\kappa r)\sin(\nu \varphi)e^{i \beta z} \quad \mathrm{in} \quad 
+E_z (r, \varphi, z)= C K_\nu(\kappa r)\sin(\nu \varphi)e^{i \beta z} \qquad \mathrm{in} \qquad 
 H_z (r, \varphi, z)= D K_\nu(\kappa r)\cos(\nu \varphi)e^{i \beta z}.
 \end{equation}
 Pri tem so $A,B,C$ in $D$ konstante, $J_\nu(x)$ je Besslova funkcija prve vrste reda 
@@ -474,44 +472,46 @@ ki predstavljajo oblike rešitev v sredici vlakna, in (b)
 modificirane Besslove funkcije druge vrste $K_0(x)$ (črna), $K_1(x)$ (rdeča) in $K_2(x)$ (modra), 
 ki prestavljajo rešitev v plašču vlakna.}
 \label{fig:J01}
+\vglue-3truemm
 \end{figure}
 
 Ko enkrat poznamo komponenti $E_z$ in $H_z$, lahko z uporabo Maxwellovih enačb izračunamo še 
 preostale komponente $E_r$, $E_\varphi$, $H_r$ in $H_\varphi$. 
 Nato z upoštevanjem robnih pogojev zapišemo štiri enačbe za 
 pet neznank ($A,B,C,D$ in $\beta$),
-tako da ostane ena spremenljivka (amplituda polja) prosta. Na ta način izračunamo celotni 
+tako da ostane ena spremenljivka (amplituda polja) prosta. Tako izračunamo celotni 
 jakosti električnega in magnetnega polja v vlaknu in podobno kot pri valovnem vodniku 
-tudi tukaj zapišemo sekularno enačbo, ki jo moramo rešiti numerično. Pri vsakem $\nu$ obstaja 
+ zapišemo sekularno enačbo, ki jo moramo rešiti numerično. Pri vsakem $\nu$ obstaja 
 več rešitev, zato lastne rodove označujemo s parom indeksov $\nu$ in $m$, npr. TE$_{01}$.
 
 \subsection*{TE in TM rodovi}
 Najprej si oglejmo rešitve, pri katerih je $\nu=0$ in so zato neodvisne od kota $\varphi$. 
 V klasični sliki so to žarki, ki potujejo po osi vlakna. Iz robnih pogojev sledi, da 
 gre za transverzalne električne rodove, za katere velja $E_z=0$, $E_r=0$ in $E_\varphi \propto J_1(k_sr)$.
-Jakost električnega polja za TE zapišemo kot \index{Optično vlakno!TE rodovi}
+Jakost električnega polja za TE je\index{Optično vlakno!TE rodovi}
 \begin{equation}
 \mathbf{E} \propto \mathbf{e}_\varphi \, J_1(k_s r),
 \end{equation}
 pri čemer je $\mathbf{e}_\varphi$ enotski vektor.
-
 Podobno lahko prepoznamo tudi TM rodove, pri katerih je $H_z=0$, $H_r=0$ in $H_\varphi \propto J_1(k_sr)$.
 Jakost električnega polja za TM rodove je\index{Optično vlakno!TM rodovi}
 \begin{equation}
-\mathbf{E} \propto \mathbf{e}_r \, J_1(k_s r),
+\mathbf{E} \propto \mathbf{e}_r \, J_1(k_s r).
 \end{equation}
-pri čemer je $\mathbf{e}_r$ enotski vektor v radialni smeri. 
+
 Amplitudi jakosti električnega polja sta za TE in TM rodove enaki, zato
-sta enaki tudi sliki gostote svetlobnega toka (slika~\ref{fig:TE01}). Opazimo, da je v osi
-vlakna gostota svetlobnega toka enaka nič, zato sklepamo, da to niso osnovni načini 
-širjenja svetlobe po cilindričnem vlaknu. 
+sta enaki tudi sliki gostote svetlobnega toka (slika~\ref{fig:TE01}). V osi 
+vlakna je gostota svetlobnega toka enaka nič, zato sklepamo, da to niso osnovni načini 
+širjenja svetlobe. 
+
 \begin{figure}[ht]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{80truemm} 
 \input{slike/10_TE01.pdf_tex}
 \caption{Intenziteta in smer električnega polja v vlaknu za rodova TE$_{01}$ in TM$_{01}$
 }
 \label{fig:TE01}
+\vglue-5truemm
 \end{figure}
 Podobno kot smo zapisali sekularno enačbo v valovnem vodniku (enačbi~\ref{sekular1}
 in~\ref{sekular2}), tudi tukaj zapišemo enačbo za dovoljene vrednosti $k_s$. 
@@ -526,13 +526,14 @@ Za izračun valovnih vektorjev za rodove TM$_{0m}$ moramo levo stran enačbe~(\r
 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{65truemm} 
+\def\svgwidth{70truemm} 
 \input{slike/10_TE_cilinder.pdf_tex}
-\caption{K izračunu prečnih komponent valovnega vektorja $k_s$ v 
+\caption{K izračunu $k_s$ v 
 cilindričnem vlaknu za TE polarizacijo.
 Leva stran sekularne enačbe je narisana s črno, desna stran pa za tri različne vrednosti parametra 
 $V=k_0aNA$.}
 \label{fig:TEsecFib}
+\vglue-1truemm
 \end{figure}
 Zapisano sekularno enačbo (enačba~\ref{sekFiber}) rešujemo ali numerično ali pa se je lotimo grafično in 
 na sliki~\ref{fig:TEsecFib} poiščemo presečišča krivulj. Na sliki je leva stran enačbe prikazana
@@ -568,18 +569,20 @@ zato širi po še tako tankem vlaknu. Zaradi rotacijske simetrije si lahko smer
 polarizacije lastnega roda poljubno izberemo, mi izberimo smeri $x$ in $y$.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{80truemm} 
+\def\svgwidth{77truemm} 
 \input{slike/10_HE11.pdf_tex}\\
-\def\svgwidth{80truemm} 
+\def\svgwidth{77truemm} 
 \input{slike/10_HE21.pdf_tex} \\
-\def\svgwidth{80truemm} 
+\def\svgwidth{77truemm} 
 \input{slike/10_HE31.pdf_tex} \\
-\def\svgwidth{80truemm} 
+\def\svgwidth{77truemm} 
 \input{slike/10_EH11.pdf_tex}
 \caption{Intenziteta in smer električnega polja v vlaknu za rodove
 HE$_{11}$, HE$_{21}$, HE$_{31}$ in EH$_{11}$}
 \label{fig:HE11}
+\vglue-4truemm
 \end{figure}
+
 Po obliki je osnovni HE$_{11}$ rod zelo podoben Gaussovemu profilu $\exp(-r^2/w^2)$,
 zato ga lahko razmeroma dobro opišemo z Gaussovim približkom. 
 Pri tem efektivni polmer snopa
@@ -674,7 +677,7 @@ N = \frac{4 V^2}{\pi^2}.
 V vlaknu s polmerom sredice $20~\si{\micro\meter}$ in numerično aperturo 0,2
 se  pri valovni dolžini $1~\si{\micro\meter}$ po tej oceni lahko širi 256 rodov. 
 \end{remark}
-\begin{figure}[ht]
+\begin{figure}[h!]
 \centering
 \def\svgwidth{93truemm} 
 \input{slike/10_LP01.pdf_tex} \\
@@ -956,14 +959,14 @@ v vlaknih poglavitni omejujoči faktor ravno disperzija in ne absorpcija.
 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{100truemm} 
 \input{slike/10_Zero.pdf_tex} 
 \caption{Odvisnost koeficientov disperzije od valovne dolžine v vlaknu iz SiO$_2$.\index{SiO$_2$} $D_m$ 
-je koeficient materialne disperzije in $D_v$ valovodne, $D$ pa je vsota obeh. Pri valovni dolžini
-okoli $1450~\si{\nano\meter}$ se materialna in valovodna disperzija odštejeta in skupna disperzija
+je koeficient materialne disperzije in $D_v$ valovodne, $D$ pa je vsota obeh. Pri $\lambda \approx 1450~\si{\nano\meter}$ se materialna in valovodna disperzija odštejeta in skupna disperzija
 je praktično enaka nič.}
 \label{fig:MatVal}
 \end{figure}
+\vglue-4truemm
 \begin{remark}
 Na valovodno disperzijo je mogoče vplivati tudi s konstrukcijo vlakna. Pokazali smo že, da
 v idealnem primeru v vlaknu s paraboličnim profilom lomnega količnika disperzije ni. 
@@ -993,7 +996,7 @@ a\left(0,t\right)=\int \tilde{A}(\omega)\, e^{- i\omega t}d\omega.
 \label{9.62}
 \end{equation}
 Ko sunek potuje vzdolž osi $z$, vsaki komponenti pripišemo
-ustrezen fazni faktor $i \beta (\omega) z$. Tako velja
+ustrezen fazni faktor $i \beta (\omega) z$
 \begin{equation}
 a\left(z,t\right)=\int \tilde{A}(\omega)\, e^{i \beta (\omega) z - i\omega t}d\omega.
 \label{9.62f}
@@ -1087,7 +1090,7 @@ Razlika med obosno valovno enačbo in enačbo~(\ref{9.71}) je v tem, da vlogo
 prečne koordinate prevzame čas $\tau$. To, kar je bila prej širina snopa, 
 je zdaj dolžina sunka. Spomnimo se, da 
 obosno valovno enačbo rešijo Gaussovi snopi (enačba~\ref{eq:gaussov-snop}). 
-
+\vglue-4truemm
 \begin{remark}
 Podobnost med pojavoma seže dlje od formalne oblike. Pri snopih, ki so omejeni 
 v prečni smeri, disperzija fazne in grupne hitrosti po prečnih komponentah valovnega
@@ -1095,7 +1098,7 @@ vektorja povzroča spreminjanje prečnega preseka snopa. Pri časovno
 omejenih sunkih v sredstvu s frekvenčno disperzijo se namesto preseka sunka
 spreminja njegova vzdolžna oblika oziroma njegova dolžina.
 \end{remark}
-
+\vglue-4truemm
 Celotnega računa
 ni treba ponavljati, namesto tega kar v izrazu za Gaussove snope 
 (enačba~\ref{eq:gaussov-snop}) napravimo ustrezno zamenjavo spremenljivk. 
@@ -1107,20 +1110,21 @@ tako kot sta parametra $w$ in $R$ odvisna od $z$ (slika~\ref{fig:Gausstau}).
 
 Na podlagi analogije zapišemo obliko podaljšanega Gaussovega sunka\index{Gaussov sunek}
 \begin{equation}
-A\left(\zeta,\tau\right)=\frac{A_{0}}{\sqrt{1+\frac{\zeta^{2}
-}{\zeta_{0}^{2}}}}\exp\left(-\frac{\tau^{2}}{\sigma^{2}}\right)\exp
+A\left(\zeta,\tau\right)=\frac{A_{0}}{\sqrt{1+\zeta^{2}/
+\zeta_{0}^{2}}}\exp\left(-\frac{\tau^{2}}{\sigma^{2}}\right)\exp
 \left(-i\frac{\mu\tau^{2}}{2b}\right)e^{i\phi\left(\zeta\right)}.
 \label{9.72}
 \end{equation}
+\vglue-4truemm
 Za $\sigma$ velja enaka zveza kot za polmer 
 Gaussovega snopa (enačba~\ref{eq:w})
 \boxeq{9.73}{
 \sigma^{2}=\sigma_{0}^{2}\left(1+\left(\frac{\zeta}{\zeta_{0}}\right)^{2}\right)\!.
 }
 Pri tem je $2\sigma_{0}$ trajanje sunka pri $\zeta=0$, to je na začetku,
-kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R}) v tem primeru
+kjer je sunek najkrajši. Krivinskemu radiju valovnih front (enačba~\ref{eq:R})
 ustreza količina $b=\zeta\left(1+\zeta_{0}^{2}/\zeta^{2}\right)$.
-Po analogiji s snopi lahko sklepamo, da se najmanj 
+Po analogiji s snopi sklepamo, da se najmanj 
 podaljšuje ravno sunek z Gaussovo časovno odvisnostjo. 
 \begin{figure}[ht]
 \centering
@@ -1131,18 +1135,17 @@ Dolžina sunka $2\sigma$ med potovanjem po vlaknu narašča z enako odvisnostjo 
 narašča premer Gaussovega snopa $2w$ z oddaljenostjo od grla. Znotraj $\zeta_0$ se sunek
 še ne podaljša znatno.}
 \label{fig:Gausstau}
+\vglue-3truemm
 \end{figure}
 
 Zanimivo je pogledati odvod faze po $\tau$, ki predstavlja spremembo krožne
-frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$
-\begin{equation}
-\omega-\omega_{0}=\frac{\mu\tau}{b}.
-\label{9.74}
-\end{equation}
+frekvence glede na centralno krožno frekvenco sunka $\omega_{0}$:
+$\omega-\omega_{0}=\mu\tau/b$.
 Za pozitivne vrednosti $\mu$ je krožna frekvenca na začetku sunka,
 to je pri $\tau<0$, manjša od $\omega_0$, z naraščajočim časom pa se 
 linearno povečuje proti koncu sunka. Obnašanje je zelo podobno čirikanju, 
 ki ga bomo spoznali pri obravnavi nelinearnih optičnih pojavov (slika~\ref{fig:chirp}\,a). \index{Čirikanje}
+\vglue-1truemm
 \begin{remark}
 Pri $\zeta=0$ je sunek najkrajši možen pri dani spektralni
 širini. Lahko si mislimo, da je sunek najkrajši,
@@ -1156,8 +1159,9 @@ različno spreminjajo in sunek se podaljša. Pri tem je pomemben
 drugi odvod valovnega števila po krožni frekvenci. Linearno spreminjanje faze 
 namreč ne povzroči razširitve, temveč le spremembo v hitrosti.
 \end{remark}
-
+\vglue-2truemm
 \begin{definition}
+\vglue-3truemm
 \label{naloga:pulzdisperzija}
 Naj bo vpadni sunek svetlobe Gaussove oblike $E(x,y, z=0, t) = 
 \psi(x,y) e^{-at^2-i \omega_0 t}$. Pokaži, da je ustrezna funkcija
@@ -1170,8 +1174,9 @@ integracijo (enačba~\ref{eq:ovojnica967}) pokaži,
 da je podaljšan sunek pri $z\neq 0$ enak ovojnici, 
 zapisani z enačbo~(\ref{9.72}), pri čemer je $\zeta_0 = \mu/2 a$.
 \end{definition}
-
+\vglue-3truemm
 \begin{definition}
+\vglue-2truemm
 Uporabi enačbo~(\ref{9.73}) in pokaži, da je podaljšanje Gaussovega 
 sunka svetlobe oblike $I \propto \exp(-2\tau^2/\sigma^2)$
 pri dani dolžini vlakna enako
@@ -1196,13 +1201,14 @@ vendar so različne komponente vpadne svetlobe med seboj razmaknjene (slika~\ref
 V praksi zato uporabimo ali dva para uklonskih mrežic ali 
 zrcalo, ki svetlobo usmeri po isti poti 
 nazaj.
-\begin{figure}[ht]
+\begin{figure}[h!]
 \centering
 \def\svgwidth{115truemm} 
 \input{slike/10_comp.pdf_tex}
 \caption{Kompenzacija disperzije z uklonskima mrežicama (a) in shema z
 oznakami za izpeljavo faznega premika (b)}
 \label{fig:comp}
+\vglue-3truemm
 \end{figure}
 
 Naj na par vzporednih uklonskih mrežic vpada ravni val pod kotom $\alpha$, ki se odbija
@@ -1376,6 +1382,7 @@ $n_{1}$, ki je obdana s snovjo z lomnim količnikom $n_{2}$. Vodnik naj
 zdaj ne bo raven, temveč ukrivljen s krivinskim radijem $R$, tako da tvori 
 del kolobarja z notranjim polmerom $R-a/2$ in zunanjim polmerom $R+a/2$.
 Privzamemo, da je $R\gg a$ (slika~\ref{fig:bend}). 
+
 \begin{figure}[ht]
 \centering
 \def\svgwidth{50truemm} 
@@ -1447,13 +1454,14 @@ polju (slika~\ref{fig:tunel}). Podobno kot ujeti delci uhajajo iz potencialne ja
 v prisotnosti zunanjega polja (tunelirajo), uhaja tudi svetloba iz ukrivljenega vlakna.
 \begin{figure}[ht]
 \centering
-\def\svgwidth{100truemm} 
+\def\svgwidth{110truemm} 
 \input{slike/10_Tunel.pdf_tex} 
 \caption{Lastni načini širjenja svetlobe po ravnem vodniku so analogni stanjem 
 delca v končni potencialni jami (a). Načini širjenja po ukrivljenem vodniku
 so podobni stanjem delca v konstantnem zunanjem električnem polju (b). Podobno
 kot delci zaradi spremenjenega potenciala tunelirajo, uhaja svetloba iz ukrivljenega vlakna.}
 \label{fig:tunel}
+\vglue-3truemm
 \end{figure}
 
 Po analogiji s kvantno mehaniko, kjer ukrivljenost vodnika ustreza jakosti električnega polja,
@@ -1666,10 +1674,11 @@ sklopita in energijski tok se prenese iz enega vodnika v drugega
 (slika~\ref{fig:fcoupler}). 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{90truemm} 
+\def\svgwidth{95truemm} 
 \input{slike/10_fcoupler.pdf_tex} 
 \caption{Sklopitev med dvema vzporednima vodnikoma.}
 \label{fig:fcoupler}
+\vglue-3truemm
 \end{figure}
 
 Za podrobnejšo obravnavo bi morali zapisati Maxwellove enačbe z ustreznimi robnimi pogoji 
@@ -1757,10 +1766,12 @@ Prvo enačbo odvajamo po $z$, upoštevamo drugo in zapišemo
 \end{equation}
 pri čemer je $\Delta \beta = \beta_2 - \beta_1$. Enačbo~\ref{10_part} rešujemo z nastavkom
 \begin{equation}
-A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right)\!.
+A = e^{i \Delta \beta z/2}\left( a_1 e^{i \gamma z} + a_2 e^{-i \gamma z}\right)!.
 \label{10_nastavek}
 \end{equation}
+\vglue-3truemm
 \begin{definition}
+\vglue-3truemm
  Pokaži, da  nastavek (enačba~\ref{10_nastavek}) reši enačbo~(\ref{10_part}), in pokaži,
  da med parametri enačb velja naslednja zveza, pri čemer je $K = \sqrt{K_{12}K_{21}}$
  \begin{equation}
@@ -1843,6 +1854,7 @@ kilometre vlakna), je celotna sprememba faze velika že pri majhnih
 spremembah merjene količine. Po drugi strani že majhna sprememba 
 valovnega števila povzroča neželene spremembe faze in odboje pri prenosu 
 informacij.
+
 V tem razdelku zato poglejmo, kako se spremeni valovno število pri
 dani spremembi lomnega količnika in koliko svetlobe se v takem primeru odbije.
 
