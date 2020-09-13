@@ -16,7 +16,7 @@ skupaj kot frekvenčno oziroma fazno modulacijo\index{Elektro-optična modulacij
 \index{Elektro-optična modulacija!fazna} (slika~\ref{fig:amfm}). 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{140truemm} 
+\def\svgwidth{145truemm} 
 \input{slike/09_AMFM.pdf_tex}
 \caption{Amplitudno (a) in frekvenčno oziroma fazno moduliran signal (b)
 }
@@ -46,6 +46,7 @@ je tenzor $\underline{\tilde{\epsilon}}$ realen in simetričen, zato ga lahko
 diagonaliziramo~(enačba~\ref{eq:gostota-elektricnega-polja-lastni}). Lastne vrednosti 
 $\varepsilon_1$, $\varepsilon_2$ in $\varepsilon_3$ ustrezajo kvadratom treh lomnih
 količnikov $n_1^2$, $n_2^2$ in $n_3^2$, ki so na splošno različni.
+\pagebreak
 
 Kot bomo videli, je namesto dielektričnega tenzorja\index{Dielektričnost!inverzna} 
 priročno vpeljati inverzni dielektrični tenzor
@@ -92,8 +93,7 @@ Navadno ločimo dva primera Kerrovega pojava: Kerrov elektro-optični pojav
 pri zunanjih poljih z nizko frekvenco, in optični Kerrov pojav, ki ga bomo  
 podrobneje spoznali v razdelku~\ref{OKP}  pri obravnavi nelinearnih optičnih pojavov.
 
-Pri uporabi trdnih kristalov navadno prevlada linearni člen, zato se osredotočimo
-le nanj in zapišemo
+Pri uporabi trdnih kristalov navadno prevlada linearni člen, zato zapišemo
 \boxeq{eq:Pockels}{
 \delta b_{ij}=r_{ijk}E_{k}.
 }
@@ -462,7 +462,7 @@ T = \frac{j}{j_0} = \sin\left(\frac{\Delta\phi}{2}\right)^2 =
 }
 \begin{figure}[ht]
 \centering
-\def\svgwidth{70truemm} 
+\def\svgwidth{75truemm} 
 \input{slike/09_AMT.pdf_tex}
 \caption{Prepustnost amplitudnega modulatorja $T$ v odvisnosti od faznega zamika $\Delta \phi$
 (rdeča črta). Če pred vzorec dodamo ploščico $\lambda/4$, 
@@ -613,7 +613,7 @@ potrebne za znatno uklanjanje. Veliko bolj razširjen je akusto-optični pojav, 
 bomo spoznali v naslednjem razdelku. 
 \begin{figure}[ht]
 \centering
-\def\svgwidth{85truemm} 
+\def\svgwidth{95truemm} 
 \input{slike/09_EOdefl.pdf_tex}
 \caption{Shema elektro-optičnega deflektorja}
 \vglue-1truecm
@@ -661,7 +661,8 @@ S_{kl}=\frac{1}{2}\left({\frac{\partial u_{k}}{\partial x_{l}}}+
 \label{7.28}
 \end{equation}
 pri čemer je $\mathbf{u}$ vektor deformacije.\footnote{~Glej npr. I. Kuščer in A. Kodre,  
-{\it Matematika v fiziki in tehniki}, tretji natis, DMFA-založništvo (2016).} Spremembo tenzorja
+{\it Matematika v fiziki in tehniki}, tretji natis, DMFA-založništvo (2016).}
+Spremembo tenzorja
 $\delta\underline{b}$ v prvem približku zapišemo kot 
 \boxeq{7.27}{
  \delta b_{ij}=p_{ijkl}S_{kl}.
@@ -675,11 +676,9 @@ p_{ijkl} = p_{jikl} = p_{ijlk} =p_{jilk}.
 \end{equation}
 V najbolj splošnem primeru triklinske kristalne simetrije 
 ima 36 neodvisnih komponent, v bolj simetričnih snoveh se število 
-neodvisnih komponent še zmanjša. Če vpeljemo skrajšan zapis indeksov
-\begin{equation}
-xx = 1, yy=2, zz = 3, yz = zy = 4, zx = xz = 5, xy = yx = 6,
-\end{equation}
-zapišemo tenzor za primer izotropne snovi kot
+neodvisnih komponent še zmanjša. Če vpeljemo skrajšan zapis
+$xx = 1, yy=2, zz = 3, yz = zy = 4, zx = xz = 5, xy = yx = 6$,
+zapišemo tenzor za izotropno snov
 \begin{equation}
 \underline{p}_{\textrm{izo}} = 
 \left[\begin{array}{cccccc}
@@ -692,7 +691,7 @@ p_{12} & p_{12}& p_{11}&0&0&0\\
 \end{array}\right]\!,
 \label{tenzorp}
 \end{equation}
-pri čemer je $p_{44}= \frac{1}{2}(p_{11}-p_{12})$. Koeficienti tenzorja so 
+pri čemer je $p_{44}= (p_{11}-p_{12})/2$. Koeficienti tenzorja so 
 brezdimenzijski, njihova tipična vrednost je $p\sim0,1$. Za vodo 
 velja $p_{11} \simeq p_{12} = 0,31$ in $p_{44} = 0$, za LiNbO$_3$\index{LiNbO$_3$} pa 
 $p_{11} = -0,026$, 
@@ -721,6 +720,7 @@ pravimo akusto-optični pojav.
 
 \begin{definition}
 \label{nalogaAO}
+\vglue-3truemm
 Po izotropni snovi se širi longitudinalno valovanje vzdolž smeri $z$, tako da 
 deformacijo v snovi zapišemo kot
 \begin{equation}
@@ -1398,7 +1398,7 @@ tranzistorji (TFT -- {\it Thin Film Transistors}). Večina
 sodobnejših zaslonov ima tekoče kristale urejene planarno in v njih poteka
 preklapljanje v ravnini (IPS -- {\it In-Plane Switching}), lahko so molekule
 urejene vertikalno in jih s poljem nagibamo (VA -- {\it Vertical Alignment}), tekočekristalne 
-zaslone lahko z dodatnimi plastmi naredimo tudi občutljive na dotik.
+zaslone lahko naredimo tudi občutljive na dotik.
 \end{remark}
 \vglue-3truecm
 \section{*Račun prehoda svetlobe skozi zasukan nematik}
@@ -1550,7 +1550,7 @@ V primeru, da vpadna polarizacija ne sovpada z eno od
 lastnih osi, jo razstavimo na lastni in po prehodu skozi
 vzorec zopet sestavimo, s čemer seveda na splošno nastane eliptična
 polarizacija.
-
+\vglue-4truemm
 \begin{remark}
 Disperzijsko zvezo (enačba~\ref{7.66a}) 
 lahko rešimo (slika~\ref{gap}). Pri izbrani vrednosti $\alpha$ 
@@ -1574,7 +1574,7 @@ je povsem analogen Braggovemu odboju na kristalih.\index{Tekoči kristali!holest
 \def\svgwidth{80truemm} 
 \input{slike/09_gap.pdf_tex}
 \caption{Rešitve disperzijske zveze (enačba~\ref{7.66}) v zasukanem nematiku
-ali holesteriku pri izbranem $\alpha$. Razen v frekvenčni reži (modra pasova) obstajajo pri vsaki frekvenci
+pri izbranem $\alpha$. Razen v frekvenčni reži (modra pasova) obstajajo pri vsaki frekvenci
 štiri rešitve za $k$.}
 \label{gap}
 \end{figure}
