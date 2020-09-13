@@ -13,9 +13,9 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    version="1.1"
    id="svg2"
-   viewBox="0 0 838.98792 560.16767"
+   viewBox="0 0 914.17712 560.16767"
    height="158.09177mm"
-   width="236.78104mm">
+   width="258.0011mm">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -85,15 +85,15 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="0"
-     inkscape:window-y="193"
-     inkscape:window-x="174"
+     inkscape:window-y="124"
+     inkscape:window-x="605"
      inkscape:window-height="929"
      inkscape:window-width="1208"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="277.59645"
-     inkscape:cx="524.92432"
+     inkscape:cy="277.59644"
+     inkscape:cx="527.72582"
      inkscape:zoom="0.71390194"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -759,7 +759,7 @@
          id="tspan9430"
          x="736.78076"
          y="554.83063"
-         style="font-size:22.5px;line-height:1.25">$\lambda~\mathrm{[nm]}$</tspan></text>
+         style="font-size:7.49999952px;line-height:1.25">$\lambda~\mathrm{[nm]}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nimbus Sans L';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -816,5 +816,16 @@
          y="56.970325"
          style="font-size:23.2483387px;line-height:1.25;stroke-width:1px"
          id="tspan285">$\eta~\mathrm{[\%]}$</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot176"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.93749997,0,0,0.93749997,-90.914027,-2.8054295)"><flowRegion
+         id="flowRegion178"><rect
+           id="rect180"
+           width="1201.8457"
+           height="708.78082"
+           x="-112.06021"
+           y="-46.834007" /></flowRegion><flowPara
+         id="flowPara182"></flowPara></flowRoot>  </g>
 </svg>
